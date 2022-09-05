@@ -1,0 +1,194 @@
+<!-- loio55b61e4218c84d999b594ee90dd801eb -->
+
+# remove-ca
+
+Removes trusted CAs from a bundle or deletes a whole bundle and all certificates in it.
+
+
+
+> ### Tip:  
+> **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**
+
+
+
+```
+neo remove-ca --account <subaccount_technical_name> --host <host> --user <e-mail_or_user> --bundle <bundle_name>
+```
+
+
+
+<a name="loio55b61e4218c84d999b594ee90dd801eb__section_iwk_55x_d2b"/>
+
+## Parameters
+
+
+<table>
+<tr>
+<th valign="top" colspan="2">
+
+Required
+
+
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+ `-a`, `--account` 
+
+
+
+</td>
+<td valign="top">
+
+Subaccount technical name
+
+`Type`: string \(up to 30 characters; lowercase letters and numbers, starting with a letter\)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ `-h`, `--host` 
+
+
+
+</td>
+<td valign="top">
+
+Enter a region host.
+
+`Type`: URL. For acceptable values, see [Regions](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/350356d1dc314d3199dca15bd2ab9b0e.html "You can deploy applications in different regions. Each region represents a geographical location (for example, Europe, US East) where applications, data, or services are hosted.") :arrow_upper_right:.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`-p`, `--password`
+
+
+
+</td>
+<td valign="top">
+
+To protect your password, enter it only when prompted by the console client and not explicitly as a parameter in the properties file or the command line.
+
+`Type`: string
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ `-u`, `--user` 
+
+
+
+</td>
+<td valign="top">
+
+Use your e-mail, SAP ID, or username.
+
+`Type`: string
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ `--bundle` 
+
+
+
+</td>
+<td valign="top">
+
+Name of a new or existing bundle in which CAs will be added. A bundle can hold up to 120 certificates.
+
+`Type`: string
+
+The name of a bundle must start with a letter and can only contain 'a' - 'z' 'A' - 'Z' '0' - '9' ".", "\_" and "-".
+
+
+
+</td>
+</tr>
+</table>
+
+
+<table>
+<tr>
+<th valign="top" colspan="2">
+
+Optional
+
+
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+ `--serial-number` 
+
+
+
+</td>
+<td valign="top">
+
+A comma-separated \(,\) list of serial numbers of the CA certificates to be removed.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ `--expired` 
+
+
+
+</td>
+<td valign="top">
+
+Removes all expired trusted CA certificates in the specified bundle. Takes no value.
+
+
+
+</td>
+</tr>
+</table>
+
+
+
+<a name="loio55b61e4218c84d999b594ee90dd801eb__section_ojn_55x_d2b"/>
+
+## Example
+
+```
+neo remove-ca --account mysubaccount --host hana.ondemand.com --user mymail@example.com --bundle mybundle
+```
+
+**Related Information**  
+
+
+[add-ca](add-ca-c102abb.md "Uploads a trusted CA certificate and adds it to a certificate authority (CA) bundle. If you don't have a CA bundle yet, it will be created automatically.")
+
+[list-cas](list-cas-99d2659.md "Lists trusted CA certificates in a bundle or bundles that are assigned to an SSL host or hosts.")
+
+[set-ssl-host](set-ssl-host-2956975.md "Configures and updates an SSL host. Allows you to replace an SSL certificate with a different one, manage TLS protocol versions, and configure a bundle of trusted CAs.")
+
+[Managing Client Certificate Authentication for Custom Domains](managing-client-certificate-authentication-for-custom-domains-286aa51.md "If you want your customers to use client certificates when they access your application on SAP BTP via a custom domain.")
+

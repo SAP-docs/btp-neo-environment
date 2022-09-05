@@ -1,0 +1,58 @@
+<!-- copy48f1139b379e48f880cc483ea491179e -->
+
+# Create an HTML5 Application
+
+You create new applications in the SAP BTP cockpit.
+
+
+
+## Context
+
+> ### Tip:  
+> **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**
+
+For each new application a new Git repository is created automatically. To view detailed information on the Git repository, including the repository URL and the latest commits, choose *Applications* \> *HTML5 Applications* in the navigation area and then *Versioning*.
+
+> ### Note:  
+> To create the HTML5 application in more than one region, create the application in each region separately and copy the content to the new Git repository.
+
+
+
+## Procedure
+
+1.  Log on with a user \(who is a subaccount member\) to the SAP BTP cockpit.
+
+2.  Choose *Applications* \> *HTML5 Applications* in the navigation area.
+
+    If you have already created applications using this subaccount, the list of HTML5 applications is displayed.
+
+3.  To create a new HTML5 application, choose *New Application* and enter an application name.
+
+    > ### Note:  
+    > Adhere to the naming convention for application names:
+    > 
+    > -   The name must contain no more than 30 characters.
+    > -   The name must contain only lowercase alphanumeric characters.
+    > -   The name must start with a letter.
+
+4.  Choose *Save*.
+
+5.  Clone the repository to your development environment.
+
+    1.  To start SAP Web IDE and automatically clone the repository of your app, choose *Edit Online* \(![](images/HTML5_Edit_Online_Button_272cc13.png)\) at the end of the table row of your application.
+
+    2.  On the *Clone Repository* screen, if prompted enter your user and password \(SCN user and SCN password\), and choose *Clone*.
+
+
+
+
+
+## Results
+
+You created an application and a corresponding Git repository.
+
+**Related Information**  
+
+
+[Navigate in the Cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/0874895f1f78459f9517da55a11ffebd.html "Learn how to navigate to your global accounts and subaccounts in the SAP BTP cockpit.") :arrow_upper_right:
+

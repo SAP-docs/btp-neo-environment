@@ -1,0 +1,52 @@
+<!-- loio10b63fe6c3bb41bdb7986c3cebfd140e -->
+
+# Debug Applications on the Cloud
+
+In this section, you can learn how to debug a Web application on SAP BTP.
+
+
+
+## Prerequisites
+
+-   You have installed Eclipse IDE and the SAP JVM Tools for Eclipse. For more information, see [Install the SAP JVM Tools in Eclipse](install-the-sap-jvm-tools-in-eclipse-4e97452.md).
+
+-   You have developed a Web application using IDE of your choice. For more information, see [Developing Java Applications](developing-java-applications-ac36e1f.md).
+-   You have deployed your Web application. For more information, see [Deploying and Updating Java Applications](deploying-and-updating-java-applications-e5dfbc6.md).
+
+> ### Note:  
+> Debugging can be enabled if there is only one VM started for the requested account or application.
+
+
+
+## Context
+
+You can use IDE of your choice for developing the application. You must use Eclipse IDE for debugging the application on the cloud.
+
+> ### Tip:  
+> **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**
+
+ <a name="concept_pmx_g25_rn"/>
+
+<!-- concept\_pmx\_g25\_rn -->
+
+## Procedure
+
+
+
+1.  Deploy your Web application in the console client and start it.
+2.  Go to the Eclipse IDE, open the *Run* menu and choose *Debug Configurations*.
+3.  Create a new debug configuration of type *SAP HANA Cloud Debugger*.
+4.  In the *Project* section, choose the Java project that is already imported in the Eclipse IDE.
+5.  In the *Connection Properties* section, provide the application data.
+6.  Choose *Debug*.
+7.  Open the *Debug* perspective in the Eclipse IDE.
+8.  Set breakpoints in your application.
+9.  Request your application.
+
+**Related Information**  
+
+
+[Eclipse: Debugging a servlet on a server](http://help.eclipse.org/luna/topic/org.eclipse.wst.server.ui.doc.user/topics/tservlet.html)
+
+[Eclipse: Debugging a JSP file on a server](http://help.eclipse.org/luna/topic/org.eclipse.wst.server.ui.doc.user/topics/tdbgjsp.html)
+

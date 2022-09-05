@@ -1,0 +1,22 @@
+<!-- loio93fac8d7d9554f799277d11627760042 -->
+
+# Change Logging and Read-Access Logging
+
+Change logging records changes to personal data, while read-access logging records access to sensitive personal data. You may be required to gather this information for auditing purposes or legal requirements.
+
+
+
+> ### Tip:  
+> **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**
+
+
+
+Use the appropriate API to retrieve logs.
+
+For the Neo environment, see [Audit Log Retrieval API Usage for the Neo Environment](audit-log-retrieval-api-usage-for-the-neo-environment-e4d818d.md).
+
+> ### Note:  
+> For any applications you develop, you must ensure they include logging functions. SAP BTP does not provide audit logging functions for custom developments.
+
+Logs are deleted regularly.
+

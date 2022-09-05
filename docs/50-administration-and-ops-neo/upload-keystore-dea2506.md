@@ -1,0 +1,190 @@
+<!-- loiodea2506fb892403781e7720b0e292810 -->
+
+# upload-keystore
+
+This command is used to upload a keystore by uploading the keystore file. You can upload keystores on subaccount, application, and subscription levels.
+
+
+
+> ### Tip:  
+> **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**
+
+
+
+<a name="loiodea2506fb892403781e7720b0e292810__section_N10019_N10016_N10001"/>
+
+## Parameters
+
+To list all parameters available for this command, execute ***neo help upload-keystore*** in the command line.
+
+
+<table>
+<tr>
+<th valign="top" colspan="2">
+
+Required
+
+
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+`-a`, `--account`
+
+
+
+</td>
+<td valign="top">
+
+Consumer subaccount technical name
+
+The account for which you provide username and password.
+
+`Type`: string \(up to 30 characters; lowercase letters and numbers, starting with a letter\)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`-h`, `--host`
+
+
+
+</td>
+<td valign="top">
+
+Enter a region host.
+
+`Type`: URL, for acceptable values see [Regions](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/350356d1dc314d3199dca15bd2ab9b0e.html "You can deploy applications in different regions. Each region represents a geographical location (for example, Europe, US East) where applications, data, or services are hosted.") :arrow_upper_right:.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`-l`,`--location`
+
+
+
+</td>
+<td valign="top">
+
+Path to a keystore file to be uploaded from the local file system. The file extension determines the keystore type. The following extensions are supported: `.jks`, `.jceks`, `.p12`, `.pem`. For more information about the keystore formats, see [Features](../60-security-neo/keys-and-certificates-3735938.md#loio3735938d1d1d4d04a0e976b9ad1799d5__section_N10027_N10017_N10001)
+
+`Type`: string
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`-u`, `--user`
+
+
+
+</td>
+<td valign="top">
+
+Use your email, SAP ID or user name
+
+`Type`: string
+
+
+
+</td>
+</tr>
+</table>
+
+
+<table>
+<tr>
+<th valign="top" colspan="2">
+
+Optional
+
+
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+`-b`, `--application` 
+
+
+
+</td>
+<td valign="top">
+
+Application name
+
+-   Use `--application <consumer_application_name>` if the application is running in your subaccount.
+-   Use `--application <provider_subaccount_technical_name>:<provider_application_name>` if the application is running in another subaccount.
+
+ `Type`: string \(up to 30 characters; lowercase letters and numbers, starting with a letter\)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`-w`, `--overwrite` 
+
+
+
+</td>
+<td valign="top">
+
+Overwrites a file with the same name if such already exists. If you do not explicitly include the `--overwrite` argument, you will be notified and asked if you want to overwrite the file.
+
+
+
+</td>
+</tr>
+</table>
+
+
+
+## Example
+
+On Subscription Level
+
+```
+neo upload-keystore --account <consumer_subaccount_technical_name> --application <provider_subaccount_technical_name>:<provider_application_name>
+--user <e-mail_or_user> --location C:\Keystores\KeyStore1.jks --host hana.ondemand.com
+```
+
+On Application Level
+
+```
+neo upload-keystore --account <provider_subaccount_technical_name> --application <application_name>
+--user <e-mail_or_user> --location C:\Keystores\KeyStore1.jks --host hana.ondemand.com
+```
+
+On Subaccount Level
+
+```
+neo upload-keystore --account <subaccount_technical_name> --user <e-mail_or_user>
+--location C:\Keystores\KeyStore1.jks --host hana.ondemand.com
+```
+
+**Related Information**  
+
+
+[Keystore Console Commands](../60-security-neo/keystore-console-commands-20b6fbd.md)
+
+[Keys and Certificates](../60-security-neo/keys-and-certificates-3735938.md)
+
+[Using the Keystore Service for Client Side HTTPS Connections](../60-security-neo/using-the-keystore-service-for-client-side-https-connections-38144cd.md)
+
