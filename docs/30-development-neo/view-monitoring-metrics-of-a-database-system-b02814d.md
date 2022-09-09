@@ -500,7 +500,7 @@ HANA Dump Files Count
 
 -   *OK* - No dump files exist.
 
--   *Warning* - Up to 20 dump files exist.
+-   *Warning* - More than 10 dump files exist.
 
 -   *Critical* - More than 20 dump files exist. Try to analyze the dump files.
 

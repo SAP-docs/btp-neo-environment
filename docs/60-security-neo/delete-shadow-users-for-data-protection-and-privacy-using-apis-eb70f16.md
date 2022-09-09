@@ -35,7 +35,7 @@ The User Account and Authentication service stores user-related data records in 
 
 1.  Enable API access to your subaccount.
 
-    For more information, see [Access UAA Admin APIs](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/ebc9113a520e495ea5fb759b9a7929f2.html "To enable programmatic access to the XS user authentication and authorization (UAA) service in your subaccount of the Cloud Foundry environment, create an XSUAA service instance under the apiaccess plan.") :arrow_upper_right:.
+    For more information, see [Access SAP Authorization and Trust Management Service APIs](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/ebc9113a520e495ea5fb759b9a7929f2.html "To enable programmatic access to the SAP Authorization and Trust Management service (XSUAA) in your multi-environment subaccount, create a service instance with the apiaccess plan.") :arrow_upper_right:.
 
 2.  Use the *GET* method for the User Management \(SCIM\) API of the SAP Authorization and Trust Management service to get a list of users.
 

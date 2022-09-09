@@ -2,29 +2,45 @@
 
 # Create SAP User Accounts
 
-If you want to grant authorizations to users from SAP ID service in your subaccount, you must ensure that they have a user account in SAP ID service.
+To grant authorizations to people from the default identity provider in your subaccount, ensure that they have a user account.
 
 
 
 ## Context
 
-> ### Tip:  
-> **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**
+If the person in question already has a user account on `sap.com` Web sites, then they already have a user in the default identity provider.
+
+Consider using a custom identity provider to integrate your own identity and access management solution.
+
+> ### Note:  
+> For technical users, create the user in your custom identity provider.
 
 
 
 ## Procedure
 
-1.  Choose one of the following ways to create SAP user accounts:
+1.  Send your colleagues the self-registration URL.
 
-    -   Use the user management of [SAP One Support Launchpad](https://support.sap.com/en/my-support/users.html) to create S-users.
+    `https://account.sap.com/core/create/register?redirectURL=https%3A%2F%2Fcockpit.eu10.hana.ondemand.com%2Fcockpit%2F`
 
-    -   In a trial account, use self-registration.
+    The Web site registers you with SAP Universal ID, which also registers you with SAP ID service. SAP Universal ID manages the users of official SAP sites, including the SAP developer and partner community.
 
-        -   Register directly at [SAP ID Service](https://accounts.sap.com).
-
-        -   Register at [SAP Developer Center](https://developers.sap.com).
-
+    > ### Tip:  
+    > If you already know the e-mail addresses of your colleagues, you can add them to your subaccount and assign role collections. After registering, your colleagues have the option to return to the SAP BTP cockpit. If you have already assigned authorizations to that user, then your colleagues have access when they log on.
 
 
+
+
+<a name="copy51ec990e1d6e42468eafb733a503c92b__result_yzf_ccq_p5b"/>
+
+## Results
+
+**Related Information**  
+
+
+[Add Users from SAP ID Service for Multi-Environment Subaccounts](https://help.sap.com/viewer/ae8e8427ecdf407790d96dad93b5f723/Cloud/en-US/760ab77e5afd4c15ae70ec7ff59e02ef.html "Before you can assign role collection to a user from SAP ID service, ensure that this user exists in your subaccount.") :arrow_upper_right:
+
+[Default Identity Provider](https://help.sap.com/viewer/ae8e8427ecdf407790d96dad93b5f723/Cloud/en-US/d6a8db70bdde459f92f2837349f95090.html "SAP ID service is the default identity provider for both platform users and business users (in applications) at SAP BTP. You can start using it without further configuration.") :arrow_upper_right:
+
+[Trust and Federation with Identity Providers](https://help.sap.com/viewer/ae8e8427ecdf407790d96dad93b5f723/Cloud/en-US/cb1bc8f1bd5c482e891063960d7acd78.html "When setting up accounts you need to assign users. While we provide you with your first users to get you started, your organization has identity providers that you want to integrate.") :arrow_upper_right:
 

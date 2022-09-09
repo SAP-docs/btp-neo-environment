@@ -235,7 +235,7 @@ Your newly deployed application appears in the list of Java applications.
 
 **Updating a deployed application**
 
-You can update or redeploy the application whenever required. To do this, choose *Update application* to open the same dialog box as in update mode. You can update the application with a new WAR file or change the configuration parameters.
+You can update or redeploy the application whenever required. To do this, choose an application from the list of deployed Java applications. Then choose the *Update* button. You can update the application with a new WAR file or change the configuration parameters.
 
 To change the name of a deployed application, deploy a new application under the desired name, and delete the application whose name you want to change.
 

@@ -41,21 +41,21 @@ SHA1
 <tr>
 <td valign="top">
 
-CN=AddTrust External CA Root, OU=AddTrust External TTP Network, O=AddTrust AB, C=SE
+C=DE, O=Atos, CN=Atos TrustedRoot 2011
 
 
 
 </td>
 <td valign="top">
 
-CN=AddTrust External CA Root, OU=AddTrust External TTP Network, O=AddTrust AB, C=SE
+C=DE, O=Atos, CN=Atos TrustedRoot 2011
 
 
 
 </td>
 <td valign="top">
 
-02:FA:F3:E2:91:43:54:68:60:78:57:69:4D:F5:E4:5B:68:85:18:68
+2B:B1:F5:3E:55:0C:1D:C5:F1:D4:E6:B7:6A:46:4B:55:06:02:AC:21
 
 
 
@@ -202,6 +202,29 @@ CN=DigiCert Assured ID Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US
 <tr>
 <td valign="top">
 
+CN=DigiCert Assured ID Root G2, OU=www.digicert.com, O=DigiCert Inc, C=US
+
+
+
+</td>
+<td valign="top">
+
+CN=DigiCert Assured ID Root G2, OU=www.digicert.com, O=DigiCert Inc, C=US
+
+
+
+</td>
+<td valign="top">
+
+A1:4B:48:D9:43:EE:0A:0E:40:90:4F:3C:E0:A4:C0:91:93:51:5D:3F
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 CN=DigiCert Global Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US
 
 
@@ -271,37 +294,14 @@ CN=DigiCert High Assurance EV Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US
 <tr>
 <td valign="top">
 
-CN=DST Root CA X3, O=Digital Signature Trust Co.
+CN=Entrust Root Certification Authority - G2, OU=\(c\) 2009 Entrust, Inc. - for authorized use only, OU=See www.entrust.net/legal-terms, O=Entrust, Inc., C=US
 
 
 
 </td>
 <td valign="top">
 
-CN=DST Root CA X3, O=Digital Signature Trust Co.
-
-
-
-</td>
-<td valign="top">
-
-DA:C9:02:4F:54:D8:F6:DF:94:93:5F:B1:73:26:38:CA:6A:D7:7C:13
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-CN=Entrust Root Certification Authority - G2, OU="\(c\) 2009 Entrust, Inc. - for authorized use only", OU=See www.entrust.net/legal-terms, O="Entrust, Inc.", C=US
-
-
-
-</td>
-<td valign="top">
-
-CN=Entrust Root Certification Authority - G2, OU="\(c\) 2009 Entrust, Inc. - for authorized use only", OU=See www.entrust.net/legal-terms, O="Entrust, Inc.", C=US
+CN=Entrust Root Certification Authority - G2, OU=\(c\) 2009 Entrust, Inc. - for authorized use only, OU=See www.entrust.net/legal-terms, O=Entrust, Inc., C=US
 
 
 
@@ -317,14 +317,14 @@ CN=Entrust Root Certification Authority - G2, OU="\(c\) 2009 Entrust, Inc. - for
 <tr>
 <td valign="top">
 
-CN=Entrust Root Certification Authority, OU="\(c\) 2006 Entrust, Inc.", OU=www.entrust.net/CPS is incorporated by reference, O="Entrust, Inc.", C=US
+CN=Entrust Root Certification Authority, OU=\(c\) 2006 Entrust, Inc., OU=www.entrust.net/CPS is incorporated by reference, O=Entrust, Inc., C=US
 
 
 
 </td>
 <td valign="top">
 
-CN=Entrust Root Certification Authority, OU="\(c\) 2006 Entrust, Inc.", OU=www.entrust.net/CPS is incorporated by reference, O="Entrust, Inc.", C=US
+CN=Entrust Root Certification Authority, OU=\(c\) 2006 Entrust, Inc., OU=www.entrust.net/CPS is incorporated by reference, O=Entrust, Inc., C=US
 
 
 
@@ -363,121 +363,6 @@ CN=Entrust.net Certification Authority \(2048\), OU=\(c\) 1999 Entrust.net Limit
 <tr>
 <td valign="top">
 
-CN=GeoTrust Global CA, O=GeoTrust Inc., C=US
-
-
-
-</td>
-<td valign="top">
-
-CN=GeoTrust Global CA, O=GeoTrust Inc., C=US
-
-
-
-</td>
-<td valign="top">
-
-DE:28:F4:A4:FF:E5:B9:2F:A3:C5:03:D1:A3:49:A7:F9:96:2A:82:12
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-CN=GeoTrust Primary Certification Authority - G2, OU=\(c\) 2007 GeoTrust Inc. - For authorized use only, O=GeoTrust Inc., C=US
-
-
-
-</td>
-<td valign="top">
-
-CN=GeoTrust Primary Certification Authority - G2, OU=\(c\) 2007 GeoTrust Inc. - For authorized use only, O=GeoTrust Inc., C=US
-
-
-
-</td>
-<td valign="top">
-
-8D:17:84:D5:37:F3:03:7D:EC:70:FE:57:8B:51:9A:99:E6:10:D7:B0
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-CN=GeoTrust Primary Certification Authority - G3, OU=\(c\) 2008 GeoTrust Inc. - For authorized use only, O=GeoTrust Inc., C=US
-
-
-
-</td>
-<td valign="top">
-
-CN=GeoTrust Primary Certification Authority - G3, OU=\(c\) 2008 GeoTrust Inc. - For authorized use only, O=GeoTrust Inc., C=US
-
-
-
-</td>
-<td valign="top">
-
-03:9E:ED:B8:0B:E7:A0:3C:69:53:89:3B:20:D2:D9:32:3A:4C:2A:FD
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-CN=GeoTrust Primary Certification Authority, O=GeoTrust Inc., C=US
-
-
-
-</td>
-<td valign="top">
-
-CN=GeoTrust Primary Certification Authority, O=GeoTrust Inc., C=US
-
-
-
-</td>
-<td valign="top">
-
-32:3C:11:8E:1B:F7:B8:B6:52:54:E2:E2:10:0D:D6:02:90:37:F0:96
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-CN=GeoTrust Universal CA, O=GeoTrust Inc., C=US
-
-
-
-</td>
-<td valign="top">
-
-CN=GeoTrust Universal CA, O=GeoTrust Inc., C=US
-
-
-
-</td>
-<td valign="top">
-
-E6:21:F3:35:43:79:05:9A:4B:68:30:9D:8A:2F:74:22:15:87:EC:79
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 CN=GlobalSign Root CA, OU=Root CA, O=GlobalSign nv-sa, C=BE
 
 
@@ -493,29 +378,6 @@ CN=GlobalSign Root CA, OU=Root CA, O=GlobalSign nv-sa, C=BE
 <td valign="top">
 
 B1:BC:96:8B:D4:F4:9D:62:2A:A8:9A:81:F2:15:01:52:A4:1D:82:9C
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R2
-
-
-
-</td>
-<td valign="top">
-
-CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R2
-
-
-
-</td>
-<td valign="top">
-
-75:E0:AB:B6:13:85:12:27:1C:04:F8:5F:DD:DE:38:E4:B7:24:2E:FE
 
 
 
@@ -547,14 +409,14 @@ D6:9B:56:11:48:F0:1C:77:C5:45:78:C1:09:26:DF:5B:85:69:76:AD
 <tr>
 <td valign="top">
 
-CN=Go Daddy Root Certificate Authority - G2, O="GoDaddy.com, Inc.", L=Scottsdale, ST=Arizona, C=US
+CN=Go Daddy Root Certificate Authority - G2, O=GoDaddy.com, Inc., L=Scottsdale, ST=Arizona, C=US
 
 
 
 </td>
 <td valign="top">
 
-CN=Go Daddy Root Certificate Authority - G2, O="GoDaddy.com, Inc.", L=Scottsdale, ST=Arizona, C=US
+CN=Go Daddy Root Certificate Authority - G2, O=GoDaddy.com, Inc., L=Scottsdale, ST=Arizona, C=US
 
 
 
@@ -608,29 +470,6 @@ CN=QuoVadis Root CA 2, O=QuoVadis Limited, C=BM
 <td valign="top">
 
 CA:3A:FB:CF:12:40:36:4B:44:B2:16:20:88:80:48:39:19:93:7C:F7
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-CN=SAP Cloud Root CA 01, O=SAP SE, C=DE
-
-
-
-</td>
-<td valign="top">
-
-CN=SAP Cloud Root CA 01, O=SAP SE, C=DE
-
-
-
-</td>
-<td valign="top">
-
-05:A0:64:F7:16:E3:6C:AE:5A:BB:DD:E2:17:42:72:56:EA:D8:B4:A7
 
 
 
@@ -708,29 +547,6 @@ CN=SAP Internet of Things CA, O=SAP IoT Trust Community II, C=DE
 <tr>
 <td valign="top">
 
-CN=SAP Passport CA, O=SAP Trust Community, C=DE
-
-
-
-</td>
-<td valign="top">
-
-CN=SAP Passport CA, O=SAP Trust Community, C=DE
-
-
-
-</td>
-<td valign="top">
-
-10:BD:99:32:E8:3A:01:CD:C4:4F:56:10:05:47:30:A8:73:18:16:6D
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 CN=SSO\_CA, O=SAP-AG, C=DE
 
 
@@ -754,14 +570,14 @@ CN=SSO\_CA, O=SAP-AG, C=DE
 <tr>
 <td valign="top">
 
-CN=Starfield Services Root Certificate Authority - G2, O="Starfield Technologies, Inc.", L=Scottsdale, ST=Arizona, C=US
+CN=Starfield Services Root Certificate Authority - G2, O=Starfield Technologies, Inc., L=Scottsdale, ST=Arizona, C=US
 
 
 
 </td>
 <td valign="top">
 
-CN=Starfield Services Root Certificate Authority - G2, O="Starfield Technologies, Inc.", L=Scottsdale, ST=Arizona, C=US
+CN=Starfield Services Root Certificate Authority - G2, O=Starfield Technologies, Inc., L=Scottsdale, ST=Arizona, C=US
 
 
 
@@ -869,75 +685,6 @@ CN=T-TeleSec GlobalRoot Class 2, OU=T-Systems Trust Center, O=T-Systems Enterpri
 <tr>
 <td valign="top">
 
-CN=thawte Primary Root CA - G2, OU="\(c\) 2007 thawte, Inc. - For authorized use only", O="thawte, Inc.", C=US
-
-
-
-</td>
-<td valign="top">
-
-CN=thawte Primary Root CA - G2, OU="\(c\) 2007 thawte, Inc. - For authorized use only", O="thawte, Inc.", C=US
-
-
-
-</td>
-<td valign="top">
-
-AA:DB:BC:22:23:8F:C4:01:A1:27:BB:38:DD:F4:1D:DB:08:9E:F0:12
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-CN=thawte Primary Root CA - G3, OU="\(c\) 2008 thawte, Inc. - For authorized use only", OU=Certification Services Division, O="thawte, Inc.", C=US
-
-
-
-</td>
-<td valign="top">
-
-CN=thawte Primary Root CA - G3, OU="\(c\) 2008 thawte, Inc. - For authorized use only", OU=Certification Services Division, O="thawte, Inc.", C=US
-
-
-
-</td>
-<td valign="top">
-
-F1:8B:53:8D:1B:E9:03:B6:A6:F0:56:43:5B:17:15:89:CA:F3:6B:F2
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-CN=thawte Primary Root CA, OU="\(c\) 2006 thawte, Inc. - For authorized use only", OU=Certification Services Division, O="thawte, Inc.", C=US
-
-
-
-</td>
-<td valign="top">
-
-CN=thawte Primary Root CA, OU="\(c\) 2006 thawte, Inc. - For authorized use only", OU=Certification Services Division, O="thawte, Inc.", C=US
-
-
-
-</td>
-<td valign="top">
-
-91:C6:D6:EE:3E:8A:C8:63:84:E5:48:C2:99:29:5C:75:6C:81:7B:81
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 CN=USERTrust RSA Certification Authority, O=The USERTRUST Network, L=Jersey City, ST=New Jersey, C=US
 
 
@@ -961,106 +708,14 @@ CN=USERTrust RSA Certification Authority, O=The USERTRUST Network, L=Jersey City
 <tr>
 <td valign="top">
 
-CN=VeriSign Class 3 Public Primary Certification Authority - G3, OU="\(c\) 1999 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US
+OU=Go Daddy Class 2 Certification Authority, O=The Go Daddy Group, Inc., C=US
 
 
 
 </td>
 <td valign="top">
 
-CN=VeriSign Class 3 Public Primary Certification Authority - G3, OU="\(c\) 1999 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US
-
-
-
-</td>
-<td valign="top">
-
-13:2D:0D:45:53:4B:69:97:CD:B2:D5:C3:39:E2:55:76:60:9B:5C:C6
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-CN=VeriSign Class 3 Public Primary Certification Authority - G4, OU="\(c\) 2007 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US
-
-
-
-</td>
-<td valign="top">
-
-CN=VeriSign Class 3 Public Primary Certification Authority - G4, OU="\(c\) 2007 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US
-
-
-
-</td>
-<td valign="top">
-
-22:D5:D8:DF:8F:02:31:D1:8D:F7:9D:B7:CF:8A:2D:64:C9:3F:6C:3A
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-CN=VeriSign Class 3 Public Primary Certification Authority - G5, OU="\(c\) 2006 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US
-
-
-
-</td>
-<td valign="top">
-
-CN=VeriSign Class 3 Public Primary Certification Authority - G5, OU="\(c\) 2006 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US
-
-
-
-</td>
-<td valign="top">
-
-4E:B6:D5:78:49:9B:1C:CF:5F:58:1E:AD:56:BE:3D:9B:67:44:A5:E5
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-CN=VeriSign Universal Root Certification Authority, OU="\(c\) 2008 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US
-
-
-
-</td>
-<td valign="top">
-
-CN=VeriSign Universal Root Certification Authority, OU="\(c\) 2008 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US
-
-
-
-</td>
-<td valign="top">
-
-36:79:CA:35:66:87:72:30:4D:30:A5:FB:87:3B:0F:A7:7B:B7:0D:54
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-OU=Go Daddy Class 2 Certification Authority, O="The Go Daddy Group, Inc.", C=US
-
-
-
-</td>
-<td valign="top">
-
-OU=Go Daddy Class 2 Certification Authority, O="The Go Daddy Group, Inc.", C=US
+OU=Go Daddy Class 2 Certification Authority, O=The Go Daddy Group, Inc., C=US
 
 
 
@@ -1076,14 +731,14 @@ OU=Go Daddy Class 2 Certification Authority, O="The Go Daddy Group, Inc.", C=US
 <tr>
 <td valign="top">
 
-OU=Starfield Class 2 Certification Authority, O="Starfield Technologies, Inc.", C=US
+OU=Starfield Class 2 Certification Authority, O=Starfield Technologies, Inc., C=US
 
 
 
 </td>
 <td valign="top">
 
-OU=Starfield Class 2 Certification Authority, O="Starfield Technologies, Inc.", C=US
+OU=Starfield Class 2 Certification Authority, O=Starfield Technologies, Inc., C=US
 
 
 
