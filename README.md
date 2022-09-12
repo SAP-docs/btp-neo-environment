@@ -1,4 +1,4 @@
-[![REUSE status]()]()
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-docs/btp-neo-environment)](https://api.reuse.software/info/github.com/SAP-docs/btp-neo-environment)
 
 # Contributions to SAP BTP, Neo Environment Documentation
 
