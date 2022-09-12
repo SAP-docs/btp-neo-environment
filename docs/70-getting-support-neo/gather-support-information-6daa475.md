@@ -2,7 +2,7 @@
 
 # Gather Support Information
 
-The Eclipse tools come with a wizard for gathering support information in case you need help with a feature or operation \(during deploying/debugging applications, logging, configurations, and so on\). 
+The Eclipse tools come with a wizard for gathering support information in case you need help with a feature or operation \(during deploying/debugging applications, logging, configurations, and so on\).
 
 
 
