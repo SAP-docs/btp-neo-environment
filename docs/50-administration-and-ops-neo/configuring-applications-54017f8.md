@@ -49,7 +49,7 @@ Using the cockpit, you can perform the following identity and access management 
 
 [Application Identity Provider](../60-security-neo/application-identity-provider-dc61853.md#loiodc618538d97610148155d97dcd123c24)
 
-[OAuth 2.0 Configuration](../60-security-neo/oauth-2-0-configuration-7e658b3.md#loio7e658b3e4cea4a79b035d0f1d2798c1f)
+[OAuth 2.0 Configuration](../60-security-neo/oauth-2-0-configuration-7e658b3.md)
 
 
 

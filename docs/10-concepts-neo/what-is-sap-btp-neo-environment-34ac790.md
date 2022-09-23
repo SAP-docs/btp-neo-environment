@@ -1,5 +1,7 @@
 <!-- loio34ac79024d41469a804ba9b9deeb5b1d -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # What Is SAP BTP, Neo Environment
 
 SAP BTP, Neo environment is an enterprise platform-as-a-service \(enterprise PaaS\) that provides comprehensive application development services and capabilities, which lets you build, extend, and integrate business applications in the cloud.
@@ -27,6 +29,24 @@ The Neo environment lets you develop HTML5, Java, and SAP HANA extended applicat
 The Neo environment also allows you to deploy solutions on SAP BTP. In the context of SAP BTP, a solution is made up of various application types and configurations created with different technologies, designed to implement a certain scenario or task flow. You can deploy solutions by using the Change and Transport System \(CTS+\) tool, the console client, or the SAP BTP cockpit, which also lets you monitor your solutions. The SAP multitarget application \(MTA\) model encompasses and describes application modules, dependencies, and interfaces in an approach that facilitates validation, orchestration, maintenance, and automation of the application throughout its life cycle.
 
 The Neo environment lets you use virtual machines, allowing you to install and maintain your own applications in scenarios that aren't covered by the platform.
+
+> ### Tip:  
+> The English version of this guide is open for contributions and feedback using GitHub. This allows you to get in contact with responsible authors of SAP Help Portal pages and the development team to discuss documentation-related issues. To contribute to this guide, or to provide feedback, choose the corresponding option on SAP Help Portal:
+> 
+> -   :pencil2:: Contribute to a documentation page. This option opens a pull request on GitHub.
+> 
+> -   <span class="SAP-icons"></span> Feedback: Provide feedback about a documentation page. This option opens an issue on GitHub.
+> 
+> 
+> You need a GitHub account to use these options.
+> 
+> More information:
+> 
+> -   [Contribution Guidelines](https://help.sap.com/docs/open-documentation-initiative/contribution-guidelines/readme.html)
+> 
+> -   [Introduction Video](https://www.youtube.com/watch?v=WJ0oarMlVW4)
+> 
+> -   [Introduction Blog Post](https://blogs.sap.com/2021/11/29/sap-btp-documentation-goes-github-new-collaboration-process/)
 
 
 

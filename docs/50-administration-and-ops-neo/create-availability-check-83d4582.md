@@ -183,7 +183,7 @@ Threshold value or range of the response time in seconds.
 </td>
 <td valign="top">
 
-Should be used only if there is an existing alert that needs to be updated.
+Should be used only if there is an existing availability check that needs to be updated.
 
 `Default`: false
 

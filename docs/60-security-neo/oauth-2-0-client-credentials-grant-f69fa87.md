@@ -20,7 +20,7 @@ Client credentials grant is one of the basic flows specified in the OAuth 2.0 pr
 
 ## Procedure
 
-1.  Register a new OAuth client of type *Confidential*. See [Register an OAuth Client](oauth-2-0-configuration-7e658b3.md#loio61d8095aa39547c7b30d9aeda771497f).
+1.  Register a new OAuth client of type *Confidential*. See [Register an OAuth Client](register-an-oauth-client-61d8095.md).
 
 2.  Using that client, you can get an access token using a REST call to the endpoints shown in *cockpit* \> *Security* \> *OAuth* \> *Branding*.
 

@@ -50,7 +50,7 @@ The graphic below illustrates the scenario implemented in terms of SAP BTP.
 
 1.  Configure SAP BTP for trust with the SAML identity provider. See [Configure Trust to the SAML Identity Provider](application-identity-provider-dc61853.md#loiob6cfc4bb4bff4ace90afc71b0962fcb5).
 
-2.  Register the external application as an OAuth client in SAP BTP. See [Register an OAuth Client](oauth-2-0-configuration-7e658b3.md#loio61d8095aa39547c7b30d9aeda771497f).
+2.  Register the external application as an OAuth client in SAP BTP. See [Register an OAuth Client](register-an-oauth-client-61d8095.md).
 
 3.  Make sure the SAML \(bearer\) assertion that the external application presents contains the following information:
 

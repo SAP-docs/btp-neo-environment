@@ -321,8 +321,6 @@ For more information about the differences between EJB 3.2 and EJB 3.2 Lite, see
 
 The Java EE 7 Web Profile TomEE 7 enables you to easily create your applications for SAP BTP.
 
-For more information, see .
-
 
 
 <a name="loiof177a15bab8c47168cbcf471b7726f78__section_kkx_tmh_smb"/>

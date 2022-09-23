@@ -46,7 +46,7 @@ SAP BTP supports two basic OAuth 2.0 flows:
 
 [OAuth 2.0 Client Credentials Grant](oauth-2-0-client-credentials-grant-f69fa87.md "Use OAuth 2.0 service in the Neo environment of SAP BTP to enable your cloud applications for client credentials grant flow.")
 
-[OAuth 2.0 Configuration](oauth-2-0-configuration-7e658b3.md#loio7e658b3e4cea4a79b035d0f1d2798c1f "Register clients, manage access tokens, configure scopes and perform other OAuth configuration tasks in the Neo environment of SAP BTP.")
+[OAuth 2.0 Configuration](oauth-2-0-configuration-7e658b3.md "Register clients, manage access tokens, configure scopes and perform other OAuth configuration tasks in the Neo environment of SAP BTP.")
 
 [Principal Propagation to OAuth-Protected Applications](principal-propagation-to-oauth-protected-applications-310f39e.md "Propagate users from external applications with SAML identity federation to OAuth-protected applications running in the Neo environment of SAP BTP. Exchange the user ID and attributes from a SAML assertion for an OAuth access token, and use the access token to access the OAuth-protected application.")
 

@@ -498,7 +498,7 @@ HANA Dump Files Count
 </td>
 <td valign="top">
 
--   *OK* - No dump files exist.
+-   *OK* - Up to 10 dump files exist.
 
 -   *Warning* - More than 10 dump files exist.
 

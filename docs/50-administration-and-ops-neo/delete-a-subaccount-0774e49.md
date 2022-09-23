@@ -16,6 +16,15 @@ Delete subaccounts using the SAP BTP cockpit.
 
 -   The subaccount doesn't contain any active subscriptions, service instances, brokers, or platforms.
 
+-   You have removed any unused custom domains and corresponding SSL hosts and certificates. Otherwise, you may still be charged for them.
+
+    > ### Note:  
+    > A custom domain is configured on a global account level, which means that one custom domain can be part of business scenarios in several subaccounts. Before you delete a subaccount:
+    > 
+    > 1.  Make sure that the custom domain isn't used outside of the subaccount that you want to delete. If you are sure that it isn’t, remove the custom domain to avoid being charged for it. Once you delete the subaccount, you won't be able to remove the custom domain.
+    > 
+    > 2.  If the custom domain is still being used in other subaccounts, don't delete the custom domain. You can proceed with the deletion of the subaccount.
+
 
 
 

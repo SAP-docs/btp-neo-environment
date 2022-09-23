@@ -854,5 +854,5 @@ OAuth destination is not found or can’t get destination HTTP client
 ## Next Steps
 
 1.  You can now deploy the application on SAP BTP. For more information, see [Deploying and Updating Java Applications](../30-development-neo/deploying-and-updating-java-applications-e5dfbc6.md) 
-2.  After you deploy, you need to configure clients and scopes for the application. For more information, see [OAuth 2.0 Configuration](oauth-2-0-configuration-7e658b3.md#loio7e658b3e4cea4a79b035d0f1d2798c1f).
+2.  After you deploy, you need to configure clients and scopes for the application. For more information, see [OAuth 2.0 Configuration](oauth-2-0-configuration-7e658b3.md).
 
