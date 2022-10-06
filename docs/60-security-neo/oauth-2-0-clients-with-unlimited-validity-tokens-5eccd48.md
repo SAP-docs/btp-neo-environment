@@ -29,7 +29,7 @@ If you have existing clients with unlimited token validity \(the *Token Lifetime
 
 2.  If possible, test the scenario before changing productive applications and their OAuth clients.
 
-    If you have a testing \(staging\) subaccount, you can deploy the application and OAuth clients there. See .
+    If you have a testing \(staging\) subaccount, you can deploy the application and OAuth clients there. See [Using Multiple Subaccounts for Staged Application Development](https://help.sap.com/docs/BTP/ea72206b834e4ace9cd834feed6c0e09/2611e633b9044186a68a316a6e2b0789.html?version=Cloud).
 
 3.  Deploy the changed applications productively, and update their resprective OAuth clients.
 

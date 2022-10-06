@@ -207,7 +207,7 @@ A client certificate with *cn=myuser,ou=security* as a subject is mapped to a *m
 <tr>
 <td valign="top">
 
-CN@Issuer
+CN@issuer
 
 
 
