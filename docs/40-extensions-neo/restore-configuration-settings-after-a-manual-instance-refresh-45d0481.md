@@ -47,12 +47,11 @@ The manual refresh is triggered by cloud operators. After your cloud operators h
 
 ## Procedure
 
-1.  To restore the extension artifacts after a manual instance refresh, proceed as follows:
+To restore the extension artifacts after a manual instance refresh, proceed as follows:
 
-    1.  In the SAP BTP Neo cockpit, navigate to **<your\_subaccount\>** \> *Integration Tokens*.
+1.  In the SAP BTP Neo cockpit, navigate to **<your\_subaccount\>** \> *Integration Tokens*.
 
-    2.  In the *Integrated System* screen area, choose the *Refresh*.
-
+2.  In the *Integrated System* screen area, choose the *Refresh*.
 
 
 

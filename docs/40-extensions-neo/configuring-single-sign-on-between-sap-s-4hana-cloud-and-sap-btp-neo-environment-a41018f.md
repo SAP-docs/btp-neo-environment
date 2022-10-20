@@ -24,8 +24,7 @@ To ensure the required security for accessing the applications, you need to conf
 
 ## Procedure
 
-1.  Configure SSO between the subaccount in SAP BTP and the SAP S/4HANA Cloud tenant using Identity Authentication as an identity provider. For more information, see [Identity Authentication Tenant as an Application Identity Provider](../60-security-neo/identity-authentication-tenant-as-an-application-identity-provider-d3df5b4.md).
-
+Configure SSO between the subaccount in SAP BTP and the SAP S/4HANA Cloud tenant using Identity Authentication as an identity provider. For more information, see [Identity Authentication Tenant as an Application Identity Provider](../60-security-neo/identity-authentication-tenant-as-an-application-identity-provider-d3df5b4.md).
 
 
 

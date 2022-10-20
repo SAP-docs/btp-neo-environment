@@ -166,8 +166,7 @@ Alternatively, you can do this using an HTTP destination.
 
 ## Procedure
 
-1.  In the requests to the required platform API, include the access token as a header with name *Authorization* and value *Bearer <token value\>*.
-
+In the requests to the required platform API, include the access token as a header with name *Authorization* and value *Bearer <token value\>*.
 
 
 

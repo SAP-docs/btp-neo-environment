@@ -19,8 +19,7 @@ As of September 2016, SAP SuccessFactors Q3 2016 supports the new version of SAP
 
 ## Procedure
 
-1.  To enable the enhanced functionality of an extension integration that uses the old SAP Cloud Portal service, you refresh the respective extension integration with a particular subaccount in SAP BTP. For more information, see [Refresh the Extension Integration for SAP SuccessFactors](refresh-the-extension-integration-for-sap-successfactors-9d3f809.md).
-
+To enable the enhanced functionality of an extension integration that uses the old SAP Cloud Portal service, you refresh the respective extension integration with a particular subaccount in SAP BTP. For more information, see [Refresh the Extension Integration for SAP SuccessFactors](refresh-the-extension-integration-for-sap-successfactors-9d3f809.md).
 
 
 

@@ -13,6 +13,5 @@
 
 ## Procedure
 
-1.  To analyze an end-to-end trace, see [Trace Analysis](https://help.sap.com/viewer/82f6dd44db4e4518aad4dfce00116fcf/7.2.06/en-US/79323f7e-aa9a-4842-ad8e-e9d5d3e99f4f.html).
-
+To analyze an end-to-end trace, see [Trace Analysis](https://help.sap.com/viewer/82f6dd44db4e4518aad4dfce00116fcf/7.2.06/en-US/79323f7e-aa9a-4842-ad8e-e9d5d3e99f4f.html).
 

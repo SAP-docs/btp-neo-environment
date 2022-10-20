@@ -33,19 +33,18 @@ You can create subaccounts using the console client in the Neo environment.
 
 ## Procedure
 
-1.  Open a command line and enter the following string:
+Open a command line and enter the following string:
 
-    ```
-    neo create-account --display-name <subaccount_display_name> --account <subaccount_technical_name> --user <e-mail_or_user> --host <host> 
-    ```
+```
+neo create-account --display-name <subaccount_display_name> --account <subaccount_technical_name> --user <e-mail_or_user> --host <host> 
+```
 
-    **Example:**
+**Example:**
 
-    ```
-    neo create-account --account mysubaccount --display-name mynewsubaccount --user myuser --host hana.ondemand.com
-    ```
+```
+neo create-account --account mysubaccount --display-name mynewsubaccount --user myuser --host hana.ondemand.com
+```
 
-    > ### Note:  
-    > For more information on creating new subaccounts and cloning existing subaccounts using the console client, see [create-account](create-account-05f96cf.md).
-
+> ### Note:  
+> For more information on creating new subaccounts and cloning existing subaccounts using the console client, see [create-account](create-account-05f96cf.md).
 

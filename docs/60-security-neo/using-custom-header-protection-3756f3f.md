@@ -192,28 +192,27 @@ You have created a working Web application and have enforced authentication for 
 
 ## Procedure
 
-1.  In the application's `web.xml`, protect all REST APIs using the out-of-the-box CSRF filter available with the SAP BTP SDK.
+In the application's `web.xml`, protect all REST APIs using the out-of-the-box CSRF filter available with the SAP BTP SDK.
 
-    > ### Note:  
-    > You must have at least one non-modifying REST operation listed.
+> ### Note:  
+> You must have at least one non-modifying REST operation listed.
 
-    Identify all web application resources that have to be CSRF protected and map them to `org.apache.catalina.filters.RestCsrfPreventionFilter` \(this class represents the out-of-the-box CSRF filter available with the SAP BTP SDK, so you do not need to instantiate/implement it\) in the `web.xml`.
+Identify all web application resources that have to be CSRF protected and map them to `org.apache.catalina.filters.RestCsrfPreventionFilter` \(this class represents the out-of-the-box CSRF filter available with the SAP BTP SDK, so you do not need to instantiate/implement it\) in the `web.xml`.
 
-    > ### Note:  
-    > If you are using an older version of the SAP BTP rutime for Java, use the `com.sap.core.js.csrf.RestCsrfPreventionFilter` class instead. It delivers the same implementation as the other one. Namely, use that class with the following runtime versions:
-    > 
-    > -   Java Web 1.x lower than 1.98.22
-    > -   Java EE Web Profile lower than 2.80.14
-    > -   Java Web Tomcat 7 lower than 2.45.16
+> ### Note:  
+> If you are using an older version of the SAP BTP rutime for Java, use the `com.sap.core.js.csrf.RestCsrfPreventionFilter` class instead. It delivers the same implementation as the other one. Namely, use that class with the following runtime versions:
+> 
+> -   Java Web 1.x lower than 1.98.22
+> -   Java EE Web Profile lower than 2.80.14
+> -   Java Web Tomcat 7 lower than 2.45.16
 
-    As a result, all modifying HTTP requests matching the given `url-pattern` would be CSRF validated, i.e. checked for the presence of the valid CSRF token.
+As a result, all modifying HTTP requests matching the given `url-pattern` would be CSRF validated, i.e. checked for the presence of the valid CSRF token.
 
-    Applications should expose at least one non-modifying REST operation to enable CSRF token fetch mechanism. In order to obtain the valid CSRF token, the clients need to make an initial fetch requests. That is why the non-modifying REST API is necessary. Requirements for the non-modifying REST API:
+Applications should expose at least one non-modifying REST operation to enable CSRF token fetch mechanism. In order to obtain the valid CSRF token, the clients need to make an initial fetch requests. That is why the non-modifying REST API is necessary. Requirements for the non-modifying REST API:
 
-    -   Any GET/HEAD/OPTIONS requests to the URL shall not cause state modification.
-    -   The URL should be mapped to the `RestCsrfPreventionFilter` 
-    -   The URL should be protected with authentication mechanism.
-
+-   Any GET/HEAD/OPTIONS requests to the URL shall not cause state modification.
+-   The URL should be mapped to the `RestCsrfPreventionFilter` 
+-   The URL should be protected with authentication mechanism.
 
 
 

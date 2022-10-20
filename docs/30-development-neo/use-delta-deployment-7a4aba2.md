@@ -22,28 +22,27 @@ The `delta` parameter allows you to deploy only the changes between the provided
 
 ## Procedure
 
-1.  To upload only the changed files from the application WARs, use one of the two approaches:
+To upload only the changed files from the application WARs, use one of the two approaches:
 
-    -   Deploy the application specifying the `--delta` parameter:
+-   Deploy the application specifying the `--delta` parameter:
 
-        ```
-        neo deploy myapp.properties  --source <file_location> --delta 
-        ```
+    ```
+    neo deploy myapp.properties  --source <file_location> --delta 
+    ```
 
-        For the changes to take effect, restart the application.
+    For the changes to take effect, restart the application.
 
-    -   Upload the delta and apply the changes on an already running application process with the `hot-update` command:
+-   Upload the delta and apply the changes on an already running application process with the `hot-update` command:
 
-        ```
-        neo hot-update myapp.properties  --source <file_location> --strategy <update_strategy> --delta
-        ```
-
-
-    > ### Note:  
-    > With the `source` parameter, provide the whole set of files of your application, not only the changed ones.
+    ```
+    neo hot-update myapp.properties  --source <file_location> --strategy <update_strategy> --delta
+    ```
 
 
-**Related Information**  
+ > ### Note:  
+> With the `source` parameter, provide the whole set of files of your application, not only the changed ones.
+
+ **Related Information**  
 
 
 [hot-update](../50-administration-and-ops-neo/hot-update-7ae6493.md "The hot-update command enables a developer to redeploy and update the binaries of an application started on one process faster than the normal deploy and restart. Use it to apply and activate your changes during development and not for updating productive applications.")

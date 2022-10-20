@@ -560,6 +560,5 @@ The maximum requests per user stored in the role cache.
 
 ## Procedure
 
-1.  Set the required values to the required VM system properties as described in [Configure VM Arguments](../50-administration-and-ops-neo/configure-vm-arguments-b82d392.md).
-
+Set the required values to the required VM system properties as described in [Configure VM Arguments](../50-administration-and-ops-neo/configure-vm-arguments-b82d392.md).
 

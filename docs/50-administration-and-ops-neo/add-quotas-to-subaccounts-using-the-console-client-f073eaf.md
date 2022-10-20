@@ -26,19 +26,18 @@ You can use the Neo console client to add quotas to subaccounts
 
 ## Procedure
 
-1.  Open a command line and enter the following string:
+Open a command line and enter the following string:
 
-    ```
-    neo set-quota --account <subaccount_technical_name> --host <host> --user <e-mail_or_user> --amount <quota_type>:<integer_amount_of_quota>
-    ```
+```
+neo set-quota --account <subaccount_technical_name> --host <host> --user <e-mail_or_user> --amount <quota_type>:<integer_amount_of_quota>
+```
 
-    **Example:**
+**Example:**
 
-    ```
-    neo set-quota --account mysubaccount --user myuser --host eu1.hana.ondemand.com --amount lite:2
-    ```
+```
+neo set-quota --account mysubaccount --user myuser --host eu1.hana.ondemand.com --amount lite:2
+```
 
-    > ### Note:  
-    > For more information on adding quotas to subaccounts using the console client, see [set-quota](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/4108f0f0680446a39db27f624c0e8b6a.html).
-
+> ### Note:  
+> For more information on adding quotas to subaccounts using the console client, see [set-quota](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/4108f0f0680446a39db27f624c0e8b6a.html).
 
