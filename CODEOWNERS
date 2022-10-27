@@ -1,9 +1,9 @@
 # Folders for the section owners
 docs/ @SAP-docs/btp-neo-environment-writers
-docs/10-concepts @nikolasimeonov77 @sdanter @ AnjaNicoleKretz @annawenger20
-docs/20-getting-started @SAP-docs/btp-cloud-platform-getting-started-writers
-docs/30-development @nikolasimeonov77
-docs/40-extensions @nikolasimeonov77
-docs/50-administration-and-ops @nikolasimeonov77
-docs/60-security @nikolasimeonov77
+docs/10-concepts @nikolasimeonov77 @Peteva @AstridHerbst @sdanter @AnjaNicoleKretz @annawenger20
+docs/20-getting-started @nikolasimeonov77 @Peteva @AstridHerbst @AnjaNicoleKretz @annawenger20
+docs/30-development @nikolasimeonov77 @Peteva @AstridHerbst @dobrinka-stefanova-sap @lilyanarangelova @danachkov
+docs/40-extensions @nikolasimeonov77 @Peteva @AstridHerbst @ekaterina-mitova
+docs/50-administration-and-ops @nikolasimeonov77 @Peteva @AstridHerbst @annawenger20 @danachkov
+docs/60-security @nikolasimeonov77 @Peteva @AstridHerbst @dobrinka-stefanova-sap
 docs/70-getting-support @nikolasimeonov77 @danachkov
