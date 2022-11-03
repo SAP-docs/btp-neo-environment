@@ -10,11 +10,11 @@ Log in with the btp CLI is on global account level.
 
 ## Prerequisites
 
--   Your global account must be on feature set B. See [Cloud Management Tools — Feature Set Overview](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/caf4e4e23aef4666ad8f125af393dfb2.html "Cloud management tools represent the group of technologies designed for managing SAP BTP.") :arrow_upper_right:.Your global account must be on feature set B. See [Cloud Management Tools — Feature Set Overview](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/caf4e4e23aef4666ad8f125af393dfb2.html "Cloud management tools represent the group of technologies designed for managing SAP BTP.") :arrow_upper_right:.
+-   Your global account must be on feature set B. See [Cloud Management Tools — Feature Set Overview](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/caf4e4e23aef4666ad8f125af393dfb2.html "Cloud management tools represent the group of technologies designed for managing SAP BTP.") :arrow_upper_right:.
 
 -   You have to enter the subdomain of your global account. You can find it in the cockpit in the global account view or under *Switch Global Account*.
 
--   You have to enter the correct CLI server URL. Usually, it is proposed during login and you can confirm with [ENTER\]: `https://cpcli.cf.eu10.hana.ondemand.com` . If your operator has provided you with a different server URL, you'll have to enter that one.
+-   You have to enter the correct CLI server URL. Usually, it is proposed during login and you can confirm with [ENTER\]: `https://cpcli.cf.eu10.hana.ondemand.com`. If your operator has provided you with a different server URL, you'll have to enter that one.
 
 -   Your user is assigned to the `Global Account Viewer` or the `Global Account Administrator` role collection. See [Role Collections and Roles in Global Accounts, Directories, and Subaccounts [Feature Set B]](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/0039cf082d3d43eba9200fe15647922a.html "In the cloud management tools feature set B, SAP BTP provides a set of role collections to set up administrator access to your global account and subaccounts.") :arrow_upper_right:.
 
@@ -49,6 +49,8 @@ To login with a custom identity provider, use:
 btp login --sso --idp <TENANT>
 ```
 
+ 
+
 See [Log in with a Custom Identity Provider](log-in-with-a-custom-identity-provider-e48e486.md).
 
 
@@ -80,7 +82,7 @@ If trust is configured between your global account and a custom identity provide
 > ### Note:  
 > To work with users from a custom identity provider, you need to specify the `--of-idp` parameter by providing the origin key of the custom identity provider. This is applicable to the following commands: `btp list security/user`, `btp get security/user`, `btp delete security/user`, `btp assign security/role-collection`, `btp unassign security/role-collection`, and you find this origin key in the cockpit under *Security*.
 
-For more information about using a custom identiy provider, see [Establish Trust and Federation of Custom Identity Providers for Platform Users [Feature Set B]](https://help.sap.com/viewer/ae8e8427ecdf407790d96dad93b5f723/Cloud/en-US/c36898473d704e07a33268c9f9d29515.html "You want to use a custom identity provider for the platform users of SAP BTP in different environments and at the different account levels: global account, directory, and subaccount. By default, platform users in multi-environment subaccounts are users in the default identity provider.") :arrow_upper_right:.
+For more information about using a custom identity provider, see [Establish Trust and Federation of Custom Identity Providers for Platform Users [Feature Set B]](https://help.sap.com/viewer/ae8e8427ecdf407790d96dad93b5f723/Cloud/en-US/c36898473d704e07a33268c9f9d29515.html "You want to use a custom identity provider for the platform users of SAP BTP in different environments and at the different account levels: global account, directory, and subaccount. By default, platform users in multi-environment subaccounts are users in the default identity provider.") :arrow_upper_right:.
 
 
 

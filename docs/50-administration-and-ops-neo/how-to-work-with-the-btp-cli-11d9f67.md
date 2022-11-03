@@ -118,7 +118,7 @@ Displays help. See [Get Help](get-help-f8fd1e5.md).
 </td>
 <td valign="top">
 
-Prints tracing information for support. See [Troubleshooting and Support](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/4023e1504ebc4a00a5108b8f716fe9a3.html "Troubleshooting and support information for the btp CLI.") :arrow_upper_right:.
+Prints tracing information for support. See [Troubleshooting and Support](troubleshooting-and-support-4023e15.md).
 
 
 
@@ -141,8 +141,6 @@ Changes the output format of a command to JSON. See [Change the Output Format to
 </td>
 </tr>
 </table>
-
- 
 
 **Related Information**  
 
