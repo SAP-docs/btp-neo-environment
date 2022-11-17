@@ -17,7 +17,7 @@ SAP BTP runtime sets several system environment variables that identify the runt
 
 The following SAP BTP environment variables are set to the runtime environment of the application:
 
-<a name="loiod553d78bf9bd4ecbac201b873f557db6__table_r2y_nqk_1l"/>
+****
 
 
 <table>

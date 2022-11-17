@@ -7,7 +7,7 @@
 
 While transporting SAP BTP applications using the CTS+ tool, or while deploying solutions using the cockpit, you might encounter one of the following issues. This section provides troubleshooting information about correcting them.
 
-<a name="loiob3f6b49991e94e3ab4a4d8d17f9d110d__table_zrp_s13_pw"/>Troubleshooting
+**Troubleshooting**
 
 
 <table>

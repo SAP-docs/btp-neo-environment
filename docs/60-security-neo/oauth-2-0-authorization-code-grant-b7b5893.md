@@ -356,7 +356,7 @@ When the protected resource access check is performed the filter calls the API a
 
 In the table below the result handling between the authorization server and resource server, resource server and the API, and resource server and filter is presented.
 
-<a name="loiob7b589334d444293a2a91e0ef4234136__table_jkp_xwb_ml"/>Responses to requests for protected resources
+**Responses to requests for protected resources**
 
 
 <table>

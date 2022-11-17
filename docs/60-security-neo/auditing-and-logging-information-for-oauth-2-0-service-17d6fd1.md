@@ -4,7 +4,7 @@
 
 Here you can find a list of the security events that are logged by OAuth 2.0 Service.
 
-<a name="loio17d6fd1de6cb447da9ba19c99541e566__table_dqf_pkf_p4b"/>Security events written in audit logs
+**Security events written in audit logs**
 
 
 <table>

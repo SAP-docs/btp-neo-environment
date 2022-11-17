@@ -17,7 +17,7 @@ It is not the intent of this document to supplement or modify the contractual ag
 
 The responsibilities for operating the Neo environment are listed in the service catalog below.
 
-<a name="loio07f468373bb34661b753fb6fa4c592b1__table_i2l_2fv_4x"/>Service Catalog
+**Service Catalog**
 
 
 <table>

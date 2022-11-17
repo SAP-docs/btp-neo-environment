@@ -11,7 +11,7 @@ In this section, you can find information relevant for securing SAP HANA applica
 
 
 
-<a name="loio4ed551f2aa2f42e2915377f41e9f5b9f__table_ahl_wft_1r"/>Security Information
+**Security Information**
 
 
 <table>

@@ -68,7 +68,7 @@ The user mapping defines how the user name is derived from the received client c
 
 Use the following system properties to define user mapping:
 
-<a name="concept_rj3_3g4_rv__table_tjb_4g4_rv"/>System Properties for User Mappings
+**System Properties for User Mappings**
 
 
 <table>

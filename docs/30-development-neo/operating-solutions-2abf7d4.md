@@ -103,7 +103,7 @@ You can list the solutions that are available for subscription using the:
 
    
   
-<a name="loio2abf7d47063542208d0d99f7bc05f4f4__fig_xpg_1xh_mz"/>Operations Lifecycle of a Solution
+**Operations Lifecycle of a Solution**
 
  ![](images/Operatinons_Lifecycle_of_a_Solution_-_Latest_6965cb5.png "Operations Lifecycle of a Solution") 
 

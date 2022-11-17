@@ -20,7 +20,7 @@ SAP BTP supports the following Web-based tools: SAP HANA Web-based Development W
 
 You can access the SAP HANA Web-based tools using the Cockpit or the tool URLs. The following table summarizes what each supported tool does, and how to acess it.
 
-<a name="loioad3717d2c242436095fd12c158d7876f__table_dwm_rny_ct"/>Supported Web-Based Tools for SAP HANA Development and Administration
+**Supported Web-Based Tools for SAP HANA Development and Administration**
 
 
 <table>

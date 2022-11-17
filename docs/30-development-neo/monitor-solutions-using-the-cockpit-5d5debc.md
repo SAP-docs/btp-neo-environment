@@ -72,7 +72,7 @@ You have a valid role for your subaccount as described in [Operating Solutions](
 
 Depending on the solution type, the following components can be monitored:
 
-<a name="loio5d5debce48ce42bf9d10ac050d4c2c74__table_jry_vlj_ty"/>Solution Components
+**Solution Components**
 
 
 <table>

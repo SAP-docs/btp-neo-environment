@@ -11,7 +11,7 @@ The SAP BTP Runtime for Java enables the provisioning and running applications o
 
    
   
-<a name="loio9bd4dd19aef947b58eadf688ccc90de7__fig_e1r_jwt_lcb"/>Compute Unit
+**Compute Unit**
 
  ![](images/Runtime_Facilites_0296af1.png "Compute Unit") 
 

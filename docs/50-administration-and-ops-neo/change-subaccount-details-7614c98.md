@@ -17,7 +17,7 @@ The subaccount technical name is a unique identifier of the subaccount on SAP BT
 
 You can change to the following subaccount details:
 
-<a name="copy7614c98f7bce477da9bf057649c78b05__table_p5g_kkf_4z"/>Editable Subaccount Details
+**Editable Subaccount Details**
 
 
 <table>

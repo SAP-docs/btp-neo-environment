@@ -16,7 +16,7 @@ Both availability zones contain your applications, services, and databases. AZ 1
 
    
   
-<a name="loio5d5c1ec49c8b4bb6af0a546a8823edc2__fig_yln_3rd_tlb"/>Overview of Multi-AZ
+**Overview of Multi-AZ**
 
  ![](images/Multi-AZ_Overview_f838c7d.png "Overview of Multi-AZ") 
 

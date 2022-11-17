@@ -13,7 +13,7 @@ This section describes the error messages you may encounter when using BASIC aut
 
 For more information about using BASIC authentication, see [Authentication](authentication-e637f62.md#loioe637f62abb571014857cb0232adc43a7).
 
-<a name="loiofa6645e133f74544a44543226e933fc8__table_rbl_s53_24"/>Error Messages
+**Error Messages**
 
 
 <table>

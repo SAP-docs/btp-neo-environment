@@ -61,7 +61,7 @@ To log in manually, use `btp login`. The btp CLI prompts for all login informati
 
 Usage: `btp [OPTIONS] login [PARAMS]`
 
-<a name="loioe241b30195ff4d009dba3076e0ae8d27__table_l3v_w4l_w3b"/>Parameters
+**Parameters**
 
 
 <table>

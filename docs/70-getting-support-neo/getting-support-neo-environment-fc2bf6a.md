@@ -181,7 +181,7 @@ You can see recommended knowledge resources for the selected product area on the
 
     -   *Component*
 
-        Select the component name of the area that best fits your issue. Selecting the right component directs the issue to the corresponding support team. To check the complete list of components, see [Support Components \(prefiltered for the Neo environment\)](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/08d1103928fb42f3a73b3f425e00e13c.html?scp-env=Neo).
+        Select the component name of the area that best fits your issue. Selecting the right component directs the issue to the corresponding support team. To check the complete list of components, see [Support Components \(prefiltered for the Neo environment\)](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/08d1103928fb42f3a73b3f425e00e13c.html?scp-env=Neo).
 
         ![](images/Component_32c1772.png)
 

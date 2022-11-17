@@ -15,7 +15,7 @@ Lifecycle operations, for example, creating new HTML5 applications, creating new
 
    
   
-<a name="loio39723061bc4b4b679726b120cbefdf5a__fig_hnd_x2r_14"/>HTML5 Applications Overview
+**HTML5 Applications Overview**
 
 ![](images/HTML5_Applications_Overview_fb55409.png)
 

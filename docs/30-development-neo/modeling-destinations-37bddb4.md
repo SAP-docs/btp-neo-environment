@@ -11,7 +11,7 @@ Depending on whether the destination source is located within the SAP BTP or not
 
 The supported destination levels you can model within a Solution are:
 
-<a name="loio37bddb411fa9496d9db9699371c99138__table_q4r_m53_nz"/>Supported Levels of Destinations
+**Supported Levels of Destinations**
 
 
 <table>

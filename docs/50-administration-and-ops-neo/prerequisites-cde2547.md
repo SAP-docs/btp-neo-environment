@@ -16,6 +16,9 @@ Before configuring an SAP custom domain, you need to perform some preliminary st
 
 You need to have a quota for domains configured for your global account. One custom domain quota corresponds to one SSL host that you can use. For more information, see [Sign up for a Customer Account](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/d61c2819034b48e68145c45c36acba6e.html#loioa71a081b39e343e097046bf487f57af3 "A customer account is an enterprise account that allows you to host productive, business-critical applications with 24x7 support.") :arrow_upper_right:.
 
+> ### Note:  
+> Once you have the quota configured for your global account, you can use it in each of its subaccounts.
+
 The following two steps involve external service providers - domain name registrar and certificate authority.
 
 > ### Note:  

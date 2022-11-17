@@ -16,7 +16,7 @@ Entitlements and quotas are managed at the global account level, distributed to 
 
 There are two places in the SAP BTP cockpit where you can view and configure entitlements and quotas for subaccounts - at global account level and at subaccount level. Depending on your permissions, you may only have access to one of these pages. You can find more details below:
 
-<a name="copy23e9ad3fbf3f4423aeef8f915ef54846__table_yhl_1dx_1jb"/>Entitlements Pages \[Feature Set A\]
+**Entitlements Pages \[Feature Set A\]**
 
 
 <table>

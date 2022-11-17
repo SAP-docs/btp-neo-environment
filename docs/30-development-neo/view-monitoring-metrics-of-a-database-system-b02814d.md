@@ -22,7 +22,7 @@ The *readMonitoringData* scope is assigned to the used platform role for the sub
 > ### Note:  
 > You can also retrieve the current metrics of a database system with the Metrics API.
 
-<a name="loiob02814df3acf42d3b41c18c99ad35c27__table_bdx_hb1_3v"/>Default Metrics of a Database System
+**Default Metrics of a Database System**
 
 
 <table>
@@ -179,7 +179,7 @@ An alert is triggered when 5 consecutive checks with an interval of 1 minute are
 </tr>
 </table>
 
-<a name="loiob02814df3acf42d3b41c18c99ad35c27__table_nt4_wj1_v3b"/>Default Metrics of an SAP HANA System
+**Default Metrics of an SAP HANA System**
 
 
 <table>
@@ -523,7 +523,7 @@ An alert is triggered when a check isn't in an OK state.
 </tr>
 </table>
 
-<a name="loiob02814df3acf42d3b41c18c99ad35c27__table_yk2_wk1_v3b"/>Default Metrics of an SAP ASE System
+**Default Metrics of an SAP ASE System**
 
 
 <table>

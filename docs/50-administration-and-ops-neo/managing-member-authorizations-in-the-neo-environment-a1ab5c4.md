@@ -143,7 +143,7 @@ The following graphic illustrates the predefined Administrator, Developer, and S
 
    
   
-<a name="loioa1ab5c4cc117455392cd0a512c7f890d__fig_fdz_pff_xz"/>Amount of Platform Scopes
+**Amount of Platform Scopes**
 
  ![](images/Predefined_Roles_e7daa6d.png " Amount of Platform Scopes") 
 
@@ -163,7 +163,7 @@ The following example illustrates how custom platform roles in SAP BTP typically
 
    
   
-<a name="loioa1ab5c4cc117455392cd0a512c7f890d__fig_gmq_3hf_xz"/>Number of Platform Scopes
+**Number of Platform Scopes**
 
  ![](images/Custom_Roles_bfb3eeb.png "Number of Platform Scopes") 
 
