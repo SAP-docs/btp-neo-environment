@@ -206,18 +206,34 @@ The retrieved audit logs are in JSON format. The semantics of the JSON fields ar
 <tr>
 <th valign="top">
 
-UUID
+JSON field
 
 
 
 </th>
 <th valign="top">
 
-Unique identifier of the audit log message
+Semantic description
 
 
 
 </th>
+</tr>
+<tr>
+<td valign="top">
+
+UUID
+
+
+
+</td>
+<td valign="top">
+
+Unique identifier of the audit log message
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">

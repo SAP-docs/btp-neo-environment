@@ -31,5 +31,5 @@ You model the supported entities according to the MTA specification so that they
 
 
 
-[Create a Hello World Multitarget Application](create-a-hello-world-multitarget-application-4b108e8.md)
+[Create a Hello World Multitarget Application](create-a-hello-world-multitarget-application-4b108e8.md "To learn how to create a Hello World Multitarget Application see our Create a Hello World Multitarget Application tutorial.")
 

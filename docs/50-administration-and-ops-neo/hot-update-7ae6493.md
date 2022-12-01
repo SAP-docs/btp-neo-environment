@@ -33,8 +33,6 @@ neo hot-update --host <host> --account <subaccount_technical_name> --application
 
 -   You can't change deploy parameters and context path of the application.
 
--   This command doesn't support enhanced disaster recovery.
-
 
 
 

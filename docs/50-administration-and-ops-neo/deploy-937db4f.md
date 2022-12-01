@@ -2,9 +2,7 @@
 
 # deploy
 
-Deploying an application publishes it to SAP BTP. Use the optional parameters to make some specific configurations of the deployed application.
-
-If you use enhanced disaster recovery, the application is deployed first on the specified region and then on the disaster recovery region.
+ Deploying an application publishes it to SAP BTP. Use the optional parameters to make some specific configurations of the deployed application. 
 
 
 
@@ -220,9 +218,6 @@ Use it to speed up deployment of application archives bigger than 5 MB in slow n
 <td valign="top">
 
 Deploys only the changes between the provided source and the deployed content. New content will be added; missing content will be deleted. Recommended for development use to speed up the deployment.
-
-> ### Note:  
-> The deployment to the disaster recovery region is not supported with this parameter.
 
 `Acceptable values`: None
 

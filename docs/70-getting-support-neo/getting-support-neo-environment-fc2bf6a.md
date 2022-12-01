@@ -162,8 +162,8 @@ You can see recommended knowledge resources for the selected product area on the
 
     Provide:
 
-    -   Region and global account name. In the cockpit, open the affected subaccount, and copy the URL.
-    -   Java application name and URL \(if the problem is related to Java applications\). In the cockpit, open the respective Java application’s Overview page.
+    -   Region and global account name. In the cockpit, open the affected subaccount, and copy the URL. See [Account Administration in the Cockpit](../50-administration-and-ops-neo/account-administration-in-the-cockpit-71eaba1.md).
+    -   Java application name and URL \(if the problem is related to Java applications\). In the cockpit, open the respective Java application’s Overview page. See [Account Administration in the Cockpit](../50-administration-and-ops-neo/account-administration-in-the-cockpit-71eaba1.md).
     -   Database-related details based on your environment and infrastructure provider \(if the problem is related to SAP HANA\). See [Providing Details for SAP HANA Service Database Problems](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/75cde5383e8d42dabd039b7dceef9511.html "If your problem is related to a SAP HANA service database, the details you need to provide differ depending on the environment or infrastructure provider the database is provisioned in.") :arrow_upper_right:.
 
 

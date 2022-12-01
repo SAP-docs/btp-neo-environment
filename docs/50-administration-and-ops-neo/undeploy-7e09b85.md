@@ -2,9 +2,7 @@
 
 # undeploy
 
-Undeploying an application removes it from SAP BTP. To undeploy an application, you have to stop it first.
-
-If you use SAP Enhanced Disaster Recovery service, the application is undeployed first on the disaster recovery region and then on the specified region.
+ Undeploying an application removes it from SAP BTP. To undeploy an application, you have to stop it first. 
 
 
 

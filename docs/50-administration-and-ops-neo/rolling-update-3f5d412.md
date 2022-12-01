@@ -23,10 +23,6 @@ The rolling-update command performs update of an application without downtime in
 The rolling-update command performs the following steps:
 
 1.  Deploys a new version of the application.
-
-    > ### Note:  
-    > If you use enhanced disaster recovery, the application is also deployed on the disaster recovery region without being started.
-
 2.  Starts a new application process.
 3.  Disables new connection requests for one of the old application processes.
 4.  Waits for the given timeout.
