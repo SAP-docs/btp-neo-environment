@@ -17,7 +17,9 @@ The SAP BTP Runtime for Java comprises the components which create the environme
 
 -   Java Virtual Machine
 
-    SAP BTP infrastructure runs on SAP's own implementation of a Java Virtual Machine - SAP Java Virtual Machine \(JVM\). SAP JVM is a certified Java Virtual Machine and Java Development Kit \(JDK\), compliant to Java Standard Edition \(SE\) 8. Technology-wise it is based on the OpenJDK and has been enhanced with a strong focus on supportability and reliability.
+    SAP BTP infrastructure runs on Java Virtual Machines that are built and supported by SAP. Java 17 code runs on SapMachine, a build of OpenJDK released by SAP, enriched with supportability features and patched if needed for SAP products. Old Java 8 code runs on SAP's own implementation of a Java Virtual Machine - SAP Java Virtual Machine \(SAP JVM\).
+
+    SapMachine and SAP JVM are certified Open Java Development Kits \(OpenJDK\), Java Virtual Machine and Java Development Kit \(JDK\), compliant to Java Standard Edition \(SE\) 8, 11 and 17. Technology-wise they are based on the OpenJDK. Especially SAP JVM 8 has been enhanced with a strong focus on supportability wrt. OpenJDK 8.
 
 -   Application Runtime Container
 
@@ -34,8 +36,6 @@ The SAP BTP Runtime for Java comprises the components which create the environme
 [Java Virtual Machine](java-virtual-machine-da030d1.md)
 
 [Application Runtime Container](application-runtime-container-7613bd2.md)
-
-[Compute Units](compute-units-7612fba.md)
 
 [Supported Java APIs](supported-java-apis-e836a95.md)
 

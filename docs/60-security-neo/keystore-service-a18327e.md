@@ -30,7 +30,7 @@ If you want to use cryptography with unlimited strength in an SAP BTP applicatio
 
 [Enabling Client Certificate Authentication](enabling-client-certificate-authentication-0d7cf63.md "You can enable the users for your Web application to authenticate using client certificates. This corresponds to the CERT and BASICCERT authentication methods supported in Java EE.")
 
-[Enable Strong Encryption in Applications](enable-strong-encryption-in-applications-289f3aa.md "This is a deprecated procedure how to install Java Cryptography Extension (JCE) Unlimited Strength Jurisdiction Policy Files on SAP JVM to enable unlimited cryptography power. You do not need to use it anymore. All supported runtimes already come with a Java version that supports strong encryption.")
+
 
 [Storing Passwords](storing-passwords-244dbc2.md)
 

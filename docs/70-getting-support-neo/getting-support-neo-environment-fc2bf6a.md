@@ -269,3 +269,5 @@ To submit an incident, you can use one of the following support channels:
 
 [Root Cause Analysis](https://help.sap.com/viewer/product/SCP_RCA/Latest/en-US)
 
+[Road Map for Neo Environment](https://roadmaps.sap.com/board?range=CURRENT-LAST&q=Neo%20environment)
+

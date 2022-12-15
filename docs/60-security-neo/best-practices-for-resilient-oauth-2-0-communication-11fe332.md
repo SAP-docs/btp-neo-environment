@@ -8,7 +8,7 @@ Use the following best practices to build resilient OAuth 2.0 communication.
 
 <a name="loio11fe332c05cb4d5fa9f752736f6b7575__section_gv2_nzm_3qb"/>
 
-## Key Points
+## Key Takeaways
 
 -   Tokens can always be issued.
 -   Persistent tokens cannot be validated in rare cases \(for example, DB outage and LRU cache miss\). In this case 401 would be returned.
@@ -21,6 +21,9 @@ Use the following best practices to build resilient OAuth 2.0 communication.
 ## JWT Tokens
 
 An OAuth 2.0 Client can request one of the following two types of access tokens: persistent \(stored in the system database \(default situation\)\) or JWT \(on-demand\).
+
+> ### Note:  
+> For some platform APIs, JWT tokens are always used, and cannot be switched off.
 
 Using JWT tokens enables faster and more robust token validation than using the default persistent tokens. Hence, we recommend that JWT tokens are used whenever possible \(see some constraints below\).
 
@@ -36,7 +39,14 @@ Append the following query parameter to the token request:
 
 `“token_format=jwt”`
 
-Note: For some Platform APIs, JWT tokens are used by default and cannot be switched off.
+> ### Note:  
+> This token format is not fully compliant with the JWT RFC. If you need full RFC compatibility, use an alternative query parameter \(token format\):
+> 
+> `“token_format=jwtrfc”`
+> 
+> If you're using the OAuth client for your custom application, make sure it is running on the latest supported version of its runtime \(see [Check the Process Status](../50-administration-and-ops-neo/check-the-process-status-499992d.md)\). We recommend that you restart the application if you haven't done it recently \(see [Restart Applications](../50-administration-and-ops-neo/restart-applications-7b2d704.md)\).
+> 
+> If you're using the OAuth client for a platform API, you probably don't need to take any action. If you get problems using the particular API, create an incident in the component for that service. See [Getting Support, Neo Environment](../70-getting-support-neo/getting-support-neo-environment-fc2bf6a.md).
 
 
 
