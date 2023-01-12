@@ -705,7 +705,6 @@
     -   [Audit Logging in the Neo Environment](60-security-neo/audit-logging-in-the-neo-environment-02c3971.md)
         -   [Audit Log Retrieval API Usage for the Neo Environment](60-security-neo/audit-log-retrieval-api-usage-for-the-neo-environment-e4d818d.md)
         -   [Audit Log Retention API Usage for the Neo Environment](60-security-neo/audit-log-retention-api-usage-for-the-neo-environment-fb195bf.md)
-        -   [Security Events Logged by the Neo Services](60-security-neo/security-events-logged-by-the-neo-services-2f02cbe.md)
     -   [Principal Propagation](60-security-neo/principal-propagation-f70fcf1.md)
         -   [Principal Propagation Between Neo Subaccounts](60-security-neo/principal-propagation-between-neo-subaccounts-038c9de.md#loio038c9de27e5c4867a3f13cda9e8c0823)
             -   [Create Trust Between the Subaccounts](60-security-neo/principal-propagation-between-neo-subaccounts-038c9de.md#loio059e603255fe4769bfa784701d63f7f1)

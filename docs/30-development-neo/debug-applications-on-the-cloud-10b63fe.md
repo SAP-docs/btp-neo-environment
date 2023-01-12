@@ -43,6 +43,9 @@ You can use IDE of your choice for developing the application. You must use Ecli
 8.  Set breakpoints in your application.
 9.  Request your application.
 
+> ### Note:  
+> If you encounter any issues, see [Getting Support, Neo Environment](../70-getting-support-neo/getting-support-neo-environment-fc2bf6a.md).
+
 **Related Information**  
 
 

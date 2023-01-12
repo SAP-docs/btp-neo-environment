@@ -13,9 +13,9 @@ You can check the current status of an application or application process. The c
 
 The command also lists the availability zones where these application processes are running. However, this is only valid for recently started applications and if you have the latest SAP BTP SDK for Neo environment version installed.
 
-The availability zones ensure the high availability of your application processes. If one of the availability zones experiences infrastructure issues and downtime, only the processes in this zone are affected. The remaining processes continue to run normally, ensuring that your application is working as expected.
+If multiple processes are running, it's guaranteed that they're on separate hardware entities. Therefore, if one of these processes is affected by an infrastructure issue, the others continue to run normally ensuring that your application is working as expected.
 
-When an application process is running but cannot receive new connection requests, it is marked as disabled in its status description. Additionally, if an application is in planned downtime and a maintenance page has been configured for it, the corresponding application is listed in the command output.
+When an application process is running but can't receive new connection requests, it's marked as disabled in its status description. Additionally, if an application is in planned downtime and a maintenance page has been configured for it, the corresponding application is listed in the command output.
 
 ```
 neo status --account <subaccount_technical_name> --application <application_name> --host <host> --user <e-mail_or_user>
@@ -161,7 +161,7 @@ Optional
 </td>
 <td valign="top">
 
-Unique ID of a single application process. Use it to show the status of a particular application process instead of the whole application. As the process ID is unique, you do not need to specify subaccount and application parameters.
+Unique ID of a single application process. Use it to show the status of a particular application process instead of the whole application. As the process ID is unique, you don't need to specify subaccount and application parameters.
 
 `Default`: none
 
@@ -181,7 +181,7 @@ Unique ID of a single application process. Use it to show the status of a partic
 </td>
 <td valign="top">
 
-Shows the full length \(40 characters\) of the unique application process ID. You may need to get the full ID when you try to execute a certain operation on the application process and the process cannot be identified uniquely with the short version of the ID. In particular, usage of the full length is recommended for tools and batch processing. If this parameter is not used, the status command lists only the first 7 characters by default.
+Shows the full length \(40 characters\) of the unique application process ID. You may need to get the full ID when you try to execute a certain operation on the application process and the process can't be identified uniquely with the short version of the ID. In particular, usage of the full length is recommended for tools and batch processing. If this parameter isn't used, the status command lists only the first 7 characters by default.
 
 `Default`: off
 

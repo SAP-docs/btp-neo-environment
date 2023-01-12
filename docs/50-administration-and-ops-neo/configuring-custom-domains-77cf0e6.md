@@ -245,6 +245,9 @@ To route the traffic for your custom domain to your application on the platform,
 
 You need to make a CNAME mapping from your custom domain to the created SSL host for each custom domain you want to use. This mapping is specific for the domain name provider you are using. Usually, you can modify CNAME records using the administration tools available from your domain name registrar.
 
+> ### Note:  
+> We don't recommend that you use A records, because they will map your domain to the IP address of the SSL host. This IP address can change and cause your custom domain setup to stop working.
+
 
 
 ## Procedure

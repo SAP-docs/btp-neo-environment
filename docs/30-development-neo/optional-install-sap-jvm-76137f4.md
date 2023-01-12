@@ -11,16 +11,16 @@
 
 ## Context
 
-SAP BTP infrastructure runs on SAP's own implementation of a Java Virtual Machine - SAP Java Virtual Machine \(JVM\).
+SAP BTP infrastructure runs on Java Virtual Machines that are built and supported by SAP. Java 11 code and newer runs on SapMachine, a build of OpenJDK released by SAP, enriched with supportability features and patched if needed for SAP products. Old Java 8 code runs on SAP's own implementation of a Java Virtual Machine - SAP Java Virtual Machine \(SAP JVM\).
 
-SAP JVM is a certified Java Virtual Machine and Java Development Kit \(JDK\), compliant to Java Standard Edition \(SE\) 8. Technology-wise it is based on the OpenJDK and has been enhanced with a strong focus on supportability and reliability. One example of these enhancements is the SAP JVM Profiler. The SAP JVM Profiler is a tool that helps you analyze the resource consumption of a Java application running on theSAP BTP local runtime. You can use it to profile simple stand-alone Java programs or complex enterprise applications.
+SAP JVM is a certified Java Virtual Machine and Java Development Kit \(JDK\), compliant to Java Standard Edition \(SE\) 8. Technology-wise it is based on the OpenJDK and has been enhanced with a strong focus on supportability and reliability. One example of these enhancements is the SAP JVM Profiler. The SAP JVM Profiler is a tool that helps you analyze the resource consumption of a Java application running on the SAP BTP local runtime. You can use it to profile simple stand-alone Java programs or complex enterprise applications.
 
 Customer support is provided directly by SAP for the full maintenance period of SAP applications that use the SAP JVM. For more information, see [Java Virtual Machine](java-virtual-machine-da030d1.md)
 
 Follow the steps below to install an SAP Java Virtual Machine.
 
 > ### Note:  
-> This is an optional procedure. You can also run your local server for SAP BTP on a standard JDK platform, that is an Oracle JVM. SAP JVM, however, is a prerequisite for local profiling with the SAP JVM Profiler.
+> This is an optional procedure. You can also run your local server for SAP BTP on [SapMachine](https://sapmachine.io/) or a standard JDK platform, that is an Oracle JVM. SAP JVM, however, is a prerequisite for local profiling with the SAP JVM Profiler.
 
 
 
