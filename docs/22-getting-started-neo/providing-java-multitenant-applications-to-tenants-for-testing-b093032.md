@@ -15,7 +15,7 @@ Using the console client, you can create subaccounts and subscribe them to a pro
 
 -   Set up the console client. For more information, see [Set Up the Console Client](../30-development-neo/set-up-the-console-client-7613dee.md).
 -   Develop and deploy an application that is used by multiple consumers. For more information, see [Developing Multitenant Applications in the Neo Environment](../30-development-neo/developing-multitenant-applications-in-the-neo-environment-54a7615.md).
--   You have an enterprise account. For more information, see [Global Accounts](../10-concepts-neo/account-model-722a475.md#copy4522503a44ef4230a803ebd9bfe1b28a).
+-   You have an enterprise account. For more information, see [Global Accounts](../10-concepts-neo/account-model-722a475.md#loio9b7d44f92eec44a6ae87129c02aeec0d).
 
 -   You are a member to both subaccounts: the one where the multitenant application is deployed and the one that you subscribe to the application.
 

@@ -20,7 +20,7 @@ Customer support is provided directly by SAP for the full maintenance period of 
 Follow the steps below to install an SAP Java Virtual Machine.
 
 > ### Note:  
-> This is an optional procedure. You can also run your local server for SAP BTP on [SapMachine](https://sapmachine.io/) or a standard JDK platform, that is an Oracle JVM. SAP JVM, however, is a prerequisite for local profiling with the SAP JVM Profiler.
+> This is an optional procedure. You can also run your local server for SAP BTP on SapMachine \(https://sapmachine.io\) or a standard JDK platform, that is an Oracle JVM. SAP JVM, however, is a prerequisite for local profiling with the SAP JVM Profiler.
 
 
 

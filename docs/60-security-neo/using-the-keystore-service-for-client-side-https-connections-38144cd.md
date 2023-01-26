@@ -279,10 +279,3 @@ You test and run the application on your local server and on SAP BTP.
     ```
 
 
-**Related Information**  
-
-
-[Configure Keystore on Local Server](configure-keystore-on-local-server-a0fa997.md)
-
-[Configure Keystore on Cloud](configure-keystore-on-cloud-b3ffae7.md)
-

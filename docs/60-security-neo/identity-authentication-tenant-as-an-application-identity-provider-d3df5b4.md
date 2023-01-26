@@ -36,7 +36,7 @@ Identity Authentication service provides identity management for SAP BTP applica
 
 3.  Choose the *Application Identity Provider* tab page. Proceed here depending on one of the following cases:
 
-    -   You have a tenant for Identity Authentication service registered for the SAP customer user \(s-user\) who owns your global account \(see \). You want to add the tenant as an identity provider.
+    -   You have a tenant for Identity Authentication service registered for the SAP customer user \(s-user\) who owns your global account \(see [Global Accounts](../10-concepts-neo/account-model-722a475.md#loio9b7d44f92eec44a6ae87129c02aeec0d)\). You want to add the tenant as an identity provider.
 
         1.  Click *Add Identity Authentication Tenant*.
         2.  Choose the required Identity Authentication tenant and save the changes.

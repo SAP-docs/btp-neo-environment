@@ -127,7 +127,7 @@ You have successfully created a Web application containing a sample JSP file and
 
 ## 4. Deploy the application
 
-To learn how to deploy your application, see .
+To learn how to deploy your application, see [Deploying and Updating Java Applications](deploying-and-updating-java-applications-e5dfbc6.md).
 
 
 

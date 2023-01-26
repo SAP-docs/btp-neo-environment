@@ -110,7 +110,7 @@ This tutorial explains how to create a sample application which makes use of the
 
 ## 4. Deploy the application
 
-To learn how to deploy your application, see .
+To learn how to deploy your application, see [Deploying and Updating Java Applications](deploying-and-updating-java-applications-e5dfbc6.md).
 
 
 

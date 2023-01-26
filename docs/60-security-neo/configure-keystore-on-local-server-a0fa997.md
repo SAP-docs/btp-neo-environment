@@ -15,15 +15,10 @@
 
 ## Procedure
 
-1.  To deploy your Web application on the local server, follow the steps for deploying a Web application locally as described in .
+1.  Deploy your Web application on the local server. See [Deploy Locally with the Console Client](../30-development-neo/deploy-locally-with-the-console-client-937c833.md).
 
 2.  To upload the required keystores, copy the prepared `client.jks` and `cacerts.jks` files into `<local server root>\config_master\com.sap.cloud.crypto.keystore` subfolder.
 
 3.  To test the functionality, open the following URL in your Web browser: `http://localhost:<local server HTTP port>/HelloWorld/SSLExampleServlet?host=<remote HTTPS server host name>&port=<remote HTTPS server port number>&path=<remote HTTPS server resource>&client.keystore.password=<client identity keystore password>`.
-
-
-**Related Information**  
-
-
 
 

@@ -30,6 +30,6 @@ To learn more about the concept of subaccounts, see [Subaccounts](https://help.s
 
     -   [Change Subaccount Details](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/567d4a84bfdc428f8f3640e07261f73a.html "Edit subaccounts using the SAP BTP cockpit.") :arrow_upper_right:
     -   [View Subaccount Usage Analytics](view-subaccount-usage-analytics-8f4d9db.md)
-    -   [Delete a Subaccount](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/419dc3d380e74f1abb06ba44d61e71ae.html "Delete subaccounts using the SAP BTP cockpit.") :arrow_upper_right:
+    -   [Delete a Subaccount](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/419dc3d380e74f1abb06ba44d61e71ae.html "Delete subaccounts using the SAP BTP cockpit to clean up your account hierarchy, free up quota used by services in your subaccounts, and to reduce overall costs.") :arrow_upper_right:
 
 

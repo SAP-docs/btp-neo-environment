@@ -43,5 +43,5 @@ You can define the privacy link relevant for a global account so the members of 
 
 
 
-[Global Accounts](../10-concepts-neo/account-model-722a475.md#copy4522503a44ef4230a803ebd9bfe1b28a "Global accounts are hosted environments that represent the scope of the functionality and the level of support based on a customer or partner’s entitlement to platform resources and services.")
+
 

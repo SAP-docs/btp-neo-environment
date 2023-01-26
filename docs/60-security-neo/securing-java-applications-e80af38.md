@@ -39,18 +39,3 @@ Cross-site Scripting \(XSS\) is one of the most common types of malicious attack
 
 Cross-Site Request Forgery \(CSRF\) is another common type of attack to Web applications. You can protect applications running on SAP BTP from CSRF, based on the Tomcat Prevention Filter.
 
-**Related Information**  
-
-
-[Application Identity Provider](application-identity-provider-dc61853.md#loiodc618538d97610148155d97dcd123c24 "The application identity provider supplies the user base for your applications. For example, you can use your corporate identity provider for your applications. This is called identity federation. SAP BTP supports Security Assertion Markup Language (SAML) 2.0 for identity federation.")
-
-[Test Security on the Cloud \(with a Local Identity Provider\)](test-security-on-the-cloud-with-a-local-identity-provider-754818e.md "You can use a local test identity provider (IdP) to test single sign on (SSO) and identity federation of an SAP BTP application end-to-end.")
-
-[Managing Roles](managing-roles-db8175b.md "In SAP BTP, you can use Java EE roles to define access to the application resources.")
-
-[Authentication](authentication-e637f62.md#loioe637f62abb571014857cb0232adc43a7 "In the Neo environment, enable user authentication for access to your applications.")
-
-[Protection from Cross-Site Scripting \(XSS\)](protection-from-cross-site-scripting-xss-e643316.md "This document describes how to protect SAP BTP applications from XSS attacks.")
-
-[Using the Apache Tomcat CSRF Prevention Filter](using-the-apache-tomcat-csrf-prevention-filter-e5be999.md)
-

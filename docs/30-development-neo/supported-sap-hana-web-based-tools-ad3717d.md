@@ -18,7 +18,7 @@ SAP BTP supports the following Web-based tools: SAP HANA Web-based Development W
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**
 
-You can access the SAP HANA Web-based tools using the Cockpit or the tool URLs. The following table summarizes what each supported tool does, and how to acess it.
+You can access the SAP HANA Web-based tools using the SAP BTP Cockpit or the tool URLs. The following table summarizes what each supported tool does, and how to acess it.
 
 **Supported Web-Based Tools for SAP HANA Development and Administration**
 
@@ -41,7 +41,7 @@ Description
 </th>
 <th valign="top">
 
-Where to Find It in the Cockpit
+How to Access it
 
 
 
@@ -73,7 +73,24 @@ For more information, see the [Developer Guide for SAP HANA Web Workbench](https
 </td>
 <td valign="top">
 
- *Development Tools* section: *SAP HANA Web-based Development Workbench* 
+You can enable access to the SAP HANA Web-based Development Workbench from the SAP BTP cockpit or from SAP HANA Studio:
+
+-   **From the SAP BTP cockpit:**
+
+    1.  Go to the overview page of the tenant database.
+
+    2.  In the *Details* section, choose *Enable SYSTEM User* and provide the password for the SYSTEM user of the tenant database.
+
+        > ### Note:  
+        > You must enable the SYSTEM user once per tenant database, as by default, the SYSTEM user does not have permissions to open the Web-based Development Workbench.
+        > 
+        > When you choose *Enable SYSTEM User*, the role `sap.hana.ide.roles::SecurityAdmin` is added to the SYSTEM user and enables you to use the security functionality of the Web-based Development Workbench.
+
+    3.  To log on, click on *SAP HANA Web-based Development Workbench*.
+
+
+-   **From SAP HANA Studio:**Create a database user and assign the required roles. For more information, see [Access the SAP HANA Web-based Development Workbench on SAP HANA 2.0 Systems](https://help.sap.com/viewer/d4790b2de2f4429db6f3dff54e4d7b3a/Cloud/en-US/dc49e3e66f4548afb415da987da3fd6a.html#loiodc49e3e66f4548afb415da987da3fd6a "To access the SAP HANA Web-based Development Workbench on SAP HANA 2.0 systems, create a database user using SAP HANA studio and assign the user the required roles.") :arrow_upper_right:.
+
 
 
 
@@ -108,14 +125,35 @@ For more information, see the [SAP HANA Administration Guide](https://help.sap.c
 </td>
 <td valign="top">
 
- *Administration Tools* section: *SAP HANA Cockpit* 
+SAP HANA Cockpit 1.0 is not supported for HANA 2.0
+
+For SAP HANA Cockpit 2.0 \(on-premise\), do the following:
+
+You can enable access to the SAP HANA Web-based Development Workbench from the SAP BTP cockpit or from SAP HANA Studio:
+
+-   **From the SAP BTP cockpit:**
+
+    1.  Go to the overview page of the tenant database.
+
+    2.  In the *Details* section, choose *Enable SYSTEM User* and provide the password for the SYSTEM user of the tenant database.
+
+        > ### Note:  
+        > You must enable the SYSTEM user once per tenant database, as by default, the SYSTEM user does not have permissions to open the Web-based Development Workbench.
+        > 
+        > When you choose *Enable SYSTEM User*, the role `sap.hana.ide.roles::SecurityAdmin` is added to the SYSTEM user and enables you to use the security functionality of the Web-based Development Workbench.
+
+    3.  To log on, click on *SAP HANA Web-based Development Workbench*.
+
+
+-   **From SAP HANA Studio:**Create a database user and assign the required roles. For more information, see [Access the SAP HANA Web-based Development Workbench on SAP HANA 2.0 Systems](https://help.sap.com/viewer/d4790b2de2f4429db6f3dff54e4d7b3a/Cloud/en-US/dc49e3e66f4548afb415da987da3fd6a.html#loiodc49e3e66f4548afb415da987da3fd6a "To access the SAP HANA Web-based Development Workbench on SAP HANA 2.0 systems, create a database user using SAP HANA studio and assign the user the required roles.") :arrow_upper_right:.
+
 
 
 
 </td>
 <td valign="top">
 
- `https://<database instance><subaccount>.<host>/sap/hana/xs/admin/cockpit` 
+ 
 
 
 
@@ -140,7 +178,7 @@ For more information, see the [SAP HANA Administration Guide](https://help.sap.c
 </td>
 <td valign="top">
 
- *Administration Tools* section: *SAP HANA XS Administration* 
+ 
 
 
 

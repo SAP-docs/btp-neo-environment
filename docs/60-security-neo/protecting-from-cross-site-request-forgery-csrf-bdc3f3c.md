@@ -14,5 +14,5 @@ If an application connects to a REST service, the corresponding REST service mus
 
 [Application Identity Provider](application-identity-provider-dc61853.md#loiodc618538d97610148155d97dcd123c24 "The application identity provider supplies the user base for your applications. For example, you can use your corporate identity provider for your applications. This is called identity federation. SAP BTP supports Security Assertion Markup Language (SAML) 2.0 for identity federation.")
 
-[Test Security on the Cloud \(with a Local Identity Provider\)](test-security-on-the-cloud-with-a-local-identity-provider-754818e.md "You can use a local test identity provider (IdP) to test single sign on (SSO) and identity federation of an SAP BTP application end-to-end.")
+
 

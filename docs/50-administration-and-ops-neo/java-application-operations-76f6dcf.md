@@ -71,29 +71,6 @@ Specify various configurations using commands.
 
 </td>
 </tr>
-<tr>
-<td valign="top">
-
-Eclipse IDE
-
-
-
-</td>
-<td valign="top">
-
-  
-
-
-
-</td>
-<td valign="top">
-
-Use the options for advanced server and application configurations as well as direct reference to the cockpit UI.
-
-
-
-</td>
-</tr>
 </table>
 
 

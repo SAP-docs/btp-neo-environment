@@ -59,7 +59,7 @@ By default, the SAP BTP cockpit and console client are configured to use SAP ID 
 
 -   You have enabled the Platform Identity Provider service. See [Using Services in the Neo Environment](../30-development-neo/using-services-in-the-neo-environment-a32d3d5.md#loioa32d3d532e2d4dceaaca4ebab68df037).
 
--   You have an Identity Authentication tenant registered for the SAP customer user \(s-user\) who owns your global account \(see \).
+-   You have an Identity Authentication tenant registered for the SAP customer user \(s-user\) who owns your global account \(see [Global Accounts](../10-concepts-neo/account-model-722a475.md#loio9b7d44f92eec44a6ae87129c02aeec0d)\).
 
 -   The Identity Authentication tenant is configured. See [Identity Authentication documentation](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/d17a116432d24470930ebea41977a888.html).
 

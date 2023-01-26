@@ -9,12 +9,5 @@
 
 If you have already installed and used the SAP BTP Tools, SAP BTP SDK for Neo environment and SAP JVM, you only need to keep them up to date.
 
-Follow the relevant procedures listed below.
-
-
-
--   [sdk-upgrade](../50-administration-and-ops-neo/sdk-upgrade-44dc673.md)
-
--   
-
+Follow the procedure at [sdk-upgrade](../50-administration-and-ops-neo/sdk-upgrade-44dc673.md).
 
