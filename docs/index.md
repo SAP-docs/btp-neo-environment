@@ -369,7 +369,7 @@
                 -   [Enable Application Providers to Access Your Subaccount](50-administration-and-ops-neo/enable-application-providers-to-access-your-subaccount-fa1bd9c.md)
                 -   [Manage Custom Platform Roles](50-administration-and-ops-neo/manage-custom-platform-roles-ede5f72.md)
                 -   [Platform Scopes](50-administration-and-ops-neo/platform-scopes-f226074.md)
-    -   [Account Administration Using the SAP BTP Command Line Interface \(btp CLI\) \[Feature Set B\]](50-administration-and-ops-neo/account-administration-using-the-sap-btp-command-line-interface-btp-cli-feature-set-7c6df2d.md)
+    -   [Account Administration Using the SAP BTP Command Line Interface \(btp CLI\)](50-administration-and-ops-neo/account-administration-using-the-sap-btp-command-line-interface-btp-cli-7c6df2d.md)
         -   [Download and Start Using the btp CLI Client](50-administration-and-ops-neo/download-and-start-using-the-btp-cli-client-8a8f17f.md)
             -   [Get Updates](50-administration-and-ops-neo/get-updates-e92aa78.md)
         -   [Command Syntax of the btp CLI](50-administration-and-ops-neo/command-syntax-of-the-btp-cli-69606f4.md)

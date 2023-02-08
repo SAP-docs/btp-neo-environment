@@ -51,7 +51,7 @@ Whenever you directly access a Neo subaccount that supports cloud management too
 
 ## Working with Neo subaccounts using the SAP BTP command line interface
 
-The SAP BTP command line interface \(btp CLI\) allows you to perform a wide range of account management tasks using the command line. For more information, see [Account Administration Using the SAP BTP Command Line Interface \(btp CLI\) \[Feature Set B\]](../50-administration-and-ops-neo/account-administration-using-the-sap-btp-command-line-interface-btp-cli-feature-set-7c6df2d.md).
+The SAP BTP command line interface \(btp CLI\) allows you to perform a wide range of account management tasks using the command line. For more information, see [Account Administration Using the SAP BTP Command Line Interface \(btp CLI\)](../50-administration-and-ops-neo/account-administration-using-the-sap-btp-command-line-interface-btp-cli-7c6df2d.md).
 
 Whenever you directly access a Neo subaccount, you need to work with the Neo command console or the SAP BTP cockpit. These are the known conditions and scope when working with Neo subaccounts in the btp CLI:
 

@@ -13,7 +13,7 @@ You can check the current status of an application or application process. The c
 
 The command also lists the availability zones where these application processes are running. However, this is only valid for recently started applications and if you have the latest SAP BTP SDK for Neo environment version installed.
 
-If multiple processes are running, it's guaranteed that they're on separate hardware entities. Therefore, if one of these processes is affected by an infrastructure issue, the others continue to run normally ensuring that your application is working as expected.
+If two or more processes of an application are running in the same availability zone, they're on separate hardware entities. Therefore, if one of these processes is affected by an infrastructure issue, the others continue to run normally ensuring that your application is working as expected.
 
 When an application process is running but can't receive new connection requests, it's marked as disabled in its status description. Additionally, if an application is in planned downtime and a maintenance page has been configured for it, the corresponding application is listed in the command output.
 
@@ -130,7 +130,7 @@ To protect your password, enter it only when prompted by the console client and 
 </td>
 <td valign="top">
 
-Use your email, SAP ID or user name
+Use your email, SAP ID, or user name
 
 `Type`: string
 

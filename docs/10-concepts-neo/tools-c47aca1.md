@@ -44,7 +44,7 @@ The SAP BTP cockpit is the web-based administration interface of SAP BTP and pro
 <tr>
 <td valign="top">
 
-[Account Administration Using the SAP BTP Command Line Interface \(btp CLI\) \[Feature Set B\]](../50-administration-and-ops-neo/account-administration-using-the-sap-btp-command-line-interface-btp-cli-feature-set-7c6df2d.md)
+[Account Administration Using the SAP BTP Command Line Interface \(btp CLI\)](../50-administration-and-ops-neo/account-administration-using-the-sap-btp-command-line-interface-btp-cli-7c6df2d.md)
 
 
 
