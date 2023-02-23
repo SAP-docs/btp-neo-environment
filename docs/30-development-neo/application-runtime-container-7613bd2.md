@@ -110,7 +110,7 @@ If you need a simplified Java Web application runtime container based on Apache 
 <tr>
 <td valign="top">
 
-[Java Web Tomcat 8](java-web-tomcat-8-fd6b72f.md)
+[Java Web Tomcat 8 \(Deprecated\)](java-web-tomcat-8-deprecated-fd6b72f.md)
 
 
 

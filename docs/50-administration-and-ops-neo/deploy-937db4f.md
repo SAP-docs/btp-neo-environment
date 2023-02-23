@@ -403,7 +403,7 @@ This is a mapping between the runtime and the respective version:
 
 -   Java Web Tomcat 9 corresponds to runtime **neo-java-web** and runtime version **4**. See [Java Web Tomcat 9](../30-development-neo/java-web-tomcat-9-41b1ee9.md).
 
--   Java Web Tomcat 8 corresponds to runtime **neo-java-web** and runtime version **3**. See [Java Web Tomcat 8](../30-development-neo/java-web-tomcat-8-fd6b72f.md).
+-   Java Web Tomcat 8 corresponds to runtime **neo-java-web** and runtime version **3**. See [Java Web Tomcat 8 \(Deprecated\)](../30-development-neo/java-web-tomcat-8-deprecated-fd6b72f.md).
 
 
 > ### Note:  

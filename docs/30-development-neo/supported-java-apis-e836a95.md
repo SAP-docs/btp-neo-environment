@@ -943,7 +943,7 @@ For more information, see [API Documentation](api-documentation-4570e92.md).
 
 
 
-[Java Web Tomcat 8](java-web-tomcat-8-fd6b72f.md "Java Web Apache Tomcat 8 (Java Web Tomcat 8) is the next edition of the Java Web application runtime container that has all characteristics and features of its predecessor Java Web Tomcat 7.")
+[Java Web Tomcat 8 \(Deprecated\)](java-web-tomcat-8-deprecated-fd6b72f.md "Java Web Apache Tomcat 8 (Java Web Tomcat 8) is the next edition of the Java Web application runtime container that has all characteristics and features of its predecessor Java Web Tomcat 7.")
 
 [Java EE 7 Web Profile TomEE 7](java-ee-7-web-profile-tomee-7-f177a15.md "The Java EE 7 Web Profile TomEE 7 provides implementation of the Java EE 7 Web Profile specification.")
 
