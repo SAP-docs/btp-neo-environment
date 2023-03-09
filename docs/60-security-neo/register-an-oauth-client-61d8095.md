@@ -202,7 +202,10 @@ To authorize a device to access an OAuth-protected application, you need to regi
     </td>
     <td valign="top">
 
-    The refresh token lifetime.
+    The refresh token lifetime. Values allowed: from 0 to 180 days.
+
+    > ### Note:  
+    > It is no longer possible to use 0 \(unlimited validity\) as value. If you have existing OAuth clients with this value, we recommend that you change them to a supported validity suitable for your scenario. For more information, see [OAuth 2.0 Clients with Unlimited Validity Tokens](oauth-2-0-clients-with-unlimited-validity-tokens-5eccd48.md).
 
 
     

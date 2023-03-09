@@ -2,83 +2,35 @@
 
 # Best Practices for Resilient OAuth 2.0 Communication
 
-Use the following best practices to build resilient OAuth 2.0 communication.
+Best practices for secure and resilient OAuth 2.0 authorization. Guidance on how to protect against common threats and vulnerabilities.
 
 
 
-<a name="loio11fe332c05cb4d5fa9f752736f6b7575__section_gv2_nzm_3qb"/>
+<a name="loio11fe332c05cb4d5fa9f752736f6b7575__section_p2p_rbc_rwb"/>
 
-## Key Takeaways
+## Prerequisites
 
--   Tokens can always be issued.
--   Persistent tokens cannot be validated in rare cases \(for example, DB outage and LRU cache miss\). In this case 401 would be returned.
--   JWT tokens can always be validated.
-
-
-
-<a name="loio11fe332c05cb4d5fa9f752736f6b7575__section_fpm_nzm_3qb"/>
-
-## JWT Tokens
-
-An OAuth 2.0 Client can request one of the following two types of access tokens: persistent \(stored in the system database \(default situation\)\) or JWT \(on-demand\).
-
-> ### Note:  
-> For some platform APIs, JWT tokens are always used, and cannot be switched off.
-
-Using JWT tokens enables faster and more robust token validation than using the default persistent tokens. Hence, we recommend that JWT tokens are used whenever possible \(see some constraints below\).
-
-They can be issued for the as access token for both Client Credentials Flow and Authorization Code Flow. Refresh tokens are always persistent.
+-   You are a member of a subaccount with an administrator role in the Neo environment. See [Managing Member Authorizations in the Neo Environment](../50-administration-and-ops-neo/managing-member-authorizations-in-the-neo-environment-a1ab5c4.md).
+-   You have developed an OAuth-protected application \(resource server\). If you are not sure about which OAuth 2.0 authorization grant you are currently using, see [Identifying Currently Used OAuth 2.0 Authorization Grant](identifying-currently-used-oauth-2-0-authorization-grant-f77bab7.md).
+-   You have deployed the application on the Neo environment. See [Deploying and Updating Java Applications](../30-development-neo/deploying-and-updating-java-applications-e5dfbc6.md). The application is running on the latest supported version of its runtime \(see [Check the Process Status](../50-administration-and-ops-neo/check-the-process-status-499992d.md)\). We recommend that you restart the application if you have not done it recently \(see [Restart Applications](../50-administration-and-ops-neo/restart-applications-7b2d704.md)\).
+-   In case you are currently in the process of developing an OAuth-protected application, see [Which OAuth 2.0 Authorization Grant Should I Use?](which-oauth-2-0-authorization-grant-should-i-use-f5a9246.md) \(section OAuth 2.0 Authorization Grant\) for directions on which OAuth 2.0 authorization grant to use depending on your case.
 
 
 
-<a name="loio11fe332c05cb4d5fa9f752736f6b7575__section_qh3_rzm_3qb"/>
+<a name="loio11fe332c05cb4d5fa9f752736f6b7575__section_awm_wbc_rwb"/>
 
-## Requesting JWT Tokens
+## General Best Practices
 
-Append the following query parameter to the token request:
-
-`“token_format=jwt”`
-
-> ### Note:  
-> This token format is not fully compliant with the JWT RFC. If you need full RFC compatibility, use an alternative query parameter \(token format\):
-> 
-> `“token_format=jwtrfc”`
-> 
-> If you're using the OAuth client for your custom application, make sure it is running on the latest supported version of its runtime \(see [Check the Process Status](../50-administration-and-ops-neo/check-the-process-status-499992d.md)\). We recommend that you restart the application if you haven't done it recently \(see [Restart Applications](../50-administration-and-ops-neo/restart-applications-7b2d704.md)\).
-> 
-> If you're using the OAuth client for a platform API, you probably don't need to take any action. If you get problems using the particular API, create an incident in the component for that service. See [Getting Support, Neo Environment](../70-getting-support-neo/getting-support-neo-environment-fc2bf6a.md).
+-   Use Access Tokens of type JWT. See [OAuth 2.0 JWT Token Types](oauth-2-0-jwt-token-types-3f26e04.md) 
+-   Consume OAuth 2.0 protected resources through Connectivity Destinations. See [Using OAuth 2.0 Authentication with Connectivity Destinations](using-oauth-2-0-authentication-with-connectivity-destinations-c8b8c06.md).
+-   There are several best practices recommended for all cases. See [Achieving Resilient OAuth 2.0 Authorization](achieving-resilient-oauth-2-0-authorization-2f76c6c.md).
 
 
 
-<a name="loio11fe332c05cb4d5fa9f752736f6b7575__section_upr_5zm_3qb"/>
+<a name="loio11fe332c05cb4d5fa9f752736f6b7575__section_xm1_zbc_rwb"/>
 
-## JWT Token Constraints
+## Best Practices for Scenarios
 
--   Their validity is maximum 12 hours or less. If you need a longer token validity, use the default persistent tokens.
--   They cannot be listed in the OAuth End User UI or the Cockpit, since they aren’t persisted/stored by the OAuth 2.0 Service.
--   They cannot be revoked.
--   Regardless of the expiration configuration of the OAuth client, if a JWT token is requested, the validity will be 12h or less.
--   Their size is in the 2-3kb range, compared to <40 bytes for the default persistent tokens
-
-
-
-<a name="loio11fe332c05cb4d5fa9f752736f6b7575__section_gdp_zzm_3qb"/>
-
-## Best Practices for Resilient OAuth Communication
-
--   Use JWT tokens whenever possible. Use persistent tokens only in the very limited cases when JWT tokens are not applicable.
--   Do not rely on the expiration time configured in the OAuth client. It is rather a hint to the OAuth server.
-
-    The OAuth server may expire tokens earlier in critical situations or validation may be temporarily unavailable. Token issuing is always possible. So in case of a 401, implement a retry with issuing a new access token.
-
--   Ensure that the token used is valid at least a certain amount of time, for example, 1 hour. This will ensure that even if there is some temporary outage, the OAuth client will have a valid token during the outage.
-    -   This can be achieved by requesting a new token at least 1 hour before the old one is expired. In case the token is successfully retrieved it can be used directly. And in case the OAuth 2.0 Service is unavailable, the old one can still be used.
-    -   JWT tokens can be validated even if the OAuth 2.0 Service is down or not responding
-    -   JWT and persistent tokens can always be issued.
-
--   Retry calls for issuing tokens
-    -   HTTP protocol is unreliable and a call can fail for a multitude of reasons before it does HTTP Response is received
-    -   Some short delay between calls is always reasonable.
-
--   Reuse tokens instead of issuing a new one every time.
+-   [Periodic Token-Based Operations](periodic-token-based-operations-ead7249.md)
+-   [Using OAuth 2.0 Authorization at Irregular Intervals](using-oauth-2-0-authorization-at-irregular-intervals-7263696.md) 
 

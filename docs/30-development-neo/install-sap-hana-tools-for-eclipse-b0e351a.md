@@ -15,7 +15,7 @@ Download and set up the necessary tools.
 -   You've downloaded and installed a version of Eclipse IDE.
 
     > ### Recommendation:  
-    > Use the latest version.
+    > Use the version that is provided in the prerequisites on the [SAP Development Tools](https://tools.hana.ondemand.com/#hanatools) page .
 
 -   You've configured your proxy settings \(in case you work behind a proxy or a firewall\).
 
@@ -23,19 +23,7 @@ Download and set up the necessary tools.
 
 ## Procedure
 
-1.  Open the Eclipse IDE.
-2.  In the main menu, choose *Help* \> *Install New Software*.
-3.  In the *Work with* field, enter the appropriate *Eclipse Software Sites* URL that matches your version of Eclipse IDE.
-4.  Select *SAP HANA Tools* \(the whole feature group\).
-
-    > ### Note:  
-    > In case you need to develop with SAPUI5, install also *Tools* \> *UI development toolkit for HTML5 \(Developer Edition\)*.
-
-5.  Choose *Next*.
-6.  On the next wizard page, you get an overview of the features to be installed. Choose *Next*.
-7.  Confirm the license agreements.
-8.  Choose *Finish* to start the installation.
-9.  After the successful installation, you will be prompted to restart your Eclipse IDE.
+Follow the steps in the procedure in SAP HANA Tools on the [SAP Development Tools](https://tools.hana.ondemand.com/#hanatools) page.
 
 
 

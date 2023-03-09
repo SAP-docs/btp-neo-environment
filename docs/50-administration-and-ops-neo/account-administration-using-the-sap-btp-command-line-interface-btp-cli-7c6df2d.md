@@ -2,12 +2,14 @@
 
 # Account Administration Using the SAP BTP Command Line Interface \(btp CLI\)
 
-Use the SAP BTP command line interface \(btp CLI\) for account management tasks, such as creating or updating subaccounts and directories, and managing entitlements. It is an alternative to the SAP BTP cockpit for all users who like to work in a terminal or want to automate operations using scripts.
+Use the SAP BTP command line interface \(btp CLI\) for account management tasks, such as creating or updating subaccounts and directories, and managing entitlements. It is an alternative to the SAP BTP cockpit for users who like to work in a terminal or want to automate operations using scripts.
 
-The btp CLI offers convenient features for interactive use as well as for scripting: For the interactice user, there's login via SSO, command autocompletion, as well as several interactive commands with prompts. But all commands can also be run with parameters, and the command output can be set to json format, so the btp CLI is perfect for scripting. If you want to use it for scripting, we recommend to use the `--format json` option to receive the results as JSON instead of text. The output also exposes exit codes for the result status. You can then use the capabilities of the shell, e.g. jq, to work with the results.
+The btp CLI offers convenient features for interactive use as well as for scripting: For the interactice user, there's login via SSO, command autocompletion, as well as several interactive commands with prompts. But all commands can also be run with parameters, and the command output can be set to json format, so the btp CLI is perfect for scripting.
+
+If you want to use the btp CLI for scripting, we recommend to use the `--format json` option or to persistently set the output format to json with `btp set config --format json`. See [Change the Output Format to JSON](change-the-output-format-to-json-dcb85b7.md) and [Change Configuration Settings](change-configuration-settings-dba4eb6.md).
 
 > ### Note:  
-> The content in this section is only relevant for cloud management tools feature set B. For more information, see [Working with Cloud Management Tools Feature Set B in the Neo Environment](../10-concepts-neo/working-with-cloud-management-tools-feature-set-b-in-the-neo-environment-8c963e8.md) and [Cloud Management Tools - Feature Set Overview](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/caf4e4e23aef4666ad8f125af393dfb2.html).
+> The content in this section is only relevant for cloud management tools feature set B. For more information, see [Cloud Management Tools - Feature Set Overview](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/caf4e4e23aef4666ad8f125af393dfb2.html).
 
 
 

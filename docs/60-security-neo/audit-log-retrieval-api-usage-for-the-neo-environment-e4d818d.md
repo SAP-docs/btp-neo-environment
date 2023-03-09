@@ -37,7 +37,7 @@ https://api.<region host>/auditlog/v1/accounts/<account>/AuditLogRecords?$count=
 > ### Note:  
 > The account provided as part of the URL should be the randomly generated technical name of the subaccount not the Display Name.
 
-To authenticate, in the header provide the taken OAuth token similar to: "***Authorization: Bearer 41fce723412c6c18961f7e95d911ad37***"
+To authenticate, in the header provide the taken OAuth token similar to: "***Authorization: Bearer <JWT\>***"
 
 The returned results are split on pages with size – the server page size, which by default is set to 1000 records per server page. If the number of results is higher than the default server page size, in the response *@odata.nextLink* would be provided with the URL, to retrieve the next results' chunk.
 
@@ -62,7 +62,7 @@ https://api.<region host>/auditlog/v1/accounts/<account>/AuditLogRecords?$filter
 > ### Note:  
 > When filtering by time the format should be: *yyyy-mm-ddThh.MM.ss*
 
-To authenticate, in the header provide the taken OAuth token similar to: "***Authorization: Bearer 41fce723412c6c18961f7e95d911ad37***"
+To authenticate, in the header provide the taken OAuth token similar to: "***Authorization: Bearer <JWT\>***"
 
 The returned results are split on pages with size – the default server page size. If the number of results is higher than the default server page size, in the response *@odata.nextLink* would be provided with the URL, to retrieve the next results' chunk.
 
@@ -117,7 +117,7 @@ https://api.<region host>/auditlog/v1/accounts/<account>/AuditLogRecords?$top=50
 
 Continue the same requesting pattern, until the number of the results returned by count, in the first example of this section, is reached.
 
-To authenticate, in the header provide the taken OAuth token similar to: "***Authorization: Bearer 41fce723412c6c18961f7e95d911ad37***"
+To authenticate, in the header provide the taken OAuth token similar to: "***Authorization: Bearer <JWT\>***"
 
 > ### Note:  
 > If you use client-side pagination and request a client-side page bigger that the server-side default page, the audit log retrieval API will split the requested page in several chunks that would be returned. As a result you will receive a response containing an @odata.nextLink field, where the next data chunk could be retrieved \(for more information, see the *Results*section below\). Go to the next client-side page value only after you have iterated all the chunks the server breaks the result to, which means that there is no @odata.nextLink field as part of the response provided.
