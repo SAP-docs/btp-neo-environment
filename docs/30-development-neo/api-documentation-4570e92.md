@@ -53,6 +53,14 @@ API documentation for the Neo environment.
 
 
 
+### SAP Application Logging Service
+
+[Logs API](https://api.sap.com/api/HCP_Logging)
+
+[Log Channels API](https://api.sap.com/api/HCP_Log_channels)
+
+
+
 ### Security
 
 [Trust Management API](https://api.sap.com/api/TrustManagementAPI/overview)
@@ -93,6 +101,26 @@ The Java API documentation for the Neo environment is provided as part of the do
 [Audit Log Retrieval API Usage for the Neo Environment](../60-security-neo/audit-log-retrieval-api-usage-for-the-neo-environment-e4d818d.md "The audit log retrieval API allows you to retrieve the audit logs for your SAP BTP Neo environment account. It follows the OData 4.0 standard, providing the audit log results as OData with collection of JSON entities.")
 
 [Audit Log Retention API Usage for the Neo Environment](../60-security-neo/audit-log-retention-api-usage-for-the-neo-environment-fb195bf.md "The audit log retention API allows you to view your currently active retention period for all the audit log data that is stored for your account.")
+
+[Metrics REST API for Java Applications](https://help.sap.com/viewer/64f7d2b06c6b40a9b3097860c5930641/Cloud/en-US/14bbf239d9e44096bdd2278e7317012b.html "Use this REST API to get metrics for Java applications in the Neo environment.") :arrow_upper_right:
+
+[Metrics REST API for HTML5 Applications](https://help.sap.com/viewer/64f7d2b06c6b40a9b3097860c5930641/Cloud/en-US/f62bdfc1fb7c45ccb1255c62d34bf967.html "Use the REST API to get metrics for your HTML5 applications that are running on SAP BTP in the Neo environment.") :arrow_upper_right:
+
+[Metrics REST API for SAP HANA XS](https://help.sap.com/viewer/64f7d2b06c6b40a9b3097860c5930641/Cloud/en-US/9f02513389e64490a0652955fedce2ad.html "Use the REST API to get metrics for your SAP HANA XS applications and instances that are running in the Neo environment.") :arrow_upper_right:
+
+[Metrics REST API for Database Systems](https://help.sap.com/viewer/64f7d2b06c6b40a9b3097860c5930641/Cloud/en-US/9f883c61f23b432f89bb108644e819ad.html "Use the REST API to get metrics for your database systems that are running in the Neo environment.") :arrow_upper_right:
+
+[Checks REST API for Java Applications](https://help.sap.com/viewer/64f7d2b06c6b40a9b3097860c5930641/Cloud/en-US/1eb1807a091940b996fe4b2539b0efc3.html "Use the Checks API to retrieve, set, update, or delete custom checks or default check thresholds for Java applications in the Neo environment.") :arrow_upper_right:
+
+[Checks REST API for HTML5 Applications](https://help.sap.com/viewer/64f7d2b06c6b40a9b3097860c5930641/Cloud/en-US/30ce97b33aa54e73b11528f94494f464.html "Use the Checks API to retrieve, set, update, or delete custom checks for HTML5 applications in the Neo environment.") :arrow_upper_right:
+
+[Checks REST API for SAP HANA XS Applications](https://help.sap.com/viewer/64f7d2b06c6b40a9b3097860c5930641/Cloud/en-US/283da4c3ff37484d93b9dc683152b8bd.html "Use the Checks API to retrieve, set, update, or delete custom checks for HTML5 applications in the Neo environment.") :arrow_upper_right:
+
+[Alerting](https://help.sap.com/viewer/64f7d2b06c6b40a9b3097860c5930641/Cloud/en-US/2f782d7f73304426b287f4b25e47f0b1.html "Configure a channel to receive alert notifications when your applications and database systems are in a problematic state or have recovered from such a state.") :arrow_upper_right:
+
+[Logs API for Java and HTML5 Applications](https://help.sap.com/viewer/f88a032109f0429caea276fc6e3a95f9/Cloud/en-US/ceea93da98a84f4db5f269f2f19bda16.html "Use this REST API to get log files for Java and HTML5 applications in the Neo environment.") :arrow_upper_right:
+
+[Log Channels API](https://help.sap.com/viewer/f88a032109f0429caea276fc6e3a95f9/Cloud/en-US/f328e89a926f4daf88bef6e01d762697.html "Use this REST API to configure a webhook channel to receive logs for a subaccount in the Neo environment.") :arrow_upper_right:
 
 [Get Started: SAP Virtual Machine Service API (Neo Environment)](https://help.sap.com/viewer/c746ff81651e4b8fb6efc11146091016/Cloud/en-US/5867769a02f14458998af4f8d3b07483.html#loio5867769a02f14458998af4f8d3b07483 "Learn how to authorize yourself and execute your first requests with the SAP Virtual Machine service API for the Neo environment.") :arrow_upper_right:
 
