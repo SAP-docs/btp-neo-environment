@@ -32,7 +32,7 @@ If you are authenticating to an OAuth-protected resource through a destination, 
 
     If it's on subaccount level: go to *Connectivity* \> *Destinations*, and select the destination you are using.
 
-3.  The grant type corresponds to the authentication type \(the *Authentication* field\) of the destination - *OAuth2ClientCredentials* shows you are using *client credentials*, and *OAuth2SAMLBearerAssertion* shows *bearer assertion* respectively.
+3.  The grant type corresponds to the authentication type \(the *Authentication* field\) of the destination - *OAuth2ClientCredentials* shows you are using *client credentials*, and *OAuth2SAMLBearerAssertion* shows *SAML bearer assertion* respectively.
 
 
 
@@ -48,7 +48,7 @@ The only way to use an *authorization code* grant is to configure an OAuth 2.0 a
 3.  Find the client you are using based on *Name*, *Client Id*, *Description*, and so on.
 4.  Click on it to inspect its information and check the value *Authorization Grant* field.
     -   If it is *Authorization Code*, you are using the *authorization code* grant.
-    -   If it is *Client Credentials*, you are using either *client credentials* or *SAML bearer assertion* grant\).
+    -   If it is *Client Credentials*, you are using either *client credentials* or *SAML bearer assertion* grant.
 
 
 There are cases when you do not have access to the subaccount containing the client, but only to *client id* and the *source code* with the implementation of authentication to OAuth 2.0-protected resource. In these cases, you can check the token issuing request and determine the authorization grant by the query parameters that they are sending. If the query parameter with name `grant_type` is equal to `code`, then the *authorization code* grant is used.
@@ -64,7 +64,7 @@ There are cases when you do not have access to the subaccount containing the cli
 
 The OAuth 2.0 *client credentials* and the *SAML bearer assertion* grant can be identified by following the steps for *authorization code*.
 
-To determine which one of the two grants is used for the given client, examine the destinations in the subaccount. The OAuth 2.0 *SAML bearer assertion* grant is generally used through destinations. See [Using OAuth 2.0 Authentication with Connectivity Destinations](using-oauth-2-0-authentication-with-connectivity-destinations-c8b8c06.md).
+To determine which one of the two grants is used for the given client, examine the destinations in the subaccount. The OAuth 2.0 *SAML bearer assertion* grant is generally used through destinations. See [Simplifying OAuth 2.0 Authentication with Destinations](simplifying-oauth-2-0-authentication-with-destinations-c8b8c06.md).
 
 If you cannot find a destination using the given client, this generally means that the OAuth 2.0 *client credentials* grant type is used, since OAuth 2.0 *SAML bearer assertion* grant usage is more widespread in the form of destination consumption. Nevertheless, to be sure, the token issuing source code must be examined. The authorization grant can be determined based on the value of the query parameter with name `grant_type` \(it may be sent as part of the request body as well\).
 

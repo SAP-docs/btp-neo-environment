@@ -22,7 +22,11 @@ The platform allows you to update an application in a manner in which the applic
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**
 
-Each application runs on one or more dedicated application processes. You can start one or many application processes at any given time, according to the compute unit quota that you have. Each process has a unique process ID that you can use to stop it. To update an application non-disruptively for users, you handle individual processes rather than the application as a whole. The procedure below describes the manual steps to execute a zero downtime update. Use it if you want to have more control on the respective steps, for example to have a different timeout for the different application processes before stopping them. For an automated execution of the same procedure, use the rolling-update command. For more information, see [rolling-update](rolling-update-3f5d412.md).
+Each application runs on one or more dedicated application processes. You can start one or many application processes at any given time, according to the compute unit quota that you have. Each process has a unique process ID that you can use to stop it. To update an application non-disruptively for users, you handle individual processes rather than the application as a whole.
+
+For an automated execution of the same procedure, use the `rolling-update` command. For more information, see [rolling-update](rolling-update-3f5d412.md).
+
+The procedure below describes the manual steps to execute a zero downtime update. Use it if you want to have more control on the respective steps, for example to have a different timeout for the different application processes before stopping them.
 
 
 

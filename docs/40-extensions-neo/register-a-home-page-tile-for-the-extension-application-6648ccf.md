@@ -8,6 +8,11 @@ You register a Home Page tile for the extension application in the extended SAP 
 
 ## Prerequisites
 
+> ### Note:  
+> The support of the Home Page tiles in SAP SuccessFactors has been discontinued. See [Home Page Tiles](https://help.sap.com/docs/SAP_SUCCESSFACTORS_PLATFORM/59f821da545a4bdb94f1eb8fa22e4b36/00c8674252d1461691bec004be68f425.html).
+> 
+> We recommend that you use the latest home page. See [Migrating to the Latest Home Page](https://help.sap.com/docs/SAP_SUCCESSFACTORS_PLATFORM/59f821da545a4bdb94f1eb8fa22e4b36/8d2921382f9544dc8d14cb249ec6a289.html).
+
 -   You have deployed and started the extension application for which you are registering the Home Page tile.
 -   You have registered the extension application as an authorized assertion consumer service. For more information, see [Register the Extension Application as an Authorized Assertion Consumer Service](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/47c4bfff70e94491a82353ddc66eb9a1.html).
 

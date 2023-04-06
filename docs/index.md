@@ -691,7 +691,7 @@
             -   [Which Is My Current OAuth 2.0 Authorization Grant?](60-security-neo/which-is-my-current-oauth-2-0-authorization-grant-f77bab7.md)
             -   [Which OAuth 2.0 Authorization Grant Should I Use?](60-security-neo/which-oauth-2-0-authorization-grant-should-i-use-f5a9246.md)
             -   [OAuth 2.0 JWT Token Types](60-security-neo/oauth-2-0-jwt-token-types-3f26e04.md)
-            -   [Using OAuth 2.0 Authentication with Connectivity Destinations](60-security-neo/using-oauth-2-0-authentication-with-connectivity-destinations-c8b8c06.md)
+            -   [Simplifying OAuth 2.0 Authentication with Destinations](60-security-neo/simplifying-oauth-2-0-authentication-with-destinations-c8b8c06.md)
             -   [Achieving Resilient OAuth 2.0 Authorization](60-security-neo/achieving-resilient-oauth-2-0-authorization-2f76c6c.md)
             -   [Periodic Token-Based Operations](60-security-neo/periodic-token-based-operations-ead7249.md)
             -   [Using OAuth 2.0 Authorization at Irregular Intervals](60-security-neo/using-oauth-2-0-authorization-at-irregular-intervals-7263696.md)

@@ -19,6 +19,17 @@ neo restart --account <subaccount_technical_name> --application <application_nam
 neo restart --application-process-id <ID> --user <e-mail_or_user> --host <host>
 ```
 
+> ### Recommendation:  
+> We recommend that you restart your Java applications by following the steps in [Restart Applications with Zero Downtime](restart-applications-with-zero-downtime-deadcc4.md).
+> 
+> If you are not able to start an application process, please do not try to stop any of the currently running processes. First, please make sure that you can start a new application process before stopping any of the running processes.
+> 
+> Here are the benefits of restarting a Java application this way:
+> 
+> -   It allows your application to remain operable all the time.
+> 
+> -   It protects you against unexpected issues with the application or the platform.
+
 
 
 <a name="loio7c0f7a18a4564e0e8b6f997d230285ff__section_N10019_N10012_N10001"/>

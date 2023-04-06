@@ -2,7 +2,7 @@
 
 # Which OAuth 2.0 Authorization Grant Should I Use?
 
-This document will provide you with information on which OAuth 2.0 authorization grant to use depending on your specific use case, the differences between them and guidance on when to use each one. For more detailed information the OAuth 2.0, see RFC6749.
+This document will provide you with information on which OAuth 2.0 authorization grant to use depending on your specific use case, the differences between them and guidance on when to use each one.
 
 
 
@@ -10,9 +10,9 @@ This document will provide you with information on which OAuth 2.0 authorization
 
 ## OAuth 2.0 Client Credentials Grant
 
-OAuth 2.0 Client Credentials is a type of authorization grant used to allow a client to access protected resources on its own behalf, rather than on behalf of a user. Where the accessed resources must be under the control of the client. In SAP BTP, Neo environment, an OAuth application client represents a single application, while an OAuth platform client represents a single sub-account management entity.
+OAuth 2.0 *client credentials* is a type of authorization grant used to allow a customer application to access protected resources on its own behalf, rather than on behalf of a user. The accessed resources must be under the control of the application. In SAP BTP, Neo environment, an OAuth application client represents a single application, while an OAuth platform client represents a single sub-account management entity.
 
-OAuth application clients are commonly used for server-to-server communication, where one or both of the parties share their credentials and communicate among each other without any intermediaries, where the calling party might be deployed outside of SAP BTP Neo environment.
+OAuth application clients are commonly used for server-to-server communication, where one or both of the parties share their credentials and communicate with each other without any intermediaries. The calling party might be deployed outside of SAP BTP, Neo environment.
 
 On the other hand, OAuth platform clients are used to access protected resources under their control, such as the platform defined APIs. For more information, see [Using Platform APIs](../30-development-neo/using-platform-apis-392af9d.md).
 
@@ -25,9 +25,6 @@ For more information how to setup this grant type, see [OAuth 2.0 Client Credent
 ## OAuth SAML 2.0 Bearer Assertion Grant
 
 The OAuth SAML 2.0 Bearer Assertion is a type of authorization grant that utilizes an existing trust relationship without a direct user approval step at the authorization server. In comparison to OAuth 2.0 Client Credentials grant, the OAuth client acts on behalf of a user.
-
-> ### Note:  
-> SAP BTP, Neo environment does not support the usage of SAML 2.0 Bearer Assertions for client authentication.
 
 OAuth SAML 2.0 Bearer Assertion grant is appropriate to be used when a client wants to access a protected resource on behalf of a user without an approval step at the authorization server.
 
@@ -54,4 +51,9 @@ The OAuth 2.0 Authorization Code grant is primarily used when a client applicati
 > When a new access token is requested, the previously issued refresh token will no longer be valid and cannot be used again. This follows the guidelines set forth in the OAuth 2.0 specification and should be considered when relying on refresh tokens for access to protected resources. It is important to plan accordingly and ensure that your application can handle the expiration of refresh tokens in a secure and efficient manner.
 
 For more information, see [OAuth 2.0 Authorization Code Grant](oauth-2-0-authorization-code-grant-b7b5893.md).
+
+**Related Information**  
+
+
+[RFC 6749: The OAuth 2.0 Authorization Framework](https://www.ietf.org/rfc/rfc6749.txt)
 

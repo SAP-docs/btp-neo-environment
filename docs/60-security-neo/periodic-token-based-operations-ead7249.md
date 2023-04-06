@@ -24,7 +24,7 @@ In these cases, subaccount administrators should configure the OAuth client toke
 > For example, if the average time for executing an operation takes approximately 20 minutes, you might consider using a token with validity of 1 hour, so that you have enough buffer in case of slower execution or need of retrying failed operations.
 
 > ### Note:  
-> An alternative approach to using a token with a validity long enough to last the operation execution is to use a similar mechanism as described in OAuth 2.0 Authorization scenario: Frequent usage of OAuth 2.0 Authorization.
+> An alternative approach to using a token with a validity long enough to last the operation execution is to use a similar mechanism. See [Using OAuth 2.0 Authorization at Irregular Intervals](using-oauth-2-0-authorization-at-irregular-intervals-7263696.md).
 
 SAP Business Technology Platform \(BTP\) Neo OAuth Service can issue tokens in two formats – opaque and JWT \(JSON Web Token\). When opaque tokens are used, the application server must communicate with the OAuth Service to validate the token. Because of that, they are prone to failures in case of degradation in OAuth Service responsiveness. In contrast, JWT tokens do not require communication between the application and OAuth Service. As a result, they are significantly more resilient to failures of the OAuth Service. For that reason, we highly recommend their usage.
 

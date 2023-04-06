@@ -22,7 +22,7 @@ Best practices for secure and resilient OAuth 2.0 authorization. Guidance on how
 ## General Best Practices
 
 -   Use Access Tokens of type JWT. See [OAuth 2.0 JWT Token Types](oauth-2-0-jwt-token-types-3f26e04.md) 
--   Consume OAuth 2.0 protected resources through Connectivity Destinations. See [Using OAuth 2.0 Authentication with Connectivity Destinations](using-oauth-2-0-authentication-with-connectivity-destinations-c8b8c06.md).
+-   Consume OAuth 2.0 protected resources through Connectivity Destinations. See [Simplifying OAuth 2.0 Authentication with Destinations](simplifying-oauth-2-0-authentication-with-destinations-c8b8c06.md).
 -   There are several best practices recommended for all cases. See [Achieving Resilient OAuth 2.0 Authorization](achieving-resilient-oauth-2-0-authorization-2f76c6c.md).
 
 

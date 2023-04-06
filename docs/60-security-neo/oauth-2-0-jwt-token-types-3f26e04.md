@@ -2,7 +2,7 @@
 
 # OAuth 2.0 JWT Token Types
 
-OAuth 2.0 tokens in JWT format provide a secure way to access data and services and offer the benefit of increased resilience. For more details regarding the specific JWT fields and format, see the OAuth 2.0 specification: RFC7519.
+OAuth 2.0 tokens in JWT format provide a secure way to access data and services and offer the benefit of increased resilience.
 
 
 
@@ -73,4 +73,9 @@ JWT Tokens can be validated regardless of the OAuth Service availability for mos
 
 -   Their validity is capped at 12 hours. If you need a longer token validity, please reexamine your scenario, and consider alternatives, or as a last resort use the default opaque tokens.
 -   Since JWT tokens are not stored by the OAuth Service, they cannot be listed or revoked from the End User UI or the BTP Cockpit.
+
+**Related Information**  
+
+
+[RFC 7519: JSON Web Token \(JWT\)](https://datatracker.ietf.org/doc/rfc7519/)
 

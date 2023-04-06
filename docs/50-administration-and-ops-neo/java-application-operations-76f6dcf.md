@@ -79,6 +79,22 @@ Specify various configurations using commands.
 
 ## Managing the Lifecycle of Deployed Applications
 
+> ### Recommendation:  
+> We recommend that you:
+> 
+> -   Update your Java applications according to the instructions in [Update Applications with Zero Downtime](update-applications-with-zero-downtime-a10f6c2.md).
+> 
+> -   Restart your Java applications according to the instructions in [Restart Applications with Zero Downtime](restart-applications-with-zero-downtime-deadcc4.md).
+> 
+>     If you are not able to start an application process, please do not try to stop any of the currently running processes. First, please make sure that you can start a new application process before stopping any of the running processes.
+> 
+> 
+> Here are the benefits of updating a Java application with the `rolling-update` command and restarting a Java application by handling each of its processes separately:
+> 
+> -   They both allow your application to remain operable all the time.
+> 
+> -   They both protect you against unexpected issues with the application or the platform.
+
 
 <table>
 <tr>
