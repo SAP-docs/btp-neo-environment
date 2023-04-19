@@ -218,6 +218,7 @@
             -   [Monitor Solutions Using the Cockpit](30-development-neo/monitor-solutions-using-the-cockpit-5d5debc.md)
             -   [Delete Solutions Using the Cockpit](30-development-neo/delete-solutions-using-the-cockpit-0f1844f.md)
         -   [Accessibility Features in Solutions Lifecycle Management](30-development-neo/accessibility-features-in-solutions-lifecycle-management-658c3ab.md)
+        -   [Security](30-development-neo/security-d7923ad.md)
     -   [Developing HTML5 Applications in the Neo Environment](30-development-neo/developing-html5-applications-in-the-neo-environment-3972306.md)
         -   [HTML5: Getting Started](30-development-neo/html5-getting-started-b120163.md)
             -   [Creating a Hello World Application Using SAP Web IDE](30-development-neo/creating-a-hello-world-application-using-sap-web-ide-cb94e2b.md)
