@@ -78,26 +78,6 @@ The name of the extension application for which you are listing the home page ti
 <tr>
 <td valign="top">
 
-`--application-type`
-
-
-
-</td>
-<td valign="top">
-
-The type of the extension application for which you are listing the home page tiles
-
-`Accepted values`: ***java***, ***html5***
-
-`Type`: string \(up to 30 characters; lowercase letters and numbers, starting with a letter\)
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 `-a`, `--account`
 
 
@@ -162,6 +142,39 @@ To protect your password, enter it only when prompted by the console client and 
 Use your email, SAP ID or user name
 
 `Type`: string
+
+
+
+</td>
+</tr>
+</table>
+
+
+<table>
+<tr>
+<th valign="top" colspan="2">
+
+Optional
+
+
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+`--application-type`
+
+
+
+</td>
+<td valign="top">
+
+The type of the extension application for which you are listing the home page tiles
+
+`Accepted values`: ***java***, ***html5***
+
+`Type`: string \(up to 30 characters; lowercase letters and numbers, starting with a letter\)
 
 
 
