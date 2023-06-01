@@ -50,15 +50,15 @@ A project is needed to create files and to make them available in the cockpit.
     </tr>
     <tr>
     <td valign="top">
-
-    *View Type*
+    
+        *View Type*
 
 
     
     </td>
     <td valign="top">
-
-    Select *JavaScript*.
+    
+        Select *JavaScript*.
 
 
     
@@ -66,15 +66,15 @@ A project is needed to create files and to make them available in the cockpit.
     </tr>
     <tr>
     <td valign="top">
-
-    *View Name*
+    
+        *View Name*
 
 
     
     </td>
     <td valign="top">
-
-    Enter ***HelloWorld*** \(without spaces\).
+    
+        Enter ***HelloWorld*** \(without spaces\).
 
 
     

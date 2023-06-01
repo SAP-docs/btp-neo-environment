@@ -58,15 +58,15 @@ In your subaccount in the SAP BTP cockpit, you create a database on an SAP HANA 
     </tr>
     <tr>
     <td valign="top">
-
-     *Database ID* 
+    
+         *Database ID* 
 
 
     
     </td>
     <td valign="top">
-
-    Example: ***tutorial*** 
+    
+        Example: ***tutorial*** 
 
 
     
@@ -74,15 +74,15 @@ In your subaccount in the SAP BTP cockpit, you create a database on an SAP HANA 
     </tr>
     <tr>
     <td valign="top">
-
-     *Database System* 
+    
+         *Database System* 
 
 
     
     </td>
     <td valign="top">
-
-    An SAP HANA tenant database system.
+    
+        An SAP HANA tenant database system.
 
     *Example:*
 
@@ -97,15 +97,15 @@ In your subaccount in the SAP BTP cockpit, you create a database on an SAP HANA 
     </tr>
     <tr>
     <td valign="top">
-
-     *SYSTEM User Password* 
+    
+         *SYSTEM User Password* 
 
 
     
     </td>
     <td valign="top">
-
-    The password for the SYSTEM user of the database.
+    
+        The password for the SYSTEM user of the database.
 
     > ### Note:  
     > The SYSTEM user is a preconfigured database superuser with irrevocable system privileges, such as the ability to create other database users, access system tables, and so on. A database-specific SYSTEM user exists in every database of a tenant database system.

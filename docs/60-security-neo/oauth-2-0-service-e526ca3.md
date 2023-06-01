@@ -28,20 +28,6 @@ SAP BTP supports two basic OAuth 2.0 flows:
 **Related Information**  
 
 
-[Authorization and Trust Management in the Neo Environment](authorization-and-trust-management-in-the-neo-environment-e6b196a.md "The Neo environment of SAP BTP supports identity federation and single sign-on with external identity providers. The current section provides an overview of the supported scenarios.")
-
-[Platform Identity Provider](platform-identity-provider-80edbe7.md "The platform identity provider is the user base for access to your SAP BTP subaccount in the Neo environment. The default user base is provided by SAP ID Service. You can switch to an Identity Authentication tenant if you want to use a custom user base.")
-
-[Keystore Service](keystore-service-a18327e.md "The Keystore Service provides a repository for cryptographic keys and certificates to the applications in the Neo environment of SAP BTP.")
-
-[Audit Logging in the Neo Environment](audit-logging-in-the-neo-environment-02c3971.md "In this section you can find information for audit log functionalities in the SAP BTP Neo environment.")
-
-[Principal Propagation](principal-propagation-f70fcf1.md "Exchange user ID information between systems or environments in SAP BTP.")
-
-[Protection from Web Attacks](protection-from-web-attacks-52750a8.md "To protect your applications from different kind of web attacks, Neo environment provides mechanisms for you to use with your applications.")
-
-[Data Protection and Privacy](data-protection-and-privacy-7e513d3.md "Data protection is associated with numerous legal requirements and privacy concerns. In addition to compliance with general data protection and privacy acts, it is necessary to consider compliance with industry-specific legislation in different countries.")
-
 [OAuth 2.0 Authorization Code Grant](oauth-2-0-authorization-code-grant-b7b5893.md "Use OAuth 2.0 service in the Neo environment of SAP BTP to enable your cloud applications for authorization code grant flow. Authorization code grant is one of the basic flows specified in the OAuth 2.0 protocol.")
 
 [OAuth 2.0 Client Credentials Grant](oauth-2-0-client-credentials-grant-f69fa87.md "Use OAuth 2.0 service in the Neo environment of SAP BTP to enable your cloud applications for client credentials grant flow.")

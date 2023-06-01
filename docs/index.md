@@ -678,6 +678,8 @@
         -   [Securing SAP HANA Applications](60-security-neo/securing-sap-hana-applications-4ed551f.md)
         -   [Accessibility Features in Authorization and Trust Management, Neo Environment](60-security-neo/accessibility-features-in-authorization-and-trust-management-neo-environment-e5a971e.md)
     -   [Platform Identity Provider](60-security-neo/platform-identity-provider-80edbe7.md)
+        -   [Configuring Platform Identity Provider \[Feature Set A\]](60-security-neo/configuring-platform-identity-provider-feature-set-a-c39c320.md)
+        -   [Configuring Platform Identity Provider \[Feature Set B\]](60-security-neo/configuring-platform-identity-provider-feature-set-b-277c2c6.md)
     -   [OAuth 2.0 Service](60-security-neo/oauth-2-0-service-e526ca3.md)
         -   [OAuth 2.0 Authorization Code Grant](60-security-neo/oauth-2-0-authorization-code-grant-b7b5893.md)
         -   [OAuth 2.0 Client Credentials Grant](60-security-neo/oauth-2-0-client-credentials-grant-f69fa87.md)

@@ -62,31 +62,15 @@ Identity Authentication is closely integrated with SAP BTP, and it is offered as
     </tr>
     <tr>
     <td valign="top">
-
-    first\_name
+    
+        first\_name
 
 
     
     </td>
     <td valign="top">
-
-    firstname
-
-
     
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-
-    last\_name
-
-
-    
-    </td>
-    <td valign="top">
-
-    lastname
+        firstname
 
 
     
@@ -94,15 +78,31 @@ Identity Authentication is closely integrated with SAP BTP, and it is offered as
     </tr>
     <tr>
     <td valign="top">
-
-    mail
+    
+        last\_name
 
 
     
     </td>
     <td valign="top">
+    
+        lastname
 
-    email
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+        mail
+
+
+    
+    </td>
+    <td valign="top">
+    
+        email
 
 
     

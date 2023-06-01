@@ -100,31 +100,15 @@ Access the application through the different tenants and verify that the multite
     </tr>
     <tr>
     <td valign="top">
-
-    **List all applications to which a given subaccount is subscribed**
+    
+        **List all applications to which a given subaccount is subscribed**
 
 
     
     </td>
     <td valign="top">
-
-    Execute ***neo list-subscribed-applications -a <subaccount\> -u <user name or email\> -h <host\>***.
-
-
     
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-
-    **List subaccounts you have created**
-
-
-    
-    </td>
-    <td valign="top">
-
-    Execute ***neo list-accounts -a <subaccount\> -u <user name or email\> -h <host\>*** .
+        Execute ***neo list-subscribed-applications -a <subaccount\> -u <user name or email\> -h <host\>***.
 
 
     
@@ -132,15 +116,31 @@ Access the application through the different tenants and verify that the multite
     </tr>
     <tr>
     <td valign="top">
-
-    **List all subaccounts subscribed to a given application**
+    
+        **List subaccounts you have created**
 
 
     
     </td>
     <td valign="top">
+    
+        Execute ***neo list-accounts -a <subaccount\> -u <user name or email\> -h <host\>*** .
 
-    Execute ***neo list-subscribed-accounts -a <subaccount\> -b <application\> -u <user name or email\> -h <host\>***.
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+        **List all subaccounts subscribed to a given application**
+
+
+    
+    </td>
+    <td valign="top">
+    
+        Execute ***neo list-subscribed-accounts -a <subaccount\> -b <application\> -u <user name or email\> -h <host\>***.
 
 
     

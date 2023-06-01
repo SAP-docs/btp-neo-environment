@@ -59,7 +59,7 @@ Delete subaccounts using the SAP BTP cockpit to clean up your account hierarchy,
 4.  Once you've a checked that it is safe to permanently remove the subaccount and its data, if such data exists, then you can approve the deletion operation in the *Delete Subaccount with Content* dialog box.
 
     > ### Note:  
-    > The deletion may take up to 12 hours to complete depending on the amount of content in your subaccount. If your subaccount contains service instances, subscriptions, and runtime environments, these need to be deprovisioned as part of the purge operation, and is a timely process.
+    > The deletion may take a while to to complete depending on the amount of content in your subaccount. If your subaccount contains service instances, subscriptions, and runtime environments, these need to be deprovisioned as part of the purge operation, which is a timely process. After the subaccount is deleted, it could take a few more days for some related services to be deleted. Note that you won't be charged for any continued usage of these services in the subaccount during the deletion cleanup.
 
 
 **Related Information**  

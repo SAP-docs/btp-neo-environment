@@ -43,8 +43,6 @@ token_format=jwtrfc
 > ```
 > token_format=jwt
 > ```
-> 
-> We recommend using value `jwtrfc`.
 
 > ### Note:  
 > If you are using OAuth client for a platform API, you do not need to take any action. For some platform APIs, tokens in JWT format are always issued by default and opaque tokens cannot be used. In case you are observing that the token issued for a Platform API Client is in opaque format, that means the given Platform API does not support the usage of JWT Token format yet. If you encounter problems using Platform APIs with JWT Token format, create an incident in the component for that service. See [Getting Support, Neo Environment](../70-getting-support-neo/getting-support-neo-environment-fc2bf6a.md).

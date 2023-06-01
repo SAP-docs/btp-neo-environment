@@ -10,7 +10,7 @@ Use the CTS+ Export Web Service to perform a transport of a multitarget applicat
 
 ## Prerequisites
 
--   You have activated and configured the CTS+ Export Web Service as described in [Activating and Configuring CTS Export Web Service](https://help.sap.com/viewer/CTS/aa779d7c617143629a2c851f99eda4f1.html).
+-   You have activated and configured the CTS+ Export Web Service as described in [Activating and configuring CTS Export Web Service](https://help.sap.com/docs/SAP_DATA_SERVICES/62938f21156047718cae23da55f2b443/aa779d7c617143629a2c851f99eda4f1.html?version=4.2.7&language=en-US&q=active%20cts%20export).
 
     > ### Note:  
     > Make sure that you select the *Transport Channel Authentication and User ID / Password* as a provider security of the web service binding.

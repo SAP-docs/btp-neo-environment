@@ -88,15 +88,15 @@ You will perform all subsequent activities with this new user.
     </tr>
     <tr>
     <td valign="top">
-
-    **An SAP HANA XS database**
+    
+        **An SAP HANA XS database**
 
 
     
     </td>
     <td valign="top">
-
-    Follow the steps described in [Create a Database Administrator User](create-a-database-administrator-user-c0fce6f.md).
+    
+        Follow the steps described in [Create a Database Administrator User](create-a-database-administrator-user-c0fce6f.md).
 
 
     
@@ -104,15 +104,15 @@ You will perform all subsequent activities with this new user.
     </tr>
     <tr>
     <td valign="top">
-
-    **An SAP HANA tenant database**
+    
+        **An SAP HANA tenant database**
 
 
     
     </td>
     <td valign="top">
-
-    1.  Select the relevant SAP HANA tenant database in the list.
+    
+        1.  Select the relevant SAP HANA tenant database in the list.
 
     2.  In the overview that is shown in the lower part of the screen, open the *SAP HANA Web-based Development Workbench* link under *Development Tools*.
     3.  In the *Enter Username* field, enter ***SYSTEM***, then enter the password you determined for the SYSTEM user in the *Enter Password* field. You're now logged on to the SAP HANA cockpit.

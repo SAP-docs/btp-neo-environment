@@ -50,31 +50,15 @@ Now you want your application to work against your productive SAP Ariba system. 
     </tr>
     <tr>
     <td valign="top">
-
-    Name
+    
+        Name
 
 
     
     </td>
     <td valign="top">
-
-    Enter a meaningful name.
-
-
     
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-
-    Type
-
-
-    
-    </td>
-    <td valign="top">
-
-    HTTP
+        Enter a meaningful name.
 
 
     
@@ -82,31 +66,15 @@ Now you want your application to work against your productive SAP Ariba system. 
     </tr>
     <tr>
     <td valign="top">
-
-    Description
+    
+        Type
 
 
     
     </td>
     <td valign="top">
-
-    \(Optional\) Enter a meaningful description.
-
-
     
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-
-    URL
-
-
-    
-    </td>
-    <td valign="top">
-
-     `https://api.ariba.com/v2/oauth/token` 
+        HTTP
 
 
     
@@ -114,31 +82,15 @@ Now you want your application to work against your productive SAP Ariba system. 
     </tr>
     <tr>
     <td valign="top">
-
-    Proxy Type
+    
+        Description
 
 
     
     </td>
     <td valign="top">
-
-    Internet
-
-
     
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-
-    Authentication
-
-
-    
-    </td>
-    <td valign="top">
-
-    BasicAuthentication
+        \(Optional\) Enter a meaningful description.
 
 
     
@@ -146,15 +98,15 @@ Now you want your application to work against your productive SAP Ariba system. 
     </tr>
     <tr>
     <td valign="top">
-
-    User
+    
+        URL
 
 
     
     </td>
     <td valign="top">
-
-    Enter the SAP Ariba APIs registered application OAuth client ID.
+    
+         `https://api.ariba.com/v2/oauth/token` 
 
 
     
@@ -162,15 +114,63 @@ Now you want your application to work against your productive SAP Ariba system. 
     </tr>
     <tr>
     <td valign="top">
-
-    Password
+    
+        Proxy Type
 
 
     
     </td>
     <td valign="top">
+    
+        Internet
 
-    Enter the SAP Ariba APIs registered application OAuth client secret.
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+        Authentication
+
+
+    
+    </td>
+    <td valign="top">
+    
+        BasicAuthentication
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+        User
+
+
+    
+    </td>
+    <td valign="top">
+    
+        Enter the SAP Ariba APIs registered application OAuth client ID.
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+        Password
+
+
+    
+    </td>
+    <td valign="top">
+    
+        Enter the SAP Ariba APIs registered application OAuth client secret.
 
 
     
@@ -200,31 +200,15 @@ Now you want your application to work against your productive SAP Ariba system. 
     </tr>
     <tr>
     <td valign="top">
-
-    Name
+    
+        Name
 
 
     
     </td>
     <td valign="top">
-
-    Enter a meaningful name.
-
-
     
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-
-    Type
-
-
-    
-    </td>
-    <td valign="top">
-
-    HTTP
+        Enter a meaningful name.
 
 
     
@@ -232,31 +216,15 @@ Now you want your application to work against your productive SAP Ariba system. 
     </tr>
     <tr>
     <td valign="top">
-
-    Description
+    
+        Type
 
 
     
     </td>
     <td valign="top">
-
-    \(Optional\) Enter a meaningful description.
-
-
     
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-
-    URL
-
-
-    
-    </td>
-    <td valign="top">
-
-     `https://openapi.ariba.com/api/<service_name>/<version>/prod` 
+        HTTP
 
 
     
@@ -264,15 +232,15 @@ Now you want your application to work against your productive SAP Ariba system. 
     </tr>
     <tr>
     <td valign="top">
-
-    Proxy Type
+    
+        Description
 
 
     
     </td>
     <td valign="top">
-
-    Internet
+    
+        \(Optional\) Enter a meaningful description.
 
 
     
@@ -280,15 +248,47 @@ Now you want your application to work against your productive SAP Ariba system. 
     </tr>
     <tr>
     <td valign="top">
-
-    Authentication
+    
+        URL
 
 
     
     </td>
     <td valign="top">
+    
+         `https://openapi.ariba.com/api/<service_name>/<version>/prod` 
 
-    Depending on the API you need one of these options:
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+        Proxy Type
+
+
+    
+    </td>
+    <td valign="top">
+    
+        Internet
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+        Authentication
+
+
+    
+    </td>
+    <td valign="top">
+    
+        Depending on the API you need one of these options:
 
     -   NoAuthentication, if the API requires OAuth authentication.
 
@@ -301,15 +301,15 @@ Now you want your application to work against your productive SAP Ariba system. 
     </tr>
     <tr>
     <td valign="top">
-
-    apiKey
+    
+        apiKey
 
 
     
     </td>
     <td valign="top">
-
-    Enter the registered application API key.
+    
+        Enter the registered application API key.
 
 
     

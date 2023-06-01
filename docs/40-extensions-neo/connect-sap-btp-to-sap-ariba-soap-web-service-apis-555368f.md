@@ -52,31 +52,15 @@ You configure connectivity in SAP BTP by creating an HTTP destination.
     </tr>
     <tr>
     <td valign="top">
-
-    Name
+    
+        Name
 
 
     
     </td>
     <td valign="top">
-
-    Enter a meaningful name.
-
-
     
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-
-    Type
-
-
-    
-    </td>
-    <td valign="top">
-
-    HTTP
+        Enter a meaningful name.
 
 
     
@@ -84,31 +68,15 @@ You configure connectivity in SAP BTP by creating an HTTP destination.
     </tr>
     <tr>
     <td valign="top">
-
-    Description
+    
+        Type
 
 
     
     </td>
     <td valign="top">
-
-    \(Optional\) Enter a meaningful description.
-
-
     
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-
-    URL
-
-
-    
-    </td>
-    <td valign="top">
-
-    Enter the integration task URL.
+        HTTP
 
 
     
@@ -116,31 +84,15 @@ You configure connectivity in SAP BTP by creating an HTTP destination.
     </tr>
     <tr>
     <td valign="top">
-
-    Proxy Type
+    
+        Description
 
 
     
     </td>
     <td valign="top">
-
-    Internet
-
-
     
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-
-    Authentication
-
-
-    
-    </td>
-    <td valign="top">
-
-    BasicAuthentication
+        \(Optional\) Enter a meaningful description.
 
 
     
@@ -148,15 +100,15 @@ You configure connectivity in SAP BTP by creating an HTTP destination.
     </tr>
     <tr>
     <td valign="top">
-
-    User
+    
+        URL
 
 
     
     </td>
     <td valign="top">
-
-    Enter the integration end point user ID.
+    
+        Enter the integration task URL.
 
 
     
@@ -164,15 +116,63 @@ You configure connectivity in SAP BTP by creating an HTTP destination.
     </tr>
     <tr>
     <td valign="top">
-
-    Password
+    
+        Proxy Type
 
 
     
     </td>
     <td valign="top">
+    
+        Internet
 
-    Enter the integration end point password.
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+        Authentication
+
+
+    
+    </td>
+    <td valign="top">
+    
+        BasicAuthentication
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+        User
+
+
+    
+    </td>
+    <td valign="top">
+    
+        Enter the integration end point user ID.
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+        Password
+
+
+    
+    </td>
+    <td valign="top">
+    
+        Enter the integration end point password.
 
 
     

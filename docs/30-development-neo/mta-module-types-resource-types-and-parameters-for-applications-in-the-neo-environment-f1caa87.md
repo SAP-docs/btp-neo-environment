@@ -3726,73 +3726,36 @@ For more information, see [Role Assignment of HTML 5 Roles to Security Groups](r
     </tr>
     <tr>
     <td valign="top">
-
-    `metadata-validation-setting`
+    
+        `metadata-validation-setting`
 
 
     
     </td>
     <td valign="top">
-
-    Enable or disable metadata validation, for example `true`.
+    
+        Enable or disable metadata validation, for example `true`.
 
 
     
     </td>
     <td valign="top">
-
-    Boolean
+    
+        Boolean
 
 
     
     </td>
     <td valign="top">
-
-    n/a
+    
+        n/a
 
 
     
     </td>
     <td valign="top">
-
-    yes
-
-
     
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-
-    `metadata-cache-setting`
-
-
-    
-    </td>
-    <td valign="top">
-
-    Enable or disable metadata cache, for example `false`.
-
-
-    
-    </td>
-    <td valign="top">
-
-    Boolean
-
-
-    
-    </td>
-    <td valign="top">
-
-    n/a
-
-
-    
-    </td>
-    <td valign="top">
-
-    yes
+        yes
 
 
     
@@ -3800,15 +3763,52 @@ For more information, see [Role Assignment of HTML 5 Roles to Security Groups](r
     </tr>
     <tr>
     <td valign="top">
-
-    `services`
+    
+        `metadata-cache-setting`
 
 
     
     </td>
     <td valign="top">
+    
+        Enable or disable metadata cache, for example `false`.
 
-    List of OData services. Parameters required for an OData service are:
+
+    
+    </td>
+    <td valign="top">
+    
+        Boolean
+
+
+    
+    </td>
+    <td valign="top">
+    
+        n/a
+
+
+    
+    </td>
+    <td valign="top">
+    
+        yes
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+        `services`
+
+
+    
+    </td>
+    <td valign="top">
+    
+        List of OData services. Parameters required for an OData service are:
 
     -   `name` - name of the service from the SAP on-premise back-end system that needs to be registered, for example `EPM_DEVELOPER_SCENARIO_SRV`. This name has to be unique within the current subaccount.
     -   `namespace` - namespace for the above service being registered from the SAP on-premise back-end system, for example `IWBEP`
@@ -3823,22 +3823,22 @@ For more information, see [Role Assignment of HTML 5 Roles to Security Groups](r
     
     </td>
     <td valign="top">
-
-    List
+    
+        List
 
 
     
     </td>
     <td valign="top">
-
-    n/a
+    
+        n/a
 
 
     
     </td>
     <td valign="top">
-
-    yes
+    
+        yes
 
 
     
@@ -3889,73 +3889,36 @@ For more information, see [Role Assignment of HTML 5 Roles to Security Groups](r
     </tr>
     <tr>
     <td valign="top">
-
-    `metadata-validation-setting`
+    
+        `metadata-validation-setting`
 
 
     
     </td>
     <td valign="top">
-
-    Enable or disable metadata validation, for example `true`.
+    
+        Enable or disable metadata validation, for example `true`.
 
 
     
     </td>
     <td valign="top">
-
-    Boolean
+    
+        Boolean
 
 
     
     </td>
     <td valign="top">
-
-    n/a
+    
+        n/a
 
 
     
     </td>
     <td valign="top">
-
-    yes
-
-
     
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-
-    `metadata-cache-setting`
-
-
-    
-    </td>
-    <td valign="top">
-
-    Enable or disable metadata cache, for example `false`.
-
-
-    
-    </td>
-    <td valign="top">
-
-    Boolean
-
-
-    
-    </td>
-    <td valign="top">
-
-    n/a
-
-
-    
-    </td>
-    <td valign="top">
-
-    yes
+        yes
 
 
     
@@ -3963,15 +3926,52 @@ For more information, see [Role Assignment of HTML 5 Roles to Security Groups](r
     </tr>
     <tr>
     <td valign="top">
-
-    `services`
+    
+        `metadata-cache-setting`
 
 
     
     </td>
     <td valign="top">
+    
+        Enable or disable metadata cache, for example `false`.
 
-    List of OData services. Parameters required for an OData service are:
+
+    
+    </td>
+    <td valign="top">
+    
+        Boolean
+
+
+    
+    </td>
+    <td valign="top">
+    
+        n/a
+
+
+    
+    </td>
+    <td valign="top">
+    
+        yes
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+        `services`
+
+
+    
+    </td>
+    <td valign="top">
+    
+        List of OData services. Parameters required for an OData service are:
 
     -   `name` - name of the service from the SAP on-premise back-end system that needs to be registered, for example `EPM_DEVELOPER_SCENARIO_SRV`. This name has to be unique within the current subaccount.
     -   `namespace` - namespace for the above service being registered from the SAP on-premise back-end system, for example `IWBEP`
@@ -3997,22 +3997,22 @@ For more information, see [Role Assignment of HTML 5 Roles to Security Groups](r
     
     </td>
     <td valign="top">
-
-    List
+    
+        List
 
 
     
     </td>
     <td valign="top">
-
-    n/a
+    
+        n/a
 
 
     
     </td>
     <td valign="top">
-
-    yes
+    
+        yes
 
 
     

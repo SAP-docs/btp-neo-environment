@@ -81,22 +81,22 @@ The graphic below illustrates the scenario implemented in terms of SAP BTP.
     </tr>
     <tr>
     <td valign="top">
-
-    Name ID
+    
+        Name ID
 
 
     
     </td>
     <td valign="top">
-
-    The authenticated user ID.
+    
+        The authenticated user ID.
 
 
     
     </td>
     <td valign="top">
-
-    ```
+    
+        ```
     
     <saml:NameID 
              Format="urn:oasis:names:tc:SAML:1.1:nameid format:unspecified"
@@ -110,15 +110,15 @@ The graphic below illustrates the scenario implemented in terms of SAP BTP.
     </tr>
     <tr>
     <td valign="top">
-
-    Audience
+    
+        Audience
 
 
     
     </td>
     <td valign="top">
-
-    The local service provider name for your SAP BTP account \(in *Cockpit* \> *Security* \> *Trust* \> *Local Service Provider* \> *Local Provider Name*\).
+    
+        The local service provider name for your SAP BTP account \(in *Cockpit* \> *Security* \> *Trust* \> *Local Service Provider* \> *Local Provider Name*\).
 
     If you are using the default identity provider configuration for your account, take the audience value from the table below.
 
@@ -149,45 +149,22 @@ The graphic below illustrates the scenario implemented in terms of SAP BTP.
     </tr>
     <tr>
     <td valign="top">
-
-    hana.ondemand.com
+    
+        hana.ondemand.com
 
 
     
     </td>
     <td valign="top">
-
-    Productive landscape, data center Europe
+    
+        Productive landscape, data center Europe
 
 
     
     </td>
     <td valign="top">
-
-    https://netweaver.ondemand.com
-
-
     
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-
-    ap1.hana.ondemand.com
-
-
-    
-    </td>
-    <td valign="top">
-
-    Productive landscape, data center Asia-Pasific \(Australia\)
-
-
-    
-    </td>
-    <td valign="top">
-
-    ap1.hana.ondemand.com
+        https://netweaver.ondemand.com
 
 
     
@@ -195,22 +172,45 @@ The graphic below illustrates the scenario implemented in terms of SAP BTP.
     </tr>
     <tr>
     <td valign="top">
-
-    https://us1.hana.ondemand.com
+    
+        ap1.hana.ondemand.com
 
 
     
     </td>
     <td valign="top">
-
-    Productive landscape, data center United States \(US East\)
+    
+        Productive landscape, data center Asia-Pasific \(Australia\)
 
 
     
     </td>
     <td valign="top">
+    
+        ap1.hana.ondemand.com
 
-    https://us1.hana.ondemand.com/
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+        https://us1.hana.ondemand.com
+
+
+    
+    </td>
+    <td valign="top">
+    
+        Productive landscape, data center United States \(US East\)
+
+
+    
+    </td>
+    <td valign="top">
+    
+        https://us1.hana.ondemand.com/
 
 
     
@@ -224,8 +224,8 @@ The graphic below illustrates the scenario implemented in terms of SAP BTP.
     
     </td>
     <td valign="top">
-
-    ```
+    
+        ```
     <saml:Audience>myLocalProvider</saml:Audience>
     ```
 
@@ -243,22 +243,22 @@ The graphic below illustrates the scenario implemented in terms of SAP BTP.
     </tr>
     <tr>
     <td valign="top">
-
-    Issuer ID
+    
+        Issuer ID
 
 
     
     </td>
     <td valign="top">
-
-    The issuer must have as value the OAuth client ID registered at SAP BTP \(in *Cockpit* \> *Security* \> *OAuth* \> *Clients* \> *<your client\>* \> *Client ID*\).
+    
+        The issuer must have as value the OAuth client ID registered at SAP BTP \(in *Cockpit* \> *Security* \> *OAuth* \> *Clients* \> *<your client\>* \> *Client ID*\).
 
 
     
     </td>
     <td valign="top">
-
-    ```
+    
+        ```
     
     <saml:Issuer 
              Format="urn:oasis:names:tc:SAML:2.0:nameid-format:entity"
@@ -272,22 +272,22 @@ The graphic below illustrates the scenario implemented in terms of SAP BTP.
     </tr>
     <tr>
     <td valign="top">
-
-    Issuer Certificate
+    
+        Issuer Certificate
 
 
     
     </td>
     <td valign="top">
-
-    The identity provider signing certificate stored in the trust configuration of SAP BTP for this identity provider \(in *Cockpit* \> *Security* \> *Trust* \> *Application Identity Provider* \> *<your identity provider* \> *General* \> *Signing Certificate*\).
+    
+        The identity provider signing certificate stored in the trust configuration of SAP BTP for this identity provider \(in *Cockpit* \> *Security* \> *Trust* \> *Application Identity Provider* \> *<your identity provider* \> *General* \> *Signing Certificate*\).
 
 
     
     </td>
     <td valign="top">
-
-    > ### Sample Code:  
+    
+        > ### Sample Code:  
     > ```
     > <ds:X509Certificate> …… </ds:X509Certificate>
     > ```
@@ -298,22 +298,22 @@ The graphic below illustrates the scenario implemented in terms of SAP BTP.
     </tr>
     <tr>
     <td valign="top">
-
-    \(Optional\) User Attributes
+    
+        \(Optional\) User Attributes
 
 
     
     </td>
     <td valign="top">
-
-    The attributes that will be assigned to the SAP BTP user.
+    
+        The attributes that will be assigned to the SAP BTP user.
 
 
     
     </td>
     <td valign="top">
-
-    ```
+    
+        ```
     
     <Attribute Name="mail">
         <AttributeValue xmlns:xs="http://www.w3.org/2001/XMLSchema"

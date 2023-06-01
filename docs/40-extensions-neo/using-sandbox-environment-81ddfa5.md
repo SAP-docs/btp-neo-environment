@@ -52,31 +52,15 @@ For more information on how to develop a Java application running on SAP BTP, se
     </tr>
     <tr>
     <td valign="top">
-
-    Name
+    
+        Name
 
 
     
     </td>
     <td valign="top">
-
-    Enter a meaningful name.
-
-
     
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-
-    Type
-
-
-    
-    </td>
-    <td valign="top">
-
-    HTTP
+        Enter a meaningful name.
 
 
     
@@ -84,31 +68,15 @@ For more information on how to develop a Java application running on SAP BTP, se
     </tr>
     <tr>
     <td valign="top">
-
-    Description
+    
+        Type
 
 
     
     </td>
     <td valign="top">
-
-    \(Optional\) Enter a meaningful description.
-
-
     
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-
-    URL
-
-
-    
-    </td>
-    <td valign="top">
-
-     `https://openapi.ariba.com/api/<service_name>/<version>/sandbox` 
+        HTTP
 
 
     
@@ -116,31 +84,15 @@ For more information on how to develop a Java application running on SAP BTP, se
     </tr>
     <tr>
     <td valign="top">
-
-    Proxy Type
+    
+        Description
 
 
     
     </td>
     <td valign="top">
-
-    Internet
-
-
     
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-
-    Authentication
-
-
-    
-    </td>
-    <td valign="top">
-
-    NoAuthentication
+        \(Optional\) Enter a meaningful description.
 
 
     
@@ -148,15 +100,63 @@ For more information on how to develop a Java application running on SAP BTP, se
     </tr>
     <tr>
     <td valign="top">
-
-    apiKey
+    
+        URL
 
 
     
     </td>
     <td valign="top">
+    
+         `https://openapi.ariba.com/api/<service_name>/<version>/sandbox` 
 
-    Enter the SAP Ariba APIs registered application API key.
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+        Proxy Type
+
+
+    
+    </td>
+    <td valign="top">
+    
+        Internet
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+        Authentication
+
+
+    
+    </td>
+    <td valign="top">
+    
+        NoAuthentication
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+        apiKey
+
+
+    
+    </td>
+    <td valign="top">
+    
+        Enter the SAP Ariba APIs registered application API key.
 
 
     

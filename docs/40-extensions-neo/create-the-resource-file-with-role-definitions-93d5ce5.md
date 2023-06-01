@@ -65,45 +65,22 @@ To create the resource file with the role definitions required for your applicat
     </tr>
     <tr>
     <td valign="top">
-
-    permissionID
+    
+        permissionID
 
 
     
     </td>
     <td valign="top">
-
-    No
+    
+        No
 
 
     
     </td>
     <td valign="top">
-
-    \(Key\)Permission ID, the sequence ID in permission table
-
-
     
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-
-    permissionType
-
-
-    
-    </td>
-    <td valign="top">
-
-    Yes
-
-
-    
-    </td>
-    <td valign="top">
-
-    Permission\_Type column
+        \(Key\)Permission ID, the sequence ID in permission table
 
 
     
@@ -111,22 +88,22 @@ To create the resource file with the role definitions required for your applicat
     </tr>
     <tr>
     <td valign="top">
-
-    permissionStringValue
+    
+        permissionType
 
 
     
     </td>
     <td valign="top">
-
-    Yes
+    
+        Yes
 
 
     
     </td>
     <td valign="top">
-
-    Permission\_string\_value column
+    
+        Permission\_Type column
 
 
     
@@ -134,22 +111,45 @@ To create the resource file with the role definitions required for your applicat
     </tr>
     <tr>
     <td valign="top">
-
-    permissionLongValue
+    
+        permissionStringValue
 
 
     
     </td>
     <td valign="top">
-
-    Yes
+    
+        Yes
 
 
     
     </td>
     <td valign="top">
+    
+        Permission\_string\_value column
 
-    Permission\_long\_value column
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+        permissionLongValue
+
+
+    
+    </td>
+    <td valign="top">
+    
+        Yes
+
+
+    
+    </td>
+    <td valign="top">
+    
+        Permission\_long\_value column
 
 
     
@@ -223,31 +223,15 @@ To create the resource file with the role definitions required for your applicat
     </tr>
     <tr>
     <td valign="top">
-
-    `roleName`
+    
+        `roleName`
 
 
     
     </td>
     <td valign="top">
-
-    Name of the role as defined in the response to the OData API call
-
-
     
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-
-    `roleDesc`
-
-
-    
-    </td>
-    <td valign="top">
-
-    Role description as defined in the response to the OData API call
+        Name of the role as defined in the response to the OData API call
 
 
     
@@ -255,31 +239,15 @@ To create the resource file with the role definitions required for your applicat
     </tr>
     <tr>
     <td valign="top">
-
-    `permissionType`
+    
+        `roleDesc`
 
 
     
     </td>
     <td valign="top">
-
-    Value of the `permissionType` property as defined in the response to the OData API call
-
-
     
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-
-    `permissionStringValue`
-
-
-    
-    </td>
-    <td valign="top">
-
-    Value of the `permissionStringValue` property as defined in the response to the OData API call
+        Role description as defined in the response to the OData API call
 
 
     
@@ -287,15 +255,47 @@ To create the resource file with the role definitions required for your applicat
     </tr>
     <tr>
     <td valign="top">
-
-    `permissionLongValue`
+    
+        `permissionType`
 
 
     
     </td>
     <td valign="top">
+    
+        Value of the `permissionType` property as defined in the response to the OData API call
 
-    Value of the `permissionLongValue` property as defined in the response to the OData API call
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+        `permissionStringValue`
+
+
+    
+    </td>
+    <td valign="top">
+    
+        Value of the `permissionStringValue` property as defined in the response to the OData API call
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+        `permissionLongValue`
+
+
+    
+    </td>
+    <td valign="top">
+    
+        Value of the `permissionLongValue` property as defined in the response to the OData API call
 
 
     

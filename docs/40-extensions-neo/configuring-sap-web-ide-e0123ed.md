@@ -53,45 +53,22 @@ In this scenario these are the important aspects:
     </tr>
     <tr>
     <td valign="top">
-
-     *SAP\_BCR\_CORE\_COM* 
+    
+         *SAP\_BCR\_CORE\_COM* 
 
 
     
     </td>
     <td valign="top">
-
-    Communication Management
+    
+        Communication Management
 
 
     
     </td>
     <td valign="top">
-
-    Users assigning communication arrangements to the key user
-
-
     
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-
-     *SAP\_BCR\_CORE\_EXT\_UI* 
-
-
-    
-    </td>
-    <td valign="top">
-
-    Extensibility – Deployment of Fiori Applications
-
-
-    
-    </td>
-    <td valign="top">
-
-    Users creating UI extensions
+        Users assigning communication arrangements to the key user
 
 
     
@@ -99,22 +76,45 @@ In this scenario these are the important aspects:
     </tr>
     <tr>
     <td valign="top">
-
-     *SAP\_BCR\_CORE\_EXT* 
+    
+         *SAP\_BCR\_CORE\_EXT\_UI* 
 
 
     
     </td>
     <td valign="top">
-
-    Extensibility
+    
+        Extensibility – Deployment of Fiori Applications
 
 
     
     </td>
     <td valign="top">
+    
+        Users creating UI extensions
 
-    Users creating extensions
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+         *SAP\_BCR\_CORE\_EXT* 
+
+
+    
+    </td>
+    <td valign="top">
+    
+        Extensibility
+
+
+    
+    </td>
+    <td valign="top">
+    
+        Users creating extensions
 
     > ### Note:  
     > You need this catalog if you want to create custom business objects.
@@ -125,22 +125,22 @@ In this scenario these are the important aspects:
     </tr>
     <tr>
     <td valign="top">
-
-     *SAP\_CORE\_BC\_EXT\_TST* 
+    
+         *SAP\_CORE\_BC\_EXT\_TST* 
 
 
     
     </td>
     <td valign="top">
-
-    Extensibility – Custom Apps and Services
+    
+        Extensibility – Custom Apps and Services
 
 
     
     </td>
     <td valign="top">
-
-    You need this catalog if you want to implement and test a UI against a custom business object.
+    
+        You need this catalog if you want to implement and test a UI against a custom business object.
 
 
     

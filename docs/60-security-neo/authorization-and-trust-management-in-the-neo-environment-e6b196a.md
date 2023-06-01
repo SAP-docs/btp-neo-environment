@@ -95,20 +95,3 @@ You can use a user store from an on-premise system for user authentication scena
 
 See [On-Premise User Store](on-premise-user-store-04cbd0f.md).
 
-**Related Information**  
-
-
-[Platform Identity Provider](platform-identity-provider-80edbe7.md "The platform identity provider is the user base for access to your SAP BTP subaccount in the Neo environment. The default user base is provided by SAP ID Service. You can switch to an Identity Authentication tenant if you want to use a custom user base.")
-
-[OAuth 2.0 Service](oauth-2-0-service-e526ca3.md "Use OAuth 2.0 service on SAP BTP to protect applications in the Neo environment using the OAuth 2.0 protocol.")
-
-[Keystore Service](keystore-service-a18327e.md "The Keystore Service provides a repository for cryptographic keys and certificates to the applications in the Neo environment of SAP BTP.")
-
-[Audit Logging in the Neo Environment](audit-logging-in-the-neo-environment-02c3971.md "In this section you can find information for audit log functionalities in the SAP BTP Neo environment.")
-
-[Principal Propagation](principal-propagation-f70fcf1.md "Exchange user ID information between systems or environments in SAP BTP.")
-
-[Protection from Web Attacks](protection-from-web-attacks-52750a8.md "To protect your applications from different kind of web attacks, Neo environment provides mechanisms for you to use with your applications.")
-
-[Data Protection and Privacy](data-protection-and-privacy-7e513d3.md "Data protection is associated with numerous legal requirements and privacy concerns. In addition to compliance with general data protection and privacy acts, it is necessary to consider compliance with industry-specific legislation in different countries.")
-

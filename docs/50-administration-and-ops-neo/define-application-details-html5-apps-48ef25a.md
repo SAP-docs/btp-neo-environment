@@ -47,15 +47,15 @@ If a display name is maintained, this display name is also shown in the list of 
     </tr>
     <tr>
     <td valign="top">
-
-    Display Name
+    
+        Display Name
 
 
     
     </td>
     <td valign="top">
-
-    Human-readable name that you can specify for your HTML5 application.
+    
+        Human-readable name that you can specify for your HTML5 application.
 
 
     
@@ -63,15 +63,15 @@ If a display name is maintained, this display name is also shown in the list of 
     </tr>
     <tr>
     <td valign="top">
-
-    Description
+    
+        Description
 
 
     
     </td>
     <td valign="top">
-
-    Short descriptive text about the HTML5 application, typically stating what it does.
+    
+        Short descriptive text about the HTML5 application, typically stating what it does.
 
 
     

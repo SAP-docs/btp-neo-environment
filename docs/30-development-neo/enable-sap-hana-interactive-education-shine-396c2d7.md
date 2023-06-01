@@ -48,15 +48,15 @@ By default, SHINE is available for all SAP HANA tenant databases in trial accoun
     </tr>
     <tr>
     <td valign="top">
-
-    **Enable SHINE for a new SAP HANA tenant database**
+    
+        **Enable SHINE for a new SAP HANA tenant database**
 
 
     
     </td>
     <td valign="top">
-
-    1.  Follow the steps described in [Create SAP HANA Tenant Databases](https://help.sap.com/viewer/d4790b2de2f4429db6f3dff54e4d7b3a/Cloud/en-US/533384eda57e428f98a43815e6a11119.html#loio46af2934d19343ca8250ce288d27ea41 "Use the cockpit to create an SAP HANA tenant database on an SAP HANA database management system in your subaccount in the Neo environment.") :arrow_upper_right:.
+    
+        1.  Follow the steps described in [Create SAP HANA Tenant Databases](https://help.sap.com/viewer/d4790b2de2f4429db6f3dff54e4d7b3a/Cloud/en-US/533384eda57e428f98a43815e6a11119.html#loio46af2934d19343ca8250ce288d27ea41 "Use the cockpit to create an SAP HANA tenant database on an SAP HANA database management system in your subaccount in the Neo environment.") :arrow_upper_right:.
     2.  From the list of all databases and schemas, choose the SAP HANA tenant database you just created.
     3.  In the overview in the lower part of the screen, choose the *SAP HANA Interactive Education \(SHINE\)* link under *Education Tools*.
 
@@ -66,15 +66,15 @@ By default, SHINE is available for all SAP HANA tenant databases in trial accoun
     </tr>
     <tr>
     <td valign="top">
-
-    **Enable SHINE for an existing SAP HANA tenant database**
+    
+        **Enable SHINE for an existing SAP HANA tenant database**
 
 
     
     </td>
     <td valign="top">
-
-    1.  From the list of all databases and schemas, choose the SAP HANA tenant database for which you want to enable SHINE.
+    
+        1.  From the list of all databases and schemas, choose the SAP HANA tenant database for which you want to enable SHINE.
     2.  In the overview in the lower part of the screen, open the *SAP HANA Cockpit* link under *Administration Tools*.
     3.  In the *Enter Username* field, enter ***SYSTEM***, then enter the password you determined for the SYSTEM user.
 

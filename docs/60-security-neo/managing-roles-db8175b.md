@@ -345,15 +345,15 @@ Assertion-based groups are groups determined by values of attributes in the SAML
         <table>
         <tr>
         <td valign="top">
-
-        Equals
+        
+                Equals
 
 
         
         </td>
         <td valign="top">
-
-        Choose *Equals* if you want the value of the SAML 2.0 assertion attribute to match exactly the string you specify. Note that if you want to use more sophisticated relations, such as "starts with" or "contains", you need to use the *Regular expression* option.
+        
+                Choose *Equals* if you want the value of the SAML 2.0 assertion attribute to match exactly the string you specify. Note that if you want to use more sophisticated relations, such as "starts with" or "contains", you need to use the *Regular expression* option.
 
 
         
@@ -361,15 +361,15 @@ Assertion-based groups are groups determined by values of attributes in the SAML
         </tr>
         <tr>
         <td valign="top">
-
-        Regular expression
+        
+                Regular expression
 
 
         
         </td>
         <td valign="top">
-
-        Choose *Regular expression* if you want to specify more sophisticated matching rules. You can use all regular expression rules described in the[Java RegEx API](http://docs.oracle.com/javase/6/docs/api/java/util/regex/Pattern.html).
+        
+                Choose *Regular expression* if you want to specify more sophisticated matching rules. You can use all regular expression rules described in the[Java RegEx API](http://docs.oracle.com/javase/6/docs/api/java/util/regex/Pattern.html).
 
         **Example 1**: You want to add authenticated SAP employees to group *Employees*. And SAP employees are users with e-mail address ending with *sap.com*. Hence, you choose the mapping rule to be *email*, matched using the following regular expression:
 

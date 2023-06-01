@@ -80,15 +80,15 @@ The graphic below illustrates the overall setup of the scenario.
         </tr>
         <tr>
         <td valign="top">
-
-        Name
+        
+                Name
 
 
         
         </td>
         <td valign="top">
-
-        The *Local Provider Name* of the first subaccount, which you copied in step 1.
+        
+                The *Local Provider Name* of the first subaccount, which you copied in step 1.
 
 
         
@@ -96,15 +96,15 @@ The graphic below illustrates the overall setup of the scenario.
         </tr>
         <tr>
         <td valign="top">
-
-        Signing Certificate
+        
+                Signing Certificate
 
 
         
         </td>
         <td valign="top">
-
-        The *Signing Certificate* of the first subaccount, which you copied in step 1.
+        
+                The *Signing Certificate* of the first subaccount, which you copied in step 1.
 
 
         
@@ -164,15 +164,15 @@ Connect the first subaccount, to the second subaccount by describing the source 
     </tr>
     <tr>
     <td valign="top">
-
-    Name
+    
+        Name
 
 
     
     </td>
     <td valign="top">
-
-    Technical name of the destination. It can be used later on to get an instance of that destination. It should be unique for the current application.
+    
+        Technical name of the destination. It can be used later on to get an instance of that destination. It should be unique for the current application.
 
     > ### Note:  
     > The name can contain only alphanumeric characters, underscores, and dashes. The maximum length is 200 characters.
@@ -183,15 +183,15 @@ Connect the first subaccount, to the second subaccount by describing the source 
     </tr>
     <tr>
     <td valign="top">
-
-    URL
+    
+        URL
 
 
     
     </td>
     <td valign="top">
-
-    The URL of the protected resource that you want to access \(the first application\). See [Configuring Application URLs](../50-administration-and-ops-neo/configuring-application-urls-7ceeaa5.md).
+    
+        The URL of the protected resource that you want to access \(the first application\). See [Configuring Application URLs](../50-administration-and-ops-neo/configuring-application-urls-7ceeaa5.md).
 
     Example: `https://myappmysubaccount.hana.ondemand.com/`
 
@@ -201,15 +201,15 @@ Connect the first subaccount, to the second subaccount by describing the source 
     </tr>
     <tr>
     <td valign="top">
-
-    Authentication
+    
+        Authentication
 
 
     
     </td>
     <td valign="top">
-
-    AppToAppSSO
+    
+        AppToAppSSO
 
 
     

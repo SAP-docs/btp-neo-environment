@@ -88,7 +88,7 @@ You can configure the extension integration between your SAP SuccessFactors comp
 After the automated configuration has finished:
 
 -   SAP Cloud Portal service is enabled \(if it hasn't already been enabled\) and configured for extensibility in your subaccount.
--   A corresponding service provider is configured if there wasn't an already existing one. SAP SuccessFactors as a default identity provider it is added as a default trusted application identity provider in your subaccount if you have selected this option when creating the integration token.
+-   A corresponding service provider is configured if there wasn't an already existing one. SAP SuccessFactors is added as a default trusted application identity provider in your subaccount if you have selected this option when creating the integration token.
 -   You have the `Extensions Administrators` group and the `Extensions Admin` permission role created in SAP SuccessFactors.
 
     > ### Caution:  
