@@ -415,6 +415,29 @@ CN=Global Chambersign Root - 2008, O=AC Camerfirma S.A., SERIALNUMBER=A82743287,
 <tr>
 <td valign="top">
 
+certignaca \[jdk\]
+
+
+
+</td>
+<td valign="top">
+
+CN=Certigna,O=Dhimyotis,C=FR
+
+
+
+</td>
+<td valign="top">
+
+B1:2E:13:63:45:86:A4:6F:1A:B2:60:68:37:58:2D:C4:AC:FD:94:97
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 certumca \[jdk\]
 
 
@@ -1764,29 +1787,6 @@ CN=SwissSign Silver CA - G2, O=SwissSign AG, C=CH
 <td valign="top">
 
 9B:AA:E5:9F:56:EE:21:CB:43:5A:BE:25:93:DF:A7:F0:40:D1:1D:CB
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-symantecclass3
-
-
-
-</td>
-<td valign="top">
-
-CN=Symantec Class 3 Secure Server SHA256 SSL CA, OU=Symantec Trust Network, O=Symantec Corporation, C=US
-
-
-
-</td>
-<td valign="top">
-
-E7:32:73:E5:3A:CF:E8:0F:41:0B:3E:F4:6B:18:02:87:A0:04:40:CD
 
 
 
