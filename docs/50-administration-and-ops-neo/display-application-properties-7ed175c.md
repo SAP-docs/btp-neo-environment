@@ -22,7 +22,7 @@ neo display-application-properties --host <host> --account <subaccount_technical
 
 ## Parameters
 
-To list all parameters available for this command, execute the ***neo help display-application-properties*** in the command line.
+To list all parameters available for this command, execute the `neo help display-application-properties` in the command line.
 
 
 <table>

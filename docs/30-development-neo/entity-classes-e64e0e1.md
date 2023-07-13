@@ -36,8 +36,8 @@ public class Person {
 
 ```
 
--   The ***Person*** class has been annotated as an entity: @Entity.
--   The @Table annotation maps the entity to the database table ***T\_PERSON***.
+-   The `Person` class has been annotated as an entity: @Entity.
+-   The @Table annotation maps the entity to the database table `T_PERSON`.
 -   The @NamedQuery annotation indicates that a static query has been created in the metadata. The name element of @NamedQuery gives the name of the query that will be used with the `createNamedQuery()` method, while the query element specifies the actual query.
 -   The definition of the field serving as the unique identifier of the entity has been annotated with @Id, indicating it is the primary key in the database. Its value is generated automatically \(@GeneratedValue\).
 

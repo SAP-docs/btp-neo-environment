@@ -44,9 +44,9 @@ You can use the cockpit to enable the SQL trace by setting the log level of the 
     > ### Note:  
     > You can set log levels only when an application is running. Loggers are not listed if the relevant application code has not been executed.
 
-6.  Enter ***com.sap.core.persistence.sql.trace*** in the *Filter* field.
+6.  Enter `com.sap.core.persistence.sql.trace` in the *Filter* field.
 
-7.  In the row containing the `com.sap.core.persistence.sql.trace` logger, select the log level ***Debug***:
+7.  In the row containing the `com.sap.core.persistence.sql.trace` logger, select the log level `Debug`:
 
     ![](images/SQL_Log_Settings_32f5870.png)
 

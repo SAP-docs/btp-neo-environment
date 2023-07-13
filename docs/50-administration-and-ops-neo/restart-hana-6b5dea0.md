@@ -40,7 +40,7 @@ After you trigger the command, you can monitor the command execution in SAP HANA
 
 
 
-To list all parameters available for this command, execute ***neo help restart-hana*** in the command line.
+To list all parameters available for this command, execute `neo help restart-hana` in the command line.
 
 
 <table>

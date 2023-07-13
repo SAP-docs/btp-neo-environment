@@ -23,7 +23,7 @@ neo deploy --host <host> --account <subaccount_technical_name> --application <ap
 
 ## Parameters
 
-To list all parameters available for this command, execute ***neo help deploy*** in the command line.
+To list all parameters available for this command, execute `neo help deploy` in the command line.
 
 
 <table>
@@ -199,7 +199,7 @@ Use it to speed up deployment of application archives bigger than 5 MB in slow n
 
 `Default`: *2*
 
-`Acceptable values`: ***1-6***
+`Acceptable values`: `1-6`
 
 `Type`: integer
 

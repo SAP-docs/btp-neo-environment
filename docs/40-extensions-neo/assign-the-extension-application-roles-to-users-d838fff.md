@@ -29,7 +29,7 @@ Use this procedure to assign the permission roles to users.
 
 1.  Log on to SAP SuccessFactors with the following URL:
 
-    ***https://*<SAP\_SuccessFactors\_landscape\>*/login***
+    <code>https://<i class="varname">&lt;SAP_SuccessFactors_landscape&gt;</i>/login</code>
 
     Where *<SAP\_SuccessFactors\_landscape\>* is the fully qualified domain name of the host on which the SAP SuccessFactors company is running.
 

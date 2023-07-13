@@ -40,8 +40,8 @@ The application code is the same as for a standard `HelloWorld` consuming the co
 
 1.  Open the *Java EE* perspective of the Eclipse IDE.
 2.  In the *Project Explorer* view, from the context menu, choose *New* \> *Dynamic Web Project*.
-3.  Enter ***MultitenantConnectivity*** as the *Project name*.
-4.  In the *Target Runtime* pane, select the runtime you want to use to deploy the application. In this tutorial, we choose ***Java Web***.
+3.  Enter `MultitenantConnectivity` as the *Project name*.
+4.  In the *Target Runtime* pane, select the runtime you want to use to deploy the application. In this tutorial, we choose `Java Web`.
 5.  In the *Configuration* pane, leave the default configuration.
 6.  Choose *Finish* to finalize the creation of your project.
 
@@ -68,7 +68,7 @@ The application code is the same as for a standard `HelloWorld` consuming the co
 ## 3. Create a sample JSP file
 
 1.  Under the *MultitenantConnectivity* project node, choose *New* \> *JSP File* in the context menu.
-2.  Enter ***index.jsp*** as the *File* name and choose *Finish*.
+2.  Enter `index.jsp` as the *File* name and choose *Finish*.
 3.  Open the *index.jsp* file using the text editor.
 4.  Replace the entire JSP file content with the following sample code:
 

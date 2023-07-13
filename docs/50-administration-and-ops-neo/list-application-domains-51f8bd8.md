@@ -21,7 +21,7 @@ neo list-application-domains --account <subaccount_technical_name> --application
 
 
 
-To list all parameters available for this command, execute ***neo help list-application-domains*** in the command line.
+To list all parameters available for this command, execute `neo help list-application-domains` in the command line.
 
 
 <table>

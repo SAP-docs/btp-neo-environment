@@ -36,7 +36,7 @@ neo hcmcloud-list-connections --application <extension_application> --account <s
 
 
 
-To list all parameters available for this command, execute ***neo help hcmcloud-list-connections*** in the command line.
+To list all parameters available for this command, execute `neo help hcmcloud-list-connections` in the command line.
 
 
 <table>

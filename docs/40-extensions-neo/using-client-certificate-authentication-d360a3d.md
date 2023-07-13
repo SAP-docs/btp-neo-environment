@@ -144,7 +144,7 @@ You have logged into the SAP BTP cockpit from the landing page for your subaccou
     </td>
     <td valign="top">
     
-        ***HTTP***
+        `HTTP`
 
 
     
@@ -192,7 +192,7 @@ You have logged into the SAP BTP cockpit from the landing page for your subaccou
     </td>
     <td valign="top">
     
-        ***Internet***
+        `Internet`
 
 
     
@@ -208,7 +208,7 @@ You have logged into the SAP BTP cockpit from the landing page for your subaccou
     </td>
     <td valign="top">
     
-        ***ClientCertificateAuthentication***
+        `ClientCertificateAuthentication`
 
 
     

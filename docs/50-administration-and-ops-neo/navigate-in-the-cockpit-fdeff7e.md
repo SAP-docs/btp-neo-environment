@@ -102,12 +102,22 @@ Learn how to navigate to your global accounts and subaccounts in the SAP BTP coc
 
     1.  When you enter your global account, you are by default taken to the *Account Explorer* page of that global account. To navigate to a directory, choose the corresponding entry in one of the views in the *Directories & Subaccounts* tab.
 
+        > ### Note:  
+        > If a directory has the **user management** capability enabled, then you can access this directory \(or its subdirectories\) only if you are a global account admin or you are assigned as a member of the directory. See [Manage Users in Directories \[Feature Set B\]](manage-users-in-directories-feature-set-b-ff4d4a4.md).
+        > 
+        > The :lock: icon is shown next to directories that you aren't authorized to access.
+
 
 4.  Navigate to subaccounts.
 
     1.  When you enter your global account, you are by default taken to the *Account Explorer* page of that global account. To navigate to a subaccount, choose the corresponding entry from one of the views.
 
         Once you've entered a subaccount, the breadcrumbs look like this: :globe_with_meridians: *<global account name\> /* <span class="SAP-icons"></span> *<subaccount name\>*
+
+        > ### Note:  
+        > To access a subaccount your user must have authorizations in the subaccount tenant.
+        > 
+        > The :lock: icon is shown next to subaccounts that you aren't authorized to access.
 
 
 

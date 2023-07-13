@@ -79,7 +79,7 @@ API documentation for the Neo environment.
 
 ### More APIs
 
-[SAP API Business Hub](https://api.sap.com/products/SAPCloudPlatform/apis/REST)
+[SAP Business Accelerator Hub](https://api.sap.com/products/SAPCloudPlatform/apis/REST)
 
 
 

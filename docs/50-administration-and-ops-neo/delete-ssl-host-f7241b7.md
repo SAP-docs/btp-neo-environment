@@ -21,7 +21,7 @@ neo delete-ssl-host --account <subaccount_technical_name> --user <e-mail_or_user
 
 
 
-To list all parameters available for this command, execute ***neo help delete-ssl-host*** in the command line.
+To list all parameters available for this command, execute `neo help delete-ssl-host` in the command line.
 
 
 <table>

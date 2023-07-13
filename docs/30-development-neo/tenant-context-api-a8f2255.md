@@ -9,7 +9,7 @@
 
 ## Overview
 
-In a provider-managed application scenario, each application consumer gets its own access URL for the provider application. To be able to use an application with a consumer-specific URL, the consumer must be subscribed to the provider application. When an application is launched via a consumer-specific URL, the tenant runtime is able to identify the current consumer of the application. The tenant runtime provides an API to retrieve the current application consumer. Each application consumer is identified by a unique ID, which is called ***tenantId***.
+In a provider-managed application scenario, each application consumer gets its own access URL for the provider application. To be able to use an application with a consumer-specific URL, the consumer must be subscribed to the provider application. When an application is launched via a consumer-specific URL, the tenant runtime is able to identify the current consumer of the application. The tenant runtime provides an API to retrieve the current application consumer. Each application consumer is identified by a unique ID, which is called `tenantId`.
 
 Since the information about the current consumer is extracted from the request URL, the tenant runtime can only provide a tenant ID if the current thread has been started via an HTTP request. In case the current thread wasn’t started via an HTTP request \(for example, a background process\), the tenant context API only returns a tenant if the current application instance has been started for a dedicated consumer. If the current application instance is shared between multiple consumers and the thread wasn’t started via an HTTP request, the tenant runtime throws an exception.
 
@@ -50,9 +50,9 @@ Description
 
 The tenant context API provides the following methods:
 
--   ***getTenant*** - returns the tenant associated with the current thread.
--   ***execute*** - executes `callable.call()` method on behalf of the specified tenant and returns the result of a called method.
--   ***getSubscribedTenants*** - returns all tenants subscribed to a calling application, or empty collection if there are no subscribed tenants.
+-   `getTenant` - returns the tenant associated with the current thread.
+-   `execute` - executes `callable.call()` method on behalf of the specified tenant and returns the result of a called method.
+-   `getSubscribedTenants` - returns all tenants subscribed to a calling application, or empty collection if there are no subscribed tenants.
 
 To find the tenant context API in your local SDK installation, go to: `<SDK_location>/javadoc/com/sap/cloud/account`
 

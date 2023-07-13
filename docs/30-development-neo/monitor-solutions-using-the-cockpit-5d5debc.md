@@ -25,18 +25,18 @@ You have a valid role for your subaccount as described in [Operating Solutions](
 
 ## Procedure
 
-1.  To see a status overview of an individual solution or solution components in your subaccount, proceed as follows:
+To see a status overview of an individual solution or solution components in your subaccount, proceed as follows:
 
-2.  Log on to the SAP BTP and select a subaccount.
+1.  Log on to the SAP BTP and select a subaccount.
 
-3.  In the cockpit, choose *Solutions* in the navigation area.
+2.  In the cockpit, choose *Solutions* in the navigation area.
 
     You can monitor the overall status of the deployed and available for subscription solutions.
 
     > ### Note:  
     > The overall status of a solution is a combination of the statuses of all its internal parts and the statuses of any ongoing operations for that particular solution.
 
-4.  In the solution list, select the tile of the solution for which you want to see details.
+3.  In the solution list, select the tile of the solution for which you want to see details.
 
     > ### Note:  
     > If you have selected a solution that is available for subscription but not yet subscribed to, you can monitor only a limited set of its properties.
@@ -51,7 +51,7 @@ You have a valid role for your subaccount as described in [Operating Solutions](
 
     For more information about the possible states of a solution component and what they mean, see your Solution page help in the cockpit.
 
-5.  If you have provided a solution that is available for subscription to another subaccount, you can monitor the licenses and subscribers of a provided solution as follows:
+4.  If you have provided a solution that is available for subscription to another subaccount, you can monitor the licenses and subscribers of a provided solution as follows:
 
     1.  In the solution list under the *Solutions Provided for Subscription* category, select the tile of the solution for which you want to see details.
 

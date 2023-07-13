@@ -50,7 +50,7 @@ You can configure the platform domains using the `application-domains` group of 
 
 1.  Open the command prompt and navigate to the folder containing `neo.bat/neo.sh`\(`<SDK installation folder>/tools`\).
 
-2.  Configure the platform domain you have chosen by executing the ***add-platform-domain*** command.
+2.  Configure the platform domain you have chosen by executing the `add-platform-domain` command.
 
     ```
     neo add-platform-domain --account mysubaccount --application myapp --user myuser --host hana.ondemand.com --platform-domain cert.hana.ondemand.com
@@ -106,7 +106,7 @@ You can configure the platform domains using the `application-domains` group of 
 
 ## Procedure
 
-1.  When you no longer want the application to be accessible on the configured platform domain, remove it by executing the ***remove-platform-domain*** command:
+1.  When you no longer want the application to be accessible on the configured platform domain, remove it by executing the `remove-platform-domain` command:
 
     ```
     neo remove-platform-domain --account mysubaccount --application myapp --user myuser --host hana.ondemand.com --platform-domain cert.hana.ondemand.com

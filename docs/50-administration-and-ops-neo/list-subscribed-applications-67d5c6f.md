@@ -19,7 +19,7 @@ neo list-subscribed-applications --account <subaccount_technical_name> --user <e
 
 ## Parameters
 
-To list all parameters available for this command, execute ***neo help list-subscribed applications*** in the command line.
+To list all parameters available for this command, execute `neo help list-subscribed applications` in the command line.
 
 
 <table>

@@ -53,14 +53,14 @@ During the refresh:
 
 -   The trust between the subaccount in SAP BTP and the SAP SuccessFactors company instance is reconfigured, and generates a local service provider for this subaccount only if there isn't one.
 
--   The *Authorized SP Assertion Consumer Service* \(ACS\) configured with the ***hcmcloud-enable-application-access*** command and the ones created during the integration process settings are recreated for the extension integration. If there are ACSes configured manually in the SAP SuccessFactors company and related to applications running in this subaccount they will not be recreated by the refresh process.
+-   The *Authorized SP Assertion Consumer Service* \(ACS\) configured with the `hcmcloud-enable-application-access` command and the ones created during the integration process settings are recreated for the extension integration. If there are ACSes configured manually in the SAP SuccessFactors company and related to applications running in this subaccount they will not be recreated by the refresh process.
 
--   The OAuth clients created by the ***hcmcloud-create-connection*** command and the automated integration process are recreated.
+-   The OAuth clients created by the `hcmcloud-create-connection` command and the automated integration process are recreated.
 
 -   The OAuth SAML Bearer destinations created for the extension integration are updated.
 
     > ### Note:  
-    > If you have manually deleted an OAuth SAML Bearer destination with system user, after the refresh, this destination will be recreated with all the properties it used to have except the *System User*. For the *System User* property, it will be set the value ***\#\#REPLACE\_USER\#\#***. You need to manually edit this destination in the SAP BTP cockpit and replace the *System User* value with a real technical user.
+    > If you have manually deleted an OAuth SAML Bearer destination with system user, after the refresh, this destination will be recreated with all the properties it used to have except the *System User*. For the *System User* property, it will be set the value `##REPLACE_USER##`. You need to manually edit this destination in the SAP BTP cockpit and replace the *System User* value with a real technical user.
     > 
     > Note that the *System User* property is deprecated and will be removed soon. We recommend that you work on behalf of specific \(named\) users instead of working with a technical user.
     > 

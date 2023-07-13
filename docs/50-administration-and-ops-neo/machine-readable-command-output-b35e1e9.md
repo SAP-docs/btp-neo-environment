@@ -13,7 +13,7 @@ The console commands can return structured, machine-readable output. When you us
 
 Syntax: `--output <format>` 
 
-Accepted format value: ***json***
+Accepted format value: `json`
 
 
 
@@ -142,7 +142,7 @@ Name
 </td>
 <td valign="top">
 
-The process exit code of the invoked command \( ***0*** = successful, everything else = failure\)
+The process exit code of the invoked command \( `0` = successful, everything else = failure\)
 
 
 
@@ -246,7 +246,7 @@ The result object returned by the command following the new contract for structu
 
 ## Example
 
-Here is a full example of a command \( ***neo start*** \) that supports structured output and displays result values:
+Here is a full example of a command \( `neo start` \) that supports structured output and displays result values:
 
 ```
 {

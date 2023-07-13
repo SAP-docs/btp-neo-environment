@@ -65,7 +65,7 @@ To use the console commands, install an SDK according to the instructions in [In
 
 1.  Open the command prompt and navigate to the folder containing `neo.bat/neo.sh`\(`<SDK installation folder>/tools`\).
 
-2.  Create an SSL host. In the console client command line, execute ***neo create-ssl-host***. For example:
+2.  Create an SSL host. In the console client command line, execute `neo create-ssl-host`. For example:
 
     ```
     neo create-ssl-host --account mysubaccount --user mymail@example.com --host hana.ondemand.com --name mysslhostname
@@ -76,7 +76,7 @@ To use the console commands, install an SDK according to the instructions in [In
 
     For more information, see [create-ssl-host](create-ssl-host-3c890d5.md).
 
-3.  Optional: Check all the SSL hosts created for your subaccount using the ***list-ssl-hosts*** command.
+3.  Optional: Check all the SSL hosts created for your subaccount using the `list-ssl-hosts` command.
 
     ```
     neo list-ssl-hosts --account mysubaccount --user mymail@example.com --host hana.ondemand.com
@@ -177,7 +177,7 @@ You need to bind the uploaded certificate to the created SSL host so that it can
 
 ## Procedure
 
-1.  Bind the certificate by executing ***neo bind-domain-certificate***:
+1.  Bind the certificate by executing `neo bind-domain-certificate`:
 
     ```
     neo bind-domain-certificate --account mysubaccount --user mymail@example.com --host hana.ondemand.com --ssl-host mysslhostname --certificate myfirstcert
@@ -186,7 +186,7 @@ You need to bind the uploaded certificate to the created SSL host so that it can
 
     For more information, see [bind-domain-certificate](bind-domain-certificate-8722bcb.md).
 
-2.  Optional: If you want to list your custom domain certificates, execute: ***neo list-domain-certificates***.
+2.  Optional: If you want to list your custom domain certificates, execute: `neo list-domain-certificates`.
 
     ```
     neo list-domain-certificates --account mysubaccount --user mymail@example.com --host hana.ondemand.com 
@@ -211,7 +211,7 @@ To make your application on the platform accessible via the custom domain, you n
 
 ## Procedure
 
-1.  In the console client command line, execute ***neo add-custom-domain*** with the appropriate parameters. Note that you can only do this for a started application.
+1.  In the console client command line, execute `neo add-custom-domain` with the appropriate parameters. Note that you can only do this for a started application.
 
     ```
     neo add-custom-domain --account mysubaccount --user mymail@example.com --host hana.ondemand.com
@@ -226,7 +226,7 @@ To make your application on the platform accessible via the custom domain, you n
 
     For more information, see [add-custom-domain](add-custom-domain-ebc5269.md).
 
-2.  Optional: If you want to list all custom domains configured as access points for applications in your subaccount, execute ***neo list-custom-domain-mappings***.
+2.  Optional: If you want to list all custom domains configured as access points for applications in your subaccount, execute `neo list-custom-domain-mappings`.
 
     For more information, see [list-custom-domain-mappings](list-custom-domain-mappings-7dfeeb2.md).
 
@@ -254,7 +254,7 @@ You need to make a CNAME mapping from your custom domain to the created SSL host
 
 1.  Sign in to the domain name registrar's administrative tool and find the place where you can update the domain DNS records.
 
-2.  Locate and update the CNAME records for your domain to point to the DNS entry you received from us \(`*.ssl.ondemand.com`\) - the one that you got as a result when you created the SSL host using the `create-ssl-host` command. For example, `123456.ssl.ondemand.com`. You can check the SSL host by executing the ***list-ssl-hosts*** command.
+2.  Locate and update the CNAME records for your domain to point to the DNS entry you received from us \(`*.ssl.ondemand.com`\) - the one that you got as a result when you created the SSL host using the `create-ssl-host` command. For example, `123456.ssl.ondemand.com`. You can check the SSL host by executing the `list-ssl-hosts` command.
 
     For example, if you have two DNS records : `myhost.com` and `www.myhost.com`, you need to configure them both to point to the SSL host `123456.ssl.ondemand.com`.
 

@@ -24,7 +24,7 @@ Deploying an application publishes it to SAP BTP. During deploy, you can define 
 
 ## Procedure
 
-1.  In the opened command line console, execute ***neo deploy*** command with the appropriate parameters.
+1.  In the opened command line console, execute `neo deploy` command with the appropriate parameters.
 
     You can define the parameters of commands directly in the command line as in the example below, or in the properties file. For more information, see [Using the Console Client](../50-administration-and-ops-neo/using-the-console-client-8900b22.md).
 
@@ -48,7 +48,7 @@ neo deploy --host <host> --account <subaccount_name> --application <application_
 
 ## Next Steps
 
-To make your deployed application available for requests, you need to start it by executing the ***neo start*** command.
+To make your deployed application available for requests, you need to start it by executing the `neo start` command.
 
 Then, you can manage the application lifecycle \(check the status; stop; restart; undeploy\) using dedicated console client commands.
 

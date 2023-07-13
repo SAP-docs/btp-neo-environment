@@ -21,7 +21,7 @@ You have to create an OAuth client in SAP BTP with ID and secret. Later on, you 
 
 3.  Choose *Register New Client*. The ID is automatically generated.
 
-4.  Enter a name for the client, for example, ***intsvcOAuthClient***.
+4.  Enter a name for the client, for example, `intsvcOAuthClient`.
 
 5.  In the *Subscription* field, select the extension application that you want to be notified.
 

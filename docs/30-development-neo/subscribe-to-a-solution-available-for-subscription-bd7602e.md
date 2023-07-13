@@ -39,7 +39,7 @@ You can subscribe to a solution that has been provided for subscription by anoth
 
 4.  \(Optional\) Input the location of the provider-derived MTA extension descriptor file.
 
-    Alternatively, as of `_schema version` `3.1`, if you do not provide it and your solution has missing data required for productive use, you can enter that data manually in the dialog subsection that appears. Keep in mind that you have to input complex parameters such as lists and maps in JSON format. For example, an account-level destination parameter `additional-properties` should be a map that has a value similar to ***\{"additional.property.1": "1", "additional.property.2": "2"\}***.
+    Alternatively, as of `_schema version` `3.1`, if you do not provide it and your solution has missing data required for productive use, you can enter that data manually in the dialog subsection that appears. Keep in mind that you have to input complex parameters such as lists and maps in JSON format. For example, an account-level destination parameter `additional-properties` should be a map that has a value similar to `{"additional.property.1": "1", "additional.property.2": "2"}`.
 
     > ### Note:  
     > Ensure that your extension descriptor file extends correctly the solution you are subscribing to. To do so, check the `Extension ID` of the solution in the*Additional Details* field of the solution overview page in the cockpit, and input it in the `extends` section of your extension descriptor.

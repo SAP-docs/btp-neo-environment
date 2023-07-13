@@ -76,7 +76,7 @@ By default, SHINE is available for all SAP HANA tenant databases in trial accoun
     
         1.  From the list of all databases and schemas, choose the SAP HANA tenant database for which you want to enable SHINE.
     2.  In the overview in the lower part of the screen, open the *SAP HANA Cockpit* link under *Administration Tools*.
-    3.  In the *Enter Username* field, enter ***SYSTEM***, then enter the password you determined for the SYSTEM user.
+    3.  In the *Enter Username* field, enter `SYSTEM`, then enter the password you determined for the SYSTEM user.
 
         The first time you log in to the *SAP HANA Cockpit*, you are informed that you don't have the roles that you need to open the SAP BTP cockpit.
 
@@ -105,7 +105,7 @@ By default, SHINE is available for all SAP HANA tenant databases in trial accoun
         The new database user appears as a new node under the *Users* node.
 
     12. In the *Granted Roles* section, select *\+ \(Add Role\)*.
-    13. Enter ***democontent*** in the search field and select all roles in the result list.
+    13. Enter `democontent` in the search field and select all roles in the result list.
     14. Choose *Ok*.
 
         The roles are added to the *Granted Roles* tab.

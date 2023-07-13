@@ -21,7 +21,7 @@ neo disable --host <host> --account <subaccount_technical_name> --application <a
 
 
 
-To list all parameters available for this command, execute ***neo help disable*** in the command line.
+To list all parameters available for this command, execute `neo help disable` in the command line.
 
 
 <table>
@@ -173,13 +173,13 @@ To disable the whole application, execute:
 neo disable --host hana.ondemand.com --account mysubaccount --application myapp --user mymail@example.com
 ```
 
-To disable a single applcation process, first identify the application process you want to disable by executing ***neo status***:
+To disable a single applcation process, first identify the application process you want to disable by executing `neo status`:
 
 ```
 neo status --host hana.ondemand.com --account mysubaccount --application myapp --user mymail@example.com
 ```
 
-From the generated list of application process IDs, copy the ID you need and execute ***neo disable*** for it:
+From the generated list of application process IDs, copy the ID you need and execute `neo disable` for it:
 
 ```
 neo disable --application-process-id e8df21d  --host hana.ondemand.com --user mymail@example.com 

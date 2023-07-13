@@ -31,7 +31,7 @@ The user you want to add to SAP ID service must have an SAP user account \(for e
 
 2.  Choose the trust configuration for SAP ID service.
 
-3.  Enter the business user's name in the *User* field, for example ***john.doe@example.com***.
+3.  Enter the business user's name in the *User* field, for example `john.doe@example.com`.
 
     > ### Remember:  
     > If the user identifier you entered does not have an SAP user account or has never logged on to an application in this subaccount, SAP BTP cannot automatically verify the user name. To avoid mistakes, you must ensure that the user name is correct and that it exists in SAP ID service.

@@ -19,7 +19,7 @@ To use resource-local transactions, the transaction type attribute has to be set
 
 1.  In the *Project Explorer* view, select `<project>/Java Resources/src/META-INF/persistence.xml`, and from the context menu choose *Open With* \> *Persistence XML Editor*.
 
-2.  On the *Connection* tab, enter the transaction type ***Resource Local***.
+2.  On the *Connection* tab, enter the transaction type `Resource Local`.
 
 3.  Save the file.
 

@@ -13,7 +13,7 @@ You can only debug SAP HANA server-side JavaScript with the SAP HANA Tools plugi
     1.  Switch to the *Administration Console* perspective.
     2.  Double-click your system.
     3.  Switch to the *Configuration* tab.
-    4.  Set the following parameter: *xsengine.ini* \> *debugger* \> *enabled=true*. If the *debugger* section is not already present, create it and add the parameter *enabled*. Assign the value ***true*** to the *enabled* parameter.
+    4.  Set the following parameter: *xsengine.ini* \> *debugger* \> *enabled=true*. If the *debugger* section is not already present, create it and add the parameter *enabled*. Assign the value `true` to the *enabled* parameter.
 
 
 

@@ -36,7 +36,7 @@ neo hcmcloud-disable-application-access --application <extension_application> --
 
 
 
-To list all parameters available for this command, execute ***neo help hcmcloud-disable-application-access*** in the command line.
+To list all parameters available for this command, execute `neo help hcmcloud-disable-application-access` in the command line.
 
 
 <table>
@@ -84,7 +84,7 @@ The name of the extension application for which you are deleting the connection.
 
 The type of the extension application for which you are deleting the connection
 
-`Accepted values`: ***java***, ***html5***
+`Accepted values`: `java`, `html5`
 
 `Type`: string \(up to 30 characters; lowercase letters and numbers, starting with a letter\)
 

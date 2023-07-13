@@ -23,7 +23,7 @@ neo display-mta --host <host> --account <subaccount_technical_name> --user <e-ma
 
 
 
-To list all parameters available for this command, execute ***neo help display-mta*** in the command line.
+To list all parameters available for this command, execute `neo help display-mta` in the command line.
 
 
 <table>

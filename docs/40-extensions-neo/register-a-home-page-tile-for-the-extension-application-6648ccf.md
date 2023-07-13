@@ -41,7 +41,7 @@ The SAP SuccessFactors EC Home Page provides a framework that allows different m
 
 1.  To start the console client for SAP BTP, Neo environment, open the command prompt and navigate to the folder containing neo.bat/sh \(SDK installation folder/tools\). For more information, see [Using the Console Client](../50-administration-and-ops-neo/using-the-console-client-8900b22.md).
 
-2.  Register the SAP SuccessFactors EC Home Page tiles in the SAP SuccessFactors company instance linked to the specified SAP BTP subaccount. In the console client command line, execute: ***hcmcloud-register-home-page-tiles***, as follows:
+2.  Register the SAP SuccessFactors EC Home Page tiles in the SAP SuccessFactors company instance linked to the specified SAP BTP subaccount. In the console client command line, execute: `hcmcloud-register-home-page-tiles`, as follows:
 
     -   For an application deployed in your subaccount, specify the name of your extension application for the `application` parameter.
 
@@ -63,7 +63,7 @@ The SAP SuccessFactors EC Home Page provides a framework that allows different m
     > ### Note:  
     > The size of the tile descriptor file must not exceed 100 KB.
 
-3.  \(Optional\) List the extension application Home Page tiles registered in the SAP SuccessFactors company instance associated with the extension subaccount. In the console client command line, execute ***hcmcloud-get-registered-home-page-tiles***, as follows:
+3.  \(Optional\) List the extension application Home Page tiles registered in the SAP SuccessFactors company instance associated with the extension subaccount. In the console client command line, execute `hcmcloud-get-registered-home-page-tiles`, as follows:
 
     -   For an application deployed in your subaccount, specify the name of your extension application for the `application` parameter.
 
@@ -87,7 +87,7 @@ The SAP SuccessFactors EC Home Page provides a framework that allows different m
     > 
     > There is no lifecycle dependency between the tiles and the application, so the application may not be started or may not be deployed anymore.
 
-4.  \(Optional\) If your scenario requires it, unregister the SAP SuccessFactors EC Home Page tiles registered for the extension application. In the console client command line, execute ***hcmcloud-unregister-home-page-tiles***, as follows:
+4.  \(Optional\) If your scenario requires it, unregister the SAP SuccessFactors EC Home Page tiles registered for the extension application. In the console client command line, execute `hcmcloud-unregister-home-page-tiles`, as follows:
 
     -   For an application deployed in your subaccount, specify the name of your extension application for the `application` parameter.
 

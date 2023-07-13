@@ -4327,10 +4327,10 @@ yes
 > 
 > -   Enable the SAP Solution Lifecycle Management service for SAP BTP service in a subaccount that supports SAP Cloud Integration. For more information, see [Content Transport](https://help.sap.com/viewer/368c481cd6954bdfa5d0435479fd4eaf/Cloud/en-US/e3c79d65aa604b80992e20609881ad7a.html) in the SAP Cloud Integration documentation.
 > -   Create a destination with named `CloudIntegration` with the following properties:
->     -   Type - ***HTTP***
+>     -   Type - `HTTP`
 >     -   URL - URL pointing to the `/itspaces` of the TMN node for the SAP Cloud Integration tenant in the current subaccount
->     -   Proxy Type - ***Internet***
->     -   Authentication - ***BasicAuthentication***
+>     -   Proxy Type - `Internet`
+>     -   Authentication - `BasicAuthentication`
 >     -   User and password - credentials of a user that has the `AuthGroup.IntegrationDeveloper` role for the above-mentioned TMN node
 > 
 > 

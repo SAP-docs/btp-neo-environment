@@ -69,15 +69,15 @@ You can create multiple subaccounts and assign quota to them either using the co
 
     Execute:
 
-    ***neo create-account -a <subaccount\> -u <user who is member of that subaccount\> -h <host\> -n <display name of the new subaccount\>***
+    `neo create-account -a <subaccount> -u <user who is member of that subaccount> -h <host> -n <display name of the new subaccount>`
 
 3.  Assign the necessary amount of quota to the subaccount.
 
     Execute:
 
-    ***neo set-quota -a <subaccount\> -u <user name or email\> -h <host\> -m <type of the quota lite, pro, prem or prem-plus\>:<integer amount of the quota\>***
+    `neo set-quota -a <subaccount> -u <user name or email> -h <host> -m <type of the quota lite, pro, prem or prem-plus>:<integer amount of the quota>`
 
-    Next, you can deploy your application in the newly created subaccount by executing ***neo deploy -a <subaccount\> -h <host\> -b <application name\> -s <file location\> -u <user name or email\>***. Then, you can test your application and make it ready for productive use.
+    Next, you can deploy your application in the newly created subaccount by executing `neo deploy -a <subaccount> -h <host> -b <application name> -s <file location> -u <user name or email>`. Then, you can test your application and make it ready for productive use.
 
     You can transfer the application from one subaccount to another by redeploying it in the respective subaccount.
 

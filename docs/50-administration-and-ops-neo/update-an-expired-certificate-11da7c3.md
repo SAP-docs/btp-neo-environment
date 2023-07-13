@@ -33,7 +33,7 @@ Upload and bind a new certificate to the SSL host to replace the expired certifi
 
 ## Procedure
 
-1.  Generate a new CSR by executing the ***neo generate-csr*** command with the appropriate parameters:
+1.  Generate a new CSR by executing the `neo generate-csr` command with the appropriate parameters:
 
     ```
     neo generate-csr --account mysubaccount --user mymail@example.com --host hana.ondemand.com
@@ -50,7 +50,7 @@ Upload and bind a new certificate to the SSL host to replace the expired certifi
     neo upload-domain-certificate --account mysubaccount --user mymail@example.com --host hana.ondemand.com --name mynewcert --location ./certificate.pub
     ```
 
-4.  Execute ***neo set-ssl-host*** with the `--certificate` parameter.
+4.  Execute `neo set-ssl-host` with the `--certificate` parameter.
 
     ```
     neo set-ssl-host --account mysubaccount --user mymail@example.com --host hana.ondemand.com --name mysslhostname --certificate mynewcert
@@ -58,7 +58,7 @@ Upload and bind a new certificate to the SSL host to replace the expired certifi
 
     The `set-ssl-host` command allows you to unbind the expired certificate and bind the new one to the SSL host in one step. For more information, see [set-ssl-host](set-ssl-host-2956975.md).
 
-5.  To verify that you have configured correctly the new certificate, execute ***neo list-domain-certificates***.
+5.  To verify that you have configured correctly the new certificate, execute `neo list-domain-certificates`.
 
 
  <a name="loiof16731619a134670ac99915b2049d8d5"/>
@@ -98,7 +98,7 @@ Some certificate authorities \(CA\) offer to sign an SSL certificate based on th
 
     If you don't use the `--force` parameter, you won't be able to bind the certificate to the SSL host.
 
-3.  To verify that the validity of the certificate is updated, execute ***neo list-domain-certificates***.
+3.  To verify that the validity of the certificate is updated, execute `neo list-domain-certificates`.
 
 
 **Related Information**  

@@ -22,7 +22,7 @@ neo start-maintenance --account <subaccount_technical_name> --application <appli
 
 ## Parameters
 
-To list all parameters available for this command, execute ***neo help start-maintenance*** in the command line.
+To list all parameters available for this command, execute `neo help start-maintenance` in the command line.
 
 
 <table>

@@ -38,7 +38,7 @@ neo hcmcloud-enable-application-access --application <extension_application> --a
 
 
 
-To list all parameters available for this command, execute ***neo help hcmcloud-enable-application-access*** in the command line.
+To list all parameters available for this command, execute `neo help hcmcloud-enable-application-access` in the command line.
 
 
 <table>
@@ -86,7 +86,7 @@ The name of the extension application for which you are creating the connection.
 
 The type of the extension application for which you are creating the connection
 
-`Accepted values`: ***java***, ***html5***
+`Accepted values`: `java`, `html5`
 
 `Type`: string
 

@@ -21,7 +21,7 @@ neo delete-destination --account <subaccount_technical_name> --user <e-mail_or_u
 
 
 
-To list all parameters available for this command, execute ***neo help delete-destination*** in the command line.
+To list all parameters available for this command, execute `neo help delete-destination` in the command line.
 
 
 <table>

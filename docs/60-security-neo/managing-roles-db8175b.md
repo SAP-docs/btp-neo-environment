@@ -316,7 +316,7 @@ For each different IdP, you then define a set of rules specifying to which group
 
 Default groups are the groups all users logged by this IdP will have. For example, all users logged by the company IdP can belong to the group "*Internal*".
 
-Assertion-based groups are groups determined by values of attributes in the SAML 2.0 assertion. For example, if the assertion contains the attribute "***contract=temporary***", you may want all such users to be added to the group "*TEMPORARY*".
+Assertion-based groups are groups determined by values of attributes in the SAML 2.0 assertion. For example, if the assertion contains the attribute "`contract=temporary`", you may want all such users to be added to the group "*TEMPORARY*".
 
 
 

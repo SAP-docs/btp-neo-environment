@@ -36,7 +36,7 @@ neo restart --application-process-id <ID> --user <e-mail_or_user> --host <host>
 
 ## Parameters
 
-To list all parameters available for this command, execute the ***neo help restart*** command.
+To list all parameters available for this command, execute the `neo help restart` command.
 
 
 <table>

@@ -21,7 +21,7 @@ neo unbind-domain-certificate --account <subaccount_technical_name> --user <e-ma
 
 
 
-To list all parameters available for this command, execute ***neo help unbind-domain-certificate*** in the command line.
+To list all parameters available for this command, execute `neo help unbind-domain-certificate` in the command line.
 
 
 <table>

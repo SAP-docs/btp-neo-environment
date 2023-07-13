@@ -115,7 +115,7 @@ You will perform all subsequent activities with this new user.
         1.  Select the relevant SAP HANA tenant database in the list.
 
     2.  In the overview that is shown in the lower part of the screen, open the *SAP HANA Web-based Development Workbench* link under *Development Tools*.
-    3.  In the *Enter Username* field, enter ***SYSTEM***, then enter the password you determined for the SYSTEM user in the *Enter Password* field. You're now logged on to the SAP HANA cockpit.
+    3.  In the *Enter Username* field, enter `SYSTEM`, then enter the password you determined for the SYSTEM user in the *Enter Password* field. You're now logged on to the SAP HANA cockpit.
     4.  Open the *Security* tool of the SAP HANA Web-based Development Workbench.
     5.  Expand the *Security* node.
     6.  Open the context menu for the *Users* node and choose *New User*.
@@ -133,7 +133,7 @@ You will perform all subsequent activities with this new user.
         The new database user is displayed as a new node under the *Users* node.
 
     10. To assign your user the roles with the required permissions for working with SAP HANA Web-based Development Workbench, go to the *Granted Roles* section and choose the *\+ \(Add\)* button.
-    11. Type ***ide*** in the search field and select all roles in the result list.
+    11. Type `ide` in the search field and select all roles in the result list.
     12. Choose *OK*.
 
         The roles are added on the *Granted Roles* tab.
@@ -295,7 +295,7 @@ SAP HANA Extended Application Services \(SAP HANA XS\) supports server-side appl
 
 2.  In the *Select a wizard* dialog, choose *SAP HANA* \> *Application Development* \> *XS JavaScript File*.
 
-3.  In the *New XS JavaScript File* dialog, enter ***MyFirstSourceFile.xsjs*** as *File name*.
+3.  In the *New XS JavaScript File* dialog, enter `MyFirstSourceFile.xsjs` as *File name*.
 
 4.  Choose *Finish*.
 

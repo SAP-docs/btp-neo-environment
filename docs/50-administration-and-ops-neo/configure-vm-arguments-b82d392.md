@@ -49,7 +49,7 @@ You can configure the following arguments:
     ```
 
     > ### Note:  
-    > If you are deploying using the properties file, note that you have to use double quotation marks twice: ***vm-arguments=""-Dcurrency=EUR -Xmx1024m""***.
+    > If you are deploying using the properties file, note that you have to use double quotation marks twice: `vm-arguments=""-Dcurrency=EUR -Xmx1024m""`.
 
     This will set the system properties *\-Dcurrency=EUR* and the memory argument *\-Xmx1024m*.
 

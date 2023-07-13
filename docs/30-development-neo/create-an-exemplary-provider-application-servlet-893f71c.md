@@ -35,8 +35,8 @@ This tutorial explains how to create a sample application which makes use of the
 
 1.  Open the *Java EE* perspective of the Eclipse IDE.
 2.  In the *Project Explorer* view, from the context menu, choose *New* \> *Dynamic Web Project*.
-3.  Enter ***TenantContextApp*** as the *Project name*.
-4.  In the *Target Runtime* pane, select the runtime you want to use to deploy the application. In this tutorial, we choose ***Java Web***.
+3.  Enter `TenantContextApp` as the *Project name*.
+4.  In the *Target Runtime* pane, select the runtime you want to use to deploy the application. In this tutorial, we choose `Java Web`.
 5.  In the *Configuration* pane, leave the default configuration and check the option *Generate web.xml deployment descriptor*.
 6.  Choose *Finish* to finalize the creation of your project.
 
@@ -49,9 +49,9 @@ This tutorial explains how to create a sample application which makes use of the
 ## 2. Create a sample servlet
 
 1.  From the *TenantContextApp* context menu, choose *New* \> *Servlet*.
-2.  Enter ***tenantcontext.demo*** as the Java package and ***TenantContextServlet*** as the *Class name* and choose *Next*.
+2.  Enter `tenantcontext.demo` as the Java package and `TenantContextServlet` as the *Class name* and choose *Next*.
 3.  In the *URL mappings* field, select */TenantContext* and choose *Edit*.
-4.  In the *Pattern* field, replace the current value with just "***/***". In this way, the servlet will be mapped as a welcome page for the application.
+4.  In the *Pattern* field, replace the current value with just "`/`". In this way, the servlet will be mapped as a welcome page for the application.
 
     ![](images/URL_mapping_png_7612b41.png) 
 

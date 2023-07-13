@@ -31,7 +31,7 @@ In the SAP HANA repository, you have created the HTTP destination \(`.xshttpdest
 
 3.  Select the relevant destination and choose *Assign Trust Store*.
 
-4.  In the dialog box, select the ***DEFAULT*** trust store from the dropdown box and save your entry. Note that ***DEFAULT*** specifies a predefined trust store containing the certificate required by SAP HANA XS applications.
+4.  In the dialog box, select the `DEFAULT` trust store from the dropdown box and save your entry. Note that `DEFAULT` specifies a predefined trust store containing the certificate required by SAP HANA XS applications.
 
 
 **Related Information**  

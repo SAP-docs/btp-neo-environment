@@ -54,7 +54,7 @@ HC\_HOST
 </td>
 <td valign="top">
 
-***hana.ondemand.com*** / ***us1.hana.ondemand.com*** / ***hanatrial.ondemand.com*** 
+`hana.ondemand.com` / `us1.hana.ondemand.com` / `hanatrial.ondemand.com` 
 
 
 
@@ -77,7 +77,7 @@ HC\_HOST\_SVC
 </td>
 <td valign="top">
 
-***svc.hana.ondemand.com / svc.us1.hana.ondemand.com / svc.hanatrial.ondemand.com***
+`svc.hana.ondemand.com / svc.us1.hana.ondemand.com / svc.hanatrial.ondemand.com`
 
 
 
@@ -100,7 +100,7 @@ HC\_HOST\_CERT
 </td>
 <td valign="top">
 
-***cert.hana.ondemand.com / cert.us1.hana.ondemand.com / cert.hanatrial.ondemand.com***
+`cert.hana.ondemand.com / cert.us1.hana.ondemand.com / cert.hanatrial.ondemand.com`
 
 
 
@@ -123,7 +123,7 @@ HC\_REGION
 </td>
 <td valign="top">
 
-***EU\_1*** / ***US\_1*** 
+`EU_1` / `US_1` 
 
 
 
@@ -146,7 +146,7 @@ HC\_ACCOUNT
 </td>
 <td valign="top">
 
-***mysubaccount***
+`mysubaccount`
 
 
 
@@ -169,7 +169,7 @@ HC\_APPLICATION
 </td>
 <td valign="top">
 
-***myapp***
+`myapp`
 
 
 
@@ -192,7 +192,7 @@ HC\_APPLICATION\_URL
 </td>
 <td valign="top">
 
-***https://myapp.hana.ondemand.com***
+`https://myapp.hana.ondemand.com`
 
 
 
@@ -215,7 +215,7 @@ HC\_LOCAL\_HTTP\_PORT
 </td>
 <td valign="top">
 
-***9001***
+`9001`
 
 
 
@@ -238,7 +238,7 @@ HC\_LANDSCAPE
 </td>
 <td valign="top">
 
-***production*** / ***trial*** 
+`production` / `trial` 
 
 
 
@@ -261,7 +261,7 @@ HC\_PROCESS\_ID
 </td>
 <td valign="top">
 
-***8921b0a7cebc5538038b6b7b0c0ea6a7127f0cd4***
+`8921b0a7cebc5538038b6b7b0c0ea6a7127f0cd4`
 
 
 
@@ -284,7 +284,7 @@ HC\_AVAILABILITY\_ZONE
 </td>
 <td valign="top">
 
-***AZ 1*** / ***AZ 2***
+`AZ 1` / `AZ 2`
 
 
 
@@ -307,7 +307,7 @@ HC\_OP\_HTTP\_PROXY\_HOST
 </td>
 <td valign="top">
 
-***localhost***
+`localhost`
 
 
 
@@ -330,7 +330,7 @@ HC\_OP\_HTTP\_PROXY\_PORT
 </td>
 <td valign="top">
 
-***20003***
+`20003`
 
 
 

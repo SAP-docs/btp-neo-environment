@@ -28,7 +28,7 @@ The following two steps involve external service providers - domain name registr
 
 ## 2. Choose and buy the domain names to be used by your applications
 
-You need to come up with a list of custom domains and applications that you want to be served through them. For example, you may decide to have three custom domains: ***test.myshop.com***, ***preview.myshop.com***, ***www.myshop.com*** - for test, preview, and productive versions of your SAP BTP application.
+You need to come up with a list of custom domains and applications that you want to be served through them. For example, you may decide to have three custom domains: `test.myshop.com`, `preview.myshop.com`, `www.myshop.com` - for test, preview, and productive versions of your SAP BTP application.
 
 The domain names are owned by the customer, not by SAP BTP. Therefore, you will need to buy the custom domain names that you have chosen from a registrar selling domain names.
 
@@ -42,11 +42,11 @@ You need to decide on the number and type of domains you want to be protected by
 
 There are various types of SSL certificates. Depending on your needs, you can choose between:
 
--   **Standard certificate** - protects one domain \(for example, ***www.myshop.com***\)
--   **Wildcard certificate** - secures multiple subdomains of a domain \(for example, ***\*.myshop.com*** - this covers any subdomains of ***myshop.com*** - for example, ***test.myshop.com***, ***preview.myshop.com***, ***www.myshop.com***\).
+-   **Standard certificate** - protects one domain \(for example, `www.myshop.com`\)
+-   **Wildcard certificate** - secures multiple subdomains of a domain \(for example, `*.myshop.com` - this covers any subdomains of `myshop.com` - for example, `test.myshop.com`, `preview.myshop.com`, `www.myshop.com`\).
 
     > ### Note:  
-    > Choosing the wildcard subdomain certificate ensures protection of all subdomains in your custom domain \(***\*.myshop.com***\), but not the domain itself \(***myshop.com*** cannot be used\).
+    > Choosing the wildcard subdomain certificate ensures protection of all subdomains in your custom domain \(`*.myshop.com`\), but not the domain itself \(`myshop.com` cannot be used\).
 
     Using a wildcard certificate allows you to map a large number of subdomains mapped to a single SSL host. However, this feature comes with several disadvantages:
 
@@ -57,7 +57,7 @@ There are various types of SSL certificates. Depending on your needs, you can ch
         If there are too many custom domain mappings, consider using more SSL hosts to reduce the HTTP traffic load.
 
 
--   **Subject Alternative Name \(SAN\) certificate** - secures multiple domain names with a single certificate. This type allows you to use any number of different domain names or common names. For example, one certificate can support: ***www.myshop.com***, ***\*.test.myshop.com***, ***\*.myshop.eu***, ***www.myshop.de***.
+-   **Subject Alternative Name \(SAN\) certificate** - secures multiple domain names with a single certificate. This type allows you to use any number of different domain names or common names. For example, one certificate can support: `www.myshop.com`, `*.test.myshop.com`, `*.myshop.eu`, `www.myshop.de`.
 
 
 

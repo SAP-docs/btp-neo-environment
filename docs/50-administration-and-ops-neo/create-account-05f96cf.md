@@ -22,7 +22,7 @@ neo create-account --display-name <subaccount_display_name> --account <subaccoun
 
 ## Parameters
 
-To list all parameters available for this command, execute ***neo help create-account*** in the command line.
+To list all parameters available for this command, execute `neo help create-account` in the command line.
 
 
 <table>

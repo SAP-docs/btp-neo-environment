@@ -17,7 +17,7 @@ SAP JVM Tools for Eclipse is an Eclipse plugin that allows you to debug and prof
 
 1.  Open Eclipse and go to *Help* \> *Install New Software*.
 
-2.  In the *Work with* field, enter***https://tools.hana.ondemand.com/oxygen*** and choose *SAP BTP Tools*.
+2.  In the *Work with* field, enter`https://tools.hana.ondemand.com/oxygen` and choose *SAP BTP Tools*.
 
 3.  Choose *Next* and follow the installation wizard.
 

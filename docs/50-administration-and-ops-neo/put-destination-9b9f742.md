@@ -21,7 +21,7 @@ neo put-destination --account <subaccount_technical_name> --user <e-mail_or_user
 
 
 
-To list all parameters available for this command, execute ***neo help put-destination*** in the command line.
+To list all parameters available for this command, execute `neo help put-destination` in the command line.
 
 
 <table>

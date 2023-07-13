@@ -164,7 +164,7 @@ This level has the highest possible rank and is intended to turn off logging.
 
 
 
-To list all parameters available for this command, execute ***neo help set-log-level*** in the command line.
+To list all parameters available for this command, execute `neo help set-log-level` in the command line.
 
 
 <table>

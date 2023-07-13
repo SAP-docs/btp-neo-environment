@@ -38,7 +38,7 @@ neo hot-update --host <host> --account <subaccount_technical_name> --application
 
 ## Parameters
 
-To list all parameters available for this command, execute ***neo help hot-update*** in the command line.
+To list all parameters available for this command, execute `neo help hot-update` in the command line.
 
 
 <table>
@@ -173,9 +173,9 @@ Defines how the update is performed.
 
 `Acceptable values:`
 
--   ***replace-binaries***
--   ***restart-runtime***
--   ***reprovision-runtime***
+-   `replace-binaries`
+-   `restart-runtime`
+-   `reprovision-runtime`
 
 
 
@@ -208,7 +208,7 @@ Number of connections used to deploy the content.
 
 `Default`: *1*
 
-`Acceptable values`: ***1-6***
+`Acceptable values`: `1-6`
 
 `Type`: integer
 

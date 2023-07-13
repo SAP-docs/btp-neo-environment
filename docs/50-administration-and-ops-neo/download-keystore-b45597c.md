@@ -15,7 +15,7 @@ This command is used to download a keystore by downloading the keystore file. Yo
 
 ## Parameters
 
-To list all parameters available for this command, execute ***neo help download-keystore*** in the command line.
+To list all parameters available for this command, execute `neo help download-keystore` in the command line.
 
 
 <table>

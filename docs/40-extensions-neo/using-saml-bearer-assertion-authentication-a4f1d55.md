@@ -167,7 +167,7 @@ You have logged into the SAP BTP cockpit from the landing page for your subaccou
         </td>
         <td valign="top">
         
-                ***HTTP***
+                `HTTP`
 
 
         
@@ -215,7 +215,7 @@ You have logged into the SAP BTP cockpit from the landing page for your subaccou
         </td>
         <td valign="top">
         
-                ***Internet***
+                `Internet`
 
 
         
@@ -231,7 +231,7 @@ You have logged into the SAP BTP cockpit from the landing page for your subaccou
         </td>
         <td valign="top">
         
-                ***OAuth2SAMLBearerAssertion***
+                `OAuth2SAMLBearerAssertion`
 
 
         
@@ -365,7 +365,7 @@ You have logged into the SAP BTP cockpit from the landing page for your subaccou
         </td>
         <td valign="top">
         
-                 ***urn:oasis:names:tc:SAML:2.0:ac:classes:X509*** 
+                 `urn:oasis:names:tc:SAML:2.0:ac:classes:X509` 
 
 
         

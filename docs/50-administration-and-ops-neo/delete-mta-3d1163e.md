@@ -23,7 +23,7 @@ neo delete-mta --host <host> --account <subaccount_technical_name> --user <e-mai
 
 
 
-To list all parameters available for this command, execute ***neo help delete-mta*** in the command line.
+To list all parameters available for this command, execute `neo help delete-mta` in the command line.
 
 
 <table>

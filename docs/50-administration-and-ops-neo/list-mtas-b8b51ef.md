@@ -23,7 +23,7 @@ neo list-mtas --host <host> --account <subaccount_technical_name> --user <e-mail
 
 
 
-To list all parameters available for this command, execute ***neo help list-mtas*** in the command line.
+To list all parameters available for this command, execute `neo help list-mtas` in the command line.
 
 
 <table>

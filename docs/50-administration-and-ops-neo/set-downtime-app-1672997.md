@@ -22,7 +22,7 @@ neo set-downtime-app --account <subaccount_technical_name> --application <applic
 
 ## Parameters
 
-To list all parameters available for this command, execute ***neo help set-downtime-app*** in the command line.
+To list all parameters available for this command, execute `neo help set-downtime-app` in the command line.
 
 
 <table>

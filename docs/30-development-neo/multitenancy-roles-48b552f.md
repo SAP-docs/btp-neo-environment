@@ -11,8 +11,8 @@
 
 The multitenancy concept concerns two main user roles:
 
--   ***Application Provider*** - an organizational unit that uses SAP BTP to build, run and sell applications to customers, that is, the application consumers.
--   ***Application Consumer*** - an organizational unit, typically a customer or a department inside a customer’s organization, which uses an SAP BTP application for a certain purpose. Obviously, the application is in fact used by end users, who might be employees of the organization \(for instance, in the case of an HR application\) or just arbitrary users, internal or external \(for instance, in the case of a collaborative supplier application\).
+-   `Application Provider` - an organizational unit that uses SAP BTP to build, run and sell applications to customers, that is, the application consumers.
+-   `Application Consumer` - an organizational unit, typically a customer or a department inside a customer’s organization, which uses an SAP BTP application for a certain purpose. Obviously, the application is in fact used by end users, who might be employees of the organization \(for instance, in the case of an HR application\) or just arbitrary users, internal or external \(for instance, in the case of a collaborative supplier application\).
 
 
 

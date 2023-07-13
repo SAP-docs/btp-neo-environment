@@ -19,7 +19,7 @@ neo list-runtime-versions --user <e-mail_or_user> --host <host>
 
 ## Parameters
 
-To list all parameters available for this command, execute ***neo help list-runtime-versions*** in the command line.
+To list all parameters available for this command, execute `neo help list-runtime-versions` in the command line.
 
 
 <table>

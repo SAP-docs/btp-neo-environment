@@ -42,9 +42,9 @@ Dynamic weaving is currently not supported on SAP BTP.
 1.  In the Eclipse IDE in the *Project Explorer* view, select the web application and from the context menu choose *Properties*.
 2.  In the tree, select *JPA*.
 3.  In the *Platform* section, select the correct EclipseLink version, which should match the version available in the SDK.
-4.  In the *JPA implementation* section, select the type ***User Library***.
+4.  In the *JPA implementation* section, select the type `User Library`.
 5.  To the right of the user library list box, choose *Download library*.
-6.  Select the correct version of the EclipseLink library \(currently ***EclipseLink 2.5.2***\) and choose *Next*.
+6.  Select the correct version of the EclipseLink library \(currently `EclipseLink 2.5.2`\) and choose *Next*.
 7.  Accept the EclipseLink license and choose *Finish*.
 8.  The new user library now appears; make sure it is selected.
 9.  Unselect *Include libraries with this application* and choose *OK*.

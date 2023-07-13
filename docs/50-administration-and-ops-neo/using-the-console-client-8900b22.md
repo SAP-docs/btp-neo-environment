@@ -55,7 +55,7 @@ neo deploy --account <subaccount technical name> --application <application name
 
 ## Properties File
 
-Within the*tools* folder, a file ***example\_war.properties*** can be found in the ***samples/deploy\_war folder***. In the file, enter your own user and subaccount name:
+Within the*tools* folder, a file `example_war.properties` can be found in the `samples/deploy_war folder`. In the file, enter your own user and subaccount name:
 
 ```
 
@@ -99,7 +99,7 @@ Note that you can have more than one properties file. For example, you can have 
 
 ## Parameter Priority
 
-Argument values specified in the command line override the values specified in the properties file. For example, if you have specified ***account=a*** in the properties file and then enter ***account=b*** in the command line, the operation will take effect in ***account b***.
+Argument values specified in the command line override the values specified in the properties file. For example, if you have specified `account=a` in the properties file and then enter `account=b` in the command line, the operation will take effect in `account b`.
 
 
 
@@ -111,7 +111,7 @@ Since the client is executed in a console environment, not all characters can be
 
 Consult your console/shell user guide on how to use special characters as command line arguments.
 
-For example, to use argument with value ***abc&\(\)\[\]\{\}^=;!'+,\`~123*** on Windows 7, you should quote the value and escape the***!*** character. Therefore you should use ***"abc&\(\)\[\]\{\}^=;^!'+,\`~123"***.
+For example, to use argument with value `abc&()[]{}^=;!'+,`~123` on Windows 7, you should quote the value and escape the`!` character. Therefore you should use `"abc&()[]{}^=;^!'+,`~123"`.
 
 *User*
 

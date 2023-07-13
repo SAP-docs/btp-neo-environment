@@ -47,6 +47,9 @@ You can use one of the following:
 
     The REST API is protected with OAuth 2.0 client credentials.
 
+    > ### Note:  
+    > For OAuth authentication and authorization, the Java ALM API supports JWT access tokens. See [Best Practices for Resilient OAuth 2.0 Communication](https://help.sap.com/docs/btp/sap-btp-neo-environment/best-practices-for-resilient-oauth-2-0-communication).
+
 
 
 

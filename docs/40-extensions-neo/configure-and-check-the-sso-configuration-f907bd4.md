@@ -19,7 +19,7 @@ You can check that the SSO is properly configured by launching SAP Web IDE.
 
 2.  Check if you have set up the SSO correctly.
 
-    1.  In the SAP BTP cockpit, go to *Services* and search for ***Web IDE***.
+    1.  In the SAP BTP cockpit, go to *Services* and search for `Web IDE`.
 
     2.  Choose the *SAP Web IDE Full-Stack* tile.
 

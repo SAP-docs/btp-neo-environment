@@ -66,7 +66,7 @@ In your subaccount in the SAP BTP cockpit, you create a database on an SAP HANA 
     </td>
     <td valign="top">
     
-        Example: ***tutorial*** 
+        Example: `tutorial` 
 
 
     
@@ -156,7 +156,7 @@ You've specified a password for the SYSTEM user when you created an SAP HANA ten
 
     3.  In the database overview, open the*SAP HANA Web-based Development Workbench* link under *Development Tools*.
 
-    4.  Enter ***SYSTEM*** as the user, and its password.
+    4.  Enter `SYSTEM` as the user, and its password.
 
         A message appears, telling you that you don’t have the required roles.
 
@@ -189,7 +189,7 @@ You've specified a password for the SYSTEM user when you created an SAP HANA ten
 
 8.  To assign your user the roles with the required permissions for working with SAP HANA Web-based Development Workbench, go to the *Granted Roles* section and choose the *\+ \(Add\)* button.
 
-9.  Type ***ide*** in the search field and select all roles in the result list.
+9.  Type `ide` in the search field and select all roles in the result list.
 
 10. Choose *OK*.
 

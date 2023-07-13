@@ -39,7 +39,7 @@ Extension applications deployed in an SAP BTP extension subaccount are authentic
 
 1.  To start the console client for SAP BTP, Neo environment, open the command prompt and navigate to the folder containing neo.bat/sh \(SDK installation folder/tools\). For more information, see [Using the Console Client](../50-administration-and-ops-neo/using-the-console-client-8900b22.md).
 
-2.  To register the extension application as an authorized assertion consumer service. In the console client command line, execute: ***hcmcloud-enable-application-access***, as follows:
+2.  To register the extension application as an authorized assertion consumer service. In the console client command line, execute: `hcmcloud-enable-application-access`, as follows:
 
     -   For an application deployed in your subaccount, specify the name of your extension application for the `application` parameter.
 
@@ -58,7 +58,7 @@ Extension applications deployed in an SAP BTP extension subaccount are authentic
         ```
 
 
-3.  \(Optional\) Display the status of an application entry in the list of authorized assertion consumer services for the SAP SuccessFactors system associated with an extension subaccount. In the console client command line, execute ***hcmcloud-display-application-access***, as follows:
+3.  \(Optional\) Display the status of an application entry in the list of authorized assertion consumer services for the SAP SuccessFactors system associated with an extension subaccount. In the console client command line, execute `hcmcloud-display-application-access`, as follows:
 
     -   For an application deployed in your subaccount, specify the name of your extension application for the `application` parameter.
 
@@ -77,7 +77,7 @@ Extension applications deployed in an SAP BTP extension subaccount are authentic
         ```
 
 
-4.  \(Optional\) If your scenario requires it, remove the entry of the extension application from the list of authorized assertion consumer services for the SAP SuccessFactors system associated with the extension subaccount. In the console client command line, execute ***hcmcloud-disable-application-access***, as follows:
+4.  \(Optional\) If your scenario requires it, remove the entry of the extension application from the list of authorized assertion consumer services for the SAP SuccessFactors system associated with the extension subaccount. In the console client command line, execute `hcmcloud-disable-application-access`, as follows:
 
     -   For an application deployed in your subaccount, specify the name of your extension application for the `application` parameter.
 

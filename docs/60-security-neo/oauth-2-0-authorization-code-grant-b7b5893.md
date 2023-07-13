@@ -243,7 +243,7 @@ Servlet filter class
 </td>
 <td valign="top">
 
-Enter as value ***com.sap.cloud.security.oauth2.OAuthAuthorizationFilter***.
+Enter as value `com.sap.cloud.security.oauth2.OAuthAuthorizationFilter`.
 
 On request it checks if the request contains a valid OAuth token to access the resources mapped to the configured scope.
 

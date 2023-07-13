@@ -318,17 +318,17 @@ Boolean
 </td>
 <td valign="top">
 
-***true***
+`true`
 
 
 
 </td>
 <td valign="top">
 
-If set to ***true***, multivalued attributes are formatted as JSON arrays. If set to ***false***, only the first value of the entire value range of the specific attribute is returned and formatted as a simple string.
+If set to `true`, multivalued attributes are formatted as JSON arrays. If set to `false`, only the first value of the entire value range of the specific attribute is returned and formatted as a simple string.
 
 > ### Note:  
-> If set to ***true*** for an attribute that is not multivalued, then the value of the attribute is formatted as a simple string and not a JSON array.
+> If set to `true` for an attribute that is not multivalued, then the value of the attribute is formatted as a simple string and not a JSON array.
 
 
 

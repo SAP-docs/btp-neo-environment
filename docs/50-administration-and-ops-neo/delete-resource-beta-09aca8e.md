@@ -24,7 +24,7 @@ neo delete-resource --name <resource_name> --account <subaccount_technical_name>
 
 
 
-To list all parameters available for this command, execute ***neo help delete-resource*** in the command line.
+To list all parameters available for this command, execute `neo help delete-resource` in the command line.
 
 
 <table>

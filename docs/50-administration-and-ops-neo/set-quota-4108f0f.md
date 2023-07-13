@@ -24,7 +24,7 @@ neo set-quota --account <subaccount_technical_name> --host <host> --user <e-mail
 
 ## Parameters
 
-To list all parameters available for this command, execute ***neo help set-quota*** in the command line.
+To list all parameters available for this command, execute `neo help set-quota` in the command line.
 
 
 <table>

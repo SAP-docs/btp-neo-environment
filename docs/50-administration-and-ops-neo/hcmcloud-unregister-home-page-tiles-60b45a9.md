@@ -36,7 +36,7 @@ neo hcmcloud-unregister-home-page-tiles --application <extension_application> --
 
 
 
-To list all parameters available for this command, execute ***neo help hcmcloud-unregister-home-page-tiles*** in the command line.
+To list all parameters available for this command, execute `neo help hcmcloud-unregister-home-page-tiles` in the command line.
 
 
 <table>
@@ -172,9 +172,9 @@ Optional
 
 The type of the extension application for which you are listing the home page tiles
 
-`Default`: ***java***
+`Default`: `java`
 
-`Accepted values`: ***java***, ***html5***
+`Accepted values`: `java`, `html5`
 
 `Type`: string \(up to 30 characters; lowercase letters and numbers, starting with a letter\)
 

@@ -21,7 +21,7 @@ neo remove-custom-domain --account <subaccount_technical_name> --user <e-mail_or
 
 
 
-To list all parameters available for this command, execute ***neo help remove-custom-domain*** in the command line.
+To list all parameters available for this command, execute `neo help remove-custom-domain` in the command line.
 
 
 <table>

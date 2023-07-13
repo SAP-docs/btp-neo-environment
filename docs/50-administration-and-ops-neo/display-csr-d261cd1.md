@@ -24,7 +24,7 @@ If you have several subaccounts in your global account, the `display-csr` comman
 
 
 
-To list all parameters available for this command, execute ***neo help display-csr*** in the command line.
+To list all parameters available for this command, execute `neo help display-csr` in the command line.
 
 
 <table>

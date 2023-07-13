@@ -21,7 +21,7 @@ neo add-platform-domain --account <subaccount_technical_name> --application <app
 
 
 
-To list all parameters available for this command, execute ***neo help add-platform-domain*** in the command line.
+To list all parameters available for this command, execute `neo help add-platform-domain` in the command line.
 
 
 <table>

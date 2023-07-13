@@ -74,7 +74,7 @@ A project is needed to create files and to make them available in the cockpit.
     </td>
     <td valign="top">
     
-        Enter ***HelloWorld*** \(without spaces\).
+        Enter `HelloWorld` \(without spaces\).
 
 
     

@@ -23,7 +23,7 @@ If you have several subaccounts in your global account, the `list-domain-certifi
 
 
 
-To list all parameters available for this command, execute ***neo help list-domain-certificates*** in the command line.
+To list all parameters available for this command, execute `neo help list-domain-certificates` in the command line.
 
 
 <table>

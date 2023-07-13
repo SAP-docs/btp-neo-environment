@@ -21,7 +21,7 @@ neo remove-platform-domain --account <subaccount_technical_name> --application <
 
 
 
-To list all parameters available for this command, execute ***neo help remove-platform-domain*** in the command line.
+To list all parameters available for this command, execute `neo help remove-platform-domain` in the command line.
 
 
 <table>

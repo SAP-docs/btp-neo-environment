@@ -25,7 +25,7 @@ neo subscribe --account <subaccount_technical_name> --application <provider_suba
 
 ## Parameters
 
-To list all parameters available for this command, execute ***neo help subscribe*** in the command line.
+To list all parameters available for this command, execute `neo help subscribe` in the command line.
 
 
 <table>

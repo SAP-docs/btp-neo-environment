@@ -32,7 +32,7 @@ You can update all solution types to a newer version.
 
 6.  \(Optional\) You can provide the location of an MTA extension descriptor file.
 
-    Alternatively, as of `_schema version` `3.1`, if you do not provide an MTA extension descriptor and your solution has missing data required for productive use, you can enter that data manually in the dialog subsection that appears. Keep in mind that you have to input complex parameters such as lists and maps in JSON format. For example, an account-level destination parameter `additional-properties` should be a map that has a value similar to ***\{"additional.property.1": "1", "additional.property.2": "2"\}***.
+    Alternatively, as of `_schema version` `3.1`, if you do not provide an MTA extension descriptor and your solution has missing data required for productive use, you can enter that data manually in the dialog subsection that appears. Keep in mind that you have to input complex parameters such as lists and maps in JSON format. For example, an account-level destination parameter `additional-properties` should be a map that has a value similar to `{"additional.property.1": "1", "additional.property.2": "2"}`.
 
 7.  Choose *Update* to start the process.
 

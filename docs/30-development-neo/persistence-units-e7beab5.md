@@ -41,12 +41,12 @@ In the `persistence.xml` file in the tutorial *Adding Container-Managed Persiste
 
 The the EclipseLink capabilities to generate database tables. The following values are valid for generating the DDL for the entity specified in the `persistence.xml` file:
 
--   ***none***: EclipseLink does not generate a DDL \(no schema is generated\).
--   ***create-tables***: EclipseLink attempts to execute a CREATE TABLE SQL statement. It creates a DDL for non-existent tables and leaves existing tables unchanged \(they are not dropped or replaced\).
--   ***drop-and-create-tables***: EclipseLink attempts to DROP all tables and then CREATE all tables.
+-   `none`: EclipseLink does not generate a DDL \(no schema is generated\).
+-   `create-tables`: EclipseLink attempts to execute a CREATE TABLE SQL statement. It creates a DDL for non-existent tables and leaves existing tables unchanged \(they are not dropped or replaced\).
+-   `drop-and-create-tables`: EclipseLink attempts to DROP all tables and then CREATE all tables.
 
     > ### Note:  
-    > Drop-and-create tables are often used during the development phase, when there are frequent changes to the schema or data needs to be deleted. Don't forget to change it to ***create-tables*** before you deploy the application; all data is lost when you drop a table.
+    > Drop-and-create tables are often used during the development phase, when there are frequent changes to the schema or data needs to be deleted. Don't forget to change it to `create-tables` before you deploy the application; all data is lost when you drop a table.
 
 
 

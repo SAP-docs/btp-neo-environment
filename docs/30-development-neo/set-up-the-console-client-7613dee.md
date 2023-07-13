@@ -42,7 +42,7 @@ SAP BTP console client is part of the SAP BTP SDK for Neo environment. You can f
         > -   For the new variables to be effective every time you open the console, define them using *Advanced System Settings* \> *Environment Variables* and restart the console.
         > -   For the new variables to be valid only for the currently open console, define them in the console itself.
 
-        For example, if your proxy host is ***proxy*** and proxy port is ***8080***, specify the following environment variables:
+        For example, if your proxy host is `proxy` and proxy port is `8080`, specify the following environment variables:
 
         ```
         

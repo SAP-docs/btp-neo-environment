@@ -54,7 +54,7 @@ You can consume this destination in your application using one of these APIs:
 > 
 > -   Refresh the extension integration. For more information, see [Refresh the Extension Integration for SAP SuccessFactors](refresh-the-extension-integration-for-sap-successfactors-9d3f809.md).
 > 
-> -   For the connection for which you want to enable the `skipUserAttributesResolution` property, execute the ***hcmcloud-create-connection*** command with the `--overwrite` parameter specified. For more information, see: [hcmcloud-create-connection](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/ba4e8bbf0ec4409fae7064bcbbe07e49.html).
+> -   For the connection for which you want to enable the `skipUserAttributesResolution` property, execute the `hcmcloud-create-connection` command with the `--overwrite` parameter specified. For more information, see: [hcmcloud-create-connection](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/ba4e8bbf0ec4409fae7064bcbbe07e49.html).
 > 
 > -   Edit the destination and add the `skipUserAttributesResolution` property manually and set its value to `true`. For more information, see: [Managing Destinations](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/e4f1d97cbb571014a247d10f9f9a685d.html).
 
@@ -79,9 +79,9 @@ You can optionally list the connections created for the extension application. Y
 
 1.  To start the console client for SAP BTP, Neo environment, open the command prompt and navigate to the folder containing neo.bat/sh \(SDK installation folder/tools\). For more information, see [Using the Console Client](../50-administration-and-ops-neo/using-the-console-client-8900b22.md).
 
-2.  To configure the connectivity, in the console client command line, execute the ***hcmcloud-create-connection*** command, as described in [hcmcloud-create-connection](../50-administration-and-ops-neo/hcmcloud-create-connection-ba4e8bb.md).
+2.  To configure the connectivity, in the console client command line, execute the `hcmcloud-create-connection` command, as described in [hcmcloud-create-connection](../50-administration-and-ops-neo/hcmcloud-create-connection-ba4e8bb.md).
 
-3.  \(Optional\) To list the connections created for the extension application, in the console client command line, execute ***hcmcloud-list-connections***, as described in [hcmcloud-list-connections](../50-administration-and-ops-neo/hcmcloud-list-connections-38f9af2.md).
+3.  \(Optional\) To list the connections created for the extension application, in the console client command line, execute `hcmcloud-list-connections`, as described in [hcmcloud-list-connections](../50-administration-and-ops-neo/hcmcloud-list-connections-38f9af2.md).
 
     -   For an application deployed in your subaccount, specify the name of your extension application for the `application` parameter.
 
@@ -90,7 +90,7 @@ You can optionally list the connections created for the extension application. Y
     -   For a subaccount level connectivity, do not use the `application` parameter.
 
 
-4.  \(Optional\) If your scenario requires it, remove the connectivity configured between your extension application and the SAP SuccessFactors systems associated with the extension subaccount. In the console client command line, execute ***hcmcloud-delete-connection***, as described in [hcmcloud-delete-connection](../50-administration-and-ops-neo/hcmcloud-delete-connection-1445cb5.md).
+4.  \(Optional\) If your scenario requires it, remove the connectivity configured between your extension application and the SAP SuccessFactors systems associated with the extension subaccount. In the console client command line, execute `hcmcloud-delete-connection`, as described in [hcmcloud-delete-connection](../50-administration-and-ops-neo/hcmcloud-delete-connection-1445cb5.md).
 
     -   For an application deployed in your subaccount, specify the name of your extension application for the `application` parameter.
 

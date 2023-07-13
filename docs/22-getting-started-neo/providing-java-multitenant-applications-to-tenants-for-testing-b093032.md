@@ -46,11 +46,11 @@ Using the console client, you can subscribe subaccounts to an application.
 
 2.  Create subaccounts for several consumers.
 
-    To create a subaccount, execute ***neo create-account -a <subaccount\> -u <user name or email\> -h <host\> -n <display name of the new subaccount\>***.
+    To create a subaccount, execute `neo create-account -a <subaccount> -u <user name or email> -h <host> -n <display name of the new subaccount>`.
 
 3.  Subscribe the subaccounts you have created to the provider application.
 
-    For each created subaccount, execute ***neo subscribe -a <subaccount\> -b <subaccount name\>:<application\> -u <user name or email\> -h <host\>***.
+    For each created subaccount, execute `neo subscribe -a <subaccount> -b <subaccount name>:<application> -u <user name or email> -h <host>`.
 
     > ### Note:  
     > Specify the parameter `-b` in the format <subaccount name\>:<application\>.
@@ -70,7 +70,7 @@ Access the application through the different tenants and verify that the multite
 
 ## Procedure
 
-1.  Access the application using the dedicated URL for each consumer subaccount in the format ***https://<application name\><provider subaccount\>-<consumer subaccount\>.<host\>***.
+1.  Access the application using the dedicated URL for each consumer subaccount in the format `https://<application name><provider subaccount>-<consumer subaccount>.<host>`.
 
     You see the list of subscriptions and the corresponding application URLs to access them in the *Subscriptions* pane in the cockpit.
 
@@ -108,7 +108,7 @@ Access the application through the different tenants and verify that the multite
     </td>
     <td valign="top">
     
-        Execute ***neo list-subscribed-applications -a <subaccount\> -u <user name or email\> -h <host\>***.
+        Execute `neo list-subscribed-applications -a <subaccount> -u <user name or email> -h <host>`.
 
 
     
@@ -124,7 +124,7 @@ Access the application through the different tenants and verify that the multite
     </td>
     <td valign="top">
     
-        Execute ***neo list-accounts -a <subaccount\> -u <user name or email\> -h <host\>*** .
+        Execute `neo list-accounts -a <subaccount> -u <user name or email> -h <host>` .
 
 
     
@@ -140,7 +140,7 @@ Access the application through the different tenants and verify that the multite
     </td>
     <td valign="top">
     
-        Execute ***neo list-subscribed-accounts -a <subaccount\> -b <application\> -u <user name or email\> -h <host\>***.
+        Execute `neo list-subscribed-accounts -a <subaccount> -b <application> -u <user name or email> -h <host>`.
 
 
     
@@ -163,11 +163,11 @@ Access the application through the different tenants and verify that the multite
 
 1.  Unsubscribe each consumer subaccount from the application.
 
-    For each consumer subaccount, execute ***neo unsubscribe -a <subaccount\> -b <application\> -u <user name or email\>*** .
+    For each consumer subaccount, execute `neo unsubscribe -a <subaccount> -b <application> -u <user name or email>` .
 
 2.  Delete each consumer subaccount.
 
-    For each consumer subaccount, execute ***neo delete-account -a <subaccount\> -h <host\> -u <user name or email\>*** .
+    For each consumer subaccount, execute `neo delete-account -a <subaccount> -h <host> -u <user name or email>` .
 
 
 **Related Information**  

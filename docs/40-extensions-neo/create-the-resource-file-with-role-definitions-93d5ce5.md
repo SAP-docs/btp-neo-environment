@@ -28,7 +28,7 @@ To create the resource file with the role definitions required for your applicat
 
 1.  Call the OData API to query the permissions defined for the required role using the following URL:
 
-    ***https://*<SAP\_SuccessFactors\_host\_name\>*/odata/v2/RBPRole?$filter=roleName eq '*<role\_name\>*'&$expand=permissions&$format=json***
+    <code>https://<i class="varname">&lt;SAP_SuccessFactors_host_name&gt;</i>/odata/v2/RBPRole?$filter=roleName eq '<i class="varname">&lt;role_name&gt;</i>'&amp;$expand=permissions&amp;$format=json</code>
 
     Where:
 
@@ -201,7 +201,7 @@ To create the resource file with the role definitions required for your applicat
     
     ```
 
-2.  Create a `roles.json` file using the following properties. To list all the available permissions in your SAP SuccessFactors system, use this OData API call: ***https://*<SAP\_SuccessFactors\_host\_name\>*/odata/v2/RBPBasicPermission?$format=json***. There you can find the properties that you need to create the `roles.json` file.
+2.  Create a `roles.json` file using the following properties. To list all the available permissions in your SAP SuccessFactors system, use this OData API call: <code>https://<i class="varname">&lt;SAP_SuccessFactors_host_name&gt;</i>/odata/v2/RBPBasicPermission?$format=json</code>. There you can find the properties that you need to create the `roles.json` file.
 
 
     <table>

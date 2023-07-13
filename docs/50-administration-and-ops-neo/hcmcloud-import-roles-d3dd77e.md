@@ -36,7 +36,7 @@ neo hcmcloud-import-roles --account <subaccount_technical_name> --user <e-mail_o
 
 
 
-To list all parameters available for this command, execute ***neo help hcmcloud-import-roles*** in the command line.
+To list all parameters available for this command, execute `neo help hcmcloud-import-roles` in the command line.
 
 
 <table>

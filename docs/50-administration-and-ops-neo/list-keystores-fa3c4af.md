@@ -15,7 +15,7 @@ This command is used to list the available keystores. You can list keystores on 
 
 ## Parameters
 
-To list all parameters available for this command, execute ***neo help list-keystores*** in the command line.
+To list all parameters available for this command, execute `neo help list-keystores` in the command line.
 
 
 <table>

@@ -21,7 +21,7 @@ neo enable --host <host> --account <subaccount_technical_name> --application <ap
 
 
 
-To list all parameters available for this command, execute ***neo help enable*** in the command line.
+To list all parameters available for this command, execute `neo help enable` in the command line.
 
 
 <table>
@@ -173,13 +173,13 @@ To enable the whole application, execute:
 neo enable --host hana.ondemand.com --account mysubaccount --application myapp --user mymail@example.com
 ```
 
-To enable a single applcation process, first identify the application process you want to enable by executing ***neo status***:
+To enable a single applcation process, first identify the application process you want to enable by executing `neo status`:
 
 ```
 neo status --host hana.ondemand.com --account mysubaccount --application myapp --user mymail@example.com
 ```
 
-From the generated list of application process IDs, copy the ID you need and execute ***neo enable*** for it:
+From the generated list of application process IDs, copy the ID you need and execute `neo enable` for it:
 
 ```
 neo enable --application-process-id e8df21d  --host hana.ondemand.com --user mymail@example.com 

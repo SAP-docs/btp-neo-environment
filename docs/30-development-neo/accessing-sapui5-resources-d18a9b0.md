@@ -61,7 +61,7 @@ For more information about using SAPUI5 for your application, see [SAPUI5: UI De
 
 ## Determining the Current Active SAPUI5 Version
 
-In the top right corner on ***https://sapui5-sapui5.dispatcher.hana.ondemand.com/***, choose *VERSION INFO* to display the latest versions of the individual libs.
+In the top right corner on `https://sapui5-sapui5.dispatcher.hana.ondemand.com/`, choose *VERSION INFO* to display the latest versions of the individual libs.
 
 
 
@@ -89,7 +89,7 @@ In the top right corner on ***https://sapui5-sapui5.dispatcher.hana.ondemand.com
 > 
 > ```
 
-To display the available SAPUI5 versions, open ***https://sapui5-sapui5.dispatcher.hana.ondemand.com/neo-app.json*** file.
+To display the available SAPUI5 versions, open `https://sapui5-sapui5.dispatcher.hana.ondemand.com/neo-app.json` file.
 
 **Related Information**  
 

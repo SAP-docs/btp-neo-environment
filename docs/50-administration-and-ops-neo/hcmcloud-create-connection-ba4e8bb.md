@@ -36,7 +36,7 @@ neo  hcmcloud-create-connection --application <Java_extension_application> --acc
 
 
 
-To list all parameters available for this command, execute ***neo help hcmcloud-create-connection*** in the command line.
+To list all parameters available for this command, execute `neo help hcmcloud-create-connection` in the command line.
 
 
 <table>

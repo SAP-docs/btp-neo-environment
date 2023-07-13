@@ -19,7 +19,7 @@ SAP Web IDE already created an HTML page for your project. You now adapt this pa
 
     ![](images/HelloWorld_5b43d98.png)
 
-2.  In the `HelloWorld.view.js` view, replace `Title` in the `title: "{i18n>title}"` line with the title of your application ***Hello World***.
+2.  In the `HelloWorld.view.js` view, replace `Title` in the `title: "{i18n>title}"` line with the title of your application `Hello World`.
 
 3.  Save your changes using *Save* \(![](images/WEB_UI_SAVE_BUTTON_69b1296.png)\).
 

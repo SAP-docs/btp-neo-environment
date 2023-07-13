@@ -80,7 +80,7 @@ Depending on your scenario, you use either OAuth or basic authentication for acc
             </td>
             <td valign="top">
             
-                        ***HTTP***
+                        `HTTP`
 
 
             
@@ -112,7 +112,7 @@ Depending on your scenario, you use either OAuth or basic authentication for acc
             </td>
             <td valign="top">
             
-                        ***https://*<my\_SAP\_Cloud\_for\_Customer\_system\_name\>*.crm.ondemand.com/sap/c4c/odata/v1/c4codata***
+                        <code>https://<i class="varname">&lt;my_SAP_Cloud_for_Customer_system_name&gt;</i>.crm.ondemand.com/sap/c4c/odata/v1/c4codata</code>
 
 
             
@@ -128,7 +128,7 @@ Depending on your scenario, you use either OAuth or basic authentication for acc
             </td>
             <td valign="top">
             
-                        ***Internet***
+                        `Internet`
 
 
             
@@ -144,7 +144,7 @@ Depending on your scenario, you use either OAuth or basic authentication for acc
             </td>
             <td valign="top">
             
-                        ***OAuth2SAMLBearerAssertion***
+                        `OAuth2SAMLBearerAssertion`
 
 
             
@@ -194,7 +194,7 @@ Depending on your scenario, you use either OAuth or basic authentication for acc
             </td>
             <td valign="top">
             
-                        ***https://*<my\_SAP\_Cloud\_for\_Customer\_system\_name\>*.crm.ondemand.com/sap/bc/sec/oauth2/token***
+                        <code>https://<i class="varname">&lt;my_SAP_Cloud_for_Customer_system_name&gt;</i>.crm.ondemand.com/sap/bc/sec/oauth2/token</code>
 
 
             
@@ -268,7 +268,7 @@ Depending on your scenario, you use either OAuth or basic authentication for acc
             </td>
             <td valign="top">
             
-                         ***urn:none*** 
+                         `urn:none` 
 
 
             
@@ -284,7 +284,7 @@ Depending on your scenario, you use either OAuth or basic authentication for acc
             </td>
             <td valign="top">
             
-                         ***urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress*** 
+                         `urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress` 
 
 
             
@@ -302,7 +302,7 @@ Depending on your scenario, you use either OAuth or basic authentication for acc
             
                         Scope ID entries separated by space.
 
-            We recommend that you use ***UIWC:CC\_HOME***.
+            We recommend that you use `UIWC:CC_HOME`.
 
 
             
@@ -374,7 +374,7 @@ Depending on your scenario, you use either OAuth or basic authentication for acc
         </td>
         <td valign="top">
         
-                ***HTTP***
+                `HTTP`
 
 
         
@@ -406,7 +406,7 @@ Depending on your scenario, you use either OAuth or basic authentication for acc
         </td>
         <td valign="top">
         
-                ***https://*<my\_SAP\_Cloud\_for\_Customer\_system\_name\>*.crm.ondemand.com/sap/c4c/odata/v1/c4codata***
+                <code>https://<i class="varname">&lt;my_SAP_Cloud_for_Customer_system_name&gt;</i>.crm.ondemand.com/sap/c4c/odata/v1/c4codata</code>
 
 
         
@@ -422,7 +422,7 @@ Depending on your scenario, you use either OAuth or basic authentication for acc
         </td>
         <td valign="top">
         
-                ***Internet***
+                `Internet`
 
 
         
@@ -438,7 +438,7 @@ Depending on your scenario, you use either OAuth or basic authentication for acc
         </td>
         <td valign="top">
         
-                ***BasicAuthentication***
+                `BasicAuthentication`
 
 
         

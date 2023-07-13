@@ -23,7 +23,7 @@ neo list-mta-operations --host <host> --account <subaccount_technical_name> --op
 
 
 
-To list all parameters available for this command, execute ***neo help list-mta-operations*** in the command line.
+To list all parameters available for this command, execute `neo help list-mta-operations` in the command line.
 
 
 <table>

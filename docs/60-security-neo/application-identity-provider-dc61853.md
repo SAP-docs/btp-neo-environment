@@ -629,7 +629,7 @@ After clicking *Save* you should get a message that you can proceed with the con
 
     User attributes can contain any other information in addition to the user ID.
 
-    Default attributes are user attributes that all users logged by this IdP will have. For example, if we know that "*My IdP*" is used to authenticate users from *MyCompany*, we can set a default user attribute for that IdP "***company=MyCompany***".
+    Default attributes are user attributes that all users logged by this IdP will have. For example, if we know that "*My IdP*" is used to authenticate users from *MyCompany*, we can set a default user attribute for that IdP "`company=MyCompany`".
 
     To add a default attribute, proceed as follows:
 
@@ -674,7 +674,7 @@ After clicking *Save* you should get a message that you can proceed with the con
     2.  From the dropdown list that appears, choose the required group.
 
 
-    Assertion-based groups are groups determined by values of attributes in the SAML 2.0 assertion. For example, if the assertion contains the attribute "***contract=temporary***", you may want all such users to be added to the group "*TEMPORARY*".
+    Assertion-based groups are groups determined by values of attributes in the SAML 2.0 assertion. For example, if the assertion contains the attribute "`contract=temporary`", you may want all such users to be added to the group "*TEMPORARY*".
 
     To add an assertion-based group, proceed as follows:
 
@@ -786,9 +786,9 @@ You may need to use a different identity provider \(IdP\) for each security scen
     </tr>
     </table>
     
-2.  In your application, request the identity provider you need \(for IdP-initiated SSO or OAuth 2.0 SAML Bearer flow\) using a special request parameter ***saml2idp*** with value the desired IdP name. For example:.
+2.  In your application, request the identity provider you need \(for IdP-initiated SSO or OAuth 2.0 SAML Bearer flow\) using a special request parameter `saml2idp` with value the desired IdP name. For example:.
 
-    ***https://<app name\>.hana.ondemand.com/index.jsp?saml2idp=<idp name\>***
+    `https://<app name>.hana.ondemand.com/index.jsp?saml2idp=<idp name>`
 
 3.  \(For IdP-initiated SSO only\) On the identity provider side, use the following service provider names to configure trust with your SAP BTP subaccount:
 

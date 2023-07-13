@@ -15,9 +15,9 @@ If you do not want to use the custom domain any longer, you can remove it using 
 
 ## Procedure
 
-1.  In the console client command line, execute ***neo remove-custom-domain***.
+1.  In the console client command line, execute `neo remove-custom-domain`.
 
-    Note that you will need the SSL host name defined when configuring the custom domain. You can view it by executing ***list-ssl-hosts***.
+    Note that you will need the SSL host name defined when configuring the custom domain. You can view it by executing `list-ssl-hosts`.
 
     ```
     neo remove-custom-domain --account mysubaccount --user mymail@example.com --host hana.ondemand.com

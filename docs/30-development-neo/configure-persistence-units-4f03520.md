@@ -19,7 +19,7 @@ To configure JTA data sources, set the transaction type attribute \(`transaction
 
 1.  In the *Project Explorer* view, select `<project>/Java Resources/src/META-INF/persistence.xml`, and from the context menu choose *Open With* \> *Persistence XML Editor*.
 
-2.  On the *Connection* tab, enter the transaction type ***JTA*** or leave the default setting, which is JTA.
+2.  On the *Connection* tab, enter the transaction type `JTA` or leave the default setting, which is JTA.
 
 3.  If the application is using an explicitly named data source, enter the JNDI name of the data source in the *JTA data source* field.
 

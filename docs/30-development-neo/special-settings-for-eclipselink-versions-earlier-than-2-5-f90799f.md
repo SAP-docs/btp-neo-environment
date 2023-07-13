@@ -14,7 +14,7 @@ EclipseLink versions prior to 2.5 do not include the SAP HANA database platform.
 Specify the target database as a persistence unit property:
 
 1.  Select the `<project>/Java Resources/src/META-INF/persistence.xml` file and from the context menu, choose *Open With* \> *Persistence XML Editor*.
-2.  On the *Options* tab, enter ***com.sap.persistence.platform.database.HDBPlatform*** in the *Target database* field.
+2.  On the *Options* tab, enter `com.sap.persistence.platform.database.HDBPlatform` in the *Target database* field.
 
 The source code should now contain the following:
 
@@ -49,7 +49,7 @@ Add the SAP HANA JAR to the Web application project:
 
 ## General Points
 
-Set the target database property before you deploy the application on the SAP HANA database. If you don't, you'll get an error, and if this happens, you need to re-create the table with the correct definitions, setting the DDL generation type to ***Drop and Create Tables*** , then redeploy the application. Afterwards, set the generation type back to ***Create Tables*** so that you do not lose your data once you deploy again.
+Set the target database property before you deploy the application on the SAP HANA database. If you don't, you'll get an error, and if this happens, you need to re-create the table with the correct definitions, setting the DDL generation type to `Drop and Create Tables` , then redeploy the application. Afterwards, set the generation type back to `Create Tables` so that you do not lose your data once you deploy again.
 
 When testing the application locally, remove the DDL generation type altogether.
 

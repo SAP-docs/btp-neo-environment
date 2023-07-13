@@ -85,7 +85,7 @@ The general procedure is described in [Using SAML Bearer Assertion Authenticatio
         </td>
         <td valign="top">
         
-                ***HTTP***
+                `HTTP`
 
 
         
@@ -133,7 +133,7 @@ The general procedure is described in [Using SAML Bearer Assertion Authenticatio
         </td>
         <td valign="top">
         
-                ***Internet***
+                `Internet`
 
 
         
@@ -149,7 +149,7 @@ The general procedure is described in [Using SAML Bearer Assertion Authenticatio
         </td>
         <td valign="top">
         
-                ***OAuth2SAMLBearerAssertion***
+                `OAuth2SAMLBearerAssertion`
 
 
         
@@ -283,7 +283,7 @@ The general procedure is described in [Using SAML Bearer Assertion Authenticatio
         </td>
         <td valign="top">
         
-                 ***urn:oasis:names:tc:SAML:2.0:ac:classes:X509*** 
+                 `urn:oasis:names:tc:SAML:2.0:ac:classes:X509` 
 
 
         
@@ -299,7 +299,7 @@ The general procedure is described in [Using SAML Bearer Assertion Authenticatio
         </td>
         <td valign="top">
         
-                 ***true*** 
+                 `true` 
 
 
         
@@ -315,7 +315,7 @@ The general procedure is described in [Using SAML Bearer Assertion Authenticatio
         </td>
         <td valign="top">
         
-                 ***odata\_abap,ui5\_execute\_abap,dev\_abap*** 
+                 `odata_abap,ui5_execute_abap,dev_abap` 
 
 
         

@@ -34,10 +34,10 @@ If you have already installed an SAP BTP SDK for Neo environment package, you on
     2.  Choose the *Edit* button.
     3.  Locate the new SDK version:
 
-        -   For ***Java Web***: Select option *Use Java Web SDK from the following location* and then choose the *Browse* button and find the folder where you have unpacked the SDK ZIP file.
-        -   For ***Java Web Tomcat 7***: Choose the *Browse* button and find the folder where you have unpacked the SDK ZIP file or use the *Download and Install* button to get the latest version.
-        -   For ***Java Web Tomcat 8***: Choose the *Browse* button and find the folder where you have unpacked the SDK ZIP file or use the *Download and Install* button to get the latest version.
-        -   For ***Java EE 6 Web Profile***: Select option *Use Java EE 6 Web Profile SDK from the following location* and then choose the *Browse* button and find the folder where you have unpacked the SDK ZIP file.
+        -   For `Java Web`: Select option *Use Java Web SDK from the following location* and then choose the *Browse* button and find the folder where you have unpacked the SDK ZIP file.
+        -   For `Java Web Tomcat 7`: Choose the *Browse* button and find the folder where you have unpacked the SDK ZIP file or use the *Download and Install* button to get the latest version.
+        -   For `Java Web Tomcat 8`: Choose the *Browse* button and find the folder where you have unpacked the SDK ZIP file or use the *Download and Install* button to get the latest version.
+        -   For `Java EE 6 Web Profile`: Select option *Use Java EE 6 Web Profile SDK from the following location* and then choose the *Browse* button and find the folder where you have unpacked the SDK ZIP file.
 
         > ### Note:  
         > Again, if the SAP BTP SDK for Neo environment version is higher and not supported by the version of your SAP BTP Tools for Java, a message appears prompting you to update your SAP BTP Tools for Java. You can check for updates \(recommended\) or ignore the message.

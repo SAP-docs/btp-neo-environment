@@ -133,14 +133,14 @@ Test your application by deploying it locally.
 
     ![Empty Database](images/Empty_Database_5f68719.png)
 
-2.  Enter a first name \(for example, ***John***\) and a last name \(for example, ***Smith***\) and choose *Add Person*.
+2.  Enter a first name \(for example, `John`\) and a last name \(for example, `Smith`\) and choose *Add Person*.
 
-    ***John Smith*** is added to the database as shown below:
+    `John Smith` is added to the database as shown below:
 
     ![New Database Entry](images/New_Database_Entry_10729a8.png)
 
     > ### Note:  
-    > If you add more names to the database, they are also listed in the table. This confirms that you have successfully enabled persistence using the ***Person*** entity.
+    > If you add more names to the database, they are also listed in the table. This confirms that you have successfully enabled persistence using the `Person` entity.
 
 
  <a name="copy4e56e8c35dbb42f087a8bbe660c58150"/>
@@ -256,7 +256,7 @@ Deploying an application publishes it to SAP BTP. During deploy, you can define 
 
 ## Procedure
 
-1.  In the opened command line console, execute ***neo deploy*** command with the appropriate parameters.
+1.  In the opened command line console, execute `neo deploy` command with the appropriate parameters.
 
     You can define the parameters of commands directly in the command line as in the example below, or in the properties file. For more information, see [Using the Console Client](../50-administration-and-ops-neo/using-the-console-client-8900b22.md).
 
@@ -280,7 +280,7 @@ neo deploy --host <host> --account <subaccount_name> --application <application_
 
 ## Next Steps
 
-To make your deployed application available for requests, you need to start it by executing the ***neo start*** command.
+To make your deployed application available for requests, you need to start it by executing the `neo start` command.
 
 Then, you can manage the application lifecycle \(check the status; stop; restart; undeploy\) using dedicated console client commands.
 
@@ -368,7 +368,7 @@ Use the SAP BTP cockpit to start your application.
 
 ### Start Applications with the Console Client
 
-To make your deployed application available for requests, start it by executing the ***neo start*** command.
+To make your deployed application available for requests, start it by executing the `neo start` command.
 
 **Related Information**  
 

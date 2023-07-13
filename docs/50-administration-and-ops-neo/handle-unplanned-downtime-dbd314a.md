@@ -30,7 +30,7 @@ In the event of unplanned downtime when there is no application process able to 
 
 1.  Open the command prompt and navigate to the folder containing *neo.bat/sh* \(`<SDK installation folder>/tools`\).
 
-2.  Configure the downtime application by executing ***neo set-downtime-app*** in the command line.
+2.  Configure the downtime application by executing `neo set-downtime-app` in the command line.
 
     ```
     neo set-downtime-app --host <host> --account <subaccount_name> --application <application_name>  --user <e-mail_or_user> 
@@ -38,7 +38,7 @@ In the event of unplanned downtime when there is no application process able to 
     
     ```
 
-3.  \(optional\) If the downtime page is no longer needed \(for example, if the original application has been undeployed\), you can remove it by executing ***clear-downtime-app*** command.
+3.  \(optional\) If the downtime page is no longer needed \(for example, if the original application has been undeployed\), you can remove it by executing `clear-downtime-app` command.
 
     ```
     neo clear-downtime-app --host <host> --account <subaccount_name> --application <application_name>  --user <e-mail_or_user>

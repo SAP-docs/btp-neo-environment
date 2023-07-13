@@ -35,8 +35,8 @@ This tutorial explains how to create a sample application which makes use of the
 
 1.  Open the *Java EE* perspective of the Eclipse IDE.
 2.  In the *Project Explorer* view, from the context menu, choose *New* \> *Dynamic Web Project*.
-3.  Enter ***TenantContextApp*** as the *Project name*.
-4.  In the *Target Runtime* pane, select the runtime you want to use to deploy the application. In this tutorial, we choose ***Java Web***.
+3.  Enter `TenantContextApp` as the *Project name*.
+4.  In the *Target Runtime* pane, select the runtime you want to use to deploy the application. In this tutorial, we choose `Java Web`.
 5.  In the *Configuration* pane, leave the default configuration.
 6.  Choose *Finish* to finalize the creation of your project.
 
@@ -65,7 +65,7 @@ This tutorial explains how to create a sample application which makes use of the
 ## 3. Create a sample JSP
 
 1.  Under the *TenantContextApp* project node, choose *New* \> *JSP File* in the context menu.
-2.  Enter ***index.jsp*** as the *File* name and choose *Finish*.
+2.  Enter `index.jsp` as the *File* name and choose *Finish*.
 3.  Open the *index.jsp* file using the text editor.
 4.  Replace the entire JSP file content with the following sample code:
 

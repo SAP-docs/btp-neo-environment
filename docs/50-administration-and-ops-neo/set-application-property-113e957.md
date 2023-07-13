@@ -24,7 +24,7 @@ neo set-application-property --host <host> --account <subaccount_technical_name>
 
 ## Parameters
 
-To list all parameters available for this command, execute the ***neo help set-application-property*** in the command line.
+To list all parameters available for this command, execute the `neo help set-application-property` in the command line.
 
 
 <table>

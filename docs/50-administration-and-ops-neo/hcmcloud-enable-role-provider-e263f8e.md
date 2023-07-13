@@ -38,7 +38,7 @@ neo  hcmcloud-enable-role-provider --application <extension_application> --accou
 
 
 
-To list all parameters available for this command, execute ***neo help hcmcloud-enable-role-provider*** in the command line.
+To list all parameters available for this command, execute `neo help hcmcloud-enable-role-provider` in the command line.
 
 
 <table>

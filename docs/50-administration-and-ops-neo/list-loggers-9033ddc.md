@@ -21,7 +21,7 @@ neo list-loggers  --account <subaccount_technical_name> --application <applicati
 
 
 
-To list all parameters available for this command, execute ***neo help list-loggers*** in the command line.
+To list all parameters available for this command, execute `neo help list-loggers` in the command line.
 
 
 <table>

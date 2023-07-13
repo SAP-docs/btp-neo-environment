@@ -41,7 +41,7 @@ neo rolling-update --host <host> --account <subaccount_technical_name> --applica
 
 ## Parameters
 
-To list all parameters available for this command, execute ***neo help rolling-update*** in the command line.
+To list all parameters available for this command, execute `neo help rolling-update` in the command line.
 
 
 <table>
@@ -249,9 +249,9 @@ Responses bigger than this value get compressed
 
 The number of connections used to deploy an application. Use it to speed up deployment of application archives bigger than 5 MB in slow networks. Choose the optimal number of connections depending on the overall network speed to the cloud.
 
-`Default`: *2*
+`Default`: *1*
 
-`Acceptable values`: ***1-6***
+`Acceptable values`: `1-6`
 
 `Type`: integer
 

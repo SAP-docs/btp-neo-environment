@@ -36,7 +36,7 @@ neo hcmcloud-display-application-access-status --application <extension_applicat
 
 
 
-To list all parameters available for this command, execute ***neo help hcmcloud-display-application-access-status*** in the command line.
+To list all parameters available for this command, execute `neo help hcmcloud-display-application-access-status` in the command line.
 
 
 <table>
@@ -84,7 +84,7 @@ The name of the extension application for which you are displaying the status in
 
 The type of the extension application for which you are creating the connection
 
-`Accepted values`: ***java***, ***html5***
+`Accepted values`: `java`, `html5`
 
 `Type`: string
 

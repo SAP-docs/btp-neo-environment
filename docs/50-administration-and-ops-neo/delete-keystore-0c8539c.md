@@ -15,7 +15,7 @@ This command is used to delete a keystore by deleting the keystore file. You can
 
 ## Parameters
 
-To list all parameters available for this command, execute ***neo help delete-keystore*** in the command line.
+To list all parameters available for this command, execute `neo help delete-keystore` in the command line.
 
 
 <table>

@@ -31,7 +31,7 @@ neo status --application-process-id <ID> --host <host> --user <e-mail_or_user>
 
 ## Parameters
 
-To list all parameters available for this command, execute ***neo help status*** in the command line.
+To list all parameters available for this command, execute `neo help status` in the command line.
 
 
 <table>

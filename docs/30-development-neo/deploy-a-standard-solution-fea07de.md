@@ -40,7 +40,7 @@ You can deploy a solution that can be consumed only within your subaccount.
 
 5.  \(Optional\) You can provide the location of an MTA extension descriptor file.
 
-    Alternatively, as of `_schema version` `3.1`, if you do not provide it and your solution has missing data required for productive use, you can enter that data manually in the dialog subsection that appears. Keep in mind that you have to input complex parameters such as lists and maps in JSON format. For example, an account-level destination parameter `additional-properties` should be a map that has a value similar to ***\{"additional.property.1": "1", "additional.property.2": "2"\}***.
+    Alternatively, as of `_schema version` `3.1`, if you do not provide it and your solution has missing data required for productive use, you can enter that data manually in the dialog subsection that appears. Keep in mind that you have to input complex parameters such as lists and maps in JSON format. For example, an account-level destination parameter `additional-properties` should be a map that has a value similar to `{"additional.property.1": "1", "additional.property.2": "2"}`.
 
     > ### Note:  
     > Make sure that you do not select the *Provider deploy* checkbox. If you select it, you will provide your solution for a subscription. For more information, see [Deploy a Provided Solution](deploy-a-provided-solution-8f48815.md).

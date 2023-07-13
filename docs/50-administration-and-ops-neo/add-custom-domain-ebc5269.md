@@ -22,7 +22,7 @@ neo add-custom-domain --account <subaccount_technical_name> --user <e-mail_or_us
 
 
 
-To list all parameters available for this command, execute ***neo help add-custom-domain*** in the command line.
+To list all parameters available for this command, execute `neo help add-custom-domain` in the command line.
 
 
 <table>

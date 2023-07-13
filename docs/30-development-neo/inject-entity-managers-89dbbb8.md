@@ -36,7 +36,7 @@ EJB session beans, which typically perform the database operations, can use the 
     
     ```
 
-3.  Inject an instance of the EJB session bean class into, for example, the servlet of the web application with an annotation in the following form, where ***PersonBean*** is an example session bean class:
+3.  Inject an instance of the EJB session bean class into, for example, the servlet of the web application with an annotation in the following form, where `PersonBean` is an example session bean class:
 
     ```
     @EJB PersonBean personBean;

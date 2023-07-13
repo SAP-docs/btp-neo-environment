@@ -21,7 +21,7 @@ neo get-log --account <subaccount_technical_name> --application <application_nam
 
 
 
-To list all parameters available for this command, execute ***neo help get-log*** in the command line.
+To list all parameters available for this command, execute `neo help get-log` in the command line.
 
 
 <table>

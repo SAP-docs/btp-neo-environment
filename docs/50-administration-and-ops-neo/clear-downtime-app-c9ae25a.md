@@ -22,7 +22,7 @@ neo clear-downtime-app --account <subaccount_technical_name> --application <appl
 
 ## Parameters
 
-To list all parameters available for this command, execute ***neo help clear-downtime-app*** in the command line.
+To list all parameters available for this command, execute `neo help clear-downtime-app` in the command line.
 
 
 <table>

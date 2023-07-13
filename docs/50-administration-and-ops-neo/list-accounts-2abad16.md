@@ -19,7 +19,7 @@ neo list-accounts --account <subaccount_technical_name> --user <e-mail_or_user> 
 
 ## Parameters
 
-To list all parameters available for this command, execute ***neo help list-accounts*** in the command line.
+To list all parameters available for this command, execute `neo help list-accounts` in the command line.
 
 
 <table>
