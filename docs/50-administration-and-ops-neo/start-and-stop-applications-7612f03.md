@@ -10,6 +10,11 @@ You can directly start, stop, and undeploy applications, as well as start, stop,
 
 ## Context
 
+> ### Remember:  
+> SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
+> 
+> For more information, see SAP Note [3351844](https://launchpad.support.sap.com/#/notes/3351844).
+
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**
 
@@ -56,14 +61,14 @@ An application can run on one or more application processes. The use of multiple
     <tr>
     <td valign="top">
     
-        Start an application
+    Start an application
 
 
     
     </td>
     <td valign="top">
     
-        <span style="font-size:24px;line-height: 28px;"><span class="SAP-icons"></span></span> \(Start\)
+    <span style="font-size:24px;line-height: 28px;"><span class="SAP-icons"></span></span> \(Start\)
 
     The application transitions to the *Started* state.
 
@@ -74,14 +79,14 @@ An application can run on one or more application processes. The use of multiple
     <tr>
     <td valign="top">
     
-        Start an additional process
+    Start an additional process
 
 
     
     </td>
     <td valign="top">
     
-        <span style="font-size:24px;line-height: 28px;"><span class="SAP-icons"></span></span> \(Start Additional Process\)
+    <span style="font-size:24px;line-height: 28px;"><span class="SAP-icons"></span></span> \(Start Additional Process\)
 
     The application’s state continues to be shown as *Started* and an additional process appears in the *Processes* panel.
 
@@ -92,14 +97,14 @@ An application can run on one or more application processes. The use of multiple
     <tr>
     <td valign="top">
     
-        Stop an application
+    Stop an application
 
 
     
     </td>
     <td valign="top">
     
-        <span style="font-size:24px;line-height: 28px;"><span class="SAP-icons"></span></span> \(Stop\)
+    <span style="font-size:24px;line-height: 28px;"><span class="SAP-icons"></span></span> \(Stop\)
 
     All running processes are stopped and the application transitions to the *Stopped* state.
 
@@ -110,14 +115,14 @@ An application can run on one or more application processes. The use of multiple
     <tr>
     <td valign="top">
     
-        Undeploy an application
+    Undeploy an application
 
 
     
     </td>
     <td valign="top">
     
-        <span style="font-size:24px;line-height: 28px;"><span class="SAP-icons"></span></span> \(Delete\)
+    <span style="font-size:24px;line-height: 28px;"><span class="SAP-icons"></span></span> \(Delete\)
 
     The application is deleted from your subaccount and disappears from the application list. This also removes all data related to the application, such as configuration settings and logs.
 
@@ -157,14 +162,14 @@ An application can run on one or more application processes. The use of multiple
     <tr>
     <td valign="top">
     
-        Start an additional process
+    Start an additional process
 
 
     
     </td>
     <td valign="top">
     
-        <span style="font-size:24px;line-height: 28px;"><span class="SAP-icons"></span></span> \(Start Additional Process\)
+    <span style="font-size:24px;line-height: 28px;"><span class="SAP-icons"></span></span> \(Start Additional Process\)
 
     The application’s state continues to be shown as *Started* and an additional process appears in the *Processes* panel.
 
@@ -175,14 +180,14 @@ An application can run on one or more application processes. The use of multiple
     <tr>
     <td valign="top">
     
-        Restart a process
+    Restart a process
 
 
     
     </td>
     <td valign="top">
     
-        <span style="font-size:24px;line-height: 28px;"><span class="SAP-icons"></span></span> \(Restart\)
+    <span style="font-size:24px;line-height: 28px;"><span class="SAP-icons"></span></span> \(Restart\)
 
     The running process is stopped and a new process started. A new process ID is generated automatically.
 
@@ -193,14 +198,14 @@ An application can run on one or more application processes. The use of multiple
     <tr>
     <td valign="top">
     
-        Disable a process
+    Disable a process
 
 
     
     </td>
     <td valign="top">
     
-        <span style="font-size:24px;line-height: 28px;"><span class="SAP-icons"></span></span> \(Disable Process\)
+    <span style="font-size:24px;line-height: 28px;"><span class="SAP-icons"></span></span> \(Disable Process\)
 
     The process state changes to *Started \(disabled\)*. The process continues to handle working sessions, but does not accept new connections, which allows you to shut it down gracefully.
 
@@ -211,14 +216,14 @@ An application can run on one or more application processes. The use of multiple
     <tr>
     <td valign="top">
     
-        Enable a process
+    Enable a process
 
 
     
     </td>
     <td valign="top">
     
-        <span style="font-size:24px;line-height: 28px;"><span class="SAP-icons"></span></span> \(Enable Process\)
+    <span style="font-size:24px;line-height: 28px;"><span class="SAP-icons"></span></span> \(Enable Process\)
 
     The process state changes back to *Started*.
 
@@ -229,14 +234,14 @@ An application can run on one or more application processes. The use of multiple
     <tr>
     <td valign="top">
     
-        Stop a process
+    Stop a process
 
 
     
     </td>
     <td valign="top">
     
-        <span style="font-size:24px;line-height: 28px;"><span class="SAP-icons"></span></span> \(Stop\)
+    <span style="font-size:24px;line-height: 28px;"><span class="SAP-icons"></span></span> \(Stop\)
 
     The process is stopped and removed from the list. If the application has no further processes, it transitions to the *Stopped* state.
 

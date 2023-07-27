@@ -4,6 +4,11 @@
 
 
 
+> ### Remember:  
+> SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
+> 
+> For more information, see SAP Note [3351844](https://launchpad.support.sap.com/#/notes/3351844).
+
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**
 
@@ -83,7 +88,7 @@ Deployment
 
 [rolling-update](rolling-update-3f5d412.md); [hot-update](hot-update-7ae6493.md);
 
- [clear-downtime-app](clear-downtime-app-c9ae25a.md); [set-downtime-app](set-downtime-app-1672997.md) 
+[clear-downtime-app](clear-downtime-app-c9ae25a.md); [set-downtime-app](set-downtime-app-1672997.md) 
 
 
 
@@ -137,7 +142,7 @@ Keystore
 </td>
 <td valign="top">
 
- [list-keystores](list-keystores-fa3c4af.md); [upload-keystore](upload-keystore-dea2506.md); [download-keystore](download-keystore-b45597c.md); [delete-keystore](delete-keystore-0c8539c.md);
+[list-keystores](list-keystores-fa3c4af.md); [upload-keystore](upload-keystore-dea2506.md); [download-keystore](download-keystore-b45597c.md); [delete-keystore](delete-keystore-0c8539c.md);
 
 
 
@@ -291,7 +296,7 @@ Reverse-Proxy
 </td>
 <td valign="top">
 
- [list-proxy-host-mappings](list-proxy-host-mappings-9fbd139.md); [map-proxy-host](map-proxy-host-12b5cc4.md); [unmap-proxy-host](unmap-proxy-host-10ddad9.md) 
+[list-proxy-host-mappings](list-proxy-host-mappings-9fbd139.md); [map-proxy-host](map-proxy-host-12b5cc4.md); [unmap-proxy-host](unmap-proxy-host-10ddad9.md) 
 
 
 
@@ -307,7 +312,7 @@ Resources
 </td>
 <td valign="top">
 
- [delete-resource \(Beta\)](delete-resource-beta-09aca8e.md) 
+[delete-resource \(Beta\)](delete-resource-beta-09aca8e.md) 
 
 
 
@@ -323,7 +328,7 @@ System
 </td>
 <td valign="top">
 
- [version](version-7f6d786.md); [sdk-upgrade](sdk-upgrade-44dc673.md) 
+[version](version-7f6d786.md); [sdk-upgrade](sdk-upgrade-44dc673.md) 
 
 
 
@@ -339,7 +344,7 @@ Extensions
 </td>
 <td valign="top">
 
- [hcmcloud-create-connection](hcmcloud-create-connection-ba4e8bb.md); [hcmcloud-delete-connection](hcmcloud-delete-connection-1445cb5.md); [hcmcloud-disable-application-access](hcmcloud-disable-application-access-99e8674.md); [hcmcloud-display-application-access-status](hcmcloud-display-application-access-status-75eac93.md); [hcmcloud-enable-application-access](hcmcloud-enable-application-access-da0e8ba.md); [hcmcloud-enable-role-provider](hcmcloud-enable-role-provider-e263f8e.md); [hcmcloud-get-registered-home-page-tiles](hcmcloud-get-registered-home-page-tiles-ba87683.md); [hcmcloud-import-roles](hcmcloud-import-roles-d3dd77e.md); [hcmcloud-list-connections](hcmcloud-list-connections-38f9af2.md); [hcmcloud-register-home-page-tiles](hcmcloud-register-home-page-tiles-d274421.md); [hcmcloud-unregister-home-page-tiles](hcmcloud-unregister-home-page-tiles-60b45a9.md) 
+[hcmcloud-create-connection](hcmcloud-create-connection-ba4e8bb.md); [hcmcloud-delete-connection](hcmcloud-delete-connection-1445cb5.md); [hcmcloud-disable-application-access](hcmcloud-disable-application-access-99e8674.md); [hcmcloud-display-application-access-status](hcmcloud-display-application-access-status-75eac93.md); [hcmcloud-enable-application-access](hcmcloud-enable-application-access-da0e8ba.md); [hcmcloud-enable-role-provider](hcmcloud-enable-role-provider-e263f8e.md); [hcmcloud-get-registered-home-page-tiles](hcmcloud-get-registered-home-page-tiles-ba87683.md); [hcmcloud-import-roles](hcmcloud-import-roles-d3dd77e.md); [hcmcloud-list-connections](hcmcloud-list-connections-38f9af2.md); [hcmcloud-register-home-page-tiles](hcmcloud-register-home-page-tiles-d274421.md); [hcmcloud-unregister-home-page-tiles](hcmcloud-unregister-home-page-tiles-60b45a9.md) 
 
 
 
@@ -355,7 +360,7 @@ MTA
 </td>
 <td valign="top">
 
- [delete-mta](delete-mta-3d1163e.md);[deploy-mta](deploy-mta-1e12331.md); [display-mta](display-mta-974dbbb.md) ; [list-mtas](list-mtas-b8b51ef.md); [list-mta-operations](list-mta-operations-8029e1a.md); [subscribe-mta](subscribe-mta-ea358be.md) 
+[delete-mta](delete-mta-3d1163e.md);[deploy-mta](deploy-mta-1e12331.md); [display-mta](display-mta-974dbbb.md) ; [list-mtas](list-mtas-b8b51ef.md); [list-mta-operations](list-mta-operations-8029e1a.md); [subscribe-mta](subscribe-mta-ea358be.md) 
 
 
 

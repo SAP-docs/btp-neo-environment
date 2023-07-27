@@ -6,6 +6,11 @@
 
 ## Context
 
+> ### Remember:  
+> SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
+> 
+> For more information, see SAP Note [3351844](https://launchpad.support.sap.com/#/notes/3351844).
+
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**
 
@@ -174,7 +179,7 @@ modifying
 </tr>
 </table>
 
- <a name="task_nlp_13d_tn"/>
+<a name="task_nlp_13d_tn"/>
 
 <!-- task\_nlp\_13d\_tn -->
 
@@ -216,6 +221,8 @@ Applications should expose at least one non-modifying REST operation to enable C
 
 
 
+### Example
+
 The following example illustrates mapping a set of modifying REST APIs and one non-modifying REST API to the CSRF protection filter in the application’s `web.xml` deployment descriptor:
 
 ```
@@ -235,7 +242,7 @@ The following example illustrates mapping a set of modifying REST APIs and one n
 
 ```
 
- <a name="task_frp_gjd_tn"/>
+<a name="task_frp_gjd_tn"/>
 
 <!-- task\_frp\_gjd\_tn -->
 
@@ -305,7 +312,7 @@ The following example illustrates mapping a set of modifying REST APIs and one n
     -   There are cases when the sessionid is changed by the server and the client should take into account such changes.
 
 
- <a name="task_lm2_dkd_tn"/>
+<a name="task_lm2_dkd_tn"/>
 
 <!-- task\_lm2\_dkd\_tn -->
 

@@ -4,6 +4,11 @@
 
 The application identity provider supplies the user base for your applications. For example, you can use your corporate identity provider for your applications. This is called identity federation. SAP BTP supports Security Assertion Markup Language \(SAML\) 2.0 for identity federation.
 
+> ### Remember:  
+> SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
+> 
+> For more information, see SAP Note [3351844](https://launchpad.support.sap.com/#/notes/3351844).
+
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**
 
@@ -37,7 +42,7 @@ The application identity provider supplies the user base for your applications. 
 > ### Tip:  
 > You can configure your SAP BTP account for identity federation with more than one identity provider. In such case, make sure all user identities are unique across all identity providers, and no user is available in more than one identity provider. Otherwise, this could lead to wrong assignment of security roles at SAP BTP.
 
- <a name="loiodcdfe339f94947bc96508daa686cc56d"/>
+<a name="loiodcdfe339f94947bc96508daa686cc56d"/>
 
 <!-- loiodcdfe339f94947bc96508daa686cc56d -->
 
@@ -244,10 +249,10 @@ If you set it to *Enabled*, you enable force authentication for your application
 
 10. Choose *Get Metadata* to download the SAML 2.0 metadata describing SAP BTP as a service provider. You will have to import this metadata into the IdP to configure trust to SAP BTP.
 
-    ![Configure SP](images/Configure_SP_3d3826d.png) 
+    ![Configure SP](images/Configure_SP_3d3826d.png)
 
 
- <a name="loio53aaeda0568e44928c5def2e2930ebc0"/>
+<a name="loio53aaeda0568e44928c5def2e2930ebc0"/>
 
 <!-- loio53aaeda0568e44928c5def2e2930ebc0 -->
 
@@ -261,6 +266,8 @@ If you want to use for the local service provider a signing key and certificate 
 -   Strip off the tags `—–BEGIN CERTIFICATE—–` and `—–END CERTIFICATE—–` from the certificate.
 
 
+
+### Example
 
 You want to use OpenSSL as a tool for key pair generation.
 
@@ -305,7 +312,7 @@ Now open the file `spkey.pk8` in a text editor and copy all contents except for 
 
 After clicking *Save* you should get a message that you can proceed with the configuring of your trusted identity provider settings.
 
- <a name="loiob6cfc4bb4bff4ace90afc71b0962fcb5"/>
+<a name="loiob6cfc4bb4bff4ace90afc71b0962fcb5"/>
 
 <!-- loiob6cfc4bb4bff4ace90afc71b0962fcb5 -->
 
@@ -357,30 +364,14 @@ After clicking *Save* you should get a message that you can proceed with the con
     <tr>
     <td valign="top">
     
-        Metadata File
+    Metadata File
 
 
     
     </td>
     <td valign="top">
     
-        The metadata XML file of the identity provider.
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        Name
-
-
-    
-    </td>
-    <td valign="top">
-    
-        The entity ID of the IdP, also known as the issuer.
+    The metadata XML file of the identity provider.
 
 
     
@@ -389,14 +380,14 @@ After clicking *Save* you should get a message that you can proceed with the con
     <tr>
     <td valign="top">
     
-        Description
+    Name
 
 
     
     </td>
     <td valign="top">
     
-        A short description of the IdP.
+    The entity ID of the IdP, also known as the issuer.
 
 
     
@@ -405,14 +396,30 @@ After clicking *Save* you should get a message that you can proceed with the con
     <tr>
     <td valign="top">
     
-        Assertion Consumer Service
+    Description
 
 
     
     </td>
     <td valign="top">
     
-        The SAP BTP endpoint type \(application root or assertion consumer service\). The IdP will send the SAML assertion to that endpoint.
+    A short description of the IdP.
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    Assertion Consumer Service
+
+
+    
+    </td>
+    <td valign="top">
+    
+    The SAP BTP endpoint type \(application root or assertion consumer service\). The IdP will send the SAML assertion to that endpoint.
 
     In the common case, select *Application Root* as value.
 
@@ -425,30 +432,14 @@ After clicking *Save* you should get a message that you can proceed with the con
     <tr>
     <td valign="top">
     
-        Single Sign-on URL
+    Single Sign-on URL
 
 
     
     </td>
     <td valign="top">
     
-        The IdP's endpoint \(URL\) to which the SP's authentication request will be sent.
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        Single Sign-on Binding
-
-
-    
-    </td>
-    <td valign="top">
-    
-        The SAML-specified HTTP binding used by the SP to send the authentication request.
+    The IdP's endpoint \(URL\) to which the SP's authentication request will be sent.
 
 
     
@@ -457,14 +448,30 @@ After clicking *Save* you should get a message that you can proceed with the con
     <tr>
     <td valign="top">
     
-        Single Logout URL
+    Single Sign-on Binding
 
 
     
     </td>
     <td valign="top">
     
-        The IdP's endpoint \(URL\) to which the SP's logout request will be sent.
+    The SAML-specified HTTP binding used by the SP to send the authentication request.
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    Single Logout URL
+
+
+    
+    </td>
+    <td valign="top">
+    
+    The IdP's endpoint \(URL\) to which the SP's logout request will be sent.
 
     > ### Note:  
     > If there is no single logout \(SLO\) end point specified, no request to the IdP SLO point will be sent, and only the local session will be invalidated.
@@ -476,30 +483,14 @@ After clicking *Save* you should get a message that you can proceed with the con
     <tr>
     <td valign="top">
     
-        Signature Algorithm
+    Signature Algorithm
 
 
     
     </td>
     <td valign="top">
     
-        The cryptographic algorithm used to compute the digest of the digital signatures in the SAML protocol messages.
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        Signing Certificate
-
-
-    
-    </td>
-    <td valign="top">
-    
-        The X.509 certificate used by the IdP to digitally sign the SAML protocol messages.
+    The cryptographic algorithm used to compute the digest of the digital signatures in the SAML protocol messages.
 
 
     
@@ -508,30 +499,14 @@ After clicking *Save* you should get a message that you can proceed with the con
     <tr>
     <td valign="top">
     
-        User ID Source
+    Signing Certificate
 
 
     
     </td>
     <td valign="top">
     
-        Location in the SAML assertion from where the user's unique name \(ID\) is taken when logging into the Cloud. If you choose subject, this is taken from the name identifier in the assertions's subject \(<saml:Subject\>\) element. If you choose attribute, the user's name is taken from an SAML attribute in the assertion.
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        Source Value
-
-
-    
-    </td>
-    <td valign="top">
-    
-        Name of the SAML attribute that defines the user ID on the cloud.
+    The X.509 certificate used by the IdP to digitally sign the SAML protocol messages.
 
 
     
@@ -540,30 +515,14 @@ After clicking *Save* you should get a message that you can proceed with the con
     <tr>
     <td valign="top">
     
-        User ID Prefix
+    User ID Source
 
 
     
     </td>
     <td valign="top">
     
-        An optional prefix added to the user ID on the cloud.
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        User ID Suffix
-
-
-    
-    </td>
-    <td valign="top">
-    
-        An optional suffix appended to the user ID on the cloud.
+    Location in the SAML assertion from where the user's unique name \(ID\) is taken when logging into the Cloud. If you choose subject, this is taken from the name identifier in the assertions's subject \(<saml:Subject\>\) element. If you choose attribute, the user's name is taken from an SAML attribute in the assertion.
 
 
     
@@ -572,14 +531,62 @@ After clicking *Save* you should get a message that you can proceed with the con
     <tr>
     <td valign="top">
     
-        Enabled
+    Source Value
 
 
     
     </td>
     <td valign="top">
     
-        If an IdP is enabled, it can be used for authentication by the applications in this subaccount. Otherwise, it cannot be used. Only the SAML assertions coming from it will be validated by SAP BTP.
+    Name of the SAML attribute that defines the user ID on the cloud.
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    User ID Prefix
+
+
+    
+    </td>
+    <td valign="top">
+    
+    An optional prefix added to the user ID on the cloud.
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    User ID Suffix
+
+
+    
+    </td>
+    <td valign="top">
+    
+    An optional suffix appended to the user ID on the cloud.
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    Enabled
+
+
+    
+    </td>
+    <td valign="top">
+    
+    If an IdP is enabled, it can be used for authentication by the applications in this subaccount. Otherwise, it cannot be used. Only the SAML assertions coming from it will be validated by SAP BTP.
 
     > ### Note:  
     > If nothing else is specified, the default IdP is used for authentication. Alternatively, you can use a different IdP using a URL parameter. See [Using Multiple Identity Providers](application-identity-provider-dc61853.md#loioade5359a931b45b680301ebc3b6f3cb3).
@@ -591,14 +598,14 @@ After clicking *Save* you should get a message that you can proceed with the con
     <tr>
     <td valign="top">
     
-        Only for IDP-initiated SSO
+    Only for IDP-initiated SSO
 
 
     
     </td>
     <td valign="top">
     
-        If this checkbox is marked, this identity provider can be used only for IdP-initiated single sign-on scenarios. The applications deployed at SAP BTP cannot use it for user authentication from their login pages, for example. Only users coming from links to the application at the IdP side will be able to authenticate.
+    If this checkbox is marked, this identity provider can be used only for IdP-initiated single sign-on scenarios. The applications deployed at SAP BTP cannot use it for user authentication from their login pages, for example. Only users coming from links to the application at the IdP side will be able to authenticate.
 
     > ### Note:  
     > When you add a new application identity provider and you have selected *Default* configuration type in the *Local Service Provider* section, this checkbox is always marked. This means that SAP ID Service \(accounts.sap.com\) will be used for authentication when accessing applications/services on SAP BTP, and the additional application identity provider can be used only for IDP-initiated SSO.
@@ -610,14 +617,14 @@ After clicking *Save* you should get a message that you can proceed with the con
     <tr>
     <td valign="top">
     
-        Only for OAuth2 SAML Bearer flow
+    Only for OAuth2 SAML Bearer flow
 
 
     
     </td>
     <td valign="top">
     
-        The IdP will only be used to validate SAML Assertions received via the OAuth SAML Bearer Flow. This allows a more fine-granular and secure control of which IdPs are allowed during login.
+    The IdP will only be used to validate SAML Assertions received via the OAuth SAML Bearer Flow. This allows a more fine-granular and secure control of which IdPs are allowed during login.
 
 
     
@@ -651,7 +658,7 @@ After clicking *Save* you should get a message that you can proceed with the con
     2.  In *Assertion Attribute*, enter the name of the attribute contained in the SAML 2.0 assertion issued by the IdP. When this IdP logs a user on SAP BTP, the value of this attribute is mapped as the value for the specified user attribute \(*Principal Attribute*\).
     3.  In *Principal Attribute*, enter the name of the user attribute on SAP BTP.
 
-    ![](images/trusted_idp_attributes_png_c238403.png) 
+    ![](images/trusted_idp_attributes_png_c238403.png)
 
     In the screenshot above, all users authenticated by this IdP will have an attribute *organization="MOKMunicipality"* and *type="Government"*. In addition, several attributes \(corresponding to first name, last name and e-mail\) from the SAML assertion will also be added to authenticated users. Note that those attribute names provided in the assertion by the IdP are different from the principal attributes, which are the attributes used by the cloud applications.
 
@@ -702,7 +709,7 @@ After clicking *Save* you should get a message that you can proceed with the con
     6.  You can specify more than one mapping rule for a specific group. Use the plus button to add as many rules as required. In this case, mapping is based on a logical AND operation for all rules, that is, if one of your rules applies, the user is added to the group.
 
 
-    ![](images/trusted_idp_groups_png_c243279.png) 
+    ![](images/trusted_idp_groups_png_c243279.png)
 
     In the image above, all users logged by this IdP are added to the group *Citizens*.
 
@@ -713,7 +720,7 @@ After clicking *Save* you should get a message that you can proceed with the con
     ![](images/IdP_Groups_33c8db4.png)
 
 
- <a name="loioade5359a931b45b680301ebc3b6f3cb3"/>
+<a name="loioade5359a931b45b680301ebc3b6f3cb3"/>
 
 <!-- loioade5359a931b45b680301ebc3b6f3cb3 -->
 
@@ -752,14 +759,14 @@ You may need to use a different identity provider \(IdP\) for each security scen
     <tr>
     <td valign="top">
     
-        Only for IDP-initiated SSO
+    Only for IDP-initiated SSO
 
 
     
     </td>
     <td valign="top">
     
-        If this checkbox is marked, this identity provider can be used only for IdP-initiated single sign-on scenarios. The applications deployed at SAP BTP cannot use it for user authentication from their login pages, for example. Only users coming from links to the application at the IdP side will be able to authenticate.
+    If this checkbox is marked, this identity provider can be used only for IdP-initiated single sign-on scenarios. The applications deployed at SAP BTP cannot use it for user authentication from their login pages, for example. Only users coming from links to the application at the IdP side will be able to authenticate.
 
     > ### Note:  
     > When you add a new application identity provider and you have selected *Default* configuration type in the *Local Service Provider* section, this checkbox is always marked. This means that SAP ID Service \(accounts.sap.com\) will be used for authentication when accessing applications/services on SAP BTP, and the additional application identity provider can be used only for IDP-initiated SSO.
@@ -771,14 +778,14 @@ You may need to use a different identity provider \(IdP\) for each security scen
     <tr>
     <td valign="top">
     
-        Only for OAuth2 SAML Bearer flow
+    Only for OAuth2 SAML Bearer flow
 
 
     
     </td>
     <td valign="top">
     
-        The IdP will only be used to validate SAML Assertions received via the OAuth SAML Bearer Flow. This allows a more fine-granular and secure control of which IdPs are allowed during login.
+    The IdP will only be used to validate SAML Assertions received via the OAuth SAML Bearer Flow. This allows a more fine-granular and secure control of which IdPs are allowed during login.
 
 
     
@@ -813,30 +820,14 @@ You may need to use a different identity provider \(IdP\) for each security scen
     <tr>
     <td valign="top">
     
-        neo-eu1
+    neo-eu1
 
 
     
     </td>
     <td valign="top">
     
-        https://netweaver.ondemand.com
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        neo-eu2
-
-
-    
-    </td>
-    <td valign="top">
-    
-        https://eu2.hana.ondemand.com/
+    https://netweaver.ondemand.com
 
 
     
@@ -845,30 +836,14 @@ You may need to use a different identity provider \(IdP\) for each security scen
     <tr>
     <td valign="top">
     
-        neo-eu3
+    neo-eu2
 
 
     
     </td>
     <td valign="top">
     
-        https://eu3.hana.ondemand.com
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        neo-us1
-
-
-    
-    </td>
-    <td valign="top">
-    
-        https://us1.hana.ondemand.com/
+    https://eu2.hana.ondemand.com/
 
 
     
@@ -877,30 +852,14 @@ You may need to use a different identity provider \(IdP\) for each security scen
     <tr>
     <td valign="top">
     
-        neo-us2
+    neo-eu3
 
 
     
     </td>
     <td valign="top">
     
-        https://us2.hana.ondemand.com
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        neo-us3
-
-
-    
-    </td>
-    <td valign="top">
-    
-        https://us3.hana.ondemand.com
+    https://eu3.hana.ondemand.com
 
 
     
@@ -909,30 +868,14 @@ You may need to use a different identity provider \(IdP\) for each security scen
     <tr>
     <td valign="top">
     
-        neo-us4
+    neo-us1
 
 
     
     </td>
     <td valign="top">
     
-        https://us4.hana.ondemand.com
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        neo-ap1
-
-
-    
-    </td>
-    <td valign="top">
-    
-        ap1.hana.ondemand.com
+    https://us1.hana.ondemand.com/
 
 
     
@@ -941,30 +884,14 @@ You may need to use a different identity provider \(IdP\) for each security scen
     <tr>
     <td valign="top">
     
-        neo-ap2
+    neo-us2
 
 
     
     </td>
     <td valign="top">
     
-        https://ap2.hana.ondemand.com
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        neo-jp1
-
-
-    
-    </td>
-    <td valign="top">
-    
-        https://jp1.hana.ondemand.com
+    https://us2.hana.ondemand.com
 
 
     
@@ -973,30 +900,14 @@ You may need to use a different identity provider \(IdP\) for each security scen
     <tr>
     <td valign="top">
     
-        neo-jp2
+    neo-us3
 
 
     
     </td>
     <td valign="top">
     
-        https://jp2.hana.ondemand.com
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        neo-cn1
-
-
-    
-    </td>
-    <td valign="top">
-    
-        https://cn1.hana.ondemand.com
+    https://us3.hana.ondemand.com
 
 
     
@@ -1005,30 +916,14 @@ You may need to use a different identity provider \(IdP\) for each security scen
     <tr>
     <td valign="top">
     
-        neo-cn2
+    neo-us4
 
 
     
     </td>
     <td valign="top">
     
-        https://cn2.hana.ondemand.com
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        neo-br1
-
-
-    
-    </td>
-    <td valign="top">
-    
-        https://br1.hana.ondemand.com
+    https://us4.hana.ondemand.com
 
 
     
@@ -1037,30 +932,14 @@ You may need to use a different identity provider \(IdP\) for each security scen
     <tr>
     <td valign="top">
     
-        neo-br2
+    neo-ap1
 
 
     
     </td>
     <td valign="top">
     
-        https://br2.hana.ondemand.com
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        neo-ae1
-
-
-    
-    </td>
-    <td valign="top">
-    
-        https://ae1.hana.ondemand.com
+    ap1.hana.ondemand.com
 
 
     
@@ -1069,14 +948,142 @@ You may need to use a different identity provider \(IdP\) for each security scen
     <tr>
     <td valign="top">
     
-        CA1
+    neo-ap2
 
 
     
     </td>
     <td valign="top">
     
-        https://ca1.hana.ondemand.com
+    https://ap2.hana.ondemand.com
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    neo-jp1
+
+
+    
+    </td>
+    <td valign="top">
+    
+    https://jp1.hana.ondemand.com
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    neo-jp2
+
+
+    
+    </td>
+    <td valign="top">
+    
+    https://jp2.hana.ondemand.com
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    neo-cn1
+
+
+    
+    </td>
+    <td valign="top">
+    
+    https://cn1.hana.ondemand.com
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    neo-cn2
+
+
+    
+    </td>
+    <td valign="top">
+    
+    https://cn2.hana.ondemand.com
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    neo-br1
+
+
+    
+    </td>
+    <td valign="top">
+    
+    https://br1.hana.ondemand.com
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    neo-br2
+
+
+    
+    </td>
+    <td valign="top">
+    
+    https://br2.hana.ondemand.com
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    neo-ae1
+
+
+    
+    </td>
+    <td valign="top">
+    
+    https://ae1.hana.ondemand.com
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    CA1
+
+
+    
+    </td>
+    <td valign="top">
+    
+    https://ca1.hana.ondemand.com
 
 
     

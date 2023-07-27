@@ -2,6 +2,11 @@
 
 # MTA Module Types, Resource Types, and Parameters for Applications in the Neo Environment
 
+> ### Remember:  
+> SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
+> 
+> For more information, see SAP Note [3351844](https://launchpad.support.sap.com/#/notes/3351844).
+
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**
 
@@ -3727,72 +3732,35 @@ For more information, see [Role Assignment of HTML 5 Roles to Security Groups](r
     <tr>
     <td valign="top">
     
-        `metadata-validation-setting`
+    `metadata-validation-setting`
 
 
     
     </td>
     <td valign="top">
     
-        Enable or disable metadata validation, for example `true`.
+    Enable or disable metadata validation, for example `true`.
 
 
     
     </td>
     <td valign="top">
     
-        Boolean
+    Boolean
 
 
     
     </td>
     <td valign="top">
     
-        n/a
+    n/a
 
 
     
     </td>
     <td valign="top">
     
-        yes
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        `metadata-cache-setting`
-
-
-    
-    </td>
-    <td valign="top">
-    
-        Enable or disable metadata cache, for example `false`.
-
-
-    
-    </td>
-    <td valign="top">
-    
-        Boolean
-
-
-    
-    </td>
-    <td valign="top">
-    
-        n/a
-
-
-    
-    </td>
-    <td valign="top">
-    
-        yes
+    yes
 
 
     
@@ -3801,14 +3769,51 @@ For more information, see [Role Assignment of HTML 5 Roles to Security Groups](r
     <tr>
     <td valign="top">
     
-        `services`
+    `metadata-cache-setting`
 
 
     
     </td>
     <td valign="top">
     
-        List of OData services. Parameters required for an OData service are:
+    Enable or disable metadata cache, for example `false`.
+
+
+    
+    </td>
+    <td valign="top">
+    
+    Boolean
+
+
+    
+    </td>
+    <td valign="top">
+    
+    n/a
+
+
+    
+    </td>
+    <td valign="top">
+    
+    yes
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    `services`
+
+
+    
+    </td>
+    <td valign="top">
+    
+    List of OData services. Parameters required for an OData service are:
 
     -   `name` - name of the service from the SAP on-premise back-end system that needs to be registered, for example `EPM_DEVELOPER_SCENARIO_SRV`. This name has to be unique within the current subaccount.
     -   `namespace` - namespace for the above service being registered from the SAP on-premise back-end system, for example `IWBEP`
@@ -3824,21 +3829,21 @@ For more information, see [Role Assignment of HTML 5 Roles to Security Groups](r
     </td>
     <td valign="top">
     
-        List
+    List
 
 
     
     </td>
     <td valign="top">
     
-        n/a
+    n/a
 
 
     
     </td>
     <td valign="top">
     
-        yes
+    yes
 
 
     
@@ -3890,72 +3895,35 @@ For more information, see [Role Assignment of HTML 5 Roles to Security Groups](r
     <tr>
     <td valign="top">
     
-        `metadata-validation-setting`
+    `metadata-validation-setting`
 
 
     
     </td>
     <td valign="top">
     
-        Enable or disable metadata validation, for example `true`.
+    Enable or disable metadata validation, for example `true`.
 
 
     
     </td>
     <td valign="top">
     
-        Boolean
+    Boolean
 
 
     
     </td>
     <td valign="top">
     
-        n/a
+    n/a
 
 
     
     </td>
     <td valign="top">
     
-        yes
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        `metadata-cache-setting`
-
-
-    
-    </td>
-    <td valign="top">
-    
-        Enable or disable metadata cache, for example `false`.
-
-
-    
-    </td>
-    <td valign="top">
-    
-        Boolean
-
-
-    
-    </td>
-    <td valign="top">
-    
-        n/a
-
-
-    
-    </td>
-    <td valign="top">
-    
-        yes
+    yes
 
 
     
@@ -3964,20 +3932,57 @@ For more information, see [Role Assignment of HTML 5 Roles to Security Groups](r
     <tr>
     <td valign="top">
     
-        `services`
+    `metadata-cache-setting`
 
 
     
     </td>
     <td valign="top">
     
-        List of OData services. Parameters required for an OData service are:
+    Enable or disable metadata cache, for example `false`.
+
+
+    
+    </td>
+    <td valign="top">
+    
+    Boolean
+
+
+    
+    </td>
+    <td valign="top">
+    
+    n/a
+
+
+    
+    </td>
+    <td valign="top">
+    
+    yes
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    `services`
+
+
+    
+    </td>
+    <td valign="top">
+    
+    List of OData services. Parameters required for an OData service are:
 
     -   `name` - name of the service from the SAP on-premise back-end system that needs to be registered, for example `EPM_DEVELOPER_SCENARIO_SRV`. This name has to be unique within the current subaccount.
     -   `namespace` - namespace for the above service being registered from the SAP on-premise back-end system, for example `IWBEP`
     -   `version` - version of service being registered from the SAP on-premise back-end system, for example `1`
     -   `status` - status of the service registered in the OData Provisioning Administration cockpit. To make the service active use `true`, or `false` to keep it inactive.
-    -    `initial-description` – description of the service. For example `/IWBEP/CL_EPM_DEVELOPE_DPC_EXT`. Use only when the service is created for the first time.
+    -   `initial-description` – description of the service. For example `/IWBEP/CL_EPM_DEVELOPE_DPC_EXT`. Use only when the service is created for the first time.
 
         > ### Note:  
         > If a service with the same `name/namespace/version` combination already exists but has different description, the import will fail.
@@ -3998,21 +4003,21 @@ For more information, see [Role Assignment of HTML 5 Roles to Security Groups](r
     </td>
     <td valign="top">
     
-        List
+    List
 
 
     
     </td>
     <td valign="top">
     
-        n/a
+    n/a
 
 
     
     </td>
     <td valign="top">
     
-        yes
+    yes
 
 
     
@@ -6511,7 +6516,7 @@ Use this section to define arbitrary properties as a map of keys and values used
 <tr>
 <td valign="top">
 
- `location-id` 
+`location-id` 
 
 
 

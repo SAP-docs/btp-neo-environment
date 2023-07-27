@@ -47,7 +47,7 @@ To login with a custom identity provider, use:
 btp login --sso --idp <TENANT>
 ```
 
- 
+
 
 See [Log in with a Custom Identity Provider](log-in-with-a-custom-identity-provider-e48e486.md).
 
@@ -177,7 +177,7 @@ In the interactive login, after successful authentication, the btp CLI will offe
 
 You can also provide the global account as a parameter by specifying its subdomain. You should have obtained the subdomain from your operator; but you can also find it in the cockpit in the global account view.
 
- ![](images/cli_subdomain_dc4961c.png) 
+![](images/cli_subdomain_dc4961c.png)
 
 > ### Note:  
 > If you don't find the subdomain of the global account in your cockpit, your global account is probably not on SAP BTP feature set B, which means you cannot access it with the btp CLI. See [Cloud Management Tools — Feature Set Overview](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/caf4e4e23aef4666ad8f125af393dfb2.html "Cloud management tools represent the group of technologies designed for managing SAP BTP.") :arrow_upper_right:.

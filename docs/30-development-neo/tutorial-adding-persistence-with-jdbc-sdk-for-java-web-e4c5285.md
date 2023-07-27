@@ -4,6 +4,11 @@
 
 Use JDBC to persist data in a simple Java EE web application that manages a list of persons.
 
+> ### Remember:  
+> SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
+> 
+> For more information, see SAP Note [3351844](https://launchpad.support.sap.com/#/notes/3351844).
+
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**
 
@@ -47,7 +52,7 @@ Perform the following steps:
 7.  [Start Applications](tutorial-adding-persistence-with-jdbc-sdk-for-java-web-e4c5285.md#copya584b2c8f7e64b108b3d5d98208cd713)
 
 
- <a name="loio176a4a23d43a40509afb67a82e1a93d4"/>
+<a name="loio176a4a23d43a40509afb67a82e1a93d4"/>
 
 <!-- loio176a4a23d43a40509afb67a82e1a93d4 -->
 
@@ -69,7 +74,7 @@ Import the *persistence-with-jdbc* Java Web application in Eclipse IDE.
 3.  Click *Finish*.
 
 
- <a name="loio77dbc96e96ac4df7bc4fa96bacbb255c"/>
+<a name="loio77dbc96e96ac4df7bc4fa96bacbb255c"/>
 
 <!-- loio77dbc96e96ac4df7bc4fa96bacbb255c -->
 
@@ -96,7 +101,7 @@ Add the JAR files you've downloaded earlier to the Web application build path.
 7.  Right-click on the project to open the context menu and choose *Validate*.
 
 
- <a name="copydb19369f109446928b98f90c1b29a2ea"/>
+<a name="copydb19369f109446928b98f90c1b29a2ea"/>
 
 <!-- copydb19369f109446928b98f90c1b29a2ea -->
 
@@ -115,7 +120,7 @@ Add the JAR files you've downloaded earlier to the Web application build path.
 4.  Choose *Finish*. The WAR file is now generated.
 
 
- <a name="copy97034eb9f3aa43a29b2dd6d4759640f2"/>
+<a name="copy97034eb9f3aa43a29b2dd6d4759640f2"/>
 
 <!-- copy97034eb9f3aa43a29b2dd6d4759640f2 -->
 
@@ -143,7 +148,7 @@ Test your application by deploying it locally.
     > If you add more names to the database, they are also listed in the table. This confirms that you have successfully enabled persistence using the `Person` entity.
 
 
- <a name="copy4e56e8c35dbb42f087a8bbe660c58150"/>
+<a name="copy4e56e8c35dbb42f087a8bbe660c58150"/>
 
 <!-- copy4e56e8c35dbb42f087a8bbe660c58150 -->
 
@@ -154,7 +159,7 @@ Deploy your application to the cloud using the SAP BTP cockpit or the console cl
 > ### Note:  
 > You must perform the following step before you bind your application to the database.
 
- <a name="copy9d9f79b422a24a5581a183bff4adf512"/>
+<a name="copy9d9f79b422a24a5581a183bff4adf512"/>
 
 <!-- copy9d9f79b422a24a5581a183bff4adf512 -->
 
@@ -165,6 +170,11 @@ The cockpit allows you to deploy Java applications as WAR files and supports a n
 
 
 ## Context
+
+> ### Remember:  
+> SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
+> 
+> For more information, see SAP Note [3351844](https://launchpad.support.sap.com/#/notes/3351844).
 
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**
@@ -228,7 +238,7 @@ To change the name of a deployed application, deploy a new application under the
 
 [Define Application Details \(Java Apps\)](../50-administration-and-ops-neo/define-application-details-java-apps-9b23270.md "You can view details about your currently selected Java application. By adding a suitable display name and a description, you can identify the application more easily.")
 
- <a name="copycf9a36fa1cd947e9a3af7e3b16c7a06f"/>
+<a name="copycf9a36fa1cd947e9a3af7e3b16c7a06f"/>
 
 <!-- copycf9a36fa1cd947e9a3af7e3b16c7a06f -->
 
@@ -248,6 +258,11 @@ Deploying an application publishes it to SAP BTP. During deploy, you can define 
 
 
 ## Context
+
+> ### Remember:  
+> SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
+> 
+> For more information, see SAP Note [3351844](https://launchpad.support.sap.com/#/notes/3351844).
 
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**
@@ -269,6 +284,8 @@ Deploying an application publishes it to SAP BTP. During deploy, you can define 
 
 
 
+
+#### Example
 
 ```
 neo deploy --host <host> --account <subaccount_name> --application <application_name> --source samples/deploy_war/example.war --user <email_or_user>  
@@ -305,7 +322,7 @@ Then, you can manage the application lifecycle \(check the status; stop; restart
 
 [Update Application Properties](../50-administration-and-ops-neo/update-application-properties-cadb1dd.md "You can update a property of an application running on SAP BTP without redeploying it.")
 
- <a name="copy2b35b9901c5b43a4af593b1e426aeba5"/>
+<a name="copy2b35b9901c5b43a4af593b1e426aeba5"/>
 
 <!-- copy2b35b9901c5b43a4af593b1e426aeba5 -->
 
@@ -328,7 +345,7 @@ Use the cockpit to create a default binding for your application.
     You can use an existing database or create a new one.
 
 
- <a name="copya584b2c8f7e64b108b3d5d98208cd713"/>
+<a name="copya584b2c8f7e64b108b3d5d98208cd713"/>
 
 <!-- copya584b2c8f7e64b108b3d5d98208cd713 -->
 
@@ -339,7 +356,7 @@ Start your application using the SAP BTP cockpit or the console client.
 > ### Note:  
 > You must bind your application to the database before you perform the following step.
 
- <a name="copyb3b4b3dffde24cbfb0412442f9421295"/>
+<a name="copyb3b4b3dffde24cbfb0412442f9421295"/>
 
 <!-- copyb3b4b3dffde24cbfb0412442f9421295 -->
 
@@ -362,7 +379,7 @@ Use the SAP BTP cockpit to start your application.
     You should see your application running as shown earlier in [Test the Web Application on the Local Server](tutorial-adding-container-managed-persistence-with-jpa-sdk-for-java-ee-7-web-profile-7612e18.md#loio8ed4fbd7ddf74cff9cb8c5f0534f2af7).
 
 
- <a name="copyb55b95e78355470e91b01227c028b3c6"/>
+<a name="copyb55b95e78355470e91b01227c028b3c6"/>
 
 <!-- copyb55b95e78355470e91b01227c028b3c6 -->
 

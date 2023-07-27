@@ -4,7 +4,7 @@
 
 You can enable the users for your Web application to authenticate using client certificates. This corresponds to the CERT and BASICCERT authentication methods supported in Java EE.
 
- <a name="task_ds5_pmt_wn"/>
+<a name="task_ds5_pmt_wn"/>
 
 <!-- task\_ds5\_pmt\_wn -->
 
@@ -20,12 +20,17 @@ You can enable the users for your Web application to authenticate using client c
 
 ## Context
 
+> ### Remember:  
+> SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
+> 
+> For more information, see SAP Note [3351844](https://launchpad.support.sap.com/#/notes/3351844).
+
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**
 
 Using information in the client certificate, SAP BTP will map the certificate to a user name using the mapping mode you specify.
 
- <a name="task_cm1_nmm_rv"/>
+<a name="task_cm1_nmm_rv"/>
 
 <!-- task\_cm1\_nmm\_rv -->
 
@@ -41,7 +46,7 @@ Add `cert.hana.ondemand.com` as a platform domain. See [Using Platform Domains](
 
 For more information about the trusted certificate authorities \(CAs\) for SAP BTP, see [Trusted Certificate Authorities for Client Certificate Authentication](trusted-certificate-authorities-for-client-certificate-authentication-fe95707.md).
 
- <a name="concept_xv5_md4_rv"/>
+<a name="concept_xv5_md4_rv"/>
 
 <!-- concept\_xv5\_md4\_rv -->
 
@@ -52,13 +57,13 @@ In your Web application, use declarative or programmatic authentication to prote
 Use one of the following two methods for client certificate authentication:
 
 -   `CERT` - Users can authenticate only with client certificate.
--    `BASICCERT` - Users can authenticate either with client certificate or with user name and password.
+-   `BASICCERT` - Users can authenticate either with client certificate or with user name and password.
 
 If you use the declarative approach, you need to specify the authentication method in the application web.xml file. See [Declarative Authentication](authentication-e637f62.md#loioe36c712efa844e8199a9c4bd681cb4e0).
 
 If you use the programmatic approach, specify the authentication method as a parameter for the login context creation. For more information, see [Programmatic Authentication](authentication-e637f62.md#loio778d8987e7714376977c190f6df379ad).
 
- <a name="concept_rj3_3g4_rv"/>
+<a name="concept_rj3_3g4_rv"/>
 
 <!-- concept\_rj3\_3g4\_rv -->
 
@@ -329,7 +334,7 @@ A certificate with *CN=john.miller, C=DE, O=SAP, OU=Development* as a subject an
 </tr>
 </table>
 
- <a name="task_fxt_x2z_52b"/>
+<a name="task_fxt_x2z_52b"/>
 
 <!-- task\_fxt\_x2z\_52b -->
 

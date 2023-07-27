@@ -17,6 +17,11 @@ You create the resource file containing the SAP SuccessFactors HXM role definiti
 
 ## Context
 
+> ### Remember:  
+> SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
+> 
+> For more information, see SAP Note [3351844](https://launchpad.support.sap.com/#/notes/3351844).
+
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**
 
@@ -66,44 +71,21 @@ To create the resource file with the role definitions required for your applicat
     <tr>
     <td valign="top">
     
-        permissionID
+    permissionID
 
 
     
     </td>
     <td valign="top">
     
-        No
+    No
 
 
     
     </td>
     <td valign="top">
     
-        \(Key\)Permission ID, the sequence ID in permission table
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        permissionType
-
-
-    
-    </td>
-    <td valign="top">
-    
-        Yes
-
-
-    
-    </td>
-    <td valign="top">
-    
-        Permission\_Type column
+    \(Key\)Permission ID, the sequence ID in permission table
 
 
     
@@ -112,21 +94,21 @@ To create the resource file with the role definitions required for your applicat
     <tr>
     <td valign="top">
     
-        permissionStringValue
+    permissionType
 
 
     
     </td>
     <td valign="top">
     
-        Yes
+    Yes
 
 
     
     </td>
     <td valign="top">
     
-        Permission\_string\_value column
+    Permission\_Type column
 
 
     
@@ -135,21 +117,44 @@ To create the resource file with the role definitions required for your applicat
     <tr>
     <td valign="top">
     
-        permissionLongValue
+    permissionStringValue
 
 
     
     </td>
     <td valign="top">
     
-        Yes
+    Yes
 
 
     
     </td>
     <td valign="top">
     
-        Permission\_long\_value column
+    Permission\_string\_value column
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    permissionLongValue
+
+
+    
+    </td>
+    <td valign="top">
+    
+    Yes
+
+
+    
+    </td>
+    <td valign="top">
+    
+    Permission\_long\_value column
 
 
     
@@ -224,30 +229,14 @@ To create the resource file with the role definitions required for your applicat
     <tr>
     <td valign="top">
     
-        `roleName`
+    `roleName`
 
 
     
     </td>
     <td valign="top">
     
-        Name of the role as defined in the response to the OData API call
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        `roleDesc`
-
-
-    
-    </td>
-    <td valign="top">
-    
-        Role description as defined in the response to the OData API call
+    Name of the role as defined in the response to the OData API call
 
 
     
@@ -256,30 +245,14 @@ To create the resource file with the role definitions required for your applicat
     <tr>
     <td valign="top">
     
-        `permissionType`
+    `roleDesc`
 
 
     
     </td>
     <td valign="top">
     
-        Value of the `permissionType` property as defined in the response to the OData API call
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        `permissionStringValue`
-
-
-    
-    </td>
-    <td valign="top">
-    
-        Value of the `permissionStringValue` property as defined in the response to the OData API call
+    Role description as defined in the response to the OData API call
 
 
     
@@ -288,14 +261,46 @@ To create the resource file with the role definitions required for your applicat
     <tr>
     <td valign="top">
     
-        `permissionLongValue`
+    `permissionType`
 
 
     
     </td>
     <td valign="top">
     
-        Value of the `permissionLongValue` property as defined in the response to the OData API call
+    Value of the `permissionType` property as defined in the response to the OData API call
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    `permissionStringValue`
+
+
+    
+    </td>
+    <td valign="top">
+    
+    Value of the `permissionStringValue` property as defined in the response to the OData API call
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    `permissionLongValue`
+
+
+    
+    </td>
+    <td valign="top">
+    
+    Value of the `permissionLongValue` property as defined in the response to the OData API call
 
 
     

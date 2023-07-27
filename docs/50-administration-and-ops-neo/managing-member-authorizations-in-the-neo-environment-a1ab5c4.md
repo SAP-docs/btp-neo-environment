@@ -6,6 +6,11 @@ SAP BTP includes predefined platform roles that support the typical tasks perfor
 
 
 
+> ### Remember:  
+> SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
+> 
+> For more information, see SAP Note [3351844](https://launchpad.support.sap.com/#/notes/3351844).
+
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**
 
@@ -141,11 +146,11 @@ Assigned by the subaccount administrator to a subaccount member. Manage user per
 
 The following graphic illustrates the predefined Administrator, Developer, and Support User roles and their amount of scopes:
 
-   
+  
   
 **Amount of Platform Scopes**
 
- ![](images/Predefined_Roles_e7daa6d.png " Amount of Platform Scopes") 
+![](images/Predefined_Roles_e7daa6d.png " Amount of Platform Scopes")
 
 The Admin role includes all platform scopes available on SAP BTP. The Developer and Support User are subsets of the Admin role.
 
@@ -161,11 +166,11 @@ Subaccount administrators can combine various scopes into a custom platform role
 
 The following example illustrates how custom platform roles in SAP BTP typically look like regarding their amount of scopes:
 
-   
+  
   
 **Number of Platform Scopes**
 
- ![](images/Custom_Roles_bfb3eeb.png "Number of Platform Scopes") 
+![](images/Custom_Roles_bfb3eeb.png "Number of Platform Scopes")
 
 **Related Information**  
 

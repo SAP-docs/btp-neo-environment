@@ -4,6 +4,11 @@
 
 Learn more about using services in the Neo environment:
 
+> ### Remember:  
+> SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
+> 
+> For more information, see SAP Note [3351844](https://launchpad.support.sap.com/#/notes/3351844).
+
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**
 
@@ -11,7 +16,7 @@ Learn more about using services in the Neo environment:
 -   [Enable Services in the Neo Environment](using-services-in-the-neo-environment-a32d3d5.md#loio4e12009d06e44eb1943b94483a505d90)
 -   [Disable Services in the Neo Environment](using-services-in-the-neo-environment-a32d3d5.md#loiobb93d85070b14ac280f57fbee6044a73)
 
- <a name="loiob8bbace90f5840e8a164c41e62ff2677"/>
+<a name="loiob8bbace90f5840e8a164c41e62ff2677"/>
 
 <!-- loiob8bbace90f5840e8a164c41e62ff2677 -->
 
@@ -56,7 +61,7 @@ The configuration options for a service may look like in this example for the Po
     This option is available only if the service is enabled.
 
 
- <a name="loio4e12009d06e44eb1943b94483a505d90"/>
+<a name="loio4e12009d06e44eb1943b94483a505d90"/>
 
 <!-- loio4e12009d06e44eb1943b94483a505d90 -->
 
@@ -89,7 +94,7 @@ The Administrator role for the subaccount.
 3.  Select the service and choose *Enable*.
 
 
- <a name="loiobb93d85070b14ac280f57fbee6044a73"/>
+<a name="loiobb93d85070b14ac280f57fbee6044a73"/>
 
 <!-- loiobb93d85070b14ac280f57fbee6044a73 -->
 

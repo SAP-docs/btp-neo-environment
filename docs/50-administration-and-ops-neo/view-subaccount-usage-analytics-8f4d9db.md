@@ -37,7 +37,7 @@ Description
 <tr>
 <td valign="top">
 
- **Subaccount** 
+**Subaccount** 
 
 
 
@@ -55,7 +55,7 @@ Some information in this view is displayed only for global account admins.
 <tr>
 <td valign="top">
 
- **Services** 
+**Services** 
 
 
 

@@ -9,7 +9,7 @@ The platform identity provider you configure will be used for accessing service 
 > ### Note:  
 > This platform identity provider is *not* used for accessing the SAP BTP cockpit. For accessing the SAP BTP cockpit, you use the custom identity provider configured at *global account level*. For more information, see [Establish Trust and Federation of Custom Identity Providers for Platform Users [Feature Set B]](https://help.sap.com/viewer/ae8e8427ecdf407790d96dad93b5f723/Cloud/en-US/c36898473d704e07a33268c9f9d29515.html "You want to use a custom identity provider for the platform users of SAP BTP in different environments and at the different account levels: global account, directory, and subaccount. By default, platform users in multi-environment subaccounts are users in the default identity provider.") :arrow_upper_right:.
 
- <a name="task_tvg_cwc_lxb"/>
+<a name="task_tvg_cwc_lxb"/>
 
 <!-- task\_tvg\_cwc\_lxb -->
 
@@ -26,7 +26,7 @@ To configure an Identity Authentication tenant as a platform identity provider f
 > ### Note:  
 > When you configure trust at global account level, the trusted Identity Authentication tenant creates an application with the name *SAP Business Technology Platform*. All security settings in this application apply to *all Neo subaccounts*.
 
- <a name="task_o2r_svc_lxb"/>
+<a name="task_o2r_svc_lxb"/>
 
 <!-- task\_o2r\_svc\_lxb -->
 

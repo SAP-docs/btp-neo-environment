@@ -6,6 +6,11 @@ Uploads a trusted CA certificate and adds it to a certificate authority \(CA\) b
 
 
 
+> ### Remember:  
+> SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
+> 
+> For more information, see SAP Note [3351844](https://launchpad.support.sap.com/#/notes/3351844).
+
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**
 
@@ -33,7 +38,7 @@ Required
 <tr>
 <td valign="top">
 
- `-a`, `--account` 
+`-a`, `--account` 
 
 
 
@@ -51,7 +56,7 @@ Subaccount technical name
 <tr>
 <td valign="top">
 
- `-h`, `--host` 
+`-h`, `--host` 
 
 
 
@@ -87,7 +92,7 @@ To protect your password, enter it only when prompted by the console client and 
 <tr>
 <td valign="top">
 
- `-u`, `--user` 
+`-u`, `--user` 
 
 
 
@@ -105,7 +110,7 @@ Use your e-mail, SAP ID, or user name.
 <tr>
 <td valign="top">
 
- `--bundle` 
+`--bundle` 
 
 
 
@@ -125,7 +130,7 @@ When creating a new bundle, the bundle name must start with a letter and can onl
 <tr>
 <td valign="top">
 
- `-l`, `--location` 
+`-l`, `--location` 
 
 
 

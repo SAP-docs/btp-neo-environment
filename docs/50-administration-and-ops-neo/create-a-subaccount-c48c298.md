@@ -4,7 +4,7 @@
 
 Create subaccounts in your global account using the SAP BTP cockpit.
 
- <a name="task_pdx_hmd_cqb"/>
+<a name="task_pdx_hmd_cqb"/>
 
 <!-- task\_pdx\_hmd\_cqb -->
 
@@ -26,6 +26,11 @@ You are a global account administrator.
 <a name="task_pdx_hmd_cqb__context_fds_lmd_cqb"/>
 
 ## Context
+
+> ### Remember:  
+> SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
+> 
+> For more information, see SAP Note [3351844](https://launchpad.support.sap.com/#/notes/3351844).
 
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**
@@ -89,7 +94,7 @@ A new tile appears in the global account page with the subaccount details.
 
 Once you've created your subaccount, navigate to it to enable the environment that you wish to use.
 
- <a name="task_dvg_gmd_cqb"/>
+<a name="task_dvg_gmd_cqb"/>
 
 <!-- task\_dvg\_gmd\_cqb -->
 
@@ -111,6 +116,11 @@ You are a global account administrator.
 <a name="task_dvg_gmd_cqb__context_rcg_tmd_cqb"/>
 
 ## Context
+
+> ### Remember:  
+> SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
+> 
+> For more information, see SAP Note [3351844](https://launchpad.support.sap.com/#/notes/3351844).
 
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**

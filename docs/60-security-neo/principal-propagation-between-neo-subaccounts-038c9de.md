@@ -4,6 +4,11 @@
 
 Enable an application in your subaccount \(Neo environment\) to access an application in another account \(Neo environment\) without user login / user interaction in the second application. The second application propagates its logged-in user to the first application using an AppToAppSSO destination.
 
+> ### Remember:  
+> SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
+> 
+> For more information, see SAP Note [3351844](https://launchpad.support.sap.com/#/notes/3351844).
+
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**
 
@@ -22,7 +27,7 @@ The graphic below illustrates the overall setup of the scenario.
 -   [Create a Destination](principal-propagation-between-neo-subaccounts-038c9de.md#loio0ed1d761ca8e4fc396189d8605dcd6bc)
 
 
- <a name="loio059e603255fe4769bfa784701d63f7f1"/>
+<a name="loio059e603255fe4769bfa784701d63f7f1"/>
 
 <!-- loio059e603255fe4769bfa784701d63f7f1 -->
 
@@ -81,14 +86,14 @@ The graphic below illustrates the overall setup of the scenario.
         <tr>
         <td valign="top">
         
-                Name
+        Name
 
 
         
         </td>
         <td valign="top">
         
-                The *Local Provider Name* of the first subaccount, which you copied in step 1.
+        The *Local Provider Name* of the first subaccount, which you copied in step 1.
 
 
         
@@ -97,14 +102,14 @@ The graphic below illustrates the overall setup of the scenario.
         <tr>
         <td valign="top">
         
-                Signing Certificate
+        Signing Certificate
 
 
         
         </td>
         <td valign="top">
         
-                The *Signing Certificate* of the first subaccount, which you copied in step 1.
+        The *Signing Certificate* of the first subaccount, which you copied in step 1.
 
 
         
@@ -120,7 +125,7 @@ The graphic below illustrates the overall setup of the scenario.
     ![](images/screenshot2_edited_866a0f5.png)
 
 
- <a name="loio0ed1d761ca8e4fc396189d8605dcd6bc"/>
+<a name="loio0ed1d761ca8e4fc396189d8605dcd6bc"/>
 
 <!-- loio0ed1d761ca8e4fc396189d8605dcd6bc -->
 
@@ -165,14 +170,14 @@ Connect the first subaccount, to the second subaccount by describing the source 
     <tr>
     <td valign="top">
     
-        Name
+    Name
 
 
     
     </td>
     <td valign="top">
     
-        Technical name of the destination. It can be used later on to get an instance of that destination. It should be unique for the current application.
+    Technical name of the destination. It can be used later on to get an instance of that destination. It should be unique for the current application.
 
     > ### Note:  
     > The name can contain only alphanumeric characters, underscores, and dashes. The maximum length is 200 characters.
@@ -184,14 +189,14 @@ Connect the first subaccount, to the second subaccount by describing the source 
     <tr>
     <td valign="top">
     
-        URL
+    URL
 
 
     
     </td>
     <td valign="top">
     
-        The URL of the protected resource that you want to access \(the first application\). See [Configuring Application URLs](../50-administration-and-ops-neo/configuring-application-urls-7ceeaa5.md).
+    The URL of the protected resource that you want to access \(the first application\). See [Configuring Application URLs](../50-administration-and-ops-neo/configuring-application-urls-7ceeaa5.md).
 
     Example: `https://myappmysubaccount.hana.ondemand.com/`
 
@@ -202,14 +207,14 @@ Connect the first subaccount, to the second subaccount by describing the source 
     <tr>
     <td valign="top">
     
-        Authentication
+    Authentication
 
 
     
     </td>
     <td valign="top">
     
-        AppToAppSSO
+    AppToAppSSO
 
 
     

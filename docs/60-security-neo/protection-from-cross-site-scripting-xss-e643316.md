@@ -4,6 +4,11 @@
 
 This document describes how to protect SAP BTP applications from XSS attacks.
 
+> ### Remember:  
+> SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
+> 
+> For more information, see SAP Note [3351844](https://launchpad.support.sap.com/#/notes/3351844).
+
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**
 
@@ -64,7 +69,7 @@ To prevent this from happening, use the `--disable-application-url` parameter wh
 > ### Note:  
 > Using the XSS output encoding library is given as an option that you can use for your applications. You can successfully use your custom or third-party XSS protection libraries that you have available.
 
- SAP BTP provides an output encoding library that helps protecting from XSS vulnerabilities. It is a central library that implements several encoding methods for the different contexts.
+SAP BTP provides an output encoding library that helps protecting from XSS vulnerabilities. It is a central library that implements several encoding methods for the different contexts.
 
 In the application node, first retrieve the `com.sap.security.core.server.csi.IXSSEncoder` interface using `com.sap.security.core.server.csi.XSSEncoder.getInstance()`.
 

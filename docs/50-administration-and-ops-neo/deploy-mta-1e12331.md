@@ -6,6 +6,11 @@ This command deploys Multitarget Application \(MTA\) archives. One or more than 
 
 
 
+> ### Remember:  
+> SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
+> 
+> For more information, see SAP Note [3351844](https://launchpad.support.sap.com/#/notes/3351844).
+
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**
 
@@ -39,7 +44,7 @@ Required
 <tr>
 <td valign="top">
 
- `-a`, `--account` 
+`-a`, `--account` 
 
 
 
@@ -55,7 +60,7 @@ The name of the subaccount for which you provide a user and a password.
 <tr>
 <td valign="top">
 
- `-h`, `--host` 
+`-h`, `--host` 
 
 
 
@@ -73,7 +78,7 @@ Enter a region host.
 <tr>
 <td valign="top">
 
- `-p`, `--password` 
+`-p`, `--password` 
 
 
 
@@ -89,7 +94,7 @@ Your user password. We recommend that you enter it only when prompted, and not e
 <tr>
 <td valign="top">
 
- `-u`, `--user` 
+`-u`, `--user` 
 
 
 
@@ -105,7 +110,7 @@ Your user e-mail or SAP ID \(SCN\) user name.
 <tr>
 <td valign="top">
 
- `-s`, `--source` 
+`-s`, `--source` 
 
 
 
@@ -143,7 +148,7 @@ Optional
 <tr>
 <td valign="top">
 
- `-y`, `--synchronous` 
+`-y`, `--synchronous` 
 
 
 
@@ -159,7 +164,7 @@ Triggers the deployment and waits until the deployment operation finishes. The c
 <tr>
 <td valign="top">
 
- `-e`, `--extensions` 
+`-e`, `--extensions` 
 
 
 
@@ -175,7 +180,7 @@ Defines one or more extensions to the deployment descriptor. A comma-separated l
 <tr>
 <td valign="top">
 
- `--mode` 
+`--mode` 
 
 
 

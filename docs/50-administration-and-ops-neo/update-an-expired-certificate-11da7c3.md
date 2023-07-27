@@ -8,6 +8,11 @@ When the certificate for the custom domain expires or it's about to expire, you 
 
 ## Context
 
+> ### Remember:  
+> SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
+> 
+> For more information, see SAP Note [3351844](https://launchpad.support.sap.com/#/notes/3351844).
+
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**
 
@@ -15,7 +20,7 @@ It's possible to update an expired certificate by uploading a signed certificate
 
 Therefore, SAP recommends that you use only certificates that are based on CSRs previously generated via the `generate-csr` command.
 
- <a name="loio7b3d0eda8f4149ad83f46d3472687ee8"/>
+<a name="loio7b3d0eda8f4149ad83f46d3472687ee8"/>
 
 <!-- loio7b3d0eda8f4149ad83f46d3472687ee8 -->
 
@@ -61,7 +66,7 @@ Upload and bind a new certificate to the SSL host to replace the expired certifi
 5.  To verify that you have configured correctly the new certificate, execute `neo list-domain-certificates`.
 
 
- <a name="loiof16731619a134670ac99915b2049d8d5"/>
+<a name="loiof16731619a134670ac99915b2049d8d5"/>
 
 <!-- loiof16731619a134670ac99915b2049d8d5 -->
 

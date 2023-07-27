@@ -8,6 +8,11 @@ You can enable the SAP HANA Interactive Education \(SHINE\) demo application for
 
 ## Context
 
+> ### Remember:  
+> SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
+> 
+> For more information, see SAP Note [3351844](https://launchpad.support.sap.com/#/notes/3351844).
+
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**
 
@@ -49,14 +54,14 @@ By default, SHINE is available for all SAP HANA tenant databases in trial accoun
     <tr>
     <td valign="top">
     
-        **Enable SHINE for a new SAP HANA tenant database**
+    **Enable SHINE for a new SAP HANA tenant database**
 
 
     
     </td>
     <td valign="top">
     
-        1.  Follow the steps described in [Create SAP HANA Tenant Databases](https://help.sap.com/viewer/d4790b2de2f4429db6f3dff54e4d7b3a/Cloud/en-US/533384eda57e428f98a43815e6a11119.html#loio46af2934d19343ca8250ce288d27ea41 "Use the cockpit to create an SAP HANA tenant database on an SAP HANA database management system in your subaccount in the Neo environment.") :arrow_upper_right:.
+    1.  Follow the steps described in [Create SAP HANA Tenant Databases](https://help.sap.com/viewer/d4790b2de2f4429db6f3dff54e4d7b3a/Cloud/en-US/533384eda57e428f98a43815e6a11119.html#loio46af2934d19343ca8250ce288d27ea41 "Use the cockpit to create an SAP HANA tenant database on an SAP HANA database management system in your subaccount in the Neo environment.") :arrow_upper_right:.
     2.  From the list of all databases and schemas, choose the SAP HANA tenant database you just created.
     3.  In the overview in the lower part of the screen, choose the *SAP HANA Interactive Education \(SHINE\)* link under *Education Tools*.
 
@@ -67,14 +72,14 @@ By default, SHINE is available for all SAP HANA tenant databases in trial accoun
     <tr>
     <td valign="top">
     
-        **Enable SHINE for an existing SAP HANA tenant database**
+    **Enable SHINE for an existing SAP HANA tenant database**
 
 
     
     </td>
     <td valign="top">
     
-        1.  From the list of all databases and schemas, choose the SAP HANA tenant database for which you want to enable SHINE.
+    1.  From the list of all databases and schemas, choose the SAP HANA tenant database for which you want to enable SHINE.
     2.  In the overview in the lower part of the screen, open the *SAP HANA Cockpit* link under *Administration Tools*.
     3.  In the *Enter Username* field, enter `SYSTEM`, then enter the password you determined for the SYSTEM user.
 

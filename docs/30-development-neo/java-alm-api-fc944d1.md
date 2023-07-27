@@ -6,6 +6,11 @@ The Java ALM service REST API provides functionality for managing the lifecycle 
 
 
 
+> ### Remember:  
+> SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
+> 
+> For more information, see SAP Note [3351844](https://launchpad.support.sap.com/#/notes/3351844).
+
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**
 
@@ -31,7 +36,7 @@ This tutorial provides information about the most common use cases for Java appl
 -   [Start an Application](java-alm-api-fc944d1.md#loio2d3be560df574092909ed8171ec197ec)
 -   [Stop an Application](java-alm-api-fc944d1.md#loio38829d2c139c47b3a1c1d64e6ce6d4f8)
 
- <a name="loio654812131e9e440d85e97648061212bb"/>
+<a name="loio654812131e9e440d85e97648061212bb"/>
 
 <!-- loio654812131e9e440d85e97648061212bb -->
 
@@ -62,7 +67,7 @@ You can use one of the following:
 -   For OAuth authentication and authorization, create an OAuth client and obtain an access token to call the API methods. See [Using Platform APIs](using-platform-apis-392af9d.md) as you add the *Lifecycle Management* scopes for the *Platform API OAuth* client.
 
 
- <a name="loio83729f7df7074de3a795d61ae8844c0e"/>
+<a name="loio83729f7df7074de3a795d61ae8844c0e"/>
 
 <!-- loio83729f7df7074de3a795d61ae8844c0e -->
 
@@ -337,7 +342,7 @@ For the purposes of this tutorial, we will deploy three `.war` files: \(app.war,
     The binaries are now officially *DEPLOYED*. You can also see that each binary has status *AVAILABLE*.
 
 
- <a name="loiocf6608a1b8ed4e30a32393ed39d1e4a3"/>
+<a name="loiocf6608a1b8ed4e30a32393ed39d1e4a3"/>
 
 <!-- loiocf6608a1b8ed4e30a32393ed39d1e4a3 -->
 
@@ -500,7 +505,7 @@ In this tutorial, you will deploy an application from an existing application by
     The binaries are now officially *DEPLOYED*. You can also see that each binary has status *AVAILABLE*.
 
 
- <a name="loio7fc54044e29f4fb3aa39a171032b6b17"/>
+<a name="loio7fc54044e29f4fb3aa39a171032b6b17"/>
 
 <!-- loio7fc54044e29f4fb3aa39a171032b6b17 -->
 
@@ -546,7 +551,7 @@ You can validate the content of an application by verifying the hash values in a
 3.  Use the hash values of the binaries to compare with those of previous binaries before you start another operation.
 
 
- <a name="loio2d3be560df574092909ed8171ec197ec"/>
+<a name="loio2d3be560df574092909ed8171ec197ec"/>
 
 <!-- loio2d3be560df574092909ed8171ec197ec -->
 
@@ -667,7 +672,7 @@ You can validate the content of an application by verifying the hash values in a
     ```
 
 
- <a name="loio38829d2c139c47b3a1c1d64e6ce6d4f8"/>
+<a name="loio38829d2c139c47b3a1c1d64e6ce6d4f8"/>
 
 <!-- loio38829d2c139c47b3a1c1d64e6ce6d4f8 -->
 

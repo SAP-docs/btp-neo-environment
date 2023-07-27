@@ -4,6 +4,11 @@
 
 Follow the tutorials below to get familiar with the services offered by SAP BTP in the Neo environment.
 
+> ### Remember:  
+> SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
+> 
+> For more information, see SAP Note [3351844](https://launchpad.support.sap.com/#/notes/3351844).
+
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**
 
@@ -35,7 +40,7 @@ How to create a "Hello World" Multi-Target Application
 </td>
 <td valign="top">
 
- [Create a Hello World Multitarget Application](../30-development-neo/create-a-hello-world-multitarget-application-4b108e8.md) 
+[Create a Hello World Multitarget Application](../30-development-neo/create-a-hello-world-multitarget-application-4b108e8.md) 
 
 
 
@@ -97,7 +102,7 @@ Java applications lifecycle management scenarios
 </td>
 <td valign="top">
 
- [Java ALM API](../30-development-neo/java-alm-api-fc944d1.md#loiofc944d19af614052898b145deb2bee59) 
+[Java ALM API](../30-development-neo/java-alm-api-fc944d1.md#loiofc944d19af614052898b145deb2bee59) 
 
 
 
@@ -113,7 +118,7 @@ Virtual machine scenarios
 </td>
 <td valign="top">
 
- [Virtual Machine Tutorials and Guides](https://help.sap.com/viewer/c746ff81651e4b8fb6efc11146091016/Cloud/en-US/c95cbc836ae440949604bc451bf3becf.html "To learn what the SAP Virtual Machine service has to offer in practice, check out these scenarios.") :arrow_upper_right: 
+[Virtual Machine Tutorials and Guides](https://help.sap.com/viewer/c746ff81651e4b8fb6efc11146091016/Cloud/en-US/c95cbc836ae440949604bc451bf3becf.html "To learn what the SAP Virtual Machine service has to offer in practice, check out these scenarios.") :arrow_upper_right: 
 
 
 

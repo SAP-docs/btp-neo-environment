@@ -16,6 +16,11 @@ Use this procedure to configure the HTTP destination in the SAP BTP subaccount r
 
 ## Context
 
+> ### Remember:  
+> SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
+> 
+> For more information, see SAP Note [3351844](https://launchpad.support.sap.com/#/notes/3351844).
+
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**
 
@@ -57,30 +62,14 @@ Depending on your scenario, you use either OAuth or basic authentication for acc
             <tr>
             <td valign="top">
             
-                        `Name`
+            `Name`
 
 
             
             </td>
             <td valign="top">
             
-                        Enter a meaningful name.
-
-
-            
-            </td>
-            </tr>
-            <tr>
-            <td valign="top">
-            
-                        `Type`
-
-
-            
-            </td>
-            <td valign="top">
-            
-                        `HTTP`
+            Enter a meaningful name.
 
 
             
@@ -89,30 +78,14 @@ Depending on your scenario, you use either OAuth or basic authentication for acc
             <tr>
             <td valign="top">
             
-                        `Description`
+            `Type`
 
 
             
             </td>
             <td valign="top">
             
-                        \(Optional\) Enter a meaningful description.
-
-
-            
-            </td>
-            </tr>
-            <tr>
-            <td valign="top">
-            
-                        `URL`
-
-
-            
-            </td>
-            <td valign="top">
-            
-                        <code>https://<i class="varname">&lt;my_SAP_Cloud_for_Customer_system_name&gt;</i>.crm.ondemand.com/sap/c4c/odata/v1/c4codata</code>
+            `HTTP`
 
 
             
@@ -121,30 +94,14 @@ Depending on your scenario, you use either OAuth or basic authentication for acc
             <tr>
             <td valign="top">
             
-                        `Proxy Type`
+            `Description`
 
 
             
             </td>
             <td valign="top">
             
-                        `Internet`
-
-
-            
-            </td>
-            </tr>
-            <tr>
-            <td valign="top">
-            
-                        `Authentication`
-
-
-            
-            </td>
-            <td valign="top">
-            
-                        `OAuth2SAMLBearerAssertion`
+            \(Optional\) Enter a meaningful description.
 
 
             
@@ -153,14 +110,14 @@ Depending on your scenario, you use either OAuth or basic authentication for acc
             <tr>
             <td valign="top">
             
-                        `Audience`
+            `URL`
 
 
             
             </td>
             <td valign="top">
             
-                        Take this value from the *Local Service Provider* field in *Configure Single Sign-On* under *General Settings* in SAP Cloud for Customer administration view.
+            <code>https://<i class="varname">&lt;my_SAP_Cloud_for_Customer_system_name&gt;</i>.crm.ondemand.com/sap/c4c/odata/v1/c4codata</code>
 
 
             
@@ -169,14 +126,62 @@ Depending on your scenario, you use either OAuth or basic authentication for acc
             <tr>
             <td valign="top">
             
-                        `Client Key`
+            `Proxy Type`
 
 
             
             </td>
             <td valign="top">
             
-                        Client ID
+            `Internet`
+
+
+            
+            </td>
+            </tr>
+            <tr>
+            <td valign="top">
+            
+            `Authentication`
+
+
+            
+            </td>
+            <td valign="top">
+            
+            `OAuth2SAMLBearerAssertion`
+
+
+            
+            </td>
+            </tr>
+            <tr>
+            <td valign="top">
+            
+            `Audience`
+
+
+            
+            </td>
+            <td valign="top">
+            
+            Take this value from the *Local Service Provider* field in *Configure Single Sign-On* under *General Settings* in SAP Cloud for Customer administration view.
+
+
+            
+            </td>
+            </tr>
+            <tr>
+            <td valign="top">
+            
+            `Client Key`
+
+
+            
+            </td>
+            <td valign="top">
+            
+            Client ID
 
             Paste the entry you have copied from the *Client ID* field when configuring the OAuth client. For more information, see [Configure the OAuth Client for OData Access](configure-the-oauth-client-for-odata-access-0ac0dc9.md).
 
@@ -187,14 +192,14 @@ Depending on your scenario, you use either OAuth or basic authentication for acc
             <tr>
             <td valign="top">
             
-                        `Token Service URL`
+            `Token Service URL`
 
 
             
             </td>
             <td valign="top">
             
-                        <code>https://<i class="varname">&lt;my_SAP_Cloud_for_Customer_system_name&gt;</i>.crm.ondemand.com/sap/bc/sec/oauth2/token</code>
+            <code>https://<i class="varname">&lt;my_SAP_Cloud_for_Customer_system_name&gt;</i>.crm.ondemand.com/sap/bc/sec/oauth2/token</code>
 
 
             
@@ -203,14 +208,14 @@ Depending on your scenario, you use either OAuth or basic authentication for acc
             <tr>
             <td valign="top">
             
-                        `Token Service User`
+            `Token Service User`
 
 
             
             </td>
             <td valign="top">
             
-                        Client ID
+            Client ID
 
             Paste the entry you have copied from the *Client ID* field when configuring the OAuth client. For more information, see [Configure the OAuth Client for OData Access](configure-the-oauth-client-for-odata-access-0ac0dc9.md).
 
@@ -221,14 +226,14 @@ Depending on your scenario, you use either OAuth or basic authentication for acc
             <tr>
             <td valign="top">
             
-                        `Token Service Password`
+            `Token Service Password`
 
 
             
             </td>
             <td valign="top">
             
-                        Client secret
+            Client secret
 
             Paste the entry you have copied from the *Client Secret* field when configuring the OAuth client. For more information, see [Configure the OAuth Client for OData Access](configure-the-oauth-client-for-odata-access-0ac0dc9.md).
 
@@ -261,30 +266,14 @@ Depending on your scenario, you use either OAuth or basic authentication for acc
             <tr>
             <td valign="top">
             
-                        `authnContextClassRef`
+            `authnContextClassRef`
 
 
             
             </td>
             <td valign="top">
             
-                         `urn:none` 
-
-
-            
-            </td>
-            </tr>
-            <tr>
-            <td valign="top">
-            
-                        `nameIdFormat`
-
-
-            
-            </td>
-            <td valign="top">
-            
-                         `urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress` 
+            `urn:none` 
 
 
             
@@ -293,14 +282,30 @@ Depending on your scenario, you use either OAuth or basic authentication for acc
             <tr>
             <td valign="top">
             
-                        `scope`
+            `nameIdFormat`
 
 
             
             </td>
             <td valign="top">
             
-                        Scope ID entries separated by space.
+            `urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress` 
+
+
+            
+            </td>
+            </tr>
+            <tr>
+            <td valign="top">
+            
+            `scope`
+
+
+            
+            </td>
+            <td valign="top">
+            
+            Scope ID entries separated by space.
 
             We recommend that you use `UIWC:CC_HOME`.
 
@@ -311,14 +316,14 @@ Depending on your scenario, you use either OAuth or basic authentication for acc
             <tr>
             <td valign="top">
             
-                        `userIdSource`
+            `userIdSource`
 
 
             
             </td>
             <td valign="top">
             
-                        email
+            email
 
 
             
@@ -351,30 +356,14 @@ Depending on your scenario, you use either OAuth or basic authentication for acc
         <tr>
         <td valign="top">
         
-                `Name`
+        `Name`
 
 
         
         </td>
         <td valign="top">
         
-                Enter a meaningful name
-
-
-        
-        </td>
-        </tr>
-        <tr>
-        <td valign="top">
-        
-                `Type`
-
-
-        
-        </td>
-        <td valign="top">
-        
-                `HTTP`
+        Enter a meaningful name
 
 
         
@@ -383,30 +372,14 @@ Depending on your scenario, you use either OAuth or basic authentication for acc
         <tr>
         <td valign="top">
         
-                 `Description` 
+        `Type`
 
 
         
         </td>
         <td valign="top">
         
-                \(Optional\) Enter a meaningful description
-
-
-        
-        </td>
-        </tr>
-        <tr>
-        <td valign="top">
-        
-                `URL`
-
-
-        
-        </td>
-        <td valign="top">
-        
-                <code>https://<i class="varname">&lt;my_SAP_Cloud_for_Customer_system_name&gt;</i>.crm.ondemand.com/sap/c4c/odata/v1/c4codata</code>
+        `HTTP`
 
 
         
@@ -415,30 +388,14 @@ Depending on your scenario, you use either OAuth or basic authentication for acc
         <tr>
         <td valign="top">
         
-                `Proxy Type`
+        `Description` 
 
 
         
         </td>
         <td valign="top">
         
-                `Internet`
-
-
-        
-        </td>
-        </tr>
-        <tr>
-        <td valign="top">
-        
-                `Authentication`
-
-
-        
-        </td>
-        <td valign="top">
-        
-                `BasicAuthentication`
+        \(Optional\) Enter a meaningful description
 
 
         
@@ -447,14 +404,14 @@ Depending on your scenario, you use either OAuth or basic authentication for acc
         <tr>
         <td valign="top">
         
-                `User`
+        `URL`
 
 
         
         </td>
         <td valign="top">
         
-                Enter the name of the SAP Cloud for Customer user who should have access to the extension applications. This user will be used as a technical user.
+        <code>https://<i class="varname">&lt;my_SAP_Cloud_for_Customer_system_name&gt;</i>.crm.ondemand.com/sap/c4c/odata/v1/c4codata</code>
 
 
         
@@ -463,14 +420,62 @@ Depending on your scenario, you use either OAuth or basic authentication for acc
         <tr>
         <td valign="top">
         
-                `Password`
+        `Proxy Type`
 
 
         
         </td>
         <td valign="top">
         
-                Enter the password of the SAP Cloud for Customer user who should have access to the extension applications.
+        `Internet`
+
+
+        
+        </td>
+        </tr>
+        <tr>
+        <td valign="top">
+        
+        `Authentication`
+
+
+        
+        </td>
+        <td valign="top">
+        
+        `BasicAuthentication`
+
+
+        
+        </td>
+        </tr>
+        <tr>
+        <td valign="top">
+        
+        `User`
+
+
+        
+        </td>
+        <td valign="top">
+        
+        Enter the name of the SAP Cloud for Customer user who should have access to the extension applications. This user will be used as a technical user.
+
+
+        
+        </td>
+        </tr>
+        <tr>
+        <td valign="top">
+        
+        `Password`
+
+
+        
+        </td>
+        <td valign="top">
+        
+        Enter the password of the SAP Cloud for Customer user who should have access to the extension applications.
 
 
         

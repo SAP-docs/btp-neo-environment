@@ -2,6 +2,11 @@
 
 # Using the Apache Tomcat CSRF Prevention Filter
 
+> ### Remember:  
+> SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
+> 
+> For more information, see SAP Note [3351844](https://launchpad.support.sap.com/#/notes/3351844).
+
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**
 
@@ -36,7 +41,7 @@ Entry points are URLs used as a starting point for the navigation across the app
 
 Considering the example application, `/doActionA` and`/doActionB` are not plausible for entry points since they are state changing URLs. They should be protected against CSRF. Following the rules above, you could easily conclude that `/home` is best suited to be the entry point.
 
- **2. Define the filter in the application's web.xml** 
+**2. Define the filter in the application's web.xml** 
 
 The CSRF Prevention Filter should be defined in the `web.xml` configuration file. Important init parameters are `entryPoints` and `nonceCacheSize`. The first parameter's value is a comma separated list of the entry points, identified in the previous step. In this case `/home`.
 

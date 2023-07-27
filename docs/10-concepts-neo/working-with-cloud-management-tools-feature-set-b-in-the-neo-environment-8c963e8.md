@@ -28,7 +28,7 @@ For information about how to find out which feature set your account has, see [C
 
 You can also see if your account has access to the Neo environment by creating a subaccount and checking if the *Neo Environment* option is available in the *New Subaccount* dialog box.
 
- ![](images/New_Subaccount_-_Neo_Environment_8bd88c5.png) 
+![](images/New_Subaccount_-_Neo_Environment_8bd88c5.png)
 
 
 
@@ -76,7 +76,7 @@ Conditions and Scope for the Neo Environment
 <tr>
 <td valign="top">
 
- `accounts/environment‑instance` 
+`accounts/environment‑instance` 
 
 
 
@@ -92,7 +92,7 @@ Not applicable. A Neo environment is created with every Neo subaccount. You cann
 <tr>
 <td valign="top">
 
- `accounts/resource‑provider` 
+`accounts/resource‑provider` 
 
 
 
@@ -130,7 +130,7 @@ To manage application subscriptions in Neo subaccounts, use the console client i
 <tr>
 <td valign="top">
 
- `list accounts/available‑environment` 
+`list accounts/available‑environment` 
 
 
 
@@ -146,7 +146,7 @@ Not available for Neo subaccounts.
 <tr>
 <td valign="top">
 
- `list accounts/entitlement` 
+`list accounts/entitlement` 
 
 
 
@@ -162,7 +162,7 @@ Not available for Neo subaccounts.
 <tr>
 <td valign="top">
 
- `delete accounts/subaccount` 
+`delete accounts/subaccount` 
 
 
 

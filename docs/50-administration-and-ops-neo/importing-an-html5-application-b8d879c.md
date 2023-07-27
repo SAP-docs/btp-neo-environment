@@ -7,7 +7,7 @@ You can import HTML5 applications either creating a new application or creating 
 > ### Note:  
 > When you import an application or a version, the version is not imported into master branch of the repository. Therefore, the version is not visible in the history of the master branch. You have to switch to *Versions* in the navigation area.
 
- <a name="loiof25baaee89af44d490e9a2adeccacdcb"/>
+<a name="loiof25baaee89af44d490e9a2adeccacdcb"/>
 
 <!-- loiof25baaee89af44d490e9a2adeccacdcb -->
 
@@ -18,6 +18,11 @@ You can import HTML5 applications either creating a new application or creating 
 <a name="loiof25baaee89af44d490e9a2adeccacdcb__context_kxf_4xf_blb"/>
 
 ## Context
+
+> ### Remember:  
+> SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
+> 
+> For more information, see SAP Note [3351844](https://launchpad.support.sap.com/#/notes/3351844).
 
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**
@@ -41,7 +46,7 @@ You can import HTML5 applications either creating a new application or creating 
 5.  To activate this version, see [Activate a Version](../30-development-neo/activate-a-version-e7e3ec6.md).
 
 
- <a name="loioe6fe570dd6e74785b1654809661008ad"/>
+<a name="loioe6fe570dd6e74785b1654809661008ad"/>
 
 <!-- loioe6fe570dd6e74785b1654809661008ad -->
 

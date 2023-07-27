@@ -6,6 +6,11 @@
 
 ## Context
 
+> ### Remember:  
+> SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
+> 
+> For more information, see SAP Note [3351844](https://launchpad.support.sap.com/#/notes/3351844).
+
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**
 
@@ -54,44 +59,21 @@ In this scenario these are the important aspects:
     <tr>
     <td valign="top">
     
-         *SAP\_BCR\_CORE\_COM* 
+    *SAP\_BCR\_CORE\_COM* 
 
 
     
     </td>
     <td valign="top">
     
-        Communication Management
+    Communication Management
 
 
     
     </td>
     <td valign="top">
     
-        Users assigning communication arrangements to the key user
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-         *SAP\_BCR\_CORE\_EXT\_UI* 
-
-
-    
-    </td>
-    <td valign="top">
-    
-        Extensibility – Deployment of Fiori Applications
-
-
-    
-    </td>
-    <td valign="top">
-    
-        Users creating UI extensions
+    Users assigning communication arrangements to the key user
 
 
     
@@ -100,21 +82,44 @@ In this scenario these are the important aspects:
     <tr>
     <td valign="top">
     
-         *SAP\_BCR\_CORE\_EXT* 
+    *SAP\_BCR\_CORE\_EXT\_UI* 
 
 
     
     </td>
     <td valign="top">
     
-        Extensibility
+    Extensibility – Deployment of Fiori Applications
 
 
     
     </td>
     <td valign="top">
     
-        Users creating extensions
+    Users creating UI extensions
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *SAP\_BCR\_CORE\_EXT* 
+
+
+    
+    </td>
+    <td valign="top">
+    
+    Extensibility
+
+
+    
+    </td>
+    <td valign="top">
+    
+    Users creating extensions
 
     > ### Note:  
     > You need this catalog if you want to create custom business objects.
@@ -126,21 +131,21 @@ In this scenario these are the important aspects:
     <tr>
     <td valign="top">
     
-         *SAP\_CORE\_BC\_EXT\_TST* 
+    *SAP\_CORE\_BC\_EXT\_TST* 
 
 
     
     </td>
     <td valign="top">
     
-        Extensibility – Custom Apps and Services
+    Extensibility – Custom Apps and Services
 
 
     
     </td>
     <td valign="top">
     
-        You need this catalog if you want to implement and test a UI against a custom business object.
+    You need this catalog if you want to implement and test a UI against a custom business object.
 
 
     

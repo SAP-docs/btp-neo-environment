@@ -8,6 +8,11 @@
 
 ## Context
 
+> ### Remember:  
+> SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
+> 
+> For more information, see SAP Note [3351844](https://launchpad.support.sap.com/#/notes/3351844).
+
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**
 
@@ -20,7 +25,7 @@ To be able to use client certificate authentication, you need to configure both 
 
 [Set Up SAP BTP Side](using-client-certificate-authentication-d360a3d.md#loio21d11edb36d148e49cec50fe4996ba00 "")
 
- <a name="loio8477e12f669b44feae3b77d7e47f1a18"/>
+<a name="loio8477e12f669b44feae3b77d7e47f1a18"/>
 
 <!-- loio8477e12f669b44feae3b77d7e47f1a18 -->
 
@@ -72,7 +77,7 @@ To use client certificate authentication, you first start with creating and conf
     You can use the already created communication system. The settings in the *Inbound Communication* section are filled in automatically. Save the value from the *URL* field, you will need it when creating a destination in the subaccount in SAP BTP.
 
 
- <a name="loio21d11edb36d148e49cec50fe4996ba00"/>
+<a name="loio21d11edb36d148e49cec50fe4996ba00"/>
 
 <!-- loio21d11edb36d148e49cec50fe4996ba00 -->
 
@@ -121,30 +126,14 @@ You have logged into the SAP BTP cockpit from the landing page for your subaccou
     <tr>
     <td valign="top">
     
-        `Name`
+    `Name`
 
 
     
     </td>
     <td valign="top">
     
-        Enter a meaningful name.
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        `Type`
-
-
-    
-    </td>
-    <td valign="top">
-    
-        `HTTP`
+    Enter a meaningful name.
 
 
     
@@ -153,30 +142,14 @@ You have logged into the SAP BTP cockpit from the landing page for your subaccou
     <tr>
     <td valign="top">
     
-        `Description`
+    `Type`
 
 
     
     </td>
     <td valign="top">
     
-        \(Optional\) Enter a meaningful description.
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        `URL`
-
-
-    
-    </td>
-    <td valign="top">
-    
-        The service URL from the communication arrangement.
+    `HTTP`
 
 
     
@@ -185,14 +158,14 @@ You have logged into the SAP BTP cockpit from the landing page for your subaccou
     <tr>
     <td valign="top">
     
-        `Proxy Type`
+    `Description`
 
 
     
     </td>
     <td valign="top">
     
-        `Internet`
+    \(Optional\) Enter a meaningful description.
 
 
     
@@ -201,14 +174,46 @@ You have logged into the SAP BTP cockpit from the landing page for your subaccou
     <tr>
     <td valign="top">
     
-        `Authentication`
+    `URL`
 
 
     
     </td>
     <td valign="top">
     
-        `ClientCertificateAuthentication`
+    The service URL from the communication arrangement.
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    `Proxy Type`
+
+
+    
+    </td>
+    <td valign="top">
+    
+    `Internet`
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    `Authentication`
+
+
+    
+    </td>
+    <td valign="top">
+    
+    `ClientCertificateAuthentication`
 
 
     

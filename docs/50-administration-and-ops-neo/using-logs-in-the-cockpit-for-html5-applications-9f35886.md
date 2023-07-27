@@ -20,6 +20,11 @@ You can see the logs in a log viewer, or you can download them in a log file.
 
 ## Context
 
+> ### Remember:  
+> SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
+> 
+> For more information, see SAP Note [3351844](https://launchpad.support.sap.com/#/notes/3351844).
+
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**
 
@@ -54,7 +59,7 @@ Depending on the total logs size, a few files per day can be logged for each typ
 -   The request processing duration in milliseconds
 
 
- <a name="task_rnm_rbh_gn"/>
+<a name="task_rnm_rbh_gn"/>
 
 <!-- task\_rnm\_rbh\_gn -->
 
@@ -90,7 +95,7 @@ Depending on the total logs size, a few files per day can be logged for each typ
 5.  To display the contents of a particular log file, choose ![](images/Display_HTML5_Log_Icon_8241912.png) \(*Display*\). To download the file, choose ![](images/Download_HTML5_Log_Icon_1835bb5.png) \(*Download*\).
 
 
- <a name="task_aj2_pdc_cqb"/>
+<a name="task_aj2_pdc_cqb"/>
 
 <!-- task\_aj2\_pdc\_cqb -->
 

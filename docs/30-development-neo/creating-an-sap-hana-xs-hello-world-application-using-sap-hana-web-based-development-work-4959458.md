@@ -4,6 +4,11 @@
 
 Create and test a simple SAP HANA XS application that displays the "Hello World" message using the SAP HANA Web-Based Development Workbench.
 
+> ### Remember:  
+> SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
+> 
+> For more information, see SAP Note [3351844](https://launchpad.support.sap.com/#/notes/3351844).
+
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**
 
@@ -18,7 +23,7 @@ Create and test a simple SAP HANA XS application that displays the "Hello World"
 -   You are assigned the Administrator role for the subaccount.
 
 
- <a name="copy4b84bc893c23410aba4d35e7aabc9d88"/>
+<a name="copy4b84bc893c23410aba4d35e7aabc9d88"/>
 
 <!-- copy4b84bc893c23410aba4d35e7aabc9d88 -->
 
@@ -59,14 +64,14 @@ In your subaccount in the SAP BTP cockpit, you create a database on an SAP HANA 
     <tr>
     <td valign="top">
     
-         *Database ID* 
+    *Database ID* 
 
 
     
     </td>
     <td valign="top">
     
-        Example: `tutorial` 
+    Example: `tutorial` 
 
 
     
@@ -75,14 +80,14 @@ In your subaccount in the SAP BTP cockpit, you create a database on an SAP HANA 
     <tr>
     <td valign="top">
     
-         *Database System* 
+    *Database System* 
 
 
     
     </td>
     <td valign="top">
     
-        An SAP HANA tenant database system.
+    An SAP HANA tenant database system.
 
     *Example:*
 
@@ -98,14 +103,14 @@ In your subaccount in the SAP BTP cockpit, you create a database on an SAP HANA 
     <tr>
     <td valign="top">
     
-         *SYSTEM User Password* 
+    *SYSTEM User Password* 
 
 
     
     </td>
     <td valign="top">
     
-        The password for the SYSTEM user of the database.
+    The password for the SYSTEM user of the database.
 
     > ### Note:  
     > The SYSTEM user is a preconfigured database superuser with irrevocable system privileges, such as the ability to create other database users, access system tables, and so on. A database-specific SYSTEM user exists in every database of a tenant database system.
@@ -123,7 +128,7 @@ In your subaccount in the SAP BTP cockpit, you create a database on an SAP HANA 
 7.  \(Optional\) To view the details of the new database, choose *Overview* in the navigation area and select the database in the list. Verify that the status *STARTED* is displayed.
 
 
- <a name="copy3954abb204c94c27bda8160c9b9b0e05"/>
+<a name="copy3954abb204c94c27bda8160c9b9b0e05"/>
 
 <!-- copy3954abb204c94c27bda8160c9b9b0e05 -->
 
@@ -212,7 +217,7 @@ You've specified a password for the SYSTEM user when you created an SAP HANA ten
     This step isn’t necessary to complete this tutorial, but you shouldn't forget to disable the password lifetime handling in productive scenarios.
 
 
- <a name="copyac4b1ad8e271437c99ec3508023ab4f2"/>
+<a name="copyac4b1ad8e271437c99ec3508023ab4f2"/>
 
 <!-- copyac4b1ad8e271437c99ec3508023ab4f2 -->
 

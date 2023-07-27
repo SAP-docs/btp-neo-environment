@@ -26,6 +26,11 @@ Create and test a simple SAP HANA XS classic application that displays the "Hell
 
 ## Context
 
+> ### Remember:  
+> SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
+> 
+> For more information, see SAP Note [3351844](https://launchpad.support.sap.com/#/notes/3351844).
+
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**
 
@@ -39,7 +44,7 @@ In this tutorial, you complete the following steps:
 6.  [Retrieve Data from SAP HANA](creating-an-sap-hana-xs-classic-hello-world-application-using-sap-hana-studio-3762b22.md#loio2642959ddda14ab6b4145ced47507fad)
 7.  [Test Your Application Again](creating-an-sap-hana-xs-classic-hello-world-application-using-sap-hana-studio-3762b22.md#loio0d3002f953ec4a1190ac5b7ba019f16c)
 
- <a name="loioa9d9d44ef8ff423fbe848e80cd383054"/>
+<a name="loioa9d9d44ef8ff423fbe848e80cd383054"/>
 
 <!-- loioa9d9d44ef8ff423fbe848e80cd383054 -->
 
@@ -89,14 +94,14 @@ You will perform all subsequent activities with this new user.
     <tr>
     <td valign="top">
     
-        **An SAP HANA XS database**
+    **An SAP HANA XS database**
 
 
     
     </td>
     <td valign="top">
     
-        Follow the steps described in [Create a Database Administrator User](create-a-database-administrator-user-c0fce6f.md).
+    Follow the steps described in [Create a Database Administrator User](create-a-database-administrator-user-c0fce6f.md).
 
 
     
@@ -105,14 +110,14 @@ You will perform all subsequent activities with this new user.
     <tr>
     <td valign="top">
     
-        **An SAP HANA tenant database**
+    **An SAP HANA tenant database**
 
 
     
     </td>
     <td valign="top">
     
-        1.  Select the relevant SAP HANA tenant database in the list.
+    1.  Select the relevant SAP HANA tenant database in the list.
 
     2.  In the overview that is shown in the lower part of the screen, open the *SAP HANA Web-based Development Workbench* link under *Development Tools*.
     3.  In the *Enter Username* field, enter `SYSTEM`, then enter the password you determined for the SYSTEM user in the *Enter Password* field. You're now logged on to the SAP HANA cockpit.
@@ -157,7 +162,7 @@ You will perform all subsequent activities with this new user.
     </table>
     
 
- <a name="loiod694ddc1e41d4c84b60708137b35b9c7"/>
+<a name="loiod694ddc1e41d4c84b60708137b35b9c7"/>
 
 <!-- loiod694ddc1e41d4c84b60708137b35b9c7 -->
 
@@ -228,7 +233,7 @@ In the *Repositories* view, you see your workspace, which enables you to browse 
 
 At the same time, a folder will be added to your file system to hold all your development files.
 
- <a name="loio93cfb85816144ec292bf115b6c8bb190"/>
+<a name="loio93cfb85816144ec292bf115b6c8bb190"/>
 
 <!-- loio93cfb85816144ec292bf115b6c8bb190 -->
 
@@ -270,7 +275,7 @@ The *Project Explorer* view in the *SAP HANA Development* perspective in Eclipse
 
 The system information in brackets to the right of the project node name in the *Project Explorer* view indicates that the project has been shared. Shared projects are regularly synchronized with the repository hosted on the SAP HANA system you’re connected to.
 
- <a name="loio08cf4a2c726a46b192cd72e57a3e1218"/>
+<a name="loio08cf4a2c726a46b192cd72e57a3e1218"/>
 
 <!-- loio08cf4a2c726a46b192cd72e57a3e1218 -->
 
@@ -321,7 +326,7 @@ SAP HANA Extended Application Services \(SAP HANA XS\) supports server-side appl
 7.  Open the context menu for the new file and select *Team* \> *Activate*. The activate operation publishes your work and creates the corresponding catalog objects. You can now test it.
 
 
- <a name="loiod405d990fe634a0e8ba47baca7fb26bd"/>
+<a name="loiod405d990fe634a0e8ba47baca7fb26bd"/>
 
 <!-- loiod405d990fe634a0e8ba47baca7fb26bd -->
 
@@ -377,7 +382,7 @@ The following text should be displayed:
 Hello, World !
 ```
 
- <a name="loio2642959ddda14ab6b4145ced47507fad"/>
+<a name="loio2642959ddda14ab6b4145ced47507fad"/>
 
 <!-- loio2642959ddda14ab6b4145ced47507fad -->
 
@@ -431,7 +436,7 @@ The SQL statement returns one row with one field called *DUMMY*, whose value is 
 4.  Open the context menu of the `MyFirstSourceFile.xsjs` file and choose *Team* \> *Activate*.
 
 
- <a name="loio0d3002f953ec4a1190ac5b7ba019f16c"/>
+<a name="loio0d3002f953ec4a1190ac5b7ba019f16c"/>
 
 <!-- loio0d3002f953ec4a1190ac5b7ba019f16c -->
 

@@ -4,6 +4,11 @@
 
 Test an application in the Neo environment that uses the default data source and runs locally on Apache Derby on the local runtime.
 
+> ### Remember:  
+> SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
+> 
+> For more information, see SAP Note [3351844](https://launchpad.support.sap.com/#/notes/3351844).
+
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**
 
@@ -12,7 +17,7 @@ Test an application in the Neo environment that uses the default data source and
 
 If an application uses the default data source and runs locally on Apache Derby, provided as standard for local development, you can test it on the local runtime without any further configuration. To use explicitly named data sources or a different database, you'll need to configure the `connection.properties` file appropriately.
 
- <a name="loio73e8d4c514f14a399c25711dd43f6975"/>
+<a name="loio73e8d4c514f14a399c25711dd43f6975"/>
 
 <!-- loio73e8d4c514f14a399c25711dd43f6975 -->
 

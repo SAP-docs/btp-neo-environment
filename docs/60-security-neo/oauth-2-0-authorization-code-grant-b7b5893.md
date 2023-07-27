@@ -4,10 +4,15 @@
 
 Use OAuth 2.0 service in the Neo environment of SAP BTP to enable your cloud applications for authorization code grant flow. Authorization code grant is one of the basic flows specified in the OAuth 2.0 protocol.
 
+> ### Remember:  
+> SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
+> 
+> For more information, see SAP Note [3351844](https://launchpad.support.sap.com/#/notes/3351844).
+
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**
 
- 
+
 
 
 
@@ -152,7 +157,7 @@ For more information, see the [OAuth 2.0 Specification](http://oauth.net/2/).
 
 ## Using OAuth in SAP BTP
 
- **Protecting Resources Declaratively**
+**Protecting Resources Declaratively**
 
 If you want to implement a login based on credentials in the form of an OAuth token, you can do that by using OAuth as a login method in your application web.xml. For example:
 
@@ -489,7 +494,7 @@ If `user-principal=true` -\>`request.getUserPrincipal(). getName()` returns `use
 </td>
 <td valign="top">
 
- `access_token` is valid
+`access_token` is valid
 
 
 
@@ -535,7 +540,7 @@ Access is forbidden
 </td>
 <td valign="top">
 
- `access_token` parameter is null, empty string, missing or it is given more than once
+`access_token` parameter is null, empty string, missing or it is given more than once
 
 
 
@@ -581,7 +586,7 @@ Attribute "`reason`" in the request describing the reason for the result
 </td>
 <td valign="top">
 
- `access_token` does not exist
+`access_token` does not exist
 
 
 
@@ -627,7 +632,7 @@ Attribute "`reason`" in the request describing the reason for the result
 </td>
 <td valign="top">
 
- `access_token` has expired
+`access_token` has expired
 
 
 
@@ -673,7 +678,7 @@ Attribute "`reason`" in the request describing the reason for the result
 </td>
 <td valign="top">
 
- `access_token` is not issued for the current subscription
+`access_token` is not issued for the current subscription
 
 
 

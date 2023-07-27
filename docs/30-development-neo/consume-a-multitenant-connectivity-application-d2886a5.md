@@ -16,6 +16,11 @@
 
 ## Context
 
+> ### Remember:  
+> SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
+> 
+> For more information, see SAP Note [3351844](https://launchpad.support.sap.com/#/notes/3351844).
+
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**
 
@@ -26,7 +31,7 @@ Users of a consumer subaccount, which is subscribed to an application, can acces
 > ### Note:  
 > As a consumer, you can set a tenant-specific destination configuration on **subscription** level.
 
- <a name="concept_rxt_4m1_pr"/>
+<a name="concept_rxt_4m1_pr"/>
 
 <!-- concept\_rxt\_4m1\_pr -->
 
@@ -58,7 +63,7 @@ TrustAll=true
 > 
 > For more information on how to configure a destination for provider subaccount, see:
 > 
->  [Configure Destinations from the Console Client](https://help.sap.com/viewer/b865ed651e414196b39f8922db2122c7/Cloud/en-US/e51558bbbb571014bfc89325eaf075c0.html "") :arrow_upper_right:.
+> [Configure Destinations from the Console Client](https://help.sap.com/viewer/b865ed651e414196b39f8922db2122c7/Cloud/en-US/e51558bbbb571014bfc89325eaf075c0.html "") :arrow_upper_right:.
 > 
 > [Configure Destinations from the Cockpit](https://help.sap.com/viewer/b865ed651e414196b39f8922db2122c7/Cloud/en-US/60735ad11d8a488c83537cdcfb257135.html "") :arrow_upper_right:
 
@@ -68,7 +73,7 @@ TrustAll=true
 
 Go to a browser and request the application on behalf of your subaccount. Use the following URL pattern:
 
- `https://<application_name><provider_subaccount>-<consumer_subaccount>.<host>/<application_path>` 
+`https://<application_name><provider_subaccount>-<consumer_subaccount>.<host>/<application_path>` 
 
 
 

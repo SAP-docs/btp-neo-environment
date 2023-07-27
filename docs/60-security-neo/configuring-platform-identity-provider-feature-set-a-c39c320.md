@@ -4,7 +4,7 @@
 
 Use the procedures below to configure an Identity Authentication tenant as platform identity provider in your Neo subaccount in Feature Set A.
 
- <a name="task_ckk_3q5_q1b"/>
+<a name="task_ckk_3q5_q1b"/>
 
 <!-- task\_ckk\_3q5\_q1b -->
 
@@ -50,7 +50,7 @@ Use the procedures below to configure an Identity Authentication tenant as platf
     The Identity Authentication tenant appears as a platform identity provider. The trust configuration with it is complete. You can proceed with adding tenant users as subaccount members, and the rest of the steps described in this document.
 
 
- <a name="task_ccp_skb_r1b"/>
+<a name="task_ccp_skb_r1b"/>
 
 <!-- task\_ccp\_skb\_r1b -->
 
@@ -71,7 +71,7 @@ Go to the *Members* tab in the SAP BTP cockpit. You can see all cockpit users, w
 
 ![](images/Add_Members_3c031c0.png)
 
- <a name="task_xwz_klb_r1b"/>
+<a name="task_xwz_klb_r1b"/>
 
 <!-- task\_xwz\_klb\_r1b -->
 
@@ -97,7 +97,7 @@ Related information in the documentation of Identity Authentication:
 -   [Configure Risk-Based Authentication](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/bc52fbf3d59447bbb6aa22f80d8b6056.html#loiobc52fbf3d59447bbb6aa22f80d8b6056)
 -   [Operation Guide](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/6a8e67cf98bf41968ea2849dfd0b6bbd.html)
 
- <a name="task_eg5_wlb_r1b"/>
+<a name="task_eg5_wlb_r1b"/>
 
 <!-- task\_eg5\_wlb\_r1b -->
 
@@ -138,7 +138,7 @@ For the SAP BTP host, see [Regions](https://help.sap.com/viewer/65de2977205c403b
 2.  Log in with a user name and password from the Identity Authentication tenant.
 
 
- <a name="task_sm3_mmb_r1b"/>
+<a name="task_sm3_mmb_r1b"/>
 
 <!-- task\_sm3\_mmb\_r1b -->
 

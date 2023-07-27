@@ -14,6 +14,11 @@ This is an optional procedure that you can perform to configure the authenticati
 
 ## Context
 
+> ### Remember:  
+> SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
+> 
+> For more information, see SAP Note [3351844](https://launchpad.support.sap.com/#/notes/3351844).
+
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**
 
@@ -151,6 +156,8 @@ Authentication is implemented over the OAuth 2.0 protocol. Users need to present
 
 
 
+
+## Example
 
 You have a Web application that users access using a Web browser. You want users to log in using a SAML identity provider. Hence, you define the FORM authentication method in the `web.xml` of the application. However, later you decide to provide mobile access to your application using the OAuth protocol \(SAML is not optimized for mobile access\). You do this by adding the *OAuth 2.0 token* option for the FORM method for your application. In this way, desktop users will continue to log in using a SAML identity provider, and mobile users will use an OAuth 2.0 access token.
 

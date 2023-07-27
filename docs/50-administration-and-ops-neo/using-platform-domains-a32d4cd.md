@@ -14,6 +14,11 @@ You have installed and configured the console client for the Neo environment. Fo
 
 ## Context
 
+> ### Remember:  
+> SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
+> 
+> For more information, see SAP Note [3351844](https://launchpad.support.sap.com/#/notes/3351844).
+
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**
 
@@ -29,7 +34,7 @@ You can configure the platform domains using the `application-domains` group of 
 -   [Check Configured Domains](using-platform-domains-a32d4cd.md#loio3142a5fb32724e2fa284a3f46eb13247)
 -   [Remove Platform Domains](using-platform-domains-a32d4cd.md#loioa18bdb1fd07249288f8c287b3d29f62d)
 
- <a name="loio1c374b6349ab423eab16ab69d11b87d9"/>
+<a name="loio1c374b6349ab423eab16ab69d11b87d9"/>
 
 <!-- loio1c374b6349ab423eab16ab69d11b87d9 -->
 
@@ -38,6 +43,11 @@ You can configure the platform domains using the `application-domains` group of 
 
 
 ## Context
+
+> ### Remember:  
+> SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
+> 
+> For more information, see SAP Note [3351844](https://launchpad.support.sap.com/#/notes/3351844).
 
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**
@@ -59,7 +69,7 @@ You can configure the platform domains using the `application-domains` group of 
     As a result, the specified application will be accessible on `cert.hana.ondemand.com` and on the default `hana.ondemand.com` domain.
 
 
- <a name="loio3142a5fb32724e2fa284a3f46eb13247"/>
+<a name="loio3142a5fb32724e2fa284a3f46eb13247"/>
 
 <!-- loio3142a5fb32724e2fa284a3f46eb13247 -->
 
@@ -68,6 +78,11 @@ You can configure the platform domains using the `application-domains` group of 
 
 
 ## Context
+
+> ### Remember:  
+> SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
+> 
+> For more information, see SAP Note [3351844](https://launchpad.support.sap.com/#/notes/3351844).
 
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**
@@ -87,7 +102,7 @@ You can configure the platform domains using the `application-domains` group of 
 2.  Check if the returned list of domains contains the platform domain you set.
 
 
- <a name="loioa18bdb1fd07249288f8c287b3d29f62d"/>
+<a name="loioa18bdb1fd07249288f8c287b3d29f62d"/>
 
 <!-- loioa18bdb1fd07249288f8c287b3d29f62d -->
 
@@ -96,6 +111,11 @@ You can configure the platform domains using the `application-domains` group of 
 
 
 ## Context
+
+> ### Remember:  
+> SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
+> 
+> For more information, see SAP Note [3351844](https://launchpad.support.sap.com/#/notes/3351844).
 
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**

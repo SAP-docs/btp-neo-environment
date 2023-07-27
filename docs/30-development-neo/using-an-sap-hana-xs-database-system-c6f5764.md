@@ -4,13 +4,18 @@
 
 Use SAP HANA single-container database systems designed for developing with SAP HANA in a productive environment.
 
- <a name="reference_bmm_kmy_ndb"/>
+<a name="reference_bmm_kmy_ndb"/>
 
 <!-- reference\_bmm\_kmy\_ndb -->
 
 ## SAP HANA XS Database Systems in Enterprise Accounts
 
 
+
+> ### Remember:  
+> SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
+> 
+> For more information, see SAP Note [3351844](https://launchpad.support.sap.com/#/notes/3351844).
 
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**
@@ -269,7 +274,7 @@ Launch SAP HANA XS applications
 </td>
 <td valign="top">
 
- [Launch SAP HANA XS Applications](launch-sap-hana-xs-applications-0dd61c3.md) 
+[Launch SAP HANA XS Applications](launch-sap-hana-xs-applications-0dd61c3.md) 
 
 
 
@@ -285,7 +290,7 @@ Java development
 </td>
 <td valign="top">
 
- [bind-hana-dbms](../50-administration-and-ops-neo/bind-hana-dbms-affa782.md) 
+[bind-hana-dbms](../50-administration-and-ops-neo/bind-hana-dbms-affa782.md) 
 
 
 

@@ -2,6 +2,11 @@
 
 # Java: Application Operations
 
+> ### Remember:  
+> SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
+> 
+> For more information, see SAP Note [3351844](https://launchpad.support.sap.com/#/notes/3351844).
+
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**
 
@@ -163,7 +168,7 @@ Lifecycle Management API
 
 [Start an Application](../30-development-neo/java-alm-api-fc944d1.md#loio2d3be560df574092909ed8171ec197ec)
 
- [Stop an Application](../30-development-neo/java-alm-api-fc944d1.md#loio38829d2c139c47b3a1c1d64e6ce6d4f8)
+[Stop an Application](../30-development-neo/java-alm-api-fc944d1.md#loio38829d2c139c47b3a1c1d64e6ce6d4f8)
 
 
 
@@ -237,7 +242,7 @@ Eclipse IDE
 </td>
 <td valign="top">
 
- [Profiling Applications](profiling-applications-8967d19.md) 
+[Profiling Applications](profiling-applications-8967d19.md) 
 
 
 
@@ -270,7 +275,7 @@ Cockpit
 </td>
 <td valign="top">
 
- [Using Logs in the Cockpit for Java Applications](https://help.sap.com/viewer/f88a032109f0429caea276fc6e3a95f9/Cloud/en-US/2555df65182c4b09a25e56fa3b57b0a8.html "You can view the logs and change the log settings of any Java application deployed in your subaccount. The cockpit provides the following types of logs for a Java application: default traces, HTTP access logs, garbage collection logs, and Java Connector (JCo) logs.") :arrow_upper_right: 
+[Using Logs in the Cockpit for Java Applications](https://help.sap.com/viewer/f88a032109f0429caea276fc6e3a95f9/Cloud/en-US/2555df65182c4b09a25e56fa3b57b0a8.html "You can view the logs and change the log settings of any Java application deployed in your subaccount. The cockpit provides the following types of logs for a Java application: default traces, HTTP access logs, garbage collection logs, and Java Connector (JCo) logs.") :arrow_upper_right: 
 
 
 
@@ -293,7 +298,7 @@ Console Client
 </td>
 <td valign="top">
 
- [Using Logs in the Console Client](https://help.sap.com/viewer/f88a032109f0429caea276fc6e3a95f9/Cloud/en-US/e4fd83c5bb5710149b1e94f127f108e4.html "") :arrow_upper_right: 
+[Using Logs in the Console Client](https://help.sap.com/viewer/f88a032109f0429caea276fc6e3a95f9/Cloud/en-US/e4fd83c5bb5710149b1e94f127f108e4.html "") :arrow_upper_right: 
 
 
 

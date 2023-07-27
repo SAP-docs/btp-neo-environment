@@ -6,6 +6,11 @@ This command creates an SAP HANA database with the specified ID and settings, on
 
 
 
+> ### Remember:  
+> SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
+> 
+> For more information, see SAP Note [3351844](https://launchpad.support.sap.com/#/notes/3351844).
+
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**
 
@@ -231,10 +236,26 @@ Specifies how the XS engine should run: 'embedded' \(default\), 'standalone'.
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+`--docstore`
+
+
+
+</td>
+<td valign="top">
+
+Enables or disables the DocStore server of SAP HANA database: 'enabled', 'disabled' \(default\).
+
+
+
+</td>
+</tr>
 </table>
 
 > ### Note:  
-> There is a limit to the number of databases you can create, and you'll see an error message when you reach the maximum number of databases. For more information on tenant database limits, see [Creating Databases](https://help.sap.com/viewer/d4790b2de2f4429db6f3dff54e4d7b3a/Cloud/en-US/533384eda57e428f98a43815e6a11119.html#loio533384eda57e428f98a43815e6a11119 "Use the cockpit to create databases on SAP HANA tenant database systems in your subaccount in the Neo environment, and set properties, such as the database size.") :arrow_upper_right:.
+> There is a limit to the number of databases you can create, and you'll see an error message when you reach the maximum number of databases. For more information on tenant database limits, see [Creating Databases](https://help.sap.com/docs/sap-hana-service-for-sap-btp-in-sap-and-microsoft-azure-regions/sap-hana-service-for-sap-btp-in-sap-regions/creating-databases?version=Cloud).
 
 
 

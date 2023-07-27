@@ -4,6 +4,11 @@
 
 To use an enterprise account, you can either purchase a customer account, join the partner program to purchase a partner account, or self-register for an enterprise account to try out free tier service plans.
 
+> ### Remember:  
+> SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
+> 
+> For more information, see SAP Note [3351844](https://launchpad.support.sap.com/#/notes/3351844).
+
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**
 
@@ -12,7 +17,7 @@ To use an enterprise account, you can either purchase a customer account, join t
 
 [Get an Account on SAP BTP to Try Out Free Tier Service Plans](https://developers.sap.com/tutorials/btp-free-tier-account.html)
 
- <a name="copy07a76681cdb64c10ae325ba13b416ed7"/>
+<a name="copy07a76681cdb64c10ae325ba13b416ed7"/>
 
 <!-- copy07a76681cdb64c10ae325ba13b416ed7 -->
 
@@ -52,11 +57,11 @@ If you chose an add-on to an existing global account, the initial access email w
 
 [Commercial Models](https://help.sap.com/viewer/df50977d8bfa4c9a8a063ddb37113c43/Cloud/en-US/38ecf59cdda64150a102cfaa62d5faab.html#loio263d40009a5a4237a62e8f5c05ee641e "SAP BTP offers two different commercial models for enterprise accounts.") :arrow_upper_right:
 
-[Using Free Service Plans](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/524e1081d8dc4b0f9d055a6bec383ec3.html "The free tier model for SAP BTP lets you try out services in global accounts without any additional cost using the consumption-based commercial model.") :arrow_upper_right:
+[Using Free Service Plans](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/524e1081d8dc4b0f9d055a6bec383ec3.html "The free tier model for SAP BTP lets you try out services in global accounts without any additional cost using the consumption-based commercial model and an enterprise account.") :arrow_upper_right:
 
 [Access the Cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/4e750660b72e4fd6b2485ffb0b3cbdca.html "Learn how to access the SAP BTP cockpit.") :arrow_upper_right:
 
- <a name="copyad04d906a6564812882346dea9e6e5b5"/>
+<a name="copyad04d906a6564812882346dea9e6e5b5"/>
 
 <!-- copyad04d906a6564812882346dea9e6e5b5 -->
 
@@ -75,7 +80,7 @@ General information about the partner program is available on [https://www.sap.c
 
 [Account Model](../10-concepts-neo/account-model-722a475.md#copy722a4755da7f4b7e9929be8f15af0f1b "Learn more about the different types of accounts on SAP BTP and how they relate to each other.")
 
- <a name="copya70322730ecf4300acfbd4d2f4903525"/>
+<a name="copya70322730ecf4300acfbd4d2f4903525"/>
 
 <!-- copya70322730ecf4300acfbd4d2f4903525 -->
 
@@ -101,9 +106,9 @@ For information about service availability, prices, and estimators, see [https:/
 
 
 
- ![Commercial Models Available for Enterprise Accounts](images/Infographic_-_SAP_CP_Commercial_Models_6734474.png) 
+![Commercial Models Available for Enterprise Accounts](images/Infographic_-_SAP_CP_Commercial_Models_6734474.png)
 
- <a name="copy65e4c829bd164477a666529f2f4a72e2"/>
+<a name="copy65e4c829bd164477a666529f2f4a72e2"/>
 
 <!-- copy65e4c829bd164477a666529f2f4a72e2 -->
 
@@ -171,7 +176,7 @@ If you want information about the **Pay-As-You-Go for SAP BTP for Partners** com
 
 For information about eligible services and pricing for SAP Integration Suite and SAP Extension Suite, see [https://www.sap.com/products/extension-suite/pricing.html](https://www.sap.com/products/extension-suite/pricing.html) and [https://www.sap.com/products/integration-suite/pricing.html](https://www.sap.com/products/integration-suite/pricing.html).see [https://cloudplatform.sap.com/price-lists](https://cloudplatform.sap.com/price-lists), or access the SAP BTP service catalog via the [SAP Discovery Center](https://discovery-center.cloud.sap). The SAP BTP service catalog allows you to identify service availability per data center and to determine licensing model compatibility per available service plan.
 
-As part of the free tier model for SAP BTP, some services offer free service plans that allow you to try out these services without any additional charge within your CPEA or Pay-As-You-Go for SAP BTP global account. For more information, see [Using Free Service Plans](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/524e1081d8dc4b0f9d055a6bec383ec3.html "The free tier model for SAP BTP lets you try out services in global accounts without any additional cost using the consumption-based commercial model.") :arrow_upper_right:.
+As part of the free tier model for SAP BTP, some services offer free service plans that allow you to try out these services without any additional charge within your CPEA or Pay-As-You-Go for SAP BTP global account. For more information, see [Using Free Service Plans](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/524e1081d8dc4b0f9d055a6bec383ec3.html "The free tier model for SAP BTP lets you try out services in global accounts without any additional cost using the consumption-based commercial model and an enterprise account.") :arrow_upper_right:.
 
 To find frequently asked questions about this licensing model, see the [Consumption-based commercial model CPEA and Cloud Credits - FAQ Document](https://www.sap.com/products/extension-suite/pricing.html?pdf-asset=668ae6f5-cd7d-0010-87a3-c30de2ffd8ff).
 
@@ -195,7 +200,7 @@ To find frequently asked questions about this licensing model, see the [Consumpt
 
 [Managing Entitlements and Quotas Using the Cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/c8248745dde24afb91479361de336111.html "When you purchase an enterprise account, you are entitled to use a specific set of resources, such as the amount of memory that can be allocated to your applications.") :arrow_upper_right:
 
- <a name="loio239b6e045e7e48f58b61655b02748d45"/>
+<a name="loio239b6e045e7e48f58b61655b02748d45"/>
 
 <!-- loio239b6e045e7e48f58b61655b02748d45 -->
 

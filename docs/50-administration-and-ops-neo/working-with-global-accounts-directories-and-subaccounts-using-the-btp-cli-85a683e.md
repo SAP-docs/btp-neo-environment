@@ -10,7 +10,7 @@ Use the SAP BTP command line interface \(btp CLI\) to manage operations with glo
 
 ## Working with Global Accounts
 
- 
+
 
 
 <table>

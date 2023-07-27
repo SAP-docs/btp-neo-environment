@@ -8,6 +8,11 @@ Platform APIs are protected with *OAuth 2.0 client credentials*. Create an OAuth
 
 ## Context
 
+> ### Remember:  
+> SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
+> 
+> For more information, see SAP Note [3351844](https://launchpad.support.sap.com/#/notes/3351844).
+
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**
 
@@ -20,7 +25,7 @@ For detailed description of the available methods, see the respective API docume
 > ### Tip:  
 > Do not get a new OAuth access token for each and every platform API call. Re-use the same existing access token throughout its validity period instead, until you get a response indicating the access token needs to be re-issued.
 
- <a name="task_hrx_5pp_ns"/>
+<a name="task_hrx_5pp_ns"/>
 
 <!-- task\_hrx\_5pp\_ns -->
 
@@ -56,7 +61,7 @@ The OAuth client is identified by a *client ID* and protected with a *client sec
     > Make sure you save the generated client credentials. Once you close the confirmation dialog, you cannot retrieve the generated client credentials again.
 
 
- <a name="task_f12_jqp_ns"/>
+<a name="task_f12_jqp_ns"/>
 
 <!-- task\_f12\_jqp\_ns -->
 
@@ -92,6 +97,8 @@ If you want to revoke the access token before its validity ends, delete the resp
 
 
 
+
+### Example
 
 Retrieving an access token on the Europe \(Rot\) region will look like this:
 
@@ -154,7 +161,7 @@ Alternatively, you can do this using an HTTP destination.
     ```
 
 
- <a name="task_ovh_nrp_ns"/>
+<a name="task_ovh_nrp_ns"/>
 
 <!-- task\_ovh\_nrp\_ns -->
 
@@ -169,6 +176,8 @@ Alternatively, you can do this using an HTTP destination.
 In the requests to the required platform API, include the access token as a header with name *Authorization* and value *Bearer <token value\>*.
 
 
+
+### Example
 
 We will call the Authorization Management API.
 

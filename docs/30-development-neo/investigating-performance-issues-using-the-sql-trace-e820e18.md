@@ -8,6 +8,11 @@ Identify inefficient SQL statements in your applications in the Neo environment 
 
 ## Context
 
+> ### Remember:  
+> SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
+> 
+> For more information, see SAP Note [3351844](https://launchpad.support.sap.com/#/notes/3351844).
+
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**
 
@@ -17,7 +22,7 @@ By default, the SQL trace is disabled. Generally, you enable it when you require
 
 You can use the cockpit to enable the SQL trace by setting the log level of the logger `com.sap.core.persistence.sql.trace` to the log level *DEBUG* in the application’s log configuration. Once you've changed this setting, you can view trace information in the log files.
 
- <a name="task_jjv_tbh_gn"/>
+<a name="task_jjv_tbh_gn"/>
 
 <!-- task\_jjv\_tbh\_gn -->
 
@@ -53,13 +58,13 @@ You can use the cockpit to enable the SQL trace by setting the log level of the 
     The new log setting takes effect immediately. Log settings are saved permanently and do not revert to their initial values when an application is restarted.
 
 
- <a name="task_rnm_rbh_gn"/>
+<a name="task_rnm_rbh_gn"/>
 
 <!-- task\_rnm\_rbh\_gn -->
 
 ## View the SQL Trace Details
 
- 
+
 
 
 
@@ -83,6 +88,8 @@ You can use the cockpit to enable the SQL trace by setting the log level of the 
 
 
 
+
+### Example
 
 The SQL-specific information from the default trace is shown below in plain text format:
 

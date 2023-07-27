@@ -16,7 +16,7 @@ In the Neo environment, enable user authentication for access to your applicatio
 > ### Note:  
 > User names in SAP BTP are case insensitive.
 
- <a name="loioe36c712efa844e8199a9c4bd681cb4e0"/>
+<a name="loioe36c712efa844e8199a9c4bd681cb4e0"/>
 
 <!-- loioe36c712efa844e8199a9c4bd681cb4e0 -->
 
@@ -291,6 +291,8 @@ If you need to configure the default options of an authentication method, or def
 
 
 
+### Example
+
 *Example 1: Using FORM Authentication*
 
 The following example illustrates using FORM authentication. It requires all users to authenticate before accessing the protected resource. It does not, however, manage authorizations according to the user roles - it authorizes all authenticated users.
@@ -352,7 +354,7 @@ If you want to manage authorizations according to user roles, you should define 
 > ### Remember:  
 > If you define roles in the *web.xml*, you need to manage the role assignments of users after you deploy your application on SAP BTP. See [Managing Roles](managing-roles-db8175b.md)
 
- <a name="loio778d8987e7714376977c190f6df379ad"/>
+<a name="loio778d8987e7714376977c190f6df379ad"/>
 
 <!-- loio778d8987e7714376977c190f6df379ad -->
 
@@ -435,7 +437,7 @@ In the example above, you create *LoginContext* and call its `login()` method.
     When BASIC authentication is used, you should see a popup window prompting you to provide credentials to authenticate. Once these are entered successfully, the servlet content is displayed.
 
 
- <a name="loio6ad764f643bb401d8a50529afb1d17b3"/>
+<a name="loio6ad764f643bb401d8a50529afb1d17b3"/>
 
 <!-- loio6ad764f643bb401d8a50529afb1d17b3 -->
 
@@ -469,7 +471,7 @@ jQuery(document).ajaxComplete(function(e, jqXHR){
 > ### Note:  
 > For requests made with the `X-Requested-With` header and value `XMLHttpRequest` \(AJAX requests\), you need to check for session expiration \(by checking the marker header `com.sap.cloud.security.login`\). If the session is expired and you are using SAML2 or FORM authentication method, the system does not trigger an authentication request.
 
- <a name="loio4ac91c9b213e4b67bba550d02991b49e"/>
+<a name="loio4ac91c9b213e4b67bba550d02991b49e"/>
 
 <!-- loio4ac91c9b213e4b67bba550d02991b49e -->
 
@@ -550,7 +552,7 @@ After authentication you see:
 > HTTP Status 405 - HTTP method POST is not supported by this URL
 > ```
 
- 
+
 
 If you see such issues, you will have to add the following code into your protected resource:
 

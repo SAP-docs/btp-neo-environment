@@ -20,13 +20,18 @@ To redirect an application, you need a maintenance application. A maintenance ap
 
 ## Context
 
+> ### Remember:  
+> SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
+> 
+> For more information, see SAP Note [3351844](https://launchpad.support.sap.com/#/notes/3351844).
+
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**
 
 > ### Note:  
 > Not applicable to *hanatrial.ondemand.com*.
 
- <a name="task_xw4_xrx_4n"/>
+<a name="task_xw4_xrx_4n"/>
 
 <!-- task\_xw4\_xrx\_4n -->
 
@@ -56,7 +61,7 @@ You can enable the maintenance mode for an application from the overview page fo
 
     The following details confirm that your application is in maintenance mode:
 
-    -   ![](images/In_Maintenance_Icon_2e1da1e.png) *In Maintenance*
+    -   ![](images/In_Maintenance_Icon_2e1da1e.png)*In Maintenance*
     -   A link to the assigned maintenance application: Click the link to open the overview page for this application.
 
 
@@ -68,7 +73,7 @@ Note that HTTP requests from already active sessions are redirected to the origi
 
 The temporary redirect to the maintenance application remains effective until you take your application out of maintenance. To disable the maintenance mode, choose ![](images/Maintenance_Off_Icon_c3f0dd0.png) \(*Switch maintenance mode off*\). Before doing so, you should ensure that your application is up and running to avoid end users experiencing HTTP errors.
 
- <a name="task_y4m_vwg_nn"/>
+<a name="task_y4m_vwg_nn"/>
 
 <!-- task\_y4m\_vwg\_nn -->
 

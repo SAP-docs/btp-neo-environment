@@ -4,6 +4,11 @@
 
 The Java application lifecycle management \(Java ALM\) service for SAP BTP lets you deploy and update Java applications via console client commands, the SAP BTP cockpit, or the Java ALM REST API.
 
+> ### Remember:  
+> SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
+> 
+> For more information, see SAP Note [3351844](https://launchpad.support.sap.com/#/notes/3351844).
+
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**
 
@@ -151,7 +156,7 @@ Java ALM REST API
 </td>
 <td valign="top">
 
- [Deploy an Application](java-alm-api-fc944d1.md#loio83729f7df7074de3a795d61ae8844c0e) 
+[Deploy an Application](java-alm-api-fc944d1.md#loio83729f7df7074de3a795d61ae8844c0e) 
 
 
 
@@ -186,7 +191,7 @@ Console Client
 </td>
 <td valign="top">
 
- [deploy](../50-administration-and-ops-neo/deploy-937db4f.md) 
+[deploy](../50-administration-and-ops-neo/deploy-937db4f.md) 
 
 
 
@@ -211,7 +216,7 @@ Console Client
 </td>
 <td valign="top">
 
- [set-application-property](../50-administration-and-ops-neo/set-application-property-113e957.md) 
+[set-application-property](../50-administration-and-ops-neo/set-application-property-113e957.md) 
 
 
 
@@ -236,7 +241,7 @@ Cockpit
 </td>
 <td valign="top">
 
- [Deploy on the Cloud with the Cockpit](deploy-on-the-cloud-with-the-cockpit-abded96.md)
+[Deploy on the Cloud with the Cockpit](deploy-on-the-cloud-with-the-cockpit-abded96.md)
 
 
 
@@ -271,7 +276,7 @@ Console Client
 </td>
 <td valign="top">
 
- [hot-update](../50-administration-and-ops-neo/hot-update-7ae6493.md)
+[hot-update](../50-administration-and-ops-neo/hot-update-7ae6493.md)
 
 
 
@@ -366,7 +371,7 @@ Planned Downtime
 </td>
 <td valign="top">
 
- [Enable Maintenance Mode for Planned Downtimes](../50-administration-and-ops-neo/enable-maintenance-mode-for-planned-downtimes-aa04f29.md) 
+[Enable Maintenance Mode for Planned Downtimes](../50-administration-and-ops-neo/enable-maintenance-mode-for-planned-downtimes-aa04f29.md) 
 
 
 
@@ -389,7 +394,7 @@ Soft Shutdown
 </td>
 <td valign="top">
 
- [Perform Soft Shutdown](../50-administration-and-ops-neo/perform-soft-shutdown-17e8e96.md) 
+[Perform Soft Shutdown](../50-administration-and-ops-neo/perform-soft-shutdown-17e8e96.md) 
 
 
 

@@ -32,7 +32,7 @@ By default, SAP ID Service provides the user base for basic authentication. It c
 
 Alternatively, you can use your Identity Authentication tenant that provides your custom private user base. See [Identity Authentication documentation](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/d17a116432d24470930ebea41977a888.html).
 
- <a name="task_acb_fyd_15b"/>
+<a name="task_acb_fyd_15b"/>
 
 <!-- task\_acb\_fyd\_15b -->
 
@@ -60,7 +60,7 @@ Alternatively, you can use your Identity Authentication tenant that provides you
     3.  Optionally, configure authentication. See [Authentication Configuration](authentication-configuration-4a46723.md).
 
 
- <a name="task_rpl_gf2_15b"/>
+<a name="task_rpl_gf2_15b"/>
 
 <!-- task\_rpl\_gf2\_15b -->
 

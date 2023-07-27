@@ -6,6 +6,11 @@
 
 ## Context
 
+> ### Remember:  
+> SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
+> 
+> For more information, see SAP Note [3351844](https://launchpad.support.sap.com/#/notes/3351844).
+
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**
 
@@ -21,7 +26,7 @@ Before transportation and persistence, passwords are encrypted with an encryptio
 > ### Note:  
 > Each password is identified by an alias. To check the rules and constraints about passwords aliases, permitted characters and length, see the [security javadoc](https://help.hana.ondemand.com/javadoc/index.html).
 
- <a name="concept_x5n_gpw_gn"/>
+<a name="concept_x5n_gpw_gn"/>
 
 <!-- concept\_x5n\_gpw\_gn -->
 
@@ -36,7 +41,7 @@ To use the password storage API, you need to add a resource reference to `Passwo
 </resource-ref>
 ```
 
- <a name="concept_kvt_qpw_gn"/>
+<a name="concept_kvt_qpw_gn"/>
 
 <!-- concept\_kvt\_qpw\_gn -->
 
@@ -51,7 +56,7 @@ PasswordStorage passwordStorage = (PasswordStorage) ctx.lookup("java:comp/env/Pa
 
 Note that according to the Java EE Specification, the prefix **java:comp/env** should be added to the JNDI resource name \(as specified in the `web.xml` file\) to form the lookup name.
 
- <a name="concept_cyc_dqw_gn"/>
+<a name="concept_cyc_dqw_gn"/>
 
 <!-- concept\_cyc\_dqw\_gn -->
 
@@ -92,7 +97,7 @@ import com.sap.cloud.security.password.PasswordStorageException;
 > ### Note:  
 > It is recommended to cache the obtained value, as reading of passwords is an expensive operation and involves several internal remote calls to central storage and audit infrastructure. As passwords are different for the different tenant the cache should be tenant aware. PasswordsStorage instance obtained via lookup can be cached and used by multiple threads.
 
- <a name="concept_u3b_xxd_hn"/>
+<a name="concept_u3b_xxd_hn"/>
 
 <!-- concept\_u3b\_xxd\_hn -->
 

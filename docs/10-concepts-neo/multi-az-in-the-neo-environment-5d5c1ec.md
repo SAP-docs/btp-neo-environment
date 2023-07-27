@@ -14,11 +14,11 @@ The Multi-AZ setup relies on two availability zones within one SAP BTP region. E
 
 Both availability zones contain your applications, services, and databases. AZ 1 is always the default availability zone when you first set up Multi-AZ, which means that an application first connects to the primary database located in AZ 1. While AZ 1 is the primary zone, your data is being replicated synchronously to the secondary availability zone \(AZ 2\). Thus, if something goes wrong with AZ 1, AZ 2 takes over and ensures the survival of the region.
 
-   
+  
   
 **Overview of Multi-AZ**
 
- ![](images/Multi-AZ_Overview_f838c7d.png "Overview of Multi-AZ") 
+![](images/Multi-AZ_Overview_f838c7d.png "Overview of Multi-AZ")
 
 
 

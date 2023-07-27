@@ -6,10 +6,15 @@
 
 Learn more about the different types of accounts on SAP BTP and how they relate to each other.
 
+> ### Remember:  
+> SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
+> 
+> For more information, see SAP Note [3351844](https://launchpad.support.sap.com/#/notes/3351844).
+
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**
 
- <a name="loio9b7d44f92eec44a6ae87129c02aeec0d"/>
+<a name="loio9b7d44f92eec44a6ae87129c02aeec0d"/>
 
 <!-- loio9b7d44f92eec44a6ae87129c02aeec0d -->
 
@@ -21,7 +26,7 @@ The global account is the realization of the commercial contract with SAP. A glo
 
 Global accounts are region- and environment-independent. Within a global account, you manage all of your subaccounts, which in turn are specific to regions and environments.
 
- <a name="copy7b24059e42e34cff882260a5b9c81249"/>
+<a name="copy7b24059e42e34cff882260a5b9c81249"/>
 
 <!-- copy7b24059e42e34cff882260a5b9c81249 -->
 
@@ -31,7 +36,7 @@ Subaccounts let you structure a global account according to your organization’
 
 Subaccounts in a global account are independent from each other. This is important to consider with respect to security, member management, data management, data migration, integration, and so on, when you plan your landscape and overall architecture. Each subaccount is associated with a region, which is the physical location where applications, data, or services are hosted. It is also associated with one environment. The specific region and environment are relevant when you deploy applications and access the SAP BTP cockpit. The quotas that have been purchased for a global account have to be assigned to the individual subaccounts.
 
- <a name="copyb7af89ba49504c5997d409f49cc5d3ae"/>
+<a name="copyb7af89ba49504c5997d409f49cc5d3ae"/>
 
 <!-- copyb7af89ba49504c5997d409f49cc5d3ae -->
 
@@ -60,13 +65,13 @@ Beta features let customers, developers, and partners test new features on SAP B
 
 
 
- <a name="loio00a25ed5344443198b9cf3165c072408"/>
+<a name="loio00a25ed5344443198b9cf3165c072408"/>
 
 <!-- loio00a25ed5344443198b9cf3165c072408 -->
 
 ### Using Experimental Features in Subaccounts
 
- SAP may choose to experiment with a feature before it decides whether to make it available for productive use. In such a case, we ask customers, developers, and partners to provide feedback on that feature. 
+SAP may choose to experiment with a feature before it decides whether to make it available for productive use. In such a case, we ask customers, developers, and partners to provide feedback on that feature. 
 
 The experimental features have the following characteristics:
 
@@ -77,7 +82,7 @@ The experimental features have the following characteristics:
 
 The purpose of experimental features is to get feedback early on, allowing customers and partners to influence the future product accordingly. By providing your feedback \(for example, in the SAP Community\), you accept that intellectual property rights of the contributions or derivative works shall remain the exclusive property of SAP.
 
- <a name="loioa92721fc75524ec09a7a7255997dbd94"/>
+<a name="loioa92721fc75524ec09a7a7255997dbd94"/>
 
 <!-- loioa92721fc75524ec09a7a7255997dbd94 -->
 
@@ -133,7 +138,7 @@ Optionally, you can also enable the following features in your directories:
 
 [Account Administration Using APIs of the SAP Cloud Management Service [Feature Set B]](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/17b6a171552544a6804f12ea83112a3f.html "Provides information about using the APIs of the SAP Cloud Management service for SAP BTP (technical name: cis) to manage some of the administrative operations in your accounts.") :arrow_upper_right:
 
- <a name="copy2c2dd70587104f459b97019691480ff6"/>
+<a name="copy2c2dd70587104f459b97019691480ff6"/>
 
 <!-- copy2c2dd70587104f459b97019691480ff6 -->
 
@@ -156,7 +161,7 @@ You can enable a subaccount to use beta features, including services and applica
 > ### Caution:  
 > You shouldn't use SAP BTP beta features in subaccounts that belong to productive enterprise accounts. For more information, see [Important Disclaimers and Legal Information](https://help.sap.com/viewer/disclaimer).
 
- <a name="loio20828fc639954939890d3d74a22c5f66"/>
+<a name="loio20828fc639954939890d3d74a22c5f66"/>
 
 <!-- loio20828fc639954939890d3d74a22c5f66 -->
 
@@ -171,7 +176,7 @@ A global account can group together different directories and subaccounts that a
 
 The hierarchical structure of global accounts, directories, and subaccounts lets you define an account model that accurately fits your business and development needs. For example, if you want to separate development, testing, and productive usage for different departments in your organization, you can create a directory for each department, and within each directory, you group subaccounts for development, testing, and production.
 
- <a name="loioe8663c08ead648faa673b0d63c5b478e"/>
+<a name="loioe8663c08ead648faa673b0d63c5b478e"/>
 
 <!-- loioe8663c08ead648faa673b0d63c5b478e -->
 
@@ -336,13 +341,18 @@ When working with labels, consider the following aspects:
 -   [Working with Environment Instances](https://help.sap.com/viewer/09cc82baadc542a688176dce601398de/Cloud/en-US/1d6897d22f90443c8a3f9f6c8bb41bb8.html#loio1d6897d22f90443c8a3f9f6c8bb41bb8__section_usz_bfz_qrb)
 -   [Subscribe to Multitenant Applications Using the Cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/7a3e39622be14413b2a4df7c02ca1170.html "Subscribe to multitenant applications from the Subscriptions page in the SAP BTP cockpit.") :arrow_upper_right:
 
- <a name="loio6680883537f34ee4b13d03126471ddc8"/>
+<a name="loio6680883537f34ee4b13d03126471ddc8"/>
 
 <!-- loio6680883537f34ee4b13d03126471ddc8 -->
 
 ## User Accounts
 
 A user account corresponds to a particular user in an identity provider, such as the SAP ID service \(for example, an S-user, P-user\) and consists, for example, of an SAP user ID and password.
+
+> ### Remember:  
+> SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
+> 
+> For more information, see SAP Note [3351844](https://launchpad.support.sap.com/#/notes/3351844).
 
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**

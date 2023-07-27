@@ -8,6 +8,11 @@ In SAP BTP, you can use Java EE roles to define access to the application resour
 
 ## Context
 
+> ### Remember:  
+> SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
+> 
+> For more information, see SAP Note [3351844](https://launchpad.support.sap.com/#/notes/3351844).
+
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**
 
@@ -145,7 +150,7 @@ See [Using a Custom Identity Provider](application-identity-provider-dc61853.md#
 </tr>
 </table>
 
- <a name="task_hky_cs1_sn"/>
+<a name="task_hky_cs1_sn"/>
 
 <!-- task\_hky\_cs1\_sn -->
 
@@ -208,7 +213,7 @@ This can be done in two ways: using *predefined roles* in the web.xml at develop
 
 
 
- <a name="task_aqq_xzd_mr"/>
+<a name="task_aqq_xzd_mr"/>
 
 <!-- task\_aqq\_xzd\_mr -->
 
@@ -235,7 +240,7 @@ Groups allow you to easily manage the role assignments to collections of users i
 4.  Enter the group name and choose *Save*.
 
 
- <a name="task_n24_4s1_sn"/>
+<a name="task_n24_4s1_sn"/>
 
 <!-- task\_n24\_4s1\_sn -->
 
@@ -286,11 +291,11 @@ You can do it in either of the two ways: using the *Security* \> *Roles* section
 
     4.  Choose *Show Assignments*. The table below shows all roles that are already assigned to this user or group.
 
-        ![](images/groups_12a_png_7611b6f.png) 
+        ![](images/groups_12a_png_7611b6f.png)
 
     5.  If you are adding an individual user, choose the required application and the role the user will have. If you are adding a group, select the existing group from the list.
 
-        ![](images/assign_roles_group_12a_png_7611375.png) 
+        ![](images/assign_roles_group_12a_png_7611375.png)
 
         > ### Tip:  
         > You can use regular expressions to narrow the groups found.
@@ -299,7 +304,7 @@ You can do it in either of the two ways: using the *Security* \> *Roles* section
 
 
 
- <a name="task_lbt_xs1_sn"/>
+<a name="task_lbt_xs1_sn"/>
 
 <!-- task\_lbt\_xs1\_sn -->
 
@@ -346,14 +351,14 @@ Assertion-based groups are groups determined by values of attributes in the SAML
         <tr>
         <td valign="top">
         
-                Equals
+        Equals
 
 
         
         </td>
         <td valign="top">
         
-                Choose *Equals* if you want the value of the SAML 2.0 assertion attribute to match exactly the string you specify. Note that if you want to use more sophisticated relations, such as "starts with" or "contains", you need to use the *Regular expression* option.
+        Choose *Equals* if you want the value of the SAML 2.0 assertion attribute to match exactly the string you specify. Note that if you want to use more sophisticated relations, such as "starts with" or "contains", you need to use the *Regular expression* option.
 
 
         
@@ -362,14 +367,14 @@ Assertion-based groups are groups determined by values of attributes in the SAML
         <tr>
         <td valign="top">
         
-                Regular expression
+        Regular expression
 
 
         
         </td>
         <td valign="top">
         
-                Choose *Regular expression* if you want to specify more sophisticated matching rules. You can use all regular expression rules described in the[Java RegEx API](http://docs.oracle.com/javase/6/docs/api/java/util/regex/Pattern.html).
+        Choose *Regular expression* if you want to specify more sophisticated matching rules. You can use all regular expression rules described in the[Java RegEx API](http://docs.oracle.com/javase/6/docs/api/java/util/regex/Pattern.html).
 
         **Example 1**: You want to add authenticated SAP employees to group *Employees*. And SAP employees are users with e-mail address ending with *sap.com*. Hence, you choose the mapping rule to be *email*, matched using the following regular expression:
 
@@ -397,13 +402,13 @@ Assertion-based groups are groups determined by values of attributes in the SAML
 
         In the image below, all users logged by this IdP are added to the group *Government*. The users that have an arrtibute corresponding to their department name will also be assigned to the respective department groups.
 
-        ![](images/trusted_idp_groups_png_c243279.png) 
+        ![](images/trusted_idp_groups_png_c243279.png)
 
         When you open the *Groups* tab page of the *Authorizations* section, you can see the identity provider mappings for this group.
 
 
 
- <a name="task_tmp_4t1_sn"/>
+<a name="task_tmp_4t1_sn"/>
 
 <!-- task\_tmp\_4t1\_sn -->
 
@@ -411,7 +416,7 @@ Assertion-based groups are groups determined by values of attributes in the SAML
 
 Try to access the required application logging on with users with and without the required roles respectively.
 
- <a name="task_wjs_jct_qx"/>
+<a name="task_wjs_jct_qx"/>
 
 <!-- task\_wjs\_jct\_qx -->
 

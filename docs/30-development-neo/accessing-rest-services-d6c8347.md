@@ -4,6 +4,11 @@
 
 To connect your application to a REST service, configure routing to an HTTP destination in the application descriptor file.
 
+> ### Remember:  
+> SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
+> 
+> For more information, see SAP Note [3351844](https://launchpad.support.sap.com/#/notes/3351844).
+
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**
 
@@ -52,7 +57,7 @@ The HTTP destination must be created in the subaccount where the application is 
 > 
 > The browser sends a request to your HTML5 application to the path `/gateway/resource` \(1\). This request is forwarded by the HTML5 application to the service behind the destination `gateway` \(2\). The path is shortened to `/resource`. The response returned by the service is then routed back through the HTML5 application so that the browser receives the response \(3\).
 > 
->  ![](images/Example_C_21e0283.png) 
+> ![](images/Example_C_21e0283.png)
 
 > ### Caution:  
 > Routes to destinations using the web socket protocol is not supported.
@@ -114,7 +119,7 @@ Description
 <tr>
 <td valign="top">
 
- `HTML5.ConnectionTimeoutInSeconds` 
+`HTML5.ConnectionTimeoutInSeconds` 
 
 
 
@@ -158,7 +163,7 @@ The period of time in which the HTML5 application expects a confirmation when it
 <tr>
 <td valign="top">
 
- `HTML5.SocketReadTimeoutInSeconds` 
+`HTML5.SocketReadTimeoutInSeconds` 
 
 
 
@@ -202,7 +207,7 @@ The period of time the HTML5 application waits for the REST service to start str
 <tr>
 <td valign="top">
 
- `HTML5.HandleRedirects` 
+`HTML5.HandleRedirects` 
 
 
 
@@ -216,7 +221,7 @@ Boolean
 </td>
 <td valign="top">
 
- `true` 
+`true` 
 
 
 
@@ -230,7 +235,7 @@ Boolean
 </td>
 <td valign="top">
 
- `false` 
+`false` 
 
 
 
@@ -319,13 +324,13 @@ We recommend that you set this property to `false`. This helps improve the perfo
 > 
 > When the browser requests the path `/gateway/resource` \(1\), the HTML5 application forwards it to the path `/resource` of the service \(2\). As the service responds with a redirect \(3\), the HTML5 application sends another request to the new path `/servicePath/resource` \(4\). This second response contains the required resource and is forwarded back to the browser \(5\).
 > 
->  ![](images/Example_A_89ad7ee.png) 
+> ![](images/Example_A_89ad7ee.png)
 > 
 > `HTML5.HandleRedirects` is set to `false:`
 > 
 > For the same request to the path `/gateway/resources`\(1\), the HTML5 application again forwards the request to the path `/resources` of the service \(2\). Now the redirect is directly forwarded back to the browser \(3\). In this case it is the browser that sends another request to the path `/gateway/servicePath/resource` \(4\), which the HTML5 application forwards to the service path `/servicePath/resource` \(5\). The requested resource is then forwarded back to the browser \(6\).
 > 
->  ![](images/Example_B_817a3fd.png) 
+> ![](images/Example_B_817a3fd.png)
 
 
 
@@ -368,7 +373,7 @@ Replaced by New Property
 <tr>
 <td valign="top">
 
- `ConnectionTimeout` 
+`ConnectionTimeout` 
 
 
 
@@ -391,7 +396,7 @@ Max. value: `120000` \(120 seconds\)
 </td>
 <td valign="top">
 
- `HTML5.ConnectionTimeoutInSeconds` 
+`HTML5.ConnectionTimeoutInSeconds` 
 
 
 
@@ -400,7 +405,7 @@ Max. value: `120000` \(120 seconds\)
 <tr>
 <td valign="top">
 
- `ClientReadTimeout` 
+`ClientReadTimeout` 
 
 
 
@@ -423,7 +428,7 @@ Max. value: `300000` \(300 seconds\)
 </td>
 <td valign="top">
 
- `HTML5.SocketReadTimeoutInSeconds` 
+`HTML5.SocketReadTimeoutInSeconds` 
 
 
 

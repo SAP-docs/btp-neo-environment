@@ -8,6 +8,11 @@
 
 ## Context
 
+> ### Remember:  
+> SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
+> 
+> For more information, see SAP Note [3351844](https://launchpad.support.sap.com/#/notes/3351844).
+
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**
 
@@ -20,7 +25,7 @@ To be able to use Basic authentication, you need to configure both SAP S/4HANA C
 
 [Set Up SAP BTP Side](using-basic-authentication-f4c0ad4.md#loio647b45d968384fe89260aeffaf782543 "")
 
- <a name="loio541cff3e17f14f4b8d7157c2e40f0925"/>
+<a name="loio541cff3e17f14f4b8d7157c2e40f0925"/>
 
 <!-- loio541cff3e17f14f4b8d7157c2e40f0925 -->
 
@@ -73,7 +78,7 @@ From the SAP S/4HANA Cloud side you need to maintain the communication settings 
 
 [Communication Management](https://help.sap.com/viewer/f544846954f24b9183eddadcc41bdc3b/1808.500/en-US/2e84a10c430645a88bdbfaaa23ac9ff7.html)
 
- <a name="loio647b45d968384fe89260aeffaf782543"/>
+<a name="loio647b45d968384fe89260aeffaf782543"/>
 
 <!-- loio647b45d968384fe89260aeffaf782543 -->
 
@@ -126,30 +131,14 @@ You have logged into the SAP BTP cockpit from the landing page for your subaccou
     <tr>
     <td valign="top">
     
-        `Name`
+    `Name`
 
 
     
     </td>
     <td valign="top">
     
-        Enter a meaningful name.
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        `Type`
-
-
-    
-    </td>
-    <td valign="top">
-    
-        `HTTP`
+    Enter a meaningful name.
 
 
     
@@ -158,30 +147,14 @@ You have logged into the SAP BTP cockpit from the landing page for your subaccou
     <tr>
     <td valign="top">
     
-        `Description`
+    `Type`
 
 
     
     </td>
     <td valign="top">
     
-        \(Optional\) Enter a meaningful description.
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        `URL`
-
-
-    
-    </td>
-    <td valign="top">
-    
-        The service URL from the communication arrangement.
+    `HTTP`
 
 
     
@@ -190,30 +163,14 @@ You have logged into the SAP BTP cockpit from the landing page for your subaccou
     <tr>
     <td valign="top">
     
-        `Proxy Type`
+    `Description`
 
 
     
     </td>
     <td valign="top">
     
-        `Internet`
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        `Authentication`
-
-
-    
-    </td>
-    <td valign="top">
-    
-        `BasicAuthentication`
+    \(Optional\) Enter a meaningful description.
 
 
     
@@ -222,14 +179,14 @@ You have logged into the SAP BTP cockpit from the landing page for your subaccou
     <tr>
     <td valign="top">
     
-        `User`
+    `URL`
 
 
     
     </td>
     <td valign="top">
     
-        The name of the communication user you have in the SAP S/4HANA Cloud tenant.
+    The service URL from the communication arrangement.
 
 
     
@@ -238,14 +195,62 @@ You have logged into the SAP BTP cockpit from the landing page for your subaccou
     <tr>
     <td valign="top">
     
-        `Password`
+    `Proxy Type`
 
 
     
     </td>
     <td valign="top">
     
-        The password for the communication user.
+    `Internet`
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    `Authentication`
+
+
+    
+    </td>
+    <td valign="top">
+    
+    `BasicAuthentication`
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    `User`
+
+
+    
+    </td>
+    <td valign="top">
+    
+    The name of the communication user you have in the SAP S/4HANA Cloud tenant.
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    `Password`
+
+
+    
+    </td>
+    <td valign="top">
+    
+    The password for the communication user.
 
 
     

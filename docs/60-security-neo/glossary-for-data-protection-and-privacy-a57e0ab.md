@@ -6,6 +6,11 @@ The following terms are general to SAP products. Not all terms may be relevant f
 
 
 
+> ### Remember:  
+> SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
+> 
+> For more information, see SAP Note [3351844](https://launchpad.support.sap.com/#/notes/3351844).
+
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**
 
@@ -32,7 +37,7 @@ Definition
 <tr>
 <td valign="top">
 
- **Blocking** 
+**Blocking** 
 
 
 
@@ -48,7 +53,7 @@ A method of restricting access to data for which the primary business purpose ha
 <tr>
 <td valign="top">
 
- **Business purpose** 
+**Business purpose** 
 
 
 
@@ -64,7 +69,7 @@ The legal, contractual, or in other form justified reason for the processing of 
 <tr>
 <td valign="top">
 
- **Consent** 
+**Consent** 
 
 
 
@@ -96,7 +101,7 @@ Any information relating to an identified or identifiable natural person \("data
 <tr>
 <td valign="top">
 
- **Deletion** 
+**Deletion** 
 
 
 
@@ -112,7 +117,7 @@ Deletion of **personal data** so that the data is no longer available.
 <tr>
 <td valign="top">
 
- **End of business** 
+**End of business** 
 
 
 
@@ -128,7 +133,7 @@ Defines the end of active business and the start of residence time and retention
 <tr>
 <td valign="top">
 
- **End of purpose \(EoP\)** 
+**End of purpose \(EoP\)** 
 
 
 
@@ -144,7 +149,7 @@ The point in time when the processing of a set of personal data is no longer req
 <tr>
 <td valign="top">
 
- **End of purpose \(EoP\) check** 
+**End of purpose \(EoP\) check** 
 
 
 
@@ -160,7 +165,7 @@ A method of identifying the point in time for a data set when the processing of 
 <tr>
 <td valign="top">
 
- **Personal data** 
+**Personal data** 
 
 
 
@@ -192,7 +197,7 @@ The information that specifies the reason and the goal for the processing of a s
 <tr>
 <td valign="top">
 
- **Residence period** 
+**Residence period** 
 
 
 
@@ -208,7 +213,7 @@ The period of time between the end of business and the end of purpose \(EoP\) fo
 <tr>
 <td valign="top">
 
- **Retention period** 
+**Retention period** 
 
 
 
@@ -224,7 +229,7 @@ The period of time between the end of the last business activity involving a spe
 <tr>
 <td valign="top">
 
- **Sensitive personal data** 
+**Sensitive personal data** 
 
 
 
@@ -245,7 +250,7 @@ A category of personal data that usually includes the following type of informat
 <tr>
 <td valign="top">
 
- **Technical and organizational measures \(TOM\)** 
+**Technical and organizational measures \(TOM\)** 
 
 
 

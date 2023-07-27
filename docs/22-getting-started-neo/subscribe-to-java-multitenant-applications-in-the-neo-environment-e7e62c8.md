@@ -10,6 +10,11 @@ Create, list, and remove subscriptions for a Java application using the console 
 
 ## Prerequisites
 
+> ### Remember:  
+> SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
+> 
+> For more information, see SAP Note [3351844](https://launchpad.support.sap.com/#/notes/3351844).
+
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**
 
@@ -18,7 +23,7 @@ Create, list, and remove subscriptions for a Java application using the console 
 -   Provider and consumer subaccounts that belong to the same region. For more information, see [Regions and Hosts Available for the Neo Environment](../10-concepts-neo/regions-and-hosts-available-for-the-neo-environment-d722f7c.md).
 -   If applicable, purchase SaaS licenses for the applications you want to consume.Set up the console client. For more information, see [Set Up the Console Client](../30-development-neo/set-up-the-console-client-7613dee.md).
 
- <a name="task_hcj_fch_1y"/>
+<a name="task_hcj_fch_1y"/>
 
 <!-- task\_hcj\_fch\_1y -->
 
@@ -31,7 +36,7 @@ To create Java subscriptions, use the `subscribe` command.
 > neo subscribe --account consumersubaccount --application mysubaccount:myapp --user myuser --host us1.hana.ondemand.com
 > ```
 
- <a name="task_czx_vbh_1y"/>
+<a name="task_czx_vbh_1y"/>
 
 <!-- task\_czx\_vbh\_1y -->
 
@@ -52,7 +57,7 @@ To create Java subscriptions, use the `subscribe` command.
     > ```
 
 
- <a name="task_o3s_dgd_by"/>
+<a name="task_o3s_dgd_by"/>
 
 <!-- task\_o3s\_dgd\_by -->
 
@@ -80,7 +85,7 @@ To create Java subscriptions, use the `subscribe` command.
 
 
 
- <a name="task_g22_z2h_1y"/>
+<a name="task_g22_z2h_1y"/>
 
 <!-- task\_g22\_z2h\_1y -->
 

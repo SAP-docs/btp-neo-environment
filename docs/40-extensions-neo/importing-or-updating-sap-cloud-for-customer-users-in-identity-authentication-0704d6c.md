@@ -20,6 +20,11 @@ As a tenant administrator of the Identity Authentication, you can import new use
 
 ## Context
 
+> ### Remember:  
+> SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
+> 
+> For more information, see SAP Note [3351844](https://launchpad.support.sap.com/#/notes/3351844).
+
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**
 
@@ -250,30 +255,14 @@ To import users for an application into Identity Authentication, and to send act
     <tr>
     <td valign="top">
     
-        **Do nothing**
+    **Do nothing**
 
 
     
     </td>
     <td valign="top">
     
-        The users are imported or updated for the selected application, but they will not receive activation e-mails. The activation e-mails will be sent when you choose *Send E-Mails* \> *Send*.
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        **Repeat steps 2 to 5**
-
-
-    
-    </td>
-    <td valign="top">
-    
-        The users are imported or updated for the selected application, but they will not receive activation e-mails. The activation e-mails will be sent when you choose *Send E-Mails* \> *Send*.
+    The users are imported or updated for the selected application, but they will not receive activation e-mails. The activation e-mails will be sent when you choose *Send E-Mails* \> *Send*.
 
 
     
@@ -282,14 +271,30 @@ To import users for an application into Identity Authentication, and to send act
     <tr>
     <td valign="top">
     
-        Choose *Send E-Mails* \> *Send*
+    **Repeat steps 2 to 5**
 
 
     
     </td>
     <td valign="top">
     
-        This will send activation e-mails to all users that are imported for the selected application, but have not received activation e-mails so far.
+    The users are imported or updated for the selected application, but they will not receive activation e-mails. The activation e-mails will be sent when you choose *Send E-Mails* \> *Send*.
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    Choose *Send E-Mails* \> *Send*
+
+
+    
+    </td>
+    <td valign="top">
+    
+    This will send activation e-mails to all users that are imported for the selected application, but have not received activation e-mails so far.
 
     > ### Note:  
     > The *Send* button is inactive if *Home URL* or SAML 2.0 configuration of the application is missing. You can only import users, but you cannot send activation emails.

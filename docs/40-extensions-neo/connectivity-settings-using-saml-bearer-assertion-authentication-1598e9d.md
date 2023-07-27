@@ -6,6 +6,11 @@
 
 ## Context
 
+> ### Remember:  
+> SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
+> 
+> For more information, see SAP Note [3351844](https://launchpad.support.sap.com/#/notes/3351844).
+
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**
 
@@ -62,30 +67,14 @@ The general procedure is described in [Using SAML Bearer Assertion Authenticatio
         <tr>
         <td valign="top">
         
-                `Name`
+        `Name`
 
 
         
         </td>
         <td valign="top">
         
-                Enter a meaningful name.
-
-
-        
-        </td>
-        </tr>
-        <tr>
-        <td valign="top">
-        
-                `Type`
-
-
-        
-        </td>
-        <td valign="top">
-        
-                `HTTP`
+        Enter a meaningful name.
 
 
         
@@ -94,30 +83,14 @@ The general procedure is described in [Using SAML Bearer Assertion Authenticatio
         <tr>
         <td valign="top">
         
-                `Description`
+        `Type`
 
 
         
         </td>
         <td valign="top">
         
-                \(Optional\) Enter a meaningful description.
-
-
-        
-        </td>
-        </tr>
-        <tr>
-        <td valign="top">
-        
-                `URL`
-
-
-        
-        </td>
-        <td valign="top">
-        
-                The service URL from the communication arrangement. To do that, copy the first part of the *Service URL/Service Interface* column \(the part before /sap/..\).
+        `HTTP`
 
 
         
@@ -126,30 +99,14 @@ The general procedure is described in [Using SAML Bearer Assertion Authenticatio
         <tr>
         <td valign="top">
         
-                `Proxy Type`
+        `Description`
 
 
         
         </td>
         <td valign="top">
         
-                `Internet`
-
-
-        
-        </td>
-        </tr>
-        <tr>
-        <td valign="top">
-        
-                `Authentication`
-
-
-        
-        </td>
-        <td valign="top">
-        
-                `OAuth2SAMLBearerAssertion`
+        \(Optional\) Enter a meaningful description.
 
 
         
@@ -158,30 +115,14 @@ The general procedure is described in [Using SAML Bearer Assertion Authenticatio
         <tr>
         <td valign="top">
         
-                `Audience`
+        `URL`
 
 
         
         </td>
         <td valign="top">
         
-                This is the *SAML2 Audience* from the *OAuth 2.0 Details* in the communication arrangement. See [Set Up SAP S/4HANA Cloud Side](using-saml-bearer-assertion-authentication-a4f1d55.md#loio3b5d869c98044f039b6d400def2c0f0d), **step 3**.
-
-
-        
-        </td>
-        </tr>
-        <tr>
-        <td valign="top">
-        
-                `Client Key`
-
-
-        
-        </td>
-        <td valign="top">
-        
-                The name of the communication user you have in the SAP S/4HANA Cloud tenant.
+        The service URL from the communication arrangement. To do that, copy the first part of the *Service URL/Service Interface* column \(the part before /sap/..\).
 
 
         
@@ -190,30 +131,14 @@ The general procedure is described in [Using SAML Bearer Assertion Authenticatio
         <tr>
         <td valign="top">
         
-                `Token Service URL`
+        `Proxy Type`
 
 
         
         </td>
         <td valign="top">
         
-                This is the *Token Service URL* from the *OAuth 2.0 Details* in the communication arrangement. See [Set Up SAP S/4HANA Cloud Side](using-saml-bearer-assertion-authentication-a4f1d55.md#loio3b5d869c98044f039b6d400def2c0f0d), **step 3**.
-
-
-        
-        </td>
-        </tr>
-        <tr>
-        <td valign="top">
-        
-                `Token Service User`
-
-
-        
-        </td>
-        <td valign="top">
-        
-                The name of the communication user you have in the SAP S/4HANA Cloud tenant.
+        `Internet`
 
 
         
@@ -222,14 +147,14 @@ The general procedure is described in [Using SAML Bearer Assertion Authenticatio
         <tr>
         <td valign="top">
         
-                `Token Service Password`
+        `Authentication`
 
 
         
         </td>
         <td valign="top">
         
-                The password for the communication user.
+        `OAuth2SAMLBearerAssertion`
 
 
         
@@ -238,14 +163,94 @@ The general procedure is described in [Using SAML Bearer Assertion Authenticatio
         <tr>
         <td valign="top">
         
-                `System User`
+        `Audience`
 
 
         
         </td>
         <td valign="top">
         
-                This parameter is not used, leave the field empty.
+        This is the *SAML2 Audience* from the *OAuth 2.0 Details* in the communication arrangement. See [Set Up SAP S/4HANA Cloud Side](using-saml-bearer-assertion-authentication-a4f1d55.md#loio3b5d869c98044f039b6d400def2c0f0d), **step 3**.
+
+
+        
+        </td>
+        </tr>
+        <tr>
+        <td valign="top">
+        
+        `Client Key`
+
+
+        
+        </td>
+        <td valign="top">
+        
+        The name of the communication user you have in the SAP S/4HANA Cloud tenant.
+
+
+        
+        </td>
+        </tr>
+        <tr>
+        <td valign="top">
+        
+        `Token Service URL`
+
+
+        
+        </td>
+        <td valign="top">
+        
+        This is the *Token Service URL* from the *OAuth 2.0 Details* in the communication arrangement. See [Set Up SAP S/4HANA Cloud Side](using-saml-bearer-assertion-authentication-a4f1d55.md#loio3b5d869c98044f039b6d400def2c0f0d), **step 3**.
+
+
+        
+        </td>
+        </tr>
+        <tr>
+        <td valign="top">
+        
+        `Token Service User`
+
+
+        
+        </td>
+        <td valign="top">
+        
+        The name of the communication user you have in the SAP S/4HANA Cloud tenant.
+
+
+        
+        </td>
+        </tr>
+        <tr>
+        <td valign="top">
+        
+        `Token Service Password`
+
+
+        
+        </td>
+        <td valign="top">
+        
+        The password for the communication user.
+
+
+        
+        </td>
+        </tr>
+        <tr>
+        <td valign="top">
+        
+        `System User`
+
+
+        
+        </td>
+        <td valign="top">
+        
+        This parameter is not used, leave the field empty.
 
 
         
@@ -276,30 +281,14 @@ The general procedure is described in [Using SAML Bearer Assertion Authenticatio
         <tr>
         <td valign="top">
         
-                `authnContextClassRef`
+        `authnContextClassRef`
 
 
         
         </td>
         <td valign="top">
         
-                 `urn:oasis:names:tc:SAML:2.0:ac:classes:X509` 
-
-
-        
-        </td>
-        </tr>
-        <tr>
-        <td valign="top">
-        
-                `WEBIDEEnabled`
-
-
-        
-        </td>
-        <td valign="top">
-        
-                 `true` 
+        `urn:oasis:names:tc:SAML:2.0:ac:classes:X509` 
 
 
         
@@ -308,14 +297,30 @@ The general procedure is described in [Using SAML Bearer Assertion Authenticatio
         <tr>
         <td valign="top">
         
-                `WEBIDEUsage`
+        `WEBIDEEnabled`
 
 
         
         </td>
         <td valign="top">
         
-                 `odata_abap,ui5_execute_abap,dev_abap` 
+        `true` 
+
+
+        
+        </td>
+        </tr>
+        <tr>
+        <td valign="top">
+        
+        `WEBIDEUsage`
+
+
+        
+        </td>
+        <td valign="top">
+        
+        `odata_abap,ui5_execute_abap,dev_abap` 
 
 
         

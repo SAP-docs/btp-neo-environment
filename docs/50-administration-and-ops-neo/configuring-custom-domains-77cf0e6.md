@@ -8,6 +8,11 @@ To make sure that your domain is trusted and all application data is protected, 
 
 ## Context
 
+> ### Remember:  
+> SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
+> 
+> For more information, see SAP Note [3351844](https://launchpad.support.sap.com/#/notes/3351844).
+
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**
 
@@ -43,7 +48,7 @@ Perform the following steps:
 > ### Note:  
 > For SAP Cloud Integration applications, there are some differences in the procedure. For more information, see [Configuring Custom Domains for SAP Cloud Integration](https://help.sap.com/viewer/368c481cd6954bdfa5d0435479fd4eaf/Cloud/en-US/7230b9ff41914cc0969223e6a020104b.html).
 
- <a name="loio70f4d19d3dbd434aa9aa165d53e2896c"/>
+<a name="loio70f4d19d3dbd434aa9aa165d53e2896c"/>
 
 <!-- loio70f4d19d3dbd434aa9aa165d53e2896c -->
 
@@ -85,7 +90,7 @@ To use the console commands, install an SDK according to the instructions in [In
     For more information, see [list-ssl-hosts](list-ssl-hosts-e8fc50c.md).
 
 
- <a name="loio55120d899d314e23ab8e33b4b388cea6"/>
+<a name="loio55120d899d314e23ab8e33b4b388cea6"/>
 
 <!-- loio55120d899d314e23ab8e33b4b388cea6 -->
 
@@ -165,7 +170,7 @@ The next step is to use the CSR to get a server certificate signed by a certific
     > If you reach thе upload limit, you can free up some space for new certificates by executing `list-domain-certificates` to get the names of the uploaded certificates and then `delete-domain-certificate` for each certificate you do not need. Deleting a certificate cannot be undone.
 
 
- <a name="loio1d4248f3582a40cdb6f4a2439a55fb65"/>
+<a name="loio1d4248f3582a40cdb6f4a2439a55fb65"/>
 
 <!-- loio1d4248f3582a40cdb6f4a2439a55fb65 -->
 
@@ -199,7 +204,7 @@ You need to bind the uploaded certificate to the created SSL host so that it can
     > Optionally, you can use the `set-ssl-host` command to manage TLS protocol versions and ciphers. For more information, see [set-ssl-host](set-ssl-host-2956975.md).
 
 
- <a name="loiobf395cf25683491eabefadb4383ed7ff"/>
+<a name="loiobf395cf25683491eabefadb4383ed7ff"/>
 
 <!-- loiobf395cf25683491eabefadb4383ed7ff -->
 
@@ -231,7 +236,7 @@ To make your application on the platform accessible via the custom domain, you n
     For more information, see [list-custom-domain-mappings](list-custom-domain-mappings-7dfeeb2.md).
 
 
- <a name="loio004406e1c9a8441fb05a25f5f87d45b7"/>
+<a name="loio004406e1c9a8441fb05a25f5f87d45b7"/>
 
 <!-- loio004406e1c9a8441fb05a25f5f87d45b7 -->
 
@@ -263,7 +268,7 @@ You need to make a CNAME mapping from your custom domain to the created SSL host
     For further details, consult your domain name registrar documentation.
 
 
- <a name="loio6b671d39f46c41d1bbd89b7e698fe384"/>
+<a name="loio6b671d39f46c41d1bbd89b7e698fe384"/>
 
 <!-- loio6b671d39f46c41d1bbd89b7e698fe384 -->
 
@@ -299,7 +304,7 @@ After this procedure, your application will be accessible on the custom domain, 
 
 Configure single sign-on and single logout. For more information, see [Configure Single Sign-On and Single Logout](configuring-custom-domains-77cf0e6.md#loioc990788e18c2412281a2abd9c41ad766).
 
- <a name="loioc990788e18c2412281a2abd9c41ad766"/>
+<a name="loioc990788e18c2412281a2abd9c41ad766"/>
 
 <!-- loioc990788e18c2412281a2abd9c41ad766 -->
 
