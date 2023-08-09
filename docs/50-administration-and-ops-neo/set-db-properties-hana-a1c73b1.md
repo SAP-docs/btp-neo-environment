@@ -155,6 +155,70 @@ Enables or disables access to the HANA database from the Internet: 'enabled' \(d
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+`--dp-server`
+
+
+
+</td>
+<td valign="top">
+
+Enables or disables the data processing server of the SAP HANA database: 'enabled', 'disabled'.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`--script-server`
+
+
+
+</td>
+<td valign="top">
+
+Enables or disables the script server of the SAP HANA database: 'enabled', 'disabled'.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`--xsengine-mode`
+
+
+
+</td>
+<td valign="top">
+
+Specifies how the XS engine should run: 'embedded', 'standalone'.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`--docstore`
+
+
+
+</td>
+<td valign="top">
+
+Enables or disables the DocStore server of SAP HANA database: 'enabled', 'disabled'.
+
+
+
+</td>
+</tr>
 </table>
 
 

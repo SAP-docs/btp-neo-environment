@@ -205,7 +205,7 @@ Cockpit, Console Client, Monitoring API
 
 [Monitoring HTML5 Applications](https://help.sap.com/viewer/64f7d2b06c6b40a9b3097860c5930641/Cloud/en-US/e05f98a541ba4464bc963d06dd8a91fc.html "To monitor your HTML5 application, create custom checks for it by specifying your own metrics. Furthermore, configure alert notifications for any changes to the states of the configured checks.") :arrow_upper_right:
 
-[Monitoring Database Systems](https://help.sap.com/viewer/64f7d2b06c6b40a9b3097860c5930641/Cloud/en-US/d5c5c6a37c944ce78fcccf2b84243d8a.html "") :arrow_upper_right:
+[Monitoring Database Systems](https://help.sap.com/viewer/64f7d2b06c6b40a9b3097860c5930641/Cloud/en-US/d5c5c6a37c944ce78fcccf2b84243d8a.html "You can monitor your database system by viewing its metrics in the SAP BTP cockpit, by retrieving them with the Metrics REST API, or by receiving alerts for them. Furthermore, when you use an SAP HANA database system, you can also configure monitoring for its SAP HANA XS applications.") :arrow_upper_right:
 
 
 

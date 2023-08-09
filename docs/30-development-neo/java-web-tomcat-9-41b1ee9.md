@@ -234,9 +234,7 @@ The following subset of APIs of SAP BTP services are available within Java Web T
 
 ## Migrating to Java Web Tomcat 9 \(from Another Runtime\)
 
-1.  Generally, you do not need to change the application. The only exception is the case if you are using the [HTTP Destination API](https://help.sap.com/viewer/b865ed651e414196b39f8922db2122c7/Cloud/en-US/462dbffef4614044b5c727c9de37672e.html "All connectivity API packages are visible by default from all Web applications. Applications can consume the destinations via a JNDI lookup.") :arrow_upper_right: \(`com.sap.core.connectivity.api.http.HttpDestination`\). In such case, you have to package `HttpDestination` in your application as library. Additionally, you may need to change the application code or destinations. For more information, see [HttpDestination (Version 2)](https://help.sap.com/viewer/b865ed651e414196b39f8922db2122c7/Cloud/en-US/c2a0d33bbc464b8fae30fed707ae9034.html "Use the current HttpDestination library version available for the Connectivity service.") :arrow_upper_right:.
-2.  Redeploy \(see [Deploying and Updating Java Applications](deploying-and-updating-java-applications-e5dfbc6.md)\) and restart the application afterwards \(see [restart command](../50-administration-and-ops-neo/restart-7c0f7a1.md) or [Start and Stop Applications](../50-administration-and-ops-neo/start-and-stop-applications-7612f03.md)\).
+Redeploy \(see [Deploying and Updating Java Applications](deploying-and-updating-java-applications-e5dfbc6.md)\) and restart the application afterwards \(see [restart command](../50-administration-and-ops-neo/restart-7c0f7a1.md) or [Start and Stop Applications](../50-administration-and-ops-neo/start-and-stop-applications-7612f03.md)\).
 
-    If you have questions or problems, create a ticket in component *BC-NEO-RT-JAV*.
-
+If you have questions or problems, create a ticket in component *BC-NEO-RT-JAV*.
 
