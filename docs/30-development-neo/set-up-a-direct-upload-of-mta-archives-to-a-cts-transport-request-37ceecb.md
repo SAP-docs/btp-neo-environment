@@ -25,7 +25,7 @@ Use the CTS+ Export Web Service to perform a transport of a multitarget applicat
     -   `SAP_CTS_PLUS`
 
     > ### Note:  
-    > For more information about the CTS+ authorizations, see [1003674](https://launchpad.support.sap.com/#/notes/1003674).
+    > For more information about the CTS+ authorizations, see [1003674](https://me.sap.com/notes/1003674).
 
 -   You have installed and configured the Cloud Connector, which is used to connect on-premise systems with the SAP BTP. For more information, see [Cloud Connector](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/e6c7616abb5710148cfcf3e75d96d596.html).
 -   You have exposed the CTS+ Export Web Service URLs as described in [Configure Access Control \(HTTP\)](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/e7d4927dbb571014af7ef6ebd6cc3511.html).
@@ -42,7 +42,7 @@ Use the CTS+ Export Web Service to perform a transport of a multitarget applicat
 > ### Remember:  
 > SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
 > 
-> For more information, see SAP Note [3351844](https://launchpad.support.sap.com/#/notes/3351844).
+> For more information, see SAP Note [3351844](https://me.sap.com/notes/3351844).
 
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**
