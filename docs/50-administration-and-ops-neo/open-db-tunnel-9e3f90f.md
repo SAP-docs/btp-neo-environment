@@ -242,7 +242,7 @@ neo open-db-tunnel -a mysubaccount -h us2.hana.ondemand.com -u mymail@example.co
 
 [close-db-tunnel](close-db-tunnel-c7c36e6.md "This command closes one or all database tunnel sessions that have been opened in a background process using the open-db-tunnel --background command.")
 
-[Connect to the Remote SAP ASE Database](https://help.sap.com/viewer/3fa880aa54b74110ae99ad01503fcd60/Cloud/en-US/107ffdb907334d97be99fdcb7aad8961.html "Use the Eclipse Data Tools Platform (DTP) to connect to the SAP ASE database in the cloud. You&apos;ll need the connection details you obtained when you opened the database tunnel.") :arrow_upper_right:
+[Connect to the Remote SAP ASE Database](https://help.sap.com/viewer/3fa880aa54b74110ae99ad01503fcd60/Cloud/en-US/107ffdb907334d97be99fdcb7aad8961.html "Use the Eclipse Data Tools Platform (DTP) to connect to the SAP ASE database in the cloud. You'll need the connection details you obtained when you opened the database tunnel.") :arrow_upper_right:
 
 [Automating the Use of Database Tunnels](https://help.sap.com/viewer/3fa880aa54b74110ae99ad01503fcd60/Cloud/en-US/49626c9474584bbfa4a936975b851326.html "For continuous delivery and automated tests, the open-db-tunnel command supports a background mode, which allows a database tunnel to be opened by automated scripts or as part of a Maven build.") :arrow_upper_right:
 

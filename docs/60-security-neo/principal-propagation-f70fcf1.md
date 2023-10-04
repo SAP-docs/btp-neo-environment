@@ -27,5 +27,5 @@ Exchange user ID information between systems or environments in SAP BTP.
 **Related Information**  
 
 
-[Propagate User Information Between Applications or Services](https://help.sap.com/viewer/ae8e8427ecdf407790d96dad93b5f723/Cloud/en-US/7daed6d1dcfa4daba09cfb40fbab0b3b.html "When a business application communicates with a service, you must decide whether you want to propagate the identity of the user that called the business application, or if a call from machine-to-machine is sufficient.") :arrow_upper_right:
+[Propagate User Information Between Applications or Services](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/7daed6d1dcfa4daba09cfb40fbab0b3b.html "When a business application communicates with a service, you must decide whether you want to propagate the identity of the user that called the business application, or if a call from machine-to-machine is sufficient.") :arrow_upper_right:
 

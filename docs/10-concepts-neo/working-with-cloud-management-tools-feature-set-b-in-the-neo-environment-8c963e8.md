@@ -108,9 +108,9 @@ Not applicable. To consume supported remote-service resources that you already o
 <tr>
 <td valign="top">
 
-`subscribe accounts/subaccount`
+`subscribeaccounts/subaccount`
 
-`unsubscribe  accounts/subaccount`
+`unsubscribe accounts/subaccount`
 
 `list accounts/subscription`
 
@@ -130,7 +130,7 @@ To manage application subscriptions in Neo subaccounts, use the console client i
 <tr>
 <td valign="top">
 
-`list accounts/available‑environment` 
+`listaccounts/available‑environment` 
 
 
 
@@ -146,7 +146,7 @@ Not available for Neo subaccounts.
 <tr>
 <td valign="top">
 
-`list accounts/entitlement` 
+`listaccounts/entitlement` 
 
 
 
@@ -162,7 +162,7 @@ Not available for Neo subaccounts.
 <tr>
 <td valign="top">
 
-`delete accounts/subaccount` 
+`deleteaccounts/subaccount` 
 
 
 
@@ -358,7 +358,7 @@ Where necessary, you can also use the SAP BTP cockpit to fully manage your Neo e
 
 [Cloud Management Tools — Feature Set Overview](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/caf4e4e23aef4666ad8f125af393dfb2.html "Cloud management tools represent the group of technologies designed for managing SAP BTP.") :arrow_upper_right:
 
-[Enterprise Accounts](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/171511cc425c4e079d0684936486eee6.html "Enterprise accounts are usually associated with SAP customer or partner contracts and contain their purchased entitlements to platform resources and services. However, it&apos;s also possible to create an enterprise account for personal exploration.") :arrow_upper_right:
+[Enterprise Accounts](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/171511cc425c4e079d0684936486eee6.html "Enterprise accounts are usually associated with SAP customer or partner contracts and contain their purchased entitlements to platform resources and services. However, it's also possible to create an enterprise account for personal exploration.") :arrow_upper_right:
 
 [What Is SAP BTP, Neo Environment](what-is-sap-btp-neo-environment-34ac790.md "SAP BTP, Neo environment is an enterprise platform-as-a-service (enterprise PaaS) that provides comprehensive application development services and capabilities, which lets you build, extend, and integrate business applications in the cloud.")
 

@@ -178,7 +178,7 @@ Access the application through the different tenants and verify that the multite
 **Related Information**  
 
 
-
+ <?sap-ot O2O class="- topic/link " href="cc4f1ceddacb4b16844fd3f3885b73dd.xml" text="" desc="" xtrc="link:1" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio9fe952ba277c471bbad80cd40548bb84_en-US/src/content/localization/en-us/b0930320e5f946a3a47692be3cebb468.xml" ?> 
 
 [create-account](../50-administration-and-ops-neo/create-account-05f96cf.md "Creates a new subaccount with an automatically generated unique ID as subaccount technical name and the specified display name and assigns the user as a subaccount owner. The user is authorized against the existing subaccount passed as --account parameter. Optionally, you can clone an existing subaccount configuration to save time and effort.")
 

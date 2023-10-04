@@ -572,11 +572,11 @@ Yes
 > </td>
 > <td valign="top">
 > 
-> -   1 instance of SAP HANA 256 = EUR 1024
+> -   1 instance of SAP HANA 256 = EUR1024
 > 
-> -   1 instance of SAP HANA 512 = EUR 2048
+> -   1 instance of SAP HANA 512 = EUR2048
 > 
-> -   1 GB of Application Runtime = EUR 100 + estimated cost distribution to subaccounts
+> -   1 GB of Application Runtime = EUR100 + estimated cost distribution to subaccounts
 > 
 > 
 > 
@@ -593,13 +593,13 @@ Yes
 > </td>
 > <td valign="top">
 > 
-> -   Subaccount 1: 1 instance of SAP HANA 256 = EUR 1024
+> -   Subaccount 1: 1 instance of SAP HANA 256 = EUR1024
 > 
-> -   Subaccount 2: 1 instance of SAP HANA 512 = EUR 2048
+> -   Subaccount 2: 1 instance of SAP HANA 512 = EUR2048
 > 
-> -   Subaccount 1: 400 MB of Application Runtime = EUR 40 \(400 MB / 1 GB x EUR 100\)
+> -   Subaccount 1: 400 MB of Application Runtime = EUR40 \(400MB / 1GB x EUR100\)
 > 
-> -   Subaccount 2: 600 MB of Application Runtime = EUR 60 \(600 MB / 1 GB x EUR 100\)
+> -   Subaccount 2: 600 MB of Application Runtime = EUR60 \(600MB / 1GB x EUR100\)
 > 
 > 
 > 
@@ -646,5 +646,5 @@ Yes
 
 [View Directory Usage Analytics \[Feature Set B\]](view-directory-usage-analytics-feature-set-b-a287782.md "You can explore, compare, and analyze all your actual usage data for the services and applications that are available in your directory.")
 
-[Monitoring Usage Information Using APIs of the SAP Usage Data Management Service [Feature Set B]](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/bf2b3043d0474ea0a2c11c0390460d85.html "Provides information about using the Resource Consumption APIs of the SAP Usage Data Management service for SAP BTP for gathering, storing, and making usage information available for all services and applications in all regions in a cloud deployment. This information is for the purpose of central analysis, reporting, and license auditing.") :arrow_upper_right:
+[Monitoring Usage Information Using APIs of the SAP Usage Data Management Service \[Feature Set B\]](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/bf2b3043d0474ea0a2c11c0390460d85.html "Provides information about using the Resource Consumption APIs of the SAP Usage Data Management service for SAP BTP for gathering, storing, and making usage information available for all services and applications in all regions in a cloud deployment. This information is for the purpose of central analysis, reporting, and license auditing.") :arrow_upper_right:
 

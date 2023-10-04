@@ -89,7 +89,9 @@ Name of the SAP HANA tenant database user used for the operation
 </td>
 <td valign="top">
 
-Password of the SAP HANA tenant database user \(optional, queried at the command prompt if omitted\)
+Password of the SAP HANA tenant database user \(optional, queried at the command prompt if omitted\).
+
+To protect your password, enter it only when prompted by the console client and not explicitly as a parameter in the properties file or the command line.
 
 
 
@@ -110,5 +112,5 @@ neo copy-db-hana-certificates -a mysubaccount -h hana.ondemand.com -u mymail@exa
 **Related Information**  
 
 
-[Copying Certificates to In-Database Certificate Store](https://help.sap.com/viewer/d4790b2de2f4429db6f3dff54e4d7b3a/Cloud/en-US/d004ca23d1464a86867e209e269d6a55.html "Copy your trust and own certificates from the file-based certificate store &apos;sapsrv.pse&apos; to the SAML and X509 certificate collections of the in-database certificate store of an SAP HANA tenant database.") :arrow_upper_right:
+[Copying Certificates to In-Database Certificate Store](https://help.sap.com/viewer/d4790b2de2f4429db6f3dff54e4d7b3a/Cloud/en-US/d004ca23d1464a86867e209e269d6a55.html "Copy your trust and own certificates from the file-based certificate store 'sapsrv.pse' to the SAML and X509 certificate collections of the in-database certificate store of an SAP HANA tenant database.") :arrow_upper_right:
 

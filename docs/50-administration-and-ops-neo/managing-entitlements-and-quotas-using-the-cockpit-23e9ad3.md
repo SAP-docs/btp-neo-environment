@@ -274,7 +274,7 @@ Subaccount members \(regardless of whether they are also global account administ
 </tr>
 </table>
 
-You can also assign entitlements to directories, see [Configure Entitlements and Quotas for Directories [Feature Set B]](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/37f8871865114f44aebee3db6ac64b72.html "Assign entitlements to directories by adding service plans and distribute the quotas available in your global account to your directories using the SAP BTP cockpit.") :arrow_upper_right:.
+You can also assign entitlements to directories, see [Configure Entitlements and Quotas for Directories \[Feature Set B\]](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/37f8871865114f44aebee3db6ac64b72.html "Assign entitlements to directories by adding service plans and distribute the quotas available in your global account to your directories using the SAP BTP cockpit.") :arrow_upper_right:.
 
 **Related Information**  
 

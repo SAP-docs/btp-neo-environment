@@ -19,7 +19,7 @@ Use JDBC to persist data in a simple Java EE web application that manages a list
 ## Prerequisites
 
 -   Download and set up your Eclipse IDE and SDK for Java Web. For more information, see [Setting Up the Development Environment](setting-up-the-development-environment-e815ca4.md).
--   Create a database. For more information, see [Creating Databases](https://help.sap.com/viewer/d4790b2de2f4429db6f3dff54e4d7b3a/Cloud/en-US/533384eda57e428f98a43815e6a11119.html#loio533384eda57e428f98a43815e6a11119 "Use the cockpit to create databases on SAP HANA tenant database systems in your subaccount in the Neo environment, and set properties, such as the database size.") :arrow_upper_right:.
+-   Create a database. For more information, see [Creating Databases](https://help.sap.com/viewer/3fa880aa54b74110ae99ad01503fcd60/Cloud/en-US/533384eda57e428f98a43815e6a11119.html "Use the cockpit to create databases on SAP ASE database systems in your subaccount in the Neo environment, and set properties, such as the database size.") :arrow_upper_right:.
 -   Set up your runtime environment in the Eclipse IDE.
 
 -   Download and unzip the following external JAR files:

@@ -157,7 +157,7 @@ neo delete-jmx-check -a mysubaccount -b demo -u p1234567 -n "JVM Heap Memory Use
 **Related Information**  
 
 
-[JMX Checks](https://help.sap.com/viewer/64f7d2b06c6b40a9b3097860c5930641/Cloud/en-US/ef5c05a713154945b347f87b54446c2b.html "Registering JMX checks allows alerting on any metric that is based on JMX MBean attribute.") :arrow_upper_right:
+[JMX Checks](https://help.sap.com/viewer/64f7d2b06c6b40a9b3097860c5930641/Cloud/en-US/ef5c05a713154945b347f87b54446c2b.html "Registering JMX checks for SAP Monitoring service allows alerting on any metric that is based on JMX MBean attribute.") :arrow_upper_right:
 
 [Monitoring Java Applications](https://help.sap.com/viewer/64f7d2b06c6b40a9b3097860c5930641/Cloud/en-US/cf4b2953c2534c0a9b491abf5a4847d7.html "") :arrow_upper_right:
 

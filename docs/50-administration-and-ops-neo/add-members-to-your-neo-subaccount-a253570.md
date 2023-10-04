@@ -70,7 +70,7 @@ In the Neo environment, you can assign predefined roles to subaccount members, b
 **Related Information**  
 
 
-
+ <?sap-ot O2O class="- topic/link " href="b2a50bae5f22426ea876233e03a44bab.xml" text="" desc="" xtrc="link:1" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio9fe952ba277c471bbad80cd40548bb84_en-US/src/content/localization/en-us/a253570f081e448d9f78fc2bfeedfdc3.xml" ?> 
 
 [Managing Member Authorizations in the Neo Environment](managing-member-authorizations-in-the-neo-environment-a1ab5c4.md "SAP BTP includes predefined platform roles that support the typical tasks performed by users when interacting with the platform. In addition, subaccount administrators can combine various scopes into a custom platform role that addresses their individual requirements.")
 

@@ -154,7 +154,9 @@ Name of the ASE database user
 </td>
 <td valign="top">
 
-Password of the ASE database user \(optional, queried at the command prompt if omitted\)
+Password of the ASE database user \(optional, queried at the command prompt if omitted\).
+
+To protect your password, enter it only when prompted by the console client and not explicitly as a parameter in the properties file or the command line.
 
 
 

@@ -12,7 +12,7 @@ Data privacy regulations or policies may require you to delete this data, for ex
 
 You have the required authorizations.
 
-For more information, see [Security Administration: Managing Authentication and Authorization](https://help.sap.com/viewer/ae8e8427ecdf407790d96dad93b5f723/Cloud/en-US/1ff47b2d980e43a6b2ce294352333708.html "This section describes the tasks of administrators in the Cloud Foundry environment of SAP BTP. Administrators ensure user authentication and assign authorization information to users and user groups.") :arrow_upper_right: or [Role Collections and Roles in Global Accounts, Directories, and Subaccounts [Feature Set B]](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/0039cf082d3d43eba9200fe15647922a.html "In the cloud management tools feature set B, SAP BTP provides a set of role collections to set up administrator access to your global account and subaccounts.") :arrow_upper_right:.
+For more information, see [Security Administration: Managing Authentication and Authorization](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/1ff47b2d980e43a6b2ce294352333708.html "This section describes the tasks of administrators in the Cloud Foundry environment of SAP BTP. Administrators ensure user authentication and assign authorization information to users and user groups.") :arrow_upper_right: or [Role Collections and Roles in Global Accounts, Directories, and Subaccounts \[Feature Set B\]](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/0039cf082d3d43eba9200fe15647922a.html "In the cloud management tools feature set B, SAP BTP provides a set of role collections to set up administrator access to your global account and subaccounts.") :arrow_upper_right:.
 
 
 
@@ -80,11 +80,11 @@ The User Account and Authentication service stores user-related data records in 
 **Related Information**  
 
 
-[Delete Users](https://help.sap.com/viewer/ae8e8427ecdf407790d96dad93b5f723/Cloud/en-US/51000c2254864a39b9f8629715f2c5f1.html "As an administrator, you can delete users from your subaccount. When you delete a user, you also delete the user&apos;s role collection assignments.") :arrow_upper_right:
+[Delete Users](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/51000c2254864a39b9f8629715f2c5f1.html "As an administrator, you can delete users from your subaccount. When you delete a user, you also delete the user's role collection assignments.") :arrow_upper_right:
 
 [Data Protection and Privacy](data-protection-and-privacy-7e513d3.md "Data protection is associated with numerous legal requirements and privacy concerns. In addition to compliance with general data protection and privacy acts, it is necessary to consider compliance with industry-specific legislation in different countries.")
 
-[Switch Off Automatic Creation of Shadow Users](https://help.sap.com/viewer/ae8e8427ecdf407790d96dad93b5f723/Cloud/en-US/d8525671e8b14147b96ef497e1e1af80.html "To switch off the creation of shadow users in the trust configuration of custom identity providers, administrators must explicitly allow users to log on. Administrators then have full control over who is allowed to log on.") :arrow_upper_right:
+[Switch Off Automatic Creation of Shadow Users](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/d8525671e8b14147b96ef497e1e1af80.html "To switch off the creation of shadow users in the trust configuration of custom identity providers, administrators must explicitly allow users to log on. Administrators then have full control over who is allowed to log on.") :arrow_upper_right:
 
 [Shadow Users in the Cloud Foundry Documentation](https://docs.cloudfoundry.org/uaa/uaa-concepts.html#%23shadow)
 

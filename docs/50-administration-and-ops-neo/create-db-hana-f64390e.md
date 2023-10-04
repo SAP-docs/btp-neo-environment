@@ -153,7 +153,9 @@ ID of the SAP HANA database system
 </td>
 <td valign="top">
 
-Password of the SYSTEM user used to access the SAP HANA database \(optional, queried at the command prompt if omitted\)
+Password of the SYSTEM user used to access the SAP HANA database \(optional, queried at the command prompt if omitted\).
+
+To protect your password, enter it only when prompted by the console client and not explicitly as a parameter in the properties file or the command line.
 
 
 

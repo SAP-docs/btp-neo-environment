@@ -203,7 +203,7 @@ Size of the database in MB
 </table>
 
 > ### Note:  
-> There is a limit to the number of databases you can create, and you'll see an error message when you reach the maximum number of databases. For more information on user database limits, see [Creating Databases](https://help.sap.com/viewer/d4790b2de2f4429db6f3dff54e4d7b3a/Cloud/en-US/533384eda57e428f98a43815e6a11119.html#loio533384eda57e428f98a43815e6a11119 "Use the cockpit to create databases on SAP HANA tenant database systems in your subaccount in the Neo environment, and set properties, such as the database size.") :arrow_upper_right:.
+> There is a limit to the number of databases you can create, and you'll see an error message when you reach the maximum number of databases. For more information on user database limits, see [Creating Databases](https://help.sap.com/viewer/3fa880aa54b74110ae99ad01503fcd60/Cloud/en-US/533384eda57e428f98a43815e6a11119.html "Use the cockpit to create databases on SAP ASE database systems in your subaccount in the Neo environment, and set properties, such as the database size.") :arrow_upper_right:.
 
 
 

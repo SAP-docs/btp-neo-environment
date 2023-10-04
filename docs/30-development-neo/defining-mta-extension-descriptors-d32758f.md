@@ -91,7 +91,7 @@ You can do the following using an extension descriptor:
 
 -   Overwrite an existing data \(in depth\) in modules, resources, parameters, properties, provides, requires sections. This depends on the parameter or property metadata overwritable. See section 9. Metadata for Properties and Parameters
 
--   As of schema version 3.xx, by default parameters and properties are overwritable and optional. If you want to make a certain parameter or property non-overwritable or required, you need to add specific metadata. See [Metadata for Properties and Parameters](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/fca2cedcb79649e7a8f51234faea1142.html "It is possible to declare metadata for parameters and properties defined in the MTA deployment description, for example, using the &quot;parameters-metadata:&quot; or &quot;properties-metadata:&quot; keys, respectively; the mapping is based on the keys defined for a parameter or property.") :arrow_upper_right:.
+-   As of schema version 3.xx, by default parameters and properties are overwritable and optional. If you want to make a certain parameter or property non-overwritable or required, you need to add specific metadata. See [Metadata for Properties and Parameters](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/fca2cedcb79649e7a8f51234faea1142.html "It is possible to declare metadata for parameters and properties defined in the MTA deployment description, for example, using the "parameters-metadata:" or "properties-metadata:" keys, respectively; the mapping is based on the keys defined for a parameter or property.") :arrow_upper_right:.
 
 You cannot use an extension descriptor to:
 

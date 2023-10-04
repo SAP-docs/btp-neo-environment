@@ -2264,5 +2264,5 @@ B8:01:86:D1:EB:9C:86:A5:41:04:CF:30:54:F3:4C:52:B7:E5:58:C6
 
 [Server Certificate Authentication](https://help.sap.com/viewer/b865ed651e414196b39f8922db2122c7/Cloud/en-US/3f1247537c1a4f069235ee63633659c5.html "") :arrow_upper_right:
 
-
+ <?sap-ot O2O class="- topic/link " href="2b20c8648f5144398282c955fc851313.xml" text="" desc="" xtrc="link:2" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio9fe952ba277c471bbad80cd40548bb84_en-US/src/content/localization/en-us/b106362a8607444db7d2c6c9acdd4668.xml" ?> 
 

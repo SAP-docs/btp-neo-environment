@@ -27,7 +27,7 @@ The security administrator must have the following scopes:
 The User Account and Authentication service stores user-related data records in the form of shadow users. The UAA uses the information of the shadow users to issue tokens that refer to the specific user. If automatic shadow user creation is enabled, the UAA creates the shadow users when the user authenticates. Otherwise, the UAA creates the shadow user as soon as you assign the user a role collection. These conditions apply to platform users and business users. For more information about shadow users, see the Cloud Foundry documentation.
 
 > ### Note:  
-> Administrators can also delete users using the SAP BTP cockpit. For more information, see [Delete Users](https://help.sap.com/viewer/ae8e8427ecdf407790d96dad93b5f723/Cloud/en-US/51000c2254864a39b9f8629715f2c5f1.html "As an administrator, you can delete users from your subaccount. When you delete a user, you also delete the user&apos;s role collection assignments.") :arrow_upper_right:.
+> Administrators can also delete users using the SAP BTP cockpit. For more information, see [Delete Users](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/51000c2254864a39b9f8629715f2c5f1.html "As an administrator, you can delete users from your subaccount. When you delete a user, you also delete the user's role collection assignments.") :arrow_upper_right:.
 
 
 
@@ -83,7 +83,7 @@ The User Account and Authentication service stores user-related data records in 
 
 [https://docs.cloudfoundry.org/uaa/uaa-concepts.html\#%23shadow](https://docs.cloudfoundry.org/uaa/uaa-concepts.html#%23shadow)
 
-[Switch Off Automatic Creation of Shadow Users](https://help.sap.com/viewer/ae8e8427ecdf407790d96dad93b5f723/Cloud/en-US/d8525671e8b14147b96ef497e1e1af80.html "To switch off the creation of shadow users in the trust configuration of custom identity providers, administrators must explicitly allow users to log on. Administrators then have full control over who is allowed to log on.") :arrow_upper_right:
+[Switch Off Automatic Creation of Shadow Users](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/d8525671e8b14147b96ef497e1e1af80.html "To switch off the creation of shadow users in the trust configuration of custom identity providers, administrators must explicitly allow users to log on. Administrators then have full control over who is allowed to log on.") :arrow_upper_right:
 
 [Delete Shadow Users for Data Protection and Privacy Using the Cockpit](delete-shadow-users-for-data-protection-and-privacy-using-the-cockpit-893c5ac.md "Data privacy regulations or policies may require you to delete this data, for example, when the user has left your organization. SAP BTP cockpit offers an application to select and delete shadow users.")
 

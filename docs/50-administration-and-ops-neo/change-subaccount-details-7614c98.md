@@ -134,7 +134,7 @@ Enable beta features
 **Related Information**  
 
 
-
+ <?sap-ot O2O class="- topic/link " href="b2a50bae5f22426ea876233e03a44bab.xml" text="" desc="" xtrc="link:1" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio9fe952ba277c471bbad80cd40548bb84_en-US/src/content/localization/en-us/7614c98f7bce477da9bf057649c78b05.xml" ?> 
 
 [Using Beta Features with Subaccounts](../10-concepts-neo/account-model-722a475.md#copyb7af89ba49504c5997d409f49cc5d3ae "SAP may offer, and a customer may choose to accept access to functionality, such as a service or application, which is not generally available and has not been validated and quality assured in accordance with SAP standard processes.")
 

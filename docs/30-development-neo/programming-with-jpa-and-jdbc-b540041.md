@@ -15,5 +15,5 @@ An overview of the options you have when programming with the SAP HANA and SAP A
 **Related Information**  
 
 
-[Console Client Commands](https://help.sap.com/viewer/d4790b2de2f4429db6f3dff54e4d7b3a/Cloud/en-US/2daf54f4701c476c8215a399685188d1.html#loio2daf54f4701c476c8215a399685188d1 "Use console client commands for different tasks and database types in the Neo environment.") :arrow_upper_right:
+[Console Client Commands](https://help.sap.com/viewer/3fa880aa54b74110ae99ad01503fcd60/Cloud/en-US/2daf54f4701c476c8215a399685188d1.html#loio2daf54f4701c476c8215a399685188d1 "Use console client commands for different tasks in the Neo environment.") :arrow_upper_right:
 
