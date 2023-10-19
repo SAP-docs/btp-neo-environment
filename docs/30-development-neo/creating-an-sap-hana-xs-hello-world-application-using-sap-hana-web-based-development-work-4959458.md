@@ -39,7 +39,7 @@ In your subaccount in the SAP BTP cockpit, you create a database on an SAP HANA 
 
 2.  In the navigation area, choose *SAP HANA / SAP ASE* \> *Databases & Schemas*.
 
-3.  From the *Databases & Schemas* page, choose *New*.
+3.  From the *Databases & Schemas* page, choose *Create*.
 
 4.  Enter the required data:
 

@@ -15,8 +15,8 @@ We recommend using the SAP BTP, Neo environment documentation on SAP Help Portal
 
 1. Open the [SAP BTP, Neo Environment Documentation](https://help.sap.com/docs/BTP/ea72206b834e4ace9cd834feed6c0e09/34ac79024d41469a804ba9b9deeb5b1d.html).
 1. You can either:
-    * Choose *Edit* to suggest a change for the current page you see in the Help Portal viewer, or
-    * Choose *Feedback* to open a GitHub issue in this repository.
+    * Choose *Feedback* > *Edit page* to suggest a change for the current page you see in the Help Portal viewer, or
+    * Choose *Feedback* > *Create issue* to open a GitHub issue in this repository.
 
 If you only make a small contribution, that's the quickest way to propose a change. For larger contributions, we recommend forking this repository to work locally. The filenames in the [docs](docs) directory are created based on the title of the page on SAP Help Portal.
 

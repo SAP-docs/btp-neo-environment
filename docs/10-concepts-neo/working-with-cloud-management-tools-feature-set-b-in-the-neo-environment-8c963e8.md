@@ -108,9 +108,9 @@ Not applicable. To consume supported remote-service resources that you already o
 <tr>
 <td valign="top">
 
-`subscribeaccounts/subaccount`
+`subscribe accounts/subaccount`
 
-`unsubscribe accounts/subaccount`
+`unsubscribe  accounts/subaccount`
 
 `list accounts/subscription`
 
@@ -130,7 +130,7 @@ To manage application subscriptions in Neo subaccounts, use the console client i
 <tr>
 <td valign="top">
 
-`listaccounts/available‑environment` 
+`list accounts/available‑environment` 
 
 
 
@@ -146,7 +146,7 @@ Not available for Neo subaccounts.
 <tr>
 <td valign="top">
 
-`listaccounts/entitlement` 
+`list accounts/entitlement` 
 
 
 
@@ -162,7 +162,7 @@ Not available for Neo subaccounts.
 <tr>
 <td valign="top">
 
-`deleteaccounts/subaccount` 
+`delete accounts/subaccount` 
 
 
 

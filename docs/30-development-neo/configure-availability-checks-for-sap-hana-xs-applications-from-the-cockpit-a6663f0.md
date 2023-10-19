@@ -54,7 +54,7 @@ In the SAP BTP cockpit, you can configure availability checks for the SAP HANA X
 **Related Information**  
 
 
-[Alerting](https://help.sap.com/viewer/64f7d2b06c6b40a9b3097860c5930641/Cloud/en-US/2f782d7f73304426b287f4b25e47f0b1.html "Configure a channel in SAP Monitoring service to receive alert notifications when your applications and database systems are in a problematic state or have recovered from such a state.") :arrow_upper_right:
+[Alerting](https://help.sap.com/viewer/64f7d2b06c6b40a9b3097860c5930641/Cloud/en-US/2f782d7f73304426b287f4b25e47f0b1.html "Configure a channel to receive alert notifications from SAP Monitoring service when your applications and database systems are in a problematic state or have recovered from such a state.") :arrow_upper_right:
 
 [SAP BTP Cockpit](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/19d7119265474dd18ec16fad2a0b28c1.html)
 

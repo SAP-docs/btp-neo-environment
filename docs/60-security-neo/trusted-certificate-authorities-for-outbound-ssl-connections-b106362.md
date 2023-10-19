@@ -427,7 +427,7 @@ certignaca \[jdk\]
 </td>
 <td valign="top">
 
-CN=Certigna,O=Dhimyotis,C=FR
+CN=Certigna, O=Dhimyotis, C=FR
 
 
 
@@ -1225,6 +1225,98 @@ D6:9B:56:11:48:F0:1C:77:C5:45:78:C1:09:26:DF:5B:85:69:76:AD
 <tr>
 <td valign="top">
 
+gtsrootcar1 \[jdk\]
+
+
+
+</td>
+<td valign="top">
+
+CN=GTS Root R1, O=Google Trust Services LLC, C=US
+
+
+
+</td>
+<td valign="top">
+
+E5:8C:1C:C4:91:3B:38:63:4B:E9:10:6E:E3:AD:8E:6B:9D:D9:81:4A
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+gtsrootcar2 \[jdk\]
+
+
+
+</td>
+<td valign="top">
+
+CN=GTS Root R2, O=Google Trust Services LLC, C=US
+
+
+
+</td>
+<td valign="top">
+
+9A:44:49:76:32:DB:DE:FA:D0:BC:FB:5A:7B:17:BD:9E:56:09:24:94
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+gtsrootecccar3 \[jdk\]
+
+
+
+</td>
+<td valign="top">
+
+CN=GTS Root R3, O=Google Trust Services LLC, C=US
+
+
+
+</td>
+<td valign="top">
+
+ED:E5:71:80:2B:C8:92:B9:5B:83:3C:D2:32:68:3F:09:CD:A0:1E:46
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+gtsrootecccar4 \[jdk\]
+
+
+
+</td>
+<td valign="top">
+
+CN=GTS Root R4, O=Google Trust Services LLC, C=US
+
+
+
+</td>
+<td valign="top">
+
+77:D3:03:67:B5:E0:0C:15:F6:0C:38:61:DF:7C:E1:3B:92:46:4D:47
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 haricaeccrootca2015 \[jdk\]
 
 
@@ -1355,6 +1447,52 @@ CN=LuxTrust Global Root 2, O=LuxTrust S.A., C=LU
 <td valign="top">
 
 1E:0E:56:19:0A:D1:8B:25:98:B2:04:44:FF:66:8A:04:17:99:5F:3F
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+microsoftecc2017 \[jdk\]
+
+
+
+</td>
+<td valign="top">
+
+CN=Microsoft ECC Root Certificate Authority 2017, O=Microsoft Corporation, C=US
+
+
+
+</td>
+<td valign="top">
+
+99:9A:64:C3:7F:F4:7D:9F:AB:95:F1:47:69:89:14:60:EE:C4:C3:C5
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+microsoftrsa2017 \[jdk\]
+
+
+
+</td>
+<td valign="top">
+
+CN=Microsoft RSA Root Certificate Authority 2017, O=Microsoft Corporation, C=US
+
+
+
+</td>
+<td valign="top">
+
+73:A5:E6:4A:3B:FF:83:16:FF:0E:DC:CC:61:8A:90:6E:4E:AE:4D:74
 
 
 
@@ -1976,6 +2114,29 @@ CN=T-TeleSec GlobalRoot Class 3, OU=T-Systems Trust Center, O=T-Systems Enterpri
 <td valign="top">
 
 55:A6:72:3E:CB:F2:EC:CD:C3:23:74:70:19:9D:2A:BE:11:E3:81:D1
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+twcaglobalrootca \[jdk\]
+
+
+
+</td>
+<td valign="top">
+
+CN=TWCA Global Root CA, OU=Root CA, O=TAIWAN-CA, C=TW
+
+
+
+</td>
+<td valign="top">
+
+9C:BB:48:53:F6:A4:F6:D3:52:A4:E8:32:52:55:60:13:F5:AD:AF:65
 
 
 

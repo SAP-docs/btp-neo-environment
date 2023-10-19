@@ -1,11 +1,13 @@
-<!-- loio5af849ce877d44d3b6b861141ccabd13 -->
+<!-- loio48d7688f166642dca0c431f55d1d141f -->
 
-# Setting Entitlements Using the btp CLI
+# Working with External Resource Providers Using the btp CLI
 
-Use the SAP BTP command line interface \(btp CLI\) to set entitlements to define the functionality or permissions available for users of global accounts, directories, and subaccounts.
+Use the SAP BTP command line interface \(btp CLI\) to get details, or to create or delete resource provider instances in a global account.
 
-> ### Tip:  
-> By default, all commands are executed in the global account you're logged into. To change this to a directory or subaccount, use `btp target`. See [Set a Target for Subsequent Commands with btp target](set-a-target-for-subsequent-commands-with-btp-target-720645a.md).
+> ### Note:  
+> The use of this functionality is subject to the availability of the supported non-SAP cloud vendors in your country or region.
+
+Creating a resource provider instance allows your global account to connect to your provider account on a non-SAP cloud vendor. Through this channel, you can then consume remote service resources that you already own and which are supported by SAP BTP.
 
 
 <table>
@@ -35,24 +37,21 @@ Command help
 <tr>
 <td valign="top">
 
-Get all the entitlements and quota assignments for a global account, directories, and subaccounts
+List all resource provider instances in a global account
 
 
 
 </td>
 <td valign="top">
 
-`btp list accounts/entitlement`
-
-> ### Restriction:  
-> It is not possible to list the entitlements of a Neo subaccount with `btp list accounts/entitlements --subaccount <ID>`. You can, however, list the entitlements for a directory that includes Neo subaccounts with `btp list accounts/entitlements --directory <ID>`.
+`btp list accounts/resource-provider`
 
 
 
 </td>
 <td valign="top">
 
-[btp list accounts/entitlement](https://help.sap.com/docs/BTP/btp-cli/btp-list-accounts-entitlement.html)
+[btp list accounts/resource-provider](https://help.sap.com/docs/BTP/btp-cli/btp-list-accounts-resource-provider.html)
 
 
 
@@ -61,21 +60,90 @@ Get all the entitlements and quota assignments for a global account, directories
 <tr>
 <td valign="top">
 
-Assign or update an entitlement to a subaccount or a directory
+Get details about a resource provider instance
 
 
 
 </td>
 <td valign="top">
 
-`btp assign accounts/entitlement`
+`btp get accounts/resource-provider`
 
 
 
 </td>
 <td valign="top">
 
-[btp assign accounts/entitlement](https://help.sap.com/docs/BTP/btp-cli/btp-assign-accounts-entitlement.html)
+[btp get accounts/resource-provider](https://help.sap.com/docs/BTP/btp-cli/btp-get-accounts-resource-provider.html)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Create a resource provider instance
+
+
+
+</td>
+<td valign="top">
+
+`btp create accounts/resource-provider`
+
+
+
+</td>
+<td valign="top">
+
+[btp create accounts/resource-provider](https://help.sap.com/docs/BTP/btp-cli/btp-create-accounts-resource-provider.html)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Update a resource provider instance
+
+
+
+</td>
+<td valign="top">
+
+`btp update accounts/resource-provider`
+
+
+
+</td>
+<td valign="top">
+
+[btp update accounts/resource-provider](https://help.sap.com/docs/BTP/btp-cli/btp-update-accounts-resource-provider.html)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Delete a resource provider instance
+
+
+
+</td>
+<td valign="top">
+
+`btp delete accounts/resource-provider`
+
+
+
+</td>
+<td valign="top">
+
+[btp delete accounts/resource-provider](https://help.sap.com/docs/BTP/btp-cli/btp-delete-accounts-resource-provider.html)
 
 
 
@@ -83,16 +151,18 @@ Assign or update an entitlement to a subaccount or a directory
 </tr>
 </table>
 
+For more information, see [Managing Resource Providers](managing-resource-providers-e2c250d.md).
+
 **Related Information**  
 
 
 [Working with Global Accounts, Directories, and Subaccounts Using the btp CLI](working-with-global-accounts-directories-and-subaccounts-using-the-btp-cli-85a683e.md "Use the SAP BTP command line interface (btp CLI) to manage operations with global accounts, directories, and subaccounts.")
 
+[Setting Entitlements Using the btp CLI](setting-entitlements-using-the-btp-cli-5af849c.md "Use the SAP BTP command line interface (btp CLI) to set entitlements to define the functionality or permissions available for users of global accounts, directories, and subaccounts.")
+
 [Working with Environments Using the btp CLI](working-with-environments-using-the-btp-cli-48db155.md "Use the SAP BTP command line interface (btp CLI) to manage runtime environment instances in a subaccount. For example, enable the Cloud Foundry environment by creating a Cloud Foundry org (environment instance).")
 
 [Working with Multitenant Applications Using the btp CLI](working-with-multitenant-applications-using-the-btp-cli-c1b0fcc.md "Use the SAP BTP command line interface (btp CLI) to manage the multitenant applications to which a subaccount is entitled to subscribe.")
-
-[Working with External Resource Providers Using the btp CLI](working-with-external-resource-providers-using-the-btp-cli-48d7688.md "Use the SAP BTP command line interface (btp CLI) to get details, or to create or delete resource provider instances in a global account.")
 
 [Managing Trust from SAP BTP to an Identity Authentication Tenant](managing-trust-from-sap-btp-to-an-identity-authentication-tenant-6140107.md "SAP BTP supports identity federation. Its concept is to reuse the user bases of identity providers. To use a custom identity provider, your global account or subaccount in SAP BTP must have a trust relationship to the identity provider you want to use.")
 
@@ -105,6 +175,4 @@ Assign or update an entitlement to a subaccount or a directory
 [Working with Resources of the SAP Service Manager Using the btp CLI](working-with-resources-of-the-sap-service-manager-using-the-btp-cli-fe6a53b.md "Use the SAP BTP command line interface to perform various operations related to your platforms, attached service brokers, service instances, and service bindings.")
 
 [btp CLI Command Reference](https://help.sap.com/docs/BTP/btp-cli/intro.html)
-
-[Entitlements and Quotas](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/00aa2c23479d42568b18882b1ca90d79.html "When you purchase an enterprise account, you’re entitled to use a specific set of resources, such as the amount of memory that can be allocated to your applications.") :arrow_upper_right:
 

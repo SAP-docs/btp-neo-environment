@@ -18,8 +18,6 @@ Use the procedures below to configure an Identity Authentication tenant as platf
 
 -   You have a user with Administrator role for your subaccount \(provided by the default user base, SAP ID Service\).
 
--   You have enabled the Platform Identity Provider service. See [Using Services in the Neo Environment](../30-development-neo/using-services-in-the-neo-environment-a32d3d5.md#loioa32d3d532e2d4dceaaca4ebab68df037).
-
 -   You have an Identity Authentication tenant registered for the SAP customer user \(s-user\) who owns your global account \(see [Global Accounts](../10-concepts-neo/account-model-722a475.md#loio9b7d44f92eec44a6ae87129c02aeec0d)\).
 
 -   The Identity Authentication tenant is configured. See [Identity Authentication documentation](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/d17a116432d24470930ebea41977a888.html).
@@ -39,13 +37,9 @@ Use the procedures below to configure an Identity Authentication tenant as platf
 
 4.  Go to the *Platform Identity Provider* tab.
 
-5.  Choose *Use Identity Authentication Tenant*.
+5.  Choose *Select Identity Authentication Tenant*.
 
-6.  Choose the required tenant and save.
-
-    ![](images/Register_an_SCI_Tenant_adb298c.png)
-
-    ![](images/SCI_Tenants_Cockpit_38c80ed.png)
+6.  Choose the required tenant from the list.
 
     The Identity Authentication tenant appears as a platform identity provider. The trust configuration with it is complete. You can proceed with adding tenant users as subaccount members, and the rest of the steps described in this document.
 

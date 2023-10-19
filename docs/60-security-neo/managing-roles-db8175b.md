@@ -165,8 +165,6 @@ This can be done in two ways: using *predefined roles* in the web.xml at develop
 > ### Tip:  
 > If you need to do mass role or group assignment, to a very large number of users simultaneously, we recommend using the Authorization Management API instead of the cockpit UI. See [Using Platform APIs](../30-development-neo/using-platform-apis-392af9d.md).
 
-![](images/HCP_Roles_65d96be.png)
-
 
 
 <a name="task_hky_cs1_sn__steps-unordered_gww_4dr_j4"/>
@@ -194,9 +192,9 @@ This can be done in two ways: using *predefined roles* in the web.xml at develop
 
     3.  Enter the *Roles* section.
 
-    4.  Choose *New Role*.
+    4.  Choose *Create*.
 
-    5.  Type the role name and choose *OK*.
+    5.  Type the role name and choose *Create*.
 
 
 -   Custom roles with applications subscribed from other accounts
@@ -207,9 +205,9 @@ This can be done in two ways: using *predefined roles* in the web.xml at develop
 
     3.  Enter the *Roles* section.
 
-    4.  Choose *New Role*.
+    4.  Choose *Create*.
 
-    5.  Type the role name and choose *OK*.
+    5.  Type the role name and choose *Create*.
 
 
 
@@ -235,9 +233,9 @@ Groups allow you to easily manage the role assignments to collections of users i
 
 2.  Enter the *Groups* tab.
 
-3.  Choose *New Group*.
+3.  Choose *Create*.
 
-4.  Enter the group name and choose *Save*.
+4.  Enter the group name and choose *Create*.
 
 
 <a name="task_n24_4s1_sn"/>
@@ -274,11 +272,7 @@ You can do it in either of the two ways: using the *Security* \> *Roles* section
 
     6.  Enter the user or group name.
 
-        ![](images/HCP_Assign_User_to_Role_08648dc.png)
-
-    7.  Save the changes.
-
-        ![](images/HCP_Users_and_Groups_to_Role_b6ea570.png)
+    7.  Choose *Assign*, and specify the required user or group name.
 
 
 -   Alternatively, you can do it using the *Authorizations* section for the subaccount.
@@ -287,20 +281,11 @@ You can do it in either of the two ways: using the *Security* \> *Roles* section
 
     2.  Enter the *Users* or *Groups* tab respectively.
 
-    3.  In the *User* or *Group* field respectively, enter the name of the required user or group. If you want to create a new user or group, simply assign the required roles from here.
+    3.  For the *Users* tab, enter the name of the required user and choose *Show Assignments*. For the *Groups* tab, choose the required group from the list, or create a new one and choose it.
 
-    4.  Choose *Show Assignments*. The table below shows all roles that are already assigned to this user or group.
+        The *Roles* table below shows all roles that are already assigned to this user or group.
 
-        ![](images/groups_12a_png_7611b6f.png)
-
-    5.  If you are adding an individual user, choose the required application and the role the user will have. If you are adding a group, select the existing group from the list.
-
-        ![](images/assign_roles_group_12a_png_7611375.png)
-
-        > ### Tip:  
-        > You can use regular expressions to narrow the groups found.
-
-    6.  Save the changes.
+    4.  In the *Roles* table, choose *Assign*, and specify the required role.
 
 
 
@@ -308,103 +293,191 @@ You can do it in either of the two ways: using the *Security* \> *Roles* section
 
 <!-- task\_lbt\_xs1\_sn -->
 
-## 4. \(If Using an Identity Provider\) Define the Group-to-Role Mapping
+## \(Optional\) \(If Using an Identity Provider\) 4. Define Automatic Assignments of Users to Groups
+
+
+
+<a name="task_lbt_xs1_sn__prereq_flg_3yb_bzb"/>
+
+## Prerequisites
+
+-   Your subaccount has a *Custom* trust configuration with at least one fully configured application identity provider. See [Application Identity Provider](application-identity-provider-dc61853.md#loiodc618538d97610148155d97dcd123c24) and [Identity Authentication Tenant as an Application Identity Provider](identity-authentication-tenant-as-an-application-identity-provider-d3df5b4.md).
+-   You have defined the groups and their role assignments in the *Security* \> *Authorizations* section of the cockpit. See *Step 2* and *Step 3*.
 
 
 
 ## Context
 
-For each different IdP, you then define a set of rules specifying to which groups a user logged by this IdP belongs.
-
-> ### Note:  
-> You must have defined groups in advance before you define default or assertion-based groups for this IdP.
-
-Default groups are the groups all users logged by this IdP will have. For example, all users logged by the company IdP can belong to the group "*Internal*".
-
-Assertion-based groups are groups determined by values of attributes in the SAML 2.0 assertion. For example, if the assertion contains the attribute "`contract=temporary`", you may want all such users to be added to the group "*TEMPORARY*".
+For each different identity provider \(IdP\), you can define a set of rules specifying automatic group assignments for the users logged by this IdP. If you have already assigned those groups to roles, this will result in the IdP users automatically getting the required roles.
 
 
 
-<a name="task_lbt_xs1_sn__steps-unordered_hsg_43y_j4"/>
+<a name="task_lbt_xs1_sn__steps_fmq_kzb_bzb"/>
 
 ## Procedure
 
--   Defining Default Groups
+1.  Go to the *Security* \> *Trust* \> *Application Identity Provider* section in the cockpit.
 
-    1.  In the cockpit, navigate to *Security* \> *Authorizations* \> *Groups*, and choose *Add Default Group*.
+2.  Select the required application identity provider from the list.
 
-    2.  From the dropdown list that appears, choose the required group.
+3.  In the identity provider settings, go to the *Groups* section.
 
-
--   Defining Assertion-Based Groups
-
-    1.  In the cockpit, navigate to *Security* \> *Authorizations* \> *Groups*, and choose *Add Assertion-Based Group*. A new row appears and a new mapping rule is now being created.
-
-    2.  Enter the name of the group to which users will be mapped. Then define the rule for this mapping.
-
-    3.  In the first field of the *Mapping Rules* section, enter the SAML 2.0 assertion attribute name to be used as the mapping source. In other words, the value of this attribute will be compared with the value you specify \(in the last field of *Mapping Rules*\).
-
-    4.  Choose the comparison operator.
+    There are two IdP group types: default groups and assertion-based groups.
 
 
-        <table>
-        <tr>
-        <td valign="top">
-        
-        Equals
+    <table>
+    <tr>
+    <th valign="top">
+
+    IdP Group Type
 
 
-        
-        </td>
-        <td valign="top">
-        
-        Choose *Equals* if you want the value of the SAML 2.0 assertion attribute to match exactly the string you specify. Note that if you want to use more sophisticated relations, such as "starts with" or "contains", you need to use the *Regular expression* option.
+    
+    </th>
+    <th valign="top">
+
+    Description
 
 
-        
-        </td>
-        </tr>
-        <tr>
-        <td valign="top">
-        
-        Regular expression
+    
+    </th>
+    <th valign="top">
+
+    Example
 
 
-        
-        </td>
-        <td valign="top">
-        
-        Choose *Regular expression* if you want to specify more sophisticated matching rules. You can use all regular expression rules described in the[Java RegEx API](http://docs.oracle.com/javase/6/docs/api/java/util/regex/Pattern.html).
-
-        **Example 1**: You want to add authenticated SAP employees to group *Employees*. And SAP employees are users with e-mail address ending with *sap.com*. Hence, you choose the mapping rule to be *email*, matched using the following regular expression:
-
-        *.\*@sap.com$*
-
-        **Example 2**: You want all users with name starting with admin to be added to group *Administrators*. Hence, you choose the mapping rule to be userid, matched using the following regular expression:
-
-        *^\(admin\).\** 
+    
+    </th>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    Default group
 
 
-        
-        </td>
-        </tr>
-        </table>
-        
-    5.  In the last field of *Mapping Rules*, enter the value with which you compare the specified SAML 2.0 assertion attribute.
+    
+    </td>
+    <td valign="top">
+    
+    All users logged by this IdP will have this group assignment.
 
-    6.  You can specify more than one mapping rule for a specific group. Use the plus button to add as many rules as required.
+
+    
+    </td>
+    <td valign="top">
+    
+    All users logged by the company IdP can be assigned to the group *Internal*. You may decide to give this group the role *Access Internal Corporate Portal*.
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    Assertion-based group
+
+
+    
+    </td>
+    <td valign="top">
+    
+    Determined by values of attributes in the SAML 2.0 assertion.Only the IdP users that have the required values will be assigned to it.
+
+
+    
+    </td>
+    <td valign="top">
+    
+    The users with SAML 2.0 assertion containing the attribute `contract=temporary` will be assigned to the group *TEMPORARY*. The users with SAML 2.0 assertion containing the attribute `contract=permanent` will be assigned to the group *PERMANENT*. The two groups will have different role assignments.
+
+
+    
+    </td>
+    </tr>
+    </table>
+    
+4.  Define the groups as required.
+
+    -   Default groups
+
+        Choose *Add Default Group*, and select the required group from the drop-down list.
 
         > ### Note:  
-        > Adding a new rule binds it to the rest using a logical OR operator.
+        > If the list is empty or the group you need is missing, you can create it from the *Security* \> *Trust* \> *Authorizations* \> *Groups* section in the cockpit. You can then assign the required roles for it in the same section.
 
-        > ### Note:  
-        > Adding a new subrule binds it to the rest of the subrules using a logical AND operator.
+    -   Assertion-based groups
+        1.  Choose *Add Assertion-Based Group*, and select the required group from the drop-down list..
 
-        In the image below, all users logged by this IdP are added to the group *Government*. The users that have an arrtibute corresponding to their department name will also be assigned to the respective department groups.
+            > ### Note:  
+            > If the list is empty or the group you need is missing, you can create it from the *Security* \> *Trust* \> *Authorizations* \> *Groups* section in the cockpit. You can then assign the required roles for it in the same section.
 
-        ![](images/trusted_idp_groups_png_c243279.png)
+        2.  Specify the mapping rules.
 
-        When you open the *Groups* tab page of the *Authorizations* section, you can see the identity provider mappings for this group.
+            In the first field of the *Mapping Rules* section, enter the SAML 2.0 assertion attribute name to be used as the mapping source. In other words, the value of this attribute will be compared with the value you specify \(in the last field of *Mapping Rules*\).
+
+        3.  Choose the comparison operator.
+
+
+            <table>
+            <tr>
+            <td valign="top">
+            
+            Equals
+
+
+            
+            </td>
+            <td valign="top">
+            
+            Choose *Equals* if you want the value of the SAML 2.0 assertion attribute to match exactly the string you specify. Note that if you want to use more sophisticated relations, such as "starts with" or "contains", you need to use the *Regular expression* option.
+
+
+            
+            </td>
+            </tr>
+            <tr>
+            <td valign="top">
+            
+            Regular expression
+
+
+            
+            </td>
+            <td valign="top">
+            
+            Choose *Regular expression* if you want to specify more sophisticated matching rules. You can use all regular expression rules described in the[Java RegEx API](http://docs.oracle.com/javase/6/docs/api/java/util/regex/Pattern.html).
+
+            **Example 1**: You want to add authenticated SAP employees to group *Employees*. And SAP employees are users with e-mail address ending with *sap.com*. Hence, you choose the mapping rule to be *email*, matched using the following regular expression:
+
+            *.\*@sap.com$*
+
+            **Example 2**: You want all users with name starting with admin to be added to group *Administrators*. Hence, you choose the mapping rule to be userid, matched using the following regular expression:
+
+            *^\(admin\).\** 
+
+
+            
+            </td>
+            </tr>
+            </table>
+            
+        4.  In the last field of *Mapping Rules*, enter the value with which you compare the specified SAML 2.0 assertion attribute.
+
+            > ### Note:  
+            > Adding a new rule binds it to the rest using a logical OR operator.
+
+            > ### Note:  
+            > Adding a new subrule binds it to the rest of the subrules using a logical AND operator.
+
+            ![](images/Assertion-Based_Groups_499991e.png)
+
+            In the graphic below, all users logged by this IdP are added to the group *Government*. The users that have an arrtibute corresponding to their department name will also be assigned to the respective department groups.
+
+            ![](images/trusted_idp_groups_png_c243279.png)
+
+            When you open the *Groups* tab page of the *Authorizations* section, you can see the identity provider mappings for this group.
+
 
 
 

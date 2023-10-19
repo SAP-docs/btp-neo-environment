@@ -2,7 +2,7 @@
 
 # Remove the Custom Domain
 
-If you do not want to use the custom domain any longer, you can remove it using the console client commands. As a result, your application will be accessible only on its default hana.ondemand.com domain.
+If you do not want to use the custom domain any longer, you can remove it using the console client commands. As a result, your application will be accessible only on its default hana.ondemand.com domain and you won't be charged for the custom domain anymore.
 
 
 
@@ -22,7 +22,7 @@ If you do not want to use the custom domain any longer, you can remove it using 
 
 1.  In the console client command line, execute `neo remove-custom-domain`.
 
-    Note that you will need the SSL host name defined when configuring the custom domain. You can view it by executing `list-ssl-hosts`.
+    Note that you will need the SSL host name defined when configuring the custom domain. You can view it by running the `list-ssl-hosts` command.
 
     ```
     neo remove-custom-domain --account mysubaccount --user mymail@example.com --host hana.ondemand.com
@@ -30,13 +30,41 @@ If you do not want to use the custom domain any longer, you can remove it using 
     
     ```
 
-2.  Unbind the certificate.
+2.  Remove all trusted CA certificates from the SSL host of the custom domain that you want to remove, if any.
+
+    > ### Note:  
+    > To check whether you have any CA bundles assigned to the SSL host, run the `set-ssl-host` command without any optional parameters. For example:
+    > 
+    > ```
+    > neo set-ssl-host --account mysubaccount --user mymail@example.com --host hana.ondemand.com -name mysslhostname
+    > ```
+    > 
+    > If there are no CA bundles assigned to the SSL host, proceed to step 3.
+
+    1.  Remove the client certificate configuration for the specified CA bundle and unassign that bundle from the SSL host:
+
+        ```
+        neo set-ssl-host --account mysubaccount --user mymail@example.com --host hana.ondemand.com -name mysslhostname --ca-bundle <bundle_name>:none
+        ```
+
+        For more information, see [set-ssl-host](set-ssl-host-2956975.md).
+
+    2.  Delete the bundle and all trusted CA certificates in it:
+
+        ```
+        neo remove-ca --account mysubaccount --user mymail@example.com --host hana.ondemand.com --bundle <bundle_name>
+        ```
+
+        For more information, see [remove-ca](remove-ca-55b61e4.md).
+
+
+3.  Unbind the certificate.
 
     ```
     neo unbind-domain-certificate --account mysubaccount --user mymail@example.com --host hana.ondemand.com --ssl-host mysslhostname  
     ```
 
-3.  Delete the certificate.
+4.  Delete the certificate.
 
     Note that you will need the certificate name defined when configuring the custom domain.
 
@@ -45,7 +73,7 @@ If you do not want to use the custom domain any longer, you can remove it using 
     
     ```
 
-4.  Delete the SSL host.
+5.  Delete the SSL host.
 
     ```
     neo delete-ssl-host --account mysubaccount --user mymail@example.com --host hana.ondemand.com --name mysslhostname

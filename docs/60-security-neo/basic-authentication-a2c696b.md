@@ -87,7 +87,7 @@ Alternatively, you can use your Identity Authentication tenant that provides you
 
     In the *Basic Authentication* section, you can configure the user base for basic authentication. By default, it is SAP ID Service. You can change it to an Identity Authentication tenant, and back to SAP ID Service.
 
-3.  If you want to use an Identity Authentication tenant, choose the Use Identity Authentication tenant button, and select the required tenant from the list.
+3.  If you want to use an Identity Authentication tenant, choose the *Select Identity Authentication* tenant button, and select the required tenant from the list.
 
     > ### Tip:  
     > If you don’t see your tenant listed, create an incident in component BC-NEO-SEC-IAM. See [Getting Support, Neo Environment](../70-getting-support-neo/getting-support-neo-environment-fc2bf6a.md).

@@ -73,7 +73,7 @@ In the console client, you can configure an availability check for your SAP HANA
 **Related Information**  
 
 
-[Alerting](https://help.sap.com/viewer/64f7d2b06c6b40a9b3097860c5930641/Cloud/en-US/2f782d7f73304426b287f4b25e47f0b1.html "Configure a channel in SAP Monitoring service to receive alert notifications when your applications and database systems are in a problematic state or have recovered from such a state.") :arrow_upper_right:
+[Alerting](https://help.sap.com/viewer/64f7d2b06c6b40a9b3097860c5930641/Cloud/en-US/2f782d7f73304426b287f4b25e47f0b1.html "Configure a channel to receive alert notifications from SAP Monitoring service when your applications and database systems are in a problematic state or have recovered from such a state.") :arrow_upper_right:
 
 [Configure Availability Checks for SAP HANA XS Applications from the Cockpit](configure-availability-checks-for-sap-hana-xs-applications-from-the-cockpit-a6663f0.md "In the SAP BTP cockpit, you can configure availability checks for the SAP HANA XS applications running on your productive SAP HANA database system.")
 

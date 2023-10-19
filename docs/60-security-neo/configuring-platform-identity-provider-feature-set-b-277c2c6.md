@@ -46,11 +46,11 @@ To configure an Identity Authentication tenant as a platform identity provider f
 
     The screen shows the platform identity provider in use. By default, this is SAP ID Service.
 
-3.  Choose the *Use Identity Authentication Tenant* button.
+3.  Choose the *Select Identity Authentication Tenant* button.
 
     A list of all tenants available for your current Neo subaccount appears.
 
-4.  Pick the required tenant and save.
+4.  Select the required tenant from the list.
 
     The screen now shows the Identity Authentication tenant as the platform identity provider in use. You can switch back to SAP ID Service \(using the respective button\) or change to another tenant \(if available\).
 

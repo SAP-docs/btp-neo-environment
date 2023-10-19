@@ -113,12 +113,13 @@ User name and password
 </td>
 <td valign="top">
 
-HTTP BASIC authentication delegated to SAP ID service or an on-premise SAP NetWeaver AS Java system. Web browsers prompt users to enter a user name and password.
+HTTP BASIC authentication delegated to SAP ID servic, an on-premise SAP NetWeaver AS Java system or an Identity Authentication tenant. Web browsers prompt users to enter a user name and password.
 
-By default, SAP ID service is used. \(Optional\) If you configure a connection with an on-premise user store, the authentication is delegated to an on-premise SAP NetWeaver AS Java system. See [Using an SAP System as an On-Premise User Store](using-an-sap-system-as-an-on-premise-user-store-71fdf1c.md).
+By default, SAP ID service is used.
 
-> ### Note:  
-> If you want to use your Identity Authentication tenant for BASIC authentication \(instead of SAP ID service/SAP NetWeaver\), create a customer ticket in component**BC-NEO-SEC-IAM**. In the ticket, specify the technical name of the subaccount, region and Identity Authentication tenant you want to use.
+\(Optional\) You can use an on-premise SAP NetWeaver AS Java system instead of SAP ID service. You need to configure a connection with an on-premise user store to enable this scenario. See [Using an SAP System as an On-Premise User Store](using-an-sap-system-as-an-on-premise-user-store-71fdf1c.md).
+
+\(Optional\) You can use your Identity Authentication tenant instead of SAP ID service.You need to configure the tenant in the *Basic Authentication* tab to enable this scenario. See [Basic Authentication](basic-authentication-a2c696b.md).
 
 > ### Restriction:  
 > BASIC authentication with a third-party corporate identity provider is **not** supported.
@@ -131,9 +132,11 @@ By default, SAP ID service is used. \(Optional\) If you configure a connection w
 </td>
 <td valign="top">
 
-Example 1: You want to delegate authentication to SAP ID service. Users will log in with their SCN user name and password.
+Example 1: You want to delegate authentication to SAP ID service. Application users will log in with their SAP user name and password.
 
-Example 2: You have an on-premise SAP NetWeaver AS Java system used as a user store. You want users to log in using the user name and password stored in AS Java.
+Example 2: You have a corporate on-premise SAP NetWeaver AS Java system. You want application users to log in using the user name and password stored in the corporate system.
+
+Example 3: You have a corporate Identity Authentication tenant. You want application users to log in using the user name and password stored in the tenant.
 
 
 

@@ -572,11 +572,11 @@ Yes
 > </td>
 > <td valign="top">
 > 
-> -   1 instance of SAP HANA 256 = EUR1024
+> -   1 instance of SAP HANA 256 = EUR 1024
 > 
-> -   1 instance of SAP HANA 512 = EUR2048
+> -   1 instance of SAP HANA 512 = EUR 2048
 > 
-> -   1 GB of Application Runtime = EUR100 + estimated cost distribution to subaccounts
+> -   1 GB of Application Runtime = EUR 100 + estimated cost distribution to subaccounts
 > 
 > 
 > 
@@ -593,13 +593,13 @@ Yes
 > </td>
 > <td valign="top">
 > 
-> -   Subaccount 1: 1 instance of SAP HANA 256 = EUR1024
+> -   Subaccount 1: 1 instance of SAP HANA 256 = EUR 1024
 > 
-> -   Subaccount 2: 1 instance of SAP HANA 512 = EUR2048
+> -   Subaccount 2: 1 instance of SAP HANA 512 = EUR 2048
 > 
-> -   Subaccount 1: 400 MB of Application Runtime = EUR40 \(400MB / 1GB x EUR100\)
+> -   Subaccount 1: 400 MB of Application Runtime = EUR 40 \(400 MB / 1 GB x EUR 100\)
 > 
-> -   Subaccount 2: 600 MB of Application Runtime = EUR60 \(600MB / 1GB x EUR100\)
+> -   Subaccount 2: 600 MB of Application Runtime = EUR 60 \(600 MB / 1 GB x EUR 100\)
 > 
 > 
 > 

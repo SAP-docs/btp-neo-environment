@@ -41,13 +41,10 @@ Identity Authentication service provides identity management for SAP BTP applica
 
 3.  Choose the *Application Identity Provider* tab page. Proceed here depending on one of the following cases:
 
-    -   You have a tenant for Identity Authentication service registered for the SAP customer user \(s-user\) who owns your global account \(see [Global Accounts](../10-concepts-neo/account-model-722a475.md#loio9b7d44f92eec44a6ae87129c02aeec0d)\). You want to add the tenant as an identity provider.
+    -   You have a tenant for Identity Authentication service registered for the same customer ID \(s-user\) as the global account \(see [Global Accounts](../10-concepts-neo/account-model-722a475.md#loio9b7d44f92eec44a6ae87129c02aeec0d)\). You want to add the tenant as an identity provider.
 
         1.  Click *Add Identity Authentication Tenant*.
         2.  Choose the required Identity Authentication tenant and save the changes.
-
-            ![](images/Register_an_SCI_Tenant_adb298c.png)
-
 
         In this case, the trust will be established automatically upon registration on both the SAP BTP and the tenant for Identity Authentication service side. See [Initial Setup \(Identity Authentication\)](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/31af7da133874e199a7df1d42905241b.html)
 
@@ -67,10 +64,10 @@ The tenant for Identity Authentication appears in the list of SAML identity prov
 > It will take about 2 minutes for the trust configuration with the tenant for Identity Authentication to become active.
 
 > ### Note:  
-> Each SAP BTP subaccount is a separate service provider in the tenant for Identity Authentication .
+> Each SAP BTP subaccount is a separate service provider in the tenant for Identity Authentication.
 
 > ### Tip:  
-> If you need each of your SAP BTP applications to be represented by its own service provider, you must create and use a separate subaccount for each application. See [Create a Subaccount](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/05280a123d3044ae97457a25b3013918.html "Create subaccounts in your global account using the SAP BTP cockpit.") :arrow_upper_right:.
+> If you need each of your SAP BTP applications to be represented by its own service provider, create and use a separate subaccount for each application. See [Create a Subaccount](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/05280a123d3044ae97457a25b3013918.html "Create subaccounts in your global account using the SAP BTP cockpit.") :arrow_upper_right:.
 
 **Related Information**  
 

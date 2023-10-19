@@ -72,7 +72,7 @@ Delete subaccounts using the SAP BTP cockpit to clean up your account hierarchy,
 
 [Relationship Between Global Accounts and Subaccounts](../10-concepts-neo/account-model-722a475.md#copy2c2dd70587104f459b97019691480ff6 "A global account can group together different subaccounts that an administrator makes available to users. Administrators can assign the available quotas of a global account to its different subaccounts and move it between subaccounts that belong to the same global account.")
 
-[Remove the Custom Domain](remove-the-custom-domain-318a016.md "If you do not want to use the custom domain any longer, you can remove it using the console client commands. As a result, your application will be accessible only on its default hana.ondemand.com domain.")
+[Remove the Custom Domain](remove-the-custom-domain-318a016.md "If you do not want to use the custom domain any longer, you can remove it using the console client commands. As a result, your application will be accessible only on its default hana.ondemand.com domain and you won't be charged for the custom domain anymore.")
 
 [Cloud Management Tools — Feature Set Overview](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/caf4e4e23aef4666ad8f125af393dfb2.html "Cloud management tools represent the group of technologies designed for managing SAP BTP.") :arrow_upper_right:
 
@@ -128,7 +128,7 @@ To prevent accidental deletion of subaccounts and creation of orphaned data, any
 
 [Relationship Between Global Accounts and Subaccounts](../10-concepts-neo/account-model-722a475.md#copy2c2dd70587104f459b97019691480ff6 "A global account can group together different subaccounts that an administrator makes available to users. Administrators can assign the available quotas of a global account to its different subaccounts and move it between subaccounts that belong to the same global account.")
 
-[Remove the Custom Domain](remove-the-custom-domain-318a016.md "If you do not want to use the custom domain any longer, you can remove it using the console client commands. As a result, your application will be accessible only on its default hana.ondemand.com domain.")
+[Remove the Custom Domain](remove-the-custom-domain-318a016.md "If you do not want to use the custom domain any longer, you can remove it using the console client commands. As a result, your application will be accessible only on its default hana.ondemand.com domain and you won't be charged for the custom domain anymore.")
 
 [Cloud Management Tools — Feature Set Overview](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/caf4e4e23aef4666ad8f125af393dfb2.html "Cloud management tools represent the group of technologies designed for managing SAP BTP.") :arrow_upper_right:
 

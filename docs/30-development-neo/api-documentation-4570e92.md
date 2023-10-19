@@ -121,7 +121,7 @@ The Java API documentation for the Neo environment is provided as part of the do
 
 [Checks REST API for SAP HANA XS Applications](https://help.sap.com/viewer/64f7d2b06c6b40a9b3097860c5930641/Cloud/en-US/283da4c3ff37484d93b9dc683152b8bd.html "Use the Checks API to retrieve, set, update, or delete custom checks for HTML5 applications in the Neo environment.") :arrow_upper_right:
 
-[Alerting](https://help.sap.com/viewer/64f7d2b06c6b40a9b3097860c5930641/Cloud/en-US/2f782d7f73304426b287f4b25e47f0b1.html "Configure a channel in SAP Monitoring service to receive alert notifications when your applications and database systems are in a problematic state or have recovered from such a state.") :arrow_upper_right:
+[Alerting](https://help.sap.com/viewer/64f7d2b06c6b40a9b3097860c5930641/Cloud/en-US/2f782d7f73304426b287f4b25e47f0b1.html "Configure a channel to receive alert notifications from SAP Monitoring service when your applications and database systems are in a problematic state or have recovered from such a state.") :arrow_upper_right:
 
 [Logs API for Java and HTML5 Applications](https://help.sap.com/viewer/f88a032109f0429caea276fc6e3a95f9/Cloud/en-US/ceea93da98a84f4db5f269f2f19bda16.html "Use this REST API to get log files for Java and HTML5 applications in the Neo environment.") :arrow_upper_right:
 

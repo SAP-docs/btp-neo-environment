@@ -18,11 +18,6 @@ You have received a welcome e-mail from SAP for your global account.
 
 ## Context
 
-> ### Remember:  
-> SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
-> 
-> For more information, see SAP Note [3351844](https://me.sap.com/notes/3351844).
-
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**
 
@@ -38,11 +33,11 @@ When your organization signs a contract for SAP BTP services, an e-mail is sent 
 
     When using cloud management tools feature set A: Choose [https://account.eu1.hana.ondemand.com](https://account.eu1.hana.ondemand.com) to access the cockpit.
 
-    When using cloud management tools feature set B: Choose `https://<cockpit region>.cockpit.btp.cloud.sap` to access the cockpit and replace <code><i class="varname">&lt;cockpit region&gt;</i></code> with one of the following, depending on your geographic location:
+    When using cloud management tools feature set B:
 
-    -   `emea`
-    -   `amer`
-    -   `apac`
+    Choose `https://cockpit.btp.cloud.sap` to access the cockpit. Depending on your own geo location this URL will redirect you to the closest regional Cockpit URL.
+
+    For more information, see [Cloud Management Tools — Feature Set Overview](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/caf4e4e23aef4666ad8f125af393dfb2.html "Cloud management tools represent the group of technologies designed for managing SAP BTP.") :arrow_upper_right:.
 
     > ### Note:  
     > If single sign-on has not been configured for you, you will have to enter your credentials. You’ll find your logon ID in your Welcome e-mail.
