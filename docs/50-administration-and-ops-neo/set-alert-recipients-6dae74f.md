@@ -69,16 +69,12 @@ neo set-alert-recipients -a <subaccount_technical_name> -u <e-mail_or_user> -e <
 
 Required
 
-
-
 </th>
 </tr>
 <tr>
 <td valign="top">
 
 `-a`, `--account`
-
-
 
 </td>
 <td valign="top">
@@ -89,16 +85,12 @@ Subaccount technical name
 
 When you configure alerting on subaccount level by omitting the `-b` or `--application` parameter, alerts are sent for all applications and database systems in the subaccount.
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-u`, `--user`
-
-
 
 </td>
 <td valign="top">
@@ -107,16 +99,12 @@ Use your email, SAP ID, or user name
 
 `Type`: string
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-e`, `--email`
-
-
 
 </td>
 <td valign="top">
@@ -127,8 +115,6 @@ We recommend that you use distribution lists rather than personal email addresse
 
 `Type`: string
 
-
-
 </td>
 </tr>
 <tr>
@@ -136,16 +122,12 @@ We recommend that you use distribution lists rather than personal email addresse
 
 `-h`, `--host`
 
-
-
 </td>
 <td valign="top">
 
 Enter a region host.
 
 `Type`: URL, for acceptable values see [Regions](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/350356d1dc314d3199dca15bd2ab9b0e.html "You can deploy applications in different regions. Each region represents a geographical location (for example, Europe, US East) where applications, data, or services are hosted.") :arrow_upper_right:.
-
-
 
 </td>
 </tr>
@@ -158,16 +140,12 @@ Enter a region host.
 
 Optional
 
-
-
 </th>
 </tr>
 <tr>
 <td valign="top">
 
 `-b`, `--application` 
-
-
 
 </td>
 <td valign="top">
@@ -176,16 +154,12 @@ Application name for Java or HTML5 applications, or productive SAP HANA instance
 
 `Type`: string \(up to 30 characters; lowercase letters and numbers, starting with a letter\)
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-w`, `--overwrite`
-
-
 
 </td>
 <td valign="top">
@@ -195,8 +169,6 @@ Overwrites existing recipients
 `Default`: false
 
 `Type`: boolean
-
-
 
 </td>
 </tr>

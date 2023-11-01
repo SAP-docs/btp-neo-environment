@@ -55,21 +55,15 @@ The properties are the following:
 
 System Property
 
-
-
 </th>
 <th valign="top">
 
 Value
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -78,21 +72,15 @@ Description
 
 `com.sap.cloud.security.um.user_provider_name`
 
-
-
 </td>
 <td valign="top">
 
 *onpremise*
 
-
-
 </td>
 <td valign="top">
 
 This property specifies what user provider the application VM uses.
-
-
 
 </td>
 </tr>
@@ -101,21 +89,15 @@ This property specifies what user provider the application VM uses.
 
 `com.sap.cloud.security.um.destination_name`
 
-
-
 </td>
 <td valign="top">
 
 *<on-premise\_destination\_name\>*
 
-
-
 </td>
 <td valign="top">
 
 This property specifies the destination used by the on-premise user provider for the connection to the on-premise system. For more information about the destination, see [Managing Destinations](https://help.sap.com/viewer/b865ed651e414196b39f8922db2122c7/Cloud/en-US/e4f1d97cbb571014a247d10f9f9a685d.html "") :arrow_upper_right:.
-
-
 
 </td>
 </tr>
@@ -192,21 +174,15 @@ You have to set the following properties for the destination of the cloud applic
 
 Destination Property
 
-
-
 </th>
 <th valign="top">
 
 Value
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -215,21 +191,15 @@ Description
 
 Name
 
-
-
 </td>
 <td valign="top">
 
 *<on-premise\_destination\_name\>*
 
-
-
 </td>
 <td valign="top">
 
 The name of the destination must match with the value of system property `com.sap.cloud.security.um.destination_name`.
-
-
 
 </td>
 </tr>
@@ -238,21 +208,15 @@ The name of the destination must match with the value of system property `com.sa
 
 Type
 
-
-
 </td>
 <td valign="top">
 
 *HTTP*
 
-
-
 </td>
 <td valign="top">
 
 For more information, see [HTTP Destinations](https://help.sap.com/viewer/b865ed651e414196b39f8922db2122c7/Cloud/en-US/b068356dd7c34cf7ad6b6023deeb317d.html "") :arrow_upper_right:.
-
-
 
 </td>
 </tr>
@@ -261,21 +225,15 @@ For more information, see [HTTP Destinations](https://help.sap.com/viewer/b865ed
 
 URL
 
-
-
 </td>
 <td valign="top">
 
 *https:// < AS Java Host\>:<AS Java HTTPS Port\>/scim/v1/* Or *http:// <Virtual host configured in Cloud Connector\>:<virtual Port\>/scim/v1/*
 
-
-
 </td>
 <td valign="top">
 
 The URL to the on-premise AS Java system if it is exposed via reverse proxy. Or in case the on-premise systems is exposed via HANA Cloud Connector the virtual URL configured in Cloud Connector. In this case, the configured protocol should be http as the connectivity service is using secure tunneling to the on-premise system.
-
-
 
 </td>
 </tr>
@@ -284,14 +242,10 @@ The URL to the on-premise AS Java system if it is exposed via reverse proxy. Or 
 
 Proxy Type
 
-
-
 </td>
 <td valign="top">
 
 *Internet* or *OnPremise*
-
-
 
 </td>
 <td valign="top">
@@ -314,21 +268,15 @@ Proxy Type
 
 Authentication
 
-
-
 </td>
 <td valign="top">
 
 *BasicAuthentication* or *ClientCertificateAuthentication*
 
-
-
 </td>
 <td valign="top">
 
 For the configuration of such an authentication, you need to specify the credentials of the service user from the on-premise system. For more information about the destination configuration, see [HTTP Destinations](https://help.sap.com/viewer/b865ed651e414196b39f8922db2122c7/Cloud/en-US/b068356dd7c34cf7ad6b6023deeb317d.html "") :arrow_upper_right:.
-
-
 
 </td>
 </tr>
@@ -337,21 +285,15 @@ For the configuration of such an authentication, you need to specify the credent
 
 User
 
-
-
 </td>
 <td valign="top">
 
 *<user name\>*
 
-
-
 </td>
 <td valign="top">
 
 This property is used for basic authentication only, and it specifies the name of the service user in the on-premise AS Java system.
-
-
 
 </td>
 </tr>
@@ -360,21 +302,15 @@ This property is used for basic authentication only, and it specifies the name o
 
 Password
 
-
-
 </td>
 <td valign="top">
 
 *<password\>*
 
-
-
 </td>
 <td valign="top">
 
 This property is used for basic authentication only, and it specifies the service user's password.
-
-
 
 </td>
 </tr>

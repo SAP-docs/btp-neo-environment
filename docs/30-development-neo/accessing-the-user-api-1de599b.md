@@ -77,21 +77,15 @@ Calling the `/currentUser` endpoint returns a JSON object that provides the user
 
 Property Name
 
-
-
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Principal Attribute
-
-
 
 </th>
 </tr>
@@ -100,21 +94,15 @@ Principal Attribute
 
 `name` 
 
-
-
 </td>
 <td valign="top">
 
 The user ID that is used for logging on.
 
-
-
 </td>
 <td valign="top">
 
 n.a.
-
-
 
 </td>
 </tr>
@@ -123,21 +111,15 @@ n.a.
 
 `firstName` 
 
-
-
 </td>
 <td valign="top">
 
 The first name of the user.
 
-
-
 </td>
 <td valign="top">
 
 firstname
-
-
 
 </td>
 </tr>
@@ -146,21 +128,15 @@ firstname
 
 `lastName` 
 
-
-
 </td>
 <td valign="top">
 
 The last name of the user.
 
-
-
 </td>
 <td valign="top">
 
 lastname
-
-
 
 </td>
 </tr>
@@ -169,21 +145,15 @@ lastname
 
 `email` 
 
-
-
 </td>
 <td valign="top">
 
 The email address of the user.
 
-
-
 </td>
 <td valign="top">
 
 email
-
-
 
 </td>
 </tr>
@@ -192,21 +162,15 @@ email
 
 `displayName` 
 
-
-
 </td>
 <td valign="top">
 
 Concatenated user name derived from the first name, last name, and user ID. If either the first or the last name does not exist, the `displayName` consists solely of the user ID.
 
-
-
 </td>
 <td valign="top">
 
 firstname + lastname + name
-
-
 
 </td>
 </tr>
@@ -267,35 +231,25 @@ For some endpoints, you can use query parameters to influence the output behavio
 
 URL Parameter
 
-
-
 </th>
 <th valign="top">
 
 Type/Unit
-
-
 
 </th>
 <th valign="top">
 
 Default
 
-
-
 </th>
 <th valign="top">
 
 Recommended Value
 
-
-
 </th>
 <th valign="top">
 
 Behavior
-
-
 
 </th>
 </tr>
@@ -304,28 +258,20 @@ Behavior
 
 `multiValuesAsArrays` 
 
-
-
 </td>
 <td valign="top">
 
 Boolean
-
-
 
 </td>
 <td valign="top">
 
 ***false*** 
 
-
-
 </td>
 <td valign="top">
 
 `true`
-
-
 
 </td>
 <td valign="top">

@@ -51,21 +51,15 @@ The table below summarizes the Java Request Specifications \(JSRs\) supported in
 
 Supported Java EE 6 Specification
 
-
-
 </th>
 <th valign="top">
 
 SDK for Java Web
 
-
-
 </th>
 <th valign="top">
 
 SDK for Java EE 6 WebProfile
-
-
 
 </th>
 </tr>
@@ -74,21 +68,15 @@ SDK for Java EE 6 WebProfile
 
 Servlet 3.0
 
-
-
 </td>
 <td valign="top">
 
 yes
 
-
-
 </td>
 <td valign="top">
 
 yes
-
-
 
 </td>
 </tr>
@@ -97,21 +85,15 @@ yes
 
 JavaServer Pages \(JSP\) 2.2
 
-
-
 </td>
 <td valign="top">
 
 yes
 
-
-
 </td>
 <td valign="top">
 
 yes
-
-
 
 </td>
 </tr>
@@ -120,21 +102,15 @@ yes
 
 Expression Language \(EL\) 2.2
 
-
-
 </td>
 <td valign="top">
 
 yes
 
-
-
 </td>
 <td valign="top">
 
 yes
-
-
 
 </td>
 </tr>
@@ -143,21 +119,15 @@ yes
 
 Debugging Support for Other Languages 1.0
 
-
-
 </td>
 <td valign="top">
 
 yes
 
-
-
 </td>
 <td valign="top">
 
 yes
-
-
 
 </td>
 </tr>
@@ -166,21 +136,15 @@ yes
 
 Standard Tag Library for JavaServer Pages \(JSTL\) 1.2
 
-
-
 </td>
 <td valign="top">
 
 yes
 
-
-
 </td>
 <td valign="top">
 
 yes
-
-
 
 </td>
 </tr>
@@ -189,21 +153,15 @@ yes
 
 Common Annotations for Java Platform 1.1
 
-
-
 </td>
 <td valign="top">
 
 yes
 
-
-
 </td>
 <td valign="top">
 
 yes
-
-
 
 </td>
 </tr>
@@ -212,21 +170,15 @@ yes
 
 Java API for WebSocket
 
-
-
 </td>
 <td valign="top">
 
 yes
 
-
-
 </td>
 <td valign="top">
 
 yes
-
-
 
 </td>
 </tr>
@@ -235,21 +187,15 @@ yes
 
 JavaServer Faces \(JSF\) 2.0
 
-
-
 </td>
 <td valign="top">
 
 no
 
-
-
 </td>
 <td valign="top">
 
 yes
-
-
 
 </td>
 </tr>
@@ -258,21 +204,15 @@ yes
 
 Enterprise JavaBeans \(EJB\) Lite 3.1
 
-
-
 </td>
 <td valign="top">
 
 no
 
-
-
 </td>
 <td valign="top">
 
 yes
-
-
 
 </td>
 </tr>
@@ -281,21 +221,15 @@ yes
 
 Java Transaction API \(JTA\) 1.1
 
-
-
 </td>
 <td valign="top">
 
 no
 
-
-
 </td>
 <td valign="top">
 
 yes
-
-
 
 </td>
 </tr>
@@ -304,21 +238,15 @@ yes
 
 Java Persistence API \(JPA\) 2.0
 
-
-
 </td>
 <td valign="top">
 
 no
 
-
-
 </td>
 <td valign="top">
 
 yes
-
-
 
 </td>
 </tr>
@@ -327,21 +255,15 @@ yes
 
 Dependency Injection for Java 1.0
 
-
-
 </td>
 <td valign="top">
 
 no
 
-
-
 </td>
 <td valign="top">
 
 yes
-
-
 
 </td>
 </tr>
@@ -350,21 +272,15 @@ yes
 
 Contexts and Dependency Injection for Java EE platform 1.0
 
-
-
 </td>
 <td valign="top">
 
 no
 
-
-
 </td>
 <td valign="top">
 
 yes
-
-
 
 </td>
 </tr>
@@ -373,21 +289,15 @@ yes
 
 Bean Validation 1.0
 
-
-
 </td>
 <td valign="top">
 
 no
 
-
-
 </td>
 <td valign="top">
 
 yes
-
-
 
 </td>
 </tr>
@@ -396,21 +306,15 @@ yes
 
 Managed Beans 1.0
 
-
-
 </td>
 <td valign="top">
 
 no
 
-
-
 </td>
 <td valign="top">
 
 yes
-
-
 
 </td>
 </tr>
@@ -419,21 +323,15 @@ yes
 
 Interceptors 1.1
 
-
-
 </td>
 <td valign="top">
 
 no
 
-
-
 </td>
 <td valign="top">
 
 yes
-
-
 
 </td>
 </tr>
@@ -448,21 +346,15 @@ The table below summarizes the Java Request Specifications \(JSRs\) supported in
 
 Supported Java EE 7 Specification
 
-
-
 </th>
 <th valign="top">
 
 SDK for Java Web Tomcat 8
 
-
-
 </th>
 <th valign="top">
 
 SDK for Java EE 7 Web Profile TomEE 7
-
-
 
 </th>
 </tr>
@@ -471,21 +363,15 @@ SDK for Java EE 7 Web Profile TomEE 7
 
 Servlet 3.1
 
-
-
 </td>
 <td valign="top">
 
 yes
 
-
-
 </td>
 <td valign="top">
 
 yes
-
-
 
 </td>
 </tr>
@@ -494,21 +380,15 @@ yes
 
 JavaServer Pages \(JSP\) 2.3
 
-
-
 </td>
 <td valign="top">
 
 yes
 
-
-
 </td>
 <td valign="top">
 
 yes
-
-
 
 </td>
 </tr>
@@ -517,21 +397,15 @@ yes
 
 Expression Language \(EL\) 3.0
 
-
-
 </td>
 <td valign="top">
 
 yes
 
-
-
 </td>
 <td valign="top">
 
 yes
-
-
 
 </td>
 </tr>
@@ -540,21 +414,15 @@ yes
 
 WebSocket 1.1
 
-
-
 </td>
 <td valign="top">
 
 yes
 
-
-
 </td>
 <td valign="top">
 
 yes
-
-
 
 </td>
 </tr>
@@ -563,21 +431,15 @@ yes
 
 Common Annotations for Java Platform 1.2
 
-
-
 </td>
 <td valign="top">
 
 yes
 
-
-
 </td>
 <td valign="top">
 
 yes
-
-
 
 </td>
 </tr>
@@ -586,21 +448,15 @@ yes
 
 Standard Tag Library for JavaServer Pages \(JSTL\) 1.2
 
-
-
 </td>
 <td valign="top">
 
 yes
 
-
-
 </td>
 <td valign="top">
 
 yes
-
-
 
 </td>
 </tr>
@@ -609,21 +465,15 @@ yes
 
 Debugging Support for Other Languages 1.0
 
-
-
 </td>
 <td valign="top">
 
 yes
 
-
-
 </td>
 <td valign="top">
 
 yes
-
-
 
 </td>
 </tr>
@@ -632,21 +482,15 @@ yes
 
 Java API for RESTful Web Services \(JAX-RS\) 2.0
 
-
-
 </td>
 <td valign="top">
 
 no
 
-
-
 </td>
 <td valign="top">
 
 yes
-
-
 
 </td>
 </tr>
@@ -655,21 +499,15 @@ yes
 
 JavaServer Faces \(JSF\) 2.2
 
-
-
 </td>
 <td valign="top">
 
 no
 
-
-
 </td>
 <td valign="top">
 
 yes
-
-
 
 </td>
 </tr>
@@ -678,21 +516,15 @@ yes
 
 Enterprise JavaBeans \(EJB\) Lite 3.2
 
-
-
 </td>
 <td valign="top">
 
 no
 
-
-
 </td>
 <td valign="top">
 
 yes
-
-
 
 </td>
 </tr>
@@ -701,21 +533,15 @@ yes
 
 Java Transaction API \(JTA\) 1.2
 
-
-
 </td>
 <td valign="top">
 
 no
 
-
-
 </td>
 <td valign="top">
 
 yes
-
-
 
 </td>
 </tr>
@@ -724,21 +550,15 @@ yes
 
 Java Persistence API \(JPA\) 2.1
 
-
-
 </td>
 <td valign="top">
 
 no
 
-
-
 </td>
 <td valign="top">
 
 yes
-
-
 
 </td>
 </tr>
@@ -747,21 +567,15 @@ yes
 
 Dependency Injection for Java 1.0
 
-
-
 </td>
 <td valign="top">
 
 no
 
-
-
 </td>
 <td valign="top">
 
 yes
-
-
 
 </td>
 </tr>
@@ -770,21 +584,15 @@ yes
 
 Contexts and Dependency Injection for Java EE platform 1.1
 
-
-
 </td>
 <td valign="top">
 
 no
 
-
-
 </td>
 <td valign="top">
 
 yes
-
-
 
 </td>
 </tr>
@@ -793,21 +601,15 @@ yes
 
 Bean Validation 1.1
 
-
-
 </td>
 <td valign="top">
 
 no
 
-
-
 </td>
 <td valign="top">
 
 yes
-
-
 
 </td>
 </tr>
@@ -816,21 +618,15 @@ yes
 
 Managed Beans 1.0
 
-
-
 </td>
 <td valign="top">
 
 no
 
-
-
 </td>
 <td valign="top">
 
 yes
-
-
 
 </td>
 </tr>
@@ -839,21 +635,15 @@ yes
 
 Interceptors 1.2
 
-
-
 </td>
 <td valign="top">
 
 no
 
-
-
 </td>
 <td valign="top">
 
 yes
-
-
 
 </td>
 </tr>
@@ -870,14 +660,10 @@ In addition to the standard APIs, SAP BTP offers platform-specific services that
 
 API
 
-
-
 </th>
 <th valign="top">
 
 More Information
-
-
 
 </th>
 </tr>
@@ -886,14 +672,10 @@ More Information
 
 Security
 
-
-
 </td>
 <td valign="top">
 
 [Securing Java Applications](../60-security-neo/securing-java-applications-e80af38.md) 
-
-
 
 </td>
 </tr>
@@ -902,14 +684,10 @@ Security
 
 Connectivity
 
-
-
 </td>
 <td valign="top">
 
 [Connectivity and Destination APIs](https://help.sap.com/viewer/b865ed651e414196b39f8922db2122c7/Cloud/en-US/e69bc863bb571014b358e2947e36d475.html "") :arrow_upper_right: 
-
-
 
 </td>
 </tr>
@@ -918,14 +696,10 @@ Connectivity
 
 Document
 
-
-
 </td>
 <td valign="top">
 
 [Handling CMIS Metadata](https://help.sap.com/viewer/b0cc1109d03c4dc299c215871eed8c42/Cloud/en-US/e621d26bbb571014b632dd180fb9bc19.html "One benefit of Content Management Interoperability Services (CMIS) as compared to a file system is the extended handling of metadata.") :arrow_upper_right: 
-
-
 
 </td>
 </tr>

@@ -32,8 +32,6 @@ The Home Page tiles JSON descriptor, for example, `tiles.json`, contains the def
 
 Home Page Tile Properties
 
-
-
 </th>
 </tr>
 <tr>
@@ -41,14 +39,10 @@ Home Page Tile Properties
 
 `name` 
 
-
-
 </td>
 <td valign="top">
 
 The name of the tile used to identify it. This name is used in the Home Page administration tools and it is not visible to end-users, but only to HR administrators.
-
-
 
 </td>
 </tr>
@@ -57,14 +51,10 @@ The name of the tile used to identify it. This name is used in the Home Page adm
 
 `metadata` 
 
-
-
 </td>
 <td valign="top">
 
 Defines the localized tile title and description.
-
-
 
 </td>
 </tr>
@@ -85,8 +75,6 @@ This is the title of the custom tile as it appears to end-users on the Home Page
 
 The value *en\_US* is mandatory. Otherwise, the value for other locales is not provided, and end-users will see a blank tile.
 
-
-
 </td>
 </tr>
 <tr>
@@ -103,8 +91,6 @@ The value *en\_US* is mandatory. Otherwise, the value for other locales is not p
 A metadata property.
 
 This is a subtitle that appears on custom tiles under the tile title. Subtitles are optional. If you do not want to use a subtitle, you can leave the field blank.
-
-
 
 </td>
 </tr>
@@ -123,16 +109,12 @@ A metadata property.
 
 Using this propety, you can localize the title, and the subtitle.
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `type` 
-
-
 
 </td>
 <td valign="top">
@@ -141,8 +123,6 @@ Determines how the tile appears to end-users. Currently, only static type is sup
 
 The value *static* is mandatory.
 
-
-
 </td>
 </tr>
 <tr>
@@ -150,14 +130,10 @@ The value *static* is mandatory.
 
 `configuration` 
 
-
-
 </td>
 <td valign="top">
 
 Contains the *icon* property.
-
-
 
 </td>
 </tr>
@@ -176,16 +152,12 @@ A configuration property.
 
 Contains the ID of the icon that you want to use for the custom tile. You can take its ID from SAP SuccessFactors system. Go to *Admin Center* \> *Manage Home Page* \> *Add Custom Tile* and then follow the wizard until you choose the icon in the *Tile* tab. Then, take its ID and place it in the `tiles.json`. For example, "sap-icon://add-product".
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `navigation` 
-
-
 
 </td>
 <td valign="top">

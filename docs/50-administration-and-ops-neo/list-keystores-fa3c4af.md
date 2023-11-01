@@ -29,16 +29,12 @@ To list all parameters available for this command, execute `neo help list-keysto
 
 Required
 
-
-
 </th>
 </tr>
 <tr>
 <td valign="top">
 
 `-a`, `--account`
-
-
 
 </td>
 <td valign="top">
@@ -49,16 +45,12 @@ The subaccount for which you provide username and password.
 
 `Type`: string \(up to 30 characters; lowercase letters and numbers, starting with a letter\)
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-h`, `--host`
-
-
 
 </td>
 <td valign="top">
@@ -67,8 +59,6 @@ Enter a region host.
 
 `Type`: URL. For acceptable values see [Regions](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/350356d1dc314d3199dca15bd2ab9b0e.html "You can deploy applications in different regions. Each region represents a geographical location (for example, Europe, US East) where applications, data, or services are hosted.") :arrow_upper_right:.
 
-
-
 </td>
 </tr>
 <tr>
@@ -76,16 +66,12 @@ Enter a region host.
 
 `-u`, `--user`
 
-
-
 </td>
 <td valign="top">
 
 Use your email, SAP ID or user name
 
 `Type`: string
-
-
 
 </td>
 </tr>
@@ -98,16 +84,12 @@ Use your email, SAP ID or user name
 
 Optional
 
-
-
 </th>
 </tr>
 <tr>
 <td valign="top">
 
 `-b`, `--application` 
-
-
 
 </td>
 <td valign="top">
@@ -118,8 +100,6 @@ Application name
 -   Use `--application <provider_subaccount_technical_name>:<provider_application_name>` if the application is running in another subaccount.
 
 `Type`: string \(up to 30 characters; lowercase letters and numbers, starting with a letter\)
-
-
 
 </td>
 </tr>

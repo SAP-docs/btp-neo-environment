@@ -29,14 +29,10 @@ For more information, see [Investigating Performance Issues Using the SQL Trace]
 
 Parameter
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -45,14 +41,10 @@ Description
 
 `FILE_TYPE`
 
-
-
 </td>
 <td valign="top">
 
 The type of the `Default Trace`
-
-
 
 </td>
 </tr>
@@ -61,14 +53,10 @@ The type of the `Default Trace`
 
 `FILE_ID`
 
-
-
 </td>
 <td valign="top">
 
 The identifier of the `Default Trace`
-
-
 
 </td>
 </tr>
@@ -77,14 +65,10 @@ The identifier of the `Default Trace`
 
 `ENCODING`
 
-
-
 </td>
 <td valign="top">
 
 The encoding type used in the cloud database
-
-
 
 </td>
 </tr>
@@ -93,14 +77,10 @@ The encoding type used in the cloud database
 
 `RECORD_SEPARATOR`
 
-
-
 </td>
 <td valign="top">
 
 ASCII symbol for separating the log records. In our case, it is "**|**" \(ASCII code: **124**\)
-
-
 
 </td>
 </tr>
@@ -109,14 +89,10 @@ ASCII symbol for separating the log records. In our case, it is "**|**" \(ASCII 
 
 `COLUMN_SEPARATOR`
 
-
-
 </td>
 <td valign="top">
 
 ASCII symbol for separating the columns in the `Default Trace`. In our case, it is "**\#**" \(ASCII code: **35**\)
-
-
 
 </td>
 </tr>
@@ -125,14 +101,10 @@ ASCII symbol for separating the columns in the `Default Trace`. In our case, it 
 
 `ESC_CHARACTER`
 
-
-
 </td>
 <td valign="top">
 
 ASCII symbol for escape. In our case, it is "**\\**" \(ASCII code: **92**\)
-
-
 
 </td>
 </tr>
@@ -141,14 +113,10 @@ ASCII symbol for escape. In our case, it is "**\\**" \(ASCII code: **92**\)
 
 `COLUMNS`
 
-
-
 </td>
 <td valign="top">
 
 Each log record contains the following information in the order displayed in the log file header: *Time*, *TZone*, *Severity*, *Logger*, *ACH*, *User*, *Thread*, *Bundle name*, *JPSpace*, *JPAppliance*, *JPComponent*, *Tenant Alias*, and *Text*.
-
-
 
 </td>
 </tr>
@@ -157,16 +125,12 @@ Each log record contains the following information in the order displayed in the
 
 `SEVERITY_MAP`
 
-
-
 </td>
 <td valign="top">
 
 The severity map represents the following severity levels order:
 
 FINEST|Information|FINER|Information|FINE|Information|CONFIG|Information|DEBUG|Information|PATH|Information|INFO|Information|WARNING|Warning|ERROR|Error|SEVERE|Error|FATAL|Error
-
-
 
 </td>
 </tr>
@@ -175,14 +139,10 @@ FINEST|Information|FINER|Information|FINE|Information|CONFIG|Information|DEBUG|I
 
 `HEADER_END`
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>

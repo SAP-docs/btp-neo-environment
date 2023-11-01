@@ -37,28 +37,20 @@ SAP BTP supports the following default authentication methods:
 
 Authentication Method
 
-
-
 </th>
 <th valign="top">
 
 Default Options
-
-
 
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Sample Usecase
-
-
 
 </th>
 </tr>
@@ -67,16 +59,12 @@ Sample Usecase
 
 FORM
 
-
-
 </td>
 <td valign="top">
 
 Trusted SAML 2.0 identity provider
 
 Application-to-Application SSO
-
-
 
 </td>
 <td valign="top">
@@ -85,14 +73,10 @@ FORM authentication implemented over the Security Assertion Markup Language \(SA
 
 \(Optional\) If you configure a connection with an on-premise user store, the existence of the user is also verified in the on-premise SAP NetWeaver AS Java system. See [Using an SAP System as an On-Premise User Store](using-an-sap-system-as-an-on-premise-user-store-71fdf1c.md).
 
-
-
 </td>
 <td valign="top">
 
 You want to delegate authentication to your corporate identity provider.
-
-
 
 </td>
 </tr>
@@ -101,14 +85,10 @@ You want to delegate authentication to your corporate identity provider.
 
 BASIC
 
-
-
 </td>
 <td valign="top">
 
 User name and password
-
-
 
 </td>
 <td valign="top">
@@ -138,8 +118,6 @@ Example 2: You have a corporate on-premise SAP NetWeaver AS Java system. You wan
 
 Example 3: You have a corporate Identity Authentication tenant. You want application users to log in using the user name and password stored in the tenant.
 
-
-
 </td>
 </tr>
 <tr>
@@ -147,28 +125,20 @@ Example 3: You have a corporate Identity Authentication tenant. You want applica
 
 CERT
 
-
-
 </td>
 <td valign="top">
 
 Client certificate
-
-
 
 </td>
 <td valign="top">
 
 Used for authentication only with client certificate. See [Enabling Client Certificate Authentication](enabling-client-certificate-authentication-0d7cf63.md).
 
-
-
 </td>
 <td valign="top">
 
 Users log in using their corporate client certificates.
-
-
 
 </td>
 </tr>
@@ -177,8 +147,6 @@ Users log in using their corporate client certificates.
 
 BASICCERT
 
-
-
 </td>
 <td valign="top">
 
@@ -186,21 +154,15 @@ User name and password
 
 Client certificate
 
-
-
 </td>
 <td valign="top">
 
 Used for authentication either with client certificate or with user name and password. See [Enabling Client Certificate Authentication](enabling-client-certificate-authentication-0d7cf63.md).
 
-
-
 </td>
 <td valign="top">
 
 Within the corporate network, users log in using their client certificates. Outside that network, users log in using user name and password.
-
-
 
 </td>
 </tr>
@@ -209,14 +171,10 @@ Within the corporate network, users log in using their client certificates. Outs
 
 OAUTH
 
-
-
 </td>
 <td valign="top">
 
 OAuth 2.0 token
-
-
 
 </td>
 <td valign="top">
@@ -233,16 +191,12 @@ Authentication according to the OAuth 2.0 protocol with an OAuth access token. S
 
 You have a mobile application consuming REST APIs using the OAuth 2.0 protocol. Users log in using an OAuth access token.
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 SAML2
-
-
 
 </td>
 <td valign="top">
@@ -251,21 +205,15 @@ Trusted SAML 2.0 identity provider
 
 Application-to-Application SSO
 
-
-
 </td>
 <td valign="top">
 
 See FORM.
 
-
-
 </td>
 <td valign="top">
 
 See FORM.
-
-
 
 </td>
 </tr>
@@ -495,14 +443,10 @@ Use the following components if you need to create a ticket for Authorization an
 
 Suport Component
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -511,14 +455,10 @@ Description
 
 BC-NEO-SEC-IAM
 
-
-
 </td>
 <td valign="top">
 
 Main support channel for tickets concerning Authorization and Trust Management in the Neo environment.
-
-
 
 </td>
 </tr>
@@ -527,14 +467,10 @@ Main support channel for tickets concerning Authorization and Trust Management i
 
 BC-NEO-SEC-CPG
 
-
-
 </td>
 <td valign="top">
 
 Support for cryptographic services, including client certificate authentication and Keystore service.
-
-
 
 </td>
 </tr>

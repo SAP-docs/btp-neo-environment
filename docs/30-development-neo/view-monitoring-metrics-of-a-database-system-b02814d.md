@@ -36,21 +36,15 @@ The *readMonitoringData* scope is assigned to the used platform role for the sub
 
 Metric
 
-
-
 </th>
 <th valign="top">
 
 Value
 
-
-
 </th>
 <th valign="top">
 
 Execution Frequency
-
-
 
 </th>
 </tr>
@@ -59,14 +53,10 @@ Execution Frequency
 
 CPU Load
 
-
-
 </td>
 <td valign="top">
 
 The percentage of the CPU that is used on average over the last minute.
-
-
 
 </td>
 <td valign="top">
@@ -74,8 +64,6 @@ The percentage of the CPU that is used on average over the last minute.
 This metric is updated every minute.
 
 An alert is triggered when 2 consecutive checks with an interval of 1 minute aren’t in an OK state.
-
-
 
 </td>
 </tr>
@@ -84,14 +72,10 @@ An alert is triggered when 2 consecutive checks with an interval of 1 minute are
 
 Disk I/O
 
-
-
 </td>
 <td valign="top">
 
 The number of bytes per second that are currently being read or written to the disc.
-
-
 
 </td>
 <td valign="top">
@@ -100,8 +84,6 @@ This metric is updated every minute.
 
 An alert is triggered when 5 consecutive checks with an interval of 1 minute aren’t in an OK state.
 
-
-
 </td>
 </tr>
 <tr>
@@ -109,14 +91,10 @@ An alert is triggered when 5 consecutive checks with an interval of 1 minute are
 
 Network Ping
 
-
-
 </td>
 <td valign="top">
 
 The percentage of packets that are lost to the database host.
-
-
 
 </td>
 <td valign="top">
@@ -124,8 +102,6 @@ The percentage of packets that are lost to the database host.
 This metric is updated every minute.
 
 An alert is triggered when 2 consecutive checks with an interval of 1 minute aren’t in an OK state.
-
-
 
 </td>
 </tr>
@@ -134,14 +110,10 @@ An alert is triggered when 2 consecutive checks with an interval of 1 minute are
 
 OS Memory Usage
 
-
-
 </td>
 <td valign="top">
 
 The percentage of the operating system memory that is currently being used.
-
-
 
 </td>
 <td valign="top">
@@ -150,16 +122,12 @@ This metric is updated every minute.
 
 An alert is triggered when 2 consecutive checks with an interval of 1 minute aren’t in an OK state.
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Used Disc Space
-
-
 
 </td>
 <td valign="top">
@@ -178,8 +146,6 @@ This metric is updated every minute.
 
 An alert is triggered when 5 consecutive checks with an interval of 1 minute aren’t in an OK state.
 
-
-
 </td>
 </tr>
 </table>
@@ -193,21 +159,15 @@ An alert is triggered when 5 consecutive checks with an interval of 1 minute are
 
 Metric
 
-
-
 </th>
 <th valign="top">
 
 Value
 
-
-
 </th>
 <th valign="top">
 
 Execution Frequency
-
-
 
 </th>
 </tr>
@@ -215,8 +175,6 @@ Execution Frequency
 <td valign="top">
 
 HANA DB Availability
-
-
 
 </td>
 <td valign="top">
@@ -235,16 +193,12 @@ This metric is updated every minute.
 
 An alert is triggered when 3 consecutive checks with an interval of 1 minute aren’t in an OK state.
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 HANA DB Alerting Availability
-
-
 
 </td>
 <td valign="top">
@@ -256,8 +210,6 @@ HANA DB Alerting Availability
 
 This metric depends on the HANA DB Availability metric.
 
-
-
 </td>
 <td valign="top">
 
@@ -265,16 +217,12 @@ This metric is updated every minute.
 
 An alert is triggered when 3 consecutive checks with an interval of 1 minute aren’t in an OK state.
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 HANA DB Compile Server
-
-
 
 </td>
 <td valign="top">
@@ -293,16 +241,12 @@ This metric is updated every 10 minutes.
 
 An alert is triggered when 3 consecutive checks with an interval of 1 minute aren’t in an OK state.
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 HANA DB Backup Volumes Availability
-
-
 
 </td>
 <td valign="top">
@@ -321,16 +265,12 @@ This metric is updated every 15 minutes.
 
 An alert is triggered when 3 consecutive checks with an interval of 1 minute aren’t in an OK state.
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 HANA DB Data Backup Age
-
-
 
 </td>
 <td valign="top">
@@ -349,16 +289,12 @@ This metric is updated every 24 hours.
 
 An alert is triggered when 3 consecutive checks with an interval of 1 minute aren’t in an OK state.
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 HANA DB Data Backup Exists
-
-
 
 </td>
 <td valign="top">
@@ -377,16 +313,12 @@ This metric is updated every 24 hours.
 
 An alert is triggered when 3 consecutive checks with an interval of 1 minute aren’t in an OK state.
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 HANA DB Data Backup Successful
-
-
 
 </td>
 <td valign="top">
@@ -405,16 +337,12 @@ This metric is updated every 24 hours.
 
 An alert is triggered when 3 consecutive checks with an interval of 1 minute aren’t in an OK state.
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 HANA DB Log Backup Successful
-
-
 
 </td>
 <td valign="top">
@@ -433,16 +361,12 @@ This metric is updated every 10 minutes.
 
 An alert is triggered when 3 consecutive checks with an interval of 1 minute aren’t in an OK state.
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 HANA DB Service Memory Usage
-
-
 
 </td>
 <td valign="top">
@@ -461,16 +385,12 @@ This metric is updated every 5 minutes.
 
 An alert is triggered when 3 consecutive checks with an interval of 1 minute aren’t in an OK state.
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 HANA XS Availability
-
-
 
 </td>
 <td valign="top">
@@ -489,16 +409,12 @@ This metric is updated every minute.
 
 An alert is triggered when 3 consecutive checks with an interval of 1 minute aren’t in an OK state.
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 HANA Dump Files Count
-
-
 
 </td>
 <td valign="top">
@@ -522,8 +438,6 @@ The metric is updated every hour.
 
 An alert is triggered when a check isn't in an OK state.
 
-
-
 </td>
 </tr>
 </table>
@@ -537,21 +451,15 @@ An alert is triggered when a check isn't in an OK state.
 
 Metric
 
-
-
 </th>
 <th valign="top">
 
 Value
 
-
-
 </th>
 <th valign="top">
 
 Execution Frequency
-
-
 
 </th>
 </tr>
@@ -559,8 +467,6 @@ Execution Frequency
 <td valign="top">
 
 Sybase ASE Availability
-
-
 
 </td>
 <td valign="top">
@@ -579,16 +485,12 @@ This metric is updated every minute.
 
 An alert is triggered when 3 consecutive checks with an interval of 1 minute aren’t in an OK state.
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Sybase ASE Long Running Trans
-
-
 
 </td>
 <td valign="top">
@@ -609,16 +511,12 @@ This metric is updated every 2 minutes.
 
 An alert is triggered when a consecutive check with an interval of 1 minute isn’t in an OK state.
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Sybase ASE HADR Fm State
-
-
 
 </td>
 <td valign="top">
@@ -639,16 +537,12 @@ This metric is updated every 2 minutes.
 
 An alert is triggered when a consecutive check with an interval of 1 minute isn’t in an OK state.
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Sybase ASE HADR Latency
-
-
 
 </td>
 <td valign="top">
@@ -669,16 +563,12 @@ This metric is updated every 2 minutes.
 
 An alert is triggered when a consecutive check with an interval of 1 minute isn’t in an OK state.
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Sybase ASE HADR Primary State
-
-
 
 </td>
 <td valign="top">
@@ -697,16 +587,12 @@ This metric is updated every 2 minutes.
 
 An alert is triggered when a consecutive check with an interval of 1 minute isn’t in an OK state.
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Sybase ASE HADR Standby State
-
-
 
 </td>
 <td valign="top">
@@ -724,8 +610,6 @@ Sybase ASE HADR Standby State
 This metric is updated every 2 minutes.
 
 An alert is triggered when a consecutive check with an interval of 1 minute isn’t in an OK state.
-
-
 
 </td>
 </tr>

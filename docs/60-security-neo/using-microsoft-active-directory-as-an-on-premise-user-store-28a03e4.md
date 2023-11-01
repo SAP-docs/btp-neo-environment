@@ -45,21 +45,15 @@ The properties are the following:
 
 System Property
 
-
-
 </th>
 <th valign="top">
 
 Value
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -68,21 +62,15 @@ Description
 
 `com.sap.cloud.security.um.user_provider_name`
 
-
-
 </td>
 <td valign="top">
 
 *onpremise*
 
-
-
 </td>
 <td valign="top">
 
 This property specifies what user provider the application VM uses.
-
-
 
 </td>
 </tr>
@@ -91,21 +79,15 @@ This property specifies what user provider the application VM uses.
 
 `com.sap.cloud.security.um.destination_name`
 
-
-
 </td>
 <td valign="top">
 
 *<on-premise\_destination\_name\>*
 
-
-
 </td>
 <td valign="top">
 
 This property specifies the destination used by the on-premise user provider for the connection to the on-premise system. For more information about the destination, see [Managing Destinations](https://help.sap.com/viewer/b865ed651e414196b39f8922db2122c7/Cloud/en-US/e4f1d97cbb571014a247d10f9f9a685d.html "") :arrow_upper_right:.
-
-
 
 </td>
 </tr>

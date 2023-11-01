@@ -74,16 +74,12 @@ You can use the following examples for both authentication types, password-based
 
 Required
 
-
-
 </th>
 </tr>
 <tr>
 <td valign="top">
 
 `-a`, `--account`
-
-
 
 </td>
 <td valign="top">
@@ -92,16 +88,12 @@ Subaccount technical name
 
 `Type`: string \(up to 30 characters; lowercase letters and numbers, starting with a letter\)
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-b`, `--application` 
-
-
 
 </td>
 <td valign="top">
@@ -110,16 +102,12 @@ Application name
 
 `Type`: string \(up to 30 characters; lowercase letters and numbers, starting with a letter\)
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-h`, `--host`
-
-
 
 </td>
 <td valign="top">
@@ -128,16 +116,12 @@ Enter a region host.
 
 `Type`: URL, for acceptable values see [Regions and Hosts Available for the Neo Environment](../10-concepts-neo/regions-and-hosts-available-for-the-neo-environment-d722f7c.md)
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-i`, `--id`
-
-
 
 </td>
 <td valign="top">
@@ -146,8 +130,6 @@ Database ID
 
 `Type`: string
 
-
-
 </td>
 </tr>
 <tr>
@@ -155,14 +137,10 @@ Database ID
 
 `--access-token`
 
-
-
 </td>
 <td valign="top">
 
 Identifies a database access permission. The access token and database ID parameters are mutually exclusive.
-
-
 
 </td>
 </tr>
@@ -171,16 +149,12 @@ Identifies a database access permission. The access token and database ID parame
 
 `-u`, `--user`
 
-
-
 </td>
 <td valign="top">
 
 Use your e-mail, SAP ID, or user name
 
 `Type`: string
-
-
 
 </td>
 </tr>
@@ -189,16 +163,12 @@ Use your e-mail, SAP ID, or user name
 
 `-p`, `--password`
 
-
-
 </td>
 <td valign="top">
 
 To protect your password, enter it only when prompted by the console client and not explicitly as a parameter in the properties file or the command line.
 
 `Type`: string
-
-
 
 </td>
 </tr>
@@ -207,8 +177,6 @@ To protect your password, enter it only when prompted by the console client and 
 
 `--db-user`
 
-
-
 </td>
 <td valign="top">
 
@@ -216,16 +184,12 @@ Name of the database user used to access the database
 
 Use it only to set password-based authentication and for bindings to productive HANA instances and databases. If skipped, you must specify `--keystore-name`.
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `--db-password`
-
-
 
 </td>
 <td valign="top">
@@ -236,16 +200,12 @@ Password of the database user used to access the database
 
 To protect your password, enter it only when prompted by the console client and not explicitly as a parameter in the properties file or the command line.
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `--keystore-name`
-
-
 
 </td>
 <td valign="top">
@@ -254,16 +214,12 @@ Name of the keystore used to access the HANA database
 
 Use it only to set authentication with an X.509 client certificate and for bindings to HANA databases on HANA 2 MDC systems. If skipped, you must specify `--db-user`. \(Only for HANA MDC databases with version 2.00.056 or higher\).
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `--keystore-password`
-
-
 
 </td>
 <td valign="top">
@@ -274,16 +230,12 @@ Password of the keystore used to access the HANA database
 
 To protect your password, enter it only when prompted by the console client and not explicitly as a parameter in the properties file or the command line.
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-s`, `--data-source`
-
-
 
 </td>
 <td valign="top">
@@ -295,8 +247,6 @@ Default: <DEFAULT\>
 The application will be able to access this database via the specified data source.
 
 Type: string \(uppercase and lowercase letters, numbers, and the following special characters: \`/\`, \`\_\`, \`-\`, \`@\`. Do not use special characters as first or last charachters of the data source name.\)
-
-
 
 </td>
 </tr>

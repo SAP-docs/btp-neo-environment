@@ -31,14 +31,10 @@ You can use these sample extension applications as a reference when developing y
 
 Sample
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -49,8 +45,6 @@ Requisition Client for the SAP Ariba Procure-to-Pay Solution
 
 [https://github.com/SAP/cloud-ariba-p2p-requisition-client-ext](https://github.com/SAP/cloud-ariba-p2p-requisition-client-ext)
 
-
-
 </td>
 <td valign="top">
 
@@ -59,8 +53,6 @@ You can use this sample to submit requisitions to your SAP Ariba instance.
 Extends: SAP Ariba Procure-To-Pay
 
 Uses: Import Requisition\(s\) API
-
-
 
 </td>
 </tr>
@@ -71,8 +63,6 @@ Catalog Client for the SAP Ariba Procure-to-Pay Solution
 
 [https://github.com/SAP/cloud-ariba-p2p-catalog-client-ext](https://github.com/SAP/cloud-ariba-p2p-catalog-client-ext)
 
-
-
 </td>
 <td valign="top">
 
@@ -81,8 +71,6 @@ You can use this sample to make a catalog search for a specified item in your SA
 Extends: SAP Ariba Procure-To-Pay
 
 Uses: Catalog Item Search API
-
-
 
 </td>
 </tr>
@@ -93,8 +81,6 @@ SAP Ariba Simple Requisition Extension
 
 [https://github.com/SAP/cloud-ariba-simple-requisition-ext](https://github.com/SAP/cloud-ariba-simple-requisition-ext)
 
-
-
 </td>
 <td valign="top">
 
@@ -104,8 +90,6 @@ Extends: SAP Ariba Procure-To-Pay
 
 Uses: Import Requisition\(s\) API
 
-
-
 </td>
 </tr>
 <tr>
@@ -114,8 +98,6 @@ Uses: Import Requisition\(s\) API
 SAP Ariba QR Code Requisition Extension
 
 [https://github.com/SAP/cloud-ariba-qrcode-requisition-ext](https://github.com/SAP/cloud-ariba-qrcode-requisition-ext)
-
-
 
 </td>
 <td valign="top">
@@ -132,8 +114,6 @@ There are two possible usage scenarios for this application:
 Extends: SAP Ariba Procure-To-Pay
 
 Uses: Catalog Item Search API, Import Requisition\(s\) API
-
-
 
 </td>
 </tr>

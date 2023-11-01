@@ -38,16 +38,12 @@ However, if you want to delete the virtual machine along with its volume and vol
 
 Required
 
-
-
 </th>
 </tr>
 <tr>
 <td valign="top">
 
 `-a`, `--account`
-
-
 
 </td>
 <td valign="top">
@@ -56,16 +52,12 @@ Subaccount technical name
 
 `Type`: string \(up to 30 characters; lowercase letters and numbers, starting with a letter\)
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-h`, `--host`
-
-
 
 </td>
 <td valign="top">
@@ -74,16 +66,12 @@ Enter a region host.
 
 `Type`: URL. For acceptable values, see [Regions](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/350356d1dc314d3199dca15bd2ab9b0e.html "You can deploy applications in different regions. Each region represents a geographical location (for example, Europe, US East) where applications, data, or services are hosted.") :arrow_upper_right:.
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-i`, `--id` 
-
-
 
 </td>
 <td valign="top">
@@ -94,16 +82,12 @@ ID of the virtual machine
 
 `Condition`: Use either `--id` or `--name`
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-p`, `--password`
-
-
 
 </td>
 <td valign="top">
@@ -112,16 +96,12 @@ To protect your password, enter it only when prompted by the console client and 
 
 `Type`: string
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-n`, `--name` 
-
-
 
 </td>
 <td valign="top">
@@ -132,8 +112,6 @@ Name of the virtual machine
 
 `Condition`: Use either `--id` or `--name`
 
-
-
 </td>
 </tr>
 <tr>
@@ -141,16 +119,12 @@ Name of the virtual machine
 
 `-u`, `--user`
 
-
-
 </td>
 <td valign="top">
 
 Use your email, SAP ID, or user name.
 
 `Type`: string
-
-
 
 </td>
 </tr>
@@ -163,8 +137,6 @@ Use your email, SAP ID, or user name.
 
 Optional
 
-
-
 </th>
 </tr>
 <tr>
@@ -172,14 +144,10 @@ Optional
 
 `-v`, `--delete-volume` 
 
-
-
 </td>
 <td valign="top">
 
 Deletes the volume referenced by the virtual machine.
-
-
 
 </td>
 </tr>
@@ -188,14 +156,10 @@ Deletes the volume referenced by the virtual machine.
 
 `-s`, `--delete-volume-snapshots` 
 
-
-
 </td>
 <td valign="top">
 
 Deletes all volume snapshots referenced by the virtual machine.
-
-
 
 </td>
 </tr>
@@ -204,14 +168,10 @@ Deletes all volume snapshots referenced by the virtual machine.
 
 `-f`, `--force` 
 
-
-
 </td>
 <td valign="top">
 
 You won't be asked to confirm the deletion of the virtual machine.
-
-
 
 </td>
 </tr>
@@ -219,8 +179,6 @@ You won't be asked to confirm the deletion of the virtual machine.
 <td valign="top">
 
 `-y`, `--synchronous` 
-
-
 
 </td>
 <td valign="top">
@@ -230,8 +188,6 @@ Waits until the deletion is complete.
 `Type:` switch; takes no value
 
 `Default`: off
-
-
 
 </td>
 </tr>

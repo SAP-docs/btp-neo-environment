@@ -47,16 +47,12 @@ The following commands are available:
 
 Required
 
-
-
 </th>
 </tr>
 <tr>
 <td valign="top">
 
 `-a`, `--account`
-
-
 
 </td>
 <td valign="top">
@@ -65,16 +61,12 @@ Subaccount technical name
 
 `Type`: string \(up to 30 characters; lowercase letters and numbers, starting with a letter\)
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-b`, `--application` 
-
-
 
 </td>
 <td valign="top">
@@ -83,16 +75,12 @@ Application name
 
 `Type`: string \(up to 30 characters; lowercase letters and numbers, starting with a letter\)
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-h`, `--host`
-
-
 
 </td>
 <td valign="top">
@@ -113,16 +101,12 @@ Enter a region host.
 
 `-i`, `--id`
 
-
-
 </td>
 <td valign="top">
 
 ID of the SAP HANA single-container database system \(XS\)
 
 `Type`: string
-
-
 
 </td>
 </tr>
@@ -131,14 +115,10 @@ ID of the SAP HANA single-container database system \(XS\)
 
 `--access-token`
 
-
-
 </td>
 <td valign="top">
 
 Identifies a database access permission. The access token and database ID parameters are mutually exclusive.
-
-
 
 </td>
 </tr>
@@ -147,16 +127,12 @@ Identifies a database access permission. The access token and database ID parame
 
 `-p`, `--password`
 
-
-
 </td>
 <td valign="top">
 
 To protect your password, enter it only when prompted by the console client and not explicitly as a parameter in the properties file or the command line.
 
 `Type`: string
-
-
 
 </td>
 </tr>
@@ -165,16 +141,12 @@ To protect your password, enter it only when prompted by the console client and 
 
 `-u`, `--user`
 
-
-
 </td>
 <td valign="top">
 
 Use your e-mail, SAP ID, or user name
 
 `Type`: string
-
-
 
 </td>
 </tr>
@@ -183,14 +155,10 @@ Use your e-mail, SAP ID, or user name
 
 `--db-password`
 
-
-
 </td>
 <td valign="top">
 
 Password of the database user used to access the SAP HANA single-container database system \(XS\)
-
-
 
 </td>
 </tr>
@@ -199,14 +167,10 @@ Password of the database user used to access the SAP HANA single-container datab
 
 `--db-user`
 
-
-
 </td>
 <td valign="top">
 
 Name of the database user used to access the SAP HANA single-container database system \(XS\)
-
-
 
 </td>
 </tr>
@@ -219,8 +183,6 @@ Name of the database user used to access the SAP HANA single-container database 
 
 Optional
 
-
-
 </th>
 </tr>
 <tr>
@@ -228,16 +190,12 @@ Optional
 
 `-s`, `--data-source`
 
-
-
 </td>
 <td valign="top">
 
 Data source name
 
 Type: string \(uppercase and lowercase letters, numbers, and the following special characters: \`/\`, \`\_\`, \`-\`, \`@\`. Do not use special characters as first or last charachters of the data source name.\)
-
-
 
 </td>
 </tr>

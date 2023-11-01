@@ -40,35 +40,25 @@ The supported target platform options describe general behavior and information 
 
 Option
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 <th valign="top">
 
 Type
 
-
-
 </th>
 <th valign="top">
 
 Default Value
 
-
-
 </th>
 <th valign="top">
 
 Mandatory
-
-
 
 </th>
 </tr>
@@ -76,8 +66,6 @@ Mandatory
 <td valign="top" colspan="2">
 
 `_schema-version`
-
-
 
 </td>
 <td valign="top">
@@ -94,21 +82,15 @@ Version of the MTA specification to which the MTA deployment descriptor complies
 
 Enclosed String, use single quotes
 
-
-
 </td>
 <td valign="top">
 
 n/a
 
-
-
 </td>
 <td valign="top">
 
 yes
-
-
 
 </td>
 </tr>
@@ -117,35 +99,25 @@ yes
 
 `ID`
 
-
-
 </td>
 <td valign="top">
 
 The identifier of the deployed artifact. The ID should follow the convention for a reverse-URL dot-notation, and it has to be unique within a particular subaccount.
-
-
 
 </td>
 <td valign="top">
 
 String
 
-
-
 </td>
 <td valign="top">
 
 n/a
 
-
-
 </td>
 <td valign="top">
 
 yes
-
-
 
 </td>
 </tr>
@@ -154,35 +126,25 @@ yes
 
 `extends`
 
-
-
 </td>
 <td valign="top">
 
 Used in MTA extension descriptor to denote which MTA deployment descriptor should be extended. Applicable only in extension descriptors.
-
-
 
 </td>
 <td valign="top">
 
 String
 
-
-
 </td>
 <td valign="top">
 
 The ID of the deployment descriptor that is to be extended
 
-
-
 </td>
 <td valign="top">
 
 yes
-
-
 
 </td>
 </tr>
@@ -190,8 +152,6 @@ yes
 <td valign="top" colspan="2">
 
 `version`
-
-
 
 </td>
 <td valign="top">
@@ -208,21 +168,15 @@ Version of the current Multitarget Application. The format of the version is a n
 
 Enclosed String, use single quotes
 
-
-
 </td>
 <td valign="top">
 
 n/a
 
-
-
 </td>
 <td valign="top">
 
 yes
-
-
 
 </td>
 </tr>
@@ -231,14 +185,10 @@ yes
 
 `parameters:`
 
-
-
 </td>
 <td valign="top">
 
 `hcp-deployer-version`
-
-
 
 </td>
 <td valign="top">
@@ -260,21 +210,15 @@ Version of the deploy service of the \(SAP BTP\) . This version differs from the
 
 Enclosed String, use single quotes
 
-
-
 </td>
 <td valign="top">
 
 n/a
 
-
-
 </td>
 <td valign="top">
 
 yes
-
-
 
 </td>
 </tr>
@@ -283,35 +227,25 @@ yes
 
 `title`
 
-
-
 </td>
 <td valign="top">
 
 Human-readable title of the application.
-
-
 
 </td>
 <td valign="top">
 
 The ID of the Multitarget Application
 
-
-
 </td>
 <td valign="top">
 
 n/a
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -320,35 +254,25 @@ no
 
 `description`
 
-
-
 </td>
 <td valign="top">
 
 Human-readable description of the application.
-
-
 
 </td>
 <td valign="top">
 
 String
 
-
-
 </td>
 <td valign="top">
 
 n/a
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -356,8 +280,6 @@ no
 <td valign="top">
 
 `logo`
-
-
 
 </td>
 <td valign="top">
@@ -382,21 +304,15 @@ The following syntax is for a `.png` logotype that has been encoded in Base64:
 
 String
 
-
-
 </td>
 <td valign="top">
 
 n/a
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -436,35 +352,25 @@ The following module types are currently supported:
 
 Supported Parameter
 
-
-
 </th>
 <th valign="top">
 
 Parameter Description
-
-
 
 </th>
 <th valign="top">
 
 Type
 
-
-
 </th>
 <th valign="top">
 
 Default Value
 
-
-
 </th>
 <th valign="top">
 
 Mandatory
-
-
 
 </th>
 </tr>
@@ -473,35 +379,25 @@ Mandatory
 
 `name`
 
-
-
 </td>
 <td valign="top">
 
 HTML5 application name, which has to be unique within the current subaccount.
-
-
 
 </td>
 <td valign="top">
 
 String
 
-
-
 </td>
 <td valign="top">
 
 n/a
 
-
-
 </td>
 <td valign="top">
 
 yes
-
-
 
 </td>
 </tr>
@@ -509,8 +405,6 @@ yes
 <td valign="top">
 
 `display-name`
-
-
 
 </td>
 <td valign="top">
@@ -527,21 +421,15 @@ Human-readable name of the application.
 
 String
 
-
-
 </td>
 <td valign="top">
 
 n/a
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -550,35 +438,25 @@ no
 
 `version`
 
-
-
 </td>
 <td valign="top">
 
 Application version to be used in the HTML5 runtime. Used for deploying Java HTML5 modules with the same version can be deployed only once. In the `version` parameter, the usage of a *<timestamp\>* read-only variable is supported. Thus, a new version string is generated with every deploy. For example, version: `'0.1.0-${timestamp}'` 
-
-
 
 </td>
 <td valign="top">
 
 String
 
-
-
 </td>
 <td valign="top">
 
 n/a
 
-
-
 </td>
 <td valign="top">
 
 yes
-
-
 
 </td>
 </tr>
@@ -587,35 +465,25 @@ yes
 
 `active`
 
-
-
 </td>
 <td valign="top">
 
 This flag indicates whether the related version of the application should be activated or not. The default value is `true`.
-
-
 
 </td>
 <td valign="top">
 
 Boolean
 
-
-
 </td>
 <td valign="top">
 
 `true`
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -624,35 +492,25 @@ no
 
 `description`
 
-
-
 </td>
 <td valign="top">
 
 Application description.
-
-
 
 </td>
 <td valign="top">
 
 String
 
-
-
 </td>
 <td valign="top">
 
 n/a
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -661,35 +519,25 @@ no
 
 `subscribe`
 
-
-
 </td>
 <td valign="top">
 
 When a provided solution is consumed, а subscription and designated entities might be created in the consumer subaccount, unless the parameter is set to `false`.
-
-
 
 </td>
 <td valign="top">
 
 Boolean
 
-
-
 </td>
 <td valign="top">
 
 `true`
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -698,35 +546,25 @@ no
 
 `sfsf-idp-access` 
 
-
-
 </td>
 <td valign="top">
 
 If true, the extension application is registered as an authorized assertion consumer service for the SAP SuccessFactors system to enable the application to use the SAP SuccessFactors identity provider \(IdP\) for authentication.
-
-
 
 </td>
 <td valign="top">
 
 Boolean
 
-
-
 </td>
 <td valign="top">
 
 `false`
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -734,8 +572,6 @@ no
 <td valign="top">
 
 `sfsf-home-page-tiles`
-
-
 
 </td>
 <td valign="top">
@@ -746,28 +582,20 @@ This parameter is a YAML dictionary with one element with key `resource` and val
 
 For more information, see [Home Page Tiles JSON File](../40-extensions-neo/home-page-tiles-json-file-872d124.md). Ensure that each tile `name` is unique within the current subaccount.
 
-
-
 </td>
 <td valign="top">
 
 Binary
-
-
 
 </td>
 <td valign="top">
 
 n/a
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -775,8 +603,6 @@ no
 <td valign="top">
 
 `permissions`
-
-
 
 </td>
 <td valign="top">
@@ -795,21 +621,15 @@ The parameter is applicable for both a standard HTML5 application, as well as fo
 
 List
 
-
-
 </td>
 <td valign="top">
 
 n/a
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -828,35 +648,25 @@ For more information about runtime containers, see [Application Runtime Containe
 
 Supported Parameter
 
-
-
 </th>
 <th valign="top">
 
 Parameter Description
-
-
 
 </th>
 <th valign="top">
 
 Type
 
-
-
 </th>
 <th valign="top">
 
 Default Value
 
-
-
 </th>
 <th valign="top">
 
 Mandatory
-
-
 
 </th>
 </tr>
@@ -865,35 +675,25 @@ Mandatory
 
 `name`
 
-
-
 </td>
 <td valign="top">
 
 Java application name, which has to be unique within the current subaccount. The `name` value length has to be between 1 and 255 symbols.
-
-
 
 </td>
 <td valign="top">
 
 String
 
-
-
 </td>
 <td valign="top">
 
 n/a
 
-
-
 </td>
 <td valign="top">
 
 yes
-
-
 
 </td>
 </tr>
@@ -902,35 +702,25 @@ yes
 
 `runtime`
 
-
-
 </td>
 <td valign="top">
 
 Only runtime `neo-javaee7-wp` is supported.
-
-
 
 </td>
 <td valign="top">
 
 String
 
-
-
 </td>
 <td valign="top">
 
 `neo-javaee7-wp`
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -939,35 +729,25 @@ no
 
 `runtime-version`
 
-
-
 </td>
 <td valign="top">
 
 Only runtime version `1` is supported.
-
-
 
 </td>
 <td valign="top">
 
 Enclosed String, use single quotes
 
-
-
 </td>
 <td valign="top">
 
 `1`
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -976,35 +756,25 @@ no
 
 `java-version`
 
-
-
 </td>
 <td valign="top">
 
 Only java version `JRE 8` is supported.
-
-
 
 </td>
 <td valign="top">
 
 String
 
-
-
 </td>
 <td valign="top">
 
 `JRE 8`
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -1013,35 +783,25 @@ no
 
 `compute-unit-size`
 
-
-
 </td>
 <td valign="top">
 
 The virtual machine computing unit size. The available sizes are `LITE`, `PRO`, `PREMIUM`, `PREMIUM_PLUS`. For more information, see [Compute Units](compute-units-7612fba.md).
-
-
 
 </td>
 <td valign="top">
 
 String
 
-
-
 </td>
 <td valign="top">
 
 `LITE`
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -1049,8 +809,6 @@ no
 <td valign="top">
 
 `minimum-processes`
-
-
 
 </td>
 <td valign="top">
@@ -1068,21 +826,15 @@ Minimum number of process instances. The allowed range is from `1` to `99`.
 
 Integer
 
-
-
 </td>
 <td valign="top">
 
 `1`
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -1090,8 +842,6 @@ no
 <td valign="top">
 
 `maximum-processes`
-
-
 
 </td>
 <td valign="top">
@@ -1109,21 +859,15 @@ Maximum number of process instances. The allowed range is from `1` to `99`.
 
 Integer
 
-
-
 </td>
 <td valign="top">
 
 `1`
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -1131,8 +875,6 @@ no
 <td valign="top">
 
 `rolling-update`
-
-
 
 </td>
 <td valign="top">
@@ -1149,21 +891,15 @@ Performs update of an application without downtime in one go.
 
 Boolean
 
-
-
 </td>
 <td valign="top">
 
 `false`
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -1171,8 +907,6 @@ no
 <td valign="top">
 
 `rolling-update-timeout`
-
-
 
 </td>
 <td valign="top">
@@ -1189,21 +923,15 @@ Defines how long the old process will be disabled before it is stopped.
 
 Integer
 
-
-
 </td>
 <td valign="top">
 
 `60`
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -1212,35 +940,25 @@ no
 
 `running-processes`
 
-
-
 </td>
 <td valign="top">
 
 Specifies how many processes will run at the end of the state of the Java application. If not specified, the minimum number is used.
-
-
 
 </td>
 <td valign="top">
 
 Integer
 
-
-
 </td>
 <td valign="top">
 
 n/a
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -1249,35 +967,25 @@ no
 
 `jvm-arguments`
 
-
-
 </td>
 <td valign="top">
 
 The relevant JVM arguments employed by the customer application.
-
-
 
 </td>
 <td valign="top">
 
 String
 
-
-
 </td>
 <td valign="top">
 
 n/a
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -1286,35 +994,25 @@ no
 
 `max-threads`
 
-
-
 </td>
 <td valign="top">
 
 The maximum allowed number of threads.
-
-
 
 </td>
 <td valign="top">
 
 Integer
 
-
-
 </td>
 <td valign="top">
 
 `200`
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -1323,35 +1021,25 @@ no
 
 `connection-timeout`
 
-
-
 </td>
 <td valign="top">
 
 The maximum timeout period for the connection, in milliseconds.
-
-
 
 </td>
 <td valign="top">
 
 Integer
 
-
-
 </td>
 <td valign="top">
 
 `20000`
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -1360,35 +1048,25 @@ no
 
 `encoding`
 
-
-
 </td>
 <td valign="top">
 
 The used Uniform Resource Identifier \(URI\) encoding standard.
-
-
 
 </td>
 <td valign="top">
 
 String
 
-
-
 </td>
 <td valign="top">
 
 `ISO-8859-1`
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -1396,8 +1074,6 @@ no
 <td valign="top">
 
 `compression`
-
-
 
 </td>
 <td valign="top">
@@ -1414,21 +1090,15 @@ The use of gzip compression for optimizing HTTP response time between the Web se
 
 String
 
-
-
 </td>
 <td valign="top">
 
 `off`
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -1437,35 +1107,25 @@ no
 
 `compression-mime-types`
 
-
-
 </td>
 <td valign="top">
 
 The used compression mime type, for example `text/json text/xml text/html`
-
-
 
 </td>
 <td valign="top">
 
 String
 
-
-
 </td>
 <td valign="top">
 
 n/a
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -1474,35 +1134,25 @@ no
 
 `compression-min-size`
 
-
-
 </td>
 <td valign="top">
 
 The threshold size above which an HTTP response package is compressed to reduce traffic.
-
-
 
 </td>
 <td valign="top">
 
 Integer
 
-
-
 </td>
 <td valign="top">
 
 n/a
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -1510,8 +1160,6 @@ no
 <td valign="top">
 
 `role-provider` 
-
-
 
 </td>
 <td valign="top">
@@ -1528,21 +1176,15 @@ Defines the application that provides the role for the Java application. Use one
 
 String
 
-
-
 </td>
 <td valign="top">
 
 n/a
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -1550,8 +1192,6 @@ no
 <td valign="top">
 
 `roles` 
-
-
 
 </td>
 <td valign="top">
@@ -1568,21 +1208,15 @@ Maps predefined Java application roles to the groups they have to be assigned to
 
 List
 
-
-
 </td>
 <td valign="top">
 
 n/a
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -1591,35 +1225,25 @@ no
 
 `subscribe`
 
-
-
 </td>
 <td valign="top">
 
 When a provided solution is consumed, а subscription and designated entities might be created in the consumer subaccount, unless the parameter is set to `false`.
-
-
 
 </td>
 <td valign="top">
 
 Boolean
 
-
-
 </td>
 <td valign="top">
 
 `true`
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -1628,35 +1252,25 @@ no
 
 `sfsf-idp-access` 
 
-
-
 </td>
 <td valign="top">
 
 If true, the extension application is registered as an authorized assertion consumer service for the SAP SuccessFactors system to enable the application to use the SAP SuccessFactors identity provider \(IdP\) for authentication.
-
-
 
 </td>
 <td valign="top">
 
 Boolean
 
-
-
 </td>
 <td valign="top">
 
 `false`
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -1664,8 +1278,6 @@ no
 <td valign="top">
 
 `sfsf-connections` 
-
-
 
 </td>
 <td valign="top">
@@ -1689,28 +1301,20 @@ You can create more than one SAP SuccessFactors connections.
 
 For a comprehensive example of a `sfsf-connections`, see [Modeling SAP SuccessFactors Extensions](modeling-sap-successfactors-extensions-ec35793.md).
 
-
-
 </td>
 <td valign="top">
 
 List
-
-
 
 </td>
 <td valign="top">
 
 n/a
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -1718,8 +1322,6 @@ no
 <td valign="top">
 
 `sfsf-home-page-tiles`
-
-
 
 </td>
 <td valign="top">
@@ -1730,28 +1332,20 @@ This parameter is a YAML dictionary with one element with key `resource` and val
 
 For more information, see [Home Page Tiles JSON File](../40-extensions-neo/home-page-tiles-json-file-872d124.md). Ensure that each tile `name` is unique within the current subaccount.
 
-
-
 </td>
 <td valign="top">
 
 Binary
-
-
 
 </td>
 <td valign="top">
 
 n/a
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -1759,8 +1353,6 @@ no
 <td valign="top">
 
 `destinations` 
-
-
 
 </td>
 <td valign="top">
@@ -1778,21 +1370,15 @@ This parameter is a YAML list comprised of one or more connectivity destinations
 
 List
 
-
-
 </td>
 <td valign="top">
 
 n/a
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -1811,35 +1397,25 @@ For more information about runtime containers, see [Application Runtime Containe
 
 Supported Parameter
 
-
-
 </th>
 <th valign="top">
 
 Parameter Description
-
-
 
 </th>
 <th valign="top">
 
 Type
 
-
-
 </th>
 <th valign="top">
 
 Default Value
 
-
-
 </th>
 <th valign="top">
 
 Mandatory
-
-
 
 </th>
 </tr>
@@ -1848,35 +1424,25 @@ Mandatory
 
 `name`
 
-
-
 </td>
 <td valign="top">
 
 Java application name, which has to be unique within the current subaccount. The `name` value length has to be between 1 and 255 symbols.
-
-
 
 </td>
 <td valign="top">
 
 String
 
-
-
 </td>
 <td valign="top">
 
 n/a
 
-
-
 </td>
 <td valign="top">
 
 yes
-
-
 
 </td>
 </tr>
@@ -1884,8 +1450,6 @@ yes
 <td valign="top">
 
 `runtime-version`
-
-
 
 </td>
 <td valign="top">
@@ -1902,21 +1466,15 @@ If defining a specific runtime version is required, use one of the following:
 
 Enclosed String, use single quotes
 
-
-
 </td>
 <td valign="top">
 
 `3`
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -1924,8 +1482,6 @@ no
 <td valign="top">
 
 `java-version`
-
-
 
 </td>
 <td valign="top">
@@ -1943,21 +1499,15 @@ If defining a specific `java-version` is required, use one of the following:
 
 String
 
-
-
 </td>
 <td valign="top">
 
 `JRE 8`
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -1966,35 +1516,25 @@ no
 
 `compute-unit-size`
 
-
-
 </td>
 <td valign="top">
 
 The virtual machine computing unit size. The available sizes are `LITE`, `PRO`, `PREMIUM`, `PREMIUM_PLUS`. For more information, see [Compute Units](compute-units-7612fba.md).
-
-
 
 </td>
 <td valign="top">
 
 String
 
-
-
 </td>
 <td valign="top">
 
 `LITE`
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -2002,8 +1542,6 @@ no
 <td valign="top">
 
 `minimum-processes`
-
-
 
 </td>
 <td valign="top">
@@ -2021,21 +1559,15 @@ Minimum number of process instances. The allowed range is from `1` to `99`.
 
 Integer
 
-
-
 </td>
 <td valign="top">
 
 `1`
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -2043,8 +1575,6 @@ no
 <td valign="top">
 
 `maximum-processes`
-
-
 
 </td>
 <td valign="top">
@@ -2062,21 +1592,15 @@ Maximum number of process instances. The allowed range is from `1` to `99`.
 
 Integer
 
-
-
 </td>
 <td valign="top">
 
 `1`
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -2084,8 +1608,6 @@ no
 <td valign="top">
 
 `rolling-update`
-
-
 
 </td>
 <td valign="top">
@@ -2102,21 +1624,15 @@ Performs update of an application without downtime in one go.
 
 Boolean
 
-
-
 </td>
 <td valign="top">
 
 `false`
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -2124,8 +1640,6 @@ no
 <td valign="top">
 
 `rolling-update-timeout`
-
-
 
 </td>
 <td valign="top">
@@ -2142,21 +1656,15 @@ Defines how long the old process will be disabled before it is stopped.
 
 Integer
 
-
-
 </td>
 <td valign="top">
 
 `60`
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -2165,35 +1673,25 @@ no
 
 `running-processes`
 
-
-
 </td>
 <td valign="top">
 
 Specifies how many processes will run at the end of the state of the Java application. If not specified, the minimum number is used.
-
-
 
 </td>
 <td valign="top">
 
 Integer
 
-
-
 </td>
 <td valign="top">
 
 n/a
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -2202,35 +1700,25 @@ no
 
 `jvm-arguments`
 
-
-
 </td>
 <td valign="top">
 
 The relevant JVM arguments employed by the customer application.
-
-
 
 </td>
 <td valign="top">
 
 String
 
-
-
 </td>
 <td valign="top">
 
 n/a
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -2239,35 +1727,25 @@ no
 
 `max-threads`
 
-
-
 </td>
 <td valign="top">
 
 The maximum allowed number of threads.
-
-
 
 </td>
 <td valign="top">
 
 Integer
 
-
-
 </td>
 <td valign="top">
 
 `200`
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -2276,35 +1754,25 @@ no
 
 `connection-timeout`
 
-
-
 </td>
 <td valign="top">
 
 The maximum timeout period for the connection, in milliseconds.
-
-
 
 </td>
 <td valign="top">
 
 Integer
 
-
-
 </td>
 <td valign="top">
 
 `20000`
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -2313,35 +1781,25 @@ no
 
 `encoding`
 
-
-
 </td>
 <td valign="top">
 
 The used Uniform Resource Identifier \(URI\) encoding standard.
-
-
 
 </td>
 <td valign="top">
 
 String
 
-
-
 </td>
 <td valign="top">
 
 `ISO-8859-1`
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -2349,8 +1807,6 @@ no
 <td valign="top">
 
 `compression`
-
-
 
 </td>
 <td valign="top">
@@ -2367,21 +1823,15 @@ The use of gzip compression for optimizing HTTP response time between the Web se
 
 String
 
-
-
 </td>
 <td valign="top">
 
 `off`
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -2390,35 +1840,25 @@ no
 
 `compression-mime-types`
 
-
-
 </td>
 <td valign="top">
 
 The used compression mime type, for example `text/json text/xml text/html`
-
-
 
 </td>
 <td valign="top">
 
 String
 
-
-
 </td>
 <td valign="top">
 
 n/a
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -2427,35 +1867,25 @@ no
 
 `compression-min-size`
 
-
-
 </td>
 <td valign="top">
 
 The threshold size above which an HTTP response package is compressed to reduce traffic.
-
-
 
 </td>
 <td valign="top">
 
 Integer
 
-
-
 </td>
 <td valign="top">
 
 n/a
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -2463,8 +1893,6 @@ no
 <td valign="top">
 
 `role-provider` 
-
-
 
 </td>
 <td valign="top">
@@ -2481,21 +1909,15 @@ Defines the application that provides the role for the Java application. Use one
 
 String
 
-
-
 </td>
 <td valign="top">
 
 n/a
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -2503,8 +1925,6 @@ no
 <td valign="top">
 
 `roles` 
-
-
 
 </td>
 <td valign="top">
@@ -2521,21 +1941,15 @@ Maps predefined Java application roles to the groups they have to be assigned to
 
 List
 
-
-
 </td>
 <td valign="top">
 
 n/a
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -2544,35 +1958,25 @@ no
 
 `subscribe`
 
-
-
 </td>
 <td valign="top">
 
 When a provided solution is consumed, а subscription and designated entities might be created in the consumer subaccount, unless the parameter is set to `false`.
-
-
 
 </td>
 <td valign="top">
 
 Boolean
 
-
-
 </td>
 <td valign="top">
 
 `true`
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -2581,35 +1985,25 @@ no
 
 `sfsf-idp-access` 
 
-
-
 </td>
 <td valign="top">
 
 If true, the extension application is registered as an authorized assertion consumer service for the SAP SuccessFactors system to enable the application to use the SAP SuccessFactors identity provider \(IdP\) for authentication.
-
-
 
 </td>
 <td valign="top">
 
 Boolean
 
-
-
 </td>
 <td valign="top">
 
 `false`
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -2617,8 +2011,6 @@ no
 <td valign="top">
 
 `sfsf-connections` 
-
-
 
 </td>
 <td valign="top">
@@ -2642,28 +2034,20 @@ You can create more than one SAP SuccessFactors connections.
 
 For a comprehensive example of a `sfsf-connections`, see [Modeling SAP SuccessFactors Extensions](modeling-sap-successfactors-extensions-ec35793.md).
 
-
-
 </td>
 <td valign="top">
 
 List
-
-
 
 </td>
 <td valign="top">
 
 n/a
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -2671,8 +2055,6 @@ no
 <td valign="top">
 
 `sfsf-home-page-tiles`
-
-
 
 </td>
 <td valign="top">
@@ -2683,28 +2065,20 @@ This parameter is a YAML dictionary with one element with key `resource` and val
 
 For more information, see [Home Page Tiles JSON File](../40-extensions-neo/home-page-tiles-json-file-872d124.md). Ensure that each tile `name` is unique within the current subaccount.
 
-
-
 </td>
 <td valign="top">
 
 Binary
-
-
 
 </td>
 <td valign="top">
 
 n/a
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -2712,8 +2086,6 @@ no
 <td valign="top">
 
 `destinations` 
-
-
 
 </td>
 <td valign="top">
@@ -2731,21 +2103,15 @@ This parameter is a YAML list comprised of one or more connectivity destinations
 
 List
 
-
-
 </td>
 <td valign="top">
 
 n/a
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -2762,35 +2128,25 @@ no
 
 Supported Parameter
 
-
-
 </th>
 <th valign="top">
 
 Parameter Description
-
-
 
 </th>
 <th valign="top">
 
 Type
 
-
-
 </th>
 <th valign="top">
 
 Default Value
 
-
-
 </th>
 <th valign="top">
 
 Mandatory
-
-
 
 </th>
 </tr>
@@ -2799,35 +2155,25 @@ Mandatory
 
 `owner`
 
-
-
 </td>
 <td valign="top">
 
 Indicates in which subaccount the content should be imported. The possible values are `provider` or `consumer`.
-
-
 
 </td>
 <td valign="top">
 
 String
 
-
-
 </td>
 <td valign="top">
 
 `provider`
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -2835,8 +2181,6 @@ no
 <td valign="top">
 
 `mta-id`
-
-
 
 </td>
 <td valign="top">
@@ -2854,21 +2198,15 @@ The same as the global ID.
 
 String
 
-
-
 </td>
 <td valign="top">
 
 n/a
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -2876,8 +2214,6 @@ no
 <td valign="top">
 
 `mta-version`
-
-
 
 </td>
 <td valign="top">
@@ -2905,14 +2241,10 @@ Enclosed String
 
 n/a
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -2921,14 +2253,10 @@ no
 
 `back-end-ppms-product-version-id`
 
-
-
 </td>
 <td valign="top">
 
 ID of the PPMS product version backend.
-
-
 
 </td>
 <td valign="top">
@@ -2945,14 +2273,10 @@ Enclosed String
 
 n/a
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -2961,14 +2285,10 @@ no
 
 `back-end-ppms-support-package-stack-id`
 
-
-
 </td>
 <td valign="top">
 
 ID of the PPMS support-package stack backend
-
-
 
 </td>
 <td valign="top">
@@ -2985,14 +2305,10 @@ Enclosed String
 
 n/a
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -3001,14 +2317,10 @@ no
 
 `back-end-cross-product-stack-id`
 
-
-
 </td>
 <td valign="top">
 
 ID of the cross product stack backend
-
-
 
 </td>
 <td valign="top">
@@ -3025,14 +2337,10 @@ Enclosed String
 
 n/a
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -3041,14 +2349,10 @@ no
 
 `back-end-cross-product-stack-solution-id`
 
-
-
 </td>
 <td valign="top">
 
 ID of the cross product stack solution backend
-
-
 
 </td>
 <td valign="top">
@@ -3065,14 +2369,10 @@ Enclosed String
 
 n/a
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -3081,35 +2381,25 @@ no
 
 `release`
 
-
-
 </td>
 <td valign="top">
 
 If it is set to `true`, it marks a released product.
-
-
 
 </td>
 <td valign="top">
 
 Boolean
 
-
-
 </td>
 <td valign="top">
 
 `false`
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -3118,35 +2408,25 @@ no
 
 `target-site-id`
 
-
-
 </td>
 <td valign="top">
 
 It specifies the target site in which the content will be deployed.
-
-
 
 </td>
 <td valign="top">
 
 String
 
-
-
 </td>
 <td valign="top">
 
 n/a
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -3155,14 +2435,10 @@ no
 
 `minimum-sapui5-version`
 
-
-
 </td>
 <td valign="top">
 
 Version of the minimum required SAPUI5 Runtime. The format of the version is a numeric string of `<major>.<minor>` or `<major>.<minor>.<micro>`
-
-
 
 </td>
 <td valign="top">
@@ -3179,14 +2455,10 @@ Enclosed String
 
 n/a
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -3206,35 +2478,25 @@ no
 
 Supported Parameter
 
-
-
 </th>
 <th valign="top">
 
 Parameter Description
-
-
 
 </th>
 <th valign="top">
 
 Type
 
-
-
 </th>
 <th valign="top">
 
 Default Value
 
-
-
 </th>
 <th valign="top">
 
 Mandatory
-
-
 
 </th>
 </tr>
@@ -3243,35 +2505,25 @@ Mandatory
 
 `html5-app-name`
 
-
-
 </td>
 <td valign="top">
 
 SAP Fiori application name, which has to be unique within the current subaccount.
-
-
 
 </td>
 <td valign="top">
 
 String
 
-
-
 </td>
 <td valign="top">
 
 n/a
 
-
-
 </td>
 <td valign="top">
 
 yes
-
-
 
 </td>
 </tr>
@@ -3279,8 +2531,6 @@ yes
 <td valign="top">
 
 `html5-app-display-name`
-
-
 
 </td>
 <td valign="top">
@@ -3297,21 +2547,15 @@ Human-readable name of the application.
 
 String
 
-
-
 </td>
 <td valign="top">
 
 n/a
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -3319,8 +2563,6 @@ no
 <td valign="top">
 
 `html5-app-version`
-
-
 
 </td>
 <td valign="top">
@@ -3337,21 +2579,15 @@ SAP Fiori application version
 
 String
 
-
-
 </td>
 <td valign="top">
 
 `${timestamp}`
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -3360,35 +2596,25 @@ no
 
 `html5-app-active`
 
-
-
 </td>
 <td valign="top">
 
 This flag indicates whether the related version of the application should be activated or not. The default value is `true`.
-
-
 
 </td>
 <td valign="top">
 
 Boolean
 
-
-
 </td>
 <td valign="top">
 
 `true`
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -3396,8 +2622,6 @@ no
 <td valign="top">
 
 `html5-app-permissions`
-
-
 
 </td>
 <td valign="top">
@@ -3416,21 +2640,15 @@ The parameter is applicable for both an HTML5 standard application, as well as f
 
 List
 
-
-
 </td>
 <td valign="top">
 
 n/a
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -3447,35 +2665,25 @@ no
 
 Supported Parameter
 
-
-
 </th>
 <th valign="top">
 
 Parameter Description
-
-
 
 </th>
 <th valign="top">
 
 Type
 
-
-
 </th>
 <th valign="top">
 
 Default Value
 
-
-
 </th>
 <th valign="top">
 
 Mandatory
-
-
 
 </th>
 </tr>
@@ -3484,35 +2692,25 @@ Mandatory
 
 `name`
 
-
-
 </td>
 <td valign="top">
 
 SAP Fiori custom role name, which has to be unique within the current subaccount. The `name` value length has to be between 1 and 255 symbols.
-
-
 
 </td>
 <td valign="top">
 
 String
 
-
-
 </td>
 <td valign="top">
 
 n/a
 
-
-
 </td>
 <td valign="top">
 
 yes
-
-
 
 </td>
 </tr>
@@ -3521,35 +2719,25 @@ yes
 
 `groups`
 
-
-
 </td>
 <td valign="top">
 
 List of group names to which the role has to be assigned.
-
-
 
 </td>
 <td valign="top">
 
 List
 
-
-
 </td>
 <td valign="top">
 
 n/a
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -3568,35 +2756,25 @@ For more information, see [Role Assignment of Fiori Roles to Security Groups](ro
 
 Supported Parameter
 
-
-
 </th>
 <th valign="top">
 
 Parameter Description
-
-
 
 </th>
 <th valign="top">
 
 Type
 
-
-
 </th>
 <th valign="top">
 
 Default Value
 
-
-
 </th>
 <th valign="top">
 
 Mandatory
-
-
 
 </th>
 </tr>
@@ -3605,35 +2783,25 @@ Mandatory
 
 `name`
 
-
-
 </td>
 <td valign="top">
 
 HTML5 application custom role name, which has to be unique within the current subaccount. The `name` value length has to be between 1 and 255 symbols.
-
-
 
 </td>
 <td valign="top">
 
 String
 
-
-
 </td>
 <td valign="top">
 
 n/a
 
-
-
 </td>
 <td valign="top">
 
 yes
-
-
 
 </td>
 </tr>
@@ -3642,35 +2810,25 @@ yes
 
 `groups`
 
-
-
 </td>
 <td valign="top">
 
 List of group names to which the role has to be assigned.
-
-
 
 </td>
 <td valign="top">
 
 List
 
-
-
 </td>
 <td valign="top">
 
 n/a
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -3696,36 +2854,26 @@ For more information, see [Role Assignment of HTML 5 Roles to Security Groups](r
     <th valign="top">
 
     Supported Parameter
-
-
     
     </th>
     <th valign="top">
 
     Parameter Description
-
-
     
     </th>
     <th valign="top">
 
     Type
-
-
     
     </th>
     <th valign="top">
 
     Default Value
-
-
     
     </th>
     <th valign="top">
 
     Mandatory
-
-
     
     </th>
     </tr>
@@ -3733,36 +2881,26 @@ For more information, see [Role Assignment of HTML 5 Roles to Security Groups](r
     <td valign="top">
     
     `metadata-validation-setting`
-
-
     
     </td>
     <td valign="top">
     
     Enable or disable metadata validation, for example `true`.
-
-
     
     </td>
     <td valign="top">
     
     Boolean
-
-
     
     </td>
     <td valign="top">
     
     n/a
-
-
     
     </td>
     <td valign="top">
     
     yes
-
-
     
     </td>
     </tr>
@@ -3770,36 +2908,26 @@ For more information, see [Role Assignment of HTML 5 Roles to Security Groups](r
     <td valign="top">
     
     `metadata-cache-setting`
-
-
     
     </td>
     <td valign="top">
     
     Enable or disable metadata cache, for example `false`.
-
-
     
     </td>
     <td valign="top">
     
     Boolean
-
-
     
     </td>
     <td valign="top">
     
     n/a
-
-
     
     </td>
     <td valign="top">
     
     yes
-
-
     
     </td>
     </tr>
@@ -3807,8 +2935,6 @@ For more information, see [Role Assignment of HTML 5 Roles to Security Groups](r
     <td valign="top">
     
     `services`
-
-
     
     </td>
     <td valign="top">
@@ -3830,22 +2956,16 @@ For more information, see [Role Assignment of HTML 5 Roles to Security Groups](r
     <td valign="top">
     
     List
-
-
     
     </td>
     <td valign="top">
     
     n/a
-
-
     
     </td>
     <td valign="top">
     
     yes
-
-
     
     </td>
     </tr>
@@ -3859,36 +2979,26 @@ For more information, see [Role Assignment of HTML 5 Roles to Security Groups](r
     <th valign="top">
 
     Supported Parameter
-
-
     
     </th>
     <th valign="top">
 
     Parameter Description
-
-
     
     </th>
     <th valign="top">
 
     Type
-
-
     
     </th>
     <th valign="top">
 
     Default Value
-
-
     
     </th>
     <th valign="top">
 
     Mandatory
-
-
     
     </th>
     </tr>
@@ -3896,36 +3006,26 @@ For more information, see [Role Assignment of HTML 5 Roles to Security Groups](r
     <td valign="top">
     
     `metadata-validation-setting`
-
-
     
     </td>
     <td valign="top">
     
     Enable or disable metadata validation, for example `true`.
-
-
     
     </td>
     <td valign="top">
     
     Boolean
-
-
     
     </td>
     <td valign="top">
     
     n/a
-
-
     
     </td>
     <td valign="top">
     
     yes
-
-
     
     </td>
     </tr>
@@ -3933,36 +3033,26 @@ For more information, see [Role Assignment of HTML 5 Roles to Security Groups](r
     <td valign="top">
     
     `metadata-cache-setting`
-
-
     
     </td>
     <td valign="top">
     
     Enable or disable metadata cache, for example `false`.
-
-
     
     </td>
     <td valign="top">
     
     Boolean
-
-
     
     </td>
     <td valign="top">
     
     n/a
-
-
     
     </td>
     <td valign="top">
     
     yes
-
-
     
     </td>
     </tr>
@@ -3970,8 +3060,6 @@ For more information, see [Role Assignment of HTML 5 Roles to Security Groups](r
     <td valign="top">
     
     `services`
-
-
     
     </td>
     <td valign="top">
@@ -4004,22 +3092,16 @@ For more information, see [Role Assignment of HTML 5 Roles to Security Groups](r
     <td valign="top">
     
     List
-
-
     
     </td>
     <td valign="top">
     
     n/a
-
-
     
     </td>
     <td valign="top">
     
     yes
-
-
     
     </td>
     </tr>
@@ -4045,35 +3127,25 @@ Ensure that each role has a unique `roleName` within the current subaccount.
 
 Supported Parameter
 
-
-
 </th>
 <th valign="top">
 
 Parameter Description
-
-
 
 </th>
 <th valign="top">
 
 Type
 
-
-
 </th>
 <th valign="top">
 
 Default
 
-
-
 </th>
 <th valign="top">
 
 Mandatory
-
-
 
 </th>
 </tr>
@@ -4082,35 +3154,25 @@ Mandatory
 
 `name`
 
-
-
 </td>
 <td valign="top">
 
 Group name, which has to be unique within the current subaccount. The `name` value length has to be between 1 and 255 symbols.
-
-
 
 </td>
 <td valign="top">
 
 String
 
-
-
 </td>
 <td valign="top">
 
 n/a
 
-
-
 </td>
 <td valign="top">
 
 yes
-
-
 
 </td>
 </tr>
@@ -4145,35 +3207,25 @@ To see the available parameters and values, see the table “Destination Paramet
 
 Supported Parameter
 
-
-
 </th>
 <th valign="top">
 
 Parameter Description
-
-
 
 </th>
 <th valign="top">
 
 Type
 
-
-
 </th>
 <th valign="top">
 
 Default
 
-
-
 </th>
 <th valign="top">
 
 Mandatory
-
-
 
 </th>
 </tr>
@@ -4182,35 +3234,25 @@ Mandatory
 
 `resource-type`
 
-
-
 </td>
 <td valign="top">
 
 Type of the resource
-
-
 
 </td>
 <td valign="top">
 
 String
 
-
-
 </td>
 <td valign="top">
 
 n/a
 
-
-
 </td>
 <td valign="top">
 
 yes
-
-
 
 </td>
 </tr>
@@ -4219,35 +3261,25 @@ yes
 
 `resource-id`
 
-
-
 </td>
 <td valign="top">
 
 ID of the resource
-
-
 
 </td>
 <td valign="top">
 
 String
 
-
-
 </td>
 <td valign="top">
 
 n/a
 
-
-
 </td>
 <td valign="top">
 
 yes
-
-
 
 </td>
 </tr>
@@ -4256,35 +3288,25 @@ yes
 
 `version` 
 
-
-
 </td>
 <td valign="top">
 
 Version of the `com.sap.integration` module type
-
-
 
 </td>
 <td valign="top">
 
 String
 
-
-
 </td>
 <td valign="top">
 
 n/a
 
-
-
 </td>
 <td valign="top">
 
 yes
-
-
 
 </td>
 </tr>
@@ -4293,35 +3315,25 @@ yes
 
 `technical-name`
 
-
-
 </td>
 <td valign="top">
 
 Technical name of the `com.sap.integration` module type
-
-
 
 </td>
 <td valign="top">
 
 String
 
-
-
 </td>
 <td valign="top">
 
 n/a
 
-
-
 </td>
 <td valign="top">
 
 yes
-
-
 
 </td>
 </tr>
@@ -4360,14 +3372,10 @@ This section contains the resource types and their parameters that are supported
 
 Resource Type
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -4376,14 +3384,10 @@ Description
 
 `com.sap.hcp.persistence`
 
-
-
 </td>
 <td valign="top">
 
 Used for binding a database with a specified identifier to a Java application
-
-
 
 </td>
 </tr>
@@ -4391,8 +3395,6 @@ Used for binding a database with a specified identifier to a Java application
 <td valign="top">
 
 `<untyped>`
-
-
 
 </td>
 <td valign="top">
@@ -4417,42 +3419,30 @@ Resource types support the following parameters:
 
 Resource type
 
-
-
 </th>
 <th valign="top">
 
 Parameter
-
-
 
 </th>
 <th valign="top">
 
 Parameter Description
 
-
-
 </th>
 <th valign="top">
 
 Type
-
-
 
 </th>
 <th valign="top">
 
 Default
 
-
-
 </th>
 <th valign="top">
 
 Mandatory
-
-
 
 </th>
 </tr>
@@ -4461,14 +3451,10 @@ Mandatory
 
 `com.sap.hcp.persistence`
 
-
-
 </td>
 <td valign="top">
 
 `id`
-
-
 
 </td>
 <td valign="top">
@@ -4485,21 +3471,15 @@ Identifier of the database that will be bound to a deployed Java application You
 
 String
 
-
-
 </td>
 <td valign="top">
 
 n/a
 
-
-
 </td>
 <td valign="top">
 
 yes
-
-
 
 </td>
 </tr>
@@ -4507,8 +3487,6 @@ yes
 <td valign="top">
 
 `user-id`
-
-
 
 </td>
 <td valign="top">
@@ -4525,21 +3503,15 @@ The user ID parameter allows a database to be bound to a preexisting schema. If 
 
 String
 
-
-
 </td>
 <td valign="top">
 
 n/a
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -4547,8 +3519,6 @@ no
 <td valign="top">
 
 `password`
-
-
 
 </td>
 <td valign="top">
@@ -4565,21 +3535,15 @@ You can model a named data source by using the parameter. The password parameter
 
 String
 
-
-
 </td>
 <td valign="top">
 
 n/a
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -4587,8 +3551,6 @@ no
 <td valign="top">
 
 `account`
-
-
 
 </td>
 <td valign="top">
@@ -4603,28 +3565,20 @@ This is the provider subaccount of the database. The subaccount parameter is nee
 
 For more information, see [Add New Access Permissions](https://help.sap.com/viewer/3fa880aa54b74110ae99ad01503fcd60/Cloud/en-US/d848edea0e4f4136922d7edcb47a7b7a.html "You use the cockpit or the console client in the Neo environment to create a new access permission, allowing a subaccount to use a database that is owned by another subaccount in the same global account.") :arrow_upper_right:.
 
-
-
 </td>
 <td valign="top">
 
 String
-
-
 
 </td>
 <td valign="top">
 
 n/a
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -4639,42 +3593,30 @@ no
 
 Required Sections
 
-
-
 </th>
 <th valign="top">
 
 Parameter
-
-
 
 </th>
 <th valign="top">
 
 Parameter Description
 
-
-
 </th>
 <th valign="top">
 
 Type
-
-
 
 </th>
 <th valign="top">
 
 Default
 
-
-
 </th>
 <th valign="top">
 
 Mandatory
-
-
 
 </th>
 </tr>
@@ -4683,14 +3625,10 @@ Mandatory
 
 `com.sap.java` and `java.tomcat` 
 
-
-
 </td>
 <td valign="top">
 
 `binding-name`
-
-
 
 </td>
 <td valign="top">
@@ -4702,28 +3640,20 @@ Data source name
 
 For more information, see [Modeling Database Bindings](modeling-database-bindings-0acf332.md).
 
-
-
 </td>
 <td valign="top">
 
 String
-
-
 
 </td>
 <td valign="top">
 
 n/a
 
-
-
 </td>
 <td valign="top">
 
 yes
-
-
 
 </td>
 </tr>
@@ -4744,35 +3674,25 @@ The MTA specification `_schema-version` `3.1` introduces the notion for metadata
 
 Metadata Option
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 <th valign="top">
 
 Type
 
-
-
 </th>
 <th valign="top">
 
 Default Value
 
-
-
 </th>
 <th valign="top">
 
 Mandatory
-
-
 
 </th>
 </tr>
@@ -4780,8 +3700,6 @@ Mandatory
 <td valign="top">
 
 `consumer-optional`
-
-
 
 </td>
 <td valign="top">
@@ -4818,21 +3736,15 @@ The following example will require the consumer of your Multitarget Application 
 
 Boolean
 
-
-
 </td>
 <td valign="top">
 
 `true`
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -4840,8 +3752,6 @@ no
 <td valign="top">
 
 `description`
-
-
 
 </td>
 <td valign="top">
@@ -4867,21 +3777,15 @@ If it is used as metadata about a parameter without a value, it provides a user-
 
 String
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -4889,8 +3793,6 @@ no
 <td valign="top">
 
 `sensitive`
-
-
 
 </td>
 <td valign="top">
@@ -4916,21 +3818,15 @@ If it is used as metadata about a parameter without a value, it prompts the cock
 
 Boolean
 
-
-
 </td>
 <td valign="top">
 
 `false`
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -4938,8 +3834,6 @@ no
 <td valign="top">
 
 `complex`
-
-
 
 </td>
 <td valign="top">
@@ -4968,21 +3862,15 @@ If it is used as metadata about a parameter without a value, it prompts the cock
 
 Boolean
 
-
-
 </td>
 <td valign="top">
 
 `false`
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -4990,8 +3878,6 @@ no
 <td valign="top">
 
 `default-value`
-
-
 
 </td>
 <td valign="top">
@@ -5017,21 +3903,15 @@ If it is used as metadata about a parameter without a value, it provides a cockp
 
 String
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -5052,42 +3932,30 @@ Depending on the type of the destination that you wish to create \(subaccount-le
 
 MTA Parameter
 
-
-
 </th>
 <th valign="top">
 
 Type
-
-
 
 </th>
 <th valign="top">
 
 Mandatory
 
-
-
 </th>
 <th valign="top">
 
 Possible Values
-
-
 
 </th>
 <th valign="top">
 
 Default Value
 
-
-
 </th>
 <th valign="top">
 
 Description or Comment
-
-
 
 </th>
 </tr>
@@ -5096,42 +3964,30 @@ Description or Comment
 
 `force-overwrite`
 
-
-
 </td>
 <td valign="top">
 
 String
-
-
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 `true` or `false`
-
-
 
 </td>
 <td valign="top">
 
 `false`
 
-
-
 </td>
 <td valign="top">
 
 If `true`, an already existing destination with the same name will be overwritten.
-
-
 
 </td>
 </tr>
@@ -5140,42 +3996,30 @@ If `true`, an already existing destination with the same name will be overwritte
 
 `owner`
 
-
-
 </td>
 <td valign="top">
 
 String
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 `provider`
 
-
-
 </td>
 <td valign="top">
 
 Indicates in which subaccount the destination should be created. The possible values are `provider` or `consumer`.
-
-
 
 </td>
 </tr>
@@ -5184,42 +4028,30 @@ Indicates in which subaccount the destination should be created. The possible va
 
 `name`
 
-
-
 </td>
 <td valign="top">
 
 String
-
-
 
 </td>
 <td valign="top">
 
 Yes
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 n/a
 
-
-
 </td>
 <td valign="top">
 
 Technical name of the destination. It can be used later on to get an instance of that destination programmatically.
-
-
 
 </td>
 </tr>
@@ -5228,42 +4060,30 @@ Technical name of the destination. It can be used later on to get an instance of
 
 `type`
 
-
-
 </td>
 <td valign="top">
 
 String
-
-
 
 </td>
 <td valign="top">
 
 Yes
 
-
-
 </td>
 <td valign="top">
 
 `HTTP, LDAP, MAIL, RFC`
-
-
 
 </td>
 <td valign="top">
 
 HTTP
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -5272,42 +4092,30 @@ HTTP
 
 `description`
 
-
-
 </td>
 <td valign="top">
 
 String
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
 
 </td>
 </tr>
@@ -5316,42 +4124,30 @@ String
 
 `url`
 
-
-
 </td>
 <td valign="top">
 
 URL
-
-
 
 </td>
 <td valign="top">
 
 Yes
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 Use when the parameter `type` has the `HTTP` or `LDAP` values. Mandatory only for these types.
-
-
 
 </td>
 </tr>
@@ -5360,42 +4156,30 @@ Use when the parameter `type` has the `HTTP` or `LDAP` values. Mandatory only fo
 
 `proxy-type`
 
-
-
 </td>
 <td valign="top">
 
 Enumeration
-
-
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 `Internet, OnPremise`
-
-
 
 </td>
 <td valign="top">
 
 Internet
 
-
-
 </td>
 <td valign="top">
 
 Use with `HTTP` or `LDAP` destination `type`.
-
-
 
 </td>
 </tr>
@@ -5404,42 +4188,30 @@ Use with `HTTP` or `LDAP` destination `type`.
 
 `authentication`
 
-
-
 </td>
 <td valign="top">
 
 Enumeration
-
-
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 `NoAuthentication, BasicAuthentication, AppToAppSSO, ClientCertificateAuthentication, OAuth2SAMLBearerAssertion, PrincipalPropagation, SAPAssertionSSO` 
-
-
 
 </td>
 <td valign="top">
 
 `NoAuthentication`
 
-
-
 </td>
 <td valign="top">
 
 Use with `HTTP` or `LDAP` destination `type`.
-
-
 
 </td>
 </tr>
@@ -5448,35 +4220,25 @@ Use with `HTTP` or `LDAP` destination `type`.
 
 `user`
 
-
-
 </td>
 <td valign="top">
 
 String
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
 
 </td>
 <td valign="top">
@@ -5495,35 +4257,25 @@ When to use:
 
 `password`
 
-
-
 </td>
 <td valign="top">
 
 String
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
 
 </td>
 <td valign="top">
@@ -5542,42 +4294,30 @@ When to use:
 
 `audience`
 
-
-
 </td>
 <td valign="top">
 
 String
-
-
 
 </td>
 <td valign="top">
 
 Yes
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 Use when `OAuth2SAMLBearerAssertion` is the `Authentication` type. Mandatory only for this authentication.
-
-
 
 </td>
 </tr>
@@ -5586,42 +4326,30 @@ Use when `OAuth2SAMLBearerAssertion` is the `Authentication` type. Mandatory onl
 
 `client-key`
 
-
-
 </td>
 <td valign="top">
 
 String
-
-
 
 </td>
 <td valign="top">
 
 Yes
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 Use when `OAuth2SAMLBearerAssertion` is the `Authentication` type. Mandatory only for this authentication.
-
-
 
 </td>
 </tr>
@@ -5630,42 +4358,30 @@ Use when `OAuth2SAMLBearerAssertion` is the `Authentication` type. Mandatory onl
 
 `token-service-url`
 
-
-
 </td>
 <td valign="top">
 
 URL
-
-
 
 </td>
 <td valign="top">
 
 Yes
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 Use when `OAuth2SAMLBearerAssertion` is the `Authentication` type. Mandatory only for this authentication.
-
-
 
 </td>
 </tr>
@@ -5674,42 +4390,30 @@ Use when `OAuth2SAMLBearerAssertion` is the `Authentication` type. Mandatory onl
 
 `token-service-user`
 
-
-
 </td>
 <td valign="top">
 
 String
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
 
 </td>
 <td valign="top">
 
 Use when `OAuth2SAMLBearerAssertion` is the `Authentication` type.
-
-
 
 </td>
 </tr>
@@ -5718,42 +4422,30 @@ Use when `OAuth2SAMLBearerAssertion` is the `Authentication` type.
 
 `token-service-password`
 
-
-
 </td>
 <td valign="top">
 
 String
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
 
 </td>
 <td valign="top">
 
 Use when `OAuth2SAMLBearerAssertion` is the `Authentication` type.
-
-
 
 </td>
 </tr>
@@ -5762,42 +4454,30 @@ Use when `OAuth2SAMLBearerAssertion` is the `Authentication` type.
 
 `system-user`
 
-
-
 </td>
 <td valign="top">
 
 String
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
 
 </td>
 <td valign="top">
 
 Use when `OAuth2SAMLBearerAssertion` is the `Authentication` type.
-
-
 
 </td>
 </tr>
@@ -5806,42 +4486,30 @@ Use when `OAuth2SAMLBearerAssertion` is the `Authentication` type.
 
 `issuer-sid`
 
-
-
 </td>
 <td valign="top">
 
 String
-
-
 
 </td>
 <td valign="top">
 
 Yes
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 Use when `SAPAssertionSSO` is the `Authentication` type. Mandatory only for this type.
-
-
 
 </td>
 </tr>
@@ -5850,42 +4518,30 @@ Use when `SAPAssertionSSO` is the `Authentication` type. Mandatory only for this
 
 `issuer-client`
 
-
-
 </td>
 <td valign="top">
 
 String
-
-
 
 </td>
 <td valign="top">
 
 Yes
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 Use when `SAPAssertionSSO` is the `Authentication` type. Mandatory only for this type.
-
-
 
 </td>
 </tr>
@@ -5894,42 +4550,30 @@ Use when `SAPAssertionSSO` is the `Authentication` type. Mandatory only for this
 
 `recipient-sid`
 
-
-
 </td>
 <td valign="top">
 
 String
-
-
 
 </td>
 <td valign="top">
 
 Yes
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 Use when `SAPAssertionSSO` is the `Authentication` type. Mandatory only for this type.
-
-
 
 </td>
 </tr>
@@ -5938,42 +4582,30 @@ Use when `SAPAssertionSSO` is the `Authentication` type. Mandatory only for this
 
 `recipient-client`
 
-
-
 </td>
 <td valign="top">
 
 String
-
-
 
 </td>
 <td valign="top">
 
 Yes
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 Use when `SAPAssertionSSO` is the `Authentication` type. Mandatory only for this type.
-
-
 
 </td>
 </tr>
@@ -5982,42 +4614,30 @@ Use when `SAPAssertionSSO` is the `Authentication` type. Mandatory only for this
 
 `certificate`
 
-
-
 </td>
 <td valign="top">
 
 String
-
-
 
 </td>
 <td valign="top">
 
 Yes
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 Use when `SAPAssertionSSO` is the `Authentication` type. Mandatory only for this type.
-
-
 
 </td>
 </tr>
@@ -6026,42 +4646,30 @@ Use when `SAPAssertionSSO` is the `Authentication` type. Mandatory only for this
 
 `signing-key`
 
-
-
 </td>
 <td valign="top">
 
 String
-
-
 
 </td>
 <td valign="top">
 
 Yes
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 Use when `SAPAssertionSSO` is the `Authentication` type. Mandatory only for this type.
-
-
 
 </td>
 </tr>
@@ -6070,42 +4678,30 @@ Use when `SAPAssertionSSO` is the `Authentication` type. Mandatory only for this
 
 `system-user`
 
-
-
 </td>
 <td valign="top">
 
 String
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
 
 </td>
 <td valign="top">
 
 Use when `OAuth2SAMLBearerAssertion` or `SAPAssertionSSO` are the `Authentication` type.
-
-
 
 </td>
 </tr>
@@ -6114,42 +4710,30 @@ Use when `OAuth2SAMLBearerAssertion` or `SAPAssertionSSO` are the `Authenticatio
 
 `repository-user`
 
-
-
 </td>
 <td valign="top">
 
 String
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
 
 </td>
 <td valign="top">
 
 Use with the `RFC` parameter `type`.
-
-
 
 </td>
 </tr>
@@ -6158,42 +4742,30 @@ Use with the `RFC` parameter `type`.
 
 `repository-password`
 
-
-
 </td>
 <td valign="top">
 
 String
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
 
 </td>
 <td valign="top">
 
 Use with the `RFC` parameter `type`.
-
-
 
 </td>
 </tr>
@@ -6202,42 +4774,30 @@ Use with the `RFC` parameter `type`.
 
 `client`
 
-
-
 </td>
 <td valign="top">
 
 String
-
-
 
 </td>
 <td valign="top">
 
 Yes
 
-
-
 </td>
 <td valign="top">
 
 3 digits, in single quotes
-
-
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 Use with the `RFC` parameter `type`. Mandatory only for this type.
-
-
 
 </td>
 </tr>
@@ -6246,42 +4806,30 @@ Use with the `RFC` parameter `type`. Mandatory only for this type.
 
 `client-ashost`
 
-
-
 </td>
 <td valign="top">
 
 String
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 00-99, in single quotes
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 Use with the `RFC` parameter `type`. Either this or `client-mshost` must be specified.
-
-
 
 </td>
 </tr>
@@ -6290,42 +4838,30 @@ Use with the `RFC` parameter `type`. Either this or `client-mshost` must be spec
 
 `client-sysnr`
 
-
-
 </td>
 <td valign="top">
 
 String
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
 
 </td>
 <td valign="top">
 
 Use with the `RFC` parameter `type`, if `client-ashost` is specified.
-
-
 
 </td>
 </tr>
@@ -6334,42 +4870,30 @@ Use with the `RFC` parameter `type`, if `client-ashost` is specified.
 
 `client-mshost`
 
-
-
 </td>
 <td valign="top">
 
 String
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
 
 </td>
 <td valign="top">
 
 Use with the `RFC` parameter `type`. Either this or `client-ashost` must be specified.
-
-
 
 </td>
 </tr>
@@ -6378,42 +4902,30 @@ Use with the `RFC` parameter `type`. Either this or `client-ashost` must be spec
 
 `client-r3name`
 
-
-
 </td>
 <td valign="top">
 
 String
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 3 letters or digits
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 Use with the `RFC` parameter `type`, if `client-mshost` is specified.
-
-
 
 </td>
 </tr>
@@ -6422,42 +4934,30 @@ Use with the `RFC` parameter `type`, if `client-mshost` is specified.
 
 `client-msserv`
 
-
-
 </td>
 <td valign="top">
 
 String
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
 
 </td>
 <td valign="top">
 
 Use with the `RFC` parameter `type`., if `client-mshost` is specified.
-
-
 
 </td>
 </tr>
@@ -6466,35 +4966,25 @@ Use with the `RFC` parameter `type`., if `client-mshost` is specified.
 
 `additional-properties`
 
-
-
 </td>
 <td valign="top">
 
 Map
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
 
 </td>
 <td valign="top">
@@ -6518,42 +5008,30 @@ Use this section to define arbitrary properties as a map of keys and values used
 
 `location-id` 
 
-
-
 </td>
 <td valign="top">
 
 String
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
 
 </td>
 <td valign="top">
 
 The value defines the location ID identifying the Cloud Connector over which the connection is opened. The default value is an empty string identifying the Cloud Connector that is connected without any location ID.
-
-
 
 </td>
 </tr>
@@ -6577,14 +5055,10 @@ In regard to modeling destinations the SAP BTP offers several keyword properties
 
 Keyword Option
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -6592,8 +5066,6 @@ Description
 <td valign="top">
 
 `application-url`
-
-
 
 </td>
 <td valign="top">
@@ -6645,14 +5117,10 @@ Currently all types of destinations support the following placeholders, which ar
 
 Placeholder Option
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -6660,8 +5128,6 @@ Description
 <td valign="top">
 
 `${default-url}`
-
-
 
 </td>
 <td valign="top">
@@ -6696,8 +5162,6 @@ This example shows the usage of the `${default-url}` placeholder. The modeled ja
 <td valign="top">
 
 `${account-name}`
-
-
 
 </td>
 <td valign="top">
@@ -6735,8 +5199,6 @@ Instructs SAP BTP to resolve the placeholder value to your subaccount name when 
 
 `${provider-account-name}`
 
-
-
 </td>
 <td valign="top">
 
@@ -6768,8 +5230,6 @@ Instruct SAP BTP to resolve the placeholder value to the subaccount name of the 
 <td valign="top">
 
 `${landscape-url}`
-
-
 
 </td>
 <td valign="top">

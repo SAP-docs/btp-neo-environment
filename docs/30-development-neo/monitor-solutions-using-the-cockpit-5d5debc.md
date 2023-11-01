@@ -86,14 +86,10 @@ Depending on the solution type, the following components can be monitored:
 
 MTA Modules
 
-
-
 </th>
 <th valign="top" colspan="3">
 
 Results in One or More of the Following Solution Components
-
-
 
 </th>
 </tr>
@@ -102,21 +98,15 @@ Results in One or More of the Following Solution Components
 
 Standard Solution
 
-
-
 </th>
 <th valign="top">
 
 Provided Solution
 
-
-
 </th>
 <th valign="top">
 
 Subscribed Solution
-
-
 
 </th>
 </tr>
@@ -124,8 +114,6 @@ Subscribed Solution
 <td valign="top">
 
 `com.sap.java`
-
-
 
 </td>
 <td valign="top">
@@ -168,8 +156,6 @@ Subscribed Solution
 
 `com.sap.hcp.html5`
 
-
-
 </td>
 <td valign="top">
 
@@ -183,8 +169,6 @@ Subscribed Solution
 <td valign="top">
 
 HTML5 Application
-
-
 
 </td>
 <td valign="top">
@@ -202,28 +186,20 @@ HTML5 Application
 
 `com.sap.fiori`
 
+</td>
+<td valign="top">
 
+Fiori Content
 
 </td>
 <td valign="top">
 
 Fiori Content
 
-
-
 </td>
 <td valign="top">
 
 Fiori Content
-
-
-
-</td>
-<td valign="top">
-
-Fiori Content
-
-
 
 </td>
 </tr>
@@ -232,28 +208,20 @@ Fiori Content
 
 `com.sap.fiori.app`
 
-
-
 </td>
 <td valign="top">
 
 HTML5 Application
 
-
-
 </td>
 <td valign="top">
 
 HTML5 Application
-
-
 
 </td>
 <td valign="top">
 
 HTML5 Application Subscription
-
-
 
 </td>
 </tr>
@@ -262,28 +230,20 @@ HTML5 Application Subscription
 
 `com.sap.fiori.role`
 
+</td>
+<td valign="top">
 
+Role
 
 </td>
 <td valign="top">
 
 Role
 
-
-
 </td>
 <td valign="top">
 
 Role
-
-
-
-</td>
-<td valign="top">
-
-Role
-
-
 
 </td>
 </tr>
@@ -292,28 +252,20 @@ Role
 
 `com.sap.odp.config`
 
+</td>
+<td valign="top">
 
+OData Service
 
 </td>
 <td valign="top">
 
 OData Service
 
-
-
 </td>
 <td valign="top">
 
 OData Service
-
-
-
-</td>
-<td valign="top">
-
-OData Service
-
-
 
 </td>
 </tr>
@@ -322,28 +274,20 @@ OData Service
 
 `com.sap.hcp.sfsf-roles`
 
-
-
 </td>
 <td valign="top">
 
 SAP SuccessFactors Role
-
-
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 SAP SuccessFactors Role
-
-
 
 </td>
 </tr>
@@ -352,28 +296,20 @@ SAP SuccessFactors Role
 
 `com.sap.hcp.destination`
 
+</td>
+<td valign="top">
 
+Subaccount Destination
 
 </td>
 <td valign="top">
 
 Subaccount Destination
 
-
-
 </td>
 <td valign="top">
 
 Subaccount Destination
-
-
-
-</td>
-<td valign="top">
-
-Subaccount Destination
-
-
 
 </td>
 </tr>

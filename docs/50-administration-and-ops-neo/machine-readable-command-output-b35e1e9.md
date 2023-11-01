@@ -43,21 +43,15 @@ The JSON object contains the following properties:
 
 Property Name
 
-
-
 </th>
 <th valign="top">
 
 Type
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -66,21 +60,15 @@ Description
 
 `command`
 
-
-
 </td>
 <td valign="top">
 
 String
 
-
-
 </td>
 <td valign="top">
 
 The name of the invoked `neo` command
-
-
 
 </td>
 </tr>
@@ -89,21 +77,15 @@ The name of the invoked `neo` command
 
 `argLine`
 
-
-
 </td>
 <td valign="top">
 
 String
 
-
-
 </td>
 <td valign="top">
 
 The exact arguments line as specified by the calling script
-
-
 
 </td>
 </tr>
@@ -112,21 +94,15 @@ The exact arguments line as specified by the calling script
 
 `pid`
 
-
-
 </td>
 <td valign="top">
 
 Name
 
-
-
 </td>
 <td valign="top">
 
 The process ID of the invoked command
-
-
 
 </td>
 </tr>
@@ -135,21 +111,15 @@ The process ID of the invoked command
 
 `exitCode`
 
-
-
 </td>
 <td valign="top">
 
 Name
 
-
-
 </td>
 <td valign="top">
 
 The process exit code of the invoked command \( `0` = successful, everything else = failure\)
-
-
 
 </td>
 </tr>
@@ -158,21 +128,15 @@ The process exit code of the invoked command \( `0` = successful, everything els
 
 `errorMsg`
 
-
-
 </td>
 <td valign="top">
 
 String
 
-
-
 </td>
 <td valign="top">
 
 The message provided when the command implementation throws instance of `com.sap.jpaas.infrastructure.console.exception.CommandException`
-
-
 
 </td>
 </tr>
@@ -181,21 +145,15 @@ The message provided when the command implementation throws instance of `com.sap
 
 `commandOutput`
 
-
-
 </td>
 <td valign="top">
 
 String
 
-
-
 </td>
 <td valign="top">
 
 The command output written to`system.out` and captured by the console client framework
-
-
 
 </td>
 </tr>
@@ -204,21 +162,15 @@ The command output written to`system.out` and captured by the console client fra
 
 `commandErrorOutput`
 
-
-
 </td>
 <td valign="top">
 
 String
 
-
-
 </td>
 <td valign="top">
 
 The command output written to `system.err` and captured by the console client framework
-
-
 
 </td>
 </tr>
@@ -227,21 +179,15 @@ The command output written to `system.err` and captured by the console client fr
 
 `result`
 
-
-
 </td>
 <td valign="top">
 
 Object
 
-
-
 </td>
 <td valign="top">
 
 The result object returned by the command following the new contract for structured, machine-readable output
-
-
 
 </td>
 </tr>

@@ -13,21 +13,15 @@ Here you can find a list of the security events that are logged by OAuth 2.0 Ser
 
 Event grouping
 
-
-
 </th>
 <th valign="top">
 
 What events are logged
 
-
-
 </th>
 <th valign="top">
 
 How to identify related log events
-
-
 
 </th>
 </tr>
@@ -36,14 +30,10 @@ How to identify related log events
 
 Authorization code
 
-
-
 </td>
 <td valign="top">
 
 Issue OAuth authorization code
-
-
 
 </td>
 <td valign="top">
@@ -52,16 +42,12 @@ Issue OAuth authorization code
 
 Distincted by tenantId:"<tenant id\>"
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Delete OAuth authorization code
-
-
 
 </td>
 <td valign="top">
@@ -70,8 +56,6 @@ Delete OAuth authorization code
 
 Distincted by tenantId:"<tenant id\>"
 
-
-
 </td>
 </tr>
 <tr>
@@ -79,14 +63,10 @@ Distincted by tenantId:"<tenant id\>"
 
 Access token
 
-
-
 </td>
 <td valign="top">
 
 Issue access token for client credentials flow
-
-
 
 </td>
 <td valign="top">
@@ -97,16 +77,12 @@ Issue access token for client credentials flow
 
 Distincted by tenantId:"<tenant id\>"
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Issue access token from authorization code
-
-
 
 </td>
 <td valign="top">
@@ -115,16 +91,12 @@ Issue access token from authorization code
 
 Distincted by tenantId:"<tenant id\>"
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Issue access token from refresh token
-
-
 
 </td>
 <td valign="top">
@@ -133,16 +105,12 @@ Issue access token from refresh token
 
 Distincted by tenantId:"<tenant id\>"
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Issue acccess token from SAML bearer assertion
-
-
 
 </td>
 <td valign="top">
@@ -153,16 +121,12 @@ Distincted by tenantId:"<tenant id\>"
 
 Further refining of search: "operation":"Create access token from SAML bearer"
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Delete access token
-
-
 
 </td>
 <td valign="top">
@@ -171,8 +135,6 @@ Delete access token
 
 Distincted by tenantId:"<tenant id\>"
 
-
-
 </td>
 </tr>
 <tr>
@@ -180,14 +142,10 @@ Distincted by tenantId:"<tenant id\>"
 
 Refresh token
 
-
-
 </td>
 <td valign="top">
 
 Create refresh token
-
-
 
 </td>
 <td valign="top">
@@ -196,8 +154,6 @@ Create refresh token
 
 Distincted by tenantId:"<tenant id\>"
 
-
-
 </td>
 </tr>
 <tr>
@@ -205,14 +161,10 @@ Distincted by tenantId:"<tenant id\>"
 
 OAuth client
 
-
-
 </td>
 <td valign="top">
 
 Create OAuth client
-
-
 
 </td>
 <td valign="top">
@@ -221,16 +173,12 @@ Create OAuth client
 
 Distincted by tenantId:"<tenant id\>"
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Update OAuth client
-
-
 
 </td>
 <td valign="top">
@@ -239,16 +187,12 @@ Update OAuth client
 
 Distincted by tenantId:"<tenant id\>"
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Delete OAuth client
-
-
 
 </td>
 <td valign="top">
@@ -257,8 +201,6 @@ Delete OAuth client
 
 Distincted by tenantId:"<tenant id\>"
 
-
-
 </td>
 </tr>
 <tr>
@@ -266,14 +208,10 @@ Distincted by tenantId:"<tenant id\>"
 
 Platform client
 
-
-
 </td>
 <td valign="top">
 
 Create OAuth platform client
-
-
 
 </td>
 <td valign="top">
@@ -282,16 +220,12 @@ Create OAuth platform client
 
 Distincted by "account":"<account\>"
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Delete OAuth platform client
-
-
 
 </td>
 <td valign="top">
@@ -300,16 +234,12 @@ Delete OAuth platform client
 
 Distincted by "account":"<account\>"
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Create multi-tenant OAuth platform client
-
-
 
 </td>
 <td valign="top">
@@ -320,16 +250,12 @@ Distincted by "account":"<account\>"
 
 Further refining of search: "operation":"Create Multitenant Platform API client"
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Create admin OAuth platform client
-
-
 
 </td>
 <td valign="top">
@@ -352,8 +278,6 @@ Distincted by:
 
 Delete admin OAuth platform client
 
-
-
 </td>
 <td valign="top">
 
@@ -375,8 +299,6 @@ Distincted by:
 
 Create external OAuth platform client
 
-
-
 </td>
 <td valign="top">
 
@@ -391,16 +313,12 @@ Distincted by:
 
 Further refining of search: "operation":"Delete External Platform API client"
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Delete external OAutth platform client
-
-
 
 </td>
 <td valign="top">
@@ -415,8 +333,6 @@ Distincted by:
 
 
 Further refining of search: "operation":"Delete External Platform API client"
-
-
 
 </td>
 </tr>

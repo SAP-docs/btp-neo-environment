@@ -62,14 +62,10 @@ Whenever you directly access a Neo subaccount, you need to work with the Neo com
 
 btp CLI Command
 
-
-
 </th>
 <th valign="top">
 
 Conditions and Scope for the Neo Environment
-
-
 
 </th>
 </tr>
@@ -78,14 +74,10 @@ Conditions and Scope for the Neo Environment
 
 `accounts/environment‑instance` 
 
-
-
 </td>
 <td valign="top">
 
 Not applicable. A Neo environment is created with every Neo subaccount. You cannot enable additional environments within a Neo subaccount.
-
-
 
 </td>
 </tr>
@@ -94,14 +86,10 @@ Not applicable. A Neo environment is created with every Neo subaccount. You cann
 
 `accounts/resource‑provider` 
 
-
-
 </td>
 <td valign="top">
 
 Not applicable. To consume supported remote-service resources that you already own from a non-SAP cloud vendor, use a multi-environment subaccount.
-
-
 
 </td>
 </tr>
@@ -116,14 +104,10 @@ Not applicable. To consume supported remote-service resources that you already o
 
 `get accounts/subscription`
 
-
-
 </td>
 <td valign="top">
 
 To manage application subscriptions in Neo subaccounts, use the console client in the SAP BTP SDK for the Neo environment.
-
-
 
 </td>
 </tr>
@@ -132,14 +116,10 @@ To manage application subscriptions in Neo subaccounts, use the console client i
 
 `list accounts/available‑environment` 
 
-
-
 </td>
 <td valign="top">
 
 Not available for Neo subaccounts.
-
-
 
 </td>
 </tr>
@@ -148,14 +128,10 @@ Not available for Neo subaccounts.
 
 `list accounts/entitlement` 
 
-
-
 </td>
 <td valign="top">
 
 Not available for Neo subaccounts.
-
-
 
 </td>
 </tr>
@@ -164,14 +140,10 @@ Not available for Neo subaccounts.
 
 `delete accounts/subaccount` 
 
-
-
 </td>
 <td valign="top">
 
 To delete Neo subaccounts, use the console client in the SAP BTP SDK for the Neo environment.
-
-
 
 </td>
 </tr>
@@ -184,14 +156,10 @@ To delete Neo subaccounts, use the console client in the SAP BTP SDK for the Neo
 
 `security/role‑collection`
 
-
-
 </td>
 <td valign="top">
 
 Use the APIs in the SAP BTP SDK for the Neo environment.
-
-
 
 </td>
 </tr>
@@ -210,14 +178,10 @@ Use the APIs in the SAP BTP SDK for the Neo environment.
 
 `services/platform`
 
-
-
 </td>
 <td valign="top">
 
 These commands apply only to subaccounts that support the multi-environment configuration, such as Cloud Foundry and Kubernetes.
-
-
 
 </td>
 </tr>
@@ -242,14 +206,10 @@ These are the known conditions and scope when working with Neo subaccounts and t
 
 Service
 
-
-
 </th>
 <th valign="top">
 
 Conditions and Scope for the Neo Environment
-
-
 
 </th>
 </tr>
@@ -258,14 +218,10 @@ Conditions and Scope for the Neo Environment
 
 Accounts service \(provided with the SAP Cloud Management service for SAP BTP\)
 
-
-
 </td>
 <td valign="top">
 
 When deleting Neo subaccounts, use the SAP BTP SDK for the Neo environment.
-
-
 
 </td>
 </tr>
@@ -274,14 +230,10 @@ When deleting Neo subaccounts, use the SAP BTP SDK for the Neo environment.
 
 Provisioning service \(provided with the SAP Cloud Management service for SAP BTP\)
 
-
-
 </td>
 <td valign="top">
 
 Use the SAP BTP SDK for the Neo environment.
-
-
 
 </td>
 </tr>
@@ -290,14 +242,10 @@ Use the SAP BTP SDK for the Neo environment.
 
 SAP Software-as-a-Service Provisioning service
 
-
-
 </td>
 <td valign="top">
 
 To manage application subscriptions in Neo subaccounts, use the SAP BTP SDK for the Neo environment.
-
-
 
 </td>
 </tr>
@@ -306,14 +254,10 @@ To manage application subscriptions in Neo subaccounts, use the SAP BTP SDK for 
 
 SAP Authorization and Trust Management service
 
-
-
 </td>
 <td valign="top">
 
 Use the SAP BTP SDK for the Neo environment.
-
-
 
 </td>
 </tr>
@@ -322,14 +266,10 @@ Use the SAP BTP SDK for the Neo environment.
 
 SAP Service Manager
 
-
-
 </td>
 <td valign="top">
 
 The APIs offered by this service apply only to subaccounts that support the multi-environment configuration, such as Cloud Foundry and Kubernetes.
-
-
 
 </td>
 </tr>
@@ -338,14 +278,10 @@ The APIs offered by this service apply only to subaccounts that support the mult
 
 Events
 
-
-
 </td>
 <td valign="top">
 
 You can use the central-based events provided by this service with your Neo subaccounts. See [Using the Events Service APIs](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/94e1895c16274df2a59196b81e28d1c4.html "The Events service provides REST APIs that collect information about events relating to account administrative operations in the microservices of the SAP Cloud Management service for SAP BTP, such as Accounts, Entitlements, Provisioning, and the SAP SaaS Provisioning service, within central and local regions.") :arrow_upper_right:.
-
-
 
 </td>
 </tr>

@@ -35,16 +35,12 @@ To list all parameters available for this command, execute `neo help list-applic
 
 Required
 
-
-
 </th>
 </tr>
 <tr>
 <td valign="top">
 
 `-a`, `--account`
-
-
 
 </td>
 <td valign="top">
@@ -53,16 +49,12 @@ Subaccount technical name
 
 `Type`: string \(up to 30 characters; lowercase letters and numbers, starting with a letter\)
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-p`, `--password`
-
-
 
 </td>
 <td valign="top">
@@ -71,16 +63,12 @@ To protect your password, enter it only when prompted by the console client and 
 
 `Type`: string
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-b`, `--application` 
-
-
 
 </td>
 <td valign="top">
@@ -89,8 +77,6 @@ Application name
 
 `Type`: string \(up to 30 characters; lowercase letters and numbers, starting with a letter\)
 
-
-
 </td>
 </tr>
 <tr>
@@ -98,16 +84,12 @@ Application name
 
 `-u`, `--user`
 
-
-
 </td>
 <td valign="top">
 
 Use your email, SAP ID or user name
 
 `Type`: string
-
-
 
 </td>
 </tr>

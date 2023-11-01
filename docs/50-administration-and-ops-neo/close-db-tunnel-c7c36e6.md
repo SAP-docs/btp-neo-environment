@@ -33,8 +33,6 @@ A tunnel opened in a background process is automatically closed when the last se
 
 Required
 
-
-
 </th>
 </tr>
 <tr>
@@ -42,14 +40,10 @@ Required
 
 `--all`
 
-
-
 </td>
 <td valign="top">
 
 Closes all tunnel sessions that have been opened in the background
-
-
 
 </td>
 </tr>
@@ -58,14 +52,10 @@ Closes all tunnel sessions that have been opened in the background
 
 `--session-id`
 
-
-
 </td>
 <td valign="top">
 
 Tunnel session to be closed. Cannot be used together with the parameter `--all`.
-
-
 
 </td>
 </tr>

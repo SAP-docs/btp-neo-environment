@@ -37,16 +37,12 @@ To list all parameters available for this command, execute `neo help change-doma
 
 Required
 
-
-
 </th>
 </tr>
 <tr>
 <td valign="top">
 
 `-a`, `--account`
-
-
 
 </td>
 <td valign="top">
@@ -55,16 +51,12 @@ Subaccount technical name
 
 `Type`: string \(up to 30 characters; lowercase letters and numbers, starting with a letter\)
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-h`, `--host`
-
-
 
 </td>
 <td valign="top">
@@ -73,16 +65,12 @@ Enter a region host.
 
 `Type`: URL. For acceptable values, see [Regions and Hosts Available for the Neo Environment](../10-concepts-neo/regions-and-hosts-available-for-the-neo-environment-d722f7c.md).
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-p`, `--password`
-
-
 
 </td>
 <td valign="top">
@@ -91,16 +79,12 @@ To protect your password, enter it only when prompted by the console client and 
 
 `Type`: string
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-u`, `--user`
-
-
 
 </td>
 <td valign="top">
@@ -109,16 +93,12 @@ Use your email, SAP ID, or user name.
 
 `Type`: string
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `--certificate`
-
-
 
 </td>
 <td valign="top">
@@ -127,8 +107,6 @@ Name of the certificate that you set to the SSL host
 
 The certificate must already be uploaded.
 
-
-
 </td>
 </tr>
 <tr>
@@ -136,14 +114,10 @@ The certificate must already be uploaded.
 
 `-l`, `--ssl-host`
 
-
-
 </td>
 <td valign="top">
 
 SSL host as defined with the `--name` parameter when created, or 'default' if not specified.
-
-
 
 </td>
 </tr>

@@ -34,28 +34,20 @@ You can access the SAP HANA Web-based tools using the Cockpit or the tool URLs. 
 
 Tool
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 <th valign="top">
 
 Where to Find It in the Cockpit
 
-
-
 </th>
 <th valign="top">
 
 Tool URL
-
-
 
 </th>
 </tr>
@@ -64,8 +56,6 @@ Tool URL
 
 SAP HANA Web-based Development Workbench
 
-
-
 </td>
 <td valign="top">
 
@@ -73,21 +63,15 @@ Includes an all-purpose editor tool that enables you to maintain and run design-
 
 For more information, see the [Developer Guide for SAP HANA Web Workbench](https://help.sap.com/viewer/b3d0daf2a98e49ada00bf31b7ca7a42e/2.0.00/en-US/).
 
-
-
 </td>
 <td valign="top">
 
 *Development Tools* section: *SAP HANA Web-based Development Workbench* 
 
-
-
 </td>
 <td valign="top">
 
 `https://<database instance><subaccount>.< host>/sap/hana/xs/ide/` 
-
-
 
 </td>
 </tr>
@@ -95,8 +79,6 @@ For more information, see the [Developer Guide for SAP HANA Web Workbench](https
 <td valign="top">
 
 SAP HANA Cockpit
-
-
 
 </td>
 <td valign="top">
@@ -115,14 +97,10 @@ For more information, see the [SAP HANA Administration Guide](https://help.sap.c
 
 *Administration Tools* section: *SAP HANA Cockpit* 
 
-
-
 </td>
 <td valign="top">
 
 `https://<database instance><subaccount>.<host>/sap/hana/xs/admin/cockpit` 
-
-
 
 </td>
 </tr>
@@ -131,8 +109,6 @@ For more information, see the [SAP HANA Administration Guide](https://help.sap.c
 
 SAP HANA XS Administration Tool
 
-
-
 </td>
 <td valign="top">
 
@@ -140,21 +116,15 @@ Allows you, for example, to configure security options and HTTP destinations.
 
 For more information, see the [SAP HANA Administration Guide](https://help.sap.com/viewer/6b94445c94ae495c83a19646e7c3fd56/2.0.00/en-US).
 
-
-
 </td>
 <td valign="top">
 
 *Administration Tools* section: *SAP HANA XS Administration* 
 
-
-
 </td>
 <td valign="top">
 
 `https://<database instance><subaccount>.<host>/sap/hana/xs/admin/` 
-
-
 
 </td>
 </tr>

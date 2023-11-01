@@ -31,8 +31,6 @@ neo deploy-local --source <file_location>
 
 Required
 
-
-
 </th>
 </tr>
 <tr>
@@ -40,16 +38,12 @@ Required
 
 `-s`, `--source`
 
-
-
 </td>
 <td valign="top">
 
 Source for deployment \(comma separated list of WAR files or folders containing one or more WAR files\)
 
 `Type`: file location
-
-
 
 </td>
 </tr>
@@ -62,8 +56,6 @@ Source for deployment \(comma separated list of WAR files or folders containing 
 
 Optional
 
-
-
 </th>
 </tr>
 <tr>
@@ -71,14 +63,10 @@ Optional
 
 `-l`, `--location`
 
-
-
 </td>
 <td valign="top">
 
 Local server installation directory
-
-
 
 </td>
 </tr>

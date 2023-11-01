@@ -54,36 +54,26 @@ The *status* column defines whether the user is still active in the system and i
 > 
 > status
 > 
-> 
-> 
 > </th>
 > <th valign="top">
 > 
 > loginName
-> 
-> 
 > 
 > </th>
 > <th valign="top">
 > 
 > mail
 > 
-> 
-> 
 > </th>
 > <th valign="top">
 > 
 > firstName
-> 
-> 
 > 
 > </th>
 > <th valign="top">
 > 
 > lastName
 > 
-> 
-> 
 > </th>
 > </tr>
 > <tr>
@@ -91,72 +81,52 @@ The *status* column defines whether the user is still active in the system and i
 > 
 > active
 > 
-> 
-> 
 > </td>
 > <td valign="top">
 > 
 > EID00001
-> 
-> 
 > 
 > </td>
 > <td valign="top">
 > 
 > michael.adams@example.com
 > 
-> 
-> 
 > </td>
 > <td valign="top">
 > 
 > Michael
-> 
-> 
 > 
 > </td>
 > <td valign="top">
 > 
 > Adams
 > 
-> 
-> 
 > </td>
 > </tr>
 > <tr>
 > <td valign="top">
 > 
 > active
-> 
-> 
 > 
 > </td>
 > <td valign="top">
 > 
 > EID00002
 > 
-> 
-> 
 > </td>
 > <td valign="top">
 > 
 > julie.armstrong@example.com
-> 
-> 
 > 
 > </td>
 > <td valign="top">
 > 
 > Julie
 > 
-> 
-> 
 > </td>
 > <td valign="top">
 > 
 > Armstrong
-> 
-> 
 > 
 > </td>
 > </tr>
@@ -165,35 +135,25 @@ The *status* column defines whether the user is still active in the system and i
 > 
 > active
 > 
-> 
-> 
 > </td>
 > <td valign="top">
 > 
 > EID00003
-> 
-> 
 > 
 > </td>
 > <td valign="top">
 > 
 > donna.moore@example.com
 > 
-> 
-> 
 > </td>
 > <td valign="top">
 > 
 > Donna
 > 
-> 
-> 
 > </td>
 > <td valign="top">
 > 
 > Moore
-> 
-> 
 > 
 > </td>
 > </tr>
@@ -240,15 +200,11 @@ To import users for an application into Identity Authentication, and to send act
     <th valign="top">
 
     Option
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     </tr>
@@ -256,15 +212,11 @@ To import users for an application into Identity Authentication, and to send act
     <td valign="top">
     
     **Do nothing**
-
-
     
     </td>
     <td valign="top">
     
     The users are imported or updated for the selected application, but they will not receive activation e-mails. The activation e-mails will be sent when you choose *Send E-Mails* \> *Send*.
-
-
     
     </td>
     </tr>
@@ -272,15 +224,11 @@ To import users for an application into Identity Authentication, and to send act
     <td valign="top">
     
     **Repeat steps 2 to 5**
-
-
     
     </td>
     <td valign="top">
     
     The users are imported or updated for the selected application, but they will not receive activation e-mails. The activation e-mails will be sent when you choose *Send E-Mails* \> *Send*.
-
-
     
     </td>
     </tr>
@@ -288,8 +236,6 @@ To import users for an application into Identity Authentication, and to send act
     <td valign="top">
     
     Choose *Send E-Mails* \> *Send*
-
-
     
     </td>
     <td valign="top">

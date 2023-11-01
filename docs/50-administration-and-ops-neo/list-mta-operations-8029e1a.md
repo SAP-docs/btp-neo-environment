@@ -37,8 +37,6 @@ To list all parameters available for this command, execute `neo help list-mta-op
 
 Required
 
-
-
 </th>
 </tr>
 <tr>
@@ -46,14 +44,10 @@ Required
 
 `-a`, `--account`
 
-
-
 </td>
 <td valign="top">
 
 The name of the subaccount for which you provide a user and a password.
-
-
 
 </td>
 </tr>
@@ -62,14 +56,10 @@ The name of the subaccount for which you provide a user and a password.
 
 `-h`, `--host`
 
-
-
 </td>
 <td valign="top">
 
 The host on which you execute the command.
-
-
 
 </td>
 </tr>
@@ -78,14 +68,10 @@ The host on which you execute the command.
 
 `-p`, `--password`
 
-
-
 </td>
 <td valign="top">
 
 Your user password. We recommend that you enter it only when prompted, and not explicitly as a parameter in a properties file or the command line.
-
-
 
 </td>
 </tr>
@@ -94,14 +80,10 @@ Your user password. We recommend that you enter it only when prompted, and not e
 
 `-u`, `--user`
 
-
-
 </td>
 <td valign="top">
 
 Your user e-mail or SAP ID \(SCN\) user name.
-
-
 
 </td>
 </tr>
@@ -109,8 +91,6 @@ Your user e-mail or SAP ID \(SCN\) user name.
 <td valign="top">
 
 `--operation-id`
-
-
 
 </td>
 <td valign="top">

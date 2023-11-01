@@ -35,16 +35,12 @@ To list all parameters available for this command, execute `neo help upload-doma
 
 Required
 
-
-
 </th>
 </tr>
 <tr>
 <td valign="top">
 
 `-a`, `--account`
-
-
 
 </td>
 <td valign="top">
@@ -53,16 +49,12 @@ Subaccount technical name
 
 `Type`: string \(up to 30 characters; lowercase letters and numbers, starting with a letter\)
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-h`, `--host`
-
-
 
 </td>
 <td valign="top">
@@ -71,16 +63,12 @@ Enter a region host.
 
 `Type`: URL. For acceptable values, see [Regions](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/350356d1dc314d3199dca15bd2ab9b0e.html "You can deploy applications in different regions. Each region represents a geographical location (for example, Europe, US East) where applications, data, or services are hosted.") :arrow_upper_right:.
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-p`, `--password`
-
-
 
 </td>
 <td valign="top">
@@ -89,16 +77,12 @@ To protect your password, enter it only when prompted by the console client and 
 
 `Type`: string
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-u`, `--user`
-
-
 
 </td>
 <td valign="top">
@@ -107,16 +91,12 @@ Use your email, SAP ID, or user name.
 
 `Type`: string
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-n`, `--name`
-
-
 
 </td>
 <td valign="top">
@@ -129,16 +109,12 @@ If you upload a certificate not based on a CSR generated via `generate-csr`, you
 
 The certificate name must start with a letter and can only contain lowercase letters \(a-z\), uppercase letters \(A-Z\), numbers \(0-9\), underscores \( \_ \), and hyphens \(-\).
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-l`, `--location`
-
-
 
 </td>
 <td valign="top">
@@ -155,8 +131,6 @@ Location of a file containing certificate data
 
 `Maximum file size`: 20 KB
 
-
-
 </td>
 </tr>
 </table>
@@ -168,16 +142,12 @@ Location of a file containing certificate data
 
 Optional
 
-
-
 </th>
 </tr>
 <tr>
 <td valign="top">
 
 `-f`, `--force`
-
-
 
 </td>
 <td valign="top">
@@ -186,16 +156,12 @@ Overwrites an existing SSL certificate. For example, this parameter lets you upd
 
 The `--force` option is also useful if you had to and you did not upload an intermediate certificate for some reason. Note that the intermediate certificate must be added to the file that contains the SSL certificate.
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-k`, `--key-location`
-
-
 
 </td>
 <td valign="top">
@@ -210,8 +176,6 @@ If you want to upload a signed certificate that is not based on a CSR generated 
 `Type`: file location
 
 `Maximum file size`: 4 KB
-
-
 
 </td>
 </tr>

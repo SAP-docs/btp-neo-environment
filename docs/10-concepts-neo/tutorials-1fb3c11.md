@@ -19,14 +19,10 @@ Follow the tutorials below to get familiar with the services offered by SAP BTP 
 
 To learn about the Neo environment
 
-
-
 </th>
 <th valign="top">
 
 See
-
-
 
 </th>
 </tr>
@@ -35,14 +31,10 @@ See
 
 How to create a "Hello World" Multi-Target Application
 
-
-
 </td>
 <td valign="top">
 
 [Create a Hello World Multitarget Application](../30-development-neo/create-a-hello-world-multitarget-application-4b108e8.md) 
-
-
 
 </td>
 </tr>
@@ -50,8 +42,6 @@ How to create a "Hello World" Multi-Target Application
 <td valign="top">
 
 Connectivity service scenarios
-
-
 
 </td>
 <td valign="top">
@@ -68,16 +58,12 @@ Connectivity service scenarios
 
 [Example: Send E-Mails](https://help.sap.com/viewer/b865ed651e414196b39f8922db2122c7/Cloud/en-US/e70a574cbb57101494a781920e3c9d64.html "This example shows how you can send an e-mail from a simple Web application using an e-mail provider that is accessible on the Internet.") :arrow_upper_right:
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 SAP HANA and SAP ASE service scenarios
-
-
 
 </td>
 <td valign="top">
@@ -88,8 +74,6 @@ SAP HANA and SAP ASE service scenarios
 
 [Creating an SAP HANA Database Using the Console Client](https://help.sap.com/viewer/d4790b2de2f4429db6f3dff54e4d7b3a/Cloud/en-US/ee6ae2938cf54c46bd8996745dbc033c.html "Create a database in an SAP HANA tenant database system, using SAP BTP console client commands in the Neo environment.") :arrow_upper_right:
 
-
-
 </td>
 </tr>
 <tr>
@@ -97,14 +81,10 @@ SAP HANA and SAP ASE service scenarios
 
 Java applications lifecycle management scenarios
 
-
-
 </td>
 <td valign="top">
 
 [Java ALM API](../30-development-neo/java-alm-api-fc944d1.md#loiofc944d19af614052898b145deb2bee59) 
-
-
 
 </td>
 </tr>
@@ -113,14 +93,10 @@ Java applications lifecycle management scenarios
 
 Virtual machine scenarios
 
-
-
 </td>
 <td valign="top">
 
 [Virtual Machine Tutorials and Guides](https://help.sap.com/viewer/c746ff81651e4b8fb6efc11146091016/Cloud/en-US/c95cbc836ae440949604bc451bf3becf.html "To learn what the SAP Virtual Machine service has to offer in practice, check out these scenarios.") :arrow_upper_right: 
-
-
 
 </td>
 </tr>
@@ -129,16 +105,12 @@ Virtual machine scenarios
 
 Monitoring service scenarios
 
-
-
 </td>
 <td valign="top">
 
 [Implement a Dashboard Application for Monitoring Java Apps](https://developers.sap.com/tutorials/cp-monitoring-dashboard.html)
 
 [Implement a Notification Application for Monitoring Java Apps](https://developers.sap.com/tutorials/cp-monitoring-notification.html)
-
-
 
 </td>
 </tr>
@@ -147,14 +119,10 @@ Monitoring service scenarios
 
 How to secure your HTTPS connections
 
-
-
 </td>
 <td valign="top">
 
 [Using the Keystore Service for Client Side HTTPS Connections](../60-security-neo/using-the-keystore-service-for-client-side-https-connections-38144cd.md)
-
-
 
 </td>
 </tr>
@@ -162,8 +130,6 @@ How to secure your HTTPS connections
 <td valign="top">
 
 How to create an SAP HANA XS application
-
-
 
 </td>
 <td valign="top">
@@ -182,8 +148,6 @@ How to create an SAP HANA XS application
 
 Multitenancy scenarios
 
-
-
 </td>
 <td valign="top">
 
@@ -192,8 +156,6 @@ Multitenancy scenarios
 [Create an Exemplary Provider Application \(JSP\)](../30-development-neo/create-an-exemplary-provider-application-jsp-255422a.md)
 
 [Create a Multitenant Connectivity Application](../30-development-neo/create-a-multitenant-connectivity-application-d88900b.md)
-
-
 
 </td>
 </tr>

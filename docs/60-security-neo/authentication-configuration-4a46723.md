@@ -35,14 +35,10 @@ If you select more than one option, SAP BTP will delegate authentication to the 
 
 Login Option
 
-
-
 </th>
 <th valign="top">
 
 Descrption
-
-
 
 </th>
 </tr>
@@ -51,14 +47,10 @@ Descrption
 
 Trusted SAML 2.0 identity provider
 
-
-
 </td>
 <td valign="top">
 
 Authentication is implemented over the Security Assertion Markup Language \(SAML\) 2.0 protocol, and delegated to SAP ID service or custom identity provider \(IdP\). The credentials users need to present depend on the IdP settings. See [Application Identity Provider](application-identity-provider-dc61853.md#loiodc618538d97610148155d97dcd123c24).
-
-
 
 </td>
 </tr>
@@ -66,8 +58,6 @@ Authentication is implemented over the Security Assertion Markup Language \(SAML
 <td valign="top">
 
 User name and password
-
-
 
 </td>
 <td valign="top">
@@ -86,14 +76,10 @@ HTTP BASIC authentication with user name and password. The user name and passwor
 
 Client certificate
 
-
-
 </td>
 <td valign="top">
 
 Users authenticate with a client certificate installed in an on-premise SAP NetWeaver Application Server for Java system. See [Enabling Client Certificate Authentication](enabling-client-certificate-authentication-0d7cf63.md)
-
-
 
 </td>
 </tr>
@@ -101,8 +87,6 @@ Users authenticate with a client certificate installed in an on-premise SAP NetW
 <td valign="top">
 
 Application-to-Application SSO
-
-
 
 </td>
 <td valign="top">
@@ -121,14 +105,10 @@ Used for AppToAppSSO destinations. See [Application-to-Application SSO Authentic
 
 OAuth 2.0 token
 
-
-
 </td>
 <td valign="top">
 
 Authentication is implemented over the OAuth 2.0 protocol. Users need to present an OAuth access token as credential. See [OAuth 2.0 Authorization Code Grant](oauth-2-0-authorization-code-grant-b7b5893.md).
-
-
 
 </td>
 </tr>

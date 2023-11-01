@@ -29,21 +29,15 @@ The samples are located in the `<sdk>/samples` folder. The table below lists the
 
 Sample
 
-
-
 </th>
 <th valign="top">
 
 Feature
 
-
-
 </th>
 <th valign="top">
 
 More Information
-
-
 
 </th>
 </tr>
@@ -52,21 +46,15 @@ More Information
 
 authentication
 
-
-
 </td>
 <td valign="top">
 
 HTTP BASIC authentication scheme
 
-
-
 </td>
 <td valign="top">
 
 [User Authentication](../60-security-neo/authentication-e637f62.md#loioe637f62abb571014857cb0232adc43a7) 
-
-
 
 </td>
 </tr>
@@ -75,21 +63,15 @@ HTTP BASIC authentication scheme
 
 connectivity
 
-
-
 </td>
 <td valign="top">
 
 Consumption of Internet services
 
-
-
 </td>
 <td valign="top">
 
 [Consume Internet Services (Java Web or Java EE 6 Web Profile)](https://help.sap.com/viewer/b865ed651e414196b39f8922db2122c7/Cloud/en-US/e592cf6cbb57101495d3c28507d20f1b.html "") :arrow_upper_right: 
-
-
 
 </td>
 </tr>
@@ -98,21 +80,15 @@ Consumption of Internet services
 
 persistence-with-ejb
 
-
-
 </td>
 <td valign="top">
 
 Container-managed persistence with JPA
 
-
-
 </td>
 <td valign="top">
 
 [Tutorial: Adding Container-Managed Persistence with JPA \(SDK for Java EE 7 Web Profile\)](tutorial-adding-container-managed-persistence-with-jpa-sdk-for-java-ee-7-web-profile-7612e18.md#loio7612e180711e1014839a8273b0e91070)
-
-
 
 </td>
 </tr>
@@ -121,21 +97,15 @@ Container-managed persistence with JPA
 
 persistence-with-jpa
 
-
-
 </td>
 <td valign="top">
 
 Application-managed persistence with JPA
 
-
-
 </td>
 <td valign="top">
 
 [Tutorial: Adding Application-Managed Persistence with JPA \(SDK for Java Web\)](tutorial-adding-application-managed-persistence-with-jpa-sdk-for-java-web-e4aeacd.md#loioe4aeacd2bb5710148ee99255136d96a5)
-
-
 
 </td>
 </tr>
@@ -144,21 +114,15 @@ Application-managed persistence with JPA
 
 persistence-with-jdbc
 
-
-
 </td>
 <td valign="top">
 
 Relational persistence with JDBC
 
-
-
 </td>
 <td valign="top">
 
 [Tutorial: Adding Persistence with JDBC \(SDK for Java Web\)](tutorial-adding-persistence-with-jdbc-sdk-for-java-web-e4c5285.md#loioe4c52854bb571014aeb88753d0dad158) 
-
-
 
 </td>
 </tr>
@@ -167,21 +131,15 @@ Relational persistence with JDBC
 
 mail
 
-
-
 </td>
 <td valign="top">
 
 Sending e-mails
 
-
-
 </td>
 <td valign="top">
 
 [Example: Send E-Mails](https://help.sap.com/viewer/b865ed651e414196b39f8922db2122c7/Cloud/en-US/e70a574cbb57101494a781920e3c9d64.html "This example shows how you can send an e-mail from a simple Web application using an e-mail provider that is accessible on the Internet.") :arrow_upper_right:
-
-
 
 </td>
 </tr>
@@ -190,21 +148,15 @@ Sending e-mails
 
 SAP\_Jam\_OData\_HCP
 
-
-
 </td>
 <td valign="top">
 
 Accessing data in SAP Jam via OData
 
-
-
 </td>
 <td valign="top">
 
 [Source code for using the SAP Jam API](https://github.com/SAP/SAPJamSampleCode/tree/master/SAP_Jam_OData_HCP)
-
-
 
 </td>
 </tr>

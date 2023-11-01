@@ -26,13 +26,17 @@ The btp CLI is part of our cloud management tools feature set B. This means that
 
 To log on, we recommend to run `btp login --sso` or `btp login` without parameters. Then confirm the server URL that is proposed by the CLI and provide tyour credentials when you are prompted. After successful authentication, the btp CLI will log you into your global account, or, if you have more than one, will show all available global accounts for you to select the one you need.
 
+To log on with SAP Universal ID, you need to use the `--sso` parameter. Otherwise log on with the password associated with your account \(S-user or P-user\) in the default identity provider, SAP ID service. If you've forgotten this password and this user is associated with your SAP Universal ID user, reset your password.
+
+For more information, see SAP Note [3085908](https://me.sap.com/notes/3085908) and [Log in with Single Sign-On](log-in-with-single-sign-on-b2a56a8.md).
+
 
 
 <a name="loio4023e1504ebc4a00a5108b8f716fe9a3__section_tpf_hyh_xlb"/>
 
 ## I'd like to setup a global account with the command line
 
-If you don't know how to get started, you might want to have a look at the appropriate workflow: [Setting Up a Trial Account via the Command Line \[Feature Set B\]](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/a21360fa19714751a7c49c796d39ac3d.html "If your trial account is running on the cloud management tools feature set B, you can use the command-line interfaces to set it up. For all tasks on global account and subaccount level, you use the SAP BTP command line interface (btp CLI). Once you’ve created a Cloud Foundry environment instance (a Cloud Foundry org), you use the Cloud Foundry CLI (cf CLI). This procedure works without the SAP BTP cockpit (except that you need the global account subdomain to log in, which you may have to look up in the cockpit).") :arrow_upper_right: or [Setting Up a Global Account via the Command Line \[Feature Set B\]](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/accd5b2389b04f4daf8a79b606435927.html "Your global account is the entry point for managing the resources, landscape, and entitlements for your departments and projects in a self-service manner in SAP BTP. You can use the command-line tool btp CLI to set it up.") :arrow_upper_right:.
+If you don't know how to get started, you might want to have a look at the appropriate workflow: [Setting Up a Trial Account via the Command Line \[Feature Set B\]](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/a21360fa19714751a7c49c796d39ac3d.html "If your trial account is running on the cloud management tools feature set B, you can use the command-line interfaces to set it up. For all tasks on global account and subaccount level, you use the SAP BTP command line interface (btp CLI). Once you’ve created a Cloud Foundry environment instance (a Cloud Foundry org), you use the Cloud Foundry CLI (cf CLI). This procedure works without the SAP BTP cockpit (except that you need the global account subdomain to log in, which you may have to look up in the cockpit).") :arrow_upper_right: or [Setting Up a Global Account via the Command Line](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/accd5b2389b04f4daf8a79b606435927.html "Your global account is the entry point for managing the resources, landscape, and entitlements for your departments and projects in a self-service manner in SAP BTP. You can use the command-line tool btp CLI to set it up.") :arrow_upper_right:.
 
 
 

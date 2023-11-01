@@ -23,28 +23,20 @@ If your problem is related to a database, the details you need to provide differ
 
 Environment
 
-
-
 </th>
 <th valign="top">
 
 Infrastructure Provider
-
-
 
 </th>
 <th valign="top">
 
 Details You Need to Provide
 
-
-
 </th>
 <th valign="top">
 
 How to Find the Details You Need
-
-
 
 </th>
 </tr>
@@ -53,28 +45,20 @@ How to Find the Details You Need
 
 Neo 
 
-
-
 </td>
 <td valign="top" rowspan="2">
 
 SAP regions
-
-
 
 </td>
 <td valign="top">
 
 Region and global account name
 
-
-
 </td>
 <td valign="top">
 
 In the cockpit, open the affected subaccount, and copy the URL.
-
-
 
 </td>
 </tr>
@@ -82,8 +66,6 @@ In the cockpit, open the affected subaccount, and copy the URL.
 <td valign="top">
 
 The database or schema ID
-
-
 
 </td>
 <td valign="top">

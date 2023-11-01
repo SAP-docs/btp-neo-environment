@@ -31,14 +31,10 @@ An overview of the structure and content of the SDK is shown in the table below.
 
 Folder/File
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -47,14 +43,10 @@ Description
 
 `api`
 
-
-
 </td>
 <td valign="top">
 
 The platform API containing the SAP and third-party API JARs required to compile Web applications for SAP BTP \(for more information about the platform API, see the "Supported APIs" section further below\).
-
-
 
 </td>
 </tr>
@@ -63,14 +55,10 @@ The platform API containing the SAP and third-party API JARs required to compile
 
 `javadoc`
 
-
-
 </td>
 <td valign="top">
 
 Javadoc for the SAP platform APIs \(also available as online documentation via the *API Documentation* link in the title bar of the SAP BTP Documentation Center\). Javadoc for the third-party APIs is cross-referenced from the online documentation.
-
-
 
 </td>
 </tr>
@@ -79,14 +67,10 @@ Javadoc for the SAP platform APIs \(also available as online documentation via t
 
 `repository`
 
-
-
 </td>
 <td valign="top">
 
 The P2 repository from which the local server runtime is created.
-
-
 
 </td>
 </tr>
@@ -95,14 +79,10 @@ The P2 repository from which the local server runtime is created.
 
 `samples`
 
-
-
 </td>
 <td valign="top">
 
 Samples demonstrating how to develop for SAP BTP. The samples can be imported as Eclipse or Maven projects.
-
-
 
 </td>
 </tr>
@@ -111,14 +91,10 @@ Samples demonstrating how to develop for SAP BTP. The samples can be imported as
 
 `server`
 
-
-
 </td>
 <td valign="top">
 
 Initially not present, but created once you install a local server runtime.
-
-
 
 </td>
 </tr>
@@ -127,14 +103,10 @@ Initially not present, but created once you install a local server runtime.
 
 `tools`
 
-
-
 </td>
 <td valign="top">
 
 Command line tools required for interacting with the cloud runtime \(for example, to deploy and start applications\) and the local server runtime \(for example, to install and start the local server\).
-
-
 
 </td>
 </tr>
@@ -143,14 +115,10 @@ Command line tools required for interacting with the cloud runtime \(for example
 
 `licenses.txt`
 
-
-
 </td>
 <td valign="top">
 
 Licenses of third-party components contained in the SAP BTP SDK for Neo environment.
-
-
 
 </td>
 </tr>
@@ -159,14 +127,10 @@ Licenses of third-party components contained in the SAP BTP SDK for Neo environm
 
 `readme.txt`
 
-
-
 </td>
 <td valign="top">
 
 Brief introduction to the SAP BTP SDK for Neo environment, its content, and how to set it up.
-
-
 
 </td>
 </tr>
@@ -175,14 +139,10 @@ Brief introduction to the SAP BTP SDK for Neo environment, its content, and how 
 
 `sdk.version`
 
-
-
 </td>
 <td valign="top">
 
 SDK version information for use by other tools interacting with the SAP BTP SDK for Neo environment.
-
-
 
 </td>
 </tr>

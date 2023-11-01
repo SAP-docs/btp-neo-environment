@@ -31,14 +31,10 @@ You can use these sample extension applications as a reference when developing y
 
 Sample
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -49,8 +45,6 @@ SAP Ariba Discovery RFx to External Marketplace Extension
 
 [https://github.com/SAP/cloud-ariba-discovery-rfx-to-external-marketplace-ext](https://github.com/SAP/cloud-ariba-discovery-rfx-to-external-marketplace-ext)
 
-
-
 </td>
 <td valign="top">
 
@@ -59,8 +53,6 @@ SAP Ariba Public Sourcing is a sample extension application for SAP Ariba Networ
 Extends: SAP Ariba Network
 
 Uses: Discovery RFx Publication to External Marketplace API
-
-
 
 </td>
 </tr>
@@ -71,8 +63,6 @@ SAP Ariba Partner Flow Extension
 
 [https://github.com/SAP/cloud-ariba-partner-flow-extension-ext](https://github.com/SAP/cloud-ariba-partner-flow-extension-ext)
 
-
-
 </td>
 <td valign="top">
 
@@ -81,8 +71,6 @@ SAP Ariba Partner Flow extension application allows a buyer to attach documents 
 Extends: SAP Ariba Network
 
 Uses: Partner Flow Extension API
-
-
 
 </td>
 </tr>

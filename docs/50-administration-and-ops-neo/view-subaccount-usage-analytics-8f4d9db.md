@@ -23,14 +23,10 @@ The subaccount *Usage Analytics* page contains views that display usage at diffe
 
 View
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -39,16 +35,12 @@ Description
 
 **Subaccount** 
 
-
-
 </td>
 <td valign="top">
 
 Displays high-level usage information for your subaccount relating to services and business application subscriptions.
 
 Some information in this view is displayed only for global account admins.
-
-
 
 </td>
 </tr>
@@ -57,14 +49,10 @@ Some information in this view is displayed only for global account admins.
 
 **Services** 
 
-
-
 </td>
 <td valign="top">
 
 Displays usage per service plan for the region of the subaccount, and the selected metric and period. Information is shown for all services whose metered consumption in the subaccount is greater than zero.
-
-
 
 </td>
 </tr>

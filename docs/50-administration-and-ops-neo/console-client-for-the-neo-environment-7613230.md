@@ -18,14 +18,10 @@ The console client for the Neo environment enables development, deployment and c
 
 To learn more about
 
-
-
 </th>
 <th valign="top">
 
 See
-
-
 
 </th>
 </tr>
@@ -34,14 +30,10 @@ See
 
 Downloading the SDK for SAP BTP, Neo environment and setting up the console client
 
-
-
 </td>
 <td valign="top">
 
 [Install the SAP BTP SDK for Neo Environment](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/7613843c711e1014839a8273b0e91070.html)[Set Up the Console Client](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/7613dee4711e1014839a8273b0e91070.html)
-
-
 
 </td>
 </tr>
@@ -50,16 +42,12 @@ Downloading the SDK for SAP BTP, Neo environment and setting up the console clie
 
 Opening the tool and working with the commands and parameters
 
-
-
 </td>
 <td valign="top">
 
 [Using the Console Client](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/8900b22376f84c609ee9baf5bf67130a.html)
 
 [Console Client Video Tutorial](http://youtu.be/UHuSnBMimPA)
-
-
 
 </td>
 </tr>
@@ -68,14 +56,10 @@ Opening the tool and working with the commands and parameters
 
 Groups of console client commands
 
-
-
 </td>
 <td valign="top">
 
 [Console Client Commands](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/56e309f496cc446ba441d862db94cb18.html)
-
-
 
 </td>
 </tr>
@@ -84,14 +68,10 @@ Groups of console client commands
 
 Ranges and types of exit codes
 
-
-
 </td>
 <td valign="top">
 
 [Exit Codes](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/7886796eb9b9419fa6cecf1d215c38d8.html)
-
-
 
 </td>
 </tr>
@@ -100,14 +80,10 @@ Ranges and types of exit codes
 
 Machine-readable output of commands
 
-
-
 </td>
 <td valign="top">
 
 [Machine-Readable Command Output](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/b35e1e92ceb647daac49098b828dac92.html)
-
-
 
 </td>
 </tr>
@@ -116,14 +92,10 @@ Machine-readable output of commands
 
 Verbose mode of output
 
-
-
 </td>
 <td valign="top">
 
 [Verbose Mode of the Console Commands Output](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/4b6069b765fd4b299fbdd1415901d3da.html)
-
-
 
 </td>
 </tr>

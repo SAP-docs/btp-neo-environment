@@ -14,7 +14,7 @@ If trust is configured between your global account and a custom identity provide
 To learn how to configure trust to a custom identity provider, see [Establish Trust and Federation of Custom Identity Providers for Platform Users \[Feature Set B\]](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/c36898473d704e07a33268c9f9d29515.html "You want to use a custom identity provider for the platform users of SAP BTP in different environments and at the different account levels: global account, directory, and subaccount. By default, platform users in multi-environment subaccounts are users in the default identity provider.") :arrow_upper_right: or the command help of [btp create security/trust](https://help.sap.com/docs/BTP/btp-cli/btp-create-security-trust.html).
 
 > ### Restriction:  
-> If you work with a custom identity provider for platform users in Feature Set B, keep in mind that each user is allowed a maximum of 10 parallel sessions per identity provider. This number takes into account all tools, including the cockpit and CLIs.
+> Keep in mind that each user is allowed a maximum of 10 parallel sessions per identity provider. This number takes into account all tools, including the cockpit and CLIs.
 > 
 > For more information, see [Restrictions When Using Custom Identity Providers for Platform Users \[Feature Set B\]](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6f0a623807b541a0aef41f3d65c7a0fa.html "The following is a list of restrictions that apply to the use of custom identity providers with platform users in Feature Set B.") :arrow_upper_right:.
 

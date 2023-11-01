@@ -19,8 +19,6 @@ The Java application lifecycle management \(Java ALM\) service for SAP BTP lets 
 
 Content
 
-
-
 </th>
 </tr>
 <tr>
@@ -35,8 +33,6 @@ Content
 [Updating During Development](deploying-and-updating-java-applications-e5dfbc6.md#loioe5dfbc6cbb5710149279f67fb43d4e5d__update_during_dev)
 
 [Updating Productive Applications](deploying-and-updating-java-applications-e5dfbc6.md#loioe5dfbc6cbb5710149279f67fb43d4e5d__update_prod_apps)
-
-
 
 </td>
 </tr>
@@ -101,16 +97,12 @@ After you have created your Java application, you need to deploy and run it on S
 
 Console Client
 
-
-
 </td>
 <td valign="top">
 
 [Deploy Locally with the Console Client](deploy-locally-with-the-console-client-937c833.md)
 
 [Deploy on the Cloud with the Console Client](deploy-on-the-cloud-with-the-console-client-030863c.md)
-
-
 
 </td>
 <td valign="top">
@@ -119,8 +111,6 @@ You want to deploy an application in the form of one or more WAR files.
 
 Command: `deploy`
 
-
-
 </td>
 </tr>
 <tr>
@@ -128,21 +118,15 @@ Command: `deploy`
 
 Cockpit
 
-
-
 </td>
 <td valign="top">
 
 [Deploy on the Cloud with the Cockpit](deploy-on-the-cloud-with-the-cockpit-abded96.md)
 
-
-
 </td>
 <td valign="top">
 
 You want to deploy an application in the form of a WAR file.
-
-
 
 </td>
 </tr>
@@ -151,21 +135,15 @@ You want to deploy an application in the form of a WAR file.
 
 Java ALM REST API
 
-
-
 </td>
 <td valign="top">
 
 [Deploy an Application](java-alm-api-fc944d1.md#loio83729f7df7074de3a795d61ae8844c0e) 
 
-
-
 </td>
 <td valign="top">
 
 You want to deploy an application in the form of one or more WAR files.
-
-
 
 </td>
 </tr>
@@ -186,14 +164,10 @@ Application properties are configured during deployment with a set of parameters
 
 Console Client
 
-
-
 </td>
 <td valign="top">
 
 [deploy](../50-administration-and-ops-neo/deploy-937db4f.md) 
-
-
 
 </td>
 <td valign="top">
@@ -202,8 +176,6 @@ Deploy the application with new WAR file\(s\) and make changes to the configurat
 
 Command: `deploy`
 
-
-
 </td>
 </tr>
 <tr>
@@ -211,14 +183,10 @@ Command: `deploy`
 
 Console Client
 
-
-
 </td>
 <td valign="top">
 
 [set-application-property](../50-administration-and-ops-neo/set-application-property-113e957.md) 
-
-
 
 </td>
 <td valign="top">
@@ -227,8 +195,6 @@ Change some of the application properties you defined during deployment without 
 
 Command: `set-application-property` 
 
-
-
 </td>
 </tr>
 <tr>
@@ -236,21 +202,15 @@ Command: `set-application-property`
 
 Cockpit
 
-
-
 </td>
 <td valign="top">
 
 [Deploy on the Cloud with the Cockpit](deploy-on-the-cloud-with-the-cockpit-abded96.md)
 
-
-
 </td>
 <td valign="top">
 
 Update the application with a new WAR file or make changes to the configuration parameters.
-
-
 
 </td>
 </tr>
@@ -271,14 +231,10 @@ If you want to quickly see your changes while developing an application, use the
 
 Console Client
 
-
-
 </td>
 <td valign="top">
 
 [hot-update](../50-administration-and-ops-neo/hot-update-7ae6493.md)
-
-
 
 </td>
 <td valign="top">
@@ -287,16 +243,12 @@ Apply and activate changes. Use the command to speed up development and not for 
 
 Command: `hot-update` 
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Console Client
-
-
 
 </td>
 <td valign="top">
@@ -307,8 +259,6 @@ Console Client
 
 [hot-update](../50-administration-and-ops-neo/hot-update-7ae6493.md)
 
-
-
 </td>
 <td valign="top">
 
@@ -317,8 +267,6 @@ Apply changes in a deployed application without uploading the entire set of file
 Command: `deploy` or `hot-update`
 
 Parameter: `--delta` 
-
-
 
 </td>
 </tr>
@@ -339,8 +287,6 @@ If you are an application operator and need to deploy a new version of a product
 
 Zero Downtime
 
-
-
 </td>
 <td valign="top">
 
@@ -348,14 +294,10 @@ Zero Downtime
 
 [rolling-update](../50-administration-and-ops-neo/rolling-update-3f5d412.md)
 
-
-
 </td>
 <td valign="top">
 
 Use when the new application version is backward compatible with the old version. Deploy a new version of the application and disable and enable processes in a rolling manner, or, do it at one go with the `rolling-update` command.
-
-
 
 </td>
 </tr>
@@ -366,21 +308,15 @@ Planned Downtime
 
 \(Maintenance Mode\)
 
-
-
 </td>
 <td valign="top">
 
 [Enable Maintenance Mode for Planned Downtimes](../50-administration-and-ops-neo/enable-maintenance-mode-for-planned-downtimes-aa04f29.md) 
 
-
-
 </td>
 <td valign="top">
 
 Use when the new application version is backward incompatible. Enable maintenance mode for the time of the planned downtime.
-
-
 
 </td>
 </tr>
@@ -389,21 +325,15 @@ Use when the new application version is backward incompatible. Enable maintenanc
 
 Soft Shutdown
 
-
-
 </td>
 <td valign="top">
 
 [Perform Soft Shutdown](../50-administration-and-ops-neo/perform-soft-shutdown-17e8e96.md) 
 
-
-
 </td>
 <td valign="top">
 
 Supports zero downtime and planned downtime scenarios. Disable the application or individual processes in order to shut down the application or processes gracefully.
-
-
 
 </td>
 </tr>

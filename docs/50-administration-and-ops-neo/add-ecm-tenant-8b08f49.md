@@ -31,16 +31,12 @@ neo add-ecm-tenant --account <subaccount_technical_name>  --host <host> --user <
 
 Required
 
-
-
 </th>
 </tr>
 <tr>
 <td valign="top">
 
 `-a`, `--account`
-
-
 
 </td>
 <td valign="top">
@@ -51,16 +47,12 @@ Specify an existing subaccount of which you are already a member.
 
 `Type`: string \(up to 30 characters; lowercase letters and numbers, starting with a letter\)
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-h`, `--host`
-
-
 
 </td>
 <td valign="top">
@@ -69,16 +61,12 @@ Enter a region host.
 
 `Type`: URL. For acceptable values see [Regions and Hosts Available for the Neo Environment](../10-concepts-neo/regions-and-hosts-available-for-the-neo-environment-d722f7c.md)
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-u`, `--user`
-
-
 
 </td>
 <td valign="top">
@@ -87,16 +75,12 @@ Use your email, SAP ID, or user name.
 
 `Type`: string
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-n`, `--name`
-
-
 
 </td>
 <td valign="top">
@@ -105,16 +89,12 @@ Name of the repository
 
 `Type`: string
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-t`, `--tenant`
-
-
 
 </td>
 <td valign="top">
@@ -123,8 +103,6 @@ Tenant alias
 
 `Type`: string
 
-
-
 </td>
 </tr>
 <tr>
@@ -132,16 +110,12 @@ Tenant alias
 
 `-k`, `--key`
 
-
-
 </td>
 <td valign="top">
 
 Key of the repository
 
 `Type`: string
-
-
 
 </td>
 </tr>
@@ -154,16 +128,12 @@ Key of the repository
 
 Optional
 
-
-
 </th>
 </tr>
 <tr>
 <td valign="top">
 
 `-v`, `--virus-scan`
-
-
 
 </td>
 <td valign="top">
@@ -179,8 +149,6 @@ Can be used to activate the virus scanner and check all incoming documents for v
 
 If a virus is detected, the upload process for the document fails with a virus scanner exception.
 
-
-
 </td>
 </tr>
 <tr>
@@ -188,16 +156,12 @@ If a virus is detected, the upload process for the document fails with a virus s
 
 `-p`, `--password`
 
-
-
 </td>
 <td valign="top">
 
 To protect your password, enter it only when prompted by the console client and not explicitly as a parameter in the properties file or the command line.
 
 `Type`: string
-
-
 
 </td>
 </tr>

@@ -38,16 +38,12 @@ To list all parameters available for this command, execute the `neo help set-app
 
 Required
 
-
-
 </th>
 </tr>
 <tr>
 <td valign="top">
 
 `-a`, `--account`
-
-
 
 </td>
 <td valign="top">
@@ -56,16 +52,12 @@ Subaccount technical name
 
 `Type`: string \(up to 30 characters; lowercase letters and numbers, starting with a letter\)
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-b`, `--application` 
-
-
 
 </td>
 <td valign="top">
@@ -74,16 +66,12 @@ Application name
 
 `Type`: string \(up to 30 characters; lowercase letters and numbers, starting with a letter\)
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-h`, `--host`
-
-
 
 </td>
 <td valign="top">
@@ -92,16 +80,12 @@ Enter a region host.
 
 `Type`: URL, for acceptable values see [Regions](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/350356d1dc314d3199dca15bd2ab9b0e.html "You can deploy applications in different regions. Each region represents a geographical location (for example, Europe, US East) where applications, data, or services are hosted.") :arrow_upper_right:.
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-p`, `--password`
-
-
 
 </td>
 <td valign="top">
@@ -110,8 +94,6 @@ To protect your password, enter it only when prompted by the console client and 
 
 `Type`: string
 
-
-
 </td>
 </tr>
 <tr>
@@ -119,16 +101,12 @@ To protect your password, enter it only when prompted by the console client and 
 
 `-u`, `--user`
 
-
-
 </td>
 <td valign="top">
 
 Use your email, SAP ID or user name
 
 `Type`: string
-
-
 
 </td>
 </tr>
@@ -141,8 +119,6 @@ Use your email, SAP ID or user name
 
 Optional
 
-
-
 </th>
 </tr>
 <tr>
@@ -150,16 +126,12 @@ Optional
 
 **Command-specific parameters**
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `--ev`
-
-
 
 </td>
 <td valign="top">
@@ -174,16 +146,12 @@ If you provide a key without any value \(--ev <KEY1\>=\), the environment variab
 
 For a value that contains spaces, use quotation marks.
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-j`, `--java-version`
-
-
 
 </td>
 <td valign="top">
@@ -198,16 +166,12 @@ Java Virtual Machine version
 
 For more information, see [Choose JRE Version](choose-jre-version-ee71c1a.md)
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-m`, `--minimum-processes`
-
-
 
 </td>
 <td valign="top">
@@ -216,16 +180,12 @@ Minimum number of application processes, on which the application can be started
 
 `Default`: *1*
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-M`, `--maximum-processes`
-
-
 
 </td>
 <td valign="top">
@@ -234,16 +194,12 @@ Maximum number of application processes, on which the application can be started
 
 `Default`: *1*
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-V`, `--vm-arguments`
-
-
 
 </td>
 <td valign="top">
@@ -258,16 +214,12 @@ We recommend that you use the default memory settings. Change them only if neces
 
 For more information, see [Configure VM Arguments](configure-vm-arguments-b82d392.md) 
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-z`, `--size`
-
-
 
 </td>
 <td valign="top">
@@ -280,16 +232,12 @@ Compute unit size
 
 For more information, see [Compute Units](../30-development-neo/compute-units-7612fba.md)
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `--runtime-version`
-
-
 
 </td>
 <td valign="top">
@@ -303,8 +251,6 @@ You can view the recommended versions by executing the *list-runtime-versions* c
 
 For more information, see [Choose Application Runtime Version](choose-application-runtime-version-13afe5c.md) 
 
-
-
 </td>
 </tr>
 <tr>
@@ -312,16 +258,12 @@ For more information, see [Choose Application Runtime Version](choose-applicatio
 
 **Tomcat connector attributes**
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `--compression`
-
-
 
 </td>
 <td valign="top">
@@ -334,16 +276,12 @@ Possible values: *on* \(allow compression\), *off*\(disable compression\), *forc
 
 For more information, see [Enable and Configure Gzip Response Compression](enable-and-configure-gzip-response-compression-390594a.md)
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `--compressible-mime-type`
-
-
 
 </td>
 <td valign="top">
@@ -354,16 +292,12 @@ A comma separated list of MIME types for which compression will be used
 
 `Condition:` applicable if compression is enabled
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `--compression-min-size`
-
-
 
 </td>
 <td valign="top">
@@ -372,16 +306,12 @@ Responses bigger than this value get compressed
 
 `Condition:` applicable if compression is enabled
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `--connection-timeout`
-
-
 
 </td>
 <td valign="top">
@@ -390,16 +320,12 @@ Defines the number of milliseconds to wait for the request URI line to be presen
 
 `Default`: *20000*
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `--max-threads`
-
-
 
 </td>
 <td valign="top">
@@ -408,16 +334,12 @@ Specifies the maximum number of simultaneous requests that can be handled.
 
 `Default`: *200*
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `--uri-encoding`
-
-
 
 </td>
 <td valign="top">
@@ -427,8 +349,6 @@ Specifies the character encoding used to decode the URI bytes on application req
 `Default`: *ISO-8859-1*
 
 For more information, see the encoding sets supported by [Java SE 6](http://docs.oracle.com/javase/6/docs/technotes/guides/intl/encoding.doc.html) and [Java SE 7](http://docs.oracle.com/javase/7/docs/technotes/guides/intl/encoding.doc.html).
-
-
 
 </td>
 </tr>

@@ -23,16 +23,12 @@ After you have developed and deployed your SAP HANA XS application, you can then
 
 Cockpit
 
-
-
 </td>
 <td valign="top">
 
 [Configure Availability Checks for SAP HANA XS Applications from the Cockpit](../30-development-neo/configure-availability-checks-for-sap-hana-xs-applications-from-the-cockpit-a6663f0.md)
 
 [View Monitoring Metrics of a Database System](../30-development-neo/view-monitoring-metrics-of-a-database-system-b02814d.md)
-
-
 
 </td>
 </tr>
@@ -41,14 +37,10 @@ Cockpit
 
 Console Client
 
-
-
 </td>
 <td valign="top">
 
 [Configure Availability Checks for SAP HANA XS Applications from the Console Client](../30-development-neo/configure-availability-checks-for-sap-hana-xs-applications-from-the-console-client-951d9b8.md) 
-
-
 
 </td>
 </tr>

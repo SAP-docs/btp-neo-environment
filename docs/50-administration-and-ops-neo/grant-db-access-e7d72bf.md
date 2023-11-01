@@ -32,16 +32,12 @@ neo grant-db-access --account <subaccount_ID> --user <e-mail_or_user> --host <ho
 
 Required
 
-
-
 </th>
 </tr>
 <tr>
 <td valign="top">
 
 `-a`, `--account`
-
-
 
 </td>
 <td valign="top">
@@ -50,16 +46,12 @@ ID of the subaccount providing the database.
 
 `Type`: string \(up to 30 characters; lowercase letters and numbers, starting with a letter\)
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-u`, `--user`
-
-
 
 </td>
 <td valign="top">
@@ -68,16 +60,12 @@ Use your e-mail, SAP ID, or user name
 
 `Type`: string
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-p`, `--password`
-
-
 
 </td>
 <td valign="top">
@@ -86,8 +74,6 @@ To protect your password, enter it only when prompted by the console client and 
 
 `Type`: string
 
-
-
 </td>
 </tr>
 <tr>
@@ -95,16 +81,12 @@ To protect your password, enter it only when prompted by the console client and 
 
 `-h`, `--host`
 
-
-
 </td>
 <td valign="top">
 
 Enter a region host.
 
 `Type`: URL. For acceptable values see [Regions](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/350356d1dc314d3199dca15bd2ab9b0e.html "You can deploy applications in different regions. Each region represents a geographical location (for example, Europe, US East) where applications, data, or services are hosted.") :arrow_upper_right:
-
-
 
 </td>
 </tr>
@@ -117,8 +99,6 @@ Enter a region host.
 
 Optional
 
-
-
 </th>
 </tr>
 <tr>
@@ -126,14 +106,10 @@ Optional
 
 `-i`, `--id`
 
-
-
 </td>
 <td valign="top">
 
 ID of the database to which access will be given.
-
-
 
 </td>
 </tr>
@@ -142,14 +118,10 @@ ID of the database to which access will be given.
 
 `-to-account`
 
-
-
 </td>
 <td valign="top">
 
 The subaccount to receive access permission. The subaccount provoding the permission and the subaccount receiving the permission must be part of the same global account.
-
-
 
 </td>
 </tr>
@@ -158,14 +130,10 @@ The subaccount to receive access permission. The subaccount provoding the permis
 
 `-permissions`
 
-
-
 </td>
 <td valign="top">
 
 Comma-separated list of access permissions to the database. Acceptable values: 'TUNNEL', 'BINDING'.
-
-
 
 </td>
 </tr>

@@ -52,15 +52,11 @@ The status of an individual process is based on values that reflect the process 
     <th valign="top">
 
     Panel
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     </tr>
@@ -68,15 +64,11 @@ The status of an individual process is based on values that reflect the process 
     <td valign="top">
     
     Status Summary
-
-
     
     </td>
     <td valign="top">
     
     Displays the current values of the two status categories and the runtime version. A short text summarizes any problems that have been detected.
-
-
     
     </td>
     </tr>
@@ -84,15 +76,11 @@ The status of an individual process is based on values that reflect the process 
     <td valign="top">
     
     State
-
-
     
     </td>
     <td valign="top">
     
     Indicates whether the process has been started or is transitioning between the *Started* and *Stopped* states. The *Error* state indicates a fault, such as server unavailability, timeout, or VM failure.
-
-
     
     </td>
     </tr>
@@ -100,8 +88,6 @@ The status of an individual process is based on values that reflect the process 
     <td valign="top">
     
     Runtime
-
-
     
     </td>
     <td valign="top">

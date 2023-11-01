@@ -31,16 +31,12 @@ neo create-db-hana -a <subaccount_technical_name> -h <host> -u <e-mail_or_user> 
 
 Required
 
-
-
 </th>
 </tr>
 <tr>
 <td valign="top">
 
 `-a`, `--account`
-
-
 
 </td>
 <td valign="top">
@@ -49,16 +45,12 @@ Subaccount technical name
 
 `Type`: string \(up to 30 characters; lowercase letters and numbers, starting with a letter\)
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-h`, `--host`
-
-
 
 </td>
 <td valign="top">
@@ -67,16 +59,12 @@ Enter a region host.
 
 `Type`: URL, for acceptable values see [Regions](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/350356d1dc314d3199dca15bd2ab9b0e.html "You can deploy applications in different regions. Each region represents a geographical location (for example, Europe, US East) where applications, data, or services are hosted.") :arrow_upper_right:
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-u`, `--user`
-
-
 
 </td>
 <td valign="top">
@@ -85,8 +73,6 @@ Use your e-mail, SAP ID, or user name
 
 `Type`: string
 
-
-
 </td>
 </tr>
 <tr>
@@ -94,16 +80,12 @@ Use your e-mail, SAP ID, or user name
 
 `-p`, `--password`
 
-
-
 </td>
 <td valign="top">
 
 To protect your password, enter it only when prompted by the console client and not explicitly as a parameter in the properties file or the command line.
 
 `Type`: string
-
-
 
 </td>
 </tr>
@@ -112,16 +94,12 @@ To protect your password, enter it only when prompted by the console client and 
 
 `-i`, `--id`
 
-
-
 </td>
 <td valign="top">
 
 HANA database ID
 
 `Type`: string
-
-
 
 </td>
 </tr>
@@ -130,16 +108,12 @@ HANA database ID
 
 `--dbsystem`
 
-
-
 </td>
 <td valign="top">
 
 ID of the SAP HANA database system
 
 `Type`: string
-
-
 
 </td>
 </tr>
@@ -148,16 +122,12 @@ ID of the SAP HANA database system
 
 `--db-password`
 
-
-
 </td>
 <td valign="top">
 
 Password of the SYSTEM user used to access the SAP HANA database \(optional, queried at the command prompt if omitted\).
 
 To protect your password, enter it only when prompted by the console client and not explicitly as a parameter in the properties file or the command line.
-
-
 
 </td>
 </tr>
@@ -170,8 +140,6 @@ To protect your password, enter it only when prompted by the console client and 
 
 Optional
 
-
-
 </th>
 </tr>
 <tr>
@@ -179,14 +147,10 @@ Optional
 
 `--dp-server` 
 
-
-
 </td>
 <td valign="top">
 
 Enables or disables the data processing server of the SAP HANA database: 'enabled', 'disabled' \(default\).
-
-
 
 </td>
 </tr>
@@ -195,14 +159,10 @@ Enables or disables the data processing server of the SAP HANA database: 'enable
 
 `--script-server` 
 
-
-
 </td>
 <td valign="top">
 
 Enables or disables the script server of the SAP HANA database: 'enabled', 'disabled' \(default\).
-
-
 
 </td>
 </tr>
@@ -211,14 +171,10 @@ Enables or disables the script server of the SAP HANA database: 'enabled', 'disa
 
 `--web-access` 
 
-
-
 </td>
 <td valign="top">
 
 Enables or disables access to the SAP HANA database from the Internet: 'enabled' \(default\), 'disabled'
-
-
 
 </td>
 </tr>
@@ -227,14 +183,10 @@ Enables or disables access to the SAP HANA database from the Internet: 'enabled'
 
 `--xsengine-mode` 
 
-
-
 </td>
 <td valign="top">
 
 Specifies how the XS engine should run: 'embedded' \(default\), 'standalone'.
-
-
 
 </td>
 </tr>
@@ -243,14 +195,10 @@ Specifies how the XS engine should run: 'embedded' \(default\), 'standalone'.
 
 `--docstore`
 
-
-
 </td>
 <td valign="top">
 
 Enables or disables the DocStore server of SAP HANA database: 'enabled', 'disabled' \(default\).
-
-
 
 </td>
 </tr>

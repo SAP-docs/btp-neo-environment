@@ -39,8 +39,6 @@ neo close-ssh-tunnel --account <subaccount_technical_name> --user <e-mail_or_use
 
 Required
 
-
-
 </th>
 </tr>
 <tr>
@@ -48,16 +46,12 @@ Required
 
 Optional
 
-
-
 </th>
 </tr>
 <tr>
 <td valign="top">
 
 `-a`, `--account`
-
-
 
 </td>
 <td valign="top">
@@ -68,16 +62,12 @@ Subaccount technical name
 
 `Condition`: Required if you use `--vm-name`
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-h`, `--host`
-
-
 
 </td>
 <td valign="top">
@@ -88,16 +78,12 @@ Enter a region host.
 
 `Condition`: Required if you use `--vm-name`
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-n`, `--vm-name` 
-
-
 
 </td>
 <td valign="top">
@@ -128,8 +114,6 @@ Name of the virtual machine
 
 `-i`,`--vm-id` 
 
-
-
 </td>
 <td valign="top">
 
@@ -141,16 +125,12 @@ If no virtual machine ID is specified, closes all tunnels.
 
 `Condition`: Use either `--vm-id` or `--vm-name`
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-p`, `--password`
-
-
 
 </td>
 <td valign="top">
@@ -161,16 +141,12 @@ To protect your password, enter it only when prompted by the console client and 
 
 `Condition`: Required if you use `--vm-name`
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-u`, `--user`
-
-
 
 </td>
 <td valign="top">
@@ -181,8 +157,6 @@ Use your email, SAP ID, or user name.
 
 `Condition`: Required if you use `--vm-name`
 
-
-
 </td>
 </tr>
 <tr>
@@ -190,14 +164,10 @@ Use your email, SAP ID, or user name.
 
 `-r`, `--port`
 
-
-
 </td>
 <td valign="top">
 
 Port on which you want to close the SSH tunnel
-
-
 
 </td>
 </tr>

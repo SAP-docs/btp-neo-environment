@@ -31,16 +31,12 @@ To configure a CA bundle, run `set-ssl-host` using the `--ca-bundle` parameter. 
 
 Required
 
-
-
 </th>
 </tr>
 <tr>
 <td valign="top">
 
 `-a`, `--account` 
-
-
 
 </td>
 <td valign="top">
@@ -49,16 +45,12 @@ Subaccount technical name
 
 `Type`: string \(up to 30 characters; lowercase letters and numbers, starting with a letter\)
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-h`, `--host` 
-
-
 
 </td>
 <td valign="top">
@@ -67,16 +59,12 @@ Enter a region host.
 
 `Type`: URL. For acceptable values, see [Regions and Hosts Available for the Neo Environment](../10-concepts-neo/regions-and-hosts-available-for-the-neo-environment-d722f7c.md).
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-p`, `--password`
-
-
 
 </td>
 <td valign="top">
@@ -85,16 +73,12 @@ To protect your password, enter it only when prompted by the console client and 
 
 `Type`: string
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-u`, `--user` 
-
-
 
 </td>
 <td valign="top">
@@ -103,16 +87,12 @@ Use your e-mail, SAP ID, or user name.
 
 `Type`: string
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `--bundle` 
-
-
 
 </td>
 <td valign="top">
@@ -123,8 +103,6 @@ Name of a new or existing bundle in which CAs will be added. You can have severa
 
 When creating a new bundle, the bundle name must start with a letter and can only contain lowercase letters \(a-z\), uppercase letters \(A-Z\), numbers \(0-9\), underscores \( \_ \), and hyphens \(-\).
 
-
-
 </td>
 </tr>
 <tr>
@@ -132,14 +110,10 @@ When creating a new bundle, the bundle name must start with a letter and can onl
 
 `-l`, `--location` 
 
-
-
 </td>
 <td valign="top">
 
 Path to a file that contains one or more certificates of trusted CAs in PEM format.
-
-
 
 </td>
 </tr>

@@ -32,14 +32,10 @@ Since the information about the current consumer is extracted from the request U
 
 API
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -47,8 +43,6 @@ Description
 <td valign="top">
 
 `com.sap.cloud.account`
-
-
 
 </td>
 <td valign="top">
@@ -62,8 +56,6 @@ The tenant context API provides the following methods:
 To find the tenant context API in your local SDK installation, go to: `<SDK_location>/javadoc/com/sap/cloud/account`
 
 For more information, see [API Documentation](api-documentation-4570e92.md).
-
-
 
 </td>
 </tr>

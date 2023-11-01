@@ -22,15 +22,11 @@ To transport an application or application content to other subaccounts, you use
     <th valign="top">
 
     To learn more about
-
-
     
     </th>
     <th valign="top">
 
     See
-
-
     
     </th>
     </tr>
@@ -38,15 +34,11 @@ To transport an application or application content to other subaccounts, you use
     <td valign="top">
     
     How to use CTS+ to transport SAP Business Technology Platform applications from one subaccount to another
-
-
     
     </td>
     <td valign="top">
     
     [Transporting Multitarget Applications with CTS+](transporting-multitarget-applications-with-cts-f598f69.md)
-
-
     
     </td>
     </tr>
@@ -54,15 +46,11 @@ To transport an application or application content to other subaccounts, you use
     <td valign="top">
     
     What you need to do to enable the direct upload of MTA archives to a CTS+ transport request
-
-
     
     </td>
     <td valign="top">
     
     [Set Up a Direct Upload of MTA Archives to a CTS+ Transport Request](set-up-a-direct-upload-of-mta-archives-to-a-cts-transport-request-37ceecb.md)
-
-
     
     </td>
     </tr>
@@ -70,15 +58,11 @@ To transport an application or application content to other subaccounts, you use
     <td valign="top">
     
     How to configure destinations to the target end points of deployment provided by the Solutions Lifecycle Management Service that are required as part of the setup of your transport landscapes in CTS+ and Transport Management Service.
-
-
     
     </td>
     <td valign="top">
     
     [Configuring the Access to the SAP Solution Lifecycle Management service](configuring-the-access-to-the-sap-solution-lifecycle-management-service-b15a6c5.md)
-
-
     
     </td>
     </tr>
@@ -94,15 +78,11 @@ To transport an application or application content to other subaccounts, you use
     <th valign="top">
 
     To learn more about
-
-
     
     </th>
     <th valign="top">
 
     See
-
-
     
     </th>
     </tr>
@@ -110,15 +90,11 @@ To transport an application or application content to other subaccounts, you use
     <td valign="top">
     
     How to use the Transport Management Service \(BETA\) in general
-
-
     
     </td>
     <td valign="top">
     
     [Introduction to the Transport Management Service](https://help.sap.com/viewer/7f7160ec0d8546c6b3eab72fb5ad6fd8/Cloud/en-US)
-
-
     
     </td>
     </tr>
@@ -126,15 +102,11 @@ To transport an application or application content to other subaccounts, you use
     <td valign="top">
     
     What you need to do to enable the direct upload of MTA Archives to a transport request that will be used by the Transport Management Service \(BETA\)
-
-
     
     </td>
     <td valign="top">
     
     [Set Up Direct Uploads of MTA Archives Using the Transport Management Service](set-up-direct-uploads-of-mta-archives-using-the-transport-management-service-af84d67.md)
-
-
     
     </td>
     </tr>
@@ -142,15 +114,11 @@ To transport an application or application content to other subaccounts, you use
     <td valign="top">
     
     How to configure destinations to the target end points of deployment provided by the Solutions Lifecycle Management Service that are required as part of the setup of your transport landscapes in CTS+ and Transport Management Service.
-
-
     
     </td>
     <td valign="top">
     
     [Configuring the Access to the SAP Solution Lifecycle Management service](configuring-the-access-to-the-sap-solution-lifecycle-management-service-b15a6c5.md)
-
-
     
     </td>
     </tr>

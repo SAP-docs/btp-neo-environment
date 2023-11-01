@@ -39,21 +39,15 @@ The following table shows the roles defined by OAuth, and their respective entit
 
 Role
 
-
-
 </th>
 <th valign="top">
 
 Entity in SAP BTP
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -62,21 +56,15 @@ Description
 
 Resource owner
 
-
-
 </td>
 <td valign="top">
 
 User
 
-
-
 </td>
 <td valign="top">
 
 An entity that holds protected assets. This entity is capable of granting access to those assets under its control.
-
-
 
 </td>
 </tr>
@@ -85,21 +73,15 @@ An entity that holds protected assets. This entity is capable of granting access
 
 Resource server
 
-
-
 </td>
 <td valign="top">
 
 Application
 
-
-
 </td>
 <td valign="top">
 
 The server that hosts the resource owner's protected assets.
-
-
 
 </td>
 </tr>
@@ -108,21 +90,15 @@ The server that hosts the resource owner's protected assets.
 
 Client
 
-
-
 </td>
 <td valign="top">
 
 Third-party application
 
-
-
 </td>
 <td valign="top">
 
 The third party entity that needs to access the protected assets on behalf of the resource owner.
-
-
 
 </td>
 </tr>
@@ -131,21 +107,15 @@ The third party entity that needs to access the protected assets on behalf of th
 
 Authorization server
 
-
-
 </td>
 <td valign="top">
 
 SAP BTP infrastructure
 
-
-
 </td>
 <td valign="top">
 
 The server that manages the authentication and authorization of the different entities involved.
-
-
 
 </td>
 </tr>
@@ -227,14 +197,10 @@ One of the ways to enforce scope checks for resources is to declare the resource
 
 Element
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -243,16 +209,12 @@ Description
 
 Servlet filter class
 
-
-
 </td>
 <td valign="top">
 
 Enter as value `com.sap.cloud.security.oauth2.OAuthAuthorizationFilter`.
 
 On request it checks if the request contains a valid OAuth token to access the resources mapped to the configured scope.
-
-
 
 </td>
 </tr>
@@ -261,14 +223,10 @@ On request it checks if the request contains a valid OAuth token to access the r
 
 Protected resources
 
-
-
 </td>
 <td valign="top">
 
 Could be given as URL pattern or servlet.
-
-
 
 </td>
 </tr>
@@ -276,8 +234,6 @@ Could be given as URL pattern or servlet.
 <td valign="top">
 
 Initial parameters
-
-
 
 </td>
 <td valign="top">
@@ -370,21 +326,15 @@ In the table below the result handling between the authorization server and reso
 
 Authorization server to resource server
 
-
-
 </th>
 <th valign="top" colspan="2">
 
 Resource server to the API
 
-
-
 </th>
 <th valign="top" colspan="2">
 
 Resource server to the filter
-
-
 
 </th>
 </tr>
@@ -393,42 +343,30 @@ Resource server to the filter
 
 **Code**
 
-
-
 </td>
 <td valign="top">
 
 **Description**
-
-
 
 </td>
 <td valign="top">
 
 **Return value / Exception**
 
-
-
 </td>
 <td valign="top">
 
 **Description**
-
-
 
 </td>
 <td valign="top">
 
 **Code**
 
-
-
 </td>
 <td valign="top">
 
 **Description**
-
-
 
 </td>
 </tr>
@@ -437,21 +375,15 @@ Resource server to the filter
 
 `200`
 
-
-
 </td>
 <td valign="top">
 
 `access_token` is valid
 
-
-
 </td>
 <td valign="top">
 
 `True`
-
-
 
 </td>
 <td valign="top">
@@ -460,14 +392,10 @@ attribute "`user_id`" in the request
 
 attribute "`client_id`" in the request
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
@@ -480,8 +408,6 @@ attribute "`user_id`" in the request
 
 If `user-principal=true` -\>`request.getUserPrincipal(). getName()` returns `user_id`
 
-
-
 </td>
 </tr>
 <tr>
@@ -489,21 +415,15 @@ If `user-principal=true` -\>`request.getUserPrincipal(). getName()` returns `use
 
 `200`
 
-
-
 </td>
 <td valign="top">
 
 `access_token` is valid
 
-
-
 </td>
 <td valign="top">
 
 `False`
-
-
 
 </td>
 <td valign="top">
@@ -512,21 +432,15 @@ attribute "`reason`" in the request describing the reason for the result
 
 `reason = "access_forbidden"` 
 
-
-
 </td>
 <td valign="top">
 
 `403`
 
-
-
 </td>
 <td valign="top">
 
 Access is forbidden
-
-
 
 </td>
 </tr>
@@ -535,21 +449,15 @@ Access is forbidden
 
 `400`
 
-
-
 </td>
 <td valign="top">
 
 `access_token` parameter is null, empty string, missing or it is given more than once
 
-
-
 </td>
 <td valign="top">
 
 `False`
-
-
 
 </td>
 <td valign="top">
@@ -558,21 +466,15 @@ Attribute "`reason`" in the request describing the reason for the result
 
 `reason = "missing_access_token`
 
-
-
 </td>
 <td valign="top">
 
 `401`
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -580,22 +482,16 @@ Attribute "`reason`" in the request describing the reason for the result
 <td valign="top">
 
 `401`
-
-
 
 </td>
 <td valign="top">
 
 `access_token` does not exist
 
-
-
 </td>
 <td valign="top">
 
 `False`
-
-
 
 </td>
 <td valign="top">
@@ -604,21 +500,15 @@ Attribute "`reason`" in the request describing the reason for the result
 
 `reason = "missing_access_token`
 
-
-
 </td>
 <td valign="top">
 
 `401`
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -626,22 +516,16 @@ Attribute "`reason`" in the request describing the reason for the result
 <td valign="top">
 
 `401`
-
-
 
 </td>
 <td valign="top">
 
 `access_token` has expired
 
-
-
 </td>
 <td valign="top">
 
 `False`
-
-
 
 </td>
 <td valign="top">
@@ -650,21 +534,15 @@ Attribute "`reason`" in the request describing the reason for the result
 
 `reason = "missing_access_token`
 
-
-
 </td>
 <td valign="top">
 
 `401`
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -672,22 +550,16 @@ Attribute "`reason`" in the request describing the reason for the result
 <td valign="top">
 
 `401`
-
-
 
 </td>
 <td valign="top">
 
 `access_token` is not issued for the current subscription
 
-
-
 </td>
 <td valign="top">
 
 `False`
-
-
 
 </td>
 <td valign="top">
@@ -696,21 +568,15 @@ Attribute "`reason`" in the request describing the reason for the result
 
 `reason = "missing_access_token`
 
-
-
 </td>
 <td valign="top">
 
 `401`
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -718,45 +584,33 @@ Attribute "`reason`" in the request describing the reason for the result
 <td valign="top">
 
 `500`
-
-
 
 </td>
 <td valign="top">
 
 Unexpected error \(no connection to the database\)
 
-
-
 </td>
 <td valign="top">
 
 `OAuthSystemException` 
 
 \(extends `Exception`\)
-
-
 
 </td>
 <td valign="top">
 
 Inherit message from the original exception
 
-
-
 </td>
 <td valign="top">
 
 `500`
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -765,14 +619,10 @@ Inherit message from the original exception
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
@@ -780,29 +630,21 @@ Inherit message from the original exception
 `OAuthSystemException` 
 
 \(extends `Exception`\)
-
-
 
 </td>
 <td valign="top">
 
 HTTP request to the authorization server fails
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -811,14 +653,10 @@ HTTP request to the authorization server fails
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
@@ -827,28 +665,20 @@ HTTP request to the authorization server fails
 
 \(extends `Exception`\)
 
-
-
 </td>
 <td valign="top">
 
 OAuth destination is not found or can’t get destination HTTP client
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>

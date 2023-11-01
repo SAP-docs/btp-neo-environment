@@ -43,15 +43,11 @@ You configure connectivity in SAP BTP by creating an HTTP destination.
     <th valign="top">
 
     Parameter
-
-
     
     </th>
     <th valign="top">
 
     Value
-
-
     
     </th>
     </tr>
@@ -59,15 +55,11 @@ You configure connectivity in SAP BTP by creating an HTTP destination.
     <td valign="top">
     
     Name
-
-
     
     </td>
     <td valign="top">
     
     Enter a meaningful name.
-
-
     
     </td>
     </tr>
@@ -75,15 +67,11 @@ You configure connectivity in SAP BTP by creating an HTTP destination.
     <td valign="top">
     
     Type
-
-
     
     </td>
     <td valign="top">
     
     HTTP
-
-
     
     </td>
     </tr>
@@ -91,15 +79,11 @@ You configure connectivity in SAP BTP by creating an HTTP destination.
     <td valign="top">
     
     Description
-
-
     
     </td>
     <td valign="top">
     
     \(Optional\) Enter a meaningful description.
-
-
     
     </td>
     </tr>
@@ -107,15 +91,11 @@ You configure connectivity in SAP BTP by creating an HTTP destination.
     <td valign="top">
     
     URL
-
-
     
     </td>
     <td valign="top">
     
     Enter the integration task URL.
-
-
     
     </td>
     </tr>
@@ -123,15 +103,11 @@ You configure connectivity in SAP BTP by creating an HTTP destination.
     <td valign="top">
     
     Proxy Type
-
-
     
     </td>
     <td valign="top">
     
     Internet
-
-
     
     </td>
     </tr>
@@ -139,15 +115,11 @@ You configure connectivity in SAP BTP by creating an HTTP destination.
     <td valign="top">
     
     Authentication
-
-
     
     </td>
     <td valign="top">
     
     BasicAuthentication
-
-
     
     </td>
     </tr>
@@ -155,15 +127,11 @@ You configure connectivity in SAP BTP by creating an HTTP destination.
     <td valign="top">
     
     User
-
-
     
     </td>
     <td valign="top">
     
     Enter the integration end point user ID.
-
-
     
     </td>
     </tr>
@@ -171,15 +139,11 @@ You configure connectivity in SAP BTP by creating an HTTP destination.
     <td valign="top">
     
     Password
-
-
     
     </td>
     <td valign="top">
     
     Enter the integration end point password.
-
-
     
     </td>
     </tr>

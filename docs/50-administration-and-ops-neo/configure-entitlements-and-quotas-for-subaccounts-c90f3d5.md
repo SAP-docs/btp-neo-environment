@@ -4,7 +4,7 @@
 
 # Configure Entitlements and Quotas for Subaccounts
 
-Assign entitlements to subaccounts by adding service plans and distribute the quotas available in your global account to your subaccounts using the SAP BTP cockpit.
+Distribute the entitlements that are available in your global account by adding service plans and their allowed quotas to your subaccounts using the SAP BTP cockpit.
 
 
 
@@ -12,7 +12,7 @@ Assign entitlements to subaccounts by adding service plans and distribute the qu
 
 ## Prerequisites
 
--   You must be a global account administrator to configure subaccount entitlements.
+-   You must be a global account administrator to configure subaccount assignments.
 
 -   The service and applications that you intend to assign to your subaccounts must be entitled to your global account.
 
@@ -23,7 +23,7 @@ Assign entitlements to subaccounts by adding service plans and distribute the qu
     -   If you have a trial account, you'll receive a restricted set of free platform resources and services for a limited time period. To access additional services, you'll have to switch to an enterprise account.
 
 
--   If you are assigning a service to a subaccount that is under a directory, which manages its own entitlements and quota \(in other words, the directory has the *Manage Entitlements* feature enabled\), the given directory must first be assigned with the necessary entitlement and maximum allowed quota before you can distribute any of the reserved quota to any of the directory's child subaccounts.
+-   If you are assigning a service to a subaccount that is under a directory, which manages its own assignments and quota \(in other words, the directory has the *Manage Entitlements* feature enabled\), the given directory must first be assigned with the necessary assignment and maximum allowed quota before you can distribute any of the reserved quota to any of the directory's child subaccounts.
 
 
 
@@ -40,7 +40,7 @@ Assign entitlements to subaccounts by adding service plans and distribute the qu
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**
 
-You can distribute entitlements and quotas across subaccounts within a global account from two places in the cockpit:
+You can distribute assignments and quotas across subaccounts within a global account from two places in the cockpit:
 
 -   The *Entitlements* \> *Entity Assignments* page at global account level \(visible only to global account administrators\).
 
@@ -57,7 +57,7 @@ For more information, see [Managing Entitlements and Quotas Using the Cockpit](m
 
 <!-- task\_lzl\_bpb\_vhb -->
 
-## Configure Entitlements and Quotas from Your Global Account
+## Configure Assignments and Quotas from Your Global Account
 
 
 
@@ -71,21 +71,21 @@ For more information, see [Managing Entitlements and Quotas Using the Cockpit](m
 
     \[Feature Set A\] Choose *Entitlements* \> *Subaccount Assignments* from the left hand-side navigation.
 
-3.  At the top of the page, select all the subaccounts for which you would like to configure or display entitlements.
+3.  At the top of the page, select all the subaccounts for which you would like to configure or display assignments.
 
     > ### Tip:  
     > If your global account contains more than 20 subaccounts, choose <span class="SAP-icons"></span> to open up the value help dialog. There you can filter subaccounts by role, environment, and region to make your selection easier and faster. You can only select a maximum of 50 subaccounts at once.
 
 4.  Choose *Go* to apply the filter.
 
-    You get a table for each of the subaccounts you selected, displaying the current entitlement and quota assignments.
+    You get a table for each of the subaccounts you selected, displaying the current assignments and quota.
 
-5.  Choose *Configure Entitlements* to start editing entitlements for a particular subaccount.
+5.  Choose *Configure Entitlements* to start editing assignments for a particular subaccount.
 
     > ### Note:  
-    > You can only edit entitlements for one subaccount at a time.
+    > You can only edit assignments for one subaccount at a time.
 
-6.  You can now edit the entitlements table:
+6.  You can now edit the assignments table:
 
 
     <table>
@@ -93,15 +93,11 @@ For more information, see [Managing Entitlements and Quotas Using the Cockpit](m
     <th valign="top">
 
     Action
-
-
     
     </th>
     <th valign="top">
 
     Steps
-
-
     
     </th>
     </tr>
@@ -109,8 +105,6 @@ For more information, see [Managing Entitlements and Quotas Using the Cockpit](m
     <td valign="top">
     
     **Add new service plans to the subaccount**
-
-
     
     </td>
     <td valign="top">
@@ -118,8 +112,6 @@ For more information, see [Managing Entitlements and Quotas Using the Cockpit](m
     Choose *Add Service Plans* and from the dialog select the services and the plans from each service that you would like to add to the subaccount.
 
     Remember, the services that you see depend on the type of global account you have and your contract details \(see the prerequisites above for more information\).
-
-
     
     </td>
     </tr>
@@ -127,15 +119,11 @@ For more information, see [Managing Entitlements and Quotas Using the Cockpit](m
     <td valign="top">
     
     **Edit the quota for one or more service plans**
-
-
     
     </td>
     <td valign="top">
     
     Use :heavy_plus_sign: and :heavy_minus_sign: to increase or decrease the quota for each service plan.
-
-
     
     </td>
     </tr>
@@ -143,8 +131,6 @@ For more information, see [Managing Entitlements and Quotas Using the Cockpit](m
     <td valign="top">
     
     **Assign quota to unlimited service plans in global accounts using the consumption-based commercial model.**
-
-
     
     </td>
     <td valign="top">
@@ -152,8 +138,6 @@ For more information, see [Managing Entitlements and Quotas Using the Cockpit](m
     Use the checkbox in the *Assign Quota* column to enable or disable the *Subaccount Assignment* column for editing.
 
     Now, you can increase or decrease the quota for this service plan by using :heavy_plus_sign: and :heavy_minus_sign:.
-
-
     
     </td>
     </tr>
@@ -161,15 +145,11 @@ For more information, see [Managing Entitlements and Quotas Using the Cockpit](m
     <td valign="top">
     
     **Delete a service plan and its quota from the subaccount**
-
-
     
     </td>
     <td valign="top">
     
     Choose :wastebasket: from the *Actions* column.
-
-
     
     </td>
     </tr>
@@ -177,16 +157,16 @@ For more information, see [Managing Entitlements and Quotas Using the Cockpit](m
     
 7.  Once you're done, choose *Save* to save the changes and exit edit mode for that subaccount.
 
-8.  **Optional:** Repeat steps 5 to 7 to configure entitlements for the other subaccounts selected.
+8.  **Optional:** Repeat steps 5 to 7 to configure assignments for the other selected subaccounts.
 
 
 <a name="task_h3v_xmb_vhb"/>
 
 <!-- task\_h3v\_xmb\_vhb -->
 
-## Configure Entitlements and Quotas from Your Subaccount \[Feature Set A\]
+## Configure Assignments and Quotas from Your Subaccount \[Feature Set A\]
 
-If you’re working in a subaccount and realize you’re missing entitlements or quota, you can edit the entitlements directly from that subaccount.
+If you’re working in a subaccount and realize you’re missing assignments or quota, you can edit the assignments directly from that subaccount.
 
 
 
@@ -202,13 +182,13 @@ In addition to being a global account administrator, you must also be a member o
 
 ## Procedure
 
-1.  Navigate into the subaccount where you would like to configure the entitlements.
+1.  Navigate into the subaccount where you would like to configure the assignments.
 
-2.  Choose *Entitlements* from the left hand-side navigation to see the entitlements for your subaccount.
+2.  Choose *Entitlements* from the left hand-side navigation to see the assignments for your subaccount.
 
 3.  Choose *Configure Entitlements*.
 
-4.  You can now edit the entitlements table:
+4.  You can now edit the assignments table:
 
 
     <table>
@@ -216,15 +196,11 @@ In addition to being a global account administrator, you must also be a member o
     <th valign="top">
 
     Action
-
-
     
     </th>
     <th valign="top">
 
     Steps
-
-
     
     </th>
     </tr>
@@ -232,8 +208,6 @@ In addition to being a global account administrator, you must also be a member o
     <td valign="top">
     
     **Add new service plans to the subaccount**
-
-
     
     </td>
     <td valign="top">
@@ -241,8 +215,6 @@ In addition to being a global account administrator, you must also be a member o
     Choose *Add Service Plans* and from the dialog select the services and the plans from each service that you would like to add to the subaccount.
 
     Remember, the services that you see depend on the type of global account you have and your contract details \(see the prerequisites above for more information\).
-
-
     
     </td>
     </tr>
@@ -250,15 +222,11 @@ In addition to being a global account administrator, you must also be a member o
     <td valign="top">
     
     **Edit the quota for one or more service plans**
-
-
     
     </td>
     <td valign="top">
     
     Use :heavy_plus_sign: and :heavy_minus_sign: to increase or decrease the quota for each service plan.
-
-
     
     </td>
     </tr>
@@ -266,15 +234,11 @@ In addition to being a global account administrator, you must also be a member o
     <td valign="top">
     
     **Delete a service plan and its quota from the subaccount**
-
-
     
     </td>
     <td valign="top">
     
     Choose :wastebasket: from the *Actions* column.
-
-
     
     </td>
     </tr>

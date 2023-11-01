@@ -39,28 +39,20 @@ SAP BTP provides two CSRF protection approaches:
 
 CSRF Protection Mechanism
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 <th valign="top">
 
 When to Use
 
-
-
 </th>
 <th valign="top">
 
 How to Use
-
-
 
 </th>
 </tr>
@@ -69,28 +61,20 @@ How to Use
 
 URL encoding approach
 
-
-
 </td>
 <td valign="top">
 
 Based on the [CSRF Prevention Filter](http://tomcat.apache.org/tomcat-7.0-doc/config/filter.html#CSRF_Prevention_Filter) provided by Apache Tomcat 7. The prevention mechanism is based on a token \(a nonce value\) generated on each request and stored in the session. The token is used to encode all URLs on the entry point sites. Upon request to a protected URL, the existence and value of the token is checked. The request is allowed to proceed only if the nonce from the token equals the one stored in the session. The prevention mechanism is applied for all URLs mapped to the filter except for specially defined entry points.
-
-
 
 </td>
 <td valign="top">
 
 This is the most common CSRF protection. Use it for protecting resources that are supposed to be accessed via some sort of navigation. For example, if there is a reference to them in an entry point page \(included in links/post forms, and so on\).
 
-
-
 </td>
 <td valign="top">
 
 See [Using the Apache Tomcat CSRF Prevention Filter](using-the-apache-tomcat-csrf-prevention-filter-e5be999.md).
-
-
 
 </td>
 </tr>
@@ -99,28 +83,20 @@ See [Using the Apache Tomcat CSRF Prevention Filter](using-the-apache-tomcat-csr
 
 Custom header approach
 
-
-
 </td>
 <td valign="top">
 
 Based on a secret token \(a nonce value\) generated on server side and stored in the session, but unlike the first approach, here the token is transported as a custom header of the HTTP requests.
-
-
 
 </td>
 <td valign="top">
 
 Use it when URL encoding is not suitable. For example, when protecting resources that are requested only as REST APIs \(one time requests that should be served independently from previous requests and are not included in links and HTML forms\). The same approach is implemented in other SAP web application servers like AS ABAP and HANA XS, and is supported by SAP UI5. Common scenarios that can benefit from this approach are those using ODATA services, REST, AJAX, etc.
 
-
-
 </td>
 <td valign="top">
 
 See [Using Custom Header Protection](using-custom-header-protection-3756f3f.md).
-
-
 
 </td>
 </tr>
@@ -129,28 +105,20 @@ See [Using Custom Header Protection](using-custom-header-protection-3756f3f.md).
 
 Custom CSRF filtering implementation
 
-
-
 </td>
 <td valign="top">
 
 If you cannot use URL encoding or custom header protection, you can implement your custom CSRF filtering
-
-
 
 </td>
 <td valign="top">
 
 Use it when implementing single logout \(SLO\) for SAP BTP applications. Due to redirects to the SAML 2.0 identity provider, you cannot use the out-of-the-box approaches listed here \(custom header protection or URL encoding.
 
-
-
 </td>
 <td valign="top">
 
 [Logout](logout-2eebf76.md) 
-
-
 
 </td>
 </tr>

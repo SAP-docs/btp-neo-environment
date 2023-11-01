@@ -31,16 +31,12 @@ neo grant-db-tunnel-access -h <host> -u <user> -a <my subaccount> -i <mydatabase
 
 Required
 
-
-
 </th>
 </tr>
 <tr>
 <td valign="top">
 
 `-i`, `--id`
-
-
 
 </td>
 <td valign="top">
@@ -49,16 +45,12 @@ Database ID
 
 `Type`: string
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `--to-account`
-
-
 
 </td>
 <td valign="top">
@@ -68,8 +60,6 @@ Subaccount technical name
 The subaccount to be granted database tunnel access, based on the access token
 
 `Type`: string
-
-
 
 </td>
 </tr>

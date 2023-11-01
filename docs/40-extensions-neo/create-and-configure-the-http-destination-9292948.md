@@ -47,15 +47,11 @@ Depending on your scenario, you use either OAuth or basic authentication for acc
             <th valign="top">
 
             Parameter
-
-
             
             </th>
             <th valign="top">
 
             Value
-
-
             
             </th>
             </tr>
@@ -63,15 +59,11 @@ Depending on your scenario, you use either OAuth or basic authentication for acc
             <td valign="top">
             
             `Name`
-
-
             
             </td>
             <td valign="top">
             
             Enter a meaningful name.
-
-
             
             </td>
             </tr>
@@ -79,15 +71,11 @@ Depending on your scenario, you use either OAuth or basic authentication for acc
             <td valign="top">
             
             `Type`
-
-
             
             </td>
             <td valign="top">
             
             `HTTP`
-
-
             
             </td>
             </tr>
@@ -95,15 +83,11 @@ Depending on your scenario, you use either OAuth or basic authentication for acc
             <td valign="top">
             
             `Description`
-
-
             
             </td>
             <td valign="top">
             
             \(Optional\) Enter a meaningful description.
-
-
             
             </td>
             </tr>
@@ -111,15 +95,11 @@ Depending on your scenario, you use either OAuth or basic authentication for acc
             <td valign="top">
             
             `URL`
-
-
             
             </td>
             <td valign="top">
             
             <code>https://<i class="varname">&lt;my_SAP_Cloud_for_Customer_system_name&gt;</i>.crm.ondemand.com/sap/c4c/odata/v1/c4codata</code>
-
-
             
             </td>
             </tr>
@@ -127,15 +107,11 @@ Depending on your scenario, you use either OAuth or basic authentication for acc
             <td valign="top">
             
             `Proxy Type`
-
-
             
             </td>
             <td valign="top">
             
             `Internet`
-
-
             
             </td>
             </tr>
@@ -143,15 +119,11 @@ Depending on your scenario, you use either OAuth or basic authentication for acc
             <td valign="top">
             
             `Authentication`
-
-
             
             </td>
             <td valign="top">
             
             `OAuth2SAMLBearerAssertion`
-
-
             
             </td>
             </tr>
@@ -159,15 +131,11 @@ Depending on your scenario, you use either OAuth or basic authentication for acc
             <td valign="top">
             
             `Audience`
-
-
             
             </td>
             <td valign="top">
             
             Take this value from the *Local Service Provider* field in *Configure Single Sign-On* under *General Settings* in SAP Cloud for Customer administration view.
-
-
             
             </td>
             </tr>
@@ -175,8 +143,6 @@ Depending on your scenario, you use either OAuth or basic authentication for acc
             <td valign="top">
             
             `Client Key`
-
-
             
             </td>
             <td valign="top">
@@ -184,8 +150,6 @@ Depending on your scenario, you use either OAuth or basic authentication for acc
             Client ID
 
             Paste the entry you have copied from the *Client ID* field when configuring the OAuth client. For more information, see [Configure the OAuth Client for OData Access](configure-the-oauth-client-for-odata-access-0ac0dc9.md).
-
-
             
             </td>
             </tr>
@@ -193,15 +157,11 @@ Depending on your scenario, you use either OAuth or basic authentication for acc
             <td valign="top">
             
             `Token Service URL`
-
-
             
             </td>
             <td valign="top">
             
             <code>https://<i class="varname">&lt;my_SAP_Cloud_for_Customer_system_name&gt;</i>.crm.ondemand.com/sap/bc/sec/oauth2/token</code>
-
-
             
             </td>
             </tr>
@@ -209,8 +169,6 @@ Depending on your scenario, you use either OAuth or basic authentication for acc
             <td valign="top">
             
             `Token Service User`
-
-
             
             </td>
             <td valign="top">
@@ -218,8 +176,6 @@ Depending on your scenario, you use either OAuth or basic authentication for acc
             Client ID
 
             Paste the entry you have copied from the *Client ID* field when configuring the OAuth client. For more information, see [Configure the OAuth Client for OData Access](configure-the-oauth-client-for-odata-access-0ac0dc9.md).
-
-
             
             </td>
             </tr>
@@ -227,8 +183,6 @@ Depending on your scenario, you use either OAuth or basic authentication for acc
             <td valign="top">
             
             `Token Service Password`
-
-
             
             </td>
             <td valign="top">
@@ -236,8 +190,6 @@ Depending on your scenario, you use either OAuth or basic authentication for acc
             Client secret
 
             Paste the entry you have copied from the *Client Secret* field when configuring the OAuth client. For more information, see [Configure the OAuth Client for OData Access](configure-the-oauth-client-for-odata-access-0ac0dc9.md).
-
-
             
             </td>
             </tr>
@@ -251,15 +203,11 @@ Depending on your scenario, you use either OAuth or basic authentication for acc
             <th valign="top">
 
             Parameter
-
-
             
             </th>
             <th valign="top">
 
             Value
-
-
             
             </th>
             </tr>
@@ -267,15 +215,11 @@ Depending on your scenario, you use either OAuth or basic authentication for acc
             <td valign="top">
             
             `authnContextClassRef`
-
-
             
             </td>
             <td valign="top">
             
             `urn:none` 
-
-
             
             </td>
             </tr>
@@ -283,15 +227,11 @@ Depending on your scenario, you use either OAuth or basic authentication for acc
             <td valign="top">
             
             `nameIdFormat`
-
-
             
             </td>
             <td valign="top">
             
             `urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress` 
-
-
             
             </td>
             </tr>
@@ -299,8 +239,6 @@ Depending on your scenario, you use either OAuth or basic authentication for acc
             <td valign="top">
             
             `scope`
-
-
             
             </td>
             <td valign="top">
@@ -308,8 +246,6 @@ Depending on your scenario, you use either OAuth or basic authentication for acc
             Scope ID entries separated by space.
 
             We recommend that you use `UIWC:CC_HOME`.
-
-
             
             </td>
             </tr>
@@ -317,15 +253,11 @@ Depending on your scenario, you use either OAuth or basic authentication for acc
             <td valign="top">
             
             `userIdSource`
-
-
             
             </td>
             <td valign="top">
             
             email
-
-
             
             </td>
             </tr>
@@ -341,15 +273,11 @@ Depending on your scenario, you use either OAuth or basic authentication for acc
         <th valign="top">
 
         Parameter
-
-
         
         </th>
         <th valign="top">
 
         Value
-
-
         
         </th>
         </tr>
@@ -357,15 +285,11 @@ Depending on your scenario, you use either OAuth or basic authentication for acc
         <td valign="top">
         
         `Name`
-
-
         
         </td>
         <td valign="top">
         
         Enter a meaningful name
-
-
         
         </td>
         </tr>
@@ -373,15 +297,11 @@ Depending on your scenario, you use either OAuth or basic authentication for acc
         <td valign="top">
         
         `Type`
-
-
         
         </td>
         <td valign="top">
         
         `HTTP`
-
-
         
         </td>
         </tr>
@@ -389,15 +309,11 @@ Depending on your scenario, you use either OAuth or basic authentication for acc
         <td valign="top">
         
         `Description` 
-
-
         
         </td>
         <td valign="top">
         
         \(Optional\) Enter a meaningful description
-
-
         
         </td>
         </tr>
@@ -405,15 +321,11 @@ Depending on your scenario, you use either OAuth or basic authentication for acc
         <td valign="top">
         
         `URL`
-
-
         
         </td>
         <td valign="top">
         
         <code>https://<i class="varname">&lt;my_SAP_Cloud_for_Customer_system_name&gt;</i>.crm.ondemand.com/sap/c4c/odata/v1/c4codata</code>
-
-
         
         </td>
         </tr>
@@ -421,15 +333,11 @@ Depending on your scenario, you use either OAuth or basic authentication for acc
         <td valign="top">
         
         `Proxy Type`
-
-
         
         </td>
         <td valign="top">
         
         `Internet`
-
-
         
         </td>
         </tr>
@@ -437,15 +345,11 @@ Depending on your scenario, you use either OAuth or basic authentication for acc
         <td valign="top">
         
         `Authentication`
-
-
         
         </td>
         <td valign="top">
         
         `BasicAuthentication`
-
-
         
         </td>
         </tr>
@@ -453,15 +357,11 @@ Depending on your scenario, you use either OAuth or basic authentication for acc
         <td valign="top">
         
         `User`
-
-
         
         </td>
         <td valign="top">
         
         Enter the name of the SAP Cloud for Customer user who should have access to the extension applications. This user will be used as a technical user.
-
-
         
         </td>
         </tr>
@@ -469,15 +369,11 @@ Depending on your scenario, you use either OAuth or basic authentication for acc
         <td valign="top">
         
         `Password`
-
-
         
         </td>
         <td valign="top">
         
         Enter the password of the SAP Cloud for Customer user who should have access to the extension applications.
-
-
         
         </td>
         </tr>

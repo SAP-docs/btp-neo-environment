@@ -25,35 +25,25 @@ The supported destination levels you can model within a Solution are:
 
 Level
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 <th valign="top">
 
 Support for Java Applications
 
-
-
 </th>
 <th valign="top">
 
 Support for Tomcat Applications
 
-
-
 </th>
 <th valign="top">
 
 Support for HTML5 Applications
-
-
 
 </th>
 </tr>
@@ -62,35 +52,25 @@ Support for HTML5 Applications
 
 Subaccount-Level Destination
 
-
-
 </td>
 <td valign="top">
 
 After deployment, it is available for all applications within your subaccount
 
+</td>
+<td valign="top">
 
+Yes
 
 </td>
 <td valign="top">
 
 Yes
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
-
-</td>
-<td valign="top">
-
-Yes
-
-
 
 </td>
 </tr>
@@ -99,35 +79,25 @@ Yes
 
 Application-Level Destination
 
-
-
 </td>
 <td valign="top">
 
 After deployment, it is available only for designated applications
 
-
-
 </td>
 <td valign="top">
 
 Yes
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
 
 </td>
 <td valign="top">
 
 No
-
-
 
 </td>
 </tr>

@@ -29,16 +29,12 @@ You can set a new pair of database user and password, change the keystore, or sw
 
 Required
 
-
-
 </th>
 </tr>
 <tr>
 <td valign="top">
 
 `--db-password`
-
-
 
 </td>
 <td valign="top">
@@ -49,8 +45,6 @@ Password of the database user used to access the database
 
 To protect your password, enter it only when prompted by the console client and not explicitly as a parameter in the properties file or the command line
 
-
-
 </td>
 </tr>
 <tr>
@@ -58,14 +52,10 @@ To protect your password, enter it only when prompted by the console client and 
 
 `--db-user`
 
-
-
 </td>
 <td valign="top">
 
 Name of the database user used to access the database. Use it to set password-based authentication and for bindings to productive HANA instances and databases. If omitted, you must specify `--keystore-name`
-
-
 
 </td>
 </tr>
@@ -74,14 +64,10 @@ Name of the database user used to access the database. Use it to set password-ba
 
 `--keystore-name`
 
-
-
 </td>
 <td valign="top">
 
 Name of the keystore used to access the database. Use it to set authentication with an X.509 client certificate and for bindings to HANA databases on HANA 2 MDC systems \(only for HANA MDC databases with version 2.00.056 or higher\). If omitted, you must specify `--db-user`.
-
-
 
 </td>
 </tr>
@@ -89,8 +75,6 @@ Name of the keystore used to access the database. Use it to set authentication w
 <td valign="top">
 
 `--keystore-password`
-
-
 
 </td>
 <td valign="top">
@@ -101,16 +85,12 @@ Password of the keystore used to access the HANA database
 
 To protect your password, enter it only when prompted by the console client and not explicitly as a parameter in the properties file or the command line.
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-s`, `--data-source`
-
-
 
 </td>
 <td valign="top">
@@ -121,8 +101,6 @@ Default: <DEFAULT\>
 
 The application will be able to access this database via the specified data source.
 
-
-
 </td>
 </tr>
 <tr>
@@ -130,14 +108,10 @@ The application will be able to access this database via the specified data sour
 
 `-a`, `--account`
 
-
-
 </td>
 <td valign="top">
 
 Subaccount technical name
-
-
 
 </td>
 </tr>
@@ -146,14 +120,10 @@ Subaccount technical name
 
 `-b`, `--application` 
 
-
-
 </td>
 <td valign="top">
 
 Application name
-
-
 
 </td>
 </tr>
@@ -162,16 +132,12 @@ Application name
 
 `-h`, `--host`
 
-
-
 </td>
 <td valign="top">
 
 Enter a region host.
 
 `Type:` URL, for acceptable values see [Regions and Hosts Available for the Neo Environment](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/d722f7cea9ec408b85db4c3dcba07b52.html)
-
-
 
 </td>
 </tr>
@@ -180,16 +146,12 @@ Enter a region host.
 
 `-p`, `--password`
 
-
-
 </td>
 <td valign="top">
 
 To protect your password, enter it only when prompted by the console client and not explicitly as a parameter in the properties file or the command line
 
 `Type:` string
-
-
 
 </td>
 </tr>
@@ -198,16 +160,12 @@ To protect your password, enter it only when prompted by the console client and 
 
 `-u`, `--user`
 
-
-
 </td>
 <td valign="top">
 
 Use your e-mail, SAP ID, or user name
 
 `Type:` string
-
-
 
 </td>
 </tr>

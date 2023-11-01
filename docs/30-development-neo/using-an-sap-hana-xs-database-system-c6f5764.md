@@ -73,14 +73,10 @@ See the overview below for details about available features:
 
 Feature
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -88,8 +84,6 @@ Description
 <td valign="top">
 
 Database users
-
-
 
 </td>
 <td valign="top">
@@ -107,8 +101,6 @@ Specifics for SAP BTP:
 <td valign="top">
 
 User management
-
-
 
 </td>
 <td valign="top">
@@ -130,14 +122,10 @@ See:
 
 Database Administration
 
-
-
 </td>
 <td valign="top">
 
 See [Administration](https://help.sap.com/viewer/d4790b2de2f4429db6f3dff54e4d7b3a/Cloud/en-US/ac41e325a62e4d6c8516d7a63ef41df7.html "Use the SAP BTP cockpit or the console client to administer your database systems and databases in the Neo environment in SAP regions.") :arrow_upper_right:
-
-
 
 </td>
 </tr>
@@ -145,8 +133,6 @@ See [Administration](https://help.sap.com/viewer/d4790b2de2f4429db6f3dff54e4d7b3
 <td valign="top">
 
 Web-based tools
-
-
 
 </td>
 <td valign="top">
@@ -171,8 +157,6 @@ See:
 
 Eclipse
 
-
-
 </td>
 <td valign="top">
 
@@ -187,8 +171,6 @@ Eclipse
 <td valign="top">
 
 Security
-
-
 
 </td>
 <td valign="top">
@@ -209,8 +191,6 @@ See:
 
 Connectivity destinations
 
-
-
 </td>
 <td valign="top">
 
@@ -225,8 +205,6 @@ Connectivity destinations
 <td valign="top">
 
 Monitoring
-
-
 
 </td>
 <td valign="top">
@@ -249,8 +227,6 @@ Monitoring
 
 Debugging
 
-
-
 </td>
 <td valign="top">
 
@@ -269,14 +245,10 @@ Debugging
 
 Launch SAP HANA XS applications
 
-
-
 </td>
 <td valign="top">
 
 [Launch SAP HANA XS Applications](launch-sap-hana-xs-applications-0dd61c3.md) 
-
-
 
 </td>
 </tr>
@@ -285,14 +257,10 @@ Launch SAP HANA XS applications
 
 Java development
 
-
-
 </td>
 <td valign="top">
 
 [bind-hana-dbms](../50-administration-and-ops-neo/bind-hana-dbms-affa782.md) 
-
-
 
 </td>
 </tr>

@@ -31,8 +31,6 @@ neo start-local
 
 Optional
 
-
-
 </th>
 </tr>
 <tr>
@@ -40,14 +38,10 @@ Optional
 
 `-l`, `--location`
 
-
-
 </td>
 <td valign="top">
 
 Local server installation directory
-
-
 
 </td>
 </tr>
@@ -56,16 +50,12 @@ Local server installation directory
 
 `--shutdown-port`
 
-
-
 </td>
 <td valign="top">
 
 Shutdown port opened by server
 
 `Default`: *8003*
-
-
 
 </td>
 </tr>
@@ -74,14 +64,10 @@ Shutdown port opened by server
 
 `--wait-url`
 
-
-
 </td>
 <td valign="top">
 
 Waits for a 2xx response from the specified URL before exiting
-
-
 
 </td>
 </tr>
@@ -90,16 +76,12 @@ Waits for a 2xx response from the specified URL before exiting
 
 `--wait-url-timeout`
 
-
-
 </td>
 <td valign="top">
 
 Seconds to wait for a 2xx response from the wait-url before exiting
 
 `Default`: *180*
-
-
 
 </td>
 </tr>

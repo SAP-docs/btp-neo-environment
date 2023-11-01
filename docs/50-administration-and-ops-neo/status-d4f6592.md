@@ -45,16 +45,12 @@ To list all parameters available for this command, execute `neo help status` in 
 
 Required
 
-
-
 </th>
 </tr>
 <tr>
 <td valign="top">
 
 `-a`, `--account`
-
-
 
 </td>
 <td valign="top">
@@ -65,16 +61,12 @@ Subaccount technical name
 
 `Condition`: Not required if using `--application-process-id`
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-b`, `--application` 
-
-
 
 </td>
 <td valign="top">
@@ -85,16 +77,12 @@ Application name
 
 `Condition`: Not required if using `--application-process-id`
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-h`, `--host`
-
-
 
 </td>
 <td valign="top">
@@ -103,16 +91,12 @@ Enter a region host.
 
 `Type`: URL, for acceptable values see [Regions](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/350356d1dc314d3199dca15bd2ab9b0e.html "You can deploy applications in different regions. Each region represents a geographical location (for example, Europe, US East) where applications, data, or services are hosted.") :arrow_upper_right:.
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-p`, `--password`
-
-
 
 </td>
 <td valign="top">
@@ -121,8 +105,6 @@ To protect your password, enter it only when prompted by the console client and 
 
 `Type`: string
 
-
-
 </td>
 </tr>
 <tr>
@@ -130,16 +112,12 @@ To protect your password, enter it only when prompted by the console client and 
 
 `-u`, `--user`
 
-
-
 </td>
 <td valign="top">
 
 Use your email, SAP ID, or user name
 
 `Type`: string
-
-
 
 </td>
 </tr>
@@ -152,16 +130,12 @@ Use your email, SAP ID, or user name
 
 Optional
 
-
-
 </th>
 </tr>
 <tr>
 <td valign="top">
 
 `-i`, `--application-process-id`
-
-
 
 </td>
 <td valign="top">
@@ -172,16 +146,12 @@ Unique ID of a single application process. Use it to show the status of a partic
 
 `Type`: string \(hexadecimal sequence of 2 to 40 characters\)
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `--show-full-process-id`
-
-
 
 </td>
 <td valign="top">
@@ -191,8 +161,6 @@ Shows the full length \(40 characters\) of the unique application process ID. Yo
 `Default`: off
 
 `Type`: switch, takes no value
-
-
 
 </td>
 </tr>

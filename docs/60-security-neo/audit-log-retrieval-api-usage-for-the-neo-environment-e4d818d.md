@@ -213,14 +213,10 @@ The retrieved audit logs are in JSON format. The semantics of the JSON fields ar
 
 JSON field
 
-
-
 </th>
 <th valign="top">
 
 Semantic description
-
-
 
 </th>
 </tr>
@@ -229,14 +225,10 @@ Semantic description
 
 UUID
 
-
-
 </td>
 <td valign="top">
 
 Unique identifier of the audit log message
-
-
 
 </td>
 </tr>
@@ -245,14 +237,10 @@ Unique identifier of the audit log message
 
 Category
 
-
-
 </td>
 <td valign="top">
 
 Category of the audit log message. It could be one of the predefined audit log types \(audit.security-events , audit.configuration , audit.data-access or audit.data-modification\) or a subcategory provided when invoking the “log” method with “subcategory” parameter \( e.g. audit.data-modification.test , audit.data-access.my-sub-category etc.\)
-
-
 
 </td>
 </tr>
@@ -260,8 +248,6 @@ Category of the audit log message. It could be one of the predefined audit log t
 <td valign="top">
 
 User
-
-
 
 </td>
 <td valign="top">
@@ -289,14 +275,10 @@ The user that has executed the auditable event. The result of the user field cou
 
 Tenant
 
-
-
 </td>
 <td valign="top">
 
 Tenant ID owner of the auditable event.
-
-
 
 </td>
 </tr>
@@ -305,14 +287,10 @@ Tenant ID owner of the auditable event.
 
 Account
 
-
-
 </td>
 <td valign="top">
 
 Account ID owner of the auditable event.
-
-
 
 </td>
 </tr>
@@ -321,14 +299,10 @@ Account ID owner of the auditable event.
 
 Application
 
-
-
 </td>
 <td valign="top">
 
 Application that has generated the audit log event.
-
-
 
 </td>
 </tr>
@@ -337,14 +311,10 @@ Application that has generated the audit log event.
 
 Time
 
-
-
 </td>
 <td valign="top">
 
 Timestamp \(UTC+0\) when the auditable event is generated.
-
-
 
 </td>
 </tr>
@@ -353,14 +323,10 @@ Timestamp \(UTC+0\) when the auditable event is generated.
 
 Message
 
-
-
 </td>
 <td valign="top">
 
 Audit log message text.
-
-
 
 </td>
 </tr>
@@ -369,14 +335,10 @@ Audit log message text.
 
 InstanceId
 
-
-
 </td>
 <td valign="top">
 
 Instance ID where the event has occurred if applicable.
-
-
 
 </td>
 </tr>
@@ -385,14 +347,10 @@ Instance ID where the event has occurred if applicable.
 
 FormatVersion
 
-
-
 </td>
 <td valign="top">
 
 Audit log message format.
-
-
 
 </td>
 </tr>

@@ -116,7 +116,7 @@ For example, if your application runs on two application processes, you need to 
 **Related Information**  
 
 
-[rolling-update](rolling-update-3f5d412.md "The rolling-update command performs update of an application without downtime in one go.")
+[rolling-update](rolling-update-3f5d412.md "The rolling-update command performs update of a Java application without downtime in one go.")
 
 [Perform Soft Shutdown](perform-soft-shutdown-17e8e96.md "Soft shutdown enables an operator to stop an application or application process in a way that no data is lost. Using soft shutdown gives sufficient time to finish serving end user requests or background jobs.")
 

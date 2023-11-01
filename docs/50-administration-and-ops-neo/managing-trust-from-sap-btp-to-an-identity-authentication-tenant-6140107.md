@@ -48,21 +48,15 @@ See [Trust and Federation with Identity Providers](https://help.sap.com/viewer/6
 
 Task
 
-
-
 </th>
 <th valign="top">
 
 Run the command...
 
-
-
 </th>
 <th valign="top">
 
 Command help
-
-
 
 </th>
 </tr>
@@ -71,21 +65,15 @@ Command help
 
 List all trust configurations that are configured for your global account or subaccount tenants to which you can connect this global account or subaccount
 
-
-
 </td>
 <td valign="top">
 
 `btp list security/trust`
 
-
-
 </td>
 <td valign="top">
 
 [btp list security/trust](https://help.sap.com/docs/BTP/btp-cli/btp-list-security-trust.html)
-
-
 
 </td>
 </tr>
@@ -94,21 +82,15 @@ List all trust configurations that are configured for your global account or sub
 
 Get details about a trust configuration
 
-
-
 </td>
 <td valign="top">
 
 `btp get security/trust` 
 
-
-
 </td>
 <td valign="top">
 
 [btp get security/trust](https://help.sap.com/docs/BTP/btp-cli/btp-get-security-trust.html)
-
-
 
 </td>
 </tr>
@@ -117,21 +99,15 @@ Get details about a trust configuration
 
 Establish trust from a global account or subaccount to an Identity Authentication tenant to which you can connect this global account or subaccount
 
-
-
 </td>
 <td valign="top">
 
 `btp create security/trust`
 
-
-
 </td>
 <td valign="top">
 
 [btp create security/trust](https://help.sap.com/docs/BTP/btp-cli/btp-create-security-trust.html)
-
-
 
 </td>
 </tr>
@@ -140,21 +116,15 @@ Establish trust from a global account or subaccount to an Identity Authenticatio
 
 Update a trust configuration of a global account or subaccount
 
-
-
 </td>
 <td valign="top">
 
 `btp update security/trust`
 
-
-
 </td>
 <td valign="top">
 
 [btp update security/trust](https://help.sap.com/docs/BTP/btp-cli/btp-update-security-trust.html)
-
-
 
 </td>
 </tr>
@@ -163,21 +133,15 @@ Update a trust configuration of a global account or subaccount
 
 Delete a trust configuration from a global account or subaccount
 
-
-
 </td>
 <td valign="top">
 
 `btp delete security/trust`
 
-
-
 </td>
 <td valign="top">
 
 [btp delete security/trust](https://help.sap.com/docs/BTP/btp-cli/btp-delete-security-trust.html)
-
-
 
 </td>
 </tr>
@@ -186,21 +150,15 @@ Delete a trust configuration from a global account or subaccount
 
 Migrate from SAML trust to OpenID Connect trust
 
-
-
 </td>
 <td valign="top">
 
 `btp migrate security/trust`
 
-
-
 </td>
 <td valign="top">
 
 [btp migrate security/trust](https://help.sap.com/docs/btp/btp-cli-command-reference/btp-migrate-security-trust)
-
-
 
 </td>
 </tr>
@@ -209,21 +167,15 @@ Migrate from SAML trust to OpenID Connect trust
 
 Roll back the migration of an existing SAML trust with any identity provider to OpenID Connect trust with an Identity Authentication tenant
 
-
-
 </td>
 <td valign="top">
 
 `btp restore security/trust`
 
-
-
 </td>
 <td valign="top">
 
 [btp restore security/trust](https://help.sap.com/docs/btp/btp-cli-command-reference/btp-restore-security-trust)
-
-
 
 </td>
 </tr>
@@ -242,21 +194,15 @@ Roll back the migration of an existing SAML trust with any identity provider to 
 
 Task
 
-
-
 </th>
 <th valign="top">
 
 Run the command...
 
-
-
 </th>
 <th valign="top">
 
 Command help
-
-
 
 </th>
 </tr>
@@ -265,21 +211,15 @@ Command help
 
 List all Identity Authentication
 
-
-
 </td>
 <td valign="top">
 
 `btp list security/available-idp`
 
-
-
 </td>
 <td valign="top">
 
 [btp list security/available-ipd](https://help.sap.com/docs/BTP/btp-cli/btp-list-security-available-idp.html)
-
-
 
 </td>
 </tr>
@@ -287,8 +227,6 @@ List all Identity Authentication
 <td valign="top">
 
 Get details about an Identity Authentication tenant that is available for a global account or a subaccount
-
-
 
 </td>
 <td valign="top">
@@ -299,14 +237,10 @@ To see available tenants, run `btp list security/available-idp`
 
 .
 
-
-
 </td>
 <td valign="top">
 
 [btp get security/available-ipd](https://help.sap.com/docs/BTP/btp-cli/btp-get-security-available-idp.html)
-
-
 
 </td>
 </tr>

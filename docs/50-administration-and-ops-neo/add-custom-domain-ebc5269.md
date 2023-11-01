@@ -36,16 +36,12 @@ To list all parameters available for this command, execute `neo help add-custom-
 
 Required
 
-
-
 </th>
 </tr>
 <tr>
 <td valign="top">
 
 `-a`, `--account`
-
-
 
 </td>
 <td valign="top">
@@ -54,16 +50,12 @@ Subaccount technical name
 
 `Type`: string \(up to 30 characters; lowercase letters and numbers, starting with a letter\)
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-h`, `--host`
-
-
 
 </td>
 <td valign="top">
@@ -72,16 +64,12 @@ Enter a region host.
 
 `Type`: URL. For acceptable values see [Regions and Hosts Available for the Neo Environment](../10-concepts-neo/regions-and-hosts-available-for-the-neo-environment-d722f7c.md)
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-p`, `--password`
-
-
 
 </td>
 <td valign="top">
@@ -90,16 +78,12 @@ To protect your password, enter it only when prompted by the console client and 
 
 `Type`: string
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-u`, `--user`
-
-
 
 </td>
 <td valign="top">
@@ -108,16 +92,12 @@ Use your email, SAP ID, or user name.
 
 `Type`: string
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-e`, `--custom-domain`
-
-
 
 </td>
 <td valign="top">
@@ -126,16 +106,12 @@ Custom domain for accessing the application
 
 `Type`: string \(hostname such as mydomain.com or shop.mydomain.com corresponding to the CN/SAN of the certificate\)
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-i`, `--application-url`
-
-
 
 </td>
 <td valign="top">
@@ -158,14 +134,10 @@ Query strings are not supported in the `--application-url` parameter and are ign
 
 `-l`, `--ssl-host`
 
-
-
 </td>
 <td valign="top">
 
 SSL host as defined with the `--name` parameter when created, or 'default' if not specified.
-
-
 
 </td>
 </tr>
@@ -178,16 +150,12 @@ SSL host as defined with the `--name` parameter when created, or 'default' if no
 
 Optional
 
-
-
 </th>
 </tr>
 <tr>
 <td valign="top">
 
 `--disable-application-url`
-
-
 
 </td>
 <td valign="top">
@@ -200,8 +168,6 @@ Allows you to disable the access to the platform URL, for example `hana.ondemand
 `Type`: takes no value
 
 If you do not explicitly use this parameter, your subscribed application will continue to be accessible via the default URL `hana.ondemand.com`.
-
-
 
 </td>
 </tr>

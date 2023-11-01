@@ -25,14 +25,10 @@ In SAP BTP, you can use Java EE roles to define access to the application resour
 
 Term
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -40,8 +36,6 @@ Description
 <td valign="top">
 
 Role
-
-
 
 </td>
 <td valign="top">
@@ -59,8 +53,6 @@ Roles allow you to diversify user access to application resources \(role-based a
 <td valign="top">
 
 Predefined roles
-
-
 
 </td>
 <td valign="top">
@@ -88,8 +80,6 @@ Predefined roles can be:
 
 Custom roles
 
-
-
 </td>
 <td valign="top">
 
@@ -99,16 +89,12 @@ You can add custom roles to an application to configure additional access permis
 
 Custom roles are visible and accessible only within the subaccount where they are created. That’s why different accounts subscribed to the same application could have different custom roles.
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 User
-
-
 
 </td>
 <td valign="top">
@@ -130,8 +116,6 @@ Users are principals managed by identity providers \(SAP ID service or others\).
 
 Group
 
-
-
 </td>
 <td valign="top">
 
@@ -143,8 +127,6 @@ Groups are collections of roles that allow the definition of business-level func
 For each identity provider \(IdP\) for your subaccount, you define a set of rules specifying the groups a user for this IdP belongs to.
 
 See [Using a Custom Identity Provider](application-identity-provider-dc61853.md#loiodc618538d97610148155d97dcd123c24).
-
-
 
 </td>
 </tr>
@@ -330,22 +312,16 @@ For each different identity provider \(IdP\), you can define a set of rules spec
     <th valign="top">
 
     IdP Group Type
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     <th valign="top">
 
     Example
-
-
     
     </th>
     </tr>
@@ -353,22 +329,16 @@ For each different identity provider \(IdP\), you can define a set of rules spec
     <td valign="top">
     
     Default group
-
-
     
     </td>
     <td valign="top">
     
     All users logged by this IdP will have this group assignment.
-
-
     
     </td>
     <td valign="top">
     
     All users logged by the company IdP can be assigned to the group *Internal*. You may decide to give this group the role *Access Internal Corporate Portal*.
-
-
     
     </td>
     </tr>
@@ -376,22 +346,16 @@ For each different identity provider \(IdP\), you can define a set of rules spec
     <td valign="top">
     
     Assertion-based group
-
-
     
     </td>
     <td valign="top">
     
     Determined by values of attributes in the SAML 2.0 assertion.Only the IdP users that have the required values will be assigned to it.
-
-
     
     </td>
     <td valign="top">
     
     The users with SAML 2.0 assertion containing the attribute `contract=temporary` will be assigned to the group *TEMPORARY*. The users with SAML 2.0 assertion containing the attribute `contract=permanent` will be assigned to the group *PERMANENT*. The two groups will have different role assignments.
-
-
     
     </td>
     </tr>
@@ -424,15 +388,11 @@ For each different identity provider \(IdP\), you can define a set of rules spec
             <td valign="top">
             
             Equals
-
-
             
             </td>
             <td valign="top">
             
             Choose *Equals* if you want the value of the SAML 2.0 assertion attribute to match exactly the string you specify. Note that if you want to use more sophisticated relations, such as "starts with" or "contains", you need to use the *Regular expression* option.
-
-
             
             </td>
             </tr>
@@ -440,8 +400,6 @@ For each different identity provider \(IdP\), you can define a set of rules spec
             <td valign="top">
             
             Regular expression
-
-
             
             </td>
             <td valign="top">
@@ -455,8 +413,6 @@ For each different identity provider \(IdP\), you can define a set of rules spec
             **Example 2**: You want all users with name starting with admin to be added to group *Administrators*. Hence, you choose the mapping rule to be userid, matched using the following regular expression:
 
             *^\(admin\).\** 
-
-
             
             </td>
             </tr>
@@ -520,21 +476,15 @@ The table below shows the VM system properties available for configuring role ca
 
 VM Property
 
-
-
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Default Value
-
-
 
 </th>
 </tr>
@@ -543,21 +493,15 @@ Default Value
 
 com.sap.security.um.ratelimiter.cache.maximum\_user\_entries
 
-
-
 </td>
 <td valign="top">
 
 The maximum user entries stored in the role cache.
 
-
-
 </td>
 <td valign="top">
 
 1000
-
-
 
 </td>
 </tr>
@@ -566,21 +510,15 @@ The maximum user entries stored in the role cache.
 
 com.sap.security.um.ratelimiter.cache.validity
 
-
-
 </td>
 <td valign="top">
 
 The cache validity in time.
 
-
-
 </td>
 <td valign="top">
 
 5 \(in minutes\)
-
-
 
 </td>
 </tr>
@@ -589,21 +527,15 @@ The cache validity in time.
 
 com.sap.security.um.ratelimiter.cache.time\_period
 
-
-
 </td>
 <td valign="top">
 
 The time period for role caching.
 
-
-
 </td>
 <td valign="top">
 
 2 \(in minutes\)
-
-
 
 </td>
 </tr>
@@ -612,21 +544,15 @@ The time period for role caching.
 
 com.sap.security.um.ratelimiter.cache.maximum\_requests\_per\_user
 
-
-
 </td>
 <td valign="top">
 
 The maximum requests per user stored in the role cache.
 
-
-
 </td>
 <td valign="top">
 
 20
-
-
 
 </td>
 </tr>

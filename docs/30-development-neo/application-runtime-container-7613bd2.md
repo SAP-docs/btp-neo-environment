@@ -23,28 +23,20 @@ Depending on the runtime type and corresponding SDK you are using, SAP BTP provi
 
 Runtime Profile
 
-
-
 </th>
 <th valign="top">
 
 Provides Support for
-
-
 
 </th>
 <th valign="top">
 
 Supported Java/JRE Versions
 
-
-
 </th>
 <th valign="top">
 
 Use
-
-
 
 </th>
 </tr>
@@ -53,28 +45,20 @@ Use
 
 [Java EE 7 Web Profile TomEE 7](java-ee-7-web-profile-tomee-7-f177a15.md)
 
-
-
 </td>
 <td valign="top">
 
 Java EE 7 Web Profile APIs
-
-
 
 </td>
 <td valign="top">
 
 8
 
-
-
 </td>
 <td valign="top">
 
 If you need an application runtime container together with all containers defined by the Java EE 7 Web Profile specification.
-
-
 
 </td>
 </tr>
@@ -83,14 +67,10 @@ If you need an application runtime container together with all containers define
 
 [Java Web Tomcat 9](java-web-tomcat-9-41b1ee9.md)
 
-
-
 </td>
 <td valign="top">
 
 Some of the standard Java EE 7 APIs \(Servlet, JSP, EL, Websocket\)
-
-
 
 </td>
 <td valign="top">
@@ -101,14 +81,10 @@ Some of the standard Java EE 7 APIs \(Servlet, JSP, EL, Websocket\)
 
 11 \(in runtime version 4.15 or lower\)
 
-
-
 </td>
 <td valign="top">
 
 If you need a simplified Java Web application runtime container based on Apache Tomcat 9.
-
-
 
 </td>
 </tr>
@@ -117,28 +93,20 @@ If you need a simplified Java Web application runtime container based on Apache 
 
 [Java Web Tomcat 8 \(Deprecated\)](java-web-tomcat-8-deprecated-fd6b72f.md)
 
-
-
 </td>
 <td valign="top">
 
 Some of the standard Java EE 7 APIs \(Servlet, JSP, EL, Websocket\)
-
-
 
 </td>
 <td valign="top">
 
 8
 
-
-
 </td>
 <td valign="top">
 
 If you need a simplified Java Web application runtime container based on Apache Tomcat 8.
-
-
 
 </td>
 </tr>

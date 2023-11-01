@@ -33,14 +33,10 @@ SAP BTP includes the following predefined platform roles:
 
 Role
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -48,8 +44,6 @@ Description
 <td valign="top">
 
 Administrator
-
-
 
 </td>
 <td valign="top">
@@ -74,8 +68,6 @@ In addition, you have all permissions granted by the developer role, except the 
 
 Cloud Connector Admin
 
-
-
 </td>
 <td valign="top">
 
@@ -92,8 +84,6 @@ Open secure tunnels via Cloud Connector from on-premise networks to your subacco
 <td valign="top">
 
 Developer
-
-
 
 </td>
 <td valign="top">
@@ -112,14 +102,10 @@ Supports typical development tasks, such as deploying, starting, stopping, and d
 
 Support User
 
-
-
 </td>
 <td valign="top">
 
 Designed for technical support engineers, this role enables you to read almost all data related to a subaccount, including its metadata, configuration settings, and log files. For you to read database content, a database administrator must assign the appropriate database permissions to you.
-
-
 
 </td>
 </tr>
@@ -127,8 +113,6 @@ Designed for technical support engineers, this role enables you to read almost a
 <td valign="top">
 
 Application User Admin
-
-
 
 </td>
 <td valign="top">

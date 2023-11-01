@@ -21,21 +21,15 @@ Both APIs cache issued access tokens and automatically reuse them. In addition, 
 
 Scenario
 
-
-
 </th>
 <th valign="top">
 
 Use Connectivity API
 
-
-
 </th>
 <th valign="top">
 
 Details
-
-
 
 </th>
 </tr>
@@ -44,16 +38,12 @@ Details
 
 Client credentials
 
-
-
 </td>
 <td valign="top">
 
 HttpDestination API
 
 AuthenticationHeaderProvider API
-
-
 
 </td>
 <td valign="top">
@@ -62,8 +52,6 @@ If you use the HttpDestination API, a token is automatically issued based on the
 
 If you use the AuthenticationHeaderProvider API, you need to generate client credentials headers and insert them in your request. See [Generate Client Credentials Headers](https://help.sap.com/docs/CP_CONNECTIVITY/b865ed651e414196b39f8922db2122c7/df6c1ffd39f0451594d737cf7638ce00.html?version=Cloud&locale=en-US).
 
-
-
 </td>
 </tr>
 <tr>
@@ -71,21 +59,15 @@ If you use the AuthenticationHeaderProvider API, you need to generate client cre
 
 SAML bearer assertion
 
-
-
 </td>
 <td valign="top">
 
 AuthenticationHeaderProvider API
 
-
-
 </td>
 <td valign="top">
 
 Generates OAuth authorization headers. See [Generate OAuth2SAMLBearerAssertion Headers](https://help.sap.com/docs/CP_CONNECTIVITY/b865ed651e414196b39f8922db2122c7/df6c1ffd39f0451594d737cf7638ce00.html?version=Cloud&locale=en-US)
-
-
 
 </td>
 </tr>

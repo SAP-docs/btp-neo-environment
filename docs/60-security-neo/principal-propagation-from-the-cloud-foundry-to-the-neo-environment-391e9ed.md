@@ -178,15 +178,11 @@ Connect the two subaccounts by describing the connection properties in a destina
     <th valign="top">
 
     Field
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     </tr>
@@ -194,15 +190,11 @@ Connect the two subaccounts by describing the connection properties in a destina
     <td valign="top">
     
     Name
-
-
     
     </td>
     <td valign="top">
     
     Technical name of the destination. It can be used later on to get an instance of that destination. It must be unique for the global account.
-
-
     
     </td>
     </tr>
@@ -210,15 +202,11 @@ Connect the two subaccounts by describing the connection properties in a destina
     <td valign="top">
     
     Description
-
-
     
     </td>
     <td valign="top">
     
     Free-text description.
-
-
     
     </td>
     </tr>
@@ -226,15 +214,11 @@ Connect the two subaccounts by describing the connection properties in a destina
     <td valign="top">
     
     Type
-
-
     
     </td>
     <td valign="top">
     
     HTTP
-
-
     
     </td>
     </tr>
@@ -242,8 +226,6 @@ Connect the two subaccounts by describing the connection properties in a destina
     <td valign="top">
     
     URL
-
-
     
     </td>
     <td valign="top">
@@ -251,8 +233,6 @@ Connect the two subaccounts by describing the connection properties in a destina
     The URL of the protected resource in the Neo environment.
 
     Example: `https://myneoapp.hana.ondemand.com/myprotectedresource/`
-
-
     
     </td>
     </tr>
@@ -260,15 +240,11 @@ Connect the two subaccounts by describing the connection properties in a destina
     <td valign="top">
     
     Authentication
-
-
     
     </td>
     <td valign="top">
     
     OAuth2SAMLBearerAssertion
-
-
     
     </td>
     </tr>
@@ -276,15 +252,11 @@ Connect the two subaccounts by describing the connection properties in a destina
     <td valign="top">
     
     Proxy Type
-
-
     
     </td>
     <td valign="top">
     
     Internet
-
-
     
     </td>
     </tr>
@@ -292,8 +264,6 @@ Connect the two subaccounts by describing the connection properties in a destina
     <td valign="top">
     
     Audience
-
-
     
     </td>
     <td valign="top">
@@ -303,8 +273,6 @@ Connect the two subaccounts by describing the connection properties in a destina
     Copy the value from *cockpit* \> *<your Neo subaccount\>* \> *Security* \> *Trust* \> *Local Service Provider* \> *Local Service Provider Name*.
 
     ![](images/NeoLocalProvider_7f8b61b.png)
-
-
     
     </td>
     </tr>
@@ -312,15 +280,11 @@ Connect the two subaccounts by describing the connection properties in a destina
     <td valign="top">
     
     Client Key
-
-
     
     </td>
     <td valign="top">
     
     The ID of the OAuth client for the application in the Neo environment.
-
-
     
     </td>
     </tr>
@@ -328,8 +292,6 @@ Connect the two subaccounts by describing the connection properties in a destina
     <td valign="top">
     
     Token Service URL
-
-
     
     </td>
     <td valign="top">
@@ -337,8 +299,6 @@ Connect the two subaccounts by describing the connection properties in a destina
     Copy the value of *Token Endpoint* from the following place: *cockpit* \> *<your Neo subaccount\>* \> *Security* \> *OAuth* \> *Branding*.
 
     ![](images/OAuthTokenEndpoint_b08846c.png)
-
-
     
     </td>
     </tr>
@@ -346,15 +306,11 @@ Connect the two subaccounts by describing the connection properties in a destina
     <td valign="top">
     
     Token Service User
-
-
     
     </td>
     <td valign="top">
     
     The ID of the OAuth client for the application in the Neo environment.
-
-
     
     </td>
     </tr>
@@ -362,15 +318,11 @@ Connect the two subaccounts by describing the connection properties in a destina
     <td valign="top">
     
     Token Service Password
-
-
     
     </td>
     <td valign="top">
     
     The secret from the OAuth client.
-
-
     
     </td>
     </tr>
@@ -378,15 +330,11 @@ Connect the two subaccounts by describing the connection properties in a destina
     <td valign="top">
     
     System User
-
-
     
     </td>
     <td valign="top">
     
     Empty.
-
-
     
     </td>
     </tr>
@@ -394,15 +342,11 @@ Connect the two subaccounts by describing the connection properties in a destina
     <td valign="top">
     
     authnContextClassRef
-
-
     
     </td>
     <td valign="top">
     
     *urn:oasis:names:tc:SAML:2.0:ac:classes:PreviousSession* 
-
-
     
     </td>
     </tr>
@@ -410,15 +354,11 @@ Connect the two subaccounts by describing the connection properties in a destina
     <td valign="top">
     
     nameIdFormat
-
-
     
     </td>
     <td valign="top">
     
     *urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified* if the user ID will be propagated to the Neo application or *nameIdFormat = urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress* if the user email will be propagated to the Neo application.
-
-
     
     </td>
     </tr>

@@ -38,22 +38,16 @@ The following rules apply:
 
 Does a Binding Already Exist?
 
-
-
 </th>
 <th valign="top">
 
 Are User Credentials Provided?
-
-
 
 </th>
 <th valign="top">
 
 Action
 
-
-
 </th>
 </tr>
 <tr>
@@ -61,21 +55,15 @@ Action
 
 No
 
-
-
 </td>
 <td valign="top">
 
 Yes
 
-
-
 </td>
 <td valign="top">
 
 Creates a new database binding using the provided credentials
-
-
 
 </td>
 </tr>
@@ -84,22 +72,16 @@ Creates a new database binding using the provided credentials
 
 No
 
-
-
 </td>
 <td valign="top">
 
 No
-
-
 
 </td>
 <td valign="top">
 
 Creates a new database binding with generated credentials
 
-
-
 </td>
 </tr>
 <tr>
@@ -107,22 +89,16 @@ Creates a new database binding with generated credentials
 
 Yes
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
 
 </td>
 <td valign="top">
 
 Creates a new database binding using the provided credentials
 
-
-
 </td>
 </tr>
 <tr>
@@ -130,21 +106,15 @@ Creates a new database binding using the provided credentials
 
 Yes
 
-
-
 </td>
 <td valign="top">
 
 No
 
-
-
 </td>
 <td valign="top">
 
 Uses the old database binding
-
-
 
 </td>
 </tr>

@@ -43,8 +43,6 @@ To list all parameters available for this command, execute `neo help` version in
 
 Required
 
-
-
 </th>
 </tr>
 <tr>
@@ -52,14 +50,10 @@ Required
 
 `-c`, `--commands`
 
-
-
 </td>
 <td valign="top">
 
 Lists all commands available in the SDK and their versions.
-
-
 
 </td>
 </tr>
@@ -68,14 +62,10 @@ Lists all commands available in the SDK and their versions.
 
 `-j`, `--jars`
 
-
-
 </td>
 <td valign="top">
 
 Lists all JAR files in the SDK and their versions.
-
-
 
 </td>
 </tr>
@@ -84,14 +74,10 @@ Lists all JAR files in the SDK and their versions.
 
 `-u`, `--updates`
 
-
-
 </td>
 <td valign="top">
 
 Checks if there are any updates and hot fixes for the SDK and whether the SDK version is still supported. It also provides the version of the latest available SDK.
-
-
 
 </td>
 </tr>
@@ -104,16 +90,12 @@ Checks if there are any updates and hot fixes for the SDK and whether the SDK ve
 
 Optional
 
-
-
 </th>
 </tr>
 <tr>
 <td valign="top">
 
 `--output` `<value>`
-
-
 
 </td>
 <td valign="top">
@@ -123,8 +105,6 @@ Prints the output in the specified format.
 `Acceptable values`: 'json'
 
 `Type`: string
-
-
 
 </td>
 </tr>

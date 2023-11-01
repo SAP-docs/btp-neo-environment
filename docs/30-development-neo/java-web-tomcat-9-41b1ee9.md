@@ -39,14 +39,10 @@ Java Web Tomcat 9 runtime is displayed as *neo-java-web runtime version 4.x* in 
 
 Java version
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -55,14 +51,10 @@ Description
 
 Java 8
 
-
-
 </td>
 <td valign="top">
 
 Default for all versions of Java Web Tomcat 9 runtime.
-
-
 
 </td>
 </tr>
@@ -70,8 +62,6 @@ Default for all versions of Java Web Tomcat 9 runtime.
 <td valign="top">
 
 Java 17
-
-
 
 </td>
 <td valign="top">
@@ -92,14 +82,10 @@ To use this Java version, deploy your application in one of the following ways:
 
 Java 11
 
-
-
 </td>
 <td valign="top">
 
 Available in versions **4.15 or lower** of Java Web Tomcat 9 runtime. Replaced by Java 17 in the higher versions.
-
-
 
 </td>
 </tr>
@@ -133,14 +119,10 @@ The current version of Java Web Tomcat 9 application runtime container \(neo-jav
 
 Specification Version
 
-
-
 </th>
 <th valign="top">
 
 JSR
-
-
 
 </th>
 </tr>
@@ -149,14 +131,10 @@ JSR
 
 Servlet 4.0
 
-
-
 </td>
 <td valign="top">
 
 [JSR - 369](https://jcp.org/aboutJava/communityprocess/final/jsr369/index.html)
-
-
 
 </td>
 </tr>
@@ -165,14 +143,10 @@ Servlet 4.0
 
 JavaServer Pages \(JSP\) 2.3
 
-
-
 </td>
 <td valign="top">
 
 [JSR - 245](https://jcp.org/aboutJava/communityprocess/mrel/jsr245/index2.html) 
-
-
 
 </td>
 </tr>
@@ -181,14 +155,10 @@ JavaServer Pages \(JSP\) 2.3
 
 Expression Language \(EL\) 3.0
 
-
-
 </td>
 <td valign="top">
 
 [JSR - 341](https://jcp.org/aboutJava/communityprocess/final/jsr341/index.html) 
-
-
 
 </td>
 </tr>
@@ -197,14 +167,10 @@ Expression Language \(EL\) 3.0
 
 Debugging Support for Other Languages 1.0
 
-
-
 </td>
 <td valign="top">
 
 [JSR - 45](https://jcp.org/en/jsr/detail?id=45) 
-
-
 
 </td>
 </tr>
@@ -213,14 +179,10 @@ Debugging Support for Other Languages 1.0
 
 Java API for WebSocket
 
-
-
 </td>
 <td valign="top">
 
 [JSR - 356](https://jcp.org/en/jsr/detail?id=356) 
-
-
 
 </td>
 </tr>

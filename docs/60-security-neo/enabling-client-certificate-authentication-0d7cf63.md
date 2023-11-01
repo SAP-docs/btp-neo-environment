@@ -82,14 +82,10 @@ Use the following system properties to define user mapping:
 
 System Property
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -98,14 +94,10 @@ Description
 
 `com.sap.cloud.crypto.clientcert.mapping_mode`
 
-
-
 </td>
 <td valign="top">
 
 \(Mandatory\) Defines how the received client certificate is interpreted.
-
-
 
 </td>
 </tr>
@@ -113,8 +105,6 @@ Description
 <td valign="top">
 
 `com.sap.cloud.crypto.clientcert.keystore_name`
-
-
 
 </td>
 <td valign="top">
@@ -147,28 +137,20 @@ For more information about the particular values you need to set, see the table 
 
 Mapping Mode
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 <th valign="top">
 
 How to Set
 
-
-
 </th>
 <th valign="top">
 
 Example
-
-
 
 </th>
 </tr>
@@ -177,14 +159,10 @@ Example
 
 CN
 
-
-
 </td>
 <td valign="top">
 
 The user name equals the common name \(CN\) of the certificate’s subject.
-
-
 
 </td>
 <td valign="top">
@@ -198,14 +176,10 @@ In addition, if you want to accept certificates from trusted certificate authori
 
 If you want to accept certificates from any issuer, skip setting the `com.sap.cloud.crypto.clientcert.keystore_name` property.
 
-
-
 </td>
 <td valign="top">
 
 A client certificate with *cn=myuser,ou=security* as a subject is mapped to a *myuser* user name.
-
-
 
 </td>
 </tr>
@@ -214,14 +188,10 @@ A client certificate with *cn=myuser,ou=security* as a subject is mapped to a *m
 
 CN@issuer
 
-
-
 </td>
 <td valign="top">
 
 For this mapping mode, the user name is defined as *<CN of the certificate’s subject\>@<keystore alias of the certificate’s issuer\>*. Use this mapping mode when you have certificates with identical CNs.
-
-
 
 </td>
 <td valign="top">
@@ -244,8 +214,6 @@ To use this mapping mode, you have to set the following system properties:
 
 A client certificate with *CN=john, C=DE, O=SAP, OU=Development* as a subject and *CN=SSO CA, O=SAP* as an issuer is received. The specified keystore with trusted issuers contains the same issuer, *CN=SSO CA, O=SAP*, that has an *sso\_ca* alias. Then the user name is defined as *john@sso\_ca*.
 
-
-
 </td>
 </tr>
 <tr>
@@ -253,14 +221,10 @@ A client certificate with *CN=john, C=DE, O=SAP, OU=Development* as a subject an
 
 wholeCert
 
-
-
 </td>
 <td valign="top">
 
 For this mapping mode, the whole client certificate is compared with each entry in the specified keystore, and then the user name is defined as the alias of the matching entry.
-
-
 
 </td>
 <td valign="top">
@@ -290,8 +254,6 @@ The following client certificate is received:
 
 The specified keystore contains the same certificate with an alias *john*. Then the user name is defined as *john*.
 
-
-
 </td>
 </tr>
 <tr>
@@ -299,16 +261,12 @@ The specified keystore contains the same certificate with an alias *john*. Then 
 
 subjectAndIssuer
 
-
-
 </td>
 <td valign="top">
 
 For this mapping mode, only the subject and issuer fields of the received client certificate are compared with the ones of each keystore entry, and then the user name is defined as the alias of the matching entry.
 
 Use this mapping mode when you want authentication by validating only the certificate’s subject and issuer.
-
-
 
 </td>
 <td valign="top">
@@ -327,8 +285,6 @@ To use this mapping mode, you have to set the following system properties:
 <td valign="top">
 
 A certificate with *CN=john.miller, C=DE, O=SAP, OU=Development* as a subject and *CN=SSO CA, O=SAP* as an issuer is received. The specified keystore contains a certificate with alias *john* that has the same subject and issuer fields. Then the user name is defined as *john*.
-
-
 
 </td>
 </tr>

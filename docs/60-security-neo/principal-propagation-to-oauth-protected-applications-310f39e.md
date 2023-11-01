@@ -65,22 +65,16 @@ The graphic below illustrates the scenario implemented in terms of SAP BTP.
     <th valign="top">
 
     SAML Assertion Element
-
-
     
     </th>
     <th valign="top">
 
     Value Description
-
-
     
     </th>
     <th valign="top">
 
     Example
-
-
     
     </th>
     </tr>
@@ -88,15 +82,11 @@ The graphic below illustrates the scenario implemented in terms of SAP BTP.
     <td valign="top">
     
     Name ID
-
-
     
     </td>
     <td valign="top">
     
     The authenticated user ID.
-
-
     
     </td>
     <td valign="top">
@@ -117,8 +107,6 @@ The graphic below illustrates the scenario implemented in terms of SAP BTP.
     <td valign="top">
     
     Audience
-
-
     
     </td>
     <td valign="top">
@@ -133,22 +121,16 @@ The graphic below illustrates the scenario implemented in terms of SAP BTP.
     <th valign="top">
 
     Region Host
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     <th valign="top">
 
     Required Audience Value
-
-
     
     </th>
     </tr>
@@ -156,22 +138,16 @@ The graphic below illustrates the scenario implemented in terms of SAP BTP.
     <td valign="top">
     
     hana.ondemand.com
-
-
     
     </td>
     <td valign="top">
     
     Productive landscape, data center Europe
-
-
     
     </td>
     <td valign="top">
     
     https://netweaver.ondemand.com
-
-
     
     </td>
     </tr>
@@ -179,22 +155,16 @@ The graphic below illustrates the scenario implemented in terms of SAP BTP.
     <td valign="top">
     
     ap1.hana.ondemand.com
-
-
     
     </td>
     <td valign="top">
     
     Productive landscape, data center Asia-Pasific \(Australia\)
-
-
     
     </td>
     <td valign="top">
     
     ap1.hana.ondemand.com
-
-
     
     </td>
     </tr>
@@ -202,30 +172,22 @@ The graphic below illustrates the scenario implemented in terms of SAP BTP.
     <td valign="top">
     
     https://us1.hana.ondemand.com
-
-
     
     </td>
     <td valign="top">
     
     Productive landscape, data center United States \(US East\)
-
-
     
     </td>
     <td valign="top">
     
     https://us1.hana.ondemand.com/
-
-
     
     </td>
     </tr>
     </table>
     
     See [Regions and Hosts Available for the Neo Environment](../10-concepts-neo/regions-and-hosts-available-for-the-neo-environment-d722f7c.md).
-
-
     
     </td>
     <td valign="top">
@@ -250,15 +212,11 @@ The graphic below illustrates the scenario implemented in terms of SAP BTP.
     <td valign="top">
     
     Issuer ID
-
-
     
     </td>
     <td valign="top">
     
     The issuer must have as value the OAuth client ID registered at SAP BTP \(in *Cockpit* \> *Security* \> *OAuth* \> *Clients* \> *<your client\>* \> *Client ID*\).
-
-
     
     </td>
     <td valign="top">
@@ -279,15 +237,11 @@ The graphic below illustrates the scenario implemented in terms of SAP BTP.
     <td valign="top">
     
     Issuer Certificate
-
-
     
     </td>
     <td valign="top">
     
     The identity provider signing certificate stored in the trust configuration of SAP BTP for this identity provider \(in *Cockpit* \> *Security* \> *Trust* \> *Application Identity Provider* \> *<your identity provider* \> *General* \> *Signing Certificate*\).
-
-
     
     </td>
     <td valign="top">
@@ -305,15 +259,11 @@ The graphic below illustrates the scenario implemented in terms of SAP BTP.
     <td valign="top">
     
     \(Optional\) User Attributes
-
-
     
     </td>
     <td valign="top">
     
     The attributes that will be assigned to the SAP BTP user.
-
-
     
     </td>
     <td valign="top">

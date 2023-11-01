@@ -36,16 +36,12 @@ To list all parameters available for this command, execute `neo help create-acco
 
 Required
 
-
-
 </th>
 </tr>
 <tr>
 <td valign="top">
 
 `-a`, `--account`
-
-
 
 </td>
 <td valign="top">
@@ -56,16 +52,12 @@ Specify an existing subaccount of which you are already a member.
 
 `Type`: string \(up to 30 characters; lowercase letters and numbers, starting with a letter\)
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-n`, `--display-name`
-
-
 
 </td>
 <td valign="top">
@@ -76,16 +68,12 @@ If you want to create a subaccount whose display name has intervals, use quotes 
 
 `Type`: string \(up to 255 characters\)
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-u`, `--user`
-
-
 
 </td>
 <td valign="top">
@@ -94,16 +82,12 @@ Use your email, SAP ID or user name
 
 `Type`: string
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-p`, `--password`
-
-
 
 </td>
 <td valign="top">
@@ -112,16 +96,12 @@ To protect your password, enter it only when prompted by the console client and 
 
 `Type`: string
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-h`, `--host`
-
-
 
 </td>
 <td valign="top">
@@ -130,16 +110,12 @@ Enter a region host.
 
 `Type`: URL. For acceptable values see [Regions and Hosts Available for the Neo Environment](../10-concepts-neo/regions-and-hosts-available-for-the-neo-environment-d722f7c.md)
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 \--clone
-
-
 
 </td>
 <td valign="top">
@@ -183,14 +159,10 @@ You may choose among the following cloning options:
 
 Cloning Option
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -198,8 +170,6 @@ Description
 <td valign="top">
 
 `all` 
-
-
 
 </td>
 <td valign="top">
@@ -217,8 +187,6 @@ All settings \(trust, members and destinations\) from the existing subaccount wi
 <td valign="top">
 
 `trust` 
-
-
 
 </td>
 <td valign="top">
@@ -245,14 +213,10 @@ All other trust settings \(for example, trusted on-premise identity providers\) 
 
 `members` 
 
-
-
 </td>
 <td valign="top">
 
 All members with their roles from the existing subaccount will be copied into the new one.
-
-
 
 </td>
 </tr>
@@ -261,14 +225,10 @@ All members with their roles from the existing subaccount will be copied into th
 
 `destinations` 
 
-
-
 </td>
 <td valign="top">
 
 All destinations from the existing subaccount will be created into the new one. In addition, the relevant certificates and passwords for the destinations will also be cloned so the destination configurations will be fully functional in the new subaccount.
-
-
 
 </td>
 </tr>

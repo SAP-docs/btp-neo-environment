@@ -223,15 +223,11 @@ Connect the first subaccount to the second subaccount by describing the source c
     <th valign="top">
 
     Field
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     </tr>
@@ -239,8 +235,6 @@ Connect the first subaccount to the second subaccount by describing the source c
     <td valign="top">
     
     Name
-
-
     
     </td>
     <td valign="top">
@@ -258,8 +252,6 @@ Connect the first subaccount to the second subaccount by describing the source c
     <td valign="top">
     
     URL
-
-
     
     </td>
     <td valign="top">
@@ -267,8 +259,6 @@ Connect the first subaccount to the second subaccount by describing the source c
     The URL of the protected resource in the Cloud Foundry environment. See [Configuring Application URLs](../50-administration-and-ops-neo/configuring-application-urls-7ceeaa5.md).
 
     Example: `https://<tenant-specific-route-for-your-business-app>.cfapps.eu10.hana.ondemand.com/`
-
-
     
     </td>
     </tr>
@@ -276,15 +266,11 @@ Connect the first subaccount to the second subaccount by describing the source c
     <td valign="top">
     
     Authentication
-
-
     
     </td>
     <td valign="top">
     
     OAuth2SAMLBearerAssertion
-
-
     
     </td>
     </tr>
@@ -292,15 +278,11 @@ Connect the first subaccount to the second subaccount by describing the source c
     <td valign="top">
     
     Proxy Type
-
-
     
     </td>
     <td valign="top">
     
     Internet
-
-
     
     </td>
     </tr>
@@ -308,8 +290,6 @@ Connect the first subaccount to the second subaccount by describing the source c
     <td valign="top">
     
     Audience
-
-
     
     </td>
     <td valign="top">
@@ -330,8 +310,6 @@ Connect the first subaccount to the second subaccount by describing the source c
     Example of audience/entityID:
 
     `demo.aws-live-eu10`
-
-
     
     </td>
     </tr>
@@ -339,15 +317,11 @@ Connect the first subaccount to the second subaccount by describing the source c
     <td valign="top">
     
     Client Key
-
-
     
     </td>
     <td valign="top">
     
     In the cloud cockpit, navigate to the application in the Cloud Foundry environment \(*<path to your subaccount\>* \> *Spaces* \> *<your space\>* \> *Applications* \> *<your application\>*\). Open *Environment Variables*. Copy the value of the *clientid* property in *VCAP\_SERVICES* \> *xsuaa* \> *credentials*.
-
-
     
     </td>
     </tr>
@@ -355,8 +329,6 @@ Connect the first subaccount to the second subaccount by describing the source c
     <td valign="top">
     
     Token Service URL
-
-
     
     </td>
     <td valign="top">
@@ -379,8 +351,6 @@ Connect the first subaccount to the second subaccount by describing the source c
     Example of token service URL:
 
     `https://demo.authentication.eu10.hana.ondemand.com/oauth/token/alias/demo.aws-live-eu10`
-
-
     
     </td>
     </tr>
@@ -388,15 +358,11 @@ Connect the first subaccount to the second subaccount by describing the source c
     <td valign="top">
     
     Token Service User
-
-
     
     </td>
     <td valign="top">
     
     In the cloud cockpit, navigate to the application in the Cloud Foundry environment \(*<path to your subaccount\>* \> *Spaces* \> *<your space\>* \> *Applications* \> *<your application\>*\). Open *Environment Variables*. Copy the value of the *clientid* property in *VCAP\_SERVICES* \> *xsuaa* \> *credentials*.
-
-
     
     </td>
     </tr>
@@ -404,15 +370,11 @@ Connect the first subaccount to the second subaccount by describing the source c
     <td valign="top">
     
     Token Service Password
-
-
     
     </td>
     <td valign="top">
     
     In the cloud cockpit, navigate to the application in the Cloud Foundry environment \(*<path to your subaccount\>* \> *Spaces* \> *<your space\>* \> *Applications* \> *<your application\>*\). Open *Environment Variables*. Copy the value of the *clientsecret* property in *VCAP\_SERVICES* \> *xsuaa* \> *credentials*.
-
-
     
     </td>
     </tr>
@@ -420,15 +382,11 @@ Connect the first subaccount to the second subaccount by describing the source c
     <td valign="top">
     
     System User
-
-
     
     </td>
     <td valign="top">
     
     Empty.
-
-
     
     </td>
     </tr>

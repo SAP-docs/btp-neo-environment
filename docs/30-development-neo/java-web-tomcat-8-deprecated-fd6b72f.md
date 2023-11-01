@@ -35,14 +35,10 @@ The current version of Java Web Tomcat 8 application runtime container \(neo-jav
 
 Specification version
 
-
-
 </th>
 <th valign="top">
 
 JSR
-
-
 
 </th>
 </tr>
@@ -51,14 +47,10 @@ JSR
 
 Servlet 3.1
 
-
-
 </td>
 <td valign="top">
 
 [JSR - 340](https://jcp.org/aboutJava/communityprocess/final/jsr340/index.html)
-
-
 
 </td>
 </tr>
@@ -67,14 +59,10 @@ Servlet 3.1
 
 JavaServer Pages \(JSP\) 2.3
 
-
-
 </td>
 <td valign="top">
 
 [JSR - 245](https://jcp.org/aboutJava/communityprocess/mrel/jsr245/index2.html) 
-
-
 
 </td>
 </tr>
@@ -83,14 +71,10 @@ JavaServer Pages \(JSP\) 2.3
 
 Expression Language \(EL\) 3.0
 
-
-
 </td>
 <td valign="top">
 
 [JSR - 341](https://jcp.org/aboutJava/communityprocess/final/jsr341/index.html) 
-
-
 
 </td>
 </tr>
@@ -99,14 +83,10 @@ Expression Language \(EL\) 3.0
 
 Debugging Support for Other Languages 1.0
 
-
-
 </td>
 <td valign="top">
 
 [JSR - 45](https://jcp.org/en/jsr/detail?id=45) 
-
-
 
 </td>
 </tr>
@@ -115,14 +95,10 @@ Debugging Support for Other Languages 1.0
 
 Java API for WebSocket
 
-
-
 </td>
 <td valign="top">
 
 [JSR - 356](https://jcp.org/en/jsr/detail?id=356) 
-
-
 
 </td>
 </tr>

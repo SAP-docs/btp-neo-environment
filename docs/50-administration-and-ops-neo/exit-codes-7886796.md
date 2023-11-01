@@ -33,28 +33,20 @@ The set of exit codes is divided into ranges, based on the error type and the re
 
 Error Type
 
-
-
 </th>
 <th valign="top">
 
 Start Number
-
-
 
 </th>
 <th valign="top">
 
 End Number
 
-
-
 </th>
 <th valign="top">
 
 Count
-
-
 
 </th>
 </tr>
@@ -63,28 +55,20 @@ Count
 
 No error
 
-
-
 </td>
 <td valign="top">
 
 0
 
-
-
 </td>
 <td valign="top">
 
 0
-
-
 
 </td>
 <td valign="top">
 
 1
-
-
 
 </td>
 </tr>
@@ -93,28 +77,20 @@ No error
 
 Common errors
 
-
-
 </td>
 <td valign="top">
 
 1
 
-
-
 </td>
 <td valign="top">
 
 9
 
-
-
 </td>
 <td valign="top">
 
 9
-
-
 
 </td>
 </tr>
@@ -123,28 +99,20 @@ Common errors
 
 Missing parameters
 
-
-
 </td>
 <td valign="top">
 
 10
-
-
 
 </td>
 <td valign="top">
 
 39
 
-
-
 </td>
 <td valign="top">
 
 30
-
-
 
 </td>
 </tr>
@@ -153,28 +121,20 @@ Missing parameters
 
 Parameter validation errors
 
-
-
 </td>
 <td valign="top">
 
 40
-
-
 
 </td>
 <td valign="top">
 
 109
 
-
-
 </td>
 <td valign="top">
 
 70
-
-
 
 </td>
 </tr>
@@ -183,28 +143,20 @@ Parameter validation errors
 
 Authentication and Authorization Errors
 
-
-
 </td>
 <td valign="top">
 
 110
-
-
 
 </td>
 <td valign="top">
 
 126
 
-
-
 </td>
 <td valign="top">
 
 17
-
-
 
 </td>
 </tr>
@@ -213,28 +165,20 @@ Authentication and Authorization Errors
 
 Reserved space for system errors
 
-
-
 </td>
 <td valign="top">
 
 127
-
-
 
 </td>
 <td valign="top">
 
 165
 
-
-
 </td>
 <td valign="top">
 
 39
-
-
 
 </td>
 </tr>
@@ -243,28 +187,20 @@ Reserved space for system errors
 
 Command-specific errors: frontend
 
-
-
 </td>
 <td valign="top">
 
 166
-
-
 
 </td>
 <td valign="top">
 
 209
 
-
-
 </td>
 <td valign="top">
 
 44
-
-
 
 </td>
 </tr>
@@ -273,28 +209,20 @@ Command-specific errors: frontend
 
 Command-specific errors: backend
 
-
-
 </td>
 <td valign="top">
 
 210
-
-
 
 </td>
 <td valign="top">
 
 254
 
-
-
 </td>
 <td valign="top">
 
 45
-
-
 
 </td>
 </tr>
@@ -303,28 +231,20 @@ Command-specific errors: backend
 
 Reserved space for system errors
 
-
-
 </td>
 <td valign="top">
 
 255
 
-
-
 </td>
 <td valign="top">
 
 255
-
-
 
 </td>
 <td valign="top">
 
 1
-
-
 
 </td>
 </tr>
@@ -343,21 +263,15 @@ Exit codes can be defined as *general* \(common for all commands\) and *command-
 
 Code
 
-
-
 </th>
 <th valign="top">
 
 Meaning
 
-
-
 </th>
 <th valign="top">
 
 Type/Reason
-
-
 
 </th>
 </tr>
@@ -366,21 +280,15 @@ Type/Reason
 
 0
 
-
-
 </td>
 <td valign="top">
 
 OK
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -389,21 +297,15 @@ OK
 
 1
 
-
-
 </td>
 <td valign="top">
 
 General error
 
-
-
 </td>
 <td valign="top">
 
 Error during execution of command
-
-
 
 </td>
 </tr>
@@ -412,21 +314,15 @@ Error during execution of command
 
 2
 
-
-
 </td>
 <td valign="top">
 
 Command not found
 
-
-
 </td>
 <td valign="top">
 
 Misspelled or missing command
-
-
 
 </td>
 </tr>
@@ -435,21 +331,15 @@ Misspelled or missing command
 
 3
 
-
-
 </td>
 <td valign="top">
 
 Unsupported/Incompatible SDK version
 
-
-
 </td>
 <td valign="top">
 
 SDK is not compatible with the runtime
-
-
 
 </td>
 </tr>
@@ -458,21 +348,15 @@ SDK is not compatible with the runtime
 
 4
 
-
-
 </td>
 <td valign="top">
 
 Network error
 
-
-
 </td>
 <td valign="top">
 
 Network problem or missing proxy configuration
-
-
 
 </td>
 </tr>
@@ -481,21 +365,15 @@ Network problem or missing proxy configuration
 
 5-9
 
-
-
 </td>
 <td valign="top">
 
 Currently not used
 
-
-
 </td>
 <td valign="top">
 
 Common errors
-
-
 
 </td>
 </tr>
@@ -504,21 +382,15 @@ Common errors
 
 10
 
-
-
 </td>
 <td valign="top">
 
 General missing parameter
 
-
-
 </td>
 <td valign="top">
 
 Missing parameters
-
-
 
 </td>
 </tr>
@@ -527,21 +399,15 @@ Missing parameters
 
 11
 
-
-
 </td>
 <td valign="top">
 
 Missing host name
 
-
-
 </td>
 <td valign="top">
 
 Missing parameters
-
-
 
 </td>
 </tr>
@@ -550,21 +416,15 @@ Missing parameters
 
 12
 
-
-
 </td>
 <td valign="top">
 
 Missing account name
 
-
-
 </td>
 <td valign="top">
 
 Missing parameters
-
-
 
 </td>
 </tr>
@@ -573,21 +433,15 @@ Missing parameters
 
 13
 
-
-
 </td>
 <td valign="top">
 
 Missing application name
 
-
-
 </td>
 <td valign="top">
 
 Missing parameters
-
-
 
 </td>
 </tr>
@@ -596,21 +450,15 @@ Missing parameters
 
 14
 
-
-
 </td>
 <td valign="top">
 
 Missing user name
 
-
-
 </td>
 <td valign="top">
 
 Missing parameters
-
-
 
 </td>
 </tr>
@@ -619,21 +467,15 @@ Missing parameters
 
 15-19
 
-
-
 </td>
 <td valign="top">
 
 Currently not used
 
-
-
 </td>
 <td valign="top">
 
 Missing parameters
-
-
 
 </td>
 </tr>
@@ -642,21 +484,15 @@ Missing parameters
 
 20-39
 
-
-
 </td>
 <td valign="top">
 
 Available for use by commands
 
-
-
 </td>
 <td valign="top">
 
 Missing parameters
-
-
 
 </td>
 </tr>
@@ -665,21 +501,15 @@ Missing parameters
 
 40
 
-
-
 </td>
 <td valign="top">
 
 General parameter is invalid or empty
 
-
-
 </td>
 <td valign="top">
 
 Validation errors
-
-
 
 </td>
 </tr>
@@ -688,21 +518,15 @@ Validation errors
 
 41
 
-
-
 </td>
 <td valign="top">
 
 Host name parameter is invalid or empty
 
-
-
 </td>
 <td valign="top">
 
 Validation errors
-
-
 
 </td>
 </tr>
@@ -711,21 +535,15 @@ Validation errors
 
 42
 
-
-
 </td>
 <td valign="top">
 
 Account name parameter is invalid or empty
 
-
-
 </td>
 <td valign="top">
 
 Validation errors
-
-
 
 </td>
 </tr>
@@ -734,21 +552,15 @@ Validation errors
 
 43
 
-
-
 </td>
 <td valign="top">
 
 Application name parameter is invalid or empty
 
-
-
 </td>
 <td valign="top">
 
 Validation errors
-
-
 
 </td>
 </tr>
@@ -757,21 +569,15 @@ Validation errors
 
 44-49
 
-
-
 </td>
 <td valign="top">
 
 Currently not used
 
-
-
 </td>
 <td valign="top">
 
 Validation errors
-
-
 
 </td>
 </tr>
@@ -780,21 +586,15 @@ Validation errors
 
 50-109
 
-
-
 </td>
 <td valign="top">
 
 Available for use by commands
 
-
-
 </td>
 <td valign="top">
 
 Validation errors
-
-
 
 </td>
 </tr>
@@ -803,21 +603,15 @@ Validation errors
 
 110
 
-
-
 </td>
 <td valign="top">
 
 Wrong user or password
 
-
-
 </td>
 <td valign="top">
 
 Authentication and authorization errors
-
-
 
 </td>
 </tr>
@@ -826,21 +620,15 @@ Authentication and authorization errors
 
 111
 
-
-
 </td>
 <td valign="top">
 
 General authentication and authorization error
 
-
-
 </td>
 <td valign="top">
 
 Authentication and authorization errors
-
-
 
 </td>
 </tr>
@@ -849,21 +637,15 @@ Authentication and authorization errors
 
 112-114
 
-
-
 </td>
 <td valign="top">
 
 Currently not used
 
-
-
 </td>
 <td valign="top">
 
 Authentication and authorization errors
-
-
 
 </td>
 </tr>
@@ -872,21 +654,15 @@ Authentication and authorization errors
 
 115-126
 
-
-
 </td>
 <td valign="top">
 
 Available for use by commands
 
-
-
 </td>
 <td valign="top">
 
 Authentication and authorization errors
-
-
 
 </td>
 </tr>
@@ -895,21 +671,15 @@ Authentication and authorization errors
 
 127-165
 
-
-
 </td>
 <td valign="top">
 
 Special exit codes
 
-
-
 </td>
 <td valign="top">
 
 System-dependent errors
-
-
 
 </td>
 </tr>
@@ -918,21 +688,15 @@ System-dependent errors
 
 166
 
-
-
 </td>
 <td valign="top">
 
 General frontend error
 
-
-
 </td>
 <td valign="top">
 
 Frontend
-
-
 
 </td>
 </tr>
@@ -941,21 +705,15 @@ Frontend
 
 167 - 209
 
-
-
 </td>
 <td valign="top">
 
 Available for use by commands
 
-
-
 </td>
 <td valign="top">
 
 Frontend
-
-
 
 </td>
 </tr>
@@ -964,21 +722,15 @@ Frontend
 
 210
 
-
-
 </td>
 <td valign="top">
 
 General backend error
 
-
-
 </td>
 <td valign="top">
 
 Backend
-
-
 
 </td>
 </tr>
@@ -987,21 +739,15 @@ Backend
 
 211 - 254
 
-
-
 </td>
 <td valign="top">
 
 Available for use by commands
 
-
-
 </td>
 <td valign="top">
 
 Backend
-
-
 
 </td>
 </tr>
@@ -1010,21 +756,15 @@ Backend
 
 255
 
-
-
 </td>
 <td valign="top">
 
 Special exit codes
 
-
-
 </td>
 <td valign="top">
 
 System-dependent errors
-
-
 
 </td>
 </tr>

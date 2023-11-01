@@ -51,21 +51,15 @@ See [Trust Management API Reference](https://api.sap.com/api/TrustManagementAPI/
 
 Use Case
 
-
-
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Corresponding Trust Settings
-
-
 
 </th>
 </tr>
@@ -74,16 +68,12 @@ Corresponding Trust Settings
 
 Fully featured application identity providers
 
-
-
 </td>
 <td valign="top">
 
 For delegating the authentication and authorization of your applications to a third-party identity provider.
 
 For more information, see [Authorization and Trust Management in the Neo Environment](authorization-and-trust-management-in-the-neo-environment-e6b196a.md).
-
-
 
 </td>
 <td valign="top">
@@ -96,16 +86,12 @@ For more information, see [Authorization and Trust Management in the Neo Environ
 
 At least one fully featured \(not only for IdP-initiated SSO or only for OAuth 2.0 SAML Beared Flow\)
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Configuration with application identity providers only for IdP-initiated single-sign on \(SSO\) or only for OAuth 2.0 SAML Bearer Flow
-
-
 
 </td>
 <td valign="top">
@@ -115,8 +101,6 @@ This allows a more fine-granular and secure control of which IdPs are allowed du
 *Only for IDP-initiated SSO*: This identity provider can be used only for IdP-initiated single sign-on scenarios. The applications deployed at SAP BTP cannot use it for user authentication from their login pages, for example. Only users coming from links to the application at the IdP side will be able to authenticate.
 
 *Only for OAuth 2.0 SAML Bearer Flow*: The IdP will only be used to validate SAML Assertions received via the OAuth SAML Bearer Flow.
-
-
 
 </td>
 <td valign="top">
@@ -129,8 +113,6 @@ This allows a more fine-granular and secure control of which IdPs are allowed du
 
 *Only for IdP-initiated SSO*: enabled or *Only for SAML Bearer Flow*: enabled
 
-
-
 </td>
 </tr>
 <tr>
@@ -138,14 +120,10 @@ This allows a more fine-granular and secure control of which IdPs are allowed du
 
 Principal propagation
 
-
-
 </td>
 <td valign="top">
 
 Enables applications to propagate principal information to each other. Choose this use case if you want to enable application-to-application single sign-on.
-
-
 
 </td>
 <td valign="top">
@@ -160,8 +138,6 @@ None
 
 *Principal Propagation*: enabled
 
-
-
 </td>
 </tr>
 <tr>
@@ -169,14 +145,10 @@ None
 
 Cross-subaccount principal propagation
 
-
-
 </td>
 <td valign="top">
 
 Enables principal propagation between applications in different subaccounts. For more information, see [Principal Propagation Between Neo Subaccounts](principal-propagation-between-neo-subaccounts-038c9de.md#loio038c9de27e5c4867a3f13cda9e8c0823).
-
-
 
 </td>
 <td valign="top">
@@ -190,8 +162,6 @@ Enables principal propagation between applications in different subaccounts. For
 *Application Identity Providers*: at least one identity provider for IdP-initiated SSO
 
 *Only for IdP-initiated SSO*: enabled
-
-
 
 </td>
 </tr>

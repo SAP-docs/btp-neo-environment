@@ -34,35 +34,25 @@ To better illustrate the mechanism we’ll use an example web application exposi
 
 Number
 
-
-
 </th>
 <th valign="top">
 
 Exposed with HTTP methods
-
-
 
 </th>
 <th valign="top">
 
 REST API
 
-
-
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Type
-
-
 
 </th>
 </tr>
@@ -71,35 +61,25 @@ Type
 
 1
 
-
-
 </td>
 <td valign="top">
 
 GET
-
-
 
 </td>
 <td valign="top">
 
 /services/list
 
-
-
 </td>
 <td valign="top">
 
 Prints customers list in the output.
 
-
-
 </td>
 <td valign="top">
 
 non-modifying
-
-
 
 </td>
 </tr>
@@ -108,35 +88,25 @@ non-modifying
 
 2
 
-
-
 </td>
 <td valign="top">
 
 POST
-
-
 
 </td>
 <td valign="top">
 
 /services/customers/removeCustomer
 
-
-
 </td>
 <td valign="top">
 
 Removes the first item from the customers list.
 
-
-
 </td>
 <td valign="top">
 
 modifying
-
-
 
 </td>
 </tr>
@@ -145,35 +115,25 @@ modifying
 
 3
 
-
-
 </td>
 <td valign="top">
 
 POST
-
-
 
 </td>
 <td valign="top">
 
 /services/customers/addCustomer
 
-
-
 </td>
 <td valign="top">
 
 Adds a customer to the customers list.
 
-
-
 </td>
 <td valign="top">
 
 modifying
-
-
 
 </td>
 </tr>

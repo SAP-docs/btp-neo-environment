@@ -27,14 +27,10 @@ For more information, see the corresponding sections:
 
 Runtime
 
-
-
 </th>
 <th valign="top">
 
 Information Location
-
-
 
 </th>
 </tr>
@@ -43,14 +39,10 @@ Information Location
 
 Java EE 6 Web Profile
 
-
-
 </td>
 <td valign="top">
 
 [Preparing Managed Systems - SAP NetWeaver Consuming the Connectivity Service \(Java\)](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/e5c9867dbb571014957ef9d7a8846b1c.html)
-
-
 
 </td>
 </tr>
@@ -63,14 +55,10 @@ Java Web Tomcat 8
 
 Java EE 7 Web Profile TomEE 7
 
-
-
 </td>
 <td valign="top">
 
 [Implementing Statistics Gathering for Java Applications](implementing-statistics-gathering-for-java-applications-05a0710.md)
-
-
 
 </td>
 </tr>

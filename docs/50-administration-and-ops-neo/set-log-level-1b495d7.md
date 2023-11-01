@@ -35,14 +35,10 @@ Simple Logging Facade for Java \(SLF4J\) uses the following log levels:
 
 Level
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -51,14 +47,10 @@ Description
 
 ALL
 
-
-
 </td>
 <td valign="top">
 
 This level has the lowest possible rank and is intended to turn on all logging.
-
-
 
 </td>
 </tr>
@@ -67,14 +59,10 @@ This level has the lowest possible rank and is intended to turn on all logging.
 
 TRACE
 
-
-
 </td>
 <td valign="top">
 
 This level designates finer-grained informational events than DEBUG.
-
-
 
 </td>
 </tr>
@@ -83,14 +71,10 @@ This level designates finer-grained informational events than DEBUG.
 
 DEBUG
 
-
-
 </td>
 <td valign="top">
 
 This level designates fine-grained informational events that are most useful to debug an application.
-
-
 
 </td>
 </tr>
@@ -99,14 +83,10 @@ This level designates fine-grained informational events that are most useful to 
 
 INFO
 
-
-
 </td>
 <td valign="top">
 
 This level designates informational messages that highlight the progress of the application at coarse-grained level.
-
-
 
 </td>
 </tr>
@@ -115,14 +95,10 @@ This level designates informational messages that highlight the progress of the 
 
 WARN
 
-
-
 </td>
 <td valign="top">
 
 This level designates potentially harmful situations.
-
-
 
 </td>
 </tr>
@@ -131,14 +107,10 @@ This level designates potentially harmful situations.
 
 ERROR
 
-
-
 </td>
 <td valign="top">
 
 This level designates error events that might still allow the application to continue running.
-
-
 
 </td>
 </tr>
@@ -147,14 +119,10 @@ This level designates error events that might still allow the application to con
 
 OFF
 
-
-
 </td>
 <td valign="top">
 
 This level has the highest possible rank and is intended to turn off logging.
-
-
 
 </td>
 </tr>
@@ -178,16 +146,12 @@ To list all parameters available for this command, execute `neo help set-log-lev
 
 Required
 
-
-
 </th>
 </tr>
 <tr>
 <td valign="top">
 
 `-a`, `--account` 
-
-
 
 </td>
 <td valign="top">
@@ -196,16 +160,12 @@ Subaccount technical name
 
 `Type`: string \(up to 30 characters; lowercase letters and numbers, starting with a letter\)
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-b`, `--application` 
-
-
 
 </td>
 <td valign="top">
@@ -214,16 +174,12 @@ Application name
 
 `Type`: string \(up to 30 characters; lowercase letters and numbers, starting with a letter\)
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-g`, `--loggers` 
-
-
 
 </td>
 <td valign="top">
@@ -232,16 +188,12 @@ Single or multiple comma-separated logger names
 
 `Type`: string
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-h`, `--host` 
-
-
 
 </td>
 <td valign="top">
@@ -250,16 +202,12 @@ Enter a region host.
 
 `Type`: URL, for acceptable values see [Regions](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/350356d1dc314d3199dca15bd2ab9b0e.html "You can deploy applications in different regions. Each region represents a geographical location (for example, Europe, US East) where applications, data, or services are hosted.") :arrow_upper_right:.
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-l`, `--level` 
-
-
 
 </td>
 <td valign="top">
@@ -268,16 +216,12 @@ The log level you want to set for the logger\(s\)
 
 `Type`: string
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-p`, `--password` 
-
-
 
 </td>
 <td valign="top">
@@ -286,8 +230,6 @@ Password for the specified user. To protect your password, enter it only when pr
 
 `Type`: string
 
-
-
 </td>
 </tr>
 <tr>
@@ -295,16 +237,12 @@ Password for the specified user. To protect your password, enter it only when pr
 
 `-u`, `--user` 
 
-
-
 </td>
 <td valign="top">
 
 Your email, SAP ID or user name
 
 `Type`: string
-
-
 
 </td>
 </tr>

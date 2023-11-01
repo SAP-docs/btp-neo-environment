@@ -27,14 +27,10 @@ For more information about the Multitarget Application model, see the official [
 
 To learn more about
 
-
-
 </th>
 <th valign="top">
 
 See
-
-
 
 </th>
 </tr>
@@ -43,14 +39,10 @@ See
 
 Multitarget Application deployment descriptor
 
-
-
 </td>
 <td valign="top">
 
 [Defining MTA Deployment Descriptors for the Neo Environment](defining-mta-deployment-descriptors-for-the-neo-environment-ef90452.md)
-
-
 
 </td>
 </tr>
@@ -59,14 +51,10 @@ Multitarget Application deployment descriptor
 
 Defining MTA Development Descriptors
 
-
-
 </td>
 <td valign="top">
 
 [Defining MTA Development Descriptors](defining-mta-development-descriptors-379278d.md)
-
-
 
 </td>
 </tr>
@@ -75,14 +63,10 @@ Defining MTA Development Descriptors
 
 Multitarget Application archive
 
-
-
 </td>
 <td valign="top">
 
 [Defining Multitarget Application Archives](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/33a0e0eb1e4a47b3af52596b87fd2cef.html "You package the MTA deployment descriptor and module binaries in an MTA archive. You can manually do so as described below, or alternatively use the Cloud MTA Build tool.") :arrow_upper_right:
-
-
 
 </td>
 </tr>
@@ -91,14 +75,10 @@ Multitarget Application archive
 
 Multitarget Application extension descriptor
 
-
-
 </td>
 <td valign="top">
 
 [Defining MTA Extension Descriptors](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/50df803465324d36851c79fd07e8972c.html "") :arrow_upper_right:
-
-
 
 </td>
 </tr>
@@ -107,14 +87,10 @@ Multitarget Application extension descriptor
 
 Multitarget Application module types and parameters
 
-
-
 </td>
 <td valign="top">
 
 [MTA Module Types, Resource Types, and Parameters for Applications in the Neo Environment](mta-module-types-resource-types-and-parameters-for-applications-in-the-neo-environment-f1caa87.md)
-
-
 
 </td>
 </tr>
@@ -123,14 +99,10 @@ Multitarget Application module types and parameters
 
 How to model the Solution
 
-
-
 </td>
 <td valign="top">
 
 [Modeling Solutions](modeling-solutions-62f1d91.md)
-
-
 
 </td>
 </tr>
@@ -139,14 +111,10 @@ How to model the Solution
 
 How to operate the Solution
 
-
-
 </td>
 <td valign="top">
 
 [Operating Solutions](operating-solutions-2abf7d4.md)
-
-
 
 </td>
 </tr>
@@ -155,14 +123,10 @@ How to operate the Solution
 
 How to use transport management tools for moving MTA archives among subaccounts
 
-
-
 </td>
 <td valign="top">
 
 [Integration with Transport Management Tools](integration-with-transport-management-tools-905baea.md)
-
-
 
 </td>
 </tr>

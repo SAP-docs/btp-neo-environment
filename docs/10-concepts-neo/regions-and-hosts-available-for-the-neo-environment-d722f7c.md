@@ -31,35 +31,25 @@ To find out about the regions available for multi-enviroment subaccounts, see [R
 
 Region \(all operated by SAP\)
 
-
-
 </th>
 <th valign="top">
 
 Technical Key
-
-
 
 </th>
 <th valign="top">
 
 Host
 
-
-
 </th>
 <th valign="top">
 
 Cockpit Logon
 
-
-
 </th>
 <th valign="top">
 
 IP Ranges
-
-
 
 </th>
 </tr>
@@ -68,28 +58,20 @@ IP Ranges
 
 Australia \(Sydney\)
 
-
-
 </td>
 <td valign="top">
 
 neo-ap1
-
-
 
 </td>
 <td valign="top">
 
 ap1.hana.ondemand.com
 
-
-
 </td>
 <td valign="top">
 
 [Link](https://account.ap1.hana.ondemand.com/cockpit)
-
-
 
 </td>
 <td valign="top">
@@ -102,8 +84,6 @@ Outbound:
 
 130.214.148.64/29 and 130.214.148.72/29
 
-
-
 </td>
 </tr>
 <tr>
@@ -111,28 +91,20 @@ Outbound:
 
 Brazil \(São Paulo\)
 
-
-
 </td>
 <td valign="top">
 
 neo-br1
-
-
 
 </td>
 <td valign="top">
 
 br1.hana.ondemand.com
 
-
-
 </td>
 <td valign="top">
 
 [Link](https://account.br1.hana.ondemand.com/cockpit) 
-
-
 
 </td>
 <td valign="top">
@@ -145,8 +117,6 @@ Outbound:
 
 130.214.96.64/29 and 130.214.96.72/29
 
-
-
 </td>
 </tr>
 <tr>
@@ -154,28 +124,20 @@ Outbound:
 
 Canada \(Toronto\)
 
-
-
 </td>
 <td valign="top">
 
 neo-ca1
-
-
 
 </td>
 <td valign="top">
 
 ca1.hana.ondemand.com
 
-
-
 </td>
 <td valign="top">
 
 [Link](https://account.ca1.hana.ondemand.com/cockpit)
-
-
 
 </td>
 <td valign="top">
@@ -188,8 +150,6 @@ Outbound:
 
 130.214.174.64/29 and 130.214.174.72/29
 
-
-
 </td>
 </tr>
 <tr>
@@ -197,28 +157,20 @@ Outbound:
 
 China \(Shanghai\)
 
-
-
 </td>
 <td valign="top">
 
 neo-cn1
-
-
 
 </td>
 <td valign="top">
 
 cn1.platform.sapcloud.cn
 
-
-
 </td>
 <td valign="top">
 
 [Link](https://account.cn1.platform.sapcloud.cn/cockpit)
-
-
 
 </td>
 <td valign="top">
@@ -231,8 +183,6 @@ Outbound:
 
 121.91.106.72/29 and 121.91.106.64/29
 
-
-
 </td>
 </tr>
 <tr>
@@ -240,28 +190,20 @@ Outbound:
 
 Europe \(Amsterdam\)
 
-
-
 </td>
 <td valign="top">
 
 neo-eu3
-
-
 
 </td>
 <td valign="top">
 
 eu3.hana.ondemand.com
 
-
-
 </td>
 <td valign="top">
 
 [Link](https://account.eu3.hana.ondemand.com/cockpit)
-
-
 
 </td>
 <td valign="top">
@@ -274,8 +216,6 @@ Outbound:
 
 130.214.166.72/29 and 130.214.166.64/29
 
-
-
 </td>
 </tr>
 <tr>
@@ -283,28 +223,20 @@ Outbound:
 
 Europe \(Frankfurt\)
 
-
-
 </td>
 <td valign="top">
 
 neo-eu2
-
-
 
 </td>
 <td valign="top">
 
 eu2.hana.ondemand.com
 
-
-
 </td>
 <td valign="top">
 
 [Link](https://account.eu2.hana.ondemand.com/cockpit)
-
-
 
 </td>
 <td valign="top">
@@ -317,8 +249,6 @@ Outbound:
 
 130.214.164.64/29, 130.214.190.64/29, 130.214.164.80/29, and 130.214.190.80/29
 
-
-
 </td>
 </tr>
 <tr>
@@ -326,14 +256,10 @@ Outbound:
 
 Europe \(Rot\)
 
-
-
 </td>
 <td valign="top">
 
 neo-eu1
-
-
 
 </td>
 <td valign="top">
@@ -342,14 +268,10 @@ hana.ondemand.com
 
 eu1.hana.ondemand.com
 
-
-
 </td>
 <td valign="top">
 
 [Link](https://account.hana.ondemand.com/cockpit)
-
-
 
 </td>
 <td valign="top">
@@ -362,8 +284,6 @@ Outbound:
 
 130.214.160.64/28 and 130.214.160.80/29
 
-
-
 </td>
 </tr>
 <tr>
@@ -371,28 +291,20 @@ Outbound:
 
 Japan \(Tokyo\)
 
-
-
 </td>
 <td valign="top">
 
 neo-jp1
-
-
 
 </td>
 <td valign="top">
 
 jp1.hana.ondemand.com
 
-
-
 </td>
 <td valign="top">
 
 [Link](https://account.jp1.hana.ondemand.com/cockpit)
-
-
 
 </td>
 <td valign="top">
@@ -405,8 +317,6 @@ Outbound:
 
 130.214.245.40/29 and 130.214.245.32/29
 
-
-
 </td>
 </tr>
 <tr>
@@ -414,28 +324,20 @@ Outbound:
 
 Kingdom of Saudi Arabia \(Riyadh\)
 
-
-
 </td>
 <td valign="top">
 
 neo-sa1
-
-
 
 </td>
 <td valign="top">
 
 sa1.hana.ondemand.com
 
-
-
 </td>
 <td valign="top">
 
 [Link](https://account.sa1.hana.ondemand.com/cockpit) 
-
-
 
 </td>
 <td valign="top">
@@ -448,8 +350,6 @@ Outbound:
 
 130.214.223.32/29 and 130.214.223.40/29
 
-
-
 </td>
 </tr>
 <tr>
@@ -457,28 +357,20 @@ Outbound:
 
 UAE \(Dubai\)
 
-
-
 </td>
 <td valign="top">
 
 neo-ae1
-
-
 
 </td>
 <td valign="top">
 
 ae1.hana.ondemand.com
 
-
-
 </td>
 <td valign="top">
 
 [Link](https://account.ae1.hana.ondemand.com/cockpit)
-
-
 
 </td>
 <td valign="top">
@@ -491,8 +383,6 @@ Outbound:
 
 130.214.251.32/29 and 130.214.251.40/29
 
-
-
 </td>
 </tr>
 <tr>
@@ -500,28 +390,20 @@ Outbound:
 
 US East \(Ashburn\)
 
-
-
 </td>
 <td valign="top">
 
 neo-us1
-
-
 
 </td>
 <td valign="top">
 
 us1.hana.ondemand.com
 
-
-
 </td>
 <td valign="top">
 
 [Link](https://account.us1.hana.ondemand.com/cockpit)
-
-
 
 </td>
 <td valign="top">
@@ -532,8 +414,6 @@ Outbound:
 
 130.214.180.64/29 and 130.214.180.72/29
 
-
-
 </td>
 </tr>
 <tr>
@@ -541,28 +421,20 @@ Outbound:
 
 US West \(Chandler\)
 
-
-
 </td>
 <td valign="top">
 
 neo-us2
-
-
 
 </td>
 <td valign="top">
 
 us2.hana.ondemand.com
 
-
-
 </td>
 <td valign="top">
 
 [Link](https://account.us2.hana.ondemand.com/cockpit)
-
-
 
 </td>
 <td valign="top">
@@ -575,8 +447,6 @@ Outbound:
 
 130.214.255.40/29 and 130.214.255.32/29
 
-
-
 </td>
 </tr>
 <tr>
@@ -584,28 +454,20 @@ Outbound:
 
 US East \(Sterling\)
 
-
-
 </td>
 <td valign="top">
 
 neo-us3
-
-
 
 </td>
 <td valign="top">
 
 us3.hana.ondemand.com
 
-
-
 </td>
 <td valign="top">
 
 [Link](https://account.us3.hana.ondemand.com/cockpit)
-
-
 
 </td>
 <td valign="top">
@@ -618,8 +480,6 @@ Outbound:
 
 130.214.178.64/29 and 130.214.178.72/29
 
-
-
 </td>
 </tr>
 <tr>
@@ -627,28 +487,20 @@ Outbound:
 
 US West \(Colorado Springs\)
 
-
-
 </td>
 <td valign="top">
 
 neo-us4
-
-
 
 </td>
 <td valign="top">
 
 us4.hana.ondemand.com
 
-
-
 </td>
 <td valign="top">
 
 [Link](https://account.us4.hana.ondemand.com/cockpit)
-
-
 
 </td>
 <td valign="top">
@@ -660,8 +512,6 @@ Inbound:
 Outbound:
 
 130.214.184.64/29 and 130.214.184.72/29
-
-
 
 </td>
 </tr>

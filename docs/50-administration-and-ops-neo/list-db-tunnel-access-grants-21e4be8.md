@@ -34,16 +34,12 @@ neo list-db-tunnel-access-grants -h <host> -u <user> -a <my subaccount>
 
 Optional
 
-
-
 </th>
 </tr>
 <tr>
 <td valign="top">
 
 `-i`, `--id`
-
-
 
 </td>
 <td valign="top">
@@ -53,8 +49,6 @@ Optional
 Lists only the access permissions for the specified database
 
 `Type`: string
-
-
 
 </td>
 </tr>
@@ -77,21 +71,15 @@ The table below shows the currently active database tunnel access permissions:
 
 Database ID
 
-
-
 </th>
 <th valign="top">
 
 Granted To
 
-
-
 </th>
 <th valign="top">
 
 Access Token
-
-
 
 </th>
 </tr>
@@ -100,21 +88,15 @@ Access Token
 
 myownhana
 
-
-
 </td>
 <td valign="top">
 
 acmecorp
 
-
-
 </td>
 <td valign="top">
 
 31t0dpim6rtxa00wx5483vqe7in8i3c1phv759w9oqrutf638l
-
-
 
 </td>
 </tr>
@@ -123,21 +105,15 @@ acmecorp
 
 myotherhana
 
-
-
 </td>
 <td valign="top">
 
 acmetest
 
-
-
 </td>
 <td valign="top">
 
 vm6431dhjcr2e3dbt0fk6jpzm2w7oo3q48yumf1c6uu8b9pt9z
-
-
 
 </td>
 </tr>

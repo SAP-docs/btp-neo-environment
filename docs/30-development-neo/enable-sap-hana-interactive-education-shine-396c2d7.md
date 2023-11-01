@@ -39,15 +39,11 @@ By default, SHINE is available for all SAP HANA tenant databases in trial accoun
     <th valign="top">
 
     To...
-
-
     
     </th>
     <th valign="top">
 
     Do the following:
-
-
     
     </th>
     </tr>
@@ -55,8 +51,6 @@ By default, SHINE is available for all SAP HANA tenant databases in trial accoun
     <td valign="top">
     
     **Enable SHINE for a new SAP HANA tenant database**
-
-
     
     </td>
     <td valign="top">
@@ -73,8 +67,6 @@ By default, SHINE is available for all SAP HANA tenant databases in trial accoun
     <td valign="top">
     
     **Enable SHINE for an existing SAP HANA tenant database**
-
-
     
     </td>
     <td valign="top">

@@ -33,16 +33,12 @@ neo copy-db-hana-certificates -a <subaccount_technical_name> -h <host> -u <e-mai
 
 Required
 
-
-
 </th>
 </tr>
 <tr>
 <td valign="top">
 
 `-i`, `--id`
-
-
 
 </td>
 <td valign="top">
@@ -63,8 +59,6 @@ HANA database ID
 
 , `--db-user`
 
-
-
 </td>
 <td valign="top">
 
@@ -84,16 +78,12 @@ Name of the SAP HANA tenant database user used for the operation
 
 `--db-password`
 
-
-
 </td>
 <td valign="top">
 
 Password of the SAP HANA tenant database user \(optional, queried at the command prompt if omitted\).
 
 To protect your password, enter it only when prompted by the console client and not explicitly as a parameter in the properties file or the command line.
-
-
 
 </td>
 </tr>

@@ -21,21 +21,15 @@ The main features of each scenario are shown in the table below. We recommend th
 
 JPA Scenario
 
-
-
 </th>
 <th valign="top">
 
 SDK for Java Web
 
-
-
 </th>
 <th valign="top">
 
 SDK for Java EE 6 Web Profile
-
-
 
 </th>
 </tr>
@@ -44,21 +38,15 @@ SDK for Java EE 6 Web Profile
 
 **Container-managed persistence**
 
-
-
 </td>
 <td valign="top" rowspan="2">
 
 Not supported
 
-
-
 </td>
 <td valign="top">
 
 JTA transactions
-
-
 
 </td>
 </tr>
@@ -67,8 +55,6 @@ JTA transactions
 
 Entity manager injection using the `@PersistenceContext` annotation
 
-
-
 </td>
 </tr>
 <tr>
@@ -76,14 +62,10 @@ Entity manager injection using the `@PersistenceContext` annotation
 
 **Application-managed persistence**
 
-
-
 </td>
 <td valign="top" align="center" colspan="2">
 
 Resource-local transactions
-
-
 
 </td>
 </tr>
@@ -92,14 +74,10 @@ Resource-local transactions
 
 Not supported
 
-
-
 </td>
 <td valign="top">
 
 Injection of the entity manager factory using the `@PersistenceUnit` annotation
-
-
 
 </td>
 </tr>
@@ -107,8 +85,6 @@ Injection of the entity manager factory using the `@PersistenceUnit` annotation
 <td valign="top" align="center" colspan="2">
 
 Manual creation of the entity manager factory using `javax.persistence.Persistence. createEntityManagerFactory` 
-
-
 
 </td>
 </tr>
@@ -131,21 +107,15 @@ The following JAR files are required:
 
 JPA Scenario
 
-
-
 </th>
 <th valign="top">
 
 SDK
 
-
-
 </th>
 <th valign="top">
 
 EclipseLink JARs
-
-
 
 </th>
 </tr>
@@ -154,14 +124,10 @@ EclipseLink JARs
 
 **Container-managed persistence**
 
-
-
 </td>
 <td valign="top">
 
 Java EE 6 Web Profile
-
-
 
 </td>
 <td valign="top">
@@ -170,8 +136,6 @@ Java EE 6 Web Profile
 
 Required only for EclipseLink versions 2.5 and later.
 
-
-
 </td>
 </tr>
 <tr>
@@ -179,14 +143,10 @@ Required only for EclipseLink versions 2.5 and later.
 
 **Application-managed persistence**
 
-
-
 </td>
 <td valign="top">
 
 Java Web
-
-
 
 </td>
 <td valign="top">
@@ -203,14 +163,10 @@ Java Web
 
 Java EE 6 Web Profile
 
-
-
 </td>
 <td valign="top">
 
 `eclipselink\jlib\eclipselink.jar`
-
-
 
 </td>
 </tr>

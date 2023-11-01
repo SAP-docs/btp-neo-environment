@@ -31,16 +31,12 @@ neo revoke-db-tunnel-access -h <host> -u <user> -a <my subaccount> --access-toke
 
 Required
 
-
-
 </th>
 </tr>
 <tr>
 <td valign="top">
 
 `-- access-token`
-
-
 
 </td>
 <td valign="top">
@@ -49,8 +45,6 @@ Access token that identifies the permission to access the database
 
 `Type`: string
 
-
-
 </td>
 </tr>
 <tr>
@@ -58,16 +52,12 @@ Access token that identifies the permission to access the database
 
 `--silent`
 
-
-
 </td>
 <td valign="top">
 
 \(optional\) Suppresses the command line confirmation prompt
 
 `Type`: boolean
-
-
 
 </td>
 </tr>
@@ -80,8 +70,6 @@ Access token that identifies the permission to access the database
 
 Optional
 
-
-
 </th>
 </tr>
 <tr>
@@ -89,16 +77,12 @@ Optional
 
 `--output`
 
-
-
 </td>
 <td valign="top">
 
 Confirmation that the permission for opening the database tunnel from the other subaccount to the database was successfully revoked
 
 `Type`: string
-
-
 
 </td>
 </tr>

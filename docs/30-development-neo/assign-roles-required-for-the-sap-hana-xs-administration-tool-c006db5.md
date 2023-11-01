@@ -51,14 +51,10 @@ To use the SAP HANA Web-based tools, you require specific roles.
 
 Role
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -67,8 +63,6 @@ Description
 
 **SAP HANA Web-based Development Workbench**
 
-
-
 </td>
 </tr>
 <tr>
@@ -76,14 +70,10 @@ Description
 
 *sap.hana.xs.ide.roles::EditorDeveloper* or parent role *sap.hana.xs.ide.roles::Developer*
 
-
-
 </td>
 <td valign="top">
 
 Use the Editor component of the SAP HANA Web-based Development Workbench.
-
-
 
 </td>
 </tr>
@@ -92,14 +82,10 @@ Use the Editor component of the SAP HANA Web-based Development Workbench.
 
 *sap.hana.xs.debugger::Debugger*
 
-
-
 </td>
 <td valign="top">
 
 Debug server-side JavaScript code.
-
-
 
 </td>
 </tr>
@@ -108,8 +94,6 @@ Debug server-side JavaScript code.
 
 **SAP HANA XS Administration Tool**
 
-
-
 </td>
 </tr>
 <tr>
@@ -117,14 +101,10 @@ Debug server-side JavaScript code.
 
 *sap.hana.xs.admin.roles::HTTPDestViewer*
 
-
-
 </td>
 <td valign="top">
 
 View HTTP destinations.
-
-
 
 </td>
 </tr>
@@ -133,14 +113,10 @@ View HTTP destinations.
 
 *sap.hana.xs.admin.roles::HTTPDestAdministrator*
 
-
-
 </td>
 <td valign="top">
 
 Full access to HTTP destination configurations \(display and edit\).
-
-
 
 </td>
 </tr>
@@ -149,14 +125,10 @@ Full access to HTTP destination configurations \(display and edit\).
 
 *sap.hana.xs.admin.roles::TrustStoreViewer*
 
-
-
 </td>
 <td valign="top">
 
 Read-only access to the trust store, which contains the server's root certificate or the certificate of the certification authority that signed the server’s certificate.
-
-
 
 </td>
 </tr>
@@ -165,14 +137,10 @@ Read-only access to the trust store, which contains the server's root certificat
 
 *sap.hana.xs.admin.roles::TrustStoreAdministrator*
 
-
-
 </td>
 <td valign="top">
 
 Full access to the SAP HANA XS application trust store to manage the certificates required to start SAP HANA XS applications.
-
-
 
 </td>
 </tr>

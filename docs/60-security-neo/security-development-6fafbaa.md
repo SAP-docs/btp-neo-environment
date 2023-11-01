@@ -21,14 +21,10 @@ SAP BTP provides the following APIs for user management and authentication:
 
 Package
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -37,14 +33,10 @@ Description
 
 **User Management API**
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -57,14 +49,10 @@ Description
 
 `com.sap.security.um.service`
 
-
-
 </td>
 <td valign="top">
 
 The user management API can be used to create and delete users or update user information.
-
-
 
 </td>
 </tr>
@@ -73,14 +61,10 @@ The user management API can be used to create and delete users or update user in
 
 **Authentication API**
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -89,14 +73,10 @@ The user management API can be used to create and delete users or update user in
 
 `com.sap.security.auth.login` 
 
-
-
 </td>
 <td valign="top">
 
 The authentication API provides basic login modules and callback handlers implementations and a custom LoginContext implemenatation. It relies on the user management API to provide user information required during the authentication process.
-
-
 
 </td>
 </tr>
@@ -105,14 +85,10 @@ The authentication API provides basic login modules and callback handlers implem
 
 **Password Storage API**
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -121,14 +97,10 @@ The authentication API provides basic login modules and callback handlers implem
 
 `com.sap.cloud.security.password` 
 
-
-
 </td>
 <td valign="top">
 
 The password storage API allows users to securely persist passwords and key phrases, such as passwords for keystore files.
-
-
 
 </td>
 </tr>

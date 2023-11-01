@@ -41,15 +41,11 @@ Now you want your application to work against your productive SAP Ariba system. 
     <th valign="top">
 
     Parameter
-
-
     
     </th>
     <th valign="top">
 
     Value
-
-
     
     </th>
     </tr>
@@ -57,15 +53,11 @@ Now you want your application to work against your productive SAP Ariba system. 
     <td valign="top">
     
     Name
-
-
     
     </td>
     <td valign="top">
     
     Enter a meaningful name.
-
-
     
     </td>
     </tr>
@@ -73,15 +65,11 @@ Now you want your application to work against your productive SAP Ariba system. 
     <td valign="top">
     
     Type
-
-
     
     </td>
     <td valign="top">
     
     HTTP
-
-
     
     </td>
     </tr>
@@ -89,15 +77,11 @@ Now you want your application to work against your productive SAP Ariba system. 
     <td valign="top">
     
     Description
-
-
     
     </td>
     <td valign="top">
     
     \(Optional\) Enter a meaningful description.
-
-
     
     </td>
     </tr>
@@ -105,15 +89,11 @@ Now you want your application to work against your productive SAP Ariba system. 
     <td valign="top">
     
     URL
-
-
     
     </td>
     <td valign="top">
     
     `https://api.ariba.com/v2/oauth/token` 
-
-
     
     </td>
     </tr>
@@ -121,15 +101,11 @@ Now you want your application to work against your productive SAP Ariba system. 
     <td valign="top">
     
     Proxy Type
-
-
     
     </td>
     <td valign="top">
     
     Internet
-
-
     
     </td>
     </tr>
@@ -137,15 +113,11 @@ Now you want your application to work against your productive SAP Ariba system. 
     <td valign="top">
     
     Authentication
-
-
     
     </td>
     <td valign="top">
     
     BasicAuthentication
-
-
     
     </td>
     </tr>
@@ -153,15 +125,11 @@ Now you want your application to work against your productive SAP Ariba system. 
     <td valign="top">
     
     User
-
-
     
     </td>
     <td valign="top">
     
     Enter the SAP Ariba APIs registered application OAuth client ID.
-
-
     
     </td>
     </tr>
@@ -169,15 +137,11 @@ Now you want your application to work against your productive SAP Ariba system. 
     <td valign="top">
     
     Password
-
-
     
     </td>
     <td valign="top">
     
     Enter the SAP Ariba APIs registered application OAuth client secret.
-
-
     
     </td>
     </tr>
@@ -191,15 +155,11 @@ Now you want your application to work against your productive SAP Ariba system. 
     <th valign="top">
 
     Parameter
-
-
     
     </th>
     <th valign="top">
 
     Value
-
-
     
     </th>
     </tr>
@@ -207,15 +167,11 @@ Now you want your application to work against your productive SAP Ariba system. 
     <td valign="top">
     
     Name
-
-
     
     </td>
     <td valign="top">
     
     Enter a meaningful name.
-
-
     
     </td>
     </tr>
@@ -223,15 +179,11 @@ Now you want your application to work against your productive SAP Ariba system. 
     <td valign="top">
     
     Type
-
-
     
     </td>
     <td valign="top">
     
     HTTP
-
-
     
     </td>
     </tr>
@@ -239,15 +191,11 @@ Now you want your application to work against your productive SAP Ariba system. 
     <td valign="top">
     
     Description
-
-
     
     </td>
     <td valign="top">
     
     \(Optional\) Enter a meaningful description.
-
-
     
     </td>
     </tr>
@@ -255,15 +203,11 @@ Now you want your application to work against your productive SAP Ariba system. 
     <td valign="top">
     
     URL
-
-
     
     </td>
     <td valign="top">
     
     `https://openapi.ariba.com/api/<service_name>/<version>/prod` 
-
-
     
     </td>
     </tr>
@@ -271,15 +215,11 @@ Now you want your application to work against your productive SAP Ariba system. 
     <td valign="top">
     
     Proxy Type
-
-
     
     </td>
     <td valign="top">
     
     Internet
-
-
     
     </td>
     </tr>
@@ -287,8 +227,6 @@ Now you want your application to work against your productive SAP Ariba system. 
     <td valign="top">
     
     Authentication
-
-
     
     </td>
     <td valign="top">
@@ -308,15 +246,11 @@ Now you want your application to work against your productive SAP Ariba system. 
     <td valign="top">
     
     apiKey
-
-
     
     </td>
     <td valign="top">
     
     Enter the registered application API key.
-
-
     
     </td>
     </tr>

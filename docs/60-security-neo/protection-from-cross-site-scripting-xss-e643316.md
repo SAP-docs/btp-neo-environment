@@ -84,14 +84,10 @@ It also has various methods for different data types that should be encoded:
 
 Data Type
 
-
-
 </th>
 <th valign="top">
 
 Code Sample for Encoding
-
-
 
 </th>
 </tr>
@@ -100,14 +96,10 @@ Code Sample for Encoding
 
 HTML / XML:
 
-
-
 </td>
 <td valign="top">
 
 out = XSSEncoder.encodeHTML\( in \); / XSSEncoder.encodeXML\( val \);
-
-
 
 </td>
 </tr>
@@ -116,14 +108,10 @@ out = XSSEncoder.encodeHTML\( in \); / XSSEncoder.encodeXML\( val \);
 
 JavaScript:
 
-
-
 </td>
 <td valign="top">
 
 out = XSSEncoder.encodeJavaScript\( val \);
-
-
 
 </td>
 </tr>
@@ -132,14 +120,10 @@ out = XSSEncoder.encodeJavaScript\( val \);
 
 URL:
 
-
-
 </td>
 <td valign="top">
 
 out = XSSEncoder.encodeURL\( val \);
-
-
 
 </td>
 </tr>
@@ -148,14 +132,10 @@ out = XSSEncoder.encodeURL\( val \);
 
 CSS:
 
-
-
 </td>
 <td valign="top">
 
 out = XSSEncoder.encodeCSS\( val \);
-
-
 
 </td>
 </tr>

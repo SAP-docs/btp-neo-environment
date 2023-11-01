@@ -79,15 +79,11 @@ You will perform all subsequent activities with this new user.
     <th valign="top">
 
     If you want to create your application using...
-
-
     
     </th>
     <th valign="top">
 
     Do the following:
-
-
     
     </th>
     </tr>
@@ -95,15 +91,11 @@ You will perform all subsequent activities with this new user.
     <td valign="top">
     
     **An SAP HANA XS database**
-
-
     
     </td>
     <td valign="top">
     
     Follow the steps described in [Create a Database Administrator User](create-a-database-administrator-user-c0fce6f.md).
-
-
     
     </td>
     </tr>
@@ -111,8 +103,6 @@ You will perform all subsequent activities with this new user.
     <td valign="top">
     
     **An SAP HANA tenant database**
-
-
     
     </td>
     <td valign="top">

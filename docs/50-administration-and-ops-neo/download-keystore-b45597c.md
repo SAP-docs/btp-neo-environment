@@ -29,16 +29,12 @@ To list all parameters available for this command, execute `neo help download-ke
 
 Required
 
-
-
 </th>
 </tr>
 <tr>
 <td valign="top">
 
 `-a`, `--account`
-
-
 
 </td>
 <td valign="top">
@@ -49,16 +45,12 @@ The subaccount for which you provide username and password.
 
 `Type`: string \(up to 30 characters; lowercase letters and numbers, starting with a letter\)
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-h`, `--host`
-
-
 
 </td>
 <td valign="top">
@@ -67,16 +59,12 @@ Enter a region host.
 
 `Type`: URL, for acceptable values see [Regions](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/350356d1dc314d3199dca15bd2ab9b0e.html "You can deploy applications in different regions. Each region represents a geographical location (for example, Europe, US East) where applications, data, or services are hosted.") :arrow_upper_right:
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-n`,`--name`
-
-
 
 </td>
 <td valign="top">
@@ -85,8 +73,6 @@ Name of the keystore to be downloaded
 
 `Type`: string
 
-
-
 </td>
 </tr>
 <tr>
@@ -94,16 +80,12 @@ Name of the keystore to be downloaded
 
 `-u`, `--user`
 
-
-
 </td>
 <td valign="top">
 
 Use your email, SAP ID or user name
 
 `Type`: string
-
-
 
 </td>
 </tr>
@@ -116,16 +98,12 @@ Use your email, SAP ID or user name
 
 Optional
 
-
-
 </th>
 </tr>
 <tr>
 <td valign="top">
 
 `-b`, `--application` 
-
-
 
 </td>
 <td valign="top">
@@ -137,16 +115,12 @@ Application name
 
 `Type`: string \(up to 30 characters; lowercase letters and numbers, starting with a letter\)
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-l`,`--location`
-
-
 
 </td>
 <td valign="top">
@@ -155,8 +129,6 @@ Local directory where the keystore will be saved. If it is not specified, the cu
 
 `Type`: string
 
-
-
 </td>
 </tr>
 <tr>
@@ -164,14 +136,10 @@ Local directory where the keystore will be saved. If it is not specified, the cu
 
 `-w`, `--overwrite` 
 
-
-
 </td>
 <td valign="top">
 
 Overwrites a file with the same name if such already exists. If you do not explicitly include the `--overwrite` argument, you will be notified and asked if you want to overwrite the file.
-
-
 
 </td>
 </tr>

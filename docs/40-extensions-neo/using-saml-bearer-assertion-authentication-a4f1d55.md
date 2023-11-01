@@ -134,15 +134,11 @@ You have logged into the SAP BTP cockpit from the landing page for your subaccou
         <th valign="top">
 
         Parameter
-
-
         
         </th>
         <th valign="top">
 
         Value
-
-
         
         </th>
         </tr>
@@ -150,15 +146,11 @@ You have logged into the SAP BTP cockpit from the landing page for your subaccou
         <td valign="top">
         
         `Name`
-
-
         
         </td>
         <td valign="top">
         
         Enter a meaningful name.
-
-
         
         </td>
         </tr>
@@ -166,15 +158,11 @@ You have logged into the SAP BTP cockpit from the landing page for your subaccou
         <td valign="top">
         
         `Type`
-
-
         
         </td>
         <td valign="top">
         
         `HTTP`
-
-
         
         </td>
         </tr>
@@ -182,15 +170,11 @@ You have logged into the SAP BTP cockpit from the landing page for your subaccou
         <td valign="top">
         
         `Description`
-
-
         
         </td>
         <td valign="top">
         
         \(Optional\) Enter a meaningful description.
-
-
         
         </td>
         </tr>
@@ -198,15 +182,11 @@ You have logged into the SAP BTP cockpit from the landing page for your subaccou
         <td valign="top">
         
         `URL`
-
-
         
         </td>
         <td valign="top">
         
         The service URL from the communication arrangement.
-
-
         
         </td>
         </tr>
@@ -214,15 +194,11 @@ You have logged into the SAP BTP cockpit from the landing page for your subaccou
         <td valign="top">
         
         `Proxy Type`
-
-
         
         </td>
         <td valign="top">
         
         `Internet`
-
-
         
         </td>
         </tr>
@@ -230,15 +206,11 @@ You have logged into the SAP BTP cockpit from the landing page for your subaccou
         <td valign="top">
         
         `Authentication`
-
-
         
         </td>
         <td valign="top">
         
         `OAuth2SAMLBearerAssertion`
-
-
         
         </td>
         </tr>
@@ -246,15 +218,11 @@ You have logged into the SAP BTP cockpit from the landing page for your subaccou
         <td valign="top">
         
         `Audience`
-
-
         
         </td>
         <td valign="top">
         
         This is the *SAML2 Audience* from the *OAuth 2.0 Details* in the communication arrangement. See [Set Up SAP S/4HANA Cloud Side](using-saml-bearer-assertion-authentication-a4f1d55.md#loio3b5d869c98044f039b6d400def2c0f0d), **step 3**.
-
-
         
         </td>
         </tr>
@@ -262,15 +230,11 @@ You have logged into the SAP BTP cockpit from the landing page for your subaccou
         <td valign="top">
         
         `Client Key`
-
-
         
         </td>
         <td valign="top">
         
         The name of the communication user you have in the SAP S/4HANA Cloud tenant.
-
-
         
         </td>
         </tr>
@@ -278,15 +242,11 @@ You have logged into the SAP BTP cockpit from the landing page for your subaccou
         <td valign="top">
         
         `Token Service URL`
-
-
         
         </td>
         <td valign="top">
         
         This is the *Token Service URL* from the *OAuth 2.0 Details* in the communication arrangement. See [Set Up SAP S/4HANA Cloud Side](using-saml-bearer-assertion-authentication-a4f1d55.md#loio3b5d869c98044f039b6d400def2c0f0d), **step 3**.
-
-
         
         </td>
         </tr>
@@ -294,15 +254,11 @@ You have logged into the SAP BTP cockpit from the landing page for your subaccou
         <td valign="top">
         
         `Token Service User`
-
-
         
         </td>
         <td valign="top">
         
         The name of the communication user you have in the SAP S/4HANA Cloud tenant.
-
-
         
         </td>
         </tr>
@@ -310,15 +266,11 @@ You have logged into the SAP BTP cockpit from the landing page for your subaccou
         <td valign="top">
         
         `Token Service Password`
-
-
         
         </td>
         <td valign="top">
         
         The password for the communication user.
-
-
         
         </td>
         </tr>
@@ -326,15 +278,11 @@ You have logged into the SAP BTP cockpit from the landing page for your subaccou
         <td valign="top">
         
         `System User`
-
-
         
         </td>
         <td valign="top">
         
         This parameter is not used, leave the field empty.
-
-
         
         </td>
         </tr>
@@ -348,15 +296,11 @@ You have logged into the SAP BTP cockpit from the landing page for your subaccou
         <th valign="top">
 
         Parameter
-
-
         
         </th>
         <th valign="top">
 
         Value
-
-
         
         </th>
         </tr>
@@ -364,15 +308,11 @@ You have logged into the SAP BTP cockpit from the landing page for your subaccou
         <td valign="top">
         
         `authnContextClassRef`
-
-
         
         </td>
         <td valign="top">
         
         `urn:oasis:names:tc:SAML:2.0:ac:classes:X509` 
-
-
         
         </td>
         </tr>
@@ -380,8 +320,6 @@ You have logged into the SAP BTP cockpit from the landing page for your subaccou
         <td valign="top">
         
         scope
-
-
         
         </td>
         <td valign="top">
@@ -394,8 +332,6 @@ You have logged into the SAP BTP cockpit from the landing page for your subaccou
 
 
         The value of the OAuth 2.0 scope parameter expressed as a list of space-delimited, case-sensitive strings.
-
-
         
         </td>
         </tr>

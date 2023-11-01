@@ -31,21 +31,15 @@ The following SAP BTP environment variables are set to the runtime environment o
 
 Key
 
-
-
 </th>
 <th valign="top">
 
 Sample Value
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -54,21 +48,15 @@ Description
 
 HC\_HOST
 
-
-
 </td>
 <td valign="top">
 
 `hana.ondemand.com` / `us1.hana.ondemand.com` / `hanatrial.ondemand.com` 
 
-
-
 </td>
 <td valign="top">
 
 Base URL of the SAP BTP region host where the application is deployed
-
-
 
 </td>
 </tr>
@@ -77,21 +65,15 @@ Base URL of the SAP BTP region host where the application is deployed
 
 HC\_HOST\_SVC
 
-
-
 </td>
 <td valign="top">
 
 `svc.hana.ondemand.com / svc.us1.hana.ondemand.com / svc.hanatrial.ondemand.com`
 
-
-
 </td>
 <td valign="top">
 
 URL of the SAP BTP region host which provides access within the same region; for direct communication and not open on the Internet or other networks
-
-
 
 </td>
 </tr>
@@ -100,21 +82,15 @@ URL of the SAP BTP region host which provides access within the same region; for
 
 HC\_HOST\_CERT
 
-
-
 </td>
 <td valign="top">
 
 `cert.hana.ondemand.com / cert.us1.hana.ondemand.com / cert.hanatrial.ondemand.com`
 
-
-
 </td>
 <td valign="top">
 
 URL of the SAP BTP region host which enables client certificate authentication
-
-
 
 </td>
 </tr>
@@ -123,21 +99,15 @@ URL of the SAP BTP region host which enables client certificate authentication
 
 HC\_REGION
 
-
-
 </td>
 <td valign="top">
 
 `EU_1` / `US_1` 
 
-
-
 </td>
 <td valign="top">
 
 Region where the application is deployed
-
-
 
 </td>
 </tr>
@@ -146,21 +116,15 @@ Region where the application is deployed
 
 HC\_ACCOUNT
 
-
-
 </td>
 <td valign="top">
 
 `mysubaccount`
 
-
-
 </td>
 <td valign="top">
 
 Name of the subaccount where the application is deployed
-
-
 
 </td>
 </tr>
@@ -169,21 +133,15 @@ Name of the subaccount where the application is deployed
 
 HC\_APPLICATION
 
-
-
 </td>
 <td valign="top">
 
 `myapp`
 
-
-
 </td>
 <td valign="top">
 
 Application name
-
-
 
 </td>
 </tr>
@@ -192,21 +150,15 @@ Application name
 
 HC\_APPLICATION\_URL
 
-
-
 </td>
 <td valign="top">
 
 `https://myapp.hana.ondemand.com`
 
-
-
 </td>
 <td valign="top">
 
 URL of the application
-
-
 
 </td>
 </tr>
@@ -215,21 +167,15 @@ URL of the application
 
 HC\_LOCAL\_HTTP\_PORT
 
-
-
 </td>
 <td valign="top">
 
 `9001`
 
-
-
 </td>
 <td valign="top">
 
 HTTP port of the application bound to localhost
-
-
 
 </td>
 </tr>
@@ -238,21 +184,15 @@ HTTP port of the application bound to localhost
 
 HC\_LANDSCAPE
 
-
-
 </td>
 <td valign="top">
 
 `production` / `trial` 
 
-
-
 </td>
 <td valign="top">
 
 Type of the region host where the application is deployed
-
-
 
 </td>
 </tr>
@@ -261,21 +201,15 @@ Type of the region host where the application is deployed
 
 HC\_PROCESS\_ID
 
-
-
 </td>
 <td valign="top">
 
 `8921b0a7cebc5538038b6b7b0c0ea6a7127f0cd4`
 
-
-
 </td>
 <td valign="top">
 
 Process ID of the current application process as returned by the `status` command with parameter `--show-full-process-id`.
-
-
 
 </td>
 </tr>
@@ -284,21 +218,15 @@ Process ID of the current application process as returned by the `status` comman
 
 HC\_AVAILABILITY\_ZONE
 
-
-
 </td>
 <td valign="top">
 
 `AZ 1` / `AZ 2`
 
-
-
 </td>
 <td valign="top">
 
 Name of the availability zone where the application process is running
-
-
 
 </td>
 </tr>
@@ -307,21 +235,15 @@ Name of the availability zone where the application process is running
 
 HC\_OP\_HTTP\_PROXY\_HOST
 
-
-
 </td>
 <td valign="top">
 
 `localhost`
 
-
-
 </td>
 <td valign="top">
 
 Host of the HTTP Proxy for on-premise connectivity
-
-
 
 </td>
 </tr>
@@ -330,21 +252,15 @@ Host of the HTTP Proxy for on-premise connectivity
 
 HC\_OP\_HTTP\_PROXY\_PORT
 
-
-
 </td>
 <td valign="top">
 
 `20003`
 
-
-
 </td>
 <td valign="top">
 
 Port of the HTTP Proxy for on-premise connectivity
-
-
 
 </td>
 </tr>

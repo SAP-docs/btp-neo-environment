@@ -46,15 +46,11 @@ An application can run on one or more application processes. The use of multiple
     <th valign="top">
 
     To...
-
-
     
     </th>
     <th valign="top">
 
     Choose...
-
-
     
     </th>
     </tr>
@@ -62,8 +58,6 @@ An application can run on one or more application processes. The use of multiple
     <td valign="top">
     
     Start an application
-
-
     
     </td>
     <td valign="top">
@@ -71,8 +65,6 @@ An application can run on one or more application processes. The use of multiple
     <span style="font-size:24px;line-height: 28px;"><span class="SAP-icons"></span></span> \(Start\)
 
     The application transitions to the *Started* state.
-
-
     
     </td>
     </tr>
@@ -80,8 +72,6 @@ An application can run on one or more application processes. The use of multiple
     <td valign="top">
     
     Start an additional process
-
-
     
     </td>
     <td valign="top">
@@ -89,8 +79,6 @@ An application can run on one or more application processes. The use of multiple
     <span style="font-size:24px;line-height: 28px;"><span class="SAP-icons"></span></span> \(Start Additional Process\)
 
     The application’s state continues to be shown as *Started* and an additional process appears in the *Processes* panel.
-
-
     
     </td>
     </tr>
@@ -98,8 +86,6 @@ An application can run on one or more application processes. The use of multiple
     <td valign="top">
     
     Stop an application
-
-
     
     </td>
     <td valign="top">
@@ -107,8 +93,6 @@ An application can run on one or more application processes. The use of multiple
     <span style="font-size:24px;line-height: 28px;"><span class="SAP-icons"></span></span> \(Stop\)
 
     All running processes are stopped and the application transitions to the *Stopped* state.
-
-
     
     </td>
     </tr>
@@ -116,8 +100,6 @@ An application can run on one or more application processes. The use of multiple
     <td valign="top">
     
     Undeploy an application
-
-
     
     </td>
     <td valign="top">
@@ -147,15 +129,11 @@ An application can run on one or more application processes. The use of multiple
     <th valign="top">
 
     To...
-
-
     
     </th>
     <th valign="top">
 
     Choose...
-
-
     
     </th>
     </tr>
@@ -163,8 +141,6 @@ An application can run on one or more application processes. The use of multiple
     <td valign="top">
     
     Start an additional process
-
-
     
     </td>
     <td valign="top">
@@ -172,8 +148,6 @@ An application can run on one or more application processes. The use of multiple
     <span style="font-size:24px;line-height: 28px;"><span class="SAP-icons"></span></span> \(Start Additional Process\)
 
     The application’s state continues to be shown as *Started* and an additional process appears in the *Processes* panel.
-
-
     
     </td>
     </tr>
@@ -181,8 +155,6 @@ An application can run on one or more application processes. The use of multiple
     <td valign="top">
     
     Restart a process
-
-
     
     </td>
     <td valign="top">
@@ -190,8 +162,6 @@ An application can run on one or more application processes. The use of multiple
     <span style="font-size:24px;line-height: 28px;"><span class="SAP-icons"></span></span> \(Restart\)
 
     The running process is stopped and a new process started. A new process ID is generated automatically.
-
-
     
     </td>
     </tr>
@@ -199,8 +169,6 @@ An application can run on one or more application processes. The use of multiple
     <td valign="top">
     
     Disable a process
-
-
     
     </td>
     <td valign="top">
@@ -208,8 +176,6 @@ An application can run on one or more application processes. The use of multiple
     <span style="font-size:24px;line-height: 28px;"><span class="SAP-icons"></span></span> \(Disable Process\)
 
     The process state changes to *Started \(disabled\)*. The process continues to handle working sessions, but does not accept new connections, which allows you to shut it down gracefully.
-
-
     
     </td>
     </tr>
@@ -217,8 +183,6 @@ An application can run on one or more application processes. The use of multiple
     <td valign="top">
     
     Enable a process
-
-
     
     </td>
     <td valign="top">
@@ -226,8 +190,6 @@ An application can run on one or more application processes. The use of multiple
     <span style="font-size:24px;line-height: 28px;"><span class="SAP-icons"></span></span> \(Enable Process\)
 
     The process state changes back to *Started*.
-
-
     
     </td>
     </tr>
@@ -235,8 +197,6 @@ An application can run on one or more application processes. The use of multiple
     <td valign="top">
     
     Stop a process
-
-
     
     </td>
     <td valign="top">
@@ -244,8 +204,6 @@ An application can run on one or more application processes. The use of multiple
     <span style="font-size:24px;line-height: 28px;"><span class="SAP-icons"></span></span> \(Stop\)
 
     The process is stopped and removed from the list. If the application has no further processes, it transitions to the *Stopped* state.
-
-
     
     </td>
     </tr>

@@ -25,14 +25,10 @@ Below are listed tutorials describing end-to-end scenarios with multitenant demo
 
 If you want to
 
-
-
 </th>
 <th valign="top">
 
 Tutorial
-
-
 
 </th>
 </tr>
@@ -41,14 +37,10 @@ Tutorial
 
 Create a general demo application \(servlet\)
 
-
-
 </td>
 <td valign="top">
 
 [Create an Exemplary Provider Application \(Servlet\)](create-an-exemplary-provider-application-servlet-893f71c.md)
-
-
 
 </td>
 </tr>
@@ -57,14 +49,10 @@ Create a general demo application \(servlet\)
 
 Create a general demo application \(JSP file\)
 
-
-
 </td>
 <td valign="top">
 
 [Create an Exemplary Provider Application \(JSP\)](create-an-exemplary-provider-application-jsp-255422a.md)
-
-
 
 </td>
 </tr>
@@ -73,14 +61,10 @@ Create a general demo application \(JSP file\)
 
 Create a connectivity demo application
 
-
-
 </td>
 <td valign="top">
 
 [Create a Multitenant Connectivity Application](create-a-multitenant-connectivity-application-d88900b.md)
-
-
 
 </td>
 </tr>
@@ -89,14 +73,10 @@ Create a connectivity demo application
 
 Consume a connectivity demo application
 
-
-
 </td>
 <td valign="top">
 
 [Consume a Multitenant Connectivity Application](consume-a-multitenant-connectivity-application-d2886a5.md)
-
-
 
 </td>
 </tr>

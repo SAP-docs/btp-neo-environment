@@ -38,15 +38,11 @@ If a display name is maintained, this display name is also shown in the list of 
     <th valign="top">
 
     Field
-
-
     
     </th>
     <th valign="top">
 
     Comment
-
-
     
     </th>
     </tr>
@@ -54,15 +50,11 @@ If a display name is maintained, this display name is also shown in the list of 
     <td valign="top">
     
     Display Name
-
-
     
     </td>
     <td valign="top">
     
     Human-readable name that you can specify for your HTML5 application.
-
-
     
     </td>
     </tr>
@@ -70,15 +62,11 @@ If a display name is maintained, this display name is also shown in the list of 
     <td valign="top">
     
     Description
-
-
     
     </td>
     <td valign="top">
     
     Short descriptive text about the HTML5 application, typically stating what it does.
-
-
     
     </td>
     </tr>

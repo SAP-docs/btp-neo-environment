@@ -37,22 +37,16 @@ In this scenario these are the important aspects:
     <th valign="top">
 
     Business Catalog ID
-
-
     
     </th>
     <th valign="top">
 
     Area
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     </tr>
@@ -60,22 +54,16 @@ In this scenario these are the important aspects:
     <td valign="top">
     
     *SAP\_BCR\_CORE\_COM* 
-
-
     
     </td>
     <td valign="top">
     
     Communication Management
-
-
     
     </td>
     <td valign="top">
     
     Users assigning communication arrangements to the key user
-
-
     
     </td>
     </tr>
@@ -83,22 +71,16 @@ In this scenario these are the important aspects:
     <td valign="top">
     
     *SAP\_BCR\_CORE\_EXT\_UI* 
-
-
     
     </td>
     <td valign="top">
     
     Extensibility – Deployment of Fiori Applications
-
-
     
     </td>
     <td valign="top">
     
     Users creating UI extensions
-
-
     
     </td>
     </tr>
@@ -106,15 +88,11 @@ In this scenario these are the important aspects:
     <td valign="top">
     
     *SAP\_BCR\_CORE\_EXT* 
-
-
     
     </td>
     <td valign="top">
     
     Extensibility
-
-
     
     </td>
     <td valign="top">
@@ -132,22 +110,16 @@ In this scenario these are the important aspects:
     <td valign="top">
     
     *SAP\_CORE\_BC\_EXT\_TST* 
-
-
     
     </td>
     <td valign="top">
     
     Extensibility – Custom Apps and Services
-
-
     
     </td>
     <td valign="top">
     
     You need this catalog if you want to implement and test a UI against a custom business object.
-
-
     
     </td>
     </tr>

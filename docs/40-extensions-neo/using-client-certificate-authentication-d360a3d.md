@@ -111,15 +111,11 @@ You have logged into the SAP BTP cockpit from the landing page for your subaccou
     <th valign="top">
 
     Parameter
-
-
     
     </th>
     <th valign="top">
 
     Value
-
-
     
     </th>
     </tr>
@@ -127,15 +123,11 @@ You have logged into the SAP BTP cockpit from the landing page for your subaccou
     <td valign="top">
     
     `Name`
-
-
     
     </td>
     <td valign="top">
     
     Enter a meaningful name.
-
-
     
     </td>
     </tr>
@@ -143,15 +135,11 @@ You have logged into the SAP BTP cockpit from the landing page for your subaccou
     <td valign="top">
     
     `Type`
-
-
     
     </td>
     <td valign="top">
     
     `HTTP`
-
-
     
     </td>
     </tr>
@@ -159,15 +147,11 @@ You have logged into the SAP BTP cockpit from the landing page for your subaccou
     <td valign="top">
     
     `Description`
-
-
     
     </td>
     <td valign="top">
     
     \(Optional\) Enter a meaningful description.
-
-
     
     </td>
     </tr>
@@ -175,15 +159,11 @@ You have logged into the SAP BTP cockpit from the landing page for your subaccou
     <td valign="top">
     
     `URL`
-
-
     
     </td>
     <td valign="top">
     
     The service URL from the communication arrangement.
-
-
     
     </td>
     </tr>
@@ -191,15 +171,11 @@ You have logged into the SAP BTP cockpit from the landing page for your subaccou
     <td valign="top">
     
     `Proxy Type`
-
-
     
     </td>
     <td valign="top">
     
     `Internet`
-
-
     
     </td>
     </tr>
@@ -207,15 +183,11 @@ You have logged into the SAP BTP cockpit from the landing page for your subaccou
     <td valign="top">
     
     `Authentication`
-
-
     
     </td>
     <td valign="top">
     
     `ClientCertificateAuthentication`
-
-
     
     </td>
     </tr>

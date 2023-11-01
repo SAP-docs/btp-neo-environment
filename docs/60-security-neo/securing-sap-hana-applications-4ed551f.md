@@ -25,14 +25,10 @@ In this section, you can find information relevant for securing SAP HANA applica
 
 Info Type
 
-
-
 </th>
 <th valign="top">
 
 See
-
-
 
 </th>
 </tr>
@@ -41,14 +37,10 @@ See
 
 General security concepts for SAP HANA applications
 
-
-
 </td>
 <td valign="top">
 
 [SAP HANA Security Guide](http://help.sap.com/hana/SAP_HANA_Security_Guide_en.pdf)
-
-
 
 </td>
 </tr>
@@ -57,14 +49,10 @@ General security concepts for SAP HANA applications
 
 Specific security concepts for SAP HANA applications running on SAP BTP
 
-
-
 </td>
 <td valign="top">
 
 [Configure SAML 2.0 Authentication](../30-development-neo/configure-saml-2-0-authentication-2a71022.md)
-
-
 
 </td>
 </tr>

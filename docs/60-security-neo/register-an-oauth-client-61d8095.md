@@ -28,15 +28,11 @@ To authorize a device to access an OAuth-protected application, you need to regi
     <th valign="top">
 
     Field
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     </tr>
@@ -44,15 +40,11 @@ To authorize a device to access an OAuth-protected application, you need to regi
     <td valign="top">
     
     *Name*
-
-
     
     </td>
     <td valign="top">
     
     The client name.
-
-
     
     </td>
     </tr>
@@ -60,15 +52,11 @@ To authorize a device to access an OAuth-protected application, you need to regi
     <td valign="top">
     
     *Description*
-
-
     
     </td>
     <td valign="top">
     
     A free-text description of the client.
-
-
     
     </td>
     </tr>
@@ -76,15 +64,11 @@ To authorize a device to access an OAuth-protected application, you need to regi
     <td valign="top">
     
     *Subscription*
-
-
     
     </td>
     <td valign="top">
     
     The application for which you are registering this client. To be able to register for a particular application, this account must be subscribed to it. For more information, see [Register an OAuth Client](register-an-oauth-client-61d8095.md).
-
-
     
     </td>
     </tr>
@@ -92,8 +76,6 @@ To authorize a device to access an OAuth-protected application, you need to regi
     <td valign="top">
     
     *ID*
-
-
     
     </td>
     <td valign="top">
@@ -111,15 +93,11 @@ To authorize a device to access an OAuth-protected application, you need to regi
     <td valign="top">
     
     *Confidential*
-
-
     
     </td>
     <td valign="top">
     
     If you mark this box, the client ID will be protected with a password. You will need to supply the password here, and provide it to the client.Required. The ID of the client authorized to access the resource server running on
-
-
     
     </td>
     </tr>
@@ -127,8 +105,6 @@ To authorize a device to access an OAuth-protected application, you need to regi
     <td valign="top">
     
     *Secret*
-
-
     
     </td>
     <td valign="top">
@@ -136,8 +112,6 @@ To authorize a device to access an OAuth-protected application, you need to regi
     Required. The ID of the client authorized to access theA secret \(password\) that allows the authorization server to authenticate before the client on behalf of the resource owner \(user\).
 
     It will also be needed by the client.
-
-
     
     </td>
     </tr>
@@ -145,15 +119,11 @@ To authorize a device to access an OAuth-protected application, you need to regi
     <td valign="top">
     
     *Skip Consent Screen*
-
-
     
     </td>
     <td valign="top">
     
     If you mark this option, no end user action will be required for authorizing this client. Otherwise, the end user will have to confirm granting the requested authorization.
-
-
     
     </td>
     </tr>
@@ -161,15 +131,11 @@ To authorize a device to access an OAuth-protected application, you need to regi
     <td valign="top">
     
     *Redirect URI*
-
-
     
     </td>
     <td valign="top">
     
     The application URI to which the authorization server will connect the client with the authorization code.
-
-
     
     </td>
     </tr>
@@ -177,8 +143,6 @@ To authorize a device to access an OAuth-protected application, you need to regi
     <td valign="top">
     
     *Token Lifetime*
-
-
     
     </td>
     <td valign="top">
@@ -196,8 +160,6 @@ To authorize a device to access an OAuth-protected application, you need to regi
     <td valign="top">
     
     *Refresh Token Lifetime*
-
-
     
     </td>
     <td valign="top">
@@ -215,15 +177,11 @@ To authorize a device to access an OAuth-protected application, you need to regi
     <td valign="top">
     
     *Translations*
-
-
     
     </td>
     <td valign="top">
     
     Optionally, you can provide translations of the client name and description for localization purposes. Choose the *Translations* button and enter the required language translation there.
-
-
     
     </td>
     </tr>

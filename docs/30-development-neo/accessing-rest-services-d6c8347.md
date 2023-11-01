@@ -77,42 +77,30 @@ You can set the following properties:
 
 Property
 
-
-
 </th>
 <th valign="top">
 
 Type/Unit
-
-
 
 </th>
 <th valign="top">
 
 Default
 
-
-
 </th>
 <th valign="top">
 
 Maximum
-
-
 
 </th>
 <th valign="top">
 
 Recommended Value
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -121,42 +109,30 @@ Description
 
 `HTML5.ConnectionTimeoutInSeconds` 
 
-
-
 </td>
 <td valign="top">
 
 Integer/seconds
-
-
 
 </td>
 <td valign="top">
 
 10
 
-
-
 </td>
 <td valign="top">
 
 120
-
-
 
 </td>
 <td valign="top">
 
 Default
 
-
-
 </td>
 <td valign="top">
 
 The period of time in which the HTML5 application expects a confirmation when it initiates a new TCP connection.
-
-
 
 </td>
 </tr>
@@ -165,42 +141,30 @@ The period of time in which the HTML5 application expects a confirmation when it
 
 `HTML5.SocketReadTimeoutInSeconds` 
 
-
-
 </td>
 <td valign="top">
 
 Integer/seconds
-
-
 
 </td>
 <td valign="top">
 
 30
 
-
-
 </td>
 <td valign="top">
 
 300
-
-
 
 </td>
 <td valign="top">
 
 Default
 
-
-
 </td>
 <td valign="top">
 
 The period of time the HTML5 application waits for the REST service to start streaming the response.
-
-
 
 </td>
 </tr>
@@ -209,42 +173,30 @@ The period of time the HTML5 application waits for the REST service to start str
 
 `HTML5.HandleRedirects` 
 
-
-
 </td>
 <td valign="top">
 
 Boolean
-
-
 
 </td>
 <td valign="top">
 
 `true` 
 
-
-
 </td>
 <td valign="top">
 
 \--
-
-
 
 </td>
 <td valign="top">
 
 `false` 
 
-
-
 </td>
 <td valign="top">
 
 When set to `true` the HTML5 application internally calls the target URL of a redirecting HTTP response \(HTTP 30X status code\). Then, the browser will only see this second response.
-
-
 
 </td>
 </tr>
@@ -253,35 +205,25 @@ When set to `true` the HTML5 application internally calls the target URL of a re
 
 `sap-client`
 
-
-
 </td>
 <td valign="top">
 
 String
 
+</td>
+<td valign="top">
 
+\--
 
 </td>
 <td valign="top">
 
 \--
 
-
-
 </td>
 <td valign="top">
 
 \--
-
-
-
-</td>
-<td valign="top">
-
-\--
-
-
 
 </td>
 <td valign="top">
@@ -289,8 +231,6 @@ String
 If `true`, the HTML5 Applications propagates the sap-client and its value as a header in the back-end request.
 
 This is expected by ABAP back-end systems.
-
-
 
 </td>
 </tr>
@@ -345,28 +285,20 @@ The following destination properties have been deprecated and replaced by new pr
 
 Old Property
 
-
-
 </th>
 <th valign="top">
 
 Type/Unit
-
-
 
 </th>
 <th valign="top">
 
 Values
 
-
-
 </th>
 <th valign="top">
 
 Replaced by New Property
-
-
 
 </th>
 </tr>
@@ -375,14 +307,10 @@ Replaced by New Property
 
 `ConnectionTimeout` 
 
-
-
 </td>
 <td valign="top">
 
 Integer/milliseconds
-
-
 
 </td>
 <td valign="top">
@@ -391,14 +319,10 @@ Default: `10000` \(10 seconds\)
 
 Max. value: `120000` \(120 seconds\)
 
-
-
 </td>
 <td valign="top">
 
 `HTML5.ConnectionTimeoutInSeconds` 
-
-
 
 </td>
 </tr>
@@ -407,14 +331,10 @@ Max. value: `120000` \(120 seconds\)
 
 `ClientReadTimeout` 
 
-
-
 </td>
 <td valign="top">
 
 Integer/milliseconds
-
-
 
 </td>
 <td valign="top">
@@ -423,14 +343,10 @@ Default: `30000` \(30 seconds\)
 
 Max. value: `300000` \(300 seconds\)
 
-
-
 </td>
 <td valign="top">
 
 `HTML5.SocketReadTimeoutInSeconds` 
-
-
 
 </td>
 </tr>

@@ -30,21 +30,15 @@ SAP JVM Profiler provides the following traces:
 
 ![Allocation Trace](images/Allocation_Trace_3a6b8f5.png)
 
-
-
 </td>
 <td valign="top">
 
 **Allocation Trace**
 
-
-
 </td>
 <td valign="top">
 
 Shows the number, size and type of the allocated objects and the methods allocating them
-
-
 
 </td>
 </tr>
@@ -53,21 +47,15 @@ Shows the number, size and type of the allocated objects and the methods allocat
 
 ![Performance Hotspot](images/Performance_Hotspot_eb933c4.png)
 
-
-
 </td>
 <td valign="top">
 
 **Performance Hotspot Trace**
 
-
-
 </td>
 <td valign="top">
 
 Shows the most time-consuming methods and execution paths
-
-
 
 </td>
 </tr>
@@ -76,21 +64,15 @@ Shows the most time-consuming methods and execution paths
 
 ![Garbage Collection](images/Garbage_Collection_79b8d24.png)
 
-
-
 </td>
 <td valign="top">
 
 **Garbage Collection Trace** 
 
-
-
 </td>
 <td valign="top">
 
 Shows all details about the processed garbage collections
-
-
 
 </td>
 </tr>
@@ -99,21 +81,15 @@ Shows all details about the processed garbage collections
 
 ![Method Parameter](images/Method_Parameter_2e30671.png)
 
-
-
 </td>
 <td valign="top">
 
 **Method Parameter Trace** 
 
-
-
 </td>
 <td valign="top">
 
 Shows the values of a selected method parameters
-
-
 
 </td>
 </tr>
@@ -122,21 +98,15 @@ Shows the values of a selected method parameters
 
 ![Synchronization Trace](images/Synchronization_Trace_7dcc239.png)
 
-
-
 </td>
 <td valign="top">
 
 **Synchronization Trace** 
 
-
-
 </td>
 <td valign="top">
 
 Shows the most contended locks and the threads waiting for or holding them
-
-
 
 </td>
 </tr>
@@ -145,21 +115,15 @@ Shows the most contended locks and the threads waiting for or holding them
 
 ![File IO Trace](images/File_IO_Trace_659beb4.png)
 
-
-
 </td>
 <td valign="top">
 
 **File I/O Trace** 
 
-
-
 </td>
 <td valign="top">
 
 Shows the number of bytes transferred from or to files and the methods transferring them
-
-
 
 </td>
 </tr>
@@ -168,21 +132,15 @@ Shows the number of bytes transferred from or to files and the methods transferr
 
 ![Network IO Trace](images/Network_IO_Trace_3b44cab.png)
 
-
-
 </td>
 <td valign="top">
 
 **Network I/O Trace**
 
-
-
 </td>
 <td valign="top">
 
 Shows the number of bytes transferred from or to the network and the methods transferring them
-
-
 
 </td>
 </tr>
@@ -197,21 +155,15 @@ Additionally, the following operations are supported:
 
 ![Heap Dump](images/Heap_Dump_9ada3e7.png)
 
-
-
 </td>
 <td valign="top">
 
 **Heap Dump**
 
-
-
 </td>
 <td valign="top">
 
 Shows a complete snapshot of the Java Heap
-
-
 
 </td>
 </tr>
@@ -220,21 +172,15 @@ Shows a complete snapshot of the Java Heap
 
 ![Class Statistic](images/Class_Statistic_3c21a26.png)
 
-
-
 </td>
 <td valign="top">
 
 **Class Statistic** 
 
-
-
 </td>
 <td valign="top">
 
 Shows the classes, the number and size of their objects currently residing in the Java Heap generations
-
-
 
 </td>
 </tr>

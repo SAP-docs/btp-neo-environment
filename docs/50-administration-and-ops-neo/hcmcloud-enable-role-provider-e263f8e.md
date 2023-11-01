@@ -52,16 +52,12 @@ To list all parameters available for this command, execute `neo help hcmcloud-en
 
 Required
 
-
-
 </th>
 </tr>
 <tr>
 <td valign="top">
 
 `-b`, `--application`
-
-
 
 </td>
 <td valign="top">
@@ -75,16 +71,12 @@ The name of the extension application for which you are creating the connection.
 
 `Type`: string \(up to 30 characters; lowercase letters and numbers, starting with a letter\)
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-a`, `--account`
-
-
 
 </td>
 <td valign="top">
@@ -93,16 +85,12 @@ Subaccount technical name
 
 `Type`: string \(up to 30 characters; lowercase letters and numbers, starting with a letter\)
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-h`, `--host`
-
-
 
 </td>
 <td valign="top">
@@ -111,16 +99,12 @@ Enter a region host
 
 `Type`: URL. For acceptable values, see [Regions and Hosts](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/350356d1dc314d3199dca15bd2ab9b0e.html).
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-p`, `--password`
-
-
 
 </td>
 <td valign="top">
@@ -129,8 +113,6 @@ To protect your password, enter it only when prompted by the console client and 
 
 `Type`: string
 
-
-
 </td>
 </tr>
 <tr>
@@ -138,16 +120,12 @@ To protect your password, enter it only when prompted by the console client and 
 
 `-u`, `--user`
 
-
-
 </td>
 <td valign="top">
 
 Use your email, SAP ID or user name
 
 `Type`: string
-
-
 
 </td>
 </tr>
@@ -160,16 +138,12 @@ Use your email, SAP ID or user name
 
 Optional
 
-
-
 </th>
 </tr>
 <tr>
 <td valign="top">
 
 `--connection-name`
-
-
 
 </td>
 <td valign="top">
@@ -181,8 +155,6 @@ The name of the destination for connecting to the SAP SuccessFactors system ODat
 `Condition`: If you do not specify a value for the `--connection-name` parameter, the default value will be used.
 
 `Type`: string \(up to 200 characters; uppercase and lowercase letters, numbers, and the special characters en dash \(**\-**\) and underscore \(**\_**\).
-
-
 
 </td>
 </tr>

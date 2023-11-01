@@ -25,16 +25,12 @@ After you have developed and deployed your Java application on SAP BTP, you can 
 
 Cockpit
 
-
-
 </td>
 <td valign="top">
 
 [View Subaccount Usage Analytics](view-subaccount-usage-analytics-8f4d9db.md)
 
 [View Runtime Information](view-runtime-information-343663e.md)
-
-
 
 </td>
 <td valign="top">
@@ -47,8 +43,6 @@ Cockpit
 <td valign="top">
 
 Console Client
-
-
 
 </td>
 <td valign="top">
@@ -65,14 +59,10 @@ Console Client
 
 [Scale Applications](scale-applications-745781b.md)
 
-
-
 </td>
 <td valign="top">
 
 Specify various configurations using commands.
-
-
 
 </td>
 </tr>
@@ -107,8 +97,6 @@ Specify various configurations using commands.
 
 Cockpit
 
-
-
 </td>
 <td valign="top">
 
@@ -120,14 +108,10 @@ Cockpit
 
 [View Subaccount Usage Analytics](view-subaccount-usage-analytics-8f4d9db.md)
 
-
-
 </td>
 <td valign="top">
 
 Start, stop, and undeploy applications, as well as start, stop, and disable individual application processes.
-
-
 
 </td>
 </tr>
@@ -136,8 +120,6 @@ Start, stop, and undeploy applications, as well as start, stop, and disable indi
 
 Console Client
 
-
-
 </td>
 <td valign="top">
 
@@ -145,14 +127,10 @@ Console Client
 
 [enable](enable-13a70e0.md); [disable](disable-59fedc1.md); [undeploy](undeploy-7e09b85.md)
 
-
-
 </td>
 <td valign="top">
 
 Manage the lifecycle of a deployed application or individual application processes by executing the respective command.
-
-
 
 </td>
 </tr>
@@ -161,8 +139,6 @@ Manage the lifecycle of a deployed application or individual application process
 
 Lifecycle Management API
 
-
-
 </td>
 <td valign="top">
 
@@ -170,14 +146,10 @@ Lifecycle Management API
 
 [Stop an Application](../30-development-neo/java-alm-api-fc944d1.md#loio38829d2c139c47b3a1c1d64e6ce6d4f8)
 
-
-
 </td>
 <td valign="top">
 
 Start and stop applications using the Lifecycle Management API.
-
-
 
 </td>
 </tr>
@@ -196,8 +168,6 @@ Start and stop applications using the Lifecycle Management API.
 
 Cockpit, Console Client, Monitoring API
 
-
-
 </td>
 <td valign="top">
 
@@ -207,8 +177,6 @@ Cockpit, Console Client, Monitoring API
 
 [Monitoring Database Systems](https://help.sap.com/viewer/64f7d2b06c6b40a9b3097860c5930641/Cloud/en-US/d5c5c6a37c944ce78fcccf2b84243d8a.html "You can monitor your database system by viewing its metrics in the SAP BTP cockpit, by retrieving them with the Metrics REST API, or by receiving alerts for them. Furthermore, when you use an SAP HANA database system, you can also configure monitoring for its SAP HANA XS applications.") :arrow_upper_right:
 
-
-
 </td>
 <td valign="top">
 
@@ -217,8 +185,6 @@ View the current metrics or the metrics history.
 Configure checks for an application.
 
 Use the Metrics REST API to get the state or the metric details of an application.
-
-
 
 </td>
 </tr>
@@ -237,21 +203,15 @@ Use the Metrics REST API to get the state or the metric details of an applicatio
 
 Eclipse IDE
 
-
-
 </td>
 <td valign="top">
 
 [Profiling Applications](profiling-applications-8967d19.md) 
 
-
-
 </td>
 <td valign="top">
 
 Analyze resource-related problems in your application.
-
-
 
 </td>
 </tr>
@@ -270,21 +230,15 @@ Analyze resource-related problems in your application.
 
 Cockpit
 
-
-
 </td>
 <td valign="top">
 
 [Using Logs in the Cockpit for Java Applications](https://help.sap.com/viewer/f88a032109f0429caea276fc6e3a95f9/Cloud/en-US/2555df65182c4b09a25e56fa3b57b0a8.html "You can view the logs and change the log settings of any Java application deployed in your subaccount. The cockpit provides the following types of logs for a Java application: default traces, HTTP access logs, garbage collection logs, and Java Connector (JCo) logs.") :arrow_upper_right: 
 
-
-
 </td>
 <td valign="top">
 
 View the logs and change the log settings of any applications deployed in your subaccount.
-
-
 
 </td>
 </tr>
@@ -293,21 +247,15 @@ View the logs and change the log settings of any applications deployed in your s
 
 Console Client
 
-
-
 </td>
 <td valign="top">
 
 [Using Logs in the Console Client](https://help.sap.com/viewer/f88a032109f0429caea276fc6e3a95f9/Cloud/en-US/e4fd83c5bb5710149b1e94f127f108e4.html "") :arrow_upper_right: 
 
-
-
 </td>
 <td valign="top">
 
 Manage some of the logging configurations of a started application.
-
-
 
 </td>
 </tr>
@@ -326,8 +274,6 @@ Manage some of the logging configurations of a started application.
 
 Cockpit
 
-
-
 </td>
 <td valign="top">
 
@@ -335,14 +281,10 @@ Cockpit
 
 [Perform Soft Shutdown](perform-soft-shutdown-17e8e96.md)
 
-
-
 </td>
 <td valign="top">
 
 Supports zero downtime and planned downtime scenarios. Disable the application or individual processes in order to shut down the application or processes gracefully.
-
-
 
 </td>
 </tr>
@@ -350,8 +292,6 @@ Supports zero downtime and planned downtime scenarios. Disable the application o
 <td valign="top">
 
 Console Client
-
-
 
 </td>
 <td valign="top">
@@ -362,14 +302,10 @@ Console Client
 
 [Perform Soft Shutdown](perform-soft-shutdown-17e8e96.md)
 
-
-
 </td>
 <td valign="top">
 
 Deploy a new version of a productive application or perform maintenance.
-
-
 
 </td>
 </tr>

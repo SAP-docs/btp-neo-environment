@@ -21,14 +21,10 @@ While transporting SAP BTP applications using the CTS+ tool, or while deploying 
 
 Message Text
 
-
-
 </th>
 <th valign="top">
 
 Troubleshooting
-
-
 
 </th>
 </tr>
@@ -36,8 +32,6 @@ Troubleshooting
 <td valign="top">
 
 ***Technical error \[Invalid MTA archive \[<mtar archive\>\]. MTA deployment descriptor \(META-INF/mtad.yaml\) could not be parsed. Check the troubleshooting guide for guidelines on how to resolve descriptor errors. Technical details: <…\>***
-
-
 
 </td>
 <td valign="top">
@@ -67,14 +61,10 @@ This error could occur if the MTA archive is not consistent. There are several d
 
 ***Technical error \[Invalid MTA archive \[<MTA name\>\]: Missing MTA manifest entry for module \[<module name\>\]\]***
 
-
-
 </td>
 <td valign="top">
 
 The archive is inconsistent, for example, when a module referenced in the `META-INF/mtad.yaml` is not present in the MTA archive or is not referenced correctly. Make sure that the archive is compliant with the MTA specification available at [The Multitarget Application Model v.2](http://go.sap.com/documents/2016/06/e2f618e4-757c-0010-82c7-eda71af511fa.html) and the [The Multitarget Application Model v.3](https://www.sap.com/documents/2021/09/66d96898-fa7d-0010-bca6-c68f7e60039b.html).
-
-
 
 </td>
 </tr>
@@ -82,8 +72,6 @@ The archive is inconsistent, for example, when a module referenced in the `META-
 <td valign="top">
 
 ***Technical error \[MTA extension descriptor\(s\) could not be parsed. Check the troubleshooting guide for guidelines on how to resolve descriptor errors. Technical details: <…\>***
-
-
 
 </td>
 <td valign="top">
@@ -106,8 +94,6 @@ This error could occur if one or more extension descriptors are not consistent. 
 
 ***Technical error \[MTA deployment descriptor \(META-INF/mtad.yaml\) from archive \[<mtar archive\>\] and some of extension descriptors \[<extension descriptor\>\] could not be processed . Check the troubleshooting guide for guidelines on how to resolve descriptor errors. Technical details: <…\>***
 
-
-
 </td>
 <td valign="top">
 
@@ -128,14 +114,10 @@ This error could occur if the MTA archive, or one or more extension descriptors 
 
 ***Process \[<process-name\>\] has failed with \[Your user is not authorized to perform the requested operation. Forbidden \(403\)\]. Contact SAP Support.***
 
-
-
 </td>
 <td valign="top" rowspan="2">
 
 Ensure that you have required the necessary permissions or roles that are required to list or manage Multitarget Applications. For more information, see [Operating Solutions](operating-solutions-2abf7d4.md).
-
-
 
 </td>
 </tr>
@@ -143,8 +125,6 @@ Ensure that you have required the necessary permissions or roles that are requir
 <td valign="top">
 
 ***Process \[CTS\_DEPLOY\] has failed with \[undefined \(403\)\]. Contact SAP Support.***
-
-
 
 </td>
 </tr>

@@ -27,14 +27,10 @@ It provides key information in a summarized form and allows you to initiate acti
 
 Cockpit
 
-
-
 </td>
 <td valign="top">
 
 [Managing Application Versions](managing-application-versions-98a0178.md) 
-
-
 
 </td>
 </tr>
@@ -53,14 +49,10 @@ Cockpit
 
 Cockpit
 
-
-
 </td>
 <td valign="top">
 
 [Assign Destinations for HTML5 Applications](assign-destinations-for-html5-applications-bec79c9.md) 
-
-
 
 </td>
 </tr>
@@ -79,14 +71,10 @@ Cockpit
 
 Cockpit
 
-
-
 </td>
 <td valign="top">
 
 [Start and Stop HTML5 Applications](start-and-stop-html5-applications-a9d313d.md) 
-
-
 
 </td>
 </tr>
@@ -105,14 +93,10 @@ Cockpit
 
 Cockpit
 
-
-
 </td>
 <td valign="top">
 
 [Managing Roles and Permissions](managing-roles-and-permissions-d128e67.md) 
-
-
 
 </td>
 </tr>
@@ -131,8 +115,6 @@ Cockpit
 
 Cockpit
 
-
-
 </td>
 <td valign="top">
 
@@ -150,14 +132,10 @@ Cockpit
 
 REST API
 
-
-
 </td>
 <td valign="top">
 
 [Metrics REST API for HTML5 Applications](https://help.sap.com/viewer/64f7d2b06c6b40a9b3097860c5930641/Cloud/en-US/f62bdfc1fb7c45ccb1255c62d34bf967.html "Use the REST API to get metrics for your HTML5 applications that are running on SAP BTP in the Neo environment.") :arrow_upper_right: 
-
-
 
 </td>
 </tr>
@@ -176,14 +154,10 @@ REST API
 
 Cockpit
 
-
-
 </td>
 <td valign="top">
 
 [Using Logs in the Cockpit for HTML5 Applications](using-logs-in-the-cockpit-for-html5-applications-9f35886.md) 
-
-
 
 </td>
 </tr>

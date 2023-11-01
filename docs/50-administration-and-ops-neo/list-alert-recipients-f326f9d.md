@@ -44,16 +44,12 @@ neo list-alert-recipients -a <subaccount_technical_name> -u <e-mail_or_user> -h 
 
 Required
 
-
-
 </th>
 </tr>
 <tr>
 <td valign="top">
 
 `-a`, `--account`
-
-
 
 </td>
 <td valign="top">
@@ -62,16 +58,12 @@ Subaccount technical name
 
 `Type`: string \(up to 30 characters; lowercase letters and numbers, starting with a letter\)
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-u`, `--user`
-
-
 
 </td>
 <td valign="top">
@@ -80,8 +72,6 @@ Use your email, SAP ID, or user name
 
 `Type`: string
 
-
-
 </td>
 </tr>
 <tr>
@@ -89,16 +79,12 @@ Use your email, SAP ID, or user name
 
 `-h`, `--host`
 
-
-
 </td>
 <td valign="top">
 
 Enter a region host.
 
 `Type`: URL. For acceptable values, see [Regions](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/350356d1dc314d3199dca15bd2ab9b0e.html "You can deploy applications in different regions. Each region represents a geographical location (for example, Europe, US East) where applications, data, or services are hosted.") :arrow_upper_right:.
-
-
 
 </td>
 </tr>
@@ -111,16 +97,12 @@ Enter a region host.
 
 Optional
 
-
-
 </th>
 </tr>
 <tr>
 <td valign="top">
 
 `-b`, `--application` 
-
-
 
 </td>
 <td valign="top">
@@ -129,16 +111,12 @@ Application name for Java or HTML5 applications, or productive SAP HANA instance
 
 `Type`: string \(up to 30 characters; lowercase letters and numbers, starting with a letter\)
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-R`, `--recursively`
-
-
 
 </td>
 <td valign="top">
@@ -148,8 +126,6 @@ Lists alerts recipients recursively starting from the specified level. For examp
 `Default`: false
 
 `Type`: boolean
-
-
 
 </td>
 </tr>

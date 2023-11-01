@@ -27,14 +27,10 @@ For more information about using BASIC authentication, see [Authentication](auth
 
 Error Message
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -43,14 +39,10 @@ Description
 
 Your account is temporarily locked. It will be automatically unlocked in 60 minutes.
 
-
-
 </td>
 <td valign="top">
 
 SAP ID Service has registered five unsuccessful login attempts for this account in a short time. For security reasons, your account is disabled for 60 minutes.
-
-
 
 </td>
 </tr>
@@ -59,14 +51,10 @@ SAP ID Service has registered five unsuccessful login attempts for this account 
 
 Password authentication is disabled for your account. Log in with a certificate.
 
-
-
 </td>
 <td valign="top">
 
 The owner of this account has disabled password authentication using their user profile settings in SAP ID service.
-
-
 
 </td>
 </tr>
@@ -75,14 +63,10 @@ The owner of this account has disabled password authentication using their user 
 
 Inactive account. Activate it via your account creation confirmation email
 
-
-
 </td>
 <td valign="top">
 
 This is a new account and you haven’t activated it yet. You will receive an e-mail confirming your account creating, and containing an account activation link.
-
-
 
 </td>
 </tr>
@@ -91,14 +75,10 @@ This is a new account and you haven’t activated it yet. You will receive an e-
 
 Login failed. Contact your administrator.
 
-
-
 </td>
 <td valign="top">
 
 You cannot log in for a reason different from all others listed here.
-
-
 
 </td>
 </tr>

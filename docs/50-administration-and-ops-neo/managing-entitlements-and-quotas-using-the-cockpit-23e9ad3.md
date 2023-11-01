@@ -14,12 +14,12 @@ When you purchase an enterprise account, you are entitled to use a specific set 
 
 An entitlement equals your right to provision and consume a resource. A quota represents the numeric quantity that defines the maximum allowed consumption of that resource.
 
-Entitlements and quotas are managed at the global account level, distributed to subaccounts, and consumed by the subaccounts. When quota is freed at the subaccount level, it becomes available again at the global account level.
+Entitlements are managed at the global account level, where services plans and their allowed quota are distributed to subaccounts, and then consumed by the subaccounts. When quota is freed at the subaccount level, it becomes available again at the global account level.
 
 > ### Note:  
 > Only global account administrators can configure entitlements and quotas for subaccounts.
 
-There are two places in the SAP BTP cockpit where you can view and configure entitlements and quotas for subaccounts - at global account level and at subaccount level. Depending on your permissions, you may only have access to one of these pages. You can find more details below:
+There are two places in the SAP BTP cockpit where you can view entitlements and assign service plans and quotas for subaccounts - at the global account level and at the subaccount level. Depending on your permissions, you may only have access to one of these pages. You can find more details below:
 
 **Entitlements Pages \[Feature Set A\]**
 
@@ -30,28 +30,20 @@ There are two places in the SAP BTP cockpit where you can view and configure ent
 
 Page in cockpit
 
-
-
 </th>
 <th valign="top">
 
 Navigation Level
-
-
 
 </th>
 <th valign="top">
 
 Visible to
 
-
-
 </th>
 <th valign="top">
 
 Permissions
-
-
 
 </th>
 </tr>
@@ -60,21 +52,15 @@ Permissions
 
 *Entitlements* \> *Subaccount Assignments*
 
-
-
 </td>
 <td valign="top">
 
 Global account level
 
-
-
 </td>
 <td valign="top">
 
 Global account administrators only
-
-
 
 </td>
 <td valign="top">
@@ -90,21 +76,15 @@ Global account administrators only
 
 *Entitlements* \> *Service Assignments*
 
-
-
 </td>
 <td valign="top">
 
 Global account level
 
-
-
 </td>
 <td valign="top">
 
 Global account administrators only
-
-
 
 </td>
 <td valign="top">
@@ -120,21 +100,15 @@ Global account administrators only
 
 *Entitlements*
 
-
-
 </td>
 <td valign="top">
 
 Subaccount level
 
-
-
 </td>
 <td valign="top">
 
 Subaccount members \(regardless of whether they are also global account administrators or not\)
-
-
 
 </td>
 <td valign="top">
@@ -157,28 +131,20 @@ Subaccount members \(regardless of whether they are also global account administ
 
 Page in cockpit
 
-
-
 </th>
 <th valign="top">
 
 Navigation Level
-
-
 
 </th>
 <th valign="top">
 
 Visible to
 
-
-
 </th>
 <th valign="top">
 
 Permissions
-
-
 
 </th>
 </tr>
@@ -187,21 +153,15 @@ Permissions
 
 *Entitlements* \> *Entity Assignments*
 
-
-
 </td>
 <td valign="top">
 
 Global account level
 
-
-
 </td>
 <td valign="top">
 
 Global account administrators only
-
-
 
 </td>
 <td valign="top">
@@ -217,21 +177,15 @@ Global account administrators only
 
 *Entitlements* \> *Service Assignments*
 
-
-
 </td>
 <td valign="top">
 
 Global account level
 
-
-
 </td>
 <td valign="top">
 
 Global account administrators only
-
-
 
 </td>
 <td valign="top">
@@ -247,21 +201,15 @@ Global account administrators only
 
 *Entitlements*
 
-
-
 </td>
 <td valign="top">
 
 Subaccount level
 
-
-
 </td>
 <td valign="top">
 
 Subaccount members \(regardless of whether they are also global account administrators or not\)
-
-
 
 </td>
 <td valign="top">
@@ -274,12 +222,12 @@ Subaccount members \(regardless of whether they are also global account administ
 </tr>
 </table>
 
-You can also assign entitlements to directories, see [Configure Entitlements and Quotas for Directories \[Feature Set B\]](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/37f8871865114f44aebee3db6ac64b72.html "Assign entitlements to directories by adding service plans and distribute the quotas available in your global account to your directories using the SAP BTP cockpit.") :arrow_upper_right:.
+You can also assign entitlements to directories, see [Configure Entitlements and Quotas for Directories \[Feature Set B\]](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/37f8871865114f44aebee3db6ac64b72.html "Distribute entitlements that are available in your global account to directories by adding service plans and their allowed quotas by using the SAP BTP cockpit.") :arrow_upper_right:.
 
 **Related Information**  
 
 
-[Configure Entitlements and Quotas for Subaccounts](configure-entitlements-and-quotas-for-subaccounts-c90f3d5.md "Assign entitlements to subaccounts by adding service plans and distribute the quotas available in your global account to your subaccounts using the SAP BTP cockpit.")
+[Configure Entitlements and Quotas for Subaccounts](configure-entitlements-and-quotas-for-subaccounts-c90f3d5.md "Distribute the entitlements that are available in your global account by adding service plans and their allowed quotas to your subaccounts using the SAP BTP cockpit.")
 
 [Add Quotas to Subaccounts Using the Console Client](add-quotas-to-subaccounts-using-the-console-client-f073eaf.md "You can use the Neo console client to add quotas to subaccounts")
 

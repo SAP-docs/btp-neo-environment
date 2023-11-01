@@ -31,16 +31,12 @@ neo install-local
 
 Optional
 
-
-
 </th>
 </tr>
 <tr>
 <td valign="top">
 
 `--ajp-port`
-
-
 
 </td>
 <td valign="top">
@@ -49,8 +45,6 @@ AJP port opened by server
 
 `Default`: *8009*
 
-
-
 </td>
 </tr>
 <tr>
@@ -58,14 +52,10 @@ AJP port opened by server
 
 `--http-non-proxy-hosts`
 
-
-
 </td>
 <td valign="top">
 
 JVM system property `http.nonProxyHosts`
-
-
 
 </td>
 </tr>
@@ -74,16 +64,12 @@ JVM system property `http.nonProxyHosts`
 
 `--http-port`
 
-
-
 </td>
 <td valign="top">
 
 HTTP port opened by server
 
 `Default`: *8080*
-
-
 
 </td>
 </tr>
@@ -92,14 +78,10 @@ HTTP port opened by server
 
 `--http-proxy-host`
 
-
-
 </td>
 <td valign="top">
 
 JVM system property `http.ProxyHost`
-
-
 
 </td>
 </tr>
@@ -108,14 +90,10 @@ JVM system property `http.ProxyHost`
 
 `--http-proxy-port`
 
-
-
 </td>
 <td valign="top">
 
 JVM system property `http.ProxyPort`
-
-
 
 </td>
 </tr>
@@ -124,16 +102,12 @@ JVM system property `http.ProxyPort`
 
 `--https-port`
 
-
-
 </td>
 <td valign="top">
 
 HTTPS port opened by server
 
 `Default`: *8443*
-
-
 
 </td>
 </tr>
@@ -142,14 +116,10 @@ HTTPS port opened by server
 
 `--https-proxy-host`
 
-
-
 </td>
 <td valign="top">
 
 JVM system property `https.ProxyHost`
-
-
 
 </td>
 </tr>
@@ -158,14 +128,10 @@ JVM system property `https.ProxyHost`
 
 `--https-proxy-port`
 
-
-
 </td>
 <td valign="top">
 
 JVM system property `https.ProxyPort`
-
-
 
 </td>
 </tr>
@@ -174,16 +140,12 @@ JVM system property `https.ProxyPort`
 
 `--jmx-port`
 
-
-
 </td>
 <td valign="top">
 
 JMX port opened by server \(JVM system property `com.sun.management.jmxremote.port`\)
 
 `Default`: *1717*
-
-
 
 </td>
 </tr>
@@ -192,14 +154,10 @@ JMX port opened by server \(JVM system property `com.sun.management.jmxremote.po
 
 `-l`, `--location`
 
-
-
 </td>
 <td valign="top">
 
 Local server installation directory
-
-
 
 </td>
 </tr>

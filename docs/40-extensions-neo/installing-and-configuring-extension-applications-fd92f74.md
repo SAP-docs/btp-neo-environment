@@ -68,14 +68,10 @@ To finalize the configuration on SAP BTP side, you change the default role provi
 
 Task
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -84,14 +80,10 @@ Description
 
 1. [Register the Extension Application as an Authorized Assertion Consumer Service](register-the-extension-application-as-an-authorized-assertion-consumer-service-47c4bff.md)
 
-
-
 </td>
 <td valign="top">
 
 Register the extension application as an authorized assertion consumer service.
-
-
 
 </td>
 </tr>
@@ -100,14 +92,10 @@ Register the extension application as an authorized assertion consumer service.
 
 2. [Configure the Extension Application's Connectivity to SAP SuccessFactors](configure-the-extension-application-s-connectivity-to-sap-successfactors-ebb281b.md)
 
-
-
 </td>
 <td valign="top">
 
 Configure the connectivity between your Java extension application and the SAP SuccessFactors system associated with your SAP BTP extension subaccount.
-
-
 
 </td>
 </tr>
@@ -116,14 +104,10 @@ Configure the connectivity between your Java extension application and the SAP S
 
 3. [Register a Home Page Tile for the Extension Application](register-a-home-page-tile-for-the-extension-application-6648ccf.md)
 
-
-
 </td>
 <td valign="top">
 
 Register a home page tile for the extension application in the extended SAP SuccessFactors system
-
-
 
 </td>
 </tr>
@@ -132,14 +116,10 @@ Register a home page tile for the extension application in the extended SAP Succ
 
 4. [Create the Resource File with Role Definitions](create-the-resource-file-with-role-definitions-93d5ce5.md)
 
-
-
 </td>
 <td valign="top">
 
 Create the resource file containing the SAP SuccessFactors HXM role definitions.
-
-
 
 </td>
 </tr>
@@ -148,14 +128,10 @@ Create the resource file containing the SAP SuccessFactors HXM role definitions.
 
 5. [Import the Extension Application Roles in the SAP SuccessFactors System](import-the-extension-application-roles-in-the-sap-successfactors-system-f0ed89f.md)
 
-
-
 </td>
 <td valign="top">
 
 Import the application-specific roles from the SAP BTP system repository into to the SAP SuccessFactors customer instance connected to your extension subaccount.
-
-
 
 </td>
 </tr>
@@ -164,14 +140,10 @@ Import the application-specific roles from the SAP BTP system repository into to
 
 6. [Assign the Extension Application Roles to Users](assign-the-extension-application-roles-to-users-d838fff.md)
 
-
-
 </td>
 <td valign="top">
 
 Assign the extension application roles you have imported in the SAP SuccessFactors systems to the user to whom you want to grant access to your application.
-
-
 
 </td>
 </tr>
@@ -179,8 +151,6 @@ Assign the extension application roles you have imported in the SAP SuccessFacto
 <td valign="top">
 
 7. [Configure the SAP SuccessFactors Role Provider](configure-the-sap-successfactors-role-provider-22bda07.md)
-
-
 
 </td>
 <td valign="top">
@@ -199,14 +169,10 @@ Change the default SAP BTP role provider of your Java application to the SAP Suc
 
 8. [Test the Role Assignments](test-the-role-assignments-00f238b.md)
 
-
-
 </td>
 <td valign="top">
 
 Try to access the application with the users with different level of granted access to test the role assignments.
-
-
 
 </td>
 </tr>

@@ -57,16 +57,12 @@ neo clear-alert-recipients -a <subaccount_technical_name> -u <e-mail_or_user> -h
 
 Required
 
-
-
 </th>
 </tr>
 <tr>
 <td valign="top">
 
 `-a`, `--account`
-
-
 
 </td>
 <td valign="top">
@@ -75,16 +71,12 @@ Subaccount technical name
 
 `Type`: string \(up to 30 characters; lowercase letters and numbers, starting with a letter\)
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-u`, `--user`
-
-
 
 </td>
 <td valign="top">
@@ -93,8 +85,6 @@ Use your email, SAP ID, or user name
 
 `Type`: string
 
-
-
 </td>
 </tr>
 <tr>
@@ -102,16 +92,12 @@ Use your email, SAP ID, or user name
 
 `-h`, `--host`
 
-
-
 </td>
 <td valign="top">
 
 Enter a region host.
 
 `Type`: URL. For acceptable values, see [Regions and Hosts Available for the Neo Environment](../10-concepts-neo/regions-and-hosts-available-for-the-neo-environment-d722f7c.md)
-
-
 
 </td>
 </tr>
@@ -124,16 +110,12 @@ Enter a region host.
 
 Optional
 
-
-
 </th>
 </tr>
 <tr>
 <td valign="top">
 
 `-b`, `--application` 
-
-
 
 </td>
 <td valign="top">
@@ -142,8 +124,6 @@ Application name for Java or HTML5 applications, or productive SAP HANA instance
 
 `Type`: string \(up to 30 characters; lowercase letters and numbers, starting with a letter\)
 
-
-
 </td>
 </tr>
 <tr>
@@ -151,16 +131,12 @@ Application name for Java or HTML5 applications, or productive SAP HANA instance
 
 `-e`, `--email`
 
-
-
 </td>
 <td valign="top">
 
 Comma-separated list of recipient e-mails
 
 `Type`: string
-
-
 
 </td>
 </tr>

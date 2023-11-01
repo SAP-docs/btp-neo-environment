@@ -21,28 +21,20 @@
 
 Category
 
-
-
 </th>
 <th valign="top">
 
 ID
-
-
 
 </th>
 <th valign="top">
 
 Scope Name
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -51,28 +43,20 @@ Description
 
 Account Management
 
-
-
 </td>
 <td valign="top">
 
 readAccount
-
-
 
 </td>
 <td valign="top">
 
 View Accounts
 
-
-
 </td>
 <td valign="top">
 
 Enables you to view a list of all subaccounts available to you and access them.
-
-
 
 </td>
 </tr>
@@ -81,21 +65,15 @@ Enables you to view a list of all subaccounts available to you and access them.
 
 manageAccount
 
-
-
 </td>
 <td valign="top">
 
 Manage Accounts
 
-
-
 </td>
 <td valign="top">
 
 Enables you to edit and delete subaccounts.
-
-
 
 </td>
 </tr>
@@ -104,21 +82,15 @@ Enables you to edit and delete subaccounts.
 
 readQuota \(obsolete\)
 
-
-
 </td>
 <td valign="top">
 
 View Quota
 
-
-
 </td>
 <td valign="top">
 
 Enables you to view the purchased quotas in use and how they are distributed between individual subaccounts.
-
-
 
 </td>
 </tr>
@@ -129,21 +101,15 @@ manageQuota \(obsolete\)
 
 Only global account administrators can manage quota.
 
-
-
 </td>
 <td valign="top">
 
 Manage Quota
 
-
-
 </td>
 <td valign="top">
 
 Enables you to distribute free quota and reassign quota between individual subaccounts.
-
-
 
 </td>
 </tr>
@@ -152,21 +118,15 @@ Enables you to distribute free quota and reassign quota between individual subac
 
 readCustomPlatformRoles
 
-
-
 </td>
 <td valign="top">
 
 View Custom Platform Roles
 
-
-
 </td>
 <td valign="top">
 
 Enables you to list self-defined platform roles.
-
-
 
 </td>
 </tr>
@@ -175,21 +135,15 @@ Enables you to list self-defined platform roles.
 
 manageCustomPlatformRoles
 
-
-
 </td>
 <td valign="top">
 
 Manage Custom Platform Roles
 
-
-
 </td>
 <td valign="top">
 
 Enables you to define your own platform roles.
-
-
 
 </td>
 </tr>
@@ -198,21 +152,15 @@ Enables you to define your own platform roles.
 
 manageAccountNotifications
 
-
-
 </td>
 <td valign="top">
 
 Manage Account Notifications
 
-
-
 </td>
 <td valign="top">
 
 Enables you to further process a notification, for example, you can assign it to yourself or set the status to complete.
-
-
 
 </td>
 </tr>
@@ -221,21 +169,15 @@ Enables you to further process a notification, for example, you can assign it to
 
 readAccountNotifications
 
-
-
 </td>
 <td valign="top">
 
 Read Account Notifications
 
-
-
 </td>
 <td valign="top">
 
 Enables you to read notifications for a subaccount.
-
-
 
 </td>
 </tr>
@@ -244,28 +186,20 @@ Enables you to read notifications for a subaccount.
 
 Agent Activation for Dyntrace Service
 
-
-
 </td>
 <td valign="top">
 
 readDynatraceIntegration
-
-
 
 </td>
 <td valign="top">
 
 Manage Dynatrace Integration
 
-
-
 </td>
 <td valign="top">
 
 Enables you to view the configuration settings of the Agent Activation for Dynatrace service in your subaccount.
-
-
 
 </td>
 </tr>
@@ -274,21 +208,15 @@ Enables you to view the configuration settings of the Agent Activation for Dynat
 
 manageDynatraceIntegration
 
-
-
 </td>
 <td valign="top">
 
 Read Dynatrace Integration
 
-
-
 </td>
 <td valign="top">
 
 Enables you to update and delete the configuration settings of the Agent Activation for Dynatrace service in your subaccount.
-
-
 
 </td>
 </tr>
@@ -297,28 +225,20 @@ Enables you to update and delete the configuration settings of the Agent Activat
 
 Authorization Management
 
-
-
 </td>
 <td valign="top">
 
 readApplicationRoles
-
-
 
 </td>
 <td valign="top">
 
 View Application Roles
 
-
-
 </td>
 <td valign="top">
 
 Enables you to list all user roles available for a Java application.
-
-
 
 </td>
 </tr>
@@ -327,21 +247,15 @@ Enables you to list all user roles available for a Java application.
 
 manageApplicationRoles
 
-
-
 </td>
 <td valign="top">
 
 Manage Application Roles
 
-
-
 </td>
 <td valign="top">
 
 Enables you to assign user roles for a Java application and create new roles.
-
-
 
 </td>
 </tr>
@@ -350,14 +264,10 @@ Enables you to assign user roles for a Java application and create new roles.
 
 readAuthorizationSettings
 
-
-
 </td>
 <td valign="top">
 
 View Authorization Settings
-
-
 
 </td>
 <td valign="top">
@@ -376,14 +286,10 @@ Enables you to view all kinds of role, group, and user mappings on account and s
 
 manageAuthorizationSettings
 
-
-
 </td>
 <td valign="top">
 
 Manage Authorization Settings
-
-
 
 </td>
 <td valign="top">
@@ -402,28 +308,20 @@ Enables you to manage all kinds of role, group, and user mappings on account and
 
 Basic Authentication Management
 
-
-
 </td>
 <td valign="top">
 
 manageBasicAuthentication
-
-
 
 </td>
 <td valign="top">
 
 Manage Basic Authentication Settings
 
-
-
 </td>
 <td valign="top">
 
 Enables you to manage the *Basic Authentication* configuration of a subaccount. It defines the Identity Authentication tenant to be used for validating the user names and passwords.
-
-
 
 </td>
 </tr>
@@ -432,21 +330,15 @@ Enables you to manage the *Basic Authentication* configuration of a subaccount. 
 
 readBasicAuthentication
 
-
-
 </td>
 <td valign="top">
 
 Read Basic Authentication Settings
 
-
-
 </td>
 <td valign="top">
 
 Enables you to view the *Basic Authentication* configuration of a subaccount. It shows the Identity Authentication tenant to be used for validating the user names and passwords.
-
-
 
 </td>
 </tr>
@@ -455,28 +347,20 @@ Enables you to view the *Basic Authentication* configuration of a subaccount. It
 
 Connectivity Service
 
-
-
 </td>
 <td valign="top">
 
 readDestinations
-
-
 
 </td>
 <td valign="top">
 
 View Destinations
 
-
-
 </td>
 <td valign="top">
 
 Enables you to view destinations required for communication outside SAP BTP.
-
-
 
 </td>
 </tr>
@@ -485,21 +369,15 @@ Enables you to view destinations required for communication outside SAP BTP.
 
 manageDestinations
 
-
-
 </td>
 <td valign="top">
 
 Manage Destinations
 
-
-
 </td>
 <td valign="top">
 
 Enables you to create, update, and delete destinations and their properties required for communication outside SAP BTP.
-
-
 
 </td>
 </tr>
@@ -508,21 +386,15 @@ Enables you to create, update, and delete destinations and their properties requ
 
 readSCCTunnels
 
-
-
 </td>
 <td valign="top">
 
 View SCC Tunnels
 
-
-
 </td>
 <td valign="top">
 
 Enables you to view the data transmission tunnels used by the Cloud connector to communicate with back-end systems.
-
-
 
 </td>
 </tr>
@@ -531,21 +403,15 @@ Enables you to view the data transmission tunnels used by the Cloud connector to
 
 manageSCCTunnels
 
-
-
 </td>
 <td valign="top">
 
 Manage SCC Tunnels
 
-
-
 </td>
 <td valign="top">
 
 Enables you to operate the data transmission tunnels used by the Cloud connector.
-
-
 
 </td>
 </tr>
@@ -554,28 +420,20 @@ Enables you to operate the data transmission tunnels used by the Cloud connector
 
 Document Service
 
-
-
 </td>
 <td valign="top">
 
 listECMRepositories
-
-
 
 </td>
 <td valign="top">
 
 List Document Service Repositories
 
-
-
 </td>
 <td valign="top">
 
 Enables you to list the document service repositories.
-
-
 
 </td>
 </tr>
@@ -584,21 +442,15 @@ Enables you to list the document service repositories.
 
 manageECM
 
-
-
 </td>
 <td valign="top">
 
 Manage Document Service Repositories
 
-
-
 </td>
 <td valign="top">
 
 Enables you to create and delete document service repositories, including the management of repository keys.
-
-
 
 </td>
 </tr>
@@ -607,28 +459,20 @@ Enables you to create and delete document service repositories, including the ma
 
 Enterprise Messaging
 
-
-
 </td>
 <td valign="top">
 
 readMessagingService
-
-
 
 </td>
 <td valign="top">
 
 Read Messaging Service
 
-
-
 </td>
 <td valign="top">
 
 Enables you to view details of messaging hosts, queues, and applications bindings to messaging hosts.
-
-
 
 </td>
 </tr>
@@ -637,14 +481,10 @@ Enables you to view details of messaging hosts, queues, and applications binding
 
 manageMessagingQueuesAndBindings
 
-
-
 </td>
 <td valign="top">
 
 Manage Queues and Application Bindings
-
-
 
 </td>
 <td valign="top">
@@ -664,21 +504,15 @@ Enables you to:
 
 manageMessagingHosts
 
-
-
 </td>
 <td valign="top">
 
 Manage Messaging Hosts
 
-
-
 </td>
 <td valign="top">
 
 Enables you to create, edit, and delete messaging hosts.
-
-
 
 </td>
 </tr>
@@ -687,28 +521,20 @@ Enables you to create, edit, and delete messaging hosts.
 
 Extension Integration Management
 
-
-
 </td>
 <td valign="top">
 
 readExtensionIntegration
-
-
 
 </td>
 <td valign="top">
 
 Read Extension Integration
 
-
-
 </td>
 <td valign="top">
 
 Enables you to read integration tokens.
-
-
 
 </td>
 </tr>
@@ -717,21 +543,15 @@ Enables you to read integration tokens.
 
 manageExtensionIntegration
 
-
-
 </td>
 <td valign="top">
 
 Manage Extension Integration
 
-
-
 </td>
 <td valign="top">
 
 Enables you to create and delete integration tokens.
-
-
 
 </td>
 </tr>
@@ -740,21 +560,15 @@ Enables you to create and delete integration tokens.
 
 manageApplicationRoleProvider
 
-
-
 </td>
 <td valign="top">
 
 Manage Application Role Provider
 
-
-
 </td>
 <td valign="top">
 
 Enables you to manage Java applications' role provider using the SAP BTP cockpit.
-
-
 
 </td>
 </tr>
@@ -763,21 +577,15 @@ Enables you to manage Java applications' role provider using the SAP BTP cockpit
 
 readApplicationRoleProvider
 
-
-
 </td>
 <td valign="top">
 
 Read Application Role Provider
 
-
-
 </td>
 <td valign="top">
 
 Enables you to read the Java applications' role provider configuration using the SAP BTP cockpit.
-
-
 
 </td>
 </tr>
@@ -786,21 +594,15 @@ Enables you to read the Java applications' role provider configuration using the
 
 readExtensionConfiguration
 
-
-
 </td>
 <td valign="top">
 
 Read Extension Configuration
 
-
-
 </td>
 <td valign="top">
 
 Enables you to read the extension configuration.
-
-
 
 </td>
 </tr>
@@ -809,21 +611,15 @@ Enables you to read the extension configuration.
 
 manageExtensionConfiguration
 
-
-
 </td>
 <td valign="top">
 
 Manage Extension Configuration
 
-
-
 </td>
 <td valign="top">
 
 Enables you to manage the extension configuration.
-
-
 
 </td>
 </tr>
@@ -832,21 +628,15 @@ Enables you to manage the extension configuration.
 
 Git Service
 
-
-
 </td>
 <td valign="top">
 
 accessGit
 
-
-
 </td>
 <td valign="top">
 
 Access Git Repositories
-
-
 
 </td>
 <td valign="top">
@@ -865,14 +655,10 @@ Enables you to create repositories, push commit, push tags, create new remote br
 
 manageGit
 
-
-
 </td>
 <td valign="top">
 
 Manage Git Repositories
-
-
 
 </td>
 <td valign="top">
@@ -891,14 +677,10 @@ Enables you to delete repositories, run garbage collection on repositories, lock
 
 readGit
 
-
-
 </td>
 <td valign="top">
 
 Browse Git Repositories
-
-
 
 </td>
 <td valign="top">
@@ -917,21 +699,15 @@ Enables you to clone a repository as well as to fetch commits and tags.
 
 HTML5 Application Management
 
-
-
 </td>
 <td valign="top">
 
 readHTML5Applications
 
-
-
 </td>
 <td valign="top">
 
 List HTML5 Applications
-
-
 
 </td>
 <td valign="top">
@@ -950,14 +726,10 @@ Enables you to list HTML applications and review their status.
 
 manageHTML5Applications
 
-
-
 </td>
 <td valign="top">
 
 Manage HTML5 Applications
-
-
 
 </td>
 <td valign="top">
@@ -976,21 +748,15 @@ Enables you to create, start, update, and delete HTML5 applications.
 
 Java Application Lifecycle Management
 
-
-
 </td>
 <td valign="top">
 
 readJavaApplications
 
-
-
 </td>
 <td valign="top">
 
 List Java Applications
-
-
 
 </td>
 <td valign="top">
@@ -1009,14 +775,10 @@ Enables you to list Java applications, get their status, and list Java applicati
 
 manageJavaApplications
 
-
-
 </td>
 <td valign="top">
 
 Manage Java Applications
-
-
 
 </td>
 <td valign="top">
@@ -1035,14 +797,10 @@ Enables you to create, deploy, start, stop, update, and delete a Java applicatio
 
 manageJavaProcesses
 
-
-
 </td>
 <td valign="top">
 
 Manage Java Processes
-
-
 
 </td>
 <td valign="top">
@@ -1061,21 +819,15 @@ Enables you to start or stop Java application processes.
 
 profileApplication
 
-
-
 </td>
 <td valign="top">
 
 Profile Java Applications
 
-
-
 </td>
 <td valign="top">
 
 Enables you to profile Java applications.
-
-
 
 </td>
 </tr>
@@ -1084,21 +836,15 @@ Enables you to profile Java applications.
 
 debugApplication
 
-
-
 </td>
 <td valign="top">
 
 Debug Java Applications
 
-
-
 </td>
 <td valign="top">
 
 Enables you to debug Java applications.
-
-
 
 </td>
 </tr>
@@ -1107,28 +853,20 @@ Enables you to debug Java applications.
 
 Keystore Service
 
-
-
 </td>
 <td valign="top">
 
 manageKeystores
-
-
 
 </td>
 <td valign="top">
 
 Manage Keystores
 
-
-
 </td>
 <td valign="top">
 
 Enables you to manage \(create, delete, list\) key stores \(using the console client\).
-
-
 
 </td>
 </tr>
@@ -1137,21 +875,15 @@ Enables you to manage \(create, delete, list\) key stores \(using the console cl
 
 readKeystores
 
-
-
 </td>
 <td valign="top">
 
 View Keystores
 
-
-
 </td>
 <td valign="top">
 
 Enables you to lists all the services grouped by service category in the cockpit and view their enablement status.
-
-
 
 </td>
 </tr>
@@ -1160,28 +892,20 @@ Enables you to lists all the services grouped by service category in the cockpit
 
 Logging Service
 
-
-
 </td>
 <td valign="top">
 
 readLogs
-
-
 
 </td>
 <td valign="top">
 
 View Application Logs
 
-
-
 </td>
 <td valign="top">
 
 Enables you to view all logs available for a Java application.
-
-
 
 </td>
 </tr>
@@ -1190,21 +914,15 @@ Enables you to view all logs available for a Java application.
 
 manageLogs
 
-
-
 </td>
 <td valign="top">
 
 Manage Application Logs
 
-
-
 </td>
 <td valign="top">
 
 Enables you to change the log level for Java application logs.
-
-
 
 </td>
 </tr>
@@ -1213,14 +931,10 @@ Enables you to change the log level for Java application logs.
 
 readHeapDumps
 
-
-
 </td>
 <td valign="top">
 
 View Heap Dumps
-
-
 
 </td>
 <td valign="top">
@@ -1239,21 +953,15 @@ Enables you to view heap dumps as well as to download heap dump files for a Java
 
 Member Management
 
-
-
 </td>
 <td valign="top">
 
 readAccountMembers
 
-
-
 </td>
 <td valign="top">
 
 View Account Members
-
-
 
 </td>
 <td valign="top">
@@ -1272,21 +980,15 @@ Enables you to view a list of members for an individual subaccount.
 
 manageAccountMembers
 
-
-
 </td>
 <td valign="top">
 
 Manage Account Members
 
-
-
 </td>
 <td valign="top">
 
 Enables you to add and remove members for an individual subaccount and to assign user roles to them.
-
-
 
 </td>
 </tr>
@@ -1295,28 +997,20 @@ Enables you to add and remove members for an individual subaccount and to assign
 
 Metering Service
 
-
-
 </td>
 <td valign="top">
 
 readMeteringData
-
-
 
 </td>
 <td valign="top">
 
 Read Metering Data
 
-
-
 </td>
 <td valign="top">
 
 Enables you to access data related to your application's resource consumption, e.g. network data volume or database size.
-
-
 
 </td>
 </tr>
@@ -1325,28 +1019,20 @@ Enables you to access data related to your application's resource consumption, e
 
 Monitoring Service
 
-
-
 </td>
 <td valign="top">
 
 readMonitoringConfiguration
-
-
 
 </td>
 <td valign="top">
 
 Read Monitoring Configuration
 
-
-
 </td>
 <td valign="top">
 
 Enables you to list JMX checks, availability checks, and alert recipients.
-
-
 
 </td>
 </tr>
@@ -1355,21 +1041,15 @@ Enables you to list JMX checks, availability checks, and alert recipients.
 
 readMonitoringData
 
-
-
 </td>
 <td valign="top">
 
 Read Monitoring Data
 
-
-
 </td>
 <td valign="top">
 
 Enables you to view history of metrics, current metrics, and JMX MBeans.
-
-
 
 </td>
 </tr>
@@ -1378,21 +1058,15 @@ Enables you to view history of metrics, current metrics, and JMX MBeans.
 
 manageMonitoringConfiguration
 
-
-
 </td>
 <td valign="top">
 
 Manage Monitoring Configuration
 
-
-
 </td>
 <td valign="top">
 
 Enables you to set and update JMX checks, availability checks, and alert recipients. It also allows you to manage custom HTTP checks.
-
-
 
 </td>
 </tr>
@@ -1401,21 +1075,15 @@ Enables you to set and update JMX checks, availability checks, and alert recipie
 
 executeJMXOperation
 
-
-
 </td>
 <td valign="top">
 
 Execute JMX Operation
 
-
-
 </td>
 <td valign="top">
 
 Enables you to run JMX operations through the JMX console.
-
-
 
 </td>
 </tr>
@@ -1424,28 +1092,20 @@ Enables you to run JMX operations through the JMX console.
 
 Multi-Target Application Management
 
-
-
 </td>
 <td valign="top">
 
 readMultiTargetApplication
-
-
 
 </td>
 <td valign="top">
 
 Browse Solutions Inventory
 
-
-
 </td>
 <td valign="top">
 
 Enables you to list solutions, get their status, and list solution operations.
-
-
 
 </td>
 </tr>
@@ -1454,21 +1114,15 @@ Enables you to list solutions, get their status, and list solution operations.
 
 manageMultiTargetApplication
 
-
-
 </td>
 <td valign="top">
 
 Manage Solutions
 
-
-
 </td>
 <td valign="top">
 
 Enable you to deploy, delete, and subscribe to solutions using Multi-Target Applications \(MTA\).
-
-
 
 </td>
 </tr>
@@ -1477,21 +1131,15 @@ Enable you to deploy, delete, and subscribe to solutions using Multi-Target Appl
 
 OAuth Client Management
 
-
-
 </td>
 <td valign="top">
 
 readOAuthSettings
 
-
-
 </td>
 <td valign="top">
 
 View OAuth Settings
-
-
 
 </td>
 <td valign="top">
@@ -1513,14 +1161,10 @@ Enables you to view OAuth Application Client settings.
 
 manageOAuthSettings
 
-
-
 </td>
 <td valign="top">
 
 Manage OAuth Settings
-
-
 
 </td>
 <td valign="top">
@@ -1542,28 +1186,20 @@ Enables you to manage OAuth Application Client settings.
 
 Password Storage
 
-
-
 </td>
 <td valign="top">
 
 managePasswords
-
-
 
 </td>
 <td valign="top">
 
 Manage Passwords
 
-
-
 </td>
 <td valign="top">
 
 Enables you to set and delete passwords for a given application in the password storage \(using the console client\).
-
-
 
 </td>
 </tr>
@@ -1572,21 +1208,15 @@ Enables you to set and delete passwords for a given application in the password 
 
 readPasswords
 
-
-
 </td>
 <td valign="top">
 
 Read Passwords
 
-
-
 </td>
 <td valign="top">
 
 Enables you to retrieve the passwords put into password storage for a given application \(using the console client\).
-
-
 
 </td>
 </tr>
@@ -1595,28 +1225,20 @@ Enables you to retrieve the passwords put into password storage for a given appl
 
 SAP HANA / SAP ASE Service
 
-
-
 </td>
 <td valign="top">
 
 readDatabaseInformation
-
-
 
 </td>
 <td valign="top">
 
 View Database Information
 
-
-
 </td>
 <td valign="top">
 
 Enables you to view lists of SAP HANA and SAP ASE database systems, databases, and database-related service requests. You can also view information such as the assigned database type, the database version, and data source bindings.
-
-
 
 </td>
 </tr>
@@ -1625,21 +1247,15 @@ Enables you to view lists of SAP HANA and SAP ASE database systems, databases, a
 
 administrateDatabases
 
-
-
 </td>
 <td valign="top">
 
 Administrate Databases
 
-
-
 </td>
 <td valign="top">
 
 Enables you to manage the lifecycle of SAP HANA and SAP ASE database systems \(upgrade, restart, etc.\). It also allows you how to create SAP HANA database users and assign the administrator role to them \(not applicable to SAP HANA MDC tenant databases\). In addition, it enables you to allow members of other subaccounts to open tunnels to SAP HANA and SAP ASE databases in your subaccount.
-
-
 
 </td>
 </tr>
@@ -1648,21 +1264,15 @@ Enables you to manage the lifecycle of SAP HANA and SAP ASE database systems \(u
 
 manageDatabases
 
-
-
 </td>
 <td valign="top">
 
 Manage Databases
 
-
-
 </td>
 <td valign="top">
 
 Enables you to manage SAP HANA and SAP ASE databases, database schemas for shared SAP HANA databases, and data source bindings. It also allows you to create database users and assign the developer role to them \(only applicable to SAP ASE databases and shared SAP HANA databases\).
-
-
 
 </td>
 </tr>
@@ -1671,21 +1281,15 @@ Enables you to manage SAP HANA and SAP ASE databases, database schemas for share
 
 openDatabaseTunnels
 
-
-
 </td>
 <td valign="top">
 
 Manage Database Tunnels
 
-
-
 </td>
 <td valign="top">
 
 Enables you to open tunnels to SAP HANA and SAP ASE databases.
-
-
 
 </td>
 </tr>
@@ -1694,28 +1298,20 @@ Enables you to open tunnels to SAP HANA and SAP ASE databases.
 
 Service Management
 
-
-
 </td>
 <td valign="top">
 
 listServices
-
-
 
 </td>
 <td valign="top">
 
 List Services
 
-
-
 </td>
 <td valign="top">
 
 Enables you to browse through the list of services and review their status in your subaccount.
-
-
 
 </td>
 </tr>
@@ -1724,14 +1320,10 @@ Enables you to browse through the list of services and review their status in yo
 
 manageServices
 
-
-
 </td>
 <td valign="top">
 
 Manage Services
-
-
 
 </td>
 <td valign="top">
@@ -1750,21 +1342,15 @@ Allows you to list and enable services in the cockpit.
 
 Subscription Management
 
-
-
 </td>
 <td valign="top">
 
 manageSubscriptions
 
-
-
 </td>
 <td valign="top">
 
 Manage Subscriptions
-
-
 
 </td>
 <td valign="top">
@@ -1783,14 +1369,10 @@ Enables you to manage subscribed Java and HTML5 applications.
 
 readSubscriptions
 
-
-
 </td>
 <td valign="top">
 
 View Subscriptions
-
-
 
 </td>
 <td valign="top">
@@ -1809,21 +1391,15 @@ Enables you to list your subscribed Java and HTML5 applications.
 
 Trust Management
 
-
-
 </td>
 <td valign="top">
 
 readTrustSettings
 
-
-
 </td>
 <td valign="top">
 
 View Trust Settings
-
-
 
 </td>
 <td valign="top">
@@ -1842,14 +1418,10 @@ Enables you to read trust configurations.
 
 manageTrustSettings
 
-
-
 </td>
 <td valign="top">
 
 Manage Trust Settings
-
-
 
 </td>
 <td valign="top">
@@ -1868,28 +1440,20 @@ Enables you to manage trust configurations \(change local provider, add trusted 
 
 Virtual Machines
 
-
-
 </td>
 <td valign="top">
 
 readVirtualMachines
-
-
 
 </td>
 <td valign="top">
 
 List Virtual Machines
 
-
-
 </td>
 <td valign="top">
 
 Enables you to list virtual machines, volumes, volume snapshots, security group rules, to get their status, and list virtual machine processes.
-
-
 
 </td>
 </tr>
@@ -1898,21 +1462,15 @@ Enables you to list virtual machines, volumes, volume snapshots, security group 
 
 manageVirtualMachines
 
-
-
 </td>
 <td valign="top">
 
 Manage Virtual Machines
 
-
-
 </td>
 <td valign="top">
 
 Enables you to create and delete virtual machines, volumes, volume snapshots, security group rules, and access points.
-
-
 
 </td>
 </tr>

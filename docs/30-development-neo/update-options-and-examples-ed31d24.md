@@ -28,14 +28,10 @@
 
 Version 1
 
-
-
 </th>
 <th valign="top">
 
 Version 2
-
-
 
 </th>
 </tr>
@@ -184,14 +180,10 @@ In the example above, the parameter `name` of the `demowebapp` module of the MTA
 
 Version 1
 
-
-
 </th>
 <th valign="top">
 
 Version 2
-
-
 
 </th>
 </tr>
@@ -333,14 +325,10 @@ In the example above, the module `demohtml5app` of type `com.sap.hcp.html5` is r
 
 Version 1
 
-
-
 </th>
 <th valign="top">
 
 Version 2
-
-
 
 </th>
 </tr>

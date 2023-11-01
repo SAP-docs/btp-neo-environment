@@ -26,14 +26,10 @@ The current version of Java EE 7 Web Profile TomEE application runtime container
 
 Specification version
 
-
-
 </th>
 <th valign="top">
 
 JSR
-
-
 
 </th>
 </tr>
@@ -42,14 +38,10 @@ JSR
 
 Java EE 7 \(Web Profile\)
 
-
-
 </td>
 <td valign="top">
 
 [JSR - 342](https://jcp.org/en/jsr/detail?id=342)
-
-
 
 </td>
 </tr>
@@ -58,14 +50,10 @@ Java EE 7 \(Web Profile\)
 
 Servlet 3.1
 
-
-
 </td>
 <td valign="top">
 
 [JSR - 340](http://jcp.org/en/jsr/detail?id=340)
-
-
 
 </td>
 </tr>
@@ -74,14 +62,10 @@ Servlet 3.1
 
 JavaServer Pages \(JSP\) 2.3
 
-
-
 </td>
 <td valign="top">
 
 [JSR - 245](http://jcp.org/en/jsr/detail?id=245)
-
-
 
 </td>
 </tr>
@@ -90,14 +74,10 @@ JavaServer Pages \(JSP\) 2.3
 
 Expression Language \(EL\) 3.0
 
-
-
 </td>
 <td valign="top">
 
 [JSR - 341](http://jcp.org/en/jsr/detail?id=341)
-
-
 
 </td>
 </tr>
@@ -106,14 +86,10 @@ Expression Language \(EL\) 3.0
 
 Debugging Support for Other Languages 1.0
 
-
-
 </td>
 <td valign="top">
 
 [JSR - 45](http://jcp.org/en/jsr/detail?id=45)
-
-
 
 </td>
 </tr>
@@ -122,14 +98,10 @@ Debugging Support for Other Languages 1.0
 
 Standard Tag Library for JavaServer Pages \(JSTL\) 1.2
 
-
-
 </td>
 <td valign="top">
 
 [JSR - 52](http://www.jcp.org/en/jsr/detail?id=52)
-
-
 
 </td>
 </tr>
@@ -138,14 +110,10 @@ Standard Tag Library for JavaServer Pages \(JSTL\) 1.2
 
 Java API for RESTful Web Services \(JAX-RS\) 2.0
 
-
-
 </td>
 <td valign="top">
 
 [JSR - 339](http://jcp.org/en/jsr/detail?id=339)
-
-
 
 </td>
 </tr>
@@ -154,14 +122,10 @@ Java API for RESTful Web Services \(JAX-RS\) 2.0
 
 JavaServer Faces \(JSF\) 2.2
 
-
-
 </td>
 <td valign="top">
 
 [JSR - 344](http://jcp.org/en/jsr/detail?id=344)
-
-
 
 </td>
 </tr>
@@ -170,14 +134,10 @@ JavaServer Faces \(JSF\) 2.2
 
 Common Annotations for Java Platform 1.2
 
-
-
 </td>
 <td valign="top">
 
 [JSR - 250](http://jcp.org/en/jsr/detail?id=250)
-
-
 
 </td>
 </tr>
@@ -196,8 +156,6 @@ Enterprise JavaBeans \(EJB\) Lite 3.2
 
 [JSR - 345](http://jcp.org/en/jsr/detail?id=345)
 
-
-
 </td>
 </tr>
 <tr>
@@ -205,14 +163,10 @@ Enterprise JavaBeans \(EJB\) Lite 3.2
 
 Java Transaction API \(JTA\) 1.2
 
-
-
 </td>
 <td valign="top">
 
 [JSR - 907](http://jcp.org/en/jsr/detail?id=907)
-
-
 
 </td>
 </tr>
@@ -221,14 +175,10 @@ Java Transaction API \(JTA\) 1.2
 
 Java Persistence API \(JPA\) 2.1
 
-
-
 </td>
 <td valign="top">
 
 [JSR - 338](http://jcp.org/en/jsr/detail?id=338)
-
-
 
 </td>
 </tr>
@@ -237,14 +187,10 @@ Java Persistence API \(JPA\) 2.1
 
 Dependency Injection for Java 1.0
 
-
-
 </td>
 <td valign="top">
 
 [JSR - 330](http://www.jcp.org/en/jsr/detail?id=330)
-
-
 
 </td>
 </tr>
@@ -253,14 +199,10 @@ Dependency Injection for Java 1.0
 
 Contexts and Dependency Injection for Java EE platform 1.1
 
-
-
 </td>
 <td valign="top">
 
 [JSR - 346](http://jcp.org/en/jsr/detail?id=346)
-
-
 
 </td>
 </tr>
@@ -269,14 +211,10 @@ Contexts and Dependency Injection for Java EE platform 1.1
 
 Bean Validation 1.1
 
-
-
 </td>
 <td valign="top">
 
 [JSR - 349](http://jcp.org/en/jsr/detail?id=349)
-
-
 
 </td>
 </tr>
@@ -285,14 +223,10 @@ Bean Validation 1.1
 
 Managed Beans 1.0
 
-
-
 </td>
 <td valign="top">
 
 [JSR - 316](http://jcp.org/en/jsr/detail?id=316)
-
-
 
 </td>
 </tr>
@@ -301,14 +235,10 @@ Managed Beans 1.0
 
 Interceptors 1.2
 
-
-
 </td>
 <td valign="top">
 
 [JSR - 345](http://jcp.org/en/jsr/detail?id=345)
-
-
 
 </td>
 </tr>

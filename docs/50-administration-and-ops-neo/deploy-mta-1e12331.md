@@ -37,8 +37,6 @@ To list all parameters available for this command, execute `neo help deploy-mta`
 
 Required
 
-
-
 </th>
 </tr>
 <tr>
@@ -46,14 +44,10 @@ Required
 
 `-a`, `--account` 
 
-
-
 </td>
 <td valign="top">
 
 The name of the subaccount for which you provide a user and a password.
-
-
 
 </td>
 </tr>
@@ -62,16 +56,12 @@ The name of the subaccount for which you provide a user and a password.
 
 `-h`, `--host` 
 
-
-
 </td>
 <td valign="top">
 
 Enter a region host.
 
 `Type`: URL. For acceptable values see [Regions](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/350356d1dc314d3199dca15bd2ab9b0e.html "You can deploy applications in different regions. Each region represents a geographical location (for example, Europe, US East) where applications, data, or services are hosted.") :arrow_upper_right:
-
-
 
 </td>
 </tr>
@@ -80,14 +70,10 @@ Enter a region host.
 
 `-p`, `--password` 
 
-
-
 </td>
 <td valign="top">
 
 Your user password. We recommend that you enter it only when prompted, and not explicitly as a parameter in a properties file or the command line.
-
-
 
 </td>
 </tr>
@@ -96,14 +82,10 @@ Your user password. We recommend that you enter it only when prompted, and not e
 
 `-u`, `--user` 
 
-
-
 </td>
 <td valign="top">
 
 Your user e-mail or SAP ID \(SCN\) user name.
-
-
 
 </td>
 </tr>
@@ -112,14 +94,10 @@ Your user e-mail or SAP ID \(SCN\) user name.
 
 `-s`, `--source` 
 
-
-
 </td>
 <td valign="top">
 
 A comma-separated list of file locations, pointing to the MTA archive files, or the folders containing them.
-
-
 
 </td>
 </tr>
@@ -132,16 +110,12 @@ A comma-separated list of file locations, pointing to the MTA archive files, or 
 
 Optional
 
-
-
 </th>
 </tr>
 <tr>
 <td valign="top" colspan="2">
 
 **Command-specific parameters**
-
-
 
 </td>
 </tr>
@@ -150,14 +124,10 @@ Optional
 
 `-y`, `--synchronous` 
 
-
-
 </td>
 <td valign="top">
 
 Triggers the deployment and waits until the deployment operation finishes. The command without the `--synchronous` parameter triggers deployment and exits immediately without waiting for the operation to finish. Takes no value.
-
-
 
 </td>
 </tr>
@@ -166,14 +136,10 @@ Triggers the deployment and waits until the deployment operation finishes. The c
 
 `-e`, `--extensions` 
 
-
-
 </td>
 <td valign="top">
 
 Defines one or more extensions to the deployment descriptor. A comma-separated list of file locations, pointing to the extension descriptor files, or the folders containing them. For more information, see [Defining MTA Extension Descriptors](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/50df803465324d36851c79fd07e8972c.html "") :arrow_upper_right:.
-
-
 
 </td>
 </tr>
@@ -182,14 +148,10 @@ Defines one or more extensions to the deployment descriptor. A comma-separated l
 
 `--mode` 
 
-
-
 </td>
 <td valign="top">
 
 Defines whether the deployment method is a standard deployment, or provider deployment. The available values are `import` \(default value\), or `providerImport`.
-
-
 
 </td>
 </tr>

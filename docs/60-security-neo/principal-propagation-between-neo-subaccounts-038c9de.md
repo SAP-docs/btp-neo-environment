@@ -71,15 +71,11 @@ The graphic below illustrates the overall setup of the scenario.
         <th valign="top">
 
         Field
-
-
         
         </th>
         <th valign="top">
 
         Description
-
-
         
         </th>
         </tr>
@@ -87,15 +83,11 @@ The graphic below illustrates the overall setup of the scenario.
         <td valign="top">
         
         Name
-
-
         
         </td>
         <td valign="top">
         
         The *Local Provider Name* of the first subaccount, which you copied in step 1.
-
-
         
         </td>
         </tr>
@@ -103,15 +95,11 @@ The graphic below illustrates the overall setup of the scenario.
         <td valign="top">
         
         Signing Certificate
-
-
         
         </td>
         <td valign="top">
         
         The *Signing Certificate* of the first subaccount, which you copied in step 1.
-
-
         
         </td>
         </tr>
@@ -155,15 +143,11 @@ Connect the first subaccount, to the second subaccount by describing the source 
     <th valign="top">
 
     Field
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     </tr>
@@ -171,8 +155,6 @@ Connect the first subaccount, to the second subaccount by describing the source 
     <td valign="top">
     
     Name
-
-
     
     </td>
     <td valign="top">
@@ -190,8 +172,6 @@ Connect the first subaccount, to the second subaccount by describing the source 
     <td valign="top">
     
     URL
-
-
     
     </td>
     <td valign="top">
@@ -199,8 +179,6 @@ Connect the first subaccount, to the second subaccount by describing the source 
     The URL of the protected resource that you want to access \(the first application\). See [Configuring Application URLs](../50-administration-and-ops-neo/configuring-application-urls-7ceeaa5.md).
 
     Example: `https://myappmysubaccount.hana.ondemand.com/`
-
-
     
     </td>
     </tr>
@@ -208,15 +186,11 @@ Connect the first subaccount, to the second subaccount by describing the source 
     <td valign="top">
     
     Authentication
-
-
     
     </td>
     <td valign="top">
     
     AppToAppSSO
-
-
     
     </td>
     </tr>

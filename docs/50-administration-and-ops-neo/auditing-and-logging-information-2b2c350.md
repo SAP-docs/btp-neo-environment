@@ -31,21 +31,15 @@ The following table contains the object names and actions related to the Custom 
 
 Event grouping
 
-
-
 </th>
 <th valign="top">
 
 What events are logged
 
-
-
 </th>
 <th valign="top">
 
 How to identify related log events
-
-
 
 </th>
 </tr>
@@ -56,14 +50,10 @@ Events related to SSL hosts
 
 Object name: **sslhost**
 
-
-
 </td>
 <td valign="top">
 
 Create SSL host
-
-
 
 </td>
 <td valign="top">
@@ -74,16 +64,12 @@ Create SSL host
 
 **create failed** - Creation of SSL host failed
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Delete SSL host
-
-
 
 </td>
 <td valign="top">
@@ -94,16 +80,12 @@ Delete SSL host
 
 **delete failed** - Deletion of SSL host failed
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Bind certificate
-
-
 
 </td>
 <td valign="top">
@@ -114,16 +96,12 @@ Bind certificate
 
 **bind-certificate failed** - Bind of uploaded domain certificate to SSL host failed
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Unbind certificate
-
-
 
 </td>
 <td valign="top">
@@ -134,8 +112,6 @@ Unbind certificate
 
 **unbind-certificate failed** - Unbind of uploaded domain certificate to SSL host failed
 
-
-
 </td>
 </tr>
 <tr>
@@ -145,16 +121,12 @@ Events related to custom domain mappings
 
 Object name: **sslhost**
 
-
-
 </td>
 <td valign="top">
 
 Add custom domain mapping
 
 "platformUrl"="example.hana.ondemand.com"
-
-
 
 </td>
 <td valign="top">
@@ -165,8 +137,6 @@ Add custom domain mapping
 
 **update-mapping failed** - Addition of custom domain mapping failed
 
-
-
 </td>
 </tr>
 <tr>
@@ -175,8 +145,6 @@ Add custom domain mapping
 Remove custom domain mapping
 
 "platformUrl"="null"
-
-
 
 </td>
 <td valign="top">
@@ -187,8 +155,6 @@ Remove custom domain mapping
 
 **update-mapping failed** - Removal of custom domain mapping failed
 
-
-
 </td>
 </tr>
 <tr>
@@ -198,14 +164,10 @@ Events related to client certificate authentication
 
 Object name: **sslhost**
 
-
-
 </td>
 <td valign="top">
 
 Configure client certificate authentication
-
-
 
 </td>
 <td valign="top">
@@ -216,16 +178,12 @@ Configure client certificate authentication
 
 **configure-client-cert-auth failed** - Configuration of client certificate authentication failed
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Delete client certificate authentication
-
-
 
 </td>
 <td valign="top">
@@ -236,8 +194,6 @@ Delete client certificate authentication
 
 **delete-client-cert-cfg failed** - Deletion of configured client certificate authentication failed
 
-
-
 </td>
 </tr>
 <tr>
@@ -247,14 +203,10 @@ Events related to IP filtering
 
 Object name: **ip-filtering**
 
-
-
 </td>
 <td valign="top">
 
 Configure IP filtering
-
-
 
 </td>
 <td valign="top">
@@ -265,16 +217,12 @@ Configure IP filtering
 
 **configure-ip-filtering failed** - Configuration of IP filtering failed
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Delete IP filtering
-
-
 
 </td>
 <td valign="top">
@@ -285,8 +233,6 @@ Delete IP filtering
 
 **delete-ip-filtering failed** - Deletion of configured IP filtering failed
 
-
-
 </td>
 </tr>
 <tr>
@@ -296,14 +242,10 @@ Events related to certificates
 
 Object name: **certificate**
 
-
-
 </td>
 <td valign="top">
 
 Generate CSR
-
-
 
 </td>
 <td valign="top">
@@ -314,16 +256,12 @@ Generate CSR
 
 **create failed** - Generation of CSR failed
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Upload certificate
-
-
 
 </td>
 <td valign="top">
@@ -334,8 +272,6 @@ Upload certificate
 
 **upload failed** - Upload of domain certificate failed
 
-
-
 </td>
 </tr>
 <tr>
@@ -344,8 +280,6 @@ Upload certificate
 Update certificate
 
 Available when you're using the `force` parameter \("forceFlag":"true"\).
-
-
 
 </td>
 <td valign="top">
@@ -358,8 +292,6 @@ Available when you're using the `force` parameter \("forceFlag":"true"\).
 
 **upload finished** - Update of domain certificate failed
 
-
-
 </td>
 </tr>
 <tr>
@@ -368,8 +300,6 @@ Available when you're using the `force` parameter \("forceFlag":"true"\).
 Update certificate
 
 Available when the `force` parameter is missing \("forceFlag":"null"\), you're not using it \("forceFlag":"false"\), or you're using it \("forceFlag":"true"\), but an error has occurred while uploading or deleting the certificate.
-
-
 
 </td>
 <td valign="top">
@@ -380,16 +310,12 @@ Available when the `force` parameter is missing \("forceFlag":"null"\), you're n
 
 **update failed** - Update of domain certificate failed
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Delete certificate
-
-
 
 </td>
 <td valign="top">
@@ -400,16 +326,12 @@ Delete certificate
 
 **delete failed** - Deletion of domain certificate failed
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Upload trusted CA certificate
-
-
 
 </td>
 <td valign="top">
@@ -420,16 +342,12 @@ Upload trusted CA certificate
 
 **upload-ca failed** - Upload of trusted CA certificate failed
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Delete trusted CA certificate
-
-
 
 </td>
 <td valign="top">
@@ -440,8 +358,6 @@ Delete trusted CA certificate
 
 **delete-ca failed** - Deletion of trusted CA certificate failed
 
-
-
 </td>
 </tr>
 <tr>
@@ -451,14 +367,10 @@ Events related to reverse proxy configurations
 
 Object name: **reverse-proxy**
 
-
-
 </td>
 <td valign="top">
 
 Add proxy host mapping
-
-
 
 </td>
 <td valign="top">
@@ -469,16 +381,12 @@ Add proxy host mapping
 
 **add-proxy-mapping failed** - Addition of reverse proxy host mapping failed
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Update proxy host mapping
-
-
 
 </td>
 <td valign="top">
@@ -489,16 +397,12 @@ Update proxy host mapping
 
 **update-proxy-mapping failed** - Update of reverse proxy host mapping failed
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Delete proxy host mapping
-
-
 
 </td>
 <td valign="top">
@@ -508,8 +412,6 @@ Delete proxy host mapping
 **delete-proxy-mapping finished** - Deletion of reverse proxy host mapping completed
 
 **delete-proxy-mapping failed** - Deletion of reverse proxy host mapping failed
-
-
 
 </td>
 </tr>

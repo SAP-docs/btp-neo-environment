@@ -33,21 +33,15 @@ Depending on their needs, customers can choose from the following compute unit c
 
 Compute Unit
 
-
-
 </th>
 <th valign="top">
 
 Configuration
 
-
-
 </th>
 <th valign="top">
 
 Size Parameter Value
-
-
 
 </th>
 </tr>
@@ -56,21 +50,15 @@ Size Parameter Value
 
 Lite edition
 
-
-
 </td>
 <td valign="top">
 
 1 CPU Core; 3072 MB Main memory
 
-
-
 </td>
 <td valign="top">
 
 *lite* 
-
-
 
 </td>
 </tr>
@@ -79,21 +67,15 @@ Lite edition
 
 Professional edition
 
-
-
 </td>
 <td valign="top">
 
 2 CPU Cores; 4096 MB Main memory
 
-
-
 </td>
 <td valign="top">
 
 *pro* 
-
-
 
 </td>
 </tr>
@@ -102,21 +84,15 @@ Professional edition
 
 Premium edition
 
-
-
 </td>
 <td valign="top">
 
 4 CPU Cores; 8192 MB Main memory
 
-
-
 </td>
 <td valign="top">
 
 *prem* 
-
-
 
 </td>
 </tr>
@@ -125,21 +101,15 @@ Premium edition
 
 Premium Plus edition
 
-
-
 </td>
 <td valign="top">
 
 8 CPU Cores; 16384 MB Main memory
 
-
-
 </td>
 <td valign="top">
 
 *prem-plus* 
-
-
 
 </td>
 </tr>
@@ -158,5 +128,5 @@ For more information, see [deploy](../50-administration-and-ops-neo/deploy-937db
 
 [Account Model](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/8ed4a705efa0431b910056c0acdbf377.html#loio8ed4a705efa0431b910056c0acdbf377 "Learn more about the different types of accounts on SAP BTP and how they relate to each other.") :arrow_upper_right:
 
-[Configure Entitlements and Quotas for Subaccounts](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/5ba357b4fa1e4de4b9fcc4ae771609da.html "Assign entitlements to subaccounts by adding service plans and distribute the quotas available in your global account to your subaccounts using the SAP BTP cockpit.") :arrow_upper_right:
+[Configure Entitlements and Quotas for Subaccounts](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/5ba357b4fa1e4de4b9fcc4ae771609da.html "Distribute the entitlements that are available in your global account by adding service plans and their allowed quotas to your subaccounts using the SAP BTP cockpit.") :arrow_upper_right:
 

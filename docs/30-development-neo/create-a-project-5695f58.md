@@ -41,15 +41,11 @@ A project is needed to create files and to make them available in the cockpit.
     <th valign="top">
 
     Field
-
-
     
     </th>
     <th valign="top">
 
     Entry
-
-
     
     </th>
     </tr>
@@ -57,15 +53,11 @@ A project is needed to create files and to make them available in the cockpit.
     <td valign="top">
     
     *View Type*
-
-
     
     </td>
     <td valign="top">
     
     Select *JavaScript*.
-
-
     
     </td>
     </tr>
@@ -73,15 +65,11 @@ A project is needed to create files and to make them available in the cockpit.
     <td valign="top">
     
     *View Name*
-
-
     
     </td>
     <td valign="top">
     
     Enter `HelloWorld` \(without spaces\).
-
-
     
     </td>
     </tr>

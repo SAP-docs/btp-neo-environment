@@ -31,8 +31,6 @@ neo stop-local
 
 Optional
 
-
-
 </th>
 </tr>
 <tr>
@@ -40,16 +38,12 @@ Optional
 
 `--shutdown-port`
 
-
-
 </td>
 <td valign="top">
 
 Shutdown port opened by server
 
 `Default`: *8003*
-
-
 
 </td>
 </tr>

@@ -71,21 +71,15 @@ You need to configure how the local service provider communicates with the ident
 
 Local Service Provider Configuration
 
-
-
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 When to Use
-
-
 
 </th>
 </tr>
@@ -94,21 +88,15 @@ When to Use
 
 Default
 
-
-
 </td>
 <td valign="top">
 
 The local provider's own trust settings will inherit the SAP BTP default configuration \(which is trust to **SAP ID service**\).
 
-
-
 </td>
 <td valign="top">
 
 For testing and exploring the scenario
-
-
 
 </td>
 </tr>
@@ -117,21 +105,15 @@ For testing and exploring the scenario
 
 None
 
-
-
 </td>
 <td valign="top">
 
 The local provider will have no trust settings, and it will not participate in any identity federation scenario.
 
-
-
 </td>
 <td valign="top">
 
 For disabling identity federation for your account
-
-
 
 </td>
 </tr>
@@ -140,21 +122,15 @@ For disabling identity federation for your account
 
 Custom
 
-
-
 </td>
 <td valign="top">
 
 The local provider settings will have a specific configuration, different from the default configuration for SAP BTP.
 
-
-
 </td>
 <td valign="top">
 
 For identity federation with a corporate identity provider or Identity Authentication tenant
-
-
 
 </td>
 </tr>
@@ -169,14 +145,10 @@ In addition, you can configure the following local service provider settings:
 
 Local Service Provider Configuration \(Additional\)
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -185,14 +157,10 @@ Description
 
 Principal Propagation
 
-
-
 </td>
 <td valign="top">
 
 If you set it to *Enabled*, you enable applications to propagate principal information to each other. Choose this value if you want to enable application-to-application single sign-on. Otherwise, set this option to *Disabled*.
-
-
 
 </td>
 </tr>
@@ -201,14 +169,10 @@ If you set it to *Enabled*, you enable applications to propagate principal infor
 
 Force authentication
 
-
-
 </td>
 <td valign="top">
 
 If you set it to *Enabled*, you enable force authentication for your application \(despite SSO, users will have to re-authenticate each time they access it\). Otherwise, set this option to *Disabled*.
-
-
 
 </td>
 </tr>
@@ -349,15 +313,11 @@ After clicking *Save* you should get a message that you can proceed with the con
     <th valign="top">
 
     Field
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     </tr>
@@ -365,15 +325,11 @@ After clicking *Save* you should get a message that you can proceed with the con
     <td valign="top">
     
     Metadata File
-
-
     
     </td>
     <td valign="top">
     
     The metadata XML file of the identity provider.
-
-
     
     </td>
     </tr>
@@ -381,15 +337,11 @@ After clicking *Save* you should get a message that you can proceed with the con
     <td valign="top">
     
     Name
-
-
     
     </td>
     <td valign="top">
     
     The entity ID of the IdP, also known as the issuer.
-
-
     
     </td>
     </tr>
@@ -397,15 +349,11 @@ After clicking *Save* you should get a message that you can proceed with the con
     <td valign="top">
     
     Description
-
-
     
     </td>
     <td valign="top">
     
     A short description of the IdP.
-
-
     
     </td>
     </tr>
@@ -413,8 +361,6 @@ After clicking *Save* you should get a message that you can proceed with the con
     <td valign="top">
     
     Assertion Consumer Service
-
-
     
     </td>
     <td valign="top">
@@ -424,8 +370,6 @@ After clicking *Save* you should get a message that you can proceed with the con
     In the common case, select *Application Root* as value.
 
     If you have an identity provider that would not send the SAML assertion to unknown URLs to them, select the *Assertion Consumer Service* option. This is the case with Microsoft ADFS, for example.
-
-
     
     </td>
     </tr>
@@ -433,15 +377,11 @@ After clicking *Save* you should get a message that you can proceed with the con
     <td valign="top">
     
     Single Sign-on URL
-
-
     
     </td>
     <td valign="top">
     
     The IdP's endpoint \(URL\) to which the SP's authentication request will be sent.
-
-
     
     </td>
     </tr>
@@ -449,15 +389,11 @@ After clicking *Save* you should get a message that you can proceed with the con
     <td valign="top">
     
     Single Sign-on Binding
-
-
     
     </td>
     <td valign="top">
     
     The SAML-specified HTTP binding used by the SP to send the authentication request.
-
-
     
     </td>
     </tr>
@@ -465,8 +401,6 @@ After clicking *Save* you should get a message that you can proceed with the con
     <td valign="top">
     
     Single Logout URL
-
-
     
     </td>
     <td valign="top">
@@ -484,15 +418,11 @@ After clicking *Save* you should get a message that you can proceed with the con
     <td valign="top">
     
     Signature Algorithm
-
-
     
     </td>
     <td valign="top">
     
     The cryptographic algorithm used to compute the digest of the digital signatures in the SAML protocol messages.
-
-
     
     </td>
     </tr>
@@ -500,15 +430,11 @@ After clicking *Save* you should get a message that you can proceed with the con
     <td valign="top">
     
     Signing Certificate
-
-
     
     </td>
     <td valign="top">
     
     The X.509 certificate used by the IdP to digitally sign the SAML protocol messages.
-
-
     
     </td>
     </tr>
@@ -516,15 +442,11 @@ After clicking *Save* you should get a message that you can proceed with the con
     <td valign="top">
     
     User ID Source
-
-
     
     </td>
     <td valign="top">
     
     Location in the SAML assertion from where the user's unique name \(ID\) is taken when logging into the Cloud. If you choose subject, this is taken from the name identifier in the assertions's subject \(<saml:Subject\>\) element. If you choose attribute, the user's name is taken from an SAML attribute in the assertion.
-
-
     
     </td>
     </tr>
@@ -532,15 +454,11 @@ After clicking *Save* you should get a message that you can proceed with the con
     <td valign="top">
     
     Source Value
-
-
     
     </td>
     <td valign="top">
     
     Name of the SAML attribute that defines the user ID on the cloud.
-
-
     
     </td>
     </tr>
@@ -548,15 +466,11 @@ After clicking *Save* you should get a message that you can proceed with the con
     <td valign="top">
     
     User ID Prefix
-
-
     
     </td>
     <td valign="top">
     
     An optional prefix added to the user ID on the cloud.
-
-
     
     </td>
     </tr>
@@ -564,15 +478,11 @@ After clicking *Save* you should get a message that you can proceed with the con
     <td valign="top">
     
     User ID Suffix
-
-
     
     </td>
     <td valign="top">
     
     An optional suffix appended to the user ID on the cloud.
-
-
     
     </td>
     </tr>
@@ -580,8 +490,6 @@ After clicking *Save* you should get a message that you can proceed with the con
     <td valign="top">
     
     Enabled
-
-
     
     </td>
     <td valign="top">
@@ -599,8 +507,6 @@ After clicking *Save* you should get a message that you can proceed with the con
     <td valign="top">
     
     Only for IDP-initiated SSO
-
-
     
     </td>
     <td valign="top">
@@ -618,15 +524,11 @@ After clicking *Save* you should get a message that you can proceed with the con
     <td valign="top">
     
     Only for OAuth2 SAML Bearer flow
-
-
     
     </td>
     <td valign="top">
     
     The IdP will only be used to validate SAML Assertions received via the OAuth SAML Bearer Flow. This allows a more fine-granular and secure control of which IdPs are allowed during login.
-
-
     
     </td>
     </tr>
@@ -744,15 +646,11 @@ You may need to use a different identity provider \(IdP\) for each security scen
     <th valign="top">
 
     Field
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     </tr>
@@ -760,8 +658,6 @@ You may need to use a different identity provider \(IdP\) for each security scen
     <td valign="top">
     
     Only for IDP-initiated SSO
-
-
     
     </td>
     <td valign="top">
@@ -779,15 +675,11 @@ You may need to use a different identity provider \(IdP\) for each security scen
     <td valign="top">
     
     Only for OAuth2 SAML Bearer flow
-
-
     
     </td>
     <td valign="top">
     
     The IdP will only be used to validate SAML Assertions received via the OAuth SAML Bearer Flow. This allows a more fine-granular and secure control of which IdPs are allowed during login.
-
-
     
     </td>
     </tr>
@@ -805,15 +697,11 @@ You may need to use a different identity provider \(IdP\) for each security scen
     <th valign="top">
 
     Technical Key of Region
-
-
     
     </th>
     <th valign="top">
 
     Service Provider Name
-
-
     
     </th>
     </tr>
@@ -821,15 +709,11 @@ You may need to use a different identity provider \(IdP\) for each security scen
     <td valign="top">
     
     neo-eu1
-
-
     
     </td>
     <td valign="top">
     
     https://netweaver.ondemand.com
-
-
     
     </td>
     </tr>
@@ -837,15 +721,11 @@ You may need to use a different identity provider \(IdP\) for each security scen
     <td valign="top">
     
     neo-eu2
-
-
     
     </td>
     <td valign="top">
     
     https://eu2.hana.ondemand.com/
-
-
     
     </td>
     </tr>
@@ -853,15 +733,11 @@ You may need to use a different identity provider \(IdP\) for each security scen
     <td valign="top">
     
     neo-eu3
-
-
     
     </td>
     <td valign="top">
     
     https://eu3.hana.ondemand.com
-
-
     
     </td>
     </tr>
@@ -869,15 +745,11 @@ You may need to use a different identity provider \(IdP\) for each security scen
     <td valign="top">
     
     neo-us1
-
-
     
     </td>
     <td valign="top">
     
     https://us1.hana.ondemand.com/
-
-
     
     </td>
     </tr>
@@ -885,15 +757,11 @@ You may need to use a different identity provider \(IdP\) for each security scen
     <td valign="top">
     
     neo-us2
-
-
     
     </td>
     <td valign="top">
     
     https://us2.hana.ondemand.com
-
-
     
     </td>
     </tr>
@@ -901,15 +769,11 @@ You may need to use a different identity provider \(IdP\) for each security scen
     <td valign="top">
     
     neo-us3
-
-
     
     </td>
     <td valign="top">
     
     https://us3.hana.ondemand.com
-
-
     
     </td>
     </tr>
@@ -917,15 +781,11 @@ You may need to use a different identity provider \(IdP\) for each security scen
     <td valign="top">
     
     neo-us4
-
-
     
     </td>
     <td valign="top">
     
     https://us4.hana.ondemand.com
-
-
     
     </td>
     </tr>
@@ -933,15 +793,11 @@ You may need to use a different identity provider \(IdP\) for each security scen
     <td valign="top">
     
     neo-ap1
-
-
     
     </td>
     <td valign="top">
     
     ap1.hana.ondemand.com
-
-
     
     </td>
     </tr>
@@ -949,15 +805,11 @@ You may need to use a different identity provider \(IdP\) for each security scen
     <td valign="top">
     
     neo-ap2
-
-
     
     </td>
     <td valign="top">
     
     https://ap2.hana.ondemand.com
-
-
     
     </td>
     </tr>
@@ -965,15 +817,11 @@ You may need to use a different identity provider \(IdP\) for each security scen
     <td valign="top">
     
     neo-jp1
-
-
     
     </td>
     <td valign="top">
     
     https://jp1.hana.ondemand.com
-
-
     
     </td>
     </tr>
@@ -981,15 +829,11 @@ You may need to use a different identity provider \(IdP\) for each security scen
     <td valign="top">
     
     neo-jp2
-
-
     
     </td>
     <td valign="top">
     
     https://jp2.hana.ondemand.com
-
-
     
     </td>
     </tr>
@@ -997,15 +841,11 @@ You may need to use a different identity provider \(IdP\) for each security scen
     <td valign="top">
     
     neo-cn1
-
-
     
     </td>
     <td valign="top">
     
     https://cn1.hana.ondemand.com
-
-
     
     </td>
     </tr>
@@ -1013,15 +853,11 @@ You may need to use a different identity provider \(IdP\) for each security scen
     <td valign="top">
     
     neo-cn2
-
-
     
     </td>
     <td valign="top">
     
     https://cn2.hana.ondemand.com
-
-
     
     </td>
     </tr>
@@ -1029,15 +865,11 @@ You may need to use a different identity provider \(IdP\) for each security scen
     <td valign="top">
     
     neo-br1
-
-
     
     </td>
     <td valign="top">
     
     https://br1.hana.ondemand.com
-
-
     
     </td>
     </tr>
@@ -1045,15 +877,11 @@ You may need to use a different identity provider \(IdP\) for each security scen
     <td valign="top">
     
     neo-br2
-
-
     
     </td>
     <td valign="top">
     
     https://br2.hana.ondemand.com
-
-
     
     </td>
     </tr>
@@ -1061,15 +889,11 @@ You may need to use a different identity provider \(IdP\) for each security scen
     <td valign="top">
     
     neo-ae1
-
-
     
     </td>
     <td valign="top">
     
     https://ae1.hana.ondemand.com
-
-
     
     </td>
     </tr>
@@ -1077,15 +901,11 @@ You may need to use a different identity provider \(IdP\) for each security scen
     <td valign="top">
     
     CA1
-
-
     
     </td>
     <td valign="top">
     
     https://ca1.hana.ondemand.com
-
-
     
     </td>
     </tr>

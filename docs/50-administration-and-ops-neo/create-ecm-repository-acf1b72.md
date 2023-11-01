@@ -31,16 +31,12 @@ neo create-ecm-repository --account <subaccount_technical_name>  --host <host> -
 
 Required
 
-
-
 </th>
 </tr>
 <tr>
 <td valign="top">
 
 `-a`, `--account`
-
-
 
 </td>
 <td valign="top">
@@ -51,16 +47,12 @@ Specify an existing subaccount of which you are already a member.
 
 `Type`: string \(up to 30 characters; lowercase letters and numbers, starting with a letter\)
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-h`, `--host`
-
-
 
 </td>
 <td valign="top">
@@ -69,16 +61,12 @@ Enter a region host.
 
 `Type`: URL. For acceptable values see [Regions](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/350356d1dc314d3199dca15bd2ab9b0e.html "You can deploy applications in different regions. Each region represents a geographical location (for example, Europe, US East) where applications, data, or services are hosted.") :arrow_upper_right:
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-u`, `--user`
-
-
 
 </td>
 <td valign="top">
@@ -87,16 +75,12 @@ Use your email, SAP ID, or user name.
 
 `Type`: string
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-n`, `--name`
-
-
 
 </td>
 <td valign="top">
@@ -105,8 +89,6 @@ Name of the repository
 
 `Type`: string
 
-
-
 </td>
 </tr>
 <tr>
@@ -114,16 +96,12 @@ Name of the repository
 
 `-k`, `--key`
 
-
-
 </td>
 <td valign="top">
 
 Key of the repository
 
 `Type`: string
-
-
 
 </td>
 </tr>
@@ -136,16 +114,12 @@ Key of the repository
 
 Optional
 
-
-
 </th>
 </tr>
 <tr>
 <td valign="top">
 
 `-d`, `--display-name`
-
-
 
 </td>
 <td valign="top">
@@ -154,16 +128,12 @@ Can be used to provide a more readable name of the repository. Equals the --name
 
 `Type`: string \(up to 30 characters; lowercase letters and numbers, starting with a letter\)
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-e`, `--description`
-
-
 
 </td>
 <td valign="top">
@@ -172,16 +142,12 @@ Description of the repository. You cannot change the description later on.
 
 `Type`: string
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-v`, `--virus-scan`
-
-
 
 </td>
 <td valign="top">
@@ -197,8 +163,6 @@ Can be used to activate the virus scanner and check all incoming documents for v
 
 If a virus is detected, the upload process for the document fails with a virus scanner exception.
 
-
-
 </td>
 </tr>
 <tr>
@@ -206,16 +170,12 @@ If a virus is detected, the upload process for the document fails with a virus s
 
 `-p`, `--password`
 
-
-
 </td>
 <td valign="top">
 
 To protect your password, enter it only when prompted by the console client and not explicitly as a parameter in the properties file or the command line.
 
 `Type`: string
-
-
 
 </td>
 </tr>

@@ -39,14 +39,10 @@ To use the console client commands, you have to:
 
 Group
 
-
-
 </th>
 <th valign="top">
 
 Commands
-
-
 
 </th>
 </tr>
@@ -55,14 +51,10 @@ Commands
 
 Local Server
 
-
-
 </td>
 <td valign="top">
 
 [install-local](install-local-8527947.md); [deploy-local](deploy-local-8fdc143.md); [start-local](start-local-cd54325.md); [stop-local](stop-local-ee02d4d.md)
-
-
 
 </td>
 </tr>
@@ -70,8 +62,6 @@ Local Server
 <td valign="top">
 
 Deployment
-
-
 
 </td>
 <td valign="top">
@@ -90,16 +80,12 @@ Deployment
 
 [clear-downtime-app](clear-downtime-app-c9ae25a.md); [set-downtime-app](set-downtime-app-1672997.md) 
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Logging
-
-
 
 </td>
 <td valign="top">
@@ -108,16 +94,12 @@ Logging
 
 [list-loggers](list-loggers-9033ddc.md); [set-log-level](set-log-level-1b495d7.md); [reset-log-levels](reset-log-levels-b14bd37.md)
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Monitoring
-
-
 
 </td>
 <td valign="top">
@@ -128,8 +110,6 @@ Monitoring
 
 [list-alert-recipients](list-alert-recipients-f326f9d.md); [set-alert-recipients](set-alert-recipients-6dae74f.md); [clear-alert-recipients](clear-alert-recipients-0f2b2cd.md)
 
-
-
 </td>
 </tr>
 <tr>
@@ -137,14 +117,10 @@ Monitoring
 
 Keystore
 
-
-
 </td>
 <td valign="top">
 
 [list-keystores](list-keystores-fa3c4af.md); [upload-keystore](upload-keystore-dea2506.md); [download-keystore](download-keystore-b45597c.md); [delete-keystore](delete-keystore-0c8539c.md);
-
-
 
 </td>
 </tr>
@@ -152,8 +128,6 @@ Keystore
 <td valign="top">
 
 Connectivity
-
-
 
 </td>
 <td valign="top">
@@ -164,16 +138,12 @@ Connectivity
 
 [delete-destination](delete-destination-b5ccd2f.md)
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 SAP HANA / SAP ASE
-
-
 
 </td>
 <td valign="top">
@@ -198,8 +168,6 @@ SAP HANA / SAP ASE
 
 [grant-db-access](grant-db-access-e7d72bf.md); [list-db-access-permissions](list-db-access-permissions-28a6218.md); [revoke-db-access](revoke-db-access-a0265c4.md)
 
-
-
 </td>
 </tr>
 <tr>
@@ -207,14 +175,10 @@ SAP HANA / SAP ASE
 
 Document Service
 
-
-
 </td>
 <td valign="top">
 
 [add-ecm-tenant](add-ecm-tenant-8b08f49.md); [create-ecm-repository](create-ecm-repository-acf1b72.md); [delete-ecm-repository](delete-ecm-repository-fb09811.md); [display-ecm-repository](display-ecm-repository-ed676ca.md); [edit-ecm-repository](edit-ecm-repository-279edd1.md); [list-ecm-repositories](list-ecm-repositories-169e3ae.md); [reset-ecm-key](reset-ecm-key-5434b2d.md)
-
-
 
 </td>
 </tr>
@@ -223,14 +187,10 @@ Document Service
 
 Subaccounts and Entitlements
 
-
-
 </td>
 <td valign="top">
 
 [create-account](create-account-05f96cf.md); [delete-account](delete-account-8bd9552.md); [list-accounts](list-accounts-2abad16.md); [set-quota](set-quota-4108f0f.md)
-
-
 
 </td>
 </tr>
@@ -239,14 +199,10 @@ Subaccounts and Entitlements
 
 Subscription Management
 
-
-
 </td>
 <td valign="top">
 
 [subscribe](subscribe-4c6203d.md); [unsubscribe](unsubscribe-862d00e.md); [list-subscribed-accounts](list-subscribed-accounts-034244c.md); [list-subscribed-applications](list-subscribed-applications-67d5c6f.md)
-
-
 
 </td>
 </tr>
@@ -255,14 +211,10 @@ Subscription Management
 
 Application Domains
 
-
-
 </td>
 <td valign="top">
 
 [add-custom-domain](add-custom-domain-ebc5269.md); [add-platform-domain](add-platform-domain-7afd450.md); [list-application-domains](list-application-domains-51f8bd8.md); [remove-custom-domain](remove-custom-domain-de15ca8.md); [remove-platform-domain](remove-platform-domain-96c6d24.md)
-
-
 
 </td>
 </tr>
@@ -270,8 +222,6 @@ Application Domains
 <td valign="top">
 
 Custom SSL
-
-
 
 </td>
 <td valign="top">
@@ -282,8 +232,6 @@ Custom SSL
 
 [bind-domain-certificate](bind-domain-certificate-8722bcb.md); [change-domain-certificate](change-domain-certificate-53aa1f3.md); [delete-domain-certificate](delete-domain-certificate-c3076cc.md); [list-domain-certificates](list-domain-certificates-dfb8438.md); [unbind-domain-certificate](unbind-domain-certificate-f8d24b6.md); [upload-domain-certificate](upload-domain-certificate-bb54abf.md)
 
-
-
 </td>
 </tr>
 <tr>
@@ -291,14 +239,10 @@ Custom SSL
 
 Reverse-Proxy
 
-
-
 </td>
 <td valign="top">
 
 [list-proxy-host-mappings](list-proxy-host-mappings-9fbd139.md); [map-proxy-host](map-proxy-host-12b5cc4.md); [unmap-proxy-host](unmap-proxy-host-10ddad9.md) 
-
-
 
 </td>
 </tr>
@@ -307,14 +251,10 @@ Reverse-Proxy
 
 Resources
 
-
-
 </td>
 <td valign="top">
 
 [delete-resource \(Beta\)](delete-resource-beta-09aca8e.md) 
-
-
 
 </td>
 </tr>
@@ -323,14 +263,10 @@ Resources
 
 System
 
-
-
 </td>
 <td valign="top">
 
 [version](version-7f6d786.md); [sdk-upgrade](sdk-upgrade-44dc673.md) 
-
-
 
 </td>
 </tr>
@@ -339,14 +275,10 @@ System
 
 Extensions
 
-
-
 </td>
 <td valign="top">
 
 [hcmcloud-create-connection](hcmcloud-create-connection-ba4e8bb.md); [hcmcloud-delete-connection](hcmcloud-delete-connection-1445cb5.md); [hcmcloud-disable-application-access](hcmcloud-disable-application-access-99e8674.md); [hcmcloud-display-application-access-status](hcmcloud-display-application-access-status-75eac93.md); [hcmcloud-enable-application-access](hcmcloud-enable-application-access-da0e8ba.md); [hcmcloud-enable-role-provider](hcmcloud-enable-role-provider-e263f8e.md); [hcmcloud-get-registered-home-page-tiles](hcmcloud-get-registered-home-page-tiles-ba87683.md); [hcmcloud-import-roles](hcmcloud-import-roles-d3dd77e.md); [hcmcloud-list-connections](hcmcloud-list-connections-38f9af2.md); [hcmcloud-register-home-page-tiles](hcmcloud-register-home-page-tiles-d274421.md); [hcmcloud-unregister-home-page-tiles](hcmcloud-unregister-home-page-tiles-60b45a9.md) 
-
-
 
 </td>
 </tr>
@@ -355,14 +287,10 @@ Extensions
 
 MTA
 
-
-
 </td>
 <td valign="top">
 
 [delete-mta](delete-mta-3d1163e.md);[deploy-mta](deploy-mta-1e12331.md); [display-mta](display-mta-974dbbb.md) ; [list-mtas](list-mtas-b8b51ef.md); [list-mta-operations](list-mta-operations-8029e1a.md); [subscribe-mta](subscribe-mta-ea358be.md) 
-
-
 
 </td>
 </tr>
@@ -370,8 +298,6 @@ MTA
 <td valign="top">
 
 Virtual Machines
-
-
 
 </td>
 <td valign="top">
@@ -387,8 +313,6 @@ Virtual Machines
 [delete-volume](delete-volume-850e935.md)
 
 [create-volume-snapshot](create-volume-snapshot-04b5e02.md); [delete-volume-snapshot](delete-volume-snapshot-8536a22.md); [display-volume-snapshot](display-volume-snapshot-a96f269.md); [list-volume-snapshots](list-volume-snapshots-b076212.md); [list-volumes](list-volumes-1427051.md)
-
-
 
 </td>
 </tr>

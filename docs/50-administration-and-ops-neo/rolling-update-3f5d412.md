@@ -2,7 +2,7 @@
 
 # rolling-update
 
-The rolling-update command performs update of an application without downtime in one go.
+The `rolling-update` command performs update of a Java application without downtime in one go.
 
 
 
@@ -25,7 +25,7 @@ The rolling-update command performs update of an application without downtime in
 
 
 
-The rolling-update command performs the following steps:
+The `rolling-update` command performs the following steps:
 
 1.  Deploys a new version of the application.
 2.  Starts a new application process.
@@ -55,16 +55,12 @@ To list all parameters available for this command, execute `neo help rolling-upd
 
 Required
 
-
-
 </th>
 </tr>
 <tr>
 <td valign="top">
 
 `-a`, `--account`
-
-
 
 </td>
 <td valign="top">
@@ -73,16 +69,12 @@ Subaccount technical name
 
 `Type`: string \(up to 30 characters; lowercase letters and numbers, starting with a letter\)
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-b`, `--application` 
-
-
 
 </td>
 <td valign="top">
@@ -91,16 +83,12 @@ Application name
 
 `Type`: string \(up to 30 characters; lowercase letters and numbers, starting with a letter\)
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-s`, `--source`
-
-
 
 </td>
 <td valign="top">
@@ -111,8 +99,6 @@ If you want to deploy more than one application on one and the same application 
 
 `Type`: file location
 
-
-
 </td>
 </tr>
 <tr>
@@ -120,16 +106,12 @@ If you want to deploy more than one application on one and the same application 
 
 `-h`, `--host`
 
-
-
 </td>
 <td valign="top">
 
 Enter a region host.
 
-`Type`: URL. For acceptable values see [Regions](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/350356d1dc314d3199dca15bd2ab9b0e.html "You can deploy applications in different regions. Each region represents a geographical location (for example, Europe, US East) where applications, data, or services are hosted.") :arrow_upper_right:.
-
-
+`Type`: URL. For acceptable values, see [Regions](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/350356d1dc314d3199dca15bd2ab9b0e.html "You can deploy applications in different regions. Each region represents a geographical location (for example, Europe, US East) where applications, data, or services are hosted.") :arrow_upper_right:.
 
 </td>
 </tr>
@@ -138,16 +120,12 @@ Enter a region host.
 
 `-p`, `--password`
 
-
-
 </td>
 <td valign="top">
 
 To protect your password, enter it only when prompted by the console client and not explicitly as a parameter in the properties file or the command line.
 
 `Type`: string
-
-
 
 </td>
 </tr>
@@ -156,16 +134,12 @@ To protect your password, enter it only when prompted by the console client and 
 
 `-u`, `--user`
 
-
-
 </td>
 <td valign="top">
 
 Use your email, SAP ID or user name
 
 `Type`: string
-
-
 
 </td>
 </tr>
@@ -178,16 +152,12 @@ Use your email, SAP ID or user name
 
 Optional
 
-
-
 </th>
 </tr>
 <tr>
 <td valign="top">
 
 `--compression`
-
-
 
 </td>
 <td valign="top">
@@ -200,8 +170,6 @@ Possible values: *on* \(allow compression\), *off*\(disable compression\), *forc
 
 For more information, see [Enable and Configure Gzip Response Compression](enable-and-configure-gzip-response-compression-390594a.md)
 
-
-
 </td>
 </tr>
 <tr>
@@ -209,18 +177,14 @@ For more information, see [Enable and Configure Gzip Response Compression](enabl
 
 `--compressible-mime-type`
 
-
-
 </td>
 <td valign="top">
 
-A comma separated list of MIME types for which compression will be used
+A comma-separated list of MIME types for which compression will be used
 
 `Default`: *text/html, text/xml, text/plain*
 
 `Condition:` applicable if compression is enabled
-
-
 
 </td>
 </tr>
@@ -229,8 +193,6 @@ A comma separated list of MIME types for which compression will be used
 
 `--compression-min-size`
 
-
-
 </td>
 <td valign="top">
 
@@ -238,16 +200,12 @@ Responses bigger than this value get compressed
 
 `Condition:` applicable if compression is enabled
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `--connections`
-
-
 
 </td>
 <td valign="top">
@@ -260,16 +218,12 @@ The number of connections used to deploy an application. Use it to speed up depl
 
 `Type`: integer
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `--ev` 
-
-
 
 </td>
 <td valign="top">
@@ -280,11 +234,9 @@ Sets one environment variable by removing the previously set value; can be used 
 
 `Type`: --ev <KEY1\>=<VALUE1\> --ev <KEY2\>=<VALUE2\> , where a key-value pair specifies one environment variable
 
-If you provide a key without any value \(--ev <KEY1\>=\), the `–ev` parameter is ignored.
+If you provide a key without any value \(--ev <KEY1\>=\), the `--ev` parameter is ignored.
 
 For a value that contains spaces, use quotation marks.
-
-
 
 </td>
 </tr>
@@ -292,8 +244,6 @@ For a value that contains spaces, use quotation marks.
 <td valign="top">
 
 `-j`, `--java-version`
-
-
 
 </td>
 <td valign="top">
@@ -306,16 +256,12 @@ JRE version
 
 For more information, see [Choose JRE Version](choose-jre-version-ee71c1a.md)
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `--timeout`
-
-
 
 </td>
 <td valign="top">
@@ -324,16 +270,12 @@ Timeout before stopping the old application processes \(in seconds\)
 
 `Default`: 60 seconds
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-V`, `--vm-arguments`
-
-
 
 </td>
 <td valign="top">
@@ -346,16 +288,12 @@ We recommend that you use the default memory settings. Change them only if neces
 
 For more information, see [Configure VM Arguments](configure-vm-arguments-b82d392.md) 
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `-z`, `--size`
-
-
 
 </td>
 <td valign="top">
@@ -370,16 +308,12 @@ For more information, see [Compute Units](../30-development-neo/compute-units-76
 
 `Default`:*lite*
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `--runtime-version`
-
-
 
 </td>
 <td valign="top">
@@ -393,16 +327,12 @@ You can view the recommended versions by executing the *list-runtime-versions* c
 
 For more information, see [Choose Application Runtime Version](choose-application-runtime-version-13afe5c.md) 
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `--uri-encoding`
-
-
 
 </td>
 <td valign="top">
@@ -412,8 +342,6 @@ Specifies the character encoding used to decode the URI bytes on application req
 `Default`: *ISO-8859-1*
 
 For more information, see the encoding sets supported by [Java SE 6](http://docs.oracle.com/javase/6/docs/technotes/guides/intl/encoding.doc.html) and [Java SE 7](http://docs.oracle.com/javase/7/docs/technotes/guides/intl/encoding.doc.html).
-
-
 
 </td>
 </tr>
