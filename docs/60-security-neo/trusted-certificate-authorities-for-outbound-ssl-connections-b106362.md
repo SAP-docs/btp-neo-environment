@@ -335,6 +335,23 @@ B1:2E:13:63:45:86:A4:6F:1A:B2:60:68:37:58:2D:C4:AC:FD:94:97
 <tr>
 <td valign="top">
 
+certignarootca \[jdk\]
+
+</td>
+<td valign="top">
+
+CN=Certigna Root CA, OU=0002 48146308100036, O=Dhimyotis, C=FR
+
+</td>
+<td valign="top">
+
+2D:0D:52:14:FF:9E:AD:99:24:01:74:20:47:6E:6C:85:27:27:F5:43
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 certumca \[jdk\]
 
 </td>

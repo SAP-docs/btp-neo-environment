@@ -2,7 +2,7 @@
 
 # Authentication Configuration
 
-This is an optional procedure that you can perform to configure the authentication methods used in a cloud application. You can configure the behavior of standard Java EE authentication methods, or define custom ones, based on custom combinations of login options.
+You can configure the behavior of standard authentication methods, or define custom ones, based on custom combinations of login options.
 
 
 
@@ -22,7 +22,7 @@ This is an optional procedure that you can perform to configure the authenticati
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**
 
-The following table describes the available login options. In the default authentication configuration, they are pre-assigned to standard Java EE authentication methods. If you want to change this, you need to create a custom configuration.
+The following table describes the available login options. In the default authentication configuration, they are pre-assigned to standard authentication methods. If you want to change this, you need to create a custom configuration.
 
 For each authentication method, you can select a custom combination of options. You may need to select more than one option if you want to enable more than one way for users to authenticate for this application.
 
@@ -45,36 +45,53 @@ Descrption
 <tr>
 <td valign="top">
 
-Trusted SAML 2.0 identity provider
+*OpenID Connect provider*
 
 </td>
 <td valign="top">
 
-Authentication is implemented over the Security Assertion Markup Language \(SAML\) 2.0 protocol, and delegated to SAP ID service or custom identity provider \(IdP\). The credentials users need to present depend on the IdP settings. See [Application Identity Provider](application-identity-provider-dc61853.md#loiodc618538d97610148155d97dcd123c24).
+Authentication is implemented over the OpenID Connect \(OIDC\) protocol, and delegated to an Identity Authentication tenant. The credentials users need to present depend on the tenant settings. See [](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/084c6fbf9c984a0292183b41120e7cb4.html "") :arrow_upper_right:.
+
+> ### Note:  
+> You cannot combine this option with *Trusted SAML 2.0 identity provider* and *Application-to-Application SSO*.
+
+
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-User name and password
+*Trusted SAML 2.0 identity provider*
+
+</td>
+<td valign="top">
+
+Authentication is implemented over the Security Assertion Markup Language \(SAML\) 2.0 protocol, and delegated to SAP ID service, an Identity Authentication tenant or custom identity provider \(IdP\). The credentials users need to present depend on the identity provider settings. See [Application Identity Provider](application-identity-provider-dc61853.md#loiodc618538d97610148155d97dcd123c24).
+
+> ### Note:  
+> We recommend using the *OpenID Connect provider* option instead of *Trusted SAML 2.0 identity provider* and *Application-to-Application SSO*.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*User name and password*
 
 </td>
 <td valign="top">
 
 HTTP BASIC authentication with user name and password. The user name and password are validated either by SAP ID service \(default\) or by an on-premise SAP NetWeaver AS Java. See [Using an SAP System as an On-Premise User Store](using-an-sap-system-as-an-on-premise-user-store-71fdf1c.md).
 
-> ### Note:  
-> If you want to use your Identity Authentication tenant for BASIC authentication \(instead of SAP ID service/SAP NetWeaver\), create a customer ticket in component**BC-NEO-SEC-IAM**. In the ticket, specify the Identity Authentication tenant you want to use.
-
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-Client certificate
+*Client certificate*
 
 </td>
 <td valign="top">
@@ -86,7 +103,7 @@ Users authenticate with a client certificate installed in an on-premise SAP NetW
 <tr>
 <td valign="top">
 
-Application-to-Application SSO
+*Application-to-Application SSO*
 
 </td>
 <td valign="top">
@@ -103,7 +120,7 @@ Used for AppToAppSSO destinations. See [Application-to-Application SSO Authentic
 <tr>
 <td valign="top">
 
-OAuth 2.0 token
+*OAuth 2.0 token*
 
 </td>
 <td valign="top">
@@ -128,7 +145,7 @@ Authentication is implemented over the OAuth 2.0 protocol. Users need to present
 
 5.  To configure the default settings, choose *Activate Custom Configuration*.
 
-    You can configure existing authentication methods or create new ones. If you need to restore the default state of all default methods, choose the *Reset Custom Configuration* button for the entire panel. If you need to restore the default state of a particular method, choose the *Reset Authentication Method* button for that method \(not available for custom methods you defined\).
+    *Reset Custom ConfigurationYou can configure existing authentication methods or create new ones. If you need to restore the default state of all default methods, choose the* button for the entire panel. If you need to restore the default state of a particular method, choose the *Reset Authentication Method* button for that method \(not available for custom methods you defined\).
 
 6.  Save the changes to the authentication configuration.
 
@@ -139,7 +156,7 @@ Authentication is implemented over the OAuth 2.0 protocol. Users need to present
 
 ## Example
 
-You have a Web application that users access using a Web browser. You want users to log in using a SAML identity provider. Hence, you define the FORM authentication method in the `web.xml` of the application. However, later you decide to provide mobile access to your application using the OAuth protocol \(SAML is not optimized for mobile access\). You do this by adding the *OAuth 2.0 token* option for the FORM method for your application. In this way, desktop users will continue to log in using a SAML identity provider, and mobile users will use an OAuth 2.0 access token.
+You have a Web application that users access using a Web browser. You want users to log in using a SAML identity provider. Hence, you define the FORM authentication method in the `web.xml`You can configure existing authentication methods or create new ones. If you need to of the application. However, later you decide to provide mobile access to your application using the OAuth protocol \(SAML is not optimized for mobile access\). You do this by adding the *OAuth 2.0 token* option for the FORM method for your application. In this way, desktop users will continue to log in using a SAML identity provider, and mobile users will use an OAuth 2.0 access token.
 
 **Related Information**  
 

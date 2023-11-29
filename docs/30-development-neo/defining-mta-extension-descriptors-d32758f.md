@@ -5,12 +5,12 @@
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**
 
-The Multitarget Application \(МТА\) extension descriptor is a YAML file that contains data complementary to the deployment descriptor. The data can be environment or deployment specific, for example, credentials depending on the user who performs the deployment. The MTA extension descriptor is a YAML file that has a similar structure to the deployment descriptor, by following the Multitarget Application Model structure with several limitations and differences. Normally, extension descriptor extends deployment descriptor but it is possible to extends other extension descriptor, making extension descriptors chain. It can add or overwrite existing data if necessary.
+The Multitarget Application \(МТА\) extension descriptor is a YAML file that contains data complementary to the deployment descriptor. The data can be environment or deployment specific, for example, credentials depending on the user who performs the deployment. The MTA extension descriptor is a YAML file that has a similar structure to the deployment descriptor, following the Multitarget Application Model structure with several limitations and differences. Normally, the extension descriptor extends the deployment descriptor but it is possible to extend another extension descriptor, making an extension descriptors chain. It can add or overwrite existing data if necessary.
 
 Several extension descriptors can be additionally used after the initial deployment.
 
 > ### Note:  
-> The format and available options within the extension descriptor may change with newer versions of the MTA specification. You must always specify the schema version option when defining an extension descriptor to inform the SAP BTP which MTA specification version should be used. Furthermore, the schema version used within the extension descriptor and the deployment descriptor should always be same.
+> The format and available options within the extension descriptor may change with newer versions of the MTA specification. You must always specify the schema version option when defining an extension descriptor to inform the SAP BTP which MTA specification version should be used. Furthermore, the schema version used within the extension descriptor and the deployment descriptor should always be the same.
 
 In the examples below, we have a deployment descriptor, which has already been defined, and several extension descriptors.
 
@@ -87,9 +87,9 @@ The example above instructs the SAP BTP to:
 
 You can do the following using an extension descriptor:
 
--   Add a new data in properties and parameters on module level, resource level, provided section level and required section level
+-   Add new data in properties and parameters on module level, resource level, provided section level and required section level
 
--   Overwrite an existing data \(in depth\) in modules, resources, parameters, properties, provides, requires sections. This depends on the parameter or property metadata overwritable. See section 9. Metadata for Properties and Parameters
+-   Overwrite an existing data \(in depth\) in modules, resources, parameters, properties, provides, requires sections. This depends on the parameter or property metadata overwritable. See [Metadata for Properties and Parameters](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/fca2cedcb79649e7a8f51234faea1142.html "It is possible to declare metadata for parameters and properties defined in the MTA deployment description, for example, using the "parameters-metadata:" or "properties-metadata:" keys, respectively; the mapping is based on the keys defined for a parameter or property.") :arrow_upper_right:.
 
 -   As of schema version 3.xx, by default parameters and properties are overwritable and optional. If you want to make a certain parameter or property non-overwritable or required, you need to add specific metadata. See [Metadata for Properties and Parameters](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/fca2cedcb79649e7a8f51234faea1142.html "It is possible to declare metadata for parameters and properties defined in the MTA deployment description, for example, using the "parameters-metadata:" or "properties-metadata:" keys, respectively; the mapping is based on the keys defined for a parameter or property.") :arrow_upper_right:.
 
@@ -98,6 +98,8 @@ You cannot use an extension descriptor to:
 -   Add new entities such as modules or resources
 -   Change module or resource type
 -   Alter read-only \(system\) parameters
+-   Add new provided or required dependencies
+-   Change the processing order of modules and resources with `deployed-after` and `processed-after` parameters
 
 **Related Information**  
 

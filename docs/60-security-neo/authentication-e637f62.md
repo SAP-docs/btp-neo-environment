@@ -40,7 +40,7 @@ Authentication Method
 </th>
 <th valign="top">
 
-Default Options
+Default Login Options
 
 </th>
 <th valign="top">
@@ -50,9 +50,31 @@ Description
 </th>
 <th valign="top">
 
-Sample Usecase
+Sample Use Case
 
 </th>
+</tr>
+<tr>
+<td valign="top">
+
+OIDC
+
+</td>
+<td valign="top">
+
+OpenID Connect provider
+
+</td>
+<td valign="top">
+
+Users will log in using a user name and password pair that existis in the Identity Authentication tenant used as OpenID Connect \(OIDC\) provider. You need to configure it using the*OpenID Conect Authentication* section in the SAP BTP cockpit \(see[](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/084c6fbf9c984a0292183b41120e7cb4.html "") :arrow_upper_right:\).
+
+</td>
+<td valign="top">
+
+You want to delegate authentication to an Identity Authentication tenant.
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -64,7 +86,7 @@ FORM
 
 Trusted SAML 2.0 identity provider
 
-Application-to-Application SSO
+If you need to configure the default options of an authentication method, or defineApplication-to-Application SSO
 
 </td>
 <td valign="top">
@@ -219,10 +241,14 @@ See FORM.
 </tr>
 </table>
 
-If you need to configure the default options of an authentication method, or define new methods, see [Authentication Configuration](authentication-configuration-4a46723.md)
+[Authentication Configuration](authentication-configuration-4a46723.md)
 
 > ### Tip:  
-> We recommend using FORM or OAUTH authentication method.
+> Depending on your scenario, we recommend using one of the following authentication methods:.
+> 
+> -   `OIDC`
+> -   `OAUTH`
+> -   `FORM`
 
 > ### Note:  
 > By default, any other method \(DIGEST, CLIENT-CERT, etc. or custom\) that you specify in the *web.xml* are executed as FORM. You can configure those methods using the *Authentication Configuration* section at Java application level in the Cockpit. See [Authentication Configuration](authentication-configuration-4a46723.md).
