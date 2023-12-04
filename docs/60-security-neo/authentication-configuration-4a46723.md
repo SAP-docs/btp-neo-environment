@@ -50,7 +50,7 @@ Descrption
 </td>
 <td valign="top">
 
-Authentication is implemented over the OpenID Connect \(OIDC\) protocol, and delegated to an Identity Authentication tenant. The credentials users need to present depend on the tenant settings. See [](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/084c6fbf9c984a0292183b41120e7cb4.html "") :arrow_upper_right:.
+Authentication is implemented over the OpenID Connect \(OIDC\) protocol, and delegated to an Identity Authentication tenant. The credentials users need to present depend on the tenant settings. See [OpenID Connect Authentication](openid-connect-authentication-084c6fb.md).
 
 > ### Note:  
 > You cannot combine this option with *Trusted SAML 2.0 identity provider* and *Application-to-Application SSO*.

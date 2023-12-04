@@ -676,7 +676,7 @@
                     -   [Using an SAP System as an On-Premise User Store](60-security-neo/using-an-sap-system-as-an-on-premise-user-store-71fdf1c.md)
                     -   [Using Microsoft Active Directory as an On-Premise User Store](60-security-neo/using-microsoft-active-directory-as-an-on-premise-user-store-28a03e4.md)
                 -   [Basic Authentication](60-security-neo/basic-authentication-a2c696b.md)
-                -   [084c6fbf9c984a0292183b41120e7cb4.xml](084c6fbf9c984a0292183b41120e7cb4.md)
+                -   [OpenID Connect Authentication](60-security-neo/openid-connect-authentication-084c6fb.md)
                 -   [Authentication Configuration](60-security-neo/authentication-configuration-4a46723.md)
         -   [Securing HTML5 Applications](60-security-neo/securing-html5-applications-55f7c9d.md)
             -   [Authentication](60-security-neo/authentication-3996010.md)

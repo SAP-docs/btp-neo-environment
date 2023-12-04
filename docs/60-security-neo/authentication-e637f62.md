@@ -67,7 +67,7 @@ OpenID Connect provider
 </td>
 <td valign="top">
 
-Users will log in using a user name and password pair that existis in the Identity Authentication tenant used as OpenID Connect \(OIDC\) provider. You need to configure it using the*OpenID Conect Authentication* section in the SAP BTP cockpit \(see[](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/084c6fbf9c984a0292183b41120e7cb4.html "") :arrow_upper_right:\).
+Users will log in using a user name and password pair that existis in the Identity Authentication tenant used as OpenID Connect \(OIDC\) provider. You need to configure it using the*OpenID Conect Authentication* section in the SAP BTP cockpit \(see[OpenID Connect Authentication](openid-connect-authentication-084c6fb.md)\).
 
 </td>
 <td valign="top">
