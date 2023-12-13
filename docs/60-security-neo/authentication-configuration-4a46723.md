@@ -45,23 +45,6 @@ Descrption
 <tr>
 <td valign="top">
 
-*OpenID Connect provider*
-
-</td>
-<td valign="top">
-
-Authentication is implemented over the OpenID Connect \(OIDC\) protocol, and delegated to an Identity Authentication tenant. The credentials users need to present depend on the tenant settings. See [OpenID Connect Authentication](openid-connect-authentication-084c6fb.md).
-
-> ### Note:  
-> You cannot combine this option with *Trusted SAML 2.0 identity provider* and *Application-to-Application SSO*.
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 *Trusted SAML 2.0 identity provider*
 
 </td>
@@ -126,6 +109,23 @@ Used for AppToAppSSO destinations. See [Application-to-Application SSO Authentic
 <td valign="top">
 
 Authentication is implemented over the OAuth 2.0 protocol. Users need to present an OAuth access token as credential. See [OAuth 2.0 Authorization Code Grant](oauth-2-0-authorization-code-grant-b7b5893.md).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*OpenID Connect provider*
+
+</td>
+<td valign="top">
+
+Authentication is implemented over the OpenID Connect \(OIDC\) protocol, and delegated to an Identity Authentication tenant. The credentials users need to present depend on the tenant settings \(by default, when initially configured, this is a user name and password pair stored in the tenant\). See [OpenID Connect Authentication](openid-connect-authentication-084c6fb.md).
+
+> ### Note:  
+> You cannot combine this option with *Trusted SAML 2.0 identity provider* and *Application-to-Application SSO*.
+
+
 
 </td>
 </tr>

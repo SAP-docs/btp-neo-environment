@@ -2,7 +2,7 @@
 
 # OpenID Connect Authentication
 
-Protect your applications on SAP BTP, Neo environment with OpenID Connect \(OICD\) authentication method using an Identity Authentication tenant as an OpenID Connect provider.
+Protect your applications on SAP BTP, Neo environment with OpenID Connect \(OIDC\) authentication method using an Identity Authentication tenant as an OpenID Connect provider.
 
 
 
@@ -21,9 +21,12 @@ Protect your applications on SAP BTP, Neo environment with OpenID Connect \(OICD
 > ### Note:  
 > This is a beta feature. Beta features aren't part of the officially delivered scope that SAP guarantees for future releases. For more information, see [Important Disclaimers and Legal Information](https://help.sap.com/viewer/disclaimer).
 
-With the OpenID Connect authentication method, your application's users will authenticate using a user name/e-mail address and password pair that exist in an Identity Authentication tenant based on the OpenID Connect protocol.
+With the OpenID Connect authentication method, the Identity Authentication tenant is used as an OpenID Connect provider. Your application's users will authenticate using the credentials defined and verified by the Identity Authentication tenant \(by default, this is a user name/e-mail address and password pair but you can configure your tenant to use others\).
 
-More information about the OpenID Connect scenarios supported by Identity Authentication service: [\(Identity Authentication documentation\) OpenID Connect](https://help.sap.com/docs/identity-authentication/identity-authentication/openid-connect?version=Cloud).
+> ### Note:  
+> We support the *Authorization Code* flow of the OpenID Connect protocol. For more information about this scenario with Identity Authentication service, see [\(Identity Authentication documentation\) Using Authorization Code Flow](https://help.sap.com/docs/identity-authentication/identity-authentication/using-authorization-code-flow?version=Cloud).
+
+General information about OpenID Connect supported by Identity Authentication service: [\(Identity Authentication documentation\) OpenID Connect](https://help.sap.com/docs/identity-authentication/identity-authentication/openid-connect?version=Cloud).
 
 
 
@@ -37,19 +40,21 @@ More information about the OpenID Connect scenarios supported by Identity Authen
 
 4.  In the list of Identity Authentication tenants that appears, choose the tenant that you want to use as OpenID Connect provider.
 
-    The required application configuration for OpenID Connect is automatically created on the tenant side.
+    The required application configuration for OpenID Connect is automatically created on the tenant side. It has the following name:
+
+    `SAP BTP Neo OIDC Application - <subAccount>`
 
     > ### Note:  
     > If you remove this OpenID Connect provider or switch to another one, the created application configuration on the Identity Authentication tenant will be deleted.
 
-5.  If required, configure further the created OpenID Connect application configuration for your scenario.
+5.  If required for your OIDC scenario, configure further the created OpenID Connect application on the Identity Authentication tenant side. For example, you may need to configure user attributes or risk-based authentication.
 
     See:
 
     -   [\(Identity Authentication documentation\) OpenID Connect](https://help.sap.com/docs/identity-authentication/identity-authentication/openid-connect?version=Cloud)
     -   [\(Identity Authentication documentation\) Tenant OpenID Connect Configurations](https://help.sap.com/docs/identity-authentication/identity-authentication/tenant-openid-connect-configurations?version=Cloud)
 
-6.  In your application code, declare usng `OICD` authentication method in the `web.xml`. See [Declarative Authentication](authentication-e637f62.md#loioe36c712efa844e8199a9c4bd681cb4e0).
+6.  In your application code, declare usng `OIDC` authentication method in the `web.xml`. See [Declarative Authentication](authentication-e637f62.md#loioe36c712efa844e8199a9c4bd681cb4e0).
 
 7.  \(Optional\) If required, change the authentication configuration \(authentication stack\). See [Authentication Configuration](authentication-configuration-4a46723.md).
 
@@ -58,6 +63,8 @@ More information about the OpenID Connect scenarios supported by Identity Authen
 
 
 [\(Identity Authentication documentation\) OpenID Connect](https://help.sap.com/docs/identity-authentication/identity-authentication/openid-connect?version=Cloud)
+
+[\(Identity Authentication documentation\) Using the Authorization Code Flow](https://help.sap.com/docs/identity-authentication/identity-authentication/using-authorization-code-flow?version=Cloud)
 
 [\(Identity Authentication documentation\) Tenant OpenID Connect Configurations](https://help.sap.com/docs/identity-authentication/identity-authentication/tenant-openid-connect-configurations?version=Cloud)
 

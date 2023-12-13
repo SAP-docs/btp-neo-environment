@@ -57,28 +57,6 @@ Sample Use Case
 <tr>
 <td valign="top">
 
-OIDC
-
-</td>
-<td valign="top">
-
-OpenID Connect provider
-
-</td>
-<td valign="top">
-
-Users will log in using a user name and password pair that existis in the Identity Authentication tenant used as OpenID Connect \(OIDC\) provider. You need to configure it using the*OpenID Conect Authentication* section in the SAP BTP cockpit \(see[OpenID Connect Authentication](openid-connect-authentication-084c6fb.md)\).
-
-</td>
-<td valign="top">
-
-You want to delegate authentication to an Identity Authentication tenant.
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 FORM
 
 </td>
@@ -239,6 +217,32 @@ See FORM.
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+OIDC
+
+</td>
+<td valign="top">
+
+OpenID Connect provider
+
+</td>
+<td valign="top">
+
+\(Beta\) Authentication based on the OpenID Connect \(OIDC\) protocol with an Identity Authentication tenant as OpenID Connect provider. Users will log in using credentials defined and verified by the Identity Authentication tenant \(by default, this is a user name and password pair stored in the tenant\).
+
+Configure the OpenID Connect provider using the *OpenID Conect Authentication* section in the SAP BTP cockpit \(see [OpenID Connect Authentication](openid-connect-authentication-084c6fb.md)\).
+
+</td>
+<td valign="top">
+
+Example 1: You want to delegate authentication to an Identity Authentication tenant.
+
+Example 2: You want to use an Identity Authentication tenant as proxy to a third-party identity provider.
+
+</td>
+</tr>
 </table>
 
 [Authentication Configuration](authentication-configuration-4a46723.md)
@@ -246,9 +250,9 @@ See FORM.
 > ### Tip:  
 > Depending on your scenario, we recommend using one of the following authentication methods:.
 > 
-> -   `OIDC`
 > -   `OAUTH`
 > -   `FORM`
+> -   `OIDC` \(Beta\)
 
 > ### Note:  
 > By default, any other method \(DIGEST, CLIENT-CERT, etc. or custom\) that you specify in the *web.xml* are executed as FORM. You can configure those methods using the *Authentication Configuration* section at Java application level in the Cockpit. See [Authentication Configuration](authentication-configuration-4a46723.md).
