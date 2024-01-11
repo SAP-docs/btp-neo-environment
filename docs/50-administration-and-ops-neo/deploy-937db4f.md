@@ -503,6 +503,9 @@ For example, if you want to deploy your WAR in context root "/hello" then rename
 
 If you want to deploy it in the "/" context root then rename your WAR to ROOT.war.
 
+> ### Note:  
+> The context root is case-sensitive.
+
 *Specify character encoding*
 
 Using the`–uri-encoding` parameter, you can define the character encoding that will be used to decode the URI bytes on application request. For example, to use the UTF-8 encoding that can represent every character in the Unicode character set, execute
