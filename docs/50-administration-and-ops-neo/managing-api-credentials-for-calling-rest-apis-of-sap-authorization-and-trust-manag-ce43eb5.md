@@ -1,11 +1,14 @@
-<!-- loioc1b0fcc400384fedba325795dc10871d -->
+<!-- loioce43eb5dd4884997b54cddabc45c9313 -->
 
-# Working with Multitenant Applications Using the btp CLI
+# Managing API Credentials for Calling REST APIs of SAP Authorization and Trust Management Service
 
-Use the SAP BTP command line interface \(btp CLI\) to manage the multitenant applications to which a subaccount is entitled to subscribe.
+Use the SAP BTP command line interface \(btp CLI\) to manage API credentials, which enable you to access the REST APIs of the SAP Authorization and Trust Management service.
 
-> ### Tip:  
-> By default, all commands are executed in the global account you're logged in to. To change this target to a subaccount, use <code>btp target -sa <i class="varname">&lt;my-subaccount-id&gt;</i></code>. See [Set a Target for Subsequent Commands with btp target](set-a-target-for-subsequent-commands-with-btp-target-720645a.md).
+If you want to access the REST APIs of SAP Authorization and Trust Management service in multi-environment subaccounts, global accounts, or directories, you must provide the required API credentials. One main use case is for customers who want to provision users including their authorizations, for example into a global account or a directory. They need credentials \(with a client ID\) for provisioning of users, especially when using SAP Cloud Identity Services - Identity Provisioning.
+
+The API credentials are only passed on when they are created. They can't be retrieved later. If lost, new credentials must be generated.
+
+See [Application Security Descriptor Configuration Syntax](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/517895a9612241259d6941dbf9ad81cb.html "The syntax required to set the properties and values defined in the xs-security.json application security descriptor file.") :arrow_upper_right: for the credential types and [SAP Business Accelerator Hub](https://api.sap.com/package/authtrustmgmnt/rest) for the APIs of the SAP Authorization and Trust Management service.
 
 
 <table>
@@ -17,7 +20,7 @@ Task
 </th>
 <th valign="top">
 
-Run the command...
+Run the command ...
 
 </th>
 <th valign="top">
@@ -29,96 +32,72 @@ Command help
 <tr>
 <td valign="top">
 
-Get all applications to which a subaccount is entitled to subscribe
+Create API credentials
 
 </td>
 <td valign="top">
 
-`btp list accounts/subscription`
+`btp create security/api-credential`
 
 </td>
 <td valign="top">
 
-[btp list accounts/subscription](https://help.sap.com/docs/BTP/btp-cli/btp-list-accounts-subscription.html)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Get details of a multitenant application in a subaccount
-
-</td>
-<td valign="top">
-
-`btp get accounts/subscription`
-
-</td>
-<td valign="top">
-
-[btp get accounts/subscription](https://help.sap.com/docs/BTP/btp-cli/btp-get-accounts-subscription.html)
+[https://help.sap.com/docs/BTP/btp-cli/btp-create-api-credential.html](https://help.sap.com/docs/BTP/btp-cli/btp-create-api-credential.html)
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-Subscribe to an application from a subaccount
+Show all API credentials
 
 </td>
 <td valign="top">
 
-`btp subscribe accounts/subaccount`
+`btp list security/api-credential`
 
 </td>
 <td valign="top">
 
-[btp subscribe accounts/subaccount](https://help.sap.com/docs/BTP/btp-cli/btp-subscribe-accounts-subaccount.html)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Update the plan of an existing subscription
-
-> ### Note:  
-> You can update a subscription plan only if additional plans for the application are entitled to the subaccount you're using and if your subscription is eligible for a plan update.
-
-
-
-</td>
-<td valign="top">
-
-`btp update accounts/subscription`
-
-</td>
-<td valign="top">
-
-[btp update accounts/subscription](https://help.sap.com/docs/BTP/btp-cli/btp-update-accounts-subscription.html)
+[https://help.sap.com/docs/BTP/btp-cli/btp-list-api-credential.html](https://help.sap.com/docs/BTP/btp-cli/btp-list-api-credential.html)
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-Unsubscribe an application from a subaccount
+Show details about specific API credentials
 
 </td>
 <td valign="top">
 
-`btp unsubscribe accounts/subaccount`
+`btp get security/api-credential`
 
 </td>
 <td valign="top">
 
-[btp unsubscribe accounts/subaccount](https://help.sap.com/docs/BTP/btp-cli/btp-unsubscribe-accounts-subaccount.html)
+[https://help.sap.com/docs/BTP/btp-cli/btp-get-api-credential.html](https://help.sap.com/docs/BTP/btp-cli/btp-get-api-credential.html)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Delete API credentials
+
+</td>
+<td valign="top">
+
+`btp delete security/api-credential`
+
+</td>
+<td valign="top">
+
+[https://help.sap.com/docs/BTP/btp-cli/btp-delete-api-credential.html](https://help.sap.com/docs/BTP/btp-cli/btp-delete-api-credential.html)
 
 </td>
 </tr>
 </table>
-
-For more information, see [Subscribe to Multitenant Applications Using the Cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/7a3e39622be14413b2a4df7c02ca1170.html "Subscribe to multitenant applications from the Service Marketplace page in the SAP BTP cockpit.") :arrow_upper_right:.
 
 **Related Information**  
 
@@ -128,6 +107,8 @@ For more information, see [Subscribe to Multitenant Applications Using the Cockp
 [Setting Entitlements Using the btp CLI](setting-entitlements-using-the-btp-cli-5af849c.md "Use the SAP BTP command line interface (btp CLI) to set entitlements to define the functionality or permissions available for users of global accounts, directories, and subaccounts.")
 
 [Working with Environments Using the btp CLI](working-with-environments-using-the-btp-cli-48db155.md "Use the SAP BTP command line interface (btp CLI) to manage runtime environment instances in a subaccount. For example, enable the Cloud Foundry environment by creating a Cloud Foundry org (environment instance).")
+
+[Working with Multitenant Applications Using the btp CLI](working-with-multitenant-applications-using-the-btp-cli-c1b0fcc.md "Use the SAP BTP command line interface (btp CLI) to manage the multitenant applications to which a subaccount is entitled to subscribe.")
 
 [Working with External Resource Providers Using the btp CLI](working-with-external-resource-providers-using-the-btp-cli-48d7688.md "Use the SAP BTP command line interface (btp CLI) to get details, or to create or delete resource provider instances in a global account.")
 
@@ -139,9 +120,5 @@ For more information, see [Subscribe to Multitenant Applications Using the Cockp
 
 [Managing Security Settings](managing-security-settings-168dd75.md "Use the SAP BTP command line interface (btp CLI) to display and update the security settings for the subaccount.")
 
-[Managing API Credentials for Calling REST APIs of SAP Authorization and Trust Management Service](managing-api-credentials-for-calling-rest-apis-of-sap-authorization-and-trust-manag-ce43eb5.md "Use the SAP BTP command line interface (btp CLI) to manage API credentials, which enable you to access the REST APIs of the SAP Authorization and Trust Management service.")
-
 [Working with Resources of the SAP Service Manager Using the btp CLI](working-with-resources-of-the-sap-service-manager-using-the-btp-cli-fe6a53b.md "Use the SAP BTP command line interface to perform various operations related to your platforms, attached service brokers, service instances, and service bindings.")
-
-[btp CLI Command Reference](https://help.sap.com/docs/BTP/btp-cli/intro.html)
 

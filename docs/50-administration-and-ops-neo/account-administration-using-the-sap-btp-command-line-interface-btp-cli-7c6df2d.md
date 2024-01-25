@@ -25,7 +25,7 @@ In this documentation, you learn how to download, install, update, and use the b
 
 -   [Automate Account Operations with the Command Line Interface](https://developers.sap.com/tutorials/cp-cli-automate-operations.html): This tutorial uses a bash shell script to automate the setup of a global account.
 
--   [Setting Up a Global Account via the Command Line](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/accd5b2389b04f4daf8a79b606435927.html "Your global account is the entry point for managing the resources, landscape, and entitlements for your departments and projects in a self-service manner in SAP BTP. You can use the command-line tool btp CLI to set it up.") :arrow_upper_right:: This chapter lists the commands of the btp CLI and the cf CLI that you need to create a subaccount and enable Cloud Foundry.
+-   [Setting Up a Global Account via the Command Line](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/accd5b2389b04f4daf8a79b606435927.html "Your global account is the entry point for managing the resources, landscape, and entitlements for your departments and projects in a self-service manner in SAP BTP. You can use the command-line tool btp CLI to set it up, and the cf CLI to manage Cloud Foundry instances.") :arrow_upper_right:: This chapter lists the commands of the btp CLI and the cf CLI that you need to create a subaccount and enable Cloud Foundry.
 
 -   [What's New for SAP BTP Command Line Interface](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?Component=SAP%20BTP%20Command%20Line%20Interface): Release notes for the btp CLI.
 

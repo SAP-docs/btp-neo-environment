@@ -398,6 +398,7 @@
             -   [Managing Users and Their Authorizations Using the btp CLI](50-administration-and-ops-neo/managing-users-and-their-authorizations-using-the-btp-cli-94bb593.md)
             -   [Managing Signing Keys for Access Tokens](50-administration-and-ops-neo/managing-signing-keys-for-access-tokens-dfca1d3.md)
             -   [Managing Security Settings](50-administration-and-ops-neo/managing-security-settings-168dd75.md)
+            -   [Managing API Credentials for Calling REST APIs of SAP Authorization and Trust Management Service](50-administration-and-ops-neo/managing-api-credentials-for-calling-rest-apis-of-sap-authorization-and-trust-manag-ce43eb5.md)
             -   [Working with Resources of the SAP Service Manager Using the btp CLI](50-administration-and-ops-neo/working-with-resources-of-the-sap-service-manager-using-the-btp-cli-fe6a53b.md)
         -   [Troubleshooting and Support](50-administration-and-ops-neo/troubleshooting-and-support-4023e15.md)
     -   [Account Administration in the Neo Console Client](50-administration-and-ops-neo/account-administration-in-the-neo-console-client-cd13d6a.md)

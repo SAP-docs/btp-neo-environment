@@ -63,7 +63,7 @@ Beta features let customers, developers, and partners test new features on SAP B
 
 [Change Subaccount Details](../50-administration-and-ops-neo/change-subaccount-details-7614c98.md "Edit subaccounts using the SAP BTP cockpit.")
 
- <?sap-ot O2O class="- topic/link " href="b1cfc05d9ea4478d8afecf6c71332959.xml" text="" desc="" xtrc="link:3" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio9fe952ba277c471bbad80cd40548bb84_en-US/src/content/localization/en-us/b7af89ba49504c5997d409f49cc5d3ae.xml" ?> 
+ <?sap-ot O2O class="- topic/link " href="b1cfc05d9ea4478d8afecf6c71332959.xml" text="" desc="" xtrc="link:3" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio9fe952ba277c471bbad80cd40548bb84_en-US/src/content/localization/en-us/b7af89ba49504c5997d409f49cc5d3ae.xml" output-class="" current-file="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
 
 <a name="loio00a25ed5344443198b9cf3165c072408"/>
 

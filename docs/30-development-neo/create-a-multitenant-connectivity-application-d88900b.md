@@ -177,7 +177,7 @@ You have created a sample application which can be requested in a browser. Its o
 
 [Upload Destinations](https://help.sap.com/viewer/b865ed651e414196b39f8922db2122c7/Cloud/en-US/7bd8fcd7e74c467c811144505e0280fb.html "") :arrow_upper_right:
 
- <?sap-ot O2O class="- topic/link " href="e5a8b1d3bb571014a0f89bb4706d4e0b.xml" text="" desc="" xtrc="link:2" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio9fe952ba277c471bbad80cd40548bb84_en-US/src/content/localization/en-us/d88900ba9dd848fc95d875a3056109a7.xml" ?> 
+ <?sap-ot O2O class="- topic/link " href="e5a8b1d3bb571014a0f89bb4706d4e0b.xml" text="" desc="" xtrc="link:2" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio9fe952ba277c471bbad80cd40548bb84_en-US/src/content/localization/en-us/d88900ba9dd848fc95d875a3056109a7.xml" output-class="" current-file="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
 
 [Developing Multitenant Applications in the Neo Environment](developing-multitenant-applications-in-the-neo-environment-54a7615.md "In the Neo environment of SAP BTP, you can develop and run multitenant (tenant-aware) applications. These applications run on a shared compute unit that can be used by multiple consumers (tenants). Each consumer accesses the application through a dedicated URL.")
 

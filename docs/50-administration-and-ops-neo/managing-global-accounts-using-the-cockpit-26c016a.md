@@ -35,5 +35,5 @@ In the *Subaccount Defaults* tab in the global account settings, you can set the
 
 [Managing Subaccounts Using the Cockpit](managing-subaccounts-using-the-cockpit-55d0b6d.md "Learn how to structure a global account according to your organization’s and project’s requirements with regard to members, authorizations, and entitlements by managing subaccounts.")
 
- <?sap-ot O2O class="- topic/link " href="74eb32ef49804e6e8107338c4ed44d49.xml" text="" desc="" xtrc="link:4" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio9fe952ba277c471bbad80cd40548bb84_en-US/src/content/localization/en-us/26c016aea03d4b8dbcdd4055c23c70ef.xml" ?> 
+ <?sap-ot O2O class="- topic/link " href="74eb32ef49804e6e8107338c4ed44d49.xml" text="" desc="" xtrc="link:4" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio9fe952ba277c471bbad80cd40548bb84_en-US/src/content/localization/en-us/26c016aea03d4b8dbcdd4055c23c70ef.xml" output-class="" current-file="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
 
