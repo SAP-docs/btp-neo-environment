@@ -121,7 +121,7 @@ With the consumption-based model, your organization purchases an entitlement to 
 
 
 
-The consumption-based commercial model is available in two flavors; the **CPEA** \(**Cloud Platform Enterprise Agreement**\) and **Pay-As-You-Go for SAP BTP**. Each option is suited to different business situations and levels of financial commitment, as described in the table below. For additional information and clarifications, please contact your account executive.
+The consumption-based commercial model is available in the following flavors: the **CPEA** \(**Cloud Platform Enterprise Agreement**\) and **Pay-As-You-Go for SAP BTP**. Each option is suited to different business situations and levels of financial commitment, as described in the table below. For additional information and clarifications, please contact your account executive.
 
 
 <table>
@@ -159,7 +159,7 @@ The consumption-based commercial model is available in two flavors; the **CPEA**
 -   This low-risk model is suitable for customers with use cases that are not well defined, and are interested in running a proof-of-concept in a productive environment. This model provides the flexibility of turning services on and off, and switching between services, as needed throughout the duration of the contract.
 -   A seamless transition to the CPEA model is available, on the condition that you have no other CPEA-based global accounts.
 
-If you want information about the **Pay-As-You-Go for SAP BTP for Partners** commercial model , go to the[SAP Partner Portal](https://partneredge.sap.com/en/partnership/licenses/tdd/wp_payg_btp.html).
+If you want information about the **Pay-As-You-Go for SAP BTP for Partners** commercial model , go to the [SAP Partner Portal](https://partneredge.sap.com/en/partnership/licenses/tdd/wp_payg_btp.html).
 
 </td>
 </tr>

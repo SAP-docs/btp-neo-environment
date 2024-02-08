@@ -232,6 +232,8 @@ Custom SSL
 
 [bind-domain-certificate](bind-domain-certificate-8722bcb.md); [change-domain-certificate](change-domain-certificate-53aa1f3.md); [delete-domain-certificate](delete-domain-certificate-c3076cc.md); [list-domain-certificates](list-domain-certificates-dfb8438.md); [unbind-domain-certificate](unbind-domain-certificate-f8d24b6.md); [upload-domain-certificate](upload-domain-certificate-bb54abf.md)
 
+[](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/1595b69ea5ec4ddc8fc7c04ac3d0f10e.html "") :arrow_upper_right:; [](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/6e63a36abbe5408da432e9301e6aa6bf.html "") :arrow_upper_right:; [](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/576c038be58646b6af46cb052e282a97.html "") :arrow_upper_right:
+
 </td>
 </tr>
 <tr>

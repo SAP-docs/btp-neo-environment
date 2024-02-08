@@ -14,6 +14,20 @@ Authorization and trust management, OAuth, key and certificate management, princ
 
 
 
+<a name="loio3438252775d84bdfa211e79147561c99__section_hv2_mkx_nvb"/>
+
+## Security Recommendations
+
+We provide a list with our recommendations for the configuration of our services. These recommendations help you to meet your compliance goals and secure your business.
+
+See [SAP BTP, Neo Environment Security Recommendations](https://help.sap.com/docs/btp/sap-btp-neo-environment-security-recommendations-ed2ef9c59a8245c9b9505d6bf8305cfb/sap-btp-neo-environment-security-recommendations?version=Cloud).
+
+Our customer success organization, uses these recommendations as a base to create a security baseline template.
+
+For more information, go to [https://support.sap.com/sos](https://support.sap.com/sos) and choose *Media Library* \> *SAP CoE Security Services - Security Baseline Template*.
+
+
+
 <a name="loio3438252775d84bdfa211e79147561c99__section_fdb_tjv_42b"/>
 
 ## Transport Layer Security \(TLS\) Connectivity Support
