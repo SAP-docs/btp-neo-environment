@@ -178,7 +178,7 @@ Follow these steps to manage the resource providers that you have already config
     <tr>
     <td valign="top">
     
-    <span class="SAP-icons"></span>
+    <span class="SAP-icons-V5"></span>
 
     Manage Entitlements and Quotas
     
@@ -242,5 +242,5 @@ Follow these steps to manage the resource providers that you have already config
 **Related Information**  
 
 
-[Configure Entitlements and Quotas for Subaccounts](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/5ba357b4fa1e4de4b9fcc4ae771609da.html "Distribute the entitlements that are available in your global account by adding service plans and their allowed quotas to your subaccounts using the SAP BTP cockpit.") :arrow_upper_right:
+[Configure Entitlements and Quotas for Subaccounts](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/5ba357b4fa1e4de4b9fcc4ae771609da.html "Distribute the entitlements that are available in your global account by adding service plans and their allowed quotas to your subaccounts using SAP BTP cockpit.") :arrow_upper_right:
 

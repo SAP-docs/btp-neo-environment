@@ -8,7 +8,7 @@ You can deploy a solution locally to your subaccount and provide it for a subscr
 
 ## Prerequisites
 
--   Ensure that the MTA archive containing your solution is created as described in [Multitarget Applications in the Cloud Foundry Environment](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/d04fc0e2ad894545aebfd7126384307c.html "A Multitarget application (MTA) is logically a single application comprised of multiple parts created with different technologies, which share the same lifecycle.") :arrow_upper_right:.
+-   Ensure that the MTA archive containing your solution is created as described in [Multitarget Applications in the Cloud Foundry Environment](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/d04fc0e2ad894545aebfd7126384307c.html "A Multitarget application (MTA) is essentially a single application that consists of multiple parts. These parts are created using various technologies and share the same lifecycle.") :arrow_upper_right:.
 -   Optionally, you have created an extension description as described in [Defining MTA Extension Descriptors](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/50df803465324d36851c79fd07e8972c.html "") :arrow_upper_right:.
 
     > ### Note:  

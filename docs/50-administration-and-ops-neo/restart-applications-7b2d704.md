@@ -36,7 +36,7 @@ To restart a Java application without downtime in the SAP BTP cockpit, do the fo
 
     1.  Start an additional process.
 
-        Choose <span style="font-size:24px;line-height: 28px;"><span class="SAP-icons"></span></span> \(Start Additional Process\).
+        Choose <span style="font-size:24px;line-height: 28px;"><span class="SAP-icons-V5"></span></span> \(Start Additional Process\).
 
         The application’s state continues to be shown as *Started* and an additional process appears in the *Processes* panel.
 
@@ -45,7 +45,7 @@ To restart a Java application without downtime in the SAP BTP cockpit, do the fo
 
     2.  Disable the old process.
 
-        Choose <span style="font-size:24px;line-height: 28px;"><span class="SAP-icons"></span></span> \(Disable Process\).
+        Choose <span style="font-size:24px;line-height: 28px;"><span class="SAP-icons-V5"></span></span> \(Disable Process\).
 
         The process state changes to *Started \(disabled\)*. The process continues to handle working sessions, but does not accept new connections, which allows you to shut it down gracefully.
 
@@ -53,7 +53,7 @@ To restart a Java application without downtime in the SAP BTP cockpit, do the fo
 
     4.  Stop the old process.
 
-        Choose <span style="font-size:24px;line-height: 28px;"><span class="SAP-icons"></span></span> \(Stop\).
+        Choose <span style="font-size:24px;line-height: 28px;"><span class="SAP-icons-V5"></span></span> \(Stop\).
 
         The process is stopped and removed from the list.
 

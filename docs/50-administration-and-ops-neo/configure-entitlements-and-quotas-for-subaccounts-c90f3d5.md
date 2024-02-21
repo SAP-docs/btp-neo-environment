@@ -4,7 +4,7 @@
 
 # Configure Entitlements and Quotas for Subaccounts
 
-Distribute the entitlements that are available in your global account by adding service plans and their allowed quotas to your subaccounts using the SAP BTP cockpit.
+Distribute the entitlements that are available in your global account by adding service plans and their allowed quotas to your subaccounts using SAP BTP cockpit.
 
 
 
@@ -14,7 +14,7 @@ Distribute the entitlements that are available in your global account by adding 
 
 -   You must be a global account administrator to configure subaccount assignments.
 
--   The service and applications that you intend to assign to your subaccounts must be entitled to your global account.
+-   The service and applications that you intend to assign to your subaccounts must be entitled with the required quota to your global account.
 
     -   For enterprise accounts that use the subscription-based commercial model, your account receives only the services that you've already purchased and subscribed to according to your SAP BTP contract. To access additional services, at an extra cost, you can modify your contract via your sales representative or account executive.
 
@@ -23,7 +23,7 @@ Distribute the entitlements that are available in your global account by adding 
     -   If you have a trial account, you'll receive a restricted set of free platform resources and services for a limited time period. To access additional services, you'll have to switch to an enterprise account.
 
 
--   If you are assigning a service to a subaccount that is under a directory, which manages its own assignments and quota \(in other words, the directory has the *Manage Entitlements* feature enabled\), the given directory must first be assigned with the necessary assignment and maximum allowed quota before you can distribute any of the reserved quota to any of the directory's child subaccounts.
+-   To assign beta service plans, your subaccount must have the *Enable beta features* option selected. See [Change Subaccount Details](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/567d4a84bfdc428f8f3640e07261f73a.html "Edit subaccounts using the SAP BTP cockpit.") :arrow_upper_right:. Only applies to non-production subaccounts.
 
 
 
@@ -40,18 +40,28 @@ Distribute the entitlements that are available in your global account by adding 
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**
 
-You can distribute assignments and quotas across subaccounts within a global account from two places in the cockpit:
+You can distribute assignments and quotas across subaccounts within a global account from these places in the cockpit:
 
--   The *Entitlements* \> *Entity Assignments* page at global account level \(visible only to global account administrators\).
+-   The *Entitlements* \> *Entity Assignments* page at the global account level \(visible only to global account administrators\).
 
     If your account is part of cloud management tools feature set A, this page is called *Subaccount Assignments*.
 
--   The *Entitlements* page at subaccount level \(visible to all subaccount members, but editable only by global account administrators\).
-
-> ### Tip:  
-> To get an overview of all the services and plans available in the global account, you can navigate to *Entitlements* \> *Service Assignments* using the left hand-side navigation. There you can see the global usage of each service plan, as well as the detailed assignments of each service across subaccounts and directories. This page is for viewing purposes only; you cannot make any assignment changes from it.
+-   The *Entitlements* \> *Entity Assignments* page at the directory level by first navigating into the directory from the *Account Explorer*. This applies only subaccounts that resides in the path of a directory that is configured to manage entitlements.
+-   The *Entitlements* page at the subaccount level \(visible to all subaccount members, but editable only by global account administrators\) by first navigating into the subaccount from the *Account Explorer*.
 
 For more information, see [Managing Entitlements and Quotas Using the Cockpit](managing-entitlements-and-quotas-using-the-cockpit-23e9ad3.md).
+
+> ### Tip:  
+> To get an overview of all the services and plans available in your global account, navigate to the *Entitlements* \> *Service Assignments* page. There you can see the global usage of each service plan in the *All Services* view, as well as the detailed assignments of each service across subaccounts and directories in the *Assignments by Service* view.
+> 
+> -   The *Service Assignments* page is for viewing purposes only; you cannot make any assignment changes from it.
+> 
+> -   In the *All Services* view of this page, the *Assigned To* column shows you the total number of directories and subaccounts to which each service plan is assigned in your global account. You can click on the links in this column to quickly navigate to the selected service in the *Assignments by Service* view and display more details about these assignments.
+> 
+> -   You can turn on the *Show commercial info* toggle option in this page to displays additional table columns that can help you to gain a better understanding of the relationship between contractual service entitlements and the technical assets \(services and plans\) in your global account; in other words, how each entitled plan was added to your global account.
+> 
+> 
+> If you navigate to a subaccount from the *Account Explorer*, you view its assignments in its *Overview* page view.
 
 <a name="task_lzl_bpb_vhb"/>
 
@@ -71,21 +81,36 @@ For more information, see [Managing Entitlements and Quotas Using the Cockpit](m
 
     \[Feature Set A\] Choose *Entitlements* \> *Subaccount Assignments* from the left hand-side navigation.
 
-3.  At the top of the page, select all the subaccounts for which you would like to configure or display assignments.
+    > ### Remember:  
+    > There are other ways you can access the subaccount to manage its assignments, such as navigating to the subaccount or its managed directory from the *Account Explorer*. See above for more information.
+
+3.  Open the *Manage Assignments* view \(tab\).
+
+    Skip this step if you have a trial account.
 
     > ### Tip:  
-    > If your global account contains more than 20 subaccounts, choose <span class="SAP-icons"></span> to open up the value help dialog. There you can filter subaccounts by role, environment, and region to make your selection easier and faster. You can only select a maximum of 50 subaccounts at once.
+    > You can use the *View Commercial Information* view in this page to display comprehensive commercial information about the entitlements in your global account \(you cannot make assignments in this view\). Note that this view is not available for trial accounts.
 
-4.  Choose *Go* to apply the filter.
+4.  Select the <span class="SAP-icons-V5"></span> icon in the *Directories / Subaccounts* dropdown menu.
+
+5.  In the *Select Subaccounts and Directories* dialog box, select all the subaccounts that you want to manage assignments.
+
+    > ### Tip:  
+    > \[Feature Set A\] If your global account contains more than 20 subaccounts, choose <span class="SAP-icons-V5"></span> to open up the value help dialog. There you can filter subaccounts by role, environment, and region to make your selection easier and faster. You can only select a maximum of 50 subaccounts at once.
+
+6.  Choose *Select* to apply the filter.
 
     You get a table for each of the subaccounts you selected, displaying the current assignments and quota.
 
-5.  Choose *Configure Entitlements* to start editing assignments for a particular subaccount.
+    > ### Tip:  
+    > Under the *Service Technical Name* column, click on the <span class="SAP-icons-V5"></span> \(Service Details\) icon of any service to access its service-related links to documentation, support information, and SAP Discovery Center.
+
+7.  Choose *Edit* to start editing assignments for a particular subaccount.
 
     > ### Note:  
     > You can only edit assignments for one subaccount at a time.
 
-6.  You can now edit the assignments table:
+8.  You can now edit the assignments table:
 
 
     <table>
@@ -109,7 +134,7 @@ For more information, see [Managing Entitlements and Quotas Using the Cockpit](m
     </td>
     <td valign="top">
     
-    Choose *Add Service Plans* and from the dialog select the services and the plans from each service that you would like to add to the subaccount.
+    Choose *Add Service Plans* and from the dialog box, select the services and the service plans from each service that you would like to add to the subaccount. Choose *Add <x\> Service Plans* in the dialog box to confirm.
 
     Remember, the services that you see depend on the type of global account you have and your contract details \(see the prerequisites above for more information\).
     
@@ -118,26 +143,28 @@ For more information, see [Managing Entitlements and Quotas Using the Cockpit](m
     <tr>
     <td valign="top">
     
-    **Edit the quota for one or more service plans**
+    **Edit the quota for one or more assigned service plans**
     
     </td>
     <td valign="top">
     
-    Use :heavy_plus_sign: and :heavy_minus_sign: to increase or decrease the quota for each service plan.
+    Use :heavy_plus_sign: and :heavy_minus_sign: in the *Quota Assignment* column to increase or decrease the quota for each service plan.
+
+    Note some service plans do not have a numeric quota assignment. In other words, you do not assign a specific quantity but grant access to the plan by simply assigning it to the subaccount. See *Quotas* in [Managing Entitlements and Quotas Using the Cockpit](managing-entitlements-and-quotas-using-the-cockpit-23e9ad3.md).
     
     </td>
     </tr>
     <tr>
     <td valign="top">
     
-    **Assign quota to unlimited service plans in global accounts using the consumption-based commercial model.**
+    **Set a quota limit to unlimited service plans that use the consumption-based commercial model**
     
     </td>
     <td valign="top">
     
-    Use the checkbox in the *Assign Quota* column to enable or disable the *Subaccount Assignment* column for editing.
+    The usage of most service plans is unlimited by default in global accounts that use the consumption-based commercial model. To control costs of such plans, you can set a quota limit on the service plans for this subaccount by first selecting the checkbox in the *Set Quota Limit* column.
 
-    Now, you can increase or decrease the quota for this service plan by using :heavy_plus_sign: and :heavy_minus_sign:.
+    Now, you can increase or decrease the quota for this service plan in the *Quota Assignment* column by using :heavy_plus_sign: and :heavy_minus_sign:.
     
     </td>
     </tr>
@@ -155,18 +182,18 @@ For more information, see [Managing Entitlements and Quotas Using the Cockpit](m
     </tr>
     </table>
     
-7.  Once you're done, choose *Save* to save the changes and exit edit mode for that subaccount.
+9.  Once you're done, choose *Save* to save the changes and exit edit mode for that subaccount.
 
-8.  **Optional:** Repeat steps 5 to 7 to configure assignments for the other selected subaccounts.
+10. **Optional:** Repeat steps 7 to 9 to configure assignments for the other selected subaccounts.
 
 
 <a name="task_h3v_xmb_vhb"/>
 
 <!-- task\_h3v\_xmb\_vhb -->
 
-## Configure Assignments and Quotas from Your Subaccount \[Feature Set A\]
+## Configure Assignments and Quotas from a Subaccount
 
-If you’re working in a subaccount and realize you’re missing assignments or quota, you can edit the assignments directly from that subaccount.
+If you're working in a subaccount and realize you’re missing assignments or quota, you can edit the assignments directly from that subaccount.
 
 
 
@@ -186,64 +213,15 @@ In addition to being a global account administrator, you must also be a member o
 
 2.  Choose *Entitlements* from the left hand-side navigation to see the assignments for your subaccount.
 
-3.  Choose *Configure Entitlements*.
+3.  Choose *Edit*.
 
-4.  You can now edit the assignments table:
+4.  You can now edit the assignments table as described in the procedure above.
+
+5.  Once you're satisfied with the changes, choose *Save* to save and exit edit mode.
 
 
-    <table>
-    <tr>
-    <th valign="top">
+**Related Information**  
 
-    Action
-    
-    </th>
-    <th valign="top">
 
-    Steps
-    
-    </th>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-    **Add new service plans to the subaccount**
-    
-    </td>
-    <td valign="top">
-    
-    Choose *Add Service Plans* and from the dialog select the services and the plans from each service that you would like to add to the subaccount.
-
-    Remember, the services that you see depend on the type of global account you have and your contract details \(see the prerequisites above for more information\).
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-    **Edit the quota for one or more service plans**
-    
-    </td>
-    <td valign="top">
-    
-    Use :heavy_plus_sign: and :heavy_minus_sign: to increase or decrease the quota for each service plan.
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-    **Delete a service plan and its quota from the subaccount**
-    
-    </td>
-    <td valign="top">
-    
-    Choose :wastebasket: from the *Actions* column.
-    
-    </td>
-    </tr>
-    </table>
-    
-5.  Once you're happy with the changes, choose *Save* to save and exit edit mode.
-
+[Managing Entitlements and Quotas Using the Cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/c8248745dde24afb91479361de336111.html "When you purchase an enterprise account, you are entitled to use a specific set of resources, such as the amount of memory that can be allocated to your applications.") :arrow_upper_right:
 

@@ -21,7 +21,7 @@ If you want to use cryptography with unlimited strength in an SAP BTP applicatio
 
 [Enabling Client Certificate Authentication](enabling-client-certificate-authentication-0d7cf63.md "You can enable the users for your Web application to authenticate using client certificates. This corresponds to the CERT and BASICCERT authentication methods supported in Java EE.")
 
- <?sap-ot O2O class="- topic/link " href="289f3aa7d26d4507a87dd7bac62a04e2.xml" text="" desc="" xtrc="link:3" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio9fe952ba277c471bbad80cd40548bb84_en-US/src/content/localization/en-us/a18327e4b1a34bd6844384ae1c7f3d51.xml" output-class="" current-file="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
+ <?sap-ot O2O class="- topic/link " href="289f3aa7d26d4507a87dd7bac62a04e2.xml" text="" desc="" xtrc="link:3" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio9fe952ba277c471bbad80cd40548bb84_en-US/src/content/localization/en-us/a18327e4b1a34bd6844384ae1c7f3d51.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
 
 [Storing Passwords](storing-passwords-244dbc2.md)
 

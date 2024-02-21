@@ -57,7 +57,7 @@ You have the Administrator role for the subaccount.
     2.  Select the platform scopes and save your changes.
 
 
-4.  To create a custom or a predefined platform role by copying from an existing one, choose <span class="SAP-icons"></span> \(Copy\) and proceed as in the previous step. The scopes from the original role are selected by default.
+4.  To create a custom or a predefined platform role by copying from an existing one, choose <span class="SAP-icons-V5"></span> \(Copy\) and proceed as in the previous step. The scopes from the original role are selected by default.
 
 5.  To edit a custom platform role, choose :pencil2:.
 

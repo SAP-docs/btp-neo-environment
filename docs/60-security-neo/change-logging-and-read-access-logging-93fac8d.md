@@ -18,7 +18,8 @@ Change logging records changes to personal data, while read-access logging recor
 
 Use the appropriate API to retrieve logs.
 
-For the Neo environment, see [Audit Log Retrieval API Usage for the Neo Environment](audit-log-retrieval-api-usage-for-the-neo-environment-e4d818d.md).
+-   For the Neo, see [Audit Log Retrieval API Usage for the Neo Environment](audit-log-retrieval-api-usage-for-the-neo-environment-e4d818d.md).
+
 
 > ### Note:  
 > For any applications you develop, you must ensure they include logging functions. SAP BTP does not provide audit logging functions for custom developments.
