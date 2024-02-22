@@ -32,7 +32,7 @@ To monitor and track costs and usage in your global account, open the global acc
 > 
 > If your global account uses the subscription-based commercial model exclusively, then you must access the *Usage* page instead.
 > 
-> The *Usage* page is very similar to the *Costs and Usage* page, except you won't see any data relating to costs or cloud credits since your eligible services are already prepaid and you aren't charged per usage. See [Monitoring Usage and Consumption Costs in Your Global Account](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/de6f0db8919f4e6f97e54bc4ddaf2ab8.html "SAP BTP cockpit supports advanced usage and cost monitoring of services in your global account. You can compare the usage and costs of multiple services and subaccounts, see monthly trends, and drill into subaccounts and service plans for detailed information.") :arrow_upper_right:.
+> The *Usage* page is very similar to the *Costs and Usage* page, except you won't see any data relating to costs or cloud credits since your eligible services are already prepaid and you aren't charged per usage. See [Using the Usage View](monitoring-usage-and-consumption-costs-in-your-global-account-f2c01a1.md#copyf2c01a1a4f084f99b89bdbecf402c1e1__section_vff_dr3_m1c).
 
 
 
@@ -113,7 +113,7 @@ For example, if your subscription contract is entitled to consume a given servic
 > To see more details about your contract, cloud credit or cost details, and a different perspective of usage versus costs, click <span class="SAP-icons-V5"></span> \(Expand\).
 
 > ### Note:  
-> To extract all cost and usage data to a spreadsheet document for the last 12, 24, or 36 months, click the *Export* button. The default is 12 months. To choose a different period, click the button's menu. See [Monitoring Usage and Consumption Costs in Your Global Account](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/de6f0db8919f4e6f97e54bc4ddaf2ab8.html "SAP BTP cockpit supports advanced usage and cost monitoring of services in your global account. You can compare the usage and costs of multiple services and subaccounts, see monthly trends, and drill into subaccounts and service plans for detailed information.") :arrow_upper_right:.
+> To extract all cost and usage data to a spreadsheet document for the last 12, 24, or 36 months, click the *Export* button. The default is 12 months. To choose a different period, click the button's menu. .See [Exporting Usage and Cost Data Information](monitoring-usage-and-consumption-costs-in-your-global-account-f2c01a1.md#copyf2c01a1a4f084f99b89bdbecf402c1e1__section_vt2_dg4_2jb) 
 
 Below these two cards, are the *Billing* and *Usage* views, represented by tabs:
 
@@ -134,7 +134,7 @@ The aggregation of usage from all your subaccounts is calculated according to th
 > ### Note:  
 > This view relevant only if your global account uses a consumption-based commercial model. If your global account uses only the subscription-based commercial model, then all your eligible services and entitled quota are prepaid.
 
-For more information about this view, see [Monitoring Usage and Consumption Costs in Your Global Account](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/de6f0db8919f4e6f97e54bc4ddaf2ab8.html "SAP BTP cockpit supports advanced usage and cost monitoring of services in your global account. You can compare the usage and costs of multiple services and subaccounts, see monthly trends, and drill into subaccounts and service plans for detailed information.") :arrow_upper_right:.
+For more information about this view, see [Using the Billing View](monitoring-usage-and-consumption-costs-in-your-global-account-f2c01a1.md#copyf2c01a1a4f084f99b89bdbecf402c1e1__section_bfz_xd3_m1c).
 
 </td>
 </tr>
@@ -150,7 +150,7 @@ Shows the data representing your actual non-aggregated monthly usage for service
 
 This view applies to both the consumption-based and subscription-based commercial models.
 
-For more information about this view, see [Monitoring Usage and Consumption Costs in Your Global Account](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/de6f0db8919f4e6f97e54bc4ddaf2ab8.html "SAP BTP cockpit supports advanced usage and cost monitoring of services in your global account. You can compare the usage and costs of multiple services and subaccounts, see monthly trends, and drill into subaccounts and service plans for detailed information.") :arrow_upper_right:.
+For more information about this view, see [Using the Usage View](monitoring-usage-and-consumption-costs-in-your-global-account-f2c01a1.md#copyf2c01a1a4f084f99b89bdbecf402c1e1__section_vff_dr3_m1c).
 
 </td>
 </tr>
@@ -344,7 +344,7 @@ Here are some useful tips for working in this perspective:
     > This graph is useful for seeing in which months a service plan has usage and costs, which service plans have increased or decreased usage/costs over time, or the months that have the highest and lowest usage/costs per service plan.
 
 
-See other useful tips, such as table sorting and searching, in the [Monitoring Usage and Consumption Costs in Your Global Account](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/de6f0db8919f4e6f97e54bc4ddaf2ab8.html "SAP BTP cockpit supports advanced usage and cost monitoring of services in your global account. You can compare the usage and costs of multiple services and subaccounts, see monthly trends, and drill into subaccounts and service plans for detailed information.") :arrow_upper_right: section.
+See other useful tips, such as table sorting and searching, in the [Understanding the Cost and Usage Views](monitoring-usage-and-consumption-costs-in-your-global-account-f2c01a1.md#copyf2c01a1a4f084f99b89bdbecf402c1e1__section_u3v_vd3_m1c) section.
 
 </td>
 </tr>
@@ -379,7 +379,7 @@ Here are some useful tips for working in this perspective:
     > The graph is useful for seeing in which months a subaccount or directory has usage and costs, which subaccounts or directories have increased or decreased usage/costs over time, or the months that have the highest and lowest usage/costs per subaccount or directory.
 
 
-See other useful tips, such as table sorting and using the search option, in the [Monitoring Usage and Consumption Costs in Your Global Account](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/de6f0db8919f4e6f97e54bc4ddaf2ab8.html "SAP BTP cockpit supports advanced usage and cost monitoring of services in your global account. You can compare the usage and costs of multiple services and subaccounts, see monthly trends, and drill into subaccounts and service plans for detailed information.") :arrow_upper_right: section.
+See other useful tips, such as table sorting and searching, in the [Understanding the Cost and Usage Views](monitoring-usage-and-consumption-costs-in-your-global-account-f2c01a1.md#copyf2c01a1a4f084f99b89bdbecf402c1e1__section_u3v_vd3_m1c) section.
 
 </td>
 </tr>
@@ -485,7 +485,7 @@ This graph is useful for seeing changes in usage trends over time, including the
 </table>
 
 > ### Tip:  
-> See other useful tips, such as table sorting and using the search option, in the [Monitoring Usage and Consumption Costs in Your Global Account](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/de6f0db8919f4e6f97e54bc4ddaf2ab8.html "SAP BTP cockpit supports advanced usage and cost monitoring of services in your global account. You can compare the usage and costs of multiple services and subaccounts, see monthly trends, and drill into subaccounts and service plans for detailed information.") :arrow_upper_right: section.
+> See other useful tips, such as table sorting and searching, in the [Understanding the Cost and Usage Views](monitoring-usage-and-consumption-costs-in-your-global-account-f2c01a1.md#copyf2c01a1a4f084f99b89bdbecf402c1e1__section_u3v_vd3_m1c) section.
 
 
 
