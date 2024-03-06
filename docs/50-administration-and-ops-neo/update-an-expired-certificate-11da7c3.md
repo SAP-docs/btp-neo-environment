@@ -65,6 +65,16 @@ Upload and bind a new certificate to the SSL host to replace the expired certifi
 
 5.  To verify that you have configured correctly the new certificate, execute `neo list-domain-certificates`.
 
+6.  After you have made sure that the new certificate is configured correctly, delete the old certificate.
+
+    Run the `delete-domain-certificate` command:
+
+    ```
+    neo delete-domain-certificate --account mysubaccount --user mymail@example.com --host hana.ondemand.com --name myoldtcert
+    ```
+
+    See [delete-domain-certificate](delete-domain-certificate-c3076cc.md).
+
 
 <a name="loiof16731619a134670ac99915b2049d8d5"/>
 

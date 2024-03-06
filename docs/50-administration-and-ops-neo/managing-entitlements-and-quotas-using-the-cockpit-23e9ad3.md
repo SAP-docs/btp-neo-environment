@@ -229,7 +229,7 @@ Subaccount members \(regardless of whether they are also global account administ
 > 
 > Similarly, if you're assigning plans to a subaccount that is under a directory that has the user management feature enabled, then you must be the directory administrator or a global account administrator.
 
-The *Entitlements* \> *Entity Assignments* contains these views \(tabs\):
+The *Entitlements* \> *Entity Assignments* is where you view and edit assignments and quota from the perspective of subaccounts and directories. This page contains these views \(tabs\):
 
 
 <table>
@@ -271,7 +271,12 @@ Allows global account admins and viewers to view the commercial source of their 
 </tr>
 </table>
 
-The *Entitlements* \> *Service Assignments* contains these views \(tabs\):
+For information about setting assignments and quota, see:
+
+-   [Configure Entitlements and Quotas for Directories \[Feature Set B\]](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/37f8871865114f44aebee3db6ac64b72.html "Distribute entitlements that are available in your global account to directories by adding service plans and their allowed quotas by using SAP BTP cockpit.") :arrow_upper_right:
+-   [Configure Entitlements and Quotas for Subaccounts](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/5ba357b4fa1e4de4b9fcc4ae771609da.html "Distribute the entitlements that are available in your global account by adding service plans and their allowed quotas to your subaccounts using SAP BTP cockpit.") :arrow_upper_right:
+
+The *Entitlements* \> *Service Assignments* is where you view assignments and quota from the perspective of services. This page contains these views \(tabs\):
 
 
 <table>

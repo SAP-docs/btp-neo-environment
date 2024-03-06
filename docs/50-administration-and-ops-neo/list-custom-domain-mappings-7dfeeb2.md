@@ -98,6 +98,31 @@ Use your email, SAP ID or user name
 </table>
 
 
+<table>
+<tr>
+<th valign="top" colspan="2">
+
+Optional
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+`-l`, `--ssl-host` 
+
+</td>
+<td valign="top">
+
+Filter custom domain mappings per given SSL host.
+
+`Type:` string
+
+</td>
+</tr>
+</table>
+
+
 
 ## Example
 
