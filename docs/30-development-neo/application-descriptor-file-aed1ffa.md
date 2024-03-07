@@ -23,9 +23,8 @@ The application descriptor file must follow the following format. All settings a
 {
     "authenticationMethod": "saml"|"none",
     "welcomeFile": "<path to welcome file>",
-    "sendWelcomeFileRedirect": true|false,
     "logoutPage": "<path to logout page>",
-    "errorPage": "<path to server error page>",
+    "sendWelcomeFileRedirect": true|false,
     "routes": [
         {
             "path": "<application path to be mapped>",
@@ -75,8 +74,6 @@ All paths in the `neo-app.json` must be specified as plain paths, that is, paths
 [Information about: authenticationMethod](authentication-de16793.md "Authentication is the process of establishing and verifying the identity of a user as a prerequisite for accessing an application.")
 
 [Information about: welcomeFile and sendWelcomeFileRedirect](welcome-file-4e9d92e.md "You can either display the default Welcome file or specify a different file as Welcome file.")
-
-[Information about: errorPage](error-page-7b0870e.md "You can configure an error page that is displayed in case of an internal server error.")
 
 [Information about: routes with target type destination](accessing-rest-services-d6c8347.md "To connect your application to a REST service, configure routing to an HTTP destination in the application descriptor file.")
 
