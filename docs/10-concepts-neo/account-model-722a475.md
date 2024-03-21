@@ -88,7 +88,7 @@ The purpose of experimental features is to get feedback early on, allowing custo
 
 ## Directories \[Feature Set B\]
 
-**Directories** allow you to organize and manage your subaccounts according to your technical and business needs.
+With **directories**, you can organize and manage your subaccounts according to your technical and business needs.
 
 A directory can contain directories and subaccounts to create a hierarchy. Using directories to group other directories and subaccounts is optional - you can still create subaccounts directly under your global account.
 
@@ -96,7 +96,7 @@ You can create a hierarchical structure that is up to 7 levels deep. The highest
 
 ![Directories and Subaccounts](images/Relationship_Between_Directories_and_Subaccounts_d60105c.png)
 
-Directories allow you to:
+Directories enable you to:
 
 -   Group and filter directories and subaccounts
 

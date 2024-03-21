@@ -19,7 +19,7 @@ If a Java application is a part of your solution, the following rules apply duri
 -   The Java application is deployed and started at the end of the deployment
 -   If a Java application with the same name already exists in your subaccount, it is replaced with the newer Java application
 -   An existing Java application is updated only if its binaries or configuration in the MTA deployment descriptor have been changed
--   When updating an already existing application, parameters defined in the new MTA deployment descriptor override the existing parameters in the already deployed application. Parameters not defined in the descriptor are copied from the already existing application.
+-   When updating an already existing application, its parameters get overridden by the ones defined in the new MTA deployment descriptor. Parameters not defined in the descriptor are copied from the already existing application.
 -   You can also update a Java application using a rolling update. For more information, see [MTA Module Types, Resource Types, and Parameters for Applications in the Neo Environment](mta-module-types-resource-types-and-parameters-for-applications-in-the-neo-environment-f1caa87.md).
 -   You can deploy one Java application that is distributed in two or more `war` files in the MTA archive. They have to be described accordingly in the `MANIFEST.MF` file, and the archive names should differ.
 

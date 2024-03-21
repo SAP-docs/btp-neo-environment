@@ -9,7 +9,7 @@ You can deploy a solution that can be consumed only within your subaccount.
 ## Prerequisites
 
 -   The MTA archive containing your solution is created according to the information in [Multitarget Applications for the Neo Environment](multitarget-applications-for-the-neo-environment-e1bb7eb.md).
--   Optionally, you have created an extension description as described in [Defining MTA Extension Descriptors](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/50df803465324d36851c79fd07e8972c.html "") :arrow_upper_right:.
+-   Optionally, you have created an extension descriptor as described in [Defining MTA Extension Descriptors](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/50df803465324d36851c79fd07e8972c.html "") :arrow_upper_right:.
 -   You have a valid role for your subaccount as described in [Operating Solutions](operating-solutions-2abf7d4.md).
 -   You have sufficient resources available in your subaccount to deploy the content of the Multitarget Application.
 
@@ -50,7 +50,7 @@ You can deploy a solution that can be consumed only within your subaccount.
     > ### Note:  
     > Make sure that you do not select the *Provider deploy* checkbox. If you select it, you will provide your solution for a subscription. For more information, see [Deploy a Provided Solution](deploy-a-provided-solution-8f48815.md).
 
-6.  Choose *Deploy* to deploy the MTA archive and the optional MTA extension descriptor to theSAP BTP.
+6.  Choose *Deploy* to deploy the MTA archive and the optional MTA extension descriptor to the SAP BTP.
 
     The *Deploy a Solution from an MTA Archive* dialog remains on the screen during the process. When the deployment is completed, a confirmation appears that the solution has been successfully deployed. If you close the dialog during deployment, you can open it again by choosing *Check Progress* of the corresponding operation, located on the *Ongoing Operations* table in the solution overview page. You can open the page by choosing the tile of the solution that is being deployed.
 

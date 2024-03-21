@@ -100,7 +100,7 @@ SAP BTP offers two different commercial models for enterprise accounts.
 
 
 > ### Note:  
-> You can use both commercial models, either in separate global accounts or in the same global account depending on your business needs. Contact your SAP account executive or sales representative for more information. You cannot however, mix Cloud Platform Enterprise Agreement \(CPEA\) and Pay-As-You-Go for SAP BTP in the same global account.
+> You can use both commercial models, either in separate global accounts or in the same global account depending on your business needs. Contact your SAP account executive or sales representative for more information. Note however that you cannot mix more than one flavor of the consumption-based commercial model in the same global account.
 
 For information about service availability, prices, and estimators, see [https://www.sap.com/products/technology-platform/solutions.html](https://www.sap.com/products/technology-platform/solutions.html) and [https://www.sap.com/products/technology-platform/integration-suite/pricing.html](https://www.sap.com/products/technology-platform/integration-suite/pricing.html). You can also view the service catalog via the [SAP Discovery Center](https://discovery-center.cloud.sap).
 
@@ -166,7 +166,7 @@ If you want information about the **Pay-As-You-Go for SAP BTP for Partners** com
 </table>
 
 > ### Tip:  
-> You can monitor costs and service usage throughout the contract period. See [Monitoring Usage and Consumption Costs in Your Global Account](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/de6f0db8919f4e6f97e54bc4ddaf2ab8.html "SAP BTP cockpit supports advanced usage and cost monitoring of services in your global account. You can compare the usage and costs of multiple services and subaccounts, see monthly trends, and drill into subaccounts and service plans for detailed information.") :arrow_upper_right: and [View Subaccount Usage Analytics](../50-administration-and-ops-neo/view-subaccount-usage-analytics-8f4d9db.md).
+> You can monitor costs and service usage throughout the contract period. See [Monitoring Usage and Consumption Costs in Your Global Account](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/de6f0db8919f4e6f97e54bc4ddaf2ab8.html "SAP BTP cockpit supports advanced usage and cost monitoring of services in your global account. You can compare the usage and costs of multiple services and subaccounts, see monthly trends, and drill into subaccounts and service plans for detailed information.") :arrow_upper_right:.
 
 For information about eligible services and pricing, see [https://www.sap.com/products/technology-platform/pricing.html](https://www.sap.com/products/technology-platform/pricing.html), or access the SAP BTP service catalog via the [SAP Discovery Center](https://discovery-center.cloud.sap). The SAP BTP service catalog allows you to identify service availability per data center and to determine licensing model compatibility per available service plan.
 
@@ -175,7 +175,7 @@ As part of the free tier model for SAP BTP, some services offer free service pla
 To find frequently asked questions about this licensing model, see the [Consumption-based commercial model CPEA and Cloud Credits - FAQ Document](https://www.sap.com/products/extension-suite/pricing.html?pdf-asset=668ae6f5-cd7d-0010-87a3-c30de2ffd8ff).
 
 > ### Note:  
-> Depending on your business needs, you can combine the consumption-based commercial model with the subscription-based commercial model in the same global account, or you can use both commercial models in the same global acccount. Contact your SAP account executive or sales representative for more information. Note however that you cannot mix Cloud Platform Enterprise Agreement \(CPEA\) and Pay-As-You-Go for SAP BTP in the same global account.
+> Depending on your business needs, you can combine the consumption-based commercial model with the subscription-based commercial model in the same global account, or you can use both commercial models in the same global account. Contact your SAP account executive or sales representative for more information. Note however that you cannot mix more than one flavor of the consumption-based commercial model in the same global account.
 
 **Related Information**  
 

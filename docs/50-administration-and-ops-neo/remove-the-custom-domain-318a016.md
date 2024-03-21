@@ -20,15 +20,30 @@ If you do not want to use the custom domain any longer, you can remove it using 
 
 ## Procedure
 
-1.  In the console client command line, execute `neo remove-custom-domain`.
+1.  Remove the mapping of the custom domain.
 
-    Note that you will need the SSL host name defined when configuring the custom domain. You can view it by running the `list-ssl-hosts` command.
+    1.  First, get a list of all custom domains and their corresponding mappings.
 
-    ```
-    neo remove-custom-domain --account mysubaccount --user mymail@example.com --host hana.ondemand.com
-    --custom-domain www.example.com --ssl-host mysslhostname
-    
-    ```
+        Run:
+
+        ```
+        neo list-custom-domain-mappings --account mysubaccount --user mymail@example.com --host hana.ondemand.com
+        ```
+
+        See [list-custom-domain-mappings](list-custom-domain-mappings-7dfeeb2.md).
+
+        In the output of the `list-custom-domain-mappings` command, you can find the custom domain or domains that you want to remove along with the corresponding SSL host for each domain.
+
+    2.  Then, for each custom domain that you want to remove, run:
+
+        ```
+        neo remove-custom-domain --account mysubaccount --user mymail@example.com --host hana.ondemand.com
+        --custom-domain www.example.com --ssl-host mysslhostname
+        ```
+
+        > ### Note:  
+        > If you removed all custom domain mappings part of this SSL host, then don't forget to remove the DNS record that points to that SSL host, previously created with the [Configure DNS](configuring-custom-domains-77cf0e6.md#loio004406e1c9a8441fb05a25f5f87d45b7) step.
+
 
 2.  Remove all trusted CA certificates from the SSL host of the custom domain that you want to remove, if any.
 

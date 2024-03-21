@@ -8,7 +8,7 @@
 
 ## Prerequisites
 
--   You have deployed or created the application components, configurations, and content that you want to export as an MTA in a SAP BTP Neo subaccount.
+-   You have deployed or created the application components, configurations, and content that you want to export as an MTA in an SAP BTP Neo subaccount.
 -   Optionally, you have configured the connectivity to a transport service such as CTS+ and the Transport Management Service.
 
 
@@ -28,7 +28,7 @@
 You have the option to export subaccount components as Solutions. You have two possible scenarios:
 
 -   you can generate MTA development descriptor, MTA deployment descriptor template, and MTA extension descriptor template
--   you can export an MTA archive and, optionally, upload it to a transport service such as CTS+ or the Transport Management Service.
+-   you can export an MTA archive and, optionally, upload it to a transport service such as CTS+ or the Transport Management Service
 
     > ### Remember:  
     > Exporting MTA archives containing Java modules is not supported. You can, however, export descriptor files that contain information about a Java software module.

@@ -10,7 +10,7 @@ When deployed to your SAP BTP subaccount, a solution consists of various solutio
 
 ## Prerequisites
 
-You have a valid role for your subaccount as described in [Operating Solutions](operating-solutions-2abf7d4.md)
+You have a valid role for your subaccount as described in [Operating Solutions](operating-solutions-2abf7d4.md).
 
 
 
@@ -48,13 +48,13 @@ To see a status overview of an individual solution or solution components in you
 
     The following details are available:
 
-    -   Overview - it displays the solution name and status. For more information about the solution states, see *Solutions* page help in the cockpit.
+    -   Overview - it displays the solution name and status. For more information about the solution states, follow the link provided in the **Learn more about the solutions** footer at the bottom of the *Solutions* page.
     -   Description - a short descriptive text about the solution, typically stating what it does.
     -   Additional Information- contains information about the provisioning type, the provider's subaccount, and the organization.
     -   Ongoing Operations - the ongoing operations for the solution.
     -   Solution components - a list of the components that are part of the solution, the states of these components and their types.
 
-    For more information about the possible states of a solution component and what they mean, see your Solution page help in the cockpit.
+    For more information about the possible states of a solution component and what they mean, follow the link provided in the **Learn more about the solutions** footer at the bottom of the *Solutions* page.
 
 4.  If you have provided a solution that is available for subscription to another subaccount, you can monitor the licenses and subscribers of a provided solution as follows:
 

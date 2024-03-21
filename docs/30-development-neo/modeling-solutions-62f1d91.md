@@ -26,9 +26,9 @@ You model the supported entities according to the MTA specification so that they
 
 [Modeling Java Applications](modeling-java-applications-83d08d6.md "The SAP BTP allows you to deploy Java applications that run either on the proprietary SAP Java Web or the Java Web Tomcat runtime containers. These Java applications are com.sap.java and the java.tomcat.")
 
-[Modeling Database Bindings](modeling-database-bindings-0acf332.md "By using а database binding, the Java applications connects to a database set up in your current subaccount or provided by another subaccount part of the same global account. This connection is modeled within your solution by setting it up during the deployment operation.")
-
 [Modeling HTML5 Applications](modeling-html5-applications-0e8e6a0.md "You can deploy HTML5 applications to the SAP BTP by modeling it as a part of a Multitarget Application.")
+
+[Modeling Database Bindings](modeling-database-bindings-0acf332.md "By using а database binding, the Java applications connects to a database set up in your current subaccount or provided by another subaccount part of the same global account. This connection is modeled within your solution by setting it up during the deployment operation.")
 
 [Modeling Destinations](modeling-destinations-37bddb4.md "You can connect your applications to another source by describing the source connection properties in a destination. Later on, you can access that destination from your application.")
 

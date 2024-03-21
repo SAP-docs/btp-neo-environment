@@ -2,7 +2,7 @@
 
 # Create and Edit Entitlements
 
-After the deployment of a solution, which is going to be provided for subscription, create the entitlements that are going to be granted to the subscribers subaccounts.
+After the deployment of a solution, which is going to be provided for subscription, create the entitlements that are going to be granted to the subaccounts of the subscribers.
 
 
 
@@ -34,7 +34,7 @@ You have an administrator role for your subaccount.
 
 2.  Choose *Entitlements* in the navigation area.
 
-3.  Choose *Create Entitlement*.
+3.  Choose *New Entitlement*.
 
     The *New Entitlement* dialog box appears.
 
@@ -55,7 +55,7 @@ You have an administrator role for your subaccount.
         > Currently it is not possible to decrease the number of granted entitlements per particular global account.
 
 
-5.  Choose *Create* and then *Close*.
+5.  Choose *Save* and then *Close*.
 
 
 

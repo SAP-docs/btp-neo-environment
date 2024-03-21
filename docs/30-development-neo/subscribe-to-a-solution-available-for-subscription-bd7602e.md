@@ -13,7 +13,7 @@ You can subscribe to a solution that has been provided for subscription by anoth
 -   You have sufficient resources available in your subaccount to deploy the content of the Multi-Target Application.
 
     > ### Note:  
-    > Typically, parts of a provided for subscription solution are deployed to the providers subaccount and parts of it within your subaccount. The parts of the solution deployed to your subaccount consume your resources, while the parts of the solution deployed to the providers subaccount consume the resources the provider subaccount.
+    > Typically, parts of a provided for subscription solution are deployed to the provider's subaccount and parts of it - within your subaccount. The parts of the solution deployed to your subaccount consume your resources. The parts of the solution deployed to the provider's subaccount consume the resources of the provider subaccount.
 
 
 

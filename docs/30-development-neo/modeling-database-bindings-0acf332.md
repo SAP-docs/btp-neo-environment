@@ -16,12 +16,12 @@ By using а database binding, the Java applications connects to a database set u
 > Ensure the following prerequisites:
 > 
 > -   You have a database that is set up in your subaccount or there is a database provided to you by another subaccount.
-> -   You have valid credentials for that database. In case that you do not have valid credentials for the database, default credentials will be generated for you.
+> -   You have valid credentials for that database. In case you do not - default credentials will be generated for you.
 
 You can create a database binding to one of the following:
 
 -   The `<DEFAULT>` data source of your Java application
--   A named data source of your Java application by using the parameter `binding-name` that is added to the database binding resource required in the `requires` section of the `com.sap.java` and `java.tomcat` module types.
+-   A named data source of your Java application by using the parameter `binding-name` that is added to the database binding resource required in the `requires` section of the `com.sap.java` and `java.tomcat` module types
 
     For specification of the named database binding parameter, see [MTA Module Types, Resource Types, and Parameters for Applications in the Neo Environment](mta-module-types-resource-types-and-parameters-for-applications-in-the-neo-environment-f1caa87.md).
 
@@ -124,7 +124,7 @@ Each database binding is modeled as a Multitarget Application \(MTA\) resource, 
 
 For specification of the database binding resource, see [MTA Module Types, Resource Types, and Parameters for Applications in the Neo Environment](mta-module-types-resource-types-and-parameters-for-applications-in-the-neo-environment-f1caa87.md).
 
-First, you have to model the deployment descriptor that will contain the Java application module and the database binding resource and then you have to create an extension descriptor that will hold sensitive data, such as credentials.
+First, you have to model the deployment descriptor that will contain the Java application module and the database binding resource. Then you have to create an extension descriptor that will hold sensitive data, such as credentials.
 
 > ### Note:  
 > Make sure that you always use an extension descriptor when you have sensitive data within your solution.

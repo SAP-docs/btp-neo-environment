@@ -75,7 +75,7 @@ You can create a hierarchical structure that is up to 7 levels deep. The highest
 
 [Cloud Management Tools — Feature Set Overview](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/caf4e4e23aef4666ad8f125af393dfb2.html "Cloud management tools represent the group of technologies designed for managing SAP BTP.") :arrow_upper_right:
 
-[Directories \[Feature Set B\]](../10-concepts-neo/account-model-722a475.md#loioa92721fc75524ec09a7a7255997dbd94 "Directories allow you to organize and manage your subaccounts according to your technical and business needs.")
+[Directories \[Feature Set B\]](../10-concepts-neo/account-model-722a475.md#loioa92721fc75524ec09a7a7255997dbd94 "With directories, you can organize and manage your subaccounts according to your technical and business needs.")
 
 [Create a Directory \[Feature Set B\]](create-a-directory-feature-set-b-b8ef1c4.md "Create a directory using the SAP BTP cockpit to organize and manage your subaccounts. For example, you can group subaccounts by project, team, or department.")
 

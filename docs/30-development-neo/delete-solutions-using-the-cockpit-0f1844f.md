@@ -53,15 +53,15 @@ To delete a solution from your subaccount, proceed as described below.
         > ### Note:  
         > If the *Delete data source* checkbox is selected, any deployed database binding will be deleted. Note that your database credentials will not be removed from your database and can be used again.
 
-    2.  Select the *Clean-up on error* checkbox.
+    2.  Select the *Ignore solution component deletion errors* checkbox.
 
         > ### Note:  
         > If set, any errors during deletion that are external to SAP BTP \(for example, a SuccessFactors system\) are ignored.
         > 
-        > Typical use case is to be able to delete a solution that is linked to a now nonexistent external system. Then, if the *Clean-up on error* checkbox is not selected, the deletion process will fail with an error. When the *Clean-up on error* is selected the deletion process will ignore the error and continue.
+        > Typical use case is to be able to delete a solution that is linked to a now nonexistent external system. Then, if the *Ignore solution component deletion errors* checkbox is not selected, the deletion process will fail with an error. When the *Ignore solution component deletion errors* is selected the deletion process will ignore the error and continue.
 
         > ### Note:  
-        > If the *Clean-up on error* checkbox is selected and an error that originates from an external to SAP BTP instance occurs, it will be ignored. As a result all the data stored in the SAP BTP for that solution will be deleted. However, external systems might still contain some data that is not deleted.
+        > If the *Ignore solution component deletion errors* checkbox is selected and an error that originates from an external to SAP BTP instance occurs, it will be ignored. As a result all the data stored in the SAP BTP for that solution will be deleted. However, external systems might still contain some data that is not deleted.
 
 
 4.  Select the *Confirm solution deletion* checkbox, and choose *Delete*.

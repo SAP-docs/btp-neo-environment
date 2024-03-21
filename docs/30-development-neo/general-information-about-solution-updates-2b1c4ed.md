@@ -32,7 +32,7 @@ When you update your solution against deployer version `1.0` or `1.1.0`, the upd
 
 When you update your solution against deployer version `1.2` or `1.2.0`, the update is treated as an update with full semantics, which means:
 
--   Any new components that have now been described in the MTA deployment descriptor are deployed as usual
+-   Any new components that have now been described in the MTA deployment descriptor are deployed as usual.
 -   Any already existing components are redeployed or updated, depending on their current runtime state in the SAP BTP.
 -   Components that are no longer present in the MTA deployment descriptor are removed.
 
