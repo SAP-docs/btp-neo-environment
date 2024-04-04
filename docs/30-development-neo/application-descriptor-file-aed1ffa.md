@@ -76,7 +76,7 @@ All paths in the `neo-app.json` must be specified as plain paths, that is, paths
 
 [Information about: welcomeFile and sendWelcomeFileRedirect](welcome-file-4e9d92e.md "You can either display the default Welcome file or specify a different file as Welcome file.")
 
-[Information about: errorPage](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/7b0870e9bfdf41a793b35984c12f1b25.html "") :arrow_upper_right:
+[Information about: errorPage](error-page-7b0870e.md "You can configure an error page that is displayed in case of an internal server error.")
 
 [Information about: routes with target type destination](accessing-rest-services-d6c8347.md "To connect your application to a REST service, configure routing to an HTTP destination in the application descriptor file.")
 

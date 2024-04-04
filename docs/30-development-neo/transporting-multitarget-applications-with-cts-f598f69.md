@@ -8,7 +8,7 @@ You can enable transport of SAP BTP applications and application content that is
 
 ## Prerequisites
 
--   You have configured your SAP Business Technology Platform subaccounts for transport with CTS+ as described in [How To... Configure SAP BTP for CTS](http://help.sap.com/disclaimer?site=http://go.sap.com/documents/2016/07/bc3e9124-7d7c-0010-82c7-eda71af511fa.html) 
+-   You have configured your SAP Business Technology Platform subaccounts for transport with CTS+ as described in [How To... Configure SAP BTP for CTS](http://help.sap.com/disclaimer?site=http://go.sap.com/documents/2016/07/bc3e9124-7d7c-0010-82c7-eda71af511fa.html).
 -   The content that you want to transport can be made available as a Multitarget Application \(MTA\) archive as described in [Multitarget Applications for the Neo Environment](multitarget-applications-for-the-neo-environment-e1bb7eb.md).
 
 
@@ -33,8 +33,8 @@ You use the Change and Transport System \(CTS\) of ABAP to transport and deploy 
 
 1.  Package the application in a Multitarget Application \(MTA\) archive. To do this, you have the following options:
 
-    1.  Use the [Cloud MTA Build Tool](https://github.com/SAP/cloud-mta-build-tool).
-    2.  Use the Solution Export Wizard as described in [Exporting Solutions](exporting-solutions-14a0ff1.md).
+    1.  Use the [Cloud MTA Build Tool](https://github.com/SAP/cloud-mta-build-tool)
+    2.  Use the Solution Export Wizard as described in [Exporting Solutions](exporting-solutions-14a0ff1.md)
 
 2.  Attach the MTA archive to a CTS+ transport request as described in [How To... Configure SAP BTP for CTS](http://help.sap.com/disclaimer?site=http://go.sap.com/documents/2016/07/bc3e9124-7d7c-0010-82c7-eda71af511fa.html).
 

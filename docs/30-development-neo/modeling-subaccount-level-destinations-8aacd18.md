@@ -61,7 +61,7 @@ The following shows how to create a subaccount-level destination:
 >    ...
 > ```
 
-In the example above, the module type `com.sap.hcp.destination` is used to define the subaccount-level destination and the Java module `nwl` requires it, because the destination is created prior starting the Java application. The required section has to ensure proper ordering.
+In the example above, the module type `com.sap.hcp.destination` is used to define the subaccount-level destination. The Java module `nwl` requires it because the destination is created before starting the Java application. The required section has to ensure proper ordering.
 
 The example above will result in a subаccount-level destination created within the consumer subaccount with credentials that are still placed into the MTA extension descriptor. If you are providing your solution for consumption by another subaccount, you might want to create that destination into the subscriber subaccount. To do this, you have to use the `owner` option.
 

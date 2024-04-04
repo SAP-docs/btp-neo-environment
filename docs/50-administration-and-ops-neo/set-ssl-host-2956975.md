@@ -174,14 +174,14 @@ Specify the TLS protocols that you want to enable for the SSL host. The remainin
 
 `Type`: string
 
-`Supported TLS protocols`: TLSV1\_2
+`Supported TLS protocols`: TLSV1\_2, TLSV1\_3
 
 Newer TLS versions will be added to the list of supported TLS protocols, if necessary.
 
 `Delimiter`: comma \(,\)
 
 > ### Note:  
-> Enabling TLS 1.2 with `--supported-protocols TLSV1_2` disables all ciphers considered weak by the platform and listed in the --supported-ciphers section. You can enable these ciphers again using the`--supported-ciphers` parameter.
+> Enabling TLS 1.2 or TLS 1.3 or both disables all ciphers listed in the --supported-ciphers section. You can enable these ciphers again using the`--supported-ciphers` parameter.
 
 To check the currently enabled TLS version, run the `set-ssl-host` command without using any optional parameters.
 
@@ -198,7 +198,7 @@ To check the currently enabled TLS version, run the `set-ssl-host` command witho
 It allows you to enable additional ciphers for the SSL host.
 
 > ### Note:  
-> This parameter does not work on its own. It is always accompanied by the `--supported-protocols` parameter with value `TLSV1_2`.
+> This parameter does not work on its own. It is always accompanied by the `--supported-protocols` parameter.
 
 `Type`: string
 
@@ -224,7 +224,7 @@ It allows you to enable additional ciphers for the SSL host.
 `Delimiter`: comma \(,\)
 
 > ### Caution:  
-> For security reasons, it is recommended to use the default TLS 1.2 ciphers without using the `--supported-ciphers` parameter.
+> For security reasons, it is recommended to use TLS 1.2 or TLS 1.3 or both via `--supported-protocols` without using the `--supported-ciphers` parameter.
 
 
 
@@ -243,26 +243,26 @@ It allows you to enable additional ciphers for the SSL host.
 
 ## Examples
 
--   ```
-neo set-ssl-host -a mysubaccount -u mymail@example.com -h hana.ondemand.com -n mysslhostname
-```
+-   If the optional parameters are not used, the `set-ssl-host` command returns the current properties of the SSL host:
 
-    If the optional parameters are not used, the `set-ssl-host` command returns the current properties of the SSL host.
+    ```
+    neo set-ssl-host -a mysubaccount -u mymail@example.com -h hana.ondemand.com -n mysslhostname
+    ```
 
--   ```
-neo set-ssl-host -a mysubaccount -u mymail@example.com -h hana.ondemand.com -n mysslhostname -c mycert --supported-protocols "TLSV1_2"
-```
+-   Here, TLS 1.2 and TLS 1.3 are enabled, and all ciphers listed in the --supported-ciphers section are disabled:
 
-    Here, TLS 1.2 is enabled and all ciphers considered weak by the platform are disabled.
+    ```
+    neo set-ssl-host -a mysubaccount -u mymail@example.com -h hana.ondemand.com -n mysslhostname -c mycert --supported-protocols "TLSV1_2,TLSV1_3"
+    ```
 
     > ### Note:  
-    > Enabling TLS 1.2 this way will disable the following ciphers: \[ECDHE-RSA-AES128-CBC-SHA, ECDHE-RSA-AES128-SHA256, ECDHE-RSA-AES256-CBC-SHA, ECDHE-RSA-AES256-SHA384, AES128-SHA256, AES256-SHA256, AES128-SHA, AES256-SHA\]. You can enable these ciphers again using the`--supported-ciphers` parameter.
+    > Enabling TLS 1.2 and TLS 1.3 this way will disable the following ciphers: ECDHE-RSA-AES128-CBC-SHA, ECDHE-RSA-AES128-SHA256, ECDHE-RSA-AES256-CBC-SHA, ECDHE-RSA-AES256-SHA384, AES128-SHA256, AES256-SHA256, AES128-SHA, AES256-SHA. You can enable these ciphers again using the`--supported-ciphers` parameter.
 
--   ```
-neo set-ssl-host -a mysubaccount -u mymail@example.com -h hana.ondemand.com -n mysslhostname -c mycert --supported-protocols "TLSV1_2" --supported-ciphers "AES128-SHA,AES256-SHA"
-```
+-   In this example, AES128-SHA and AES256-SHA are the only ciphers enabled for TLS 1.2:
 
-    In this example, AES128-SHA and AES256-SHA are the only ciphers enabled for TLS 1.2.
+    ```
+    neo set-ssl-host -a mysubaccount -u mymail@example.com -h hana.ondemand.com -n mysslhostname -c mycert --supported-protocols "TLSV1_2" --supported-ciphers "AES128-SHA,AES256-SHA"
+    ```
 
 
 **Related Information**  

@@ -2,7 +2,7 @@
 
 # Modeling SAP SuccessFactors Extensions
 
-You can connect your SAP SuccessFactors system to your SAP Business Technology Platform\(SAP BTP\) subaccount. After you do so, you can define a solution that extends it. In more complex scenarios, you can even provide a solution that can be consumed by another SAP BTP subaccount and extend the subscribers SAP SuccessFactors system.
+You can connect your SAP SuccessFactors system to your SAP Business Technology Platform \(SAP BTP\) subaccount. After you do so, you can define a solution that extends it. In more complex scenarios, you can even provide a solution that can be consumed by another SAP BTP subaccount and extend the subscriber's SAP SuccessFactors system.
 
 > ### Caution:  
 > The legacy home page is in deprecation. It's no longer available for most customers.
@@ -33,7 +33,7 @@ As a result, their solution is going to have:
 
 -   The sample “Benefits” Java application
 -   A database binding for the sample “Benefits” Java application
--   The SAP SuccessFactorstile and SAP SuccessFactors role are going to be deployed to the SAP SuccessFactors company
+-   The SAP SuccessFactors tile and SAP SuccessFactors role are going to be deployed to the SAP SuccessFactors company
 -   Connectivity for the sample “Benefits” Java application to an SAP SuccessFactors system
 
 > ### Note:  
@@ -201,7 +201,7 @@ Start by creating an MTA extension descriptor that holds the security-sensitive 
 >       password : mypassword
 > ```
 
-In the example above, the extension descriptor adds the `user-id` and `password` parameters to the resource dbbinding, which is modeled in the deployment descriptor.
+In the example above, the extension descriptor adds the `user-id` and `password` parameters to the resource `dbbinding`, which is modeled in the deployment descriptor.
 
 After you deploy your solution, you can open its tile in the cockpit and check if the SAP SuccessFactors extension solution is deployed.
 

@@ -22,9 +22,12 @@ Your SAP BTP global account is the entry point for managing the resources, lands
 
 As a global account administrator, you can access the global account settings by clicking :gear: in the SAP BTP cockpit.
 
-In the *General* tab of the global account settings, you can identify your global account subdomain.
+In the *General* tab of the global account settings, you can obtain general information about your global account, including your global account ID, global account name, account type, payment models, contract status, global account subdomain, geographic access restrictions, and when your account was created.
 
-In the *Subaccount Defaults* tab in the global account settings, you can set the supported providers, the default provider, and the default region. These defaults are used when creating a new subaccount in this global account.
+> ### Note:  
+> In this tab, you can change any of the values. The only value that is editable by you is the global account name, and you can do this in the *Account Explorer* page \(see [Change the Display Name of Your Global Account](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/36a6674cf7184907aca3f062f83588e8.html "Change the display name for the global account using the SAP BTP cockpit.") :arrow_upper_right:\).
+
+In the *Subaccount Defaults* tab in the global account settings, you can set the supported providers, the default provider, and the default region. These default settings are used when creating a new subaccount in this global account.
 
 **Related Information**  
 

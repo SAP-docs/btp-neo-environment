@@ -58,7 +58,7 @@ The above instructs SAP BTP to:
 -   Extend the deployment descriptor by its ID `com.example.extension`
 -   Validate the extension descriptor against the MTA specification version 3.1
 -   Overwrite the data for the `existing-data` property
--   Add a new data called `non-existing-data` to the `data-storage` properties
+-   Add new data called `non-existing-data` to the `data-storage` properties
 
 The following is an example of another extension descriptor that extends the extension descriptor from the previous example:
 
@@ -77,7 +77,7 @@ The following is an example of another extension descriptor that extends the ext
 The example above instructs the SAP BTP to:
 
 -   Extend the first extension descriptor by its ID
--   Add a new data called `second-non-existing-data` to the `data-storage` properties
+-   Add new data called `second-non-existing-data` to the `data-storage` properties
 
 -   The examples above are incomplete. To deploy a solution, you have to create a deployment descriptor and an MTA archive.
 
@@ -91,7 +91,7 @@ You can do the following using an extension descriptor:
 
 -   Overwrite an existing data \(in depth\) in modules, resources, parameters, properties, provides, requires sections. This depends on the parameter or property metadata overwritable. See [Metadata for Properties and Parameters](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/fca2cedcb79649e7a8f51234faea1142.html "It is possible to declare metadata for parameters and properties defined in the MTA deployment description, for example, using the "parameters-metadata:" or "properties-metadata:" keys, respectively; the mapping is based on the keys defined for a parameter or property.") :arrow_upper_right:.
 
--   As of schema version 3.xx, by default parameters and properties are overwritable and optional. If you want to make a certain parameter or property non-overwritable or required, you need to add specific metadata. See [Metadata for Properties and Parameters](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/fca2cedcb79649e7a8f51234faea1142.html "It is possible to declare metadata for parameters and properties defined in the MTA deployment description, for example, using the "parameters-metadata:" or "properties-metadata:" keys, respectively; the mapping is based on the keys defined for a parameter or property.") :arrow_upper_right:.
+-   As of schema version 3.xx parameters and properties are overwritable and optional by default. If you want to make a certain parameter or property non-overwritable or required, you need to add specific metadata. See [Metadata for Properties and Parameters](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/fca2cedcb79649e7a8f51234faea1142.html "It is possible to declare metadata for parameters and properties defined in the MTA deployment description, for example, using the "parameters-metadata:" or "properties-metadata:" keys, respectively; the mapping is based on the keys defined for a parameter or property.") :arrow_upper_right:.
 
 You cannot use an extension descriptor to:
 

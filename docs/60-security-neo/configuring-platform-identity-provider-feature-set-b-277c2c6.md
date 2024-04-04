@@ -4,7 +4,13 @@
 
 Use the procedures below to configure an Identity Authentication tenant as platform identity provider in your Neo subaccount in Feature Set B.
 
-The platform identity provider you configure will be used for accessing service and platform tools, such as the Neo console client, Git Service, Cloud Connector and so on.
+The platform identity provider you configure will be used for accessing service and platform tools, such as:
+
+-   [Console Client for the Neo Environment](../50-administration-and-ops-neo/console-client-for-the-neo-environment-7613230.md)
+-   [Git Service](https://help.sap.com/docs/git-service?version=Cloud)
+-   [Cloud Connector \(Neo environment\)](https://help.sap.com/docs/connectivity/sap-btp-connectivity-neo/cloud-connector-neo-environment?version=Cloud)
+-   [SAP Solutions Management Service for SAP BTP](https://help.sap.com/docs/solutions-lifecycle-management) when BASIC authentication is used in applications
+-   SAP HANA system from SAP HANA Studio \(see [Tutorial: Add an SAP HANA System](https://help.sap.com/docs/SAP_HANA_PLATFORM/52715f71adba4aaeb480d946c742d1f6/abedb1c22b0746a8a44a38b810c99b58.html)\)
 
 > ### Note:  
 > This platform identity provider is *not* used for accessing the SAP BTP cockpit. For accessing the SAP BTP cockpit, you use the custom identity provider configured at *global account level*. For more information, see [Establish Trust and Federation of Custom Identity Providers for Platform Users \[Feature Set B\]](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/c36898473d704e07a33268c9f9d29515.html "You want to use a custom identity provider for the platform users of SAP BTP in different environments and at the different account levels: global account, directory, and subaccount. By default, platform users in multi-environment subaccounts are users in the default identity provider.") :arrow_upper_right:.

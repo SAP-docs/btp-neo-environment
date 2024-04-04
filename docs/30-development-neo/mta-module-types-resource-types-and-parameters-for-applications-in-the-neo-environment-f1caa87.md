@@ -441,7 +441,7 @@ no
 </td>
 <td valign="top">
 
-Application version to be used in the HTML5 runtime. Used for deploying Java HTML5 modules with the same version can be deployed only once. In the `version` parameter, the usage of a *<timestamp\>* read-only variable is supported. Thus, a new version string is generated with every deploy. For example, version: `'0.1.0-${timestamp}'` 
+Application version to be used in the HTML5 runtime. Java HTML5 modules that are used for deploying and have the same version can be deployed only once. In the `version` parameter, the usage of a *<timestamp\>* read-only variable is supported. Thus, a new version string is generated with every deploy. For example, version: `'0.1.0-${timestamp}'`.
 
 </td>
 <td valign="top">
@@ -549,7 +549,7 @@ no
 </td>
 <td valign="top">
 
-If true, the extension application is registered as an authorized assertion consumer service for the SAP SuccessFactors system to enable the application to use the SAP SuccessFactors identity provider \(IdP\) for authentication.
+If true, the extension application is registered as an authorized assertion consumer service for the SAP SuccessFactors system. This way the application is enabled to use the SAP SuccessFactors identity provider \(IdP\) for authentication.
 
 </td>
 <td valign="top">
@@ -1255,7 +1255,7 @@ no
 </td>
 <td valign="top">
 
-If true, the extension application is registered as an authorized assertion consumer service for the SAP SuccessFactors system to enable the application to use the SAP SuccessFactors identity provider \(IdP\) for authentication.
+If true, the extension application is registered as an authorized assertion consumer service for the SAP SuccessFactors system. This way the application is enabled to use the SAP SuccessFactors identity provider \(IdP\) for authentication.
 
 </td>
 <td valign="top">
@@ -1549,7 +1549,7 @@ no
 Minimum number of process instances. The allowed range is from `1` to `99`.
 
 > ### Note:  
-> -   You either have to use both the `minimum-processes` and `maximum-processes` parameters, or neither
+> -   You either have to use both the `minimum-processes` and `maximum-processes` parameters, or neither.
 > -   The `minimum-processes` should be equal to or lower than the `maximum-processes` value.
 
 
@@ -1988,7 +1988,7 @@ no
 </td>
 <td valign="top">
 
-If true, the extension application is registered as an authorized assertion consumer service for the SAP SuccessFactors system to enable the application to use the SAP SuccessFactors identity provider \(IdP\) for authentication.
+If true, the extension application is registered as an authorized assertion consumer service for the SAP SuccessFactors system. This way the application is enabled to use the SAP SuccessFactors identity provider \(IdP\) for authentication.
 
 </td>
 <td valign="top">
@@ -2288,7 +2288,7 @@ no
 </td>
 <td valign="top">
 
-ID of the PPMS support-package stack backend
+ID of the PPMS support-package stack backend.
 
 </td>
 <td valign="top">
@@ -2320,7 +2320,7 @@ no
 </td>
 <td valign="top">
 
-ID of the cross product stack backend
+ID of the cross product stack backend.
 
 </td>
 <td valign="top">
@@ -2352,7 +2352,7 @@ no
 </td>
 <td valign="top">
 
-ID of the cross product stack solution backend
+ID of the cross product stack solution backend.
 
 </td>
 <td valign="top">
@@ -2438,7 +2438,7 @@ no
 </td>
 <td valign="top">
 
-Version of the minimum required SAPUI5 Runtime. The format of the version is a numeric string of `<major>.<minor>` or `<major>.<minor>.<micro>`
+Version of the minimum required SAPUI5 Runtime. The format of the version is a numeric string of `<major>.<minor>` or `<major>.<minor>.<micro>`.
 
 </td>
 <td valign="top">
@@ -2570,7 +2570,7 @@ no
 SAP Fiori application version
 
 > ### Note:  
-> The same rules apply as for the `sap.com.hcp.html5 version` parameter with the difference that this parameter is optional. Default value: `'${timestamp}'` 
+> The same rules apply as for the `sap.com.hcp.html5 version` parameter with the difference that this parameter is optional. Default value: `'${timestamp}'` .
 
 
 
@@ -2942,12 +2942,12 @@ For more information, see [Role Assignment of HTML 5 Roles to Security Groups](r
     List of OData services. Parameters required for an OData service are:
 
     -   `name` - name of the service from the SAP on-premise back-end system that needs to be registered, for example `EPM_DEVELOPER_SCENARIO_SRV`. This name has to be unique within the current subaccount.
-    -   `namespace` - namespace for the above service being registered from the SAP on-premise back-end system, for example `IWBEP`
-    -   `version` - version of service being registered from the SAP on-premise back-end system, for example `1`
-    -   `description` - description of the service being registered, for example `/IWBEP/CL_EPM_DEVELOPE_DPC_EXT`
-    -   `initial-status` - status of the service registered in the OData Provisioning Administration cockpit that is set during the initial deployment of the OData service, whether it is active or inactive, for example `true`
-    -   `overwrite-existing` - this flag declares whether an existing OData service is going to be updated or not, for example `false`
-    -   `model-id` - the model ID corresponding to the metadata of the service being registered, for example `/IWBEP/EPM_DEVELOPER_SCENARIO_MD_0001`
+    -   `namespace` - namespace for the above service being registered from the SAP on-premise back-end system, for example `IWBEP`.
+    -   `version` - version of service being registered from the SAP on-premise back-end system, for example `1`.
+    -   `description` - description of the service being registered, for example `/IWBEP/CL_EPM_DEVELOPE_DPC_EXT`.
+    -   `initial-status` - status of the service registered in the OData Provisioning Administration cockpit that is set during the initial deployment of the OData service, whether it is active or inactive, for example `true`.
+    -   `overwrite-existing` - this flag declares whether an existing OData service is going to be updated or not, for example `false`.
+    -   `model-id` - the model ID corresponding to the metadata of the service being registered, for example `/IWBEP/EPM_DEVELOPER_SCENARIO_MD_0001`.
     -   `initial-default-destination` - the SAP on-premise back-end system destination where the service exists that is set during the initial deployment of the OData service. `Default` means that if the service does not specify any origin in the URL, then the metadata and data requests are going to be fulfilled from the destination mentioned against `initial-default-destination`, for example `AP2`.
 
 
@@ -3067,8 +3067,8 @@ For more information, see [Role Assignment of HTML 5 Roles to Security Groups](r
     List of OData services. Parameters required for an OData service are:
 
     -   `name` - name of the service from the SAP on-premise back-end system that needs to be registered, for example `EPM_DEVELOPER_SCENARIO_SRV`. This name has to be unique within the current subaccount.
-    -   `namespace` - namespace for the above service being registered from the SAP on-premise back-end system, for example `IWBEP`
-    -   `version` - version of service being registered from the SAP on-premise back-end system, for example `1`
+    -   `namespace` - namespace for the above service being registered from the SAP on-premise back-end system, for example `IWBEP`.
+    -   `version` - version of service being registered from the SAP on-premise back-end system, for example `1`.
     -   `status` - status of the service registered in the OData Provisioning Administration cockpit. To make the service active use `true`, or `false` to keep it inactive.
     -   `initial-description` – description of the service. For example `/IWBEP/CL_EPM_DEVELOPE_DPC_EXT`. Use only when the service is created for the first time.
 
@@ -3182,19 +3182,19 @@ yes
 
 ### `com.sap.hcp.destination` - A generic subaccount-level destination.
 
-To see the available parameters and values, see the table “Destination Parameters” below.
+To see the available parameters and values, see the table [Destination Parameters](mta-module-types-resource-types-and-parameters-for-applications-in-the-neo-environment-f1caa87.md#loiof1caa871360c40e7be7ce4264ab9c336__section_tsg_pj4_mz) below.
 
 
 
 ### `com.sap.hcp.portal.destination` - A service-level destination for theSAP Cloud Portal service.
 
-To see the available parameters and values, see the table “Destination Parameters” below.
+To see the available parameters and values, see the table [Destination Parameters](mta-module-types-resource-types-and-parameters-for-applications-in-the-neo-environment-f1caa87.md#loiof1caa871360c40e7be7ce4264ab9c336__section_tsg_pj4_mz) below.
 
 
 
 ### `com.sap.hcp.odp.destination` - A service-level destination for the SAP OData Provisioning.
 
-To see the available parameters and values, see the table “Destination Parameters” below.
+To see the available parameters and values, see the table [Destination Parameters](mta-module-types-resource-types-and-parameters-for-applications-in-the-neo-environment-f1caa87.md#loiof1caa871360c40e7be7ce4264ab9c336__section_tsg_pj4_mz) below.
 
 
 
@@ -3459,7 +3459,7 @@ Mandatory
 </td>
 <td valign="top">
 
-Identifier of the database that will be bound to a deployed Java application You can model a named data source by using the parameter
+Identifier of the database that will be bound to a deployed Java application. You can model a named data source by using the parameter
 
 > ### Note:  
 > If you want to use a `<DEFAULT>` database binding, the standard data source `jdbc/DefaultDB` has to be set up at the stage of the Java application development.
@@ -5106,7 +5106,7 @@ The following example contains a Java application that has a destination that le
 
 ## Destinations with Target Platform Specific Data Options
 
-When modeling destinations the SAP BTP offers several keyword properties that allow you to express your intention when deploying a destination more clearly. There might be cases, in which some of the destination data prior deploying the MTA archive is not known to you. Such data might be, for example, the URL of a Java Application that you want your destination to point to. To address these cases, SAP BTP provides several placeholders that you can use when you model your MTA. Placeholders are part of the Multitarget Application specification, and are strings resolved depending on the scope in which they are used. They have the syntax `${<name>}`.
+When modeling destinations the SAP BTP offers several keyword properties that allow you to express your intention when deploying a destination more clearly. There might be cases in which some of the destination data prior deploying the MTA archive is not known to you. Such data might be, for example, the URL of a Java Application that you want your destination to point to. To address these cases, SAP BTP provides several placeholders that you can use when you model your MTA. Placeholders are part of the Multitarget Application specification, and are strings resolved depending on the scope in which they are used. They have the syntax `${<name>}`.
 
 Currently all types of destinations support the following placeholders, which are automatically resolved with their valid values during deployment.
 
@@ -5202,7 +5202,7 @@ Instructs SAP BTP to resolve the placeholder value to your subaccount name when 
 </td>
 <td valign="top">
 
-Instruct SAP BTP to resolve the placeholder value to the subaccount name of the provider when the destination is being deploying. This placeholder can be used only in the `url` parameter for a destination and the `token-service-url` parameter. You can use it if you want to employ a model, where a destination is created within your subscribers subaccount and you want it to point to a URL in your provider subaccount.
+Instructs SAP BTP to resolve the placeholder value to the subaccount name of the provider when deploying the destination. This placeholder can be used only in the `url` parameter for a destination and the `token-service-url` parameter. You can use it if you want to employ a model, where a destination is created within your subscriber subaccount and you want it to point to a URL in your provider subaccount.
 
 > ### Example:  
 > ```

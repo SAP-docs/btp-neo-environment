@@ -32,7 +32,7 @@ You model the supported entities according to the MTA specification so that they
 
 [Modeling Destinations](modeling-destinations-37bddb4.md "You can connect your applications to another source by describing the source connection properties in a destination. Later on, you can access that destination from your application.")
 
-[Modeling SAP SuccessFactors Extensions](modeling-sap-successfactors-extensions-ec35793.md "You can connect your SAP SuccessFactors system to your SAP Business Technology Platform(SAP BTP) subaccount. After you do so, you can define a solution that extends it. In more complex scenarios, you can even provide a solution that can be consumed by another SAP BTP subaccount and extend the subscribers SAP SuccessFactors system.")
+[Modeling SAP SuccessFactors Extensions](modeling-sap-successfactors-extensions-ec35793.md "You can connect your SAP SuccessFactors system to your SAP Business Technology Platform (SAP BTP) subaccount. After you do so, you can define a solution that extends it. In more complex scenarios, you can even provide a solution that can be consumed by another SAP BTP subaccount and extend the subscriber's SAP SuccessFactors system.")
 
  <?sap-ot O2O class="- topic/link " href="c4f0d850b6ba46089a76d53ab805c9e6.xml" text="" desc="" xtrc="link:6" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio9fe952ba277c471bbad80cd40548bb84_en-US/src/content/localization/en-us/62f1d913659b4fd2812364f96e0b7fa9.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
 

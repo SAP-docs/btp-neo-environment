@@ -68,7 +68,7 @@ The security roles can be assigned to a group modeled in the MTA deployment desc
 > 
 > ```
 
-When you deploy the above example, a new authorization group named “AdministratorGroup” is created, and the “administrator” application security role form the “demowebapp” is assigned to this group. In case the roles already exists, only the application security role is assigned to the existing group.
+When you deploy the above example, a new authorization group named `AdministratorGroup` is created, and the `administrator` application security role form the `demowebapp` is assigned to this group. In case the roles already exists, only the application security role is assigned to the existing group.
 
 **Related Information**  
 

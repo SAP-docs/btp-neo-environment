@@ -33,7 +33,7 @@ Use the CTS+ Export Web Service to perform a transport of a multitarget applicat
     > ### Note:  
     > If you maintain a list of trusted applications and a principal propagation trust configuration, you have to authorize the application `services:slservice`.
 
--   Define the transport systems and route corresponding to your SAP BTP subaccounts. For more information, see [How To... Configure HCP for CTS](https://www.sap.com/documents/2016/07/bc3e9124-7d7c-0010-82c7-eda71af511fa.html)
+-   Define the transport systems and route corresponding to your SAP BTP subaccounts. For more information, see [How To... Configure HCP for CTS](https://www.sap.com/documents/2016/07/bc3e9124-7d7c-0010-82c7-eda71af511fa.html).
 
 
 
