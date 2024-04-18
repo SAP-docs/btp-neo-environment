@@ -111,6 +111,25 @@ A response returning the roles could be:
 
 ```
 
+
+
+<a name="loiodbea343ebe184c26b6067daaabaa9ac6__section_gf2_n1v_x1c"/>
+
+## Rate Limits
+
+Rate limits are used to limit the number of requests against this REST API. Requests may be throttled \(delayed\), and if there is a very high load also denied.
+
+The following limits are available:
+
+**Limit**
+
+If this limit is **fully exceeded**, the service responds with '429 - Too many requests'.
+
+The **rate limit** defined for the API is **100 requests** per minute per subaccount.
+
+> ### Note:  
+> Depending on the service health, this limit may be ignored or further reduced to keep the service operational.
+
 **Related Information**  
 
 

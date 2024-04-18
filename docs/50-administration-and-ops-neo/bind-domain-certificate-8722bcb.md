@@ -20,7 +20,7 @@ Binds a certificate to an SSL host. The certificate must already be uploaded.
 neo bind-domain-certificate --account <subaccount_technical_name> --user <e-mail_or_user> --host <host> --ssl-host <ssl_hostname> --certificate <certificate_name>
 ```
 
-By binding a certificate to the SSL host with this command, your custom domain supports TLS 1.2, TLS 1.3, and the following ciphers are disabled: AES128\_SHA256, AES256\_SHA256, AES128\_SHA, AES256\_SHA, ECDHE\_RSA\_AES128\_CBC\_SHA, ECDHE\_RSA\_AES128\_SHA256, ECDHE\_RSA\_AES256\_CBC\_SHA, ECDHE\_RSA\_AES256\_SHA384.
+By binding a certificate to the SSL host with this command, your custom domain supports TLS 1.2, TLS 1.3, and the following ciphers are enabled: AES128\_SHA256, AES256\_SHA256, AES128\_SHA, AES256\_SHA, ECDHE\_RSA\_AES128\_CBC\_SHA, ECDHE\_RSA\_AES128\_SHA256, ECDHE\_RSA\_AES256\_CBC\_SHA, ECDHE\_RSA\_AES256\_SHA384.
 
 If you want to customize these default security settings, you can use the `--supported-protocols` and `--supported-ciphers` parameters of the `set-ssl-host` command. See [set-ssl-host](set-ssl-host-2956975.md).
 

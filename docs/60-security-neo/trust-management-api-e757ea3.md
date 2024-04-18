@@ -459,6 +459,25 @@ The application identity providers also need to have their basic settings, such 
 
 
 
+
+
+<a name="loioe757ea3d554b4900a0cab6a46a85aaec__section_gf2_n1v_x1c"/>
+
+## Rate Limits
+
+Rate limits are used to limit the number of requests against this REST API. Requests may be throttled \(delayed\), and if there is a very high load also denied.
+
+The following limits are available:
+
+**Limit**
+
+If this limit is **fully exceeded**, the service responds with '429 - Too many requests'.
+
+The **rate limit** defined for the API is **100 requests** per minute per subaccount.
+
+> ### Note:  
+> Depending on the service health, this limit may be ignored or further reduced to keep the service operational.
+
 **Related Information**  
 
 
