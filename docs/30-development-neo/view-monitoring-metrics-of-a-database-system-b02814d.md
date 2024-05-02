@@ -440,6 +440,28 @@ An alert is triggered when a check isn't in an OK state.
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+HANA Tenant Databases Unused Memory
+
+</td>
+<td valign="top">
+
+-   *OK* - More than 10% of the total free memory is available to the tenant databases, including fragmented memory. Nameserver reservation is excluded.
+
+-   *Warning* - 10% or less of the total free memory can be used by the tenant databases.
+-   *Critical* - 2% or less of the total free memory can be used by the tenant databases.
+
+
+
+</td>
+<td valign="top">
+
+The metric is updated every hour.
+
+</td>
+</tr>
 </table>
 
 **Default Metrics of an SAP ASE System**
