@@ -75,7 +75,7 @@ Disk I/O
 </td>
 <td valign="top">
 
-The number of bytes per second that are currently being read or written to the disc.
+The number of bytes per second that are currently being read or written to the disc. from the navigation area or from the
 
 </td>
 <td valign="top">
@@ -113,7 +113,7 @@ OS Memory Usage
 </td>
 <td valign="top">
 
-The percentage of the operating system memory that is currently being used.
+from the navigation area or from theThe percentage of the operating system memory that is currently being used.
 
 </td>
 <td valign="top">
@@ -635,6 +635,28 @@ An alert is triggered when a consecutive check with an interval of 1 minute isnâ
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+Sybase ASE Procedure Cache Usage
+
+</td>
+<td valign="top">
+
+-   *OK* - procedure cache usage is below 80%.
+
+-   *Warning* - procedure cache usage is more than 80% but less than 89%.
+-   *Critical* - procedure cache usage is more than 90%.
+
+
+
+</td>
+<td valign="top">
+
+This metric is updated every 2 minutes. An alert is is triggered when a consecutive check with an interval of 1 minute isn't in an OK state.
+
+</td>
+</tr>
 </table>
 
 
@@ -643,7 +665,7 @@ An alert is triggered when a consecutive check with an interval of 1 minute isnâ
 
 1.  Open the subaccount in the SAP BTP cockpit.
 
-2.  Navigate to the *Database Systems* page either by choosing *SAP HANA / SAP ASE* \> *Database Systems* from the navigation area or from the *Overview* page.
+2.  Navigate to the *Database Systems* page either by choosing *SAP HANA / SAP ASE* \> *Database Systems**Overview* page.
 
     All database systems available in the selected subaccount are listed with their details, including the database version and state, and the number of associated databases.
 

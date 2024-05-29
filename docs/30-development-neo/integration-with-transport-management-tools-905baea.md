@@ -89,7 +89,7 @@ To transport an application or application content to other subaccounts, you use
     <tr>
     <td valign="top">
     
-    How to use the Transport Management Service \(BETA\) in general
+    How to use the Transport Management Service in general
     
     </td>
     <td valign="top">
@@ -101,7 +101,7 @@ To transport an application or application content to other subaccounts, you use
     <tr>
     <td valign="top">
     
-    What you need to do to enable the direct upload of MTA Archives to a transport request that will be used by the Transport Management Service \(BETA\)
+    What you need to do to enable the direct upload of MTA Archives to a transport request that will be used by the Transport Management Service
     
     </td>
     <td valign="top">

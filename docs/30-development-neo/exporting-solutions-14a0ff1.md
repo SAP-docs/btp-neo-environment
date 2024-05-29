@@ -46,7 +46,7 @@ The following components are supported:
 -   OData Provisioning service configurations
 -   OData Provisioning destinations
 -   Security groups
--   Cloud Platform Integration content packages
+-   Cloud Integration content packages
 
 > ### Note:  
 > If a destination leads to a Java application and both are chosen for export, the destination `url` parameter is automatically replaced with a placeholder leading to the Java application `default-url`.

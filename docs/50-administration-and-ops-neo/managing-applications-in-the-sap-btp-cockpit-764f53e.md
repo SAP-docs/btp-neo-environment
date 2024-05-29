@@ -21,7 +21,7 @@ For an overview of the current status of the individual applications in your sub
 
 [Check the Process Status](check-the-process-status-499992d.md "The status of an individual process is based on values that reflect the process run state and its monitoring metrics.")
 
-[View Monitoring Metrics of a Java Application](https://help.sap.com/viewer/64f7d2b06c6b40a9b3097860c5930641/Cloud/en-US/82cbd81b4d2447c5b1e90333c977a7c0.html "In the cockpit, you can view the custom checks created per a subaccount or the current metrics of a selected process to check the runtime behavior of your application. You can also view the metrics history of an application or a process to examine the performance trends of your application over different intervals of time or investigate the reasons that have led to problems with it. Furthermore, you can configure alerting to receive alerts for any changes to the states of these metrics.") :arrow_upper_right:
+[View Monitoring Metrics of a Java Application](https://help.sap.com/viewer/64f7d2b06c6b40a9b3097860c5930641/Cloud/en-US/82cbd81b4d2447c5b1e90333c977a7c0.html "In the SAP BTP cockpit, to check the runtime behavior of your Java application, you can view the custom checks created for a subaccount or the current metrics of a selected process . You can also view the metrics history of an application or a process to examine the performance trends of your application over different intervals of time or investigate the reasons that have led to problems with it. Furthermore, you can configure alerting to receive alerts for any changes to the states of these metrics.") :arrow_upper_right:
 
 [Default Trace File](default-trace-file-1b651b3.md "")
 
