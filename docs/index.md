@@ -395,7 +395,7 @@
             -   [Working with Environments Using the btp CLI](50-administration-and-ops-neo/working-with-environments-using-the-btp-cli-48db155.md)
             -   [Working with Multitenant Applications Using the btp CLI](50-administration-and-ops-neo/working-with-multitenant-applications-using-the-btp-cli-c1b0fcc.md)
             -   [Working with External Resource Providers Using the btp CLI](50-administration-and-ops-neo/working-with-external-resource-providers-using-the-btp-cli-48d7688.md)
-            -   [Managing Trust from SAP BTP to an Identity Authentication Tenant](50-administration-and-ops-neo/managing-trust-from-sap-btp-to-an-identity-authentication-tenant-6140107.md)
+            -   [Managing Trust from SAP BTP to an SAP Cloud Identity Services Tenant](50-administration-and-ops-neo/managing-trust-from-sap-btp-to-an-sap-cloud-identity-services-tenant-6140107.md)
             -   [Managing Users and Their Authorizations Using the btp CLI](50-administration-and-ops-neo/managing-users-and-their-authorizations-using-the-btp-cli-94bb593.md)
             -   [Managing Signing Keys for Access Tokens](50-administration-and-ops-neo/managing-signing-keys-for-access-tokens-dfca1d3.md)
             -   [Managing Security Settings](50-administration-and-ops-neo/managing-security-settings-168dd75.md)

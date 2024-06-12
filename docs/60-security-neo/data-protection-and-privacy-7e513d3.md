@@ -49,9 +49,9 @@ To view the services consumed by a global account:
 
 This documentation is written with the data protection officer of a company in mind. The processes described here may be required for a data protection officer or an administrator of the user accounts for your tenants or even business users of the tenants. In particular the processes for business users are described here so that you in your role of data protection officer or account administrator can communicate them to your business users if required.
 
--   Global account users are stored in platform identity provider or a tenant of SAP Cloud Identity Services - Identity Authentication.
--   Platform users are stored in platform identity provider, a tenant of SAP Cloud Identity Services - Identity Authentication, or your own identity provider.
--   Business users are stored in a tenant of SAP Cloud Identity Services - Identity Authentication or your own identity provider.
+-   Global account users are stored in platform identity provider or a tenant of SAP Cloud Identity Services.
+-   Platform users are stored in platform identity provider, a tenant of SAP Cloud Identity Services, or your own identity provider.
+-   Business users are stored in a tenant of SAP Cloud Identity Services or your own identity provider.
 
 **Related Information**  
 

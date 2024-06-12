@@ -31,8 +31,6 @@ Visit [SAP Trust Center](https://www.sap.com/about/trust-center/cloud-service-st
 -   availability by region on the *Data Center* tab page.
 
 
-For more information about selected platform incidents, see [Root Cause Analyses](https://help.sap.com/viewer/product/SCP_RCA/Latest/en-US).
-
 
 
 ### Check Tools Versions
@@ -88,7 +86,7 @@ To report a case in SAP for Me, proceed as follows:
 
 [Getting Support for the Multi-Cloud Environment](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/5dd739823b824b539eee47b7860a00be.html)
 
-[Root Cause Analysis](https://help.sap.com/viewer/product/SCP_RCA/Latest/en-US)
+[Cloud Availability Center](https://support.sap.com/en/my-support/systems-installations/cac.html)
 
 [Road Map for Neo Environment](https://roadmaps.sap.com/board?range=CURRENT-LAST&q=Neo%20environment)
 
