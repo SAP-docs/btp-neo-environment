@@ -110,6 +110,9 @@ Once you've created your subaccount, navigate to it to enable the environment th
 
 You are a global account administrator.
 
+> ### Note:  
+> If you a creating a subaccount in an entitlement-managed or user-managed directory, then you must be either a global account administrator or a directory administrator. See [Configure Entitlements and Quotas for Directories \[Feature Set B\]](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/37f8871865114f44aebee3db6ac64b72.html "Distribute entitlements that are available in your global account to directories by adding service plans and their allowed quotas by using SAP BTP cockpit.") :arrow_upper_right: and [Manage Users in Directories \[Feature Set B\]](manage-users-in-directories-feature-set-b-ff4d4a4.md).
+
 > ### Recommendation:  
 > Before creating your subaccounts, we recommend you learn more about [Setting Up Your Account Model](https://help.sap.com/viewer/df50977d8bfa4c9a8a063ddb37113c43/Cloud/en-US/2db81f42f5194454beecde6cd4994dda.html "The hierarchical structure between global accounts, directories, and subaccounts lets you define an account model that accurately fits your business and development needs.") :arrow_upper_right:.
 
@@ -141,6 +144,9 @@ You create subaccounts in your global account. Once you create a new subaccount,
 
     > ### Tip:  
     > You can also create a subaccount from scratch by selecting *Create Subaccount* from the <span class="SAP-icons-V5"></span> \(Actions\) context menu of the global account or a directory.
+
+    > ### Tip:  
+    > Alternatively, you can create a new subaccount from an existing subaccount. For more information, see the [Create a Subaccount from an Existing Subaccount](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/05280a123d3044ae97457a25b3013918.html "Create subaccounts in your global account using the SAP BTP cockpit.") :arrow_upper_right: procedure below.
 
 3.  Specify a display name.
 
@@ -181,19 +187,79 @@ You create subaccounts in your global account. Once you create a new subaccount,
 
 
 
-<a name="task_dvg_gmd_cqb__result_tcg_tmd_cqb"/>
-
-## Results
-
-A new tile appears in the global account page with the subaccount details.
-
-
-
 <a name="task_dvg_gmd_cqb__postreq_ucg_tmd_cqb"/>
 
 ## Next Steps
 
-Once you've created your subaccount, navigate to it to enable the environment that you wish to use.
+Once your new subaccount is set up, navigate to it to enable the environment that you wish to use and add users.
+
+<a name="task_ltb_jzk_5bc"/>
+
+<!-- task\_ltb\_jzk\_5bc -->
+
+## Create a Subaccount from an Existing Subaccount \[Feature Set B\]
+
+
+
+<a name="task_ltb_jzk_5bc__prereq_cml_mzk_5bc"/>
+
+## Prerequisites
+
+You are a global account administrator.
+
+
+
+<a name="task_ltb_jzk_5bc__context_gml_mzk_5bc"/>
+
+## Context
+
+> ### Remember:  
+> SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
+> 
+> For more information, see SAP Note [3351844](https://me.sap.com/notes/3351844).
+
+> ### Tip:  
+> **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**
+
+Instead of creating a subaccount from scratch, you can create one from an existing subaccount that is similar to the one you want to create. This saves you valuable time since all the properties, labels, and service plan assignments are copied from the existing subaccount to the new subaccount.
+
+> ### Note:  
+> This option is available only on the AWS, Azure, or GCP region.
+
+
+
+<a name="task_ltb_jzk_5bc__steps_jml_mzk_5bc"/>
+
+## Procedure
+
+1.  From your global account, navigate to the *Account Explorer* page.
+
+2.  Do one of the following:
+
+    -   Select *Create* \> *Create from Existing Subaccount* and then choose the source subaccount.
+
+    -   Locate the source subaccount in your account hierarchy and then choose *Create as New Subaccount* option in its <span class="SAP-icons-V5"></span> \(Actions\)\) context menu.
+
+
+3.  Edit the new subaccount's properties and labels, as needed.
+
+    Refer to [Create a Subaccount \[Feature Set B\]](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/05280a123d3044ae97457a25b3013918.html "Create subaccounts in your global account using the SAP BTP cockpit.") :arrow_upper_right: above to find out more information about the various subaccount properties.
+
+4.  **Optional:** If you don't want all the assigned service plans in the selected subaccount to be copied to the new subaccount, turn off the *Copy service plan assignments* option.
+
+5.  Click *Create*.
+
+    > ### Note:  
+    > If you selected the option to copy the assigned service plans from the source subaccount to your new subaccount, and any of the required plans are missing in the target location of the new subaccount, or if there is insufficient quota, you'll be informed before the subaccount creation process begins so that you or another global account admin can make the necessary adjustments before you try again.
+
+
+
+
+<a name="task_ltb_jzk_5bc__postreq_hnl_mzk_5bc"/>
+
+## Next Steps
+
+After the new subaccount has been created, you can complete its setup, including its authorization configuration, instances, subscriptions, and environment setups.
 
 **Related Information**  
 
