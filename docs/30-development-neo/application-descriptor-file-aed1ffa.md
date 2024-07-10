@@ -21,7 +21,7 @@ The application descriptor file must follow the following format. All settings a
 ```json
 
 {
-    "authenticationMethod": "saml"|"none",
+    "authenticationMethod": "saml" | "oidc" | "none"
     "welcomeFile": "<path to welcome file>",
     "sendWelcomeFileRedirect": true|false,
     "logoutPage": "<path to logout page>",

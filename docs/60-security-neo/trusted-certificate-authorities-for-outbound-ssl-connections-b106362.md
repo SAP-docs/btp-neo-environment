@@ -318,6 +318,40 @@ CN=Global Chambersign Root - 2008, O=AC Camerfirma S.A., SERIALNUMBER=A82743287,
 <tr>
 <td valign="top">
 
+certainlyroote1 \[jdk\]
+
+</td>
+<td valign="top">
+
+CN=Certainly Root E1, O=Certainly, C=US
+
+</td>
+<td valign="top">
+
+F9:E1:6D:DC:01:89:CF:D5:82:45:63:3E:C5:37:7D:C2:EB:93:6F:2B
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+certainlyrootr1 \[jdk\]
+
+</td>
+<td valign="top">
+
+CN=Certainly Root R1, O=Certainly, C=US
+
+</td>
+<td valign="top">
+
+A0:50:EE:0F:28:71:F4:27:B2:12:6D:6F:50:96:25:BA:CC:86:42:AF
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 certignaca \[jdk\]
 
 </td>
@@ -505,6 +539,40 @@ CN=DigiCert Assured ID Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US
 <tr>
 <td valign="top">
 
+digicertcseccrootg5 \[jdk\]
+
+</td>
+<td valign="top">
+
+CN=DigiCert CS ECC P384 Root G5, O="DigiCert, Inc.", C=US
+
+</td>
+<td valign="top">
+
+84:35:73:11:2A:3B:31:93:44:E5:E4:EC:AB:C9:F2:6C:7C:D5:4D:07
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+digicertcsrsarootg5 \[jdk\]
+
+</td>
+<td valign="top">
+
+CN=DigiCert CS RSA4096 Root G5, O="DigiCert, Inc.", C=US
+
+</td>
+<td valign="top">
+
+5E:EE:D8:6F:A3:7C:67:52:30:64:2F:55:C8:4D:DB:F6:7C:D3:3C:80
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 digicertglobalrootca\_g2
 
 </td>
@@ -573,6 +641,40 @@ CN=DigiCert High Assurance EV Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US
 <tr>
 <td valign="top">
 
+digicerttlseccrootg5 \[jdk\]
+
+</td>
+<td valign="top">
+
+CN=DigiCert TLS ECC P384 Root G5, O="DigiCert, Inc.", C=US
+
+</td>
+<td valign="top">
+
+17:F3:DE:5E:9F:0F:19:E9:8E:F6:1F:32:26:6E:20:C4:07:AE:30:EE
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+digicerttlsrsarootg5 \[jdk\]
+
+</td>
+<td valign="top">
+
+CN=DigiCert TLS RSA4096 Root G5, O="DigiCert, Inc.", C=US
+
+</td>
+<td valign="top">
+
+A7:88:49:DC:5D:7C:75:8C:8C:DE:39:98:56:B3:AA:D0:B2:A5:71:35
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 digicerttrustedrootg4 \[jdk\]
 
 </td>
@@ -618,6 +720,57 @@ CN=D-TRUST Root Class 3 CA 2 EV 2009, O=D-Trust GmbH, C=DE
 <td valign="top">
 
 96:C9:1B:0B:95:B4:10:98:42:FA:D0:D8:22:79:FE:60:FA:B9:16:83
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+emsigneccrootcag3 \[jdk\]
+
+</td>
+<td valign="top">
+
+CN=emSign ECC Root CA - G3, O=eMudhra Technologies Limited, OU=emSign PKI, C=IN
+
+</td>
+<td valign="top">
+
+30:43:FA:4F:F2:57:DC:A0:C3:80:EE:2E:58:EA:78:B2:3F:E6:BB:C1
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+emsignrootcag1 \[jdk\]
+
+</td>
+<td valign="top">
+
+CN=emSign Root CA - G1, O=eMudhra Technologies Limited, OU=emSign PKI, C=IN
+
+</td>
+<td valign="top">
+
+8A:C7:AD:8F:73:AC:4E:C1:B5:75:4D:A5:40:F4:FC:CF:7C:B5:8E:8C
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+emsignrootcag2 \[jdk\]
+
+</td>
+<td valign="top">
+
+CN=emSign Root CA - G2, O=eMudhra Technologies Limited, OU=emSign PKI, C=IN
+
+</td>
+<td valign="top">
+
+1E:65:77:B9:CF:70:D0:17:CA:E1:BD:A1:35:1D:47:25:A9:73:C0:6D
 
 </td>
 </tr>
@@ -1083,6 +1236,23 @@ CA:BD:2A:79:A1:07:6A:31:F2:1D:25:36:35:CB:03:9D:43:29:A5:E8
 <tr>
 <td valign="top">
 
+letsencryptisrgx2 \[jdk\]
+
+</td>
+<td valign="top">
+
+CN=ISRG Root X2, O=Internet Security Research Group, C=US
+
+</td>
+<td valign="top">
+
+BD:B1:B9:3C:D5:97:8D:45:C6:26:14:55:F8:DB:95:C7:5A:D1:53:AF
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 luxtrustglobalroot2ca \[jdk\]
 
 </td>
@@ -1451,6 +1621,23 @@ CN=SwissSign Silver CA - G2, O=SwissSign AG, C=CH
 <td valign="top">
 
 9B:AA:E5:9F:56:EE:21:CB:43:5A:BE:25:93:DF:A7:F0:40:D1:1D:CB
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+teliarootcav2 \[jdk\]
+
+</td>
+<td valign="top">
+
+CN=Telia Root CA v2, O=Telia Finland Oyj, C=FI
+
+</td>
+<td valign="top">
+
+B9:99:CD:D1:73:50:8A:C4:47:05:08:9C:8C:88:FB:BE:A0:2B:40:CD
 
 </td>
 </tr>
