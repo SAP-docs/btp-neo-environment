@@ -11,17 +11,17 @@ Protect your applications on SAP BTP, Neo environment with OpenID Connect \(OIDC
 ## Prerequisites
 
 -   You have administrative rights over your subaccount in the Neo environment.
--   You have an Identity Authentication tenant for this subccount. See [\(Identity Authentication documentation\) Initial Setup](https://help.sap.com/docs/identity-authentication/identity-authentication/initial-setup?version=Cloud).
--   You have enabled Beta features for this subaccount. See [Account Model](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/8ed4a705efa0431b910056c0acdbf377.html#loio8ed4a705efa0431b910056c0acdbf377 "Learn more about the different types of accounts on SAP BTP and how they relate to each other.") :arrow_upper_right: \(subsection *Using Beta Features with Subaccounts*\).
+-   \(If you want to use a tenant\) You have an Identity Authentication tenant for this subccount. See [\(Identity Authentication documentation\) Initial Setup](https://help.sap.com/docs/identity-authentication/identity-authentication/initial-setup?version=Cloud).
 
 
+
+<a name="loio084c6fbf9c984a0292183b41120e7cb4__context_dfq_xgm_2cc"/>
 
 ## Context
 
-> ### Note:  
-> This is a beta feature. Beta features aren't part of the officially delivered scope that SAP guarantees for future releases. For more information, see [Important Disclaimers and Legal Information](https://help.sap.com/viewer/disclaimer).
+With the OpenID Connect authentication method, the Identity Authentication tenant or SAP ID service is used as an OpenID Connect provider. Your application's users will authenticate using the credentials defined and verified by the Identity Authentication tenant \(by default, this is a user name/e-mail address and password pair but you can configure your tenant to use others\).
 
-With the OpenID Connect authentication method, the Identity Authentication tenant is used as an OpenID Connect provider. Your application's users will authenticate using the credentials defined and verified by the Identity Authentication tenant \(by default, this is a user name/e-mail address and password pair but you can configure your tenant to use others\).
+By default, SAP ID Service is used. You can change it to an Identity Authentication tenant, and back to SAP ID Service at any time.
 
 > ### Note:  
 > We support the *Authorization Code* flow of the OpenID Connect protocol. For more information about this scenario with Identity Authentication service, see [\(Identity Authentication documentation\) Using Authorization Code Flow](https://help.sap.com/docs/identity-authentication/identity-authentication/using-authorization-code-flow?version=Cloud).
@@ -29,6 +29,8 @@ With the OpenID Connect authentication method, the Identity Authentication tenan
 General information about OpenID Connect supported by Identity Authentication service: [\(Identity Authentication documentation\) OpenID Connect](https://help.sap.com/docs/identity-authentication/identity-authentication/openid-connect?version=Cloud).
 
 
+
+<a name="loio084c6fbf9c984a0292183b41120e7cb4__steps_efq_xgm_2cc"/>
 
 ## Procedure
 
@@ -44,15 +46,142 @@ General information about OpenID Connect supported by Identity Authentication se
 
     `SAP BTP Neo OIDC Application - <subAccount>`
 
+    If you want to choose another Open ID Connect provider or switch back to SAP ID service, choose *Delete OpenID Connect Provider*.
+
     > ### Note:  
-    > If you remove this OpenID Connect provider or switch to another one, the created application configuration on the Identity Authentication tenant will be deleted.
+    > This will also delete the created application configuration **on the Identity Authentication tenant**.
 
-5.  If required for your OIDC scenario, configure further the created OpenID Connect application on the Identity Authentication tenant side. For example, you may need to configure user attributes or risk-based authentication.
+5.  If required for your OIDC scenario, configure further the created OpenID Connect \(OIDC\) application on the Identity Authentication tenant side. For example, you may need to configure user attributes/groups or risk-based authentication.
 
-    See:
+    Group assignments are configured as OIDC application attributes \(see [\(Identity Authentication documentation\) Tenant OpenID Connect Configurations](https://help.sap.com/docs/identity-authentication/identity-authentication/tenant-openid-connect-configurations?version=Cloud)\). Refer to the table below for more information:
 
-    -   [\(Identity Authentication documentation\) OpenID Connect](https://help.sap.com/docs/identity-authentication/identity-authentication/openid-connect?version=Cloud)
-    -   [\(Identity Authentication documentation\) Tenant OpenID Connect Configurations](https://help.sap.com/docs/identity-authentication/identity-authentication/tenant-openid-connect-configurations?version=Cloud)
+
+    <table>
+    <tr>
+    <th valign="top">
+
+    Scenario
+    
+    </th>
+    <th valign="top">
+
+    Group Types
+    
+    </th>
+    <th valign="top">
+
+    Attribute Name
+    
+    </th>
+    <th valign="top">
+
+    Attribute Source
+    
+    </th>
+    <th valign="top">
+
+    Attribute Value
+    
+    </th>
+    </tr>
+    <tr>
+    <td valign="top" rowspan="2">
+    
+    IAS tenant as a proxy for a third-party identity provider
+    
+    </td>
+    <td valign="top">
+    
+    Default Groups
+
+    Will be assigned to all users coming from this corporate identity provider.
+    
+    </td>
+    <td valign="top">
+    
+    `default_groups`
+    
+    </td>
+    <td valign="top">
+    
+    Expression
+    
+    </td>
+    <td valign="top">
+    
+    The group name \(String\).
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    Dynamic Groups
+
+    Will be assigned only to users matching a given conditon.
+    
+    </td>
+    <td valign="top">
+    
+    `dynamic_groups`
+    
+    </td>
+    <td valign="top">
+    
+    Expression
+    
+    </td>
+    <td valign="top">
+    
+    `<tbt>condition</tbt>dynamic group name`
+
+    The `<tbt>` and `</tbt>` parts delimit the condition specifying which users will the group be applied to.
+
+    For more information about the format of the condition, see the *Identity Federation* section of [Configuring Attributes Based on Flexible Parameters](https://help.sap.com/docs/cloud-identity-services/cloud-identity-services/configure-default-attributes-sent-to-application#procedure).
+
+    In the final part of the attribute value, place the dynamic group name.
+
+    For example:
+
+    `<tbt>${corporateIdP.uid:regex[^P.*$]}</tbt>AllPUsers`
+
+    This expression will assign dynamic group `AllPUsers` to all users with user IDs starting with P.
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    IAS tenant user base
+
+    As a prerequisite, you have created the required tenant users and groups using the Administration Console. See [Managing Users](https://help.sap.com/docs/cloud-identity-services/cloud-identity-services/user-management) and [Managing Groups](https://help.sap.com/docs/cloud-identity-services/cloud-identity-services/user-groups).
+    
+    </td>
+    <td valign="top">
+    
+    \-
+    
+    </td>
+    <td valign="top">
+    
+    `groups`
+    
+    </td>
+    <td valign="top">
+    
+    Identity Directory
+    
+    </td>
+    <td valign="top">
+    
+    `Groups` \(choose the option from the dropdown\)
+    
+    </td>
+    </tr>
+    </table>
+    
+    > ### Note:  
+    > Make sure you create the same groups in the SAP BTP cockpit, and assign them to the required roles. See [Managing Roles](managing-roles-db8175b.md).
 
 6.  In your application code, declare usng `OIDC` authentication method in the `web.xml`. See [Declarative Authentication](authentication-e637f62.md#loioe36c712efa844e8199a9c4bd681cb4e0).
 
