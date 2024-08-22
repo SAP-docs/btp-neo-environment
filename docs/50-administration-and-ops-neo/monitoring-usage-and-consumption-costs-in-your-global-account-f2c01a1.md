@@ -10,8 +10,6 @@ SAP BTP cockpit supports advanced usage and cost monitoring of services in your 
 > -   The use of the consumption-based commercial model is subject to its availability in your country or region.
 > 
 > -   If your global account uses only the subscription-based commercial model, then refer only to information described here about usage data and the *Usage* view. You can ignore any information in this topic about costs, cloud credits, and the *Billing* view.
-> 
-> -   If your global account is running in \[Feature Set A\], see [Monitoring Usage and Consumption Costs in Your Global Account \[Feature Set A\]](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/446b32e2ef744c0ebc31776973bbef96.html "In a global account that uses the consumption-based commercial model, you can monitor the usage of billed services and your consumption costs in the SAP BTP cockpit.") :arrow_upper_right:.
 
 The *Costs and Usage* page in the cockpit provides a central and flexible experience for the following cost control flows:
 
@@ -226,7 +224,7 @@ For more information about this view, see [Using the Usage View](monitoring-usag
   
 **Simplified graphic of the Billing view of the Costs and Usage page**
 
-![](images/Costs_and_Usage_-_Billing_View_8ab0cc8.png "Simplified graphic of the Billing view of the Costs and Usage						page")
+![](images/Costs_and_Usage_-_Billing_View_8ab0cc8.png "Simplified graphic of the Billing view of the Costs and Usage page")
 
 The *Costs and Usage* page uses the same terminology that is used in your monthly balance statement, which facilitates better contract-to-billing traceability and verification for cost controllers. Get your latest balance statement from [SAP for Me](https://me.sap.com/).
 
@@ -734,9 +732,9 @@ Yes
 
 [View Subaccount Usage Analytics](view-subaccount-usage-analytics-8f4d9db.md "You can explore, compare, and analyze all your actual usage data for the services and applications that are available in your subaccount.")
 
-[View Directory Usage Analytics \[Feature Set B\]](view-directory-usage-analytics-feature-set-b-a287782.md "You can explore, compare, and analyze all your actual usage data for the services and applications that are available in your directory.")
+[View Directory Usage Analytics](view-directory-usage-analytics-a287782.md "You can explore, compare, and analyze all your actual usage data for the services and applications that are available in your directory.")
 
-[Labels \[Feature Set B\]](../10-concepts-neo/account-model-722a475.md#loioe8663c08ead648faa673b0d63c5b478e "Labels are user-defined words or phrases that you can assign to various entities in SAP BTP to categorize them in your global account, to identify them more easily.")
+[Labels](../10-concepts-neo/account-model-722a475.md#loioe8663c08ead648faa673b0d63c5b478e "Labels are user-defined words or phrases that you can assign to various entities in SAP BTP to categorize them in your global account, to identify them more easily.")
 
 [Cloud Management Tools — Feature Set Overview](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/caf4e4e23aef4666ad8f125af393dfb2.html "Cloud management tools represent the group of technologies designed for managing SAP BTP.") :arrow_upper_right:
 

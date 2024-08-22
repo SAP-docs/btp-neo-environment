@@ -6,101 +6,11 @@
 
 Create subaccounts in your global account using the SAP BTP cockpit.
 
-<a name="task_pdx_hmd_cqb"/>
-
-<!-- task\_pdx\_hmd\_cqb -->
-
-## Create a Subaccount \[Feature Set A\]
-
-
-
-<a name="task_pdx_hmd_cqb__prereq_eds_lmd_cqb"/>
-
-## Prerequisites
-
-You are a global account administrator.
-
-> ### Recommendation:  
-> Before creating your subaccounts, we recommend you learn more about [Setting Up Your Account Model](https://help.sap.com/viewer/df50977d8bfa4c9a8a063ddb37113c43/Cloud/en-US/2db81f42f5194454beecde6cd4994dda.html "The hierarchical structure between global accounts, directories, and subaccounts lets you define an account model that accurately fits your business and development needs.") :arrow_upper_right:.
-
-
-
-<a name="task_pdx_hmd_cqb__context_fds_lmd_cqb"/>
-
-## Context
-
-> ### Remember:  
-> SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
-> 
-> For more information, see SAP Note [3351844](https://me.sap.com/notes/3351844).
-
-> ### Tip:  
-> **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**
-
-You create subaccounts in your global account. Once you create a new subaccount, you see a tile for it in the global account view, and you are automatically assigned to it as an administrator.
-
-
-
-<a name="task_pdx_hmd_cqb__steps_gds_lmd_cqb"/>
-
-## Procedure
-
-1.  From your global account, choose *New Subaccount*.
-
-2.  Specify a display name.
-
-3.  **Optional:** Enter a description.
-
-4.  Select the *Neo Environment* checkbox.
-
-5.  Choose the desired infrastructure provider and region for your subaccount.
-
-6.  Enter a subdomain for your subaccount. This will become part of the URL for accessing applications that you subscribe to from this subaccount.
-
-    > ### Note:  
-    > The subdomain can contain only letters, digits and hyphens \(not allowed in the beginning or at the end\), and must be unique across all subaccounts in the same region. Uppercase and lowercase letters can be used, however that alone does not qualify as a means to differentiate subdomains \(e.g. `SUBDOMAIN` and `subdomain` are considered to be the same\).
-    > 
-    > The subdomain can't be changed once you have created the subaccount.
-
-7.  **Optional:** If your subaccount is to be used for production purposes, select the *Used for production* option.
-
-    > ### Note:  
-    > This does not change the configuration of your subaccount. Use this flag for your internal use to operate your production subaccounts in your global account and systems more efficiently. Your cloud operator may also use this flag to take appropriate action when handling incidents related to mission-critical accounts in production systems.
-    > 
-    > You can change your selection at any time by editing the subaccount properties. Do not select this option if your account is used for non-production purposes, such as development, testing, and demos.
-
-8.  **Optional:** To use beta services and applications in the current subaccount, select *Enable beta features*.
-
-    > ### Caution:  
-    > You shouldn't use SAP BTP beta features in subaccounts that belong to productive enterprise accounts. For more information, see [Important Disclaimers and Legal Information](https://help.sap.com/viewer/disclaimer).
-
-    > ### Note:  
-    > Once you have enabled this setting in a subaccount you cannot disable it.
-
-9.  Save your changes.
-
-
-
-
-<a name="task_pdx_hmd_cqb__result_hds_lmd_cqb"/>
-
-## Results
-
-A new tile appears in the global account page with the subaccount details.
-
-
-
-<a name="task_pdx_hmd_cqb__postreq_ids_lmd_cqb"/>
-
-## Next Steps
-
-Once you've created your subaccount, navigate to it to enable the environment that you wish to use.
-
 <a name="task_dvg_gmd_cqb"/>
 
 <!-- task\_dvg\_gmd\_cqb -->
 
-## Create a Subaccount \[Feature Set B\]
+## Create a Subaccount
 
 
 
@@ -111,7 +21,7 @@ Once you've created your subaccount, navigate to it to enable the environment th
 You are a global account administrator.
 
 > ### Note:  
-> If you a creating a subaccount in an entitlement-managed or user-managed directory, then you must be either a global account administrator or a directory administrator. See [Configure Entitlements and Quotas for Directories \[Feature Set B\]](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/37f8871865114f44aebee3db6ac64b72.html "Distribute entitlements that are available in your global account to directories by adding service plans and their allowed quotas by using SAP BTP cockpit.") :arrow_upper_right: and [Manage Users in Directories \[Feature Set B\]](manage-users-in-directories-feature-set-b-ff4d4a4.md).
+> If you a creating a subaccount in an entitlement-managed or user-managed directory, then you must be either a global account administrator or a directory administrator. See [Configure Entitlements and Quotas for Directories](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/37f8871865114f44aebee3db6ac64b72.html "Distribute entitlements that are available in your global account to directories by adding service plans and their allowed quotas by using SAP BTP cockpit.") :arrow_upper_right: and [Manage Users in Directories](manage-users-in-directories-ff4d4a4.md).
 
 > ### Recommendation:  
 > Before creating your subaccounts, we recommend you learn more about [Setting Up Your Account Model](https://help.sap.com/viewer/df50977d8bfa4c9a8a063ddb37113c43/Cloud/en-US/2db81f42f5194454beecde6cd4994dda.html "The hierarchical structure between global accounts, directories, and subaccounts lets you define an account model that accurately fits your business and development needs.") :arrow_upper_right:.
@@ -128,7 +38,7 @@ You are a global account administrator.
 > For more information, see SAP Note [3351844](https://me.sap.com/notes/3351844).
 
 > ### Tip:  
-> **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**
+> **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of the following technology portfolios: application development; process automation; integration; data, analytics, and enterprise planning; artificial intelligence. The platform offers users the ability to turn data into business value, compose end-to-end business processes, connect entire IT landscapes, and personalize, build and extend SAP applications. This reduces the overall total cost of ownership maintaining SAP landscapes and third-party software across end-to-end business processes.") :arrow_upper_right:.**
 
 You create subaccounts in your global account. Once you create a new subaccount, you see a tile for it in the global account view, and you are automatically assigned to it as an administrator.
 
@@ -176,7 +86,7 @@ You create subaccounts in your global account. Once you create a new subaccount,
     > ### Note:  
     > Once you have enabled this setting in a subaccount you cannot disable it.
 
-10. **Optional:** Under *Advanced* \> *Labels*, assign labels to the subaccount to make organizing and filtering your subaccounts easier. For more information, see [Labels \[Feature Set B\]](../10-concepts-neo/account-model-722a475.md#loioe8663c08ead648faa673b0d63c5b478e).
+10. **Optional:** Under *Advanced* \> *Labels*, assign labels to the subaccount to make organizing and filtering your subaccounts easier. For more information, see [Labels](../10-concepts-neo/account-model-722a475.md#loioe8663c08ead648faa673b0d63c5b478e).
 
     > ### Tip:  
     > -   When adding multiple values to a label, press [Enter\] after each value.
@@ -197,7 +107,7 @@ Once your new subaccount is set up, navigate to it to enable the environment tha
 
 <!-- task\_ltb\_jzk\_5bc -->
 
-## Create a Subaccount from an Existing Subaccount \[Feature Set B\]
+## Create a Subaccount from an Existing Subaccount
 
 
 
@@ -219,7 +129,7 @@ You are a global account administrator.
 > For more information, see SAP Note [3351844](https://me.sap.com/notes/3351844).
 
 > ### Tip:  
-> **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**
+> **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of the following technology portfolios: application development; process automation; integration; data, analytics, and enterprise planning; artificial intelligence. The platform offers users the ability to turn data into business value, compose end-to-end business processes, connect entire IT landscapes, and personalize, build and extend SAP applications. This reduces the overall total cost of ownership maintaining SAP landscapes and third-party software across end-to-end business processes.") :arrow_upper_right:.**
 
 Instead of creating a subaccount from scratch, you can create one from an existing subaccount that is similar to the one you want to create. This saves you valuable time since all the properties, labels, and service plan assignments are copied from the existing subaccount to the new subaccount.
 
@@ -243,7 +153,7 @@ Instead of creating a subaccount from scratch, you can create one from an existi
 
 3.  Edit the new subaccount's properties and labels, as needed.
 
-    Refer to [Create a Subaccount \[Feature Set B\]](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/05280a123d3044ae97457a25b3013918.html "Create subaccounts in your global account using the SAP BTP cockpit.") :arrow_upper_right: above to find out more information about the various subaccount properties.
+    Refer to [Create a Subaccount](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/05280a123d3044ae97457a25b3013918.html "Create subaccounts in your global account using the SAP BTP cockpit.") :arrow_upper_right: above to find out more information about the various subaccount properties.
 
 4.  **Optional:** If you don't want all the assigned service plans in the selected subaccount to be copied to the new subaccount, turn off the *Copy service plan assignments* option.
 
@@ -263,8 +173,6 @@ After the new subaccount has been created, you can complete its setup, including
 
 **Related Information**  
 
-
-[Cloud Management Tools — Feature Set Overview](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/caf4e4e23aef4666ad8f125af393dfb2.html "Cloud management tools represent the group of technologies designed for managing SAP BTP.") :arrow_upper_right:
 
 [Global Accounts](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/8ed4a705efa0431b910056c0acdbf377.html#loioc165d95ee700407eb181770901caec94 "A global account is the realization of a contract you or your company has made with SAP.") :arrow_upper_right:
 

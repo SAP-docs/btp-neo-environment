@@ -16,33 +16,13 @@ You have received a welcome e-mail from SAP for your global account.
 
 
 
-## Context
-
-> ### Remember:  
-> SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
-> 
-> For more information, see SAP Note [3351844](https://me.sap.com/notes/3351844).
-
-> ### Tip:  
-> **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**
-
-When your organization signs a contract for SAP BTP services, an e-mail is sent to the e-mail address specified in the contract. The e-mail message contains the link to log on to the system and the SAP Cloud Identity credentials \(user ID\) for the specified user. These credentials can also be used for sites such as the [SAP Store](https://www.sapstore.com/) or the [SAP Community](https://www.sap.com/community.html).
-
-
-
 <a name="copy6da51c2c1ae54da6a4a342ff4f09bfc1__steps_w21_1ns_ndb"/>
 
 ## Procedure
 
 1.  Use the link in your Welcome e-mail.
 
-    When using cloud management tools feature set A: Choose [https://account.eu1.hana.ondemand.com](https://account.eu1.hana.ondemand.com) to access the cockpit.
-
-    When using cloud management tools feature set B:
-
-    Choose `https://cockpit.btp.cloud.sap` to access the cockpit. Depending on your own geo location this URL will redirect you to the closest regional Cockpit URL.
-
-    For more information, see [Cloud Management Tools — Feature Set Overview](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/caf4e4e23aef4666ad8f125af393dfb2.html "Cloud management tools represent the group of technologies designed for managing SAP BTP.") :arrow_upper_right:.
+    Choose `https://cockpit.btp.cloud.sap` to access the cockpit. Depending on your own geo location this URL will redirect you to the closest regional cockpit URL.
 
     > ### Note:  
     > If single sign-on has not been configured for you, you will have to enter your credentials. You’ll find your logon ID in your Welcome e-mail.
@@ -55,8 +35,6 @@ When your organization signs a contract for SAP BTP services, an e-mail is sent 
 <a name="copy6da51c2c1ae54da6a4a342ff4f09bfc1__result_chm_ryx_32b"/>
 
 ## Results
-
-When using cloud management tools feature set A: The global account *Overview* page opens.
 
 When using cloud management tools feature set B: The *Account Explorer* page for that global account opens.
 
@@ -80,8 +58,6 @@ When using cloud management tools feature set B: The *Account Explorer* page for
 
 **Related Information**  
 
-
-[Cloud Management Tools — Feature Set Overview](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/caf4e4e23aef4666ad8f125af393dfb2.html "Cloud management tools represent the group of technologies designed for managing SAP BTP.") :arrow_upper_right:
 
 [Account Model](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/8ed4a705efa0431b910056c0acdbf377.html#loio8ed4a705efa0431b910056c0acdbf377 "Learn more about the different types of accounts on SAP BTP and how they relate to each other.") :arrow_upper_right:
 

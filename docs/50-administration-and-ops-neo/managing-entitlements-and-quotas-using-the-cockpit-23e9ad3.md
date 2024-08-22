@@ -10,7 +10,7 @@ When you purchase an enterprise account, you are entitled to use a specific set 
 > For more information, see SAP Note [3351844](https://me.sap.com/notes/3351844).
 
 > ### Tip:  
-> **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**
+> **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of the following technology portfolios: application development; process automation; integration; data, analytics, and enterprise planning; artificial intelligence. The platform offers users the ability to turn data into business value, compose end-to-end business processes, connect entire IT landscapes, and personalize, build and extend SAP applications. This reduces the overall total cost of ownership maintaining SAP landscapes and third-party software across end-to-end business processes.") :arrow_upper_right:.**
 
 An entitlement equals your right to provision and consume a resource. A quota represents the numeric quantity that defines the maximum allowed consumption of that resource.
 
@@ -21,108 +21,7 @@ Entitlements are managed at the global account level, where services plans and t
 
 There are two places in the SAP BTP cockpit where you can view entitlements and assign service plans and quotas for subaccounts - at the global account level and at the subaccount level. Depending on your permissions, you may only have access to one of these pages. You can find more details below:
 
-**Entitlements Pages \[Feature Set A\]**
-
-
-<table>
-<tr>
-<th valign="top">
-
-Page in cockpit
-
-</th>
-<th valign="top">
-
-Navigation Level
-
-</th>
-<th valign="top">
-
-Visible to
-
-</th>
-<th valign="top">
-
-Permissions
-
-</th>
-</tr>
-<tr>
-<td valign="top">
-
-*Entitlements* \> *Subaccount Assignments*
-
-</td>
-<td valign="top">
-
-Global account level
-
-</td>
-<td valign="top">
-
-Global account administrators only
-
-</td>
-<td valign="top">
-
--   View & Edit - Global account administrators
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-*Entitlements* \> *Service Assignments*
-
-</td>
-<td valign="top">
-
-Global account level
-
-</td>
-<td valign="top">
-
-Global account administrators only
-
-</td>
-<td valign="top">
-
--   View - Global account administrators \(you cannot make changes to entitlements or quota assignments from this page\)
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-*Entitlements*
-
-</td>
-<td valign="top">
-
-Subaccount level
-
-</td>
-<td valign="top">
-
-Subaccount members \(regardless of whether they are also global account administrators or not\)
-
-</td>
-<td valign="top">
-
--   View - Subaccount members who are not global account administrators
--   View & Edit - Global account administrators who are also subaccount members
-
-
-
-</td>
-</tr>
-</table>
-
-**Entitlements Pages \[Feature Set B\]**
+**Entitlements Pages**
 
 
 <table>
@@ -223,7 +122,7 @@ Subaccount members \(regardless of whether they are also global account administ
 </table>
 
 > ### Note:  
-> You can also assign service plans to directories. These directories must be configured to manage entitlements. See [Configure Entitlements and Quotas for Directories \[Feature Set B\]](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/37f8871865114f44aebee3db6ac64b72.html "Distribute entitlements that are available in your global account to directories by adding service plans and their allowed quotas by using SAP BTP cockpit.") :arrow_upper_right:.
+> You can also assign service plans to directories. These directories must be configured to manage entitlements. See [Configure Entitlements and Quotas for Directories](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/37f8871865114f44aebee3db6ac64b72.html "Distribute entitlements that are available in your global account to directories by adding service plans and their allowed quotas by using SAP BTP cockpit.") :arrow_upper_right:.
 > 
 > To assign plans to managed directories you must a global account administrator.
 > 
@@ -273,7 +172,7 @@ Allows global account admins and viewers to view the commercial source of their 
 
 For information about setting assignments and quota, see:
 
--   [Configure Entitlements and Quotas for Directories \[Feature Set B\]](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/37f8871865114f44aebee3db6ac64b72.html "Distribute entitlements that are available in your global account to directories by adding service plans and their allowed quotas by using SAP BTP cockpit.") :arrow_upper_right:
+-   [Configure Entitlements and Quotas for Directories](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/37f8871865114f44aebee3db6ac64b72.html "Distribute entitlements that are available in your global account to directories by adding service plans and their allowed quotas by using SAP BTP cockpit.") :arrow_upper_right:
 -   [Configure Entitlements and Quotas for Subaccounts](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/5ba357b4fa1e4de4b9fcc4ae771609da.html "Distribute the entitlements that are available in your global account by adding service plans and their allowed quotas to your subaccounts using SAP BTP cockpit.") :arrow_upper_right:
 
 The *Entitlements* \> *Service Assignments* is where you view assignments and quota from the perspective of services. This page contains these views \(tabs\):

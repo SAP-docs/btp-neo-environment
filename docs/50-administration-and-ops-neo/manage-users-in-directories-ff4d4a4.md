@@ -1,6 +1,6 @@
 <!-- loioff4d4a4caff94b0486b6427eaa8a0b91 -->
 
-# Manage Users in Directories \[Feature Set B\]
+# Manage Users in Directories
 
 Manage members in your directory using the SAP BTP cockpit.
 
@@ -23,7 +23,7 @@ Manage members in your directory using the SAP BTP cockpit.
     > ### Note:  
     > -   The user management feature can be enabled only in combination with the entitlement management feature on the same directory in given path.
     > 
-    > -   Only a single directory in any given directory path can have the user management and/or entitlement management features enabled. See [Configure Entitlements and Quotas for Directories \[Feature Set B\]](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/37f8871865114f44aebee3db6ac64b72.html "Distribute entitlements that are available in your global account to directories by adding service plans and their allowed quotas by using SAP BTP cockpit.") :arrow_upper_right:.
+    > -   Only a single directory in any given directory path can have the user management and/or entitlement management features enabled. See [Configure Entitlements and Quotas for Directories](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/37f8871865114f44aebee3db6ac64b72.html "Distribute entitlements that are available in your global account to directories by adding service plans and their allowed quotas by using SAP BTP cockpit.") :arrow_upper_right:.
     > 
     >     For example, if you have 3 stacked directories in your account hierarchy and the middle directory has both the user and entitlement management features enabled, then neither of these features can be enabled for its parent or child directory since these two directories are in the same direct path as the middle directory.
 
@@ -45,7 +45,7 @@ Assign predefined or custom role collections to users who need to manage or view
 -   *Directory Administrator*
 -   *Directory Viewer*
 
-For more information about these role collections, see [Role Collections and Roles in Global Accounts, Directories, and Subaccounts \[Feature Set B\]](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/0039cf082d3d43eba9200fe15647922a.html "In the cloud management tools feature set B, SAP BTP provides a set of role collections to set up administrator access to your global account and subaccounts.") :arrow_upper_right:.
+For more information about these role collections, see [Role Collections and Roles in Global Accounts, Directories, and Subaccounts](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/0039cf082d3d43eba9200fe15647922a.html "SAP BTP provides a set of role collections to set up administrator access to your global account and subaccounts.") :arrow_upper_right:.
 
 
 
@@ -75,5 +75,5 @@ The next time this user logs on to the SAP BTP cockpit, the user can access this
 
 [Working with Users](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/2c91f88e60ea4677a076212085b42d02.html "In the SAP BTP cockpit, you can see the users of your global account or subaccount, user-related identity provider information, and their authorizations. In a user's overview, you can create and delete users, and assign role collections. You can also display an overview of the role collections, where you can drill down all the way to the role, and see the application that the role is belongs to.") :arrow_upper_right:
 
-[Role Collections and Roles in Global Accounts, Directories, and Subaccounts \[Feature Set B\]](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/0039cf082d3d43eba9200fe15647922a.html "In the cloud management tools feature set B, SAP BTP provides a set of role collections to set up administrator access to your global account and subaccounts.") :arrow_upper_right:
+[Role Collections and Roles in Global Accounts, Directories, and Subaccounts](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/0039cf082d3d43eba9200fe15647922a.html "SAP BTP provides a set of role collections to set up administrator access to your global account and subaccounts.") :arrow_upper_right:
 

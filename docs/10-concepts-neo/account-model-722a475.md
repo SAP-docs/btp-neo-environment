@@ -12,7 +12,7 @@ Learn more about the different types of accounts on SAP BTP and how they relate 
 > For more information, see SAP Note [3351844](https://me.sap.com/notes/3351844).
 
 > ### Tip:  
-> **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**
+> **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of the following technology portfolios: application development; process automation; integration; data, analytics, and enterprise planning; artificial intelligence. The platform offers users the ability to turn data into business value, compose end-to-end business processes, connect entire IT landscapes, and personalize, build and extend SAP applications. This reduces the overall total cost of ownership maintaining SAP landscapes and third-party software across end-to-end business processes.") :arrow_upper_right:.**
 
 <a name="loio9b7d44f92eec44a6ae87129c02aeec0d"/>
 
@@ -86,7 +86,7 @@ The purpose of experimental features is to get feedback early on, allowing custo
 
 <!-- loioa92721fc75524ec09a7a7255997dbd94 -->
 
-## Directories \[Feature Set B\]
+## Directories
 
 With **directories**, you can organize and manage your subaccounts according to your technical and business needs.
 
@@ -118,9 +118,9 @@ Optionally, you can also enable the following features in your directories:
 **Related Information**  
 
 
-[Manage the Account Explorer Hierarchy \[Feature Set B\]](../50-administration-and-ops-neo/manage-the-account-explorer-hierarchy-feature-set-b-2e2a5b6.md "Create an account structure by creating a hierarchy of directories and subaccounts using the SAP BTP cockpit. Add, move, and delete subaccounts and directories in your structure.")
+[Manage the Account Explorer Hierarchy](../50-administration-and-ops-neo/manage-the-account-explorer-hierarchy-2e2a5b6.md "Create an account structure by creating a hierarchy of directories and subaccounts using the SAP BTP cockpit. Add, move, and delete subaccounts and directories in your structure.")
 
-[Configure Entitlements and Quotas for Directories \[Feature Set B\]](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/37f8871865114f44aebee3db6ac64b72.html "Distribute entitlements that are available in your global account to directories by adding service plans and their allowed quotas by using SAP BTP cockpit.") :arrow_upper_right:
+[Configure Entitlements and Quotas for Directories](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/37f8871865114f44aebee3db6ac64b72.html "Distribute entitlements that are available in your global account to directories by adding service plans and their allowed quotas by using SAP BTP cockpit.") :arrow_upper_right:
 
 [Configure Entitlements and Quotas for Subaccounts](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/5ba357b4fa1e4de4b9fcc4ae771609da.html "Distribute the entitlements that are available in your global account by adding service plans and their allowed quotas to your subaccounts using SAP BTP cockpit.") :arrow_upper_right:
 
@@ -130,13 +130,13 @@ Optionally, you can also enable the following features in your directories:
 
 [Managing Global Accounts Using the Cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/667f34ba9222450491c2b848cd17e189.html "Your SAP BTP global account is the entry point for managing the resources, landscape, and entitlements for your departments and projects in a self-service manner.") :arrow_upper_right:
 
-[Managing Directories Using the Cockpit \[Feature Set B\]](../50-administration-and-ops-neo/managing-directories-using-the-cockpit-feature-set-b-f495ac1.md "Learn how to organize and manage your subaccounts according to your technical and business needs by using directories in the SAP BTP cockpit.")
+[Managing Directories Using the Cockpit](../50-administration-and-ops-neo/managing-directories-using-the-cockpit-f495ac1.md "Learn how to organize and manage your subaccounts according to your technical and business needs by using directories in the SAP BTP cockpit.")
 
 [Managing Subaccounts Using the Cockpit](../50-administration-and-ops-neo/managing-subaccounts-using-the-cockpit-55d0b6d.md "Learn how to structure a global account according to your organization’s and project’s requirements with regard to members, authorizations, and entitlements by managing subaccounts.")
 
 [Working with Global Accounts, Directories, and Subaccounts Using the btp CLI](../50-administration-and-ops-neo/working-with-global-accounts-directories-and-subaccounts-using-the-btp-cli-85a683e.md "Use the SAP BTP command line interface (btp CLI) to manage operations with global accounts, directories, and subaccounts.")
 
-[Account Administration Using APIs of the SAP Cloud Management Service \[Feature Set B\]](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/17b6a171552544a6804f12ea83112a3f.html "Provides information about using the APIs of the SAP Cloud Management service for SAP BTP (technical name: cis) to manage some of the administrative operations in your accounts.") :arrow_upper_right:
+[Account Administration Using APIs of the SAP Cloud Management Service](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/17b6a171552544a6804f12ea83112a3f.html "Provides information about using the APIs of the SAP Cloud Management service for SAP BTP (technical name: cis) to manage some of the administrative operations in your accounts.") :arrow_upper_right:
 
 <a name="copy2c2dd70587104f459b97019691480ff6"/>
 
@@ -180,7 +180,7 @@ The hierarchical structure of global accounts, directories, and subaccounts lets
 
 <!-- loioe8663c08ead648faa673b0d63c5b478e -->
 
-## Labels \[Feature Set B\]
+## Labels
 
 Labels are user-defined words or phrases that you can assign to various entities in SAP BTP to categorize them in your global account, to identify them more easily.
 
@@ -322,10 +322,10 @@ When working with labels, consider the following aspects:
 
 -   [Create a Subaccount](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/05280a123d3044ae97457a25b3013918.html "Create subaccounts in your global account using the SAP BTP cockpit.") :arrow_upper_right:
 -   [Change Subaccount Details](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/567d4a84bfdc428f8f3640e07261f73a.html "Edit subaccounts using the SAP BTP cockpit.") :arrow_upper_right:
--   [Create a Directory \[Feature Set B\]](../50-administration-and-ops-neo/create-a-directory-feature-set-b-b8ef1c4.md)
+-   [Create a Directory](../50-administration-and-ops-neo/create-a-directory-b8ef1c4.md)
 -   [Cloud Management Tools — Feature Set Overview](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/caf4e4e23aef4666ad8f125af393dfb2.html "Cloud management tools represent the group of technologies designed for managing SAP BTP.") :arrow_upper_right:
 -   [Commands in the btp CLI](../50-administration-and-ops-neo/commands-in-the-btp-cli-a03a555.md)
--   [Account Administration Using APIs of the SAP Cloud Management Service \[Feature Set B\]](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/17b6a171552544a6804f12ea83112a3f.html "Provides information about using the APIs of the SAP Cloud Management service for SAP BTP (technical name: cis) to manage some of the administrative operations in your accounts.") :arrow_upper_right:
+-   [Account Administration Using APIs of the SAP Cloud Management Service](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/17b6a171552544a6804f12ea83112a3f.html "Provides information about using the APIs of the SAP Cloud Management service for SAP BTP (technical name: cis) to manage some of the administrative operations in your accounts.") :arrow_upper_right:
 -   [Managing Service Resources Using the APIs of the SAP Service Manager](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/ee4f871225da4361a41a67ecff2ef123.html "Use the APIs of the SAP Service Manager to work with environments, service brokers, service instances, service bindings, service plans, and service offerings.") :arrow_upper_right:
 -   [Creating Service Instances](https://help.sap.com/viewer/09cc82baadc542a688176dce601398de/Cloud/en-US/fad874a99a434ae58c59d7340a528bdc.html)
 -   [Working with Environment Instances](https://help.sap.com/viewer/09cc82baadc542a688176dce601398de/Cloud/en-US/1d6897d22f90443c8a3f9f6c8bb41bb8.html#loio1d6897d22f90443c8a3f9f6c8bb41bb8__section_usz_bfz_qrb)
@@ -345,7 +345,7 @@ A user account corresponds to a particular user in an identity provider, such as
 > For more information, see SAP Note [3351844](https://me.sap.com/notes/3351844).
 
 > ### Tip:  
-> **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**
+> **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of the following technology portfolios: application development; process automation; integration; data, analytics, and enterprise planning; artificial intelligence. The platform offers users the ability to turn data into business value, compose end-to-end business processes, connect entire IT landscapes, and personalize, build and extend SAP applications. This reduces the overall total cost of ownership maintaining SAP landscapes and third-party software across end-to-end business processes.") :arrow_upper_right:.**
 
 
 

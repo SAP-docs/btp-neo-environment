@@ -16,7 +16,7 @@ Log in with the btp CLI is on global account level.
 
     Note that in clients up until version 2.49.0, the old server URL `https://cpcli.cf.eu10.hana.ondemand.com` is proposed. For the time being, you can use either one, but we recommend to switch to `https://cli.btp.cloud.sap/`. If you are in a private cloud and your operator has provided you with a different server URL, you'll have to enter that one.
 
--   Your user is assigned to the `Global Account Viewer` or the `Global Account Administrator` role collection. See [Role Collections and Roles in Global Accounts, Directories, and Subaccounts \[Feature Set B\]](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/0039cf082d3d43eba9200fe15647922a.html "In the cloud management tools feature set B, SAP BTP provides a set of role collections to set up administrator access to your global account and subaccounts.") :arrow_upper_right:.
+-   Your user is assigned to the `Global Account Viewer` or the `Global Account Administrator` role collection. See [Role Collections and Roles in Global Accounts, Directories, and Subaccounts](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/0039cf082d3d43eba9200fe15647922a.html "SAP BTP provides a set of role collections to set up administrator access to your global account and subaccounts.") :arrow_upper_right:.
 
 -   To log on with SAP Universal ID, you need to log on with the single sign-on parameter \(`btp login --sso`\). If you don't want to use single sign-on, log on with the password associated with your account \(S-user or P-user\) in the default identity provider, SAP ID service. If you've forgotten this password and this user is associated with your SAP Universal ID user, reset your password.
 
@@ -98,7 +98,7 @@ If trust is configured between your global account and a custom identity provide
 > ### Note:  
 > To work with users from a custom identity provider, you need to specify the `--of-idp` parameter by providing the origin key of the custom identity provider. This is applicable to the following commands: `btp list security/user`, `btp get security/user`, `btp delete security/user`, `btp assign security/role-collection`, `btp unassign security/role-collection`, and you find this origin key in the cockpit under *Security*.
 
-For more information about using a custom identity provider, see [Establish Trust and Federation of Custom Identity Providers for Platform Users \[Feature Set B\]](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/c36898473d704e07a33268c9f9d29515.html "You want to use a custom identity provider for the platform users of SAP BTP in different environments and at the different account levels: global account, directory, and subaccount. By default, platform users in multi-environment subaccounts are users in the default identity provider.") :arrow_upper_right:.
+For more information about using a custom identity provider, see [Establish Trust and Federation of Custom Identity Providers for Platform Users](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/c36898473d704e07a33268c9f9d29515.html "You want to use a custom identity provider for the platform users of SAP BTP in different environments and at the different account levels: global account, directory, and subaccount. By default, platform users in multi-environment subaccounts are users in the default identity provider.") :arrow_upper_right:.
 
 </td>
 </tr>

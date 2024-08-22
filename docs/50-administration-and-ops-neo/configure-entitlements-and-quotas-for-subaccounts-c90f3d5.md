@@ -38,14 +38,11 @@ Distribute the entitlements that are available in your global account by adding 
 > For more information, see SAP Note [3351844](https://me.sap.com/notes/3351844).
 
 > ### Tip:  
-> **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:.**
+> **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html "SAP Business Technology Platform (SAP BTP) is an integrated offering comprised of the following technology portfolios: application development; process automation; integration; data, analytics, and enterprise planning; artificial intelligence. The platform offers users the ability to turn data into business value, compose end-to-end business processes, connect entire IT landscapes, and personalize, build and extend SAP applications. This reduces the overall total cost of ownership maintaining SAP landscapes and third-party software across end-to-end business processes.") :arrow_upper_right:.**
 
 You can distribute assignments and quotas across subaccounts within a global account from these places in the cockpit:
 
 -   The *Entitlements* \> *Entity Assignments* page at the global account level \(visible only to global account administrators\).
-
-    If your account is part of cloud management tools feature set A, this page is called *Subaccount Assignments*.
-
 -   The *Entitlements* \> *Entity Assignments* page at the directory level by first navigating into the directory from the *Account Explorer*. This applies only subaccounts that resides in the path of a directory that is configured to manage entitlements.
 -   The *Entitlements* page at the subaccount level \(visible to all subaccount members, but editable only by global account administrators\) by first navigating into the subaccount from the *Account Explorer*.
 
@@ -79,8 +76,6 @@ For more information, see [Managing Entitlements and Quotas Using the Cockpit](m
 
 2.  \[Feature Set B\] Choose *Entitlements* \> *Entity Assignments* from the left hand-side navigation.
 
-    \[Feature Set A\] Choose *Entitlements* \> *Subaccount Assignments* from the left hand-side navigation.
-
     > ### Remember:  
     > There are other ways you can access the subaccount to manage its assignments, such as navigating to the subaccount or its managed directory from the *Account Explorer*. See above for more information.
 
@@ -94,9 +89,6 @@ For more information, see [Managing Entitlements and Quotas Using the Cockpit](m
 4.  Select the <span class="SAP-icons-V5"></span> icon in the *Directories / Subaccounts* dropdown menu.
 
 5.  In the *Select Subaccounts and Directories* dialog box, select all the subaccounts that you want to manage assignments.
-
-    > ### Tip:  
-    > \[Feature Set A\] If your global account contains more than 20 subaccounts, choose <span class="SAP-icons-V5"></span> to open up the value help dialog. There you can filter subaccounts by role, environment, and region to make your selection easier and faster. You can only select a maximum of 50 subaccounts at once.
 
 6.  Choose *Select* to apply the filter.
 
