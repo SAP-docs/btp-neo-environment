@@ -232,7 +232,7 @@ OpenID Connect provider
 
 \(Beta\) Authentication based on the OpenID Connect \(OIDC\) protocol with an Identity Authentication tenant as OpenID Connect provider. Users will log in using credentials defined and verified by the Identity Authentication tenant \(by default, this is a user name and password pair stored in the tenant\).
 
-Configure the OpenID Connect provider using the *OpenID Conect Authentication* section in the SAP BTP cockpit \(see [OpenID Connect Authentication](openid-connect-authentication-084c6fb.md)\).
+Configure the OpenID Connect provider using the *OpenID Conect Authentication* section in the SAP BTP cockpit \(see [OpenID Connect \(OIDC\) Authentication](openid-connect-oidc-authentication-084c6fb.md)\).
 
 </td>
 <td valign="top">

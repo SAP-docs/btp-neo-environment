@@ -538,5 +538,5 @@ neo deploy --uri-encoding UTF-8 myapp.properties
 
 [Org Administration Using the Cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/c4c25cc63ac845779f76202360f98694.html "In the Cloud Foundry enviroment, manage orgs, spaces and space quota plans using the SAP BTP cockpit.") :arrow_upper_right:
 
-[list-applications](list-applications-6942ec5.md "Lists all Java applications in the specified subaccount.")
+[list-applications](list-applications-6942ec5.md "Lists all Java applications and their size in the specified subaccount.")
 

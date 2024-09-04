@@ -56,7 +56,7 @@ By the SCIM specification, you can access this endpoint \(using HTTP GET\) to re
 
 **Filtering Users**
 
-You can do two types of filtering: based on the user ID or the user base. For more information about changing and managing the user base, see [Platform Identity Provider](platform-identity-provider-80edbe7.md).
+You can do two types of filtering: based on the user ID or the user base. For more information about changing and managing the user base, see [Platform Identity Provider for Tools](platform-identity-provider-for-tools-80edbe7.md).
 
 > ### Restriction:  
 > Only the **eq** operator is supported for filtering. For more information, see [Section 3.4.2.2: Filtering](https://tools.ietf.org/html/rfc7644#section-3.4.2.2)

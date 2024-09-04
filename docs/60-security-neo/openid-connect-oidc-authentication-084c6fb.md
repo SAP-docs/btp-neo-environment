@@ -1,6 +1,6 @@
 <!-- loio084c6fbf9c984a0292183b41120e7cb4 -->
 
-# OpenID Connect Authentication
+# OpenID Connect \(OIDC\) Authentication
 
 Protect your applications on SAP BTP, Neo environment with OpenID Connect \(OIDC\) authentication method using an Identity Authentication tenant as an OpenID Connect provider.
 
@@ -10,7 +10,7 @@ Protect your applications on SAP BTP, Neo environment with OpenID Connect \(OIDC
 
 ## Prerequisites
 
--   You have administrative rights over your subaccount in the Neo environment.
+-   You have administrative rights over your subaccount in the Neo environment. See [Members and Roles in the Neo Environment](../50-administration-and-ops-neo/members-and-roles-in-the-neo-environment-5414d4e.md).
 -   \(If you want to use a tenant\) You have an Identity Authentication tenant for this subccount. See [\(Identity Authentication documentation\) Initial Setup](https://help.sap.com/docs/identity-authentication/identity-authentication/initial-setup?version=Cloud).
 
 
@@ -44,7 +44,7 @@ General information about OpenID Connect supported by Identity Authentication se
 
     The required application configuration for OpenID Connect is automatically created on the tenant side. It has the following name:
 
-    `SAP BTP Neo OIDC Application - <subAccount>`
+    `SAP BTP Neo OIDC Application - <subaccount>`
 
     If you want to choose another Open ID Connect provider or switch back to SAP ID service, choose *Delete OpenID Connect Provider*.
 

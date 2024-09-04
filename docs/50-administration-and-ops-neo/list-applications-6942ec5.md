@@ -2,7 +2,7 @@
 
 # list-applications
 
-Lists all Java applications in the specified subaccount.
+Lists all Java applications and their size in the specified subaccount.
 
 
 

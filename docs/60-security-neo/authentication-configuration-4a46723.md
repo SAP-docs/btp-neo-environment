@@ -120,7 +120,7 @@ Authentication is implemented over the OAuth 2.0 protocol. Users need to present
 </td>
 <td valign="top">
 
-Authentication is implemented over the OpenID Connect \(OIDC\) protocol, and delegated to an Identity Authentication tenant. The credentials users need to present depend on the tenant settings \(by default, when initially configured, this is a user name and password pair stored in the tenant\). See [OpenID Connect Authentication](openid-connect-authentication-084c6fb.md).
+Authentication is implemented over the OpenID Connect \(OIDC\) protocol, and delegated to an Identity Authentication tenant. The credentials users need to present depend on the tenant settings \(by default, when initially configured, this is a user name and password pair stored in the tenant\). See [OpenID Connect \(OIDC\) Authentication](openid-connect-oidc-authentication-084c6fb.md).
 
 > ### Note:  
 > You cannot combine this option with *Trusted SAML 2.0 identity provider* and *Application-to-Application SSO*.

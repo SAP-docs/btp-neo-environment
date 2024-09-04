@@ -45,5 +45,5 @@ The user you want to add to SAP ID service must have an SAP user account \(for e
 **Related Information**  
 
 
-[Platform Identity Provider](../60-security-neo/platform-identity-provider-80edbe7.md "The platform identity provider is the user base for access to your SAP BTP subaccount in the Neo environment. The default user base is provided by SAP ID Service. You can switch to an Identity Authentication tenant if you want to use a custom user base.")
+[Platform Identity Provider for Tools](../60-security-neo/platform-identity-provider-for-tools-80edbe7.md "Configure the platform identity provider to be used for authentication in service and platform tools (for example, Neo console client, Cloud Connector, SAP Git Service, and so on). The default user base is provided by SAP ID Service. You can switch to an Identity Authentication tenant if you want to use a custom user base.")
 

@@ -71,7 +71,7 @@ All global account administrators can do the following:
 -   View, add, and remove global account members.
 -   Manage entitlements for the global account.
 
-By default, the cockpit and console client are configured to use SAP ID Service, which uses the SAP user base, as an identity provider for user authentication. If you want to use a custom user base and custom Identity Authentication tenant settings, see [Platform Identity Provider](../60-security-neo/platform-identity-provider-80edbe7.md).
+By default, the cockpit and console client are configured to use SAP ID Service, which uses the SAP user base, as an identity provider for user authentication. If you want to use a custom user base and custom Identity Authentication tenant settings, see [Platform Identity Provider for Tools](../60-security-neo/platform-identity-provider-for-tools-80edbe7.md).
 
 On the *Members* page at the global account level in the cockpit, all global account members can view the global account administrators. If you're a subaccount member, you're also a member of the global account.
 
@@ -87,7 +87,7 @@ On the *Members* page at the global account level in the cockpit, all global acc
 
 3.  Choose *Add Members*.
 
-    If you want to use a custom user base, choose *Other* for *User Base* and then enter the corresponding Identity Authentication tenant name. For more information, see [Platform Identity Provider](../60-security-neo/platform-identity-provider-80edbe7.md).
+    If you want to use a custom user base, choose *Other* for *User Base* and then enter the corresponding Identity Authentication tenant name. For more information, see [Platform Identity Provider for Tools](../60-security-neo/platform-identity-provider-for-tools-80edbe7.md).
 
 4.  Enter up to 100 user IDs. To separate them, you can use commas, spaces, semicolons, or line breaks.
 
