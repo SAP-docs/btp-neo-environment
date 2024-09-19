@@ -146,7 +146,23 @@ Attributes of the CSR
 <tr>
 <td valign="top">
 
-`-s`, `--subject-alternative-name`
+`-e`, `--elliptic-curve` 
+
+</td>
+<td valign="top">
+
+Elliptic curve for ECC algorithms
+
+`Type`: string
+
+`Supported curves`: secp256r1, secp384r1
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`-s`, `--subject-alternative-name` 
 
 </td>
 <td valign="top">
@@ -167,9 +183,9 @@ A comma-separated list of all domain names to be protected with this certificate
 
 Signature algorithm
 
-`Default`: SHA256withRSA
+`Default`: SHA256withRSA or SHA256withECDSA
 
-`Supported algorithms`: SHA256withRSA, SHA384withRSA, SHA512withRSA
+`Supported algorithms`: SHA256withRSA, SHA384withRSA, SHA512withRSA, SHA224withECDSA, SHA256withECDSA, SHA384withECDSA, and SHA512withECDSA
 
 </td>
 </tr>
@@ -181,7 +197,9 @@ Signature algorithm
 </td>
 <td valign="top">
 
-The size \(length\) of a generated key pair
+The size \(length\) of a generated key pair. This parameter is ignored when the elliptic curve is used
+
+`Default`: 2048
 
 `Supported sizes`: 2048, 4096
 

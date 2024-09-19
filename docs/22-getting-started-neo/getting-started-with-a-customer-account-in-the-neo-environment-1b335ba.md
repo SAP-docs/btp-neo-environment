@@ -40,7 +40,7 @@ After you've received your logon data by email, create subaccounts in your globa
 
 ![](images/Neo_ConfiguringEnvironment_NoTrial_01f7e5a.png)
 
-1.  Since you need to use the cockpit to configure your environment, it's important you understand how you can navigate to your global account and subaccounts. See [Navigate in the Cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/0874895f1f78459f9517da55a11ffebd.html "Learn how to navigate to your global accounts and subaccounts in the SAP BTP cockpit.") :arrow_upper_right:.
+1.  Since you need to use the cockpit to configure your environment, it's important you understand how you can navigate to your global account and subaccounts. See [Navigate in the Cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/0874895f1f78459f9517da55a11ffebd.html "Learn how to navigate to your global accounts, directories, and subaccounts in the SAP BTP cockpit.") :arrow_upper_right:.
 
 2.  It's time to think about member management. You can add members to subaccounts and assign different roles to those members. For more information, see [Add Members to Your Neo Subaccount](../50-administration-and-ops-neo/add-members-to-your-neo-subaccount-a253570.md). For more information about roles, see [Managing Member Authorizations in the Neo Environment](../50-administration-and-ops-neo/managing-member-authorizations-in-the-neo-environment-a1ab5c4.md).
 

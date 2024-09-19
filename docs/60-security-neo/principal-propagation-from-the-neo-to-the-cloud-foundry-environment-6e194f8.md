@@ -409,7 +409,7 @@ Connect the first subaccount to the second subaccount by describing the source c
 
 2.  Save locally the service provider metadata of the subaccount in the Neo environment.
 
-    1.  In SAP BTP cockpit, navigate to the subaccount in the Neo environment. See [Navigate in the Cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/0874895f1f78459f9517da55a11ffebd.html "Learn how to navigate to your global accounts and subaccounts in the SAP BTP cockpit.") :arrow_upper_right:
+    1.  In SAP BTP cockpit, navigate to the subaccount in the Neo environment. See [Navigate in the Cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/0874895f1f78459f9517da55a11ffebd.html "Learn how to navigate to your global accounts, directories, and subaccounts in the SAP BTP cockpit.") :arrow_upper_right:
 
     2.  Navigate to *Security* \> *Trust* \> *Local Service Provider*.
 

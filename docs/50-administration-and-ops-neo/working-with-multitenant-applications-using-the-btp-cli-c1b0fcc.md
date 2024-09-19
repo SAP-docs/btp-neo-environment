@@ -118,7 +118,7 @@ Unsubscribe an application from a subaccount
 </tr>
 </table>
 
-For more information, see [Subscribe to Multitenant Applications Using the Cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/7a3e39622be14413b2a4df7c02ca1170.html "Subscribe to multitenant applications from the Service Marketplace page in the SAP BTP cockpit.") :arrow_upper_right:.
+For more information, see [Subscribe to Multitenant Applications Using the Cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/7a3e39622be14413b2a4df7c02ca1170.html "Subscribe to multitenant applications from the Subscriptions page in the SAP BTP cockpit.") :arrow_upper_right:.
 
 **Related Information**  
 

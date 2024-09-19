@@ -72,7 +72,7 @@ To configure an Identity Authentication tenant as a platform identity provider f
 
 1.  In your web browser, open the SAP BTP cockpit, and navigate to your Neo subaccount.
 
-    See [Navigate in the Cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/0874895f1f78459f9517da55a11ffebd.html "Learn how to navigate to your global accounts and subaccounts in the SAP BTP cockpit.") :arrow_upper_right:.
+    See [Navigate in the Cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/0874895f1f78459f9517da55a11ffebd.html "Learn how to navigate to your global accounts, directories, and subaccounts in the SAP BTP cockpit.") :arrow_upper_right:.
 
 2.  Go to *Security* \> *Trust* \> *Platform Identity Provider for Tools*.
 

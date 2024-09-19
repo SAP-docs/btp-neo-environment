@@ -4,7 +4,7 @@
 
 # Navigate in the Cockpit
 
-Learn how to navigate to your global accounts and subaccounts in the SAP BTP cockpit.
+Learn how to navigate to your global accounts, directories, and subaccounts in the SAP BTP cockpit.
 
 
 
@@ -20,58 +20,7 @@ Learn how to navigate to your global accounts and subaccounts in the SAP BTP coc
 
 
 
-<a name="copyfdeff7e68f64496eb8a1fb31f6a08b73__steps_hbw_vy2_knb"/>
-
-## Procedure
-
-1.  Find out which cloud management tools feature set your global account uses. For more information, see [Cloud Management Tools — Feature Set Overview](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/caf4e4e23aef4666ad8f125af393dfb2.html "Cloud management tools represent the group of technologies designed for managing SAP BTP.") :arrow_upper_right:.
-
-2.  Become familiar with the navigation behavior in the SAP BTP cockpit.
-
-    -   [Navigate in the Cockpit to Global Accounts and Subaccounts \[Feature Set A\]](navigate-in-the-cockpit-fdeff7e.md#copyfdeff7e68f64496eb8a1fb31f6a08b73__Navigate-FSA)
-
-    -   [Navigate in the Cockpit to Global Accounts and Subaccounts \[Feature Set B\]](navigate-in-the-cockpit-fdeff7e.md#copyfdeff7e68f64496eb8a1fb31f6a08b73__Navigate-FSB)
-
-
-<a name="Navigate-FSA"/>
-
-<!-- Navigate-FSA -->
-
-## Navigate in the Cockpit to Global Accounts and Subaccounts \[Feature Set A\]
-
-
-
-<a name="Navigate-FSA__steps_bhk_my2_knb"/>
-
-## Procedure
-
-1.  Navigate to a global account.
-
-    You can see the following path in the breadcrumbs:
-
-    :house: Home / <span class="SAP-icons-V5"></span> <global\_account\>
-
-2.  Navigate to a subaccount.
-
-    1.  Select the global account that contains the subaccount you'd like to navigate to by following the steps described above.
-
-    2.  Select the subaccount.
-
-
-    You can see the following path in the breadcrumbs:
-
-    :house: Home / <span class="SAP-icons-V5"></span> <global\_account\> / <span class="SAP-icons-V5"></span> <subaccount\>
-
-
-<a name="Navigate-FSB"/>
-
-<!-- Navigate-FSB -->
-
-## Navigate to Global Accounts, Directories, and Subaccounts \[Feature Set B\]
-
-
-
-<a name="Navigate-FSB__steps_ibv_bhf_mqb"/>
+<a name="copyfdeff7e68f64496eb8a1fb31f6a08b73__steps_zrt_h3g_4cc"/>
 
 ## Procedure
 

@@ -165,7 +165,7 @@ You can enable a subaccount to use beta features, including services and applica
 
 <!-- loio20828fc639954939890d3d74a22c5f66 -->
 
-## Relationship Between Global Accounts, Subaccounts, and Directories \[Feature Set B\]
+## Relationship Between Global Accounts, Subaccounts, and Directories
 
 A global account can group together different directories and subaccounts that an administrator makes available to users. Administrators can assign the available entitlements and quotas of a global account to its different subaccounts and move it between subaccounts that belong to the same global account.
 
@@ -329,7 +329,7 @@ When working with labels, consider the following aspects:
 -   [Managing Service Resources Using the APIs of the SAP Service Manager](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/ee4f871225da4361a41a67ecff2ef123.html "Use the APIs of the SAP Service Manager to work with environments, service brokers, service instances, service bindings, service plans, and service offerings.") :arrow_upper_right:
 -   [Creating Service Instances](https://help.sap.com/viewer/09cc82baadc542a688176dce601398de/Cloud/en-US/fad874a99a434ae58c59d7340a528bdc.html)
 -   [Working with Environment Instances](https://help.sap.com/viewer/09cc82baadc542a688176dce601398de/Cloud/en-US/1d6897d22f90443c8a3f9f6c8bb41bb8.html#loio1d6897d22f90443c8a3f9f6c8bb41bb8__section_usz_bfz_qrb)
--   [Subscribe to Multitenant Applications Using the Cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/7a3e39622be14413b2a4df7c02ca1170.html "Subscribe to multitenant applications from the Service Marketplace page in the SAP BTP cockpit.") :arrow_upper_right:
+-   [Subscribe to Multitenant Applications Using the Cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/7a3e39622be14413b2a4df7c02ca1170.html "Subscribe to multitenant applications from the Subscriptions page in the SAP BTP cockpit.") :arrow_upper_right:
 
 <a name="loio6680883537f34ee4b13d03126471ddc8"/>
 
