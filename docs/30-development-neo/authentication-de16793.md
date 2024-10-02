@@ -14,7 +14,7 @@ Authentication is the process of establishing and verifying the identity of a us
 
 By default an HTML5 application is protected with SAML2 authentication, which authenticates the user against the configured IdP.
 
-An HTML5 application can also be protected by OpenID Connect \(OIDC\) authentication, which authenticates the user against the configured SAP Authorization and Trust Management service \(IAS\). For more information, see [OpenID Connect \(OIDC\) Authentication](../60-security-neo/openid-connect-oidc-authentication-084c6fb.md).
+An HTML5 application can also be protected by OpenID Connect \(OIDC\) authentication, which authenticates the user against the configured Identity Authentication service \(IAS\). For more information, see [OpenID Connect \(OIDC\) Authentication](../60-security-neo/openid-connect-oidc-authentication-084c6fb.md).
 
 For public applications the authentication can be switched off using the following syntax:
 

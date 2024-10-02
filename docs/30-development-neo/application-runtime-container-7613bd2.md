@@ -121,7 +121,7 @@ For the complete list of supported APIs, see [Supported Java APIs](supported-jav
 ## Keeping Your Application Runtimes Up-to-date
 
 > ### Tip:  
-> We recommend that you restart your Java applications at least once every three months. This ensures you always use the latest updates available for your runtime, with the latest security and other fixes.
+> We recommend that you restart your Java applications regularly, at least biweekly. This ensures you always use the latest updates available for your runtime, with the latest security and other fixes.
 > 
 > You can view an application's runtime status in your subaccount's application area in the cockpit \(*Applications* \> *Java Applications* \> *Monitoring* \> *Processes*\).
 > 

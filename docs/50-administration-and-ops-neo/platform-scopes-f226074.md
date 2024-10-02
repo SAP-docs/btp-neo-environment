@@ -744,7 +744,7 @@ Enables you to create, start, update, and delete HTML5 applications.
 </td>
 </tr>
 <tr>
-<td valign="top" rowspan="5">
+<td valign="top" rowspan="6">
 
 Java Application Lifecycle Management
 
@@ -845,6 +845,23 @@ Debug Java Applications
 <td valign="top">
 
 Enables you to debug Java applications.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+downloadJavaApplicationBinaries
+
+</td>
+<td valign="top">
+
+Download Java application binaries
+
+</td>
+<td valign="top">
+
+Allows you to download binaries of a deployed Java application.
 
 </td>
 </tr>
