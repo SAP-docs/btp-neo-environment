@@ -536,7 +536,7 @@ neo deploy --uri-encoding UTF-8 myapp.properties
 
 [Use Delta Deployment](../30-development-neo/use-delta-deployment-7a4aba2.md "By using the delta deployment option, you can apply changes in a deployed application faster without uploading the entire set of files tо SAP BTP.")
 
-[Org Administration Using the Cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/c4c25cc63ac845779f76202360f98694.html "In the Cloud Foundry enviroment, manage orgs, spaces and space quota plans using the SAP BTP cockpit.") :arrow_upper_right:
+[Org Administration Using the Cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/c4c25cc63ac845779f76202360f98694.html "In the Cloud Foundry environment, manage orgs, spaces and space quota plans using the SAP BTP cockpit.") :arrow_upper_right:
 
 [list-applications](list-applications-6942ec5.md "Lists all Java applications and their size in the specified subaccount.")
 

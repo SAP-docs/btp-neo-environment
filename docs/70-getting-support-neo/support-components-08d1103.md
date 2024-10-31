@@ -457,6 +457,7 @@ Build and run mobile apps for B2C use cases.
 -   US East \(VA\)
 -   Singapore
 -   Switzerland \(Zurich\) EU Access
+-   Brazil \(São Paulo\)
 
 
 
@@ -512,9 +513,10 @@ Build and run mobile apps for B2C use cases.
 
 -   Europe \(Frankfurt\)
 -   US Central \(IA\)
--   India \(Mumbai\) GCP
--   Israel \(Tel Aviv\) GCP
--   KSA \(Dammam\) GCP public sector
+-   India \(Mumbai\)
+-   Israel \(Tel Aviv\)
+-   KSA \(Dammam\) public sector
+-   Australia \(Sydney\)
 
 
 
@@ -711,6 +713,302 @@ Build and deploy innovative chatbots using this comprehensive end-to-end platfor
 <tr>
 <td valign="top">
 
+[Application Logging Service](https://help.sap.com/viewer/product/APPLICATION_LOGGING/Cloud/en-US) 
+
+</td>
+<td valign="top">
+
+Create, store, access, and analyze application logs.
+
+</td>
+<td valign="top">
+
+-   BC-NEO-LOG
+
+
+
+</td>
+<td valign="top">
+
+-   Neo
+
+
+
+</td>
+<td valign="top">
+
+-   SAP
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Rot\)\*
+-   Europe \(Frankfurt\)
+-   Europe \(Amsterdam\)
+-   US East \(Ashburn\)
+-   US West \(Chandler\)
+-   US East \(Sterling\)
+-   Australia \(Sydney\)
+-   Japan \(Tokyo\)
+-   Canada \(Toronto\)
+-   Brazil \(São Paulo\)
+-   UAE \(Dubai\)
+-   KSA \(Riyadh\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[Application Logging Service](https://help.sap.com/viewer/product/APPLICATION_LOGGING/Cloud/en-US) 
+
+</td>
+<td valign="top">
+
+Create, store, access, and analyze application logs.
+
+</td>
+<td valign="top">
+
+-   BC-CP-CF-APPLOG
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   AWS
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Frankfurt\)
+-   Europe \(Frankfurt\) EU Access
+-   US East \(VA\)
+-   Brazil \(São Paulo\)
+-   Japan \(Tokyo\)
+-   Australia \(Sydney\)
+-   Singapore
+-   South Korea \(Seoul\)
+-   Canada \(Montreal\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[Application Logging Service](https://help.sap.com/viewer/product/APPLICATION_LOGGING/Cloud/en-US) 
+
+</td>
+<td valign="top">
+
+Create, store, access, and analyze application logs.
+
+</td>
+<td valign="top">
+
+-   BC-CP-CF-APPLOG
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   Azure
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Netherlands\)
+-   US West \(WA\)
+-   US East \(VA\)
+-   Singapore
+-   Japan \(Tokyo\)
+-   Australia \(Sydney\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[Application Logging Service](https://help.sap.com/viewer/product/APPLICATION_LOGGING/Cloud/en-US) 
+
+</td>
+<td valign="top">
+
+Create, store, access, and analyze application logs.
+
+</td>
+<td valign="top">
+
+-   BC-CP-CF-APPLOG
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   GCP
+
+
+
+</td>
+<td valign="top">
+
+-   US Central \(IA\)
+-   Europe \(Frankfurt\)
+-   Israel \(Tel Aviv\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[Application Logging Service](https://help.sap.com/viewer/product/APPLICATION_LOGGING/Cloud/en-US) 
+
+</td>
+<td valign="top">
+
+Create, store, access, and analyze application logs.
+
+</td>
+<td valign="top">
+
+-   BC-CP-CF-APPLOG
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   Alibaba
+
+
+
+</td>
+<td valign="top">
+
+-   China \(Shanghai\)\*\*
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 [Open Connectors](https://help.sap.com/viewer/p/OPEN_CONNECTORS) 
 
 </td>
@@ -1334,7 +1632,7 @@ Consume an object-relational database with PostgreSQL.
 
 -   US Central \(IA\)
 -   Europe \(Frankfurt\)
--   Israel \(Tel Aviv\) GCP
+-   Israel \(Tel Aviv\)
 
 
 
@@ -1511,7 +1809,7 @@ Get robust asynchronous messaging between applications.
 
 -   US Central \(IA\)
 -   Europe \(Frankfurt\)
--   Israel \(Tel Aviv\) GCP
+-   Israel \(Tel Aviv\)
 
 
 
@@ -1754,65 +2052,6 @@ Store and version source code in Git repositories.
 -   Brazil \(São Paulo\)
 -   UAE \(Dubai\)
 -   KSA \(Riyadh\)
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-[Mobile Service for App and Device Management](http://help.sap.com/hcp-mobileservice-security) 
-
-</td>
-<td valign="top">
-
-Manage your mobile devices.
-
-</td>
-<td valign="top">
-
--   MOB-SEC
-
-
-
-</td>
-<td valign="top">
-
--   Neo
-
-
-
-</td>
-<td valign="top">
-
--   SAP
-
-
-
-</td>
-<td valign="top">
-
--   Europe \(Rot\)\*
--   US East \(Ashburn\)
--   US West \(Chandler\)
--   Australia \(Sydney\)
--   Japan \(Tokyo\)
--   US East \(Sterling\)
 
 
 
@@ -2237,7 +2476,7 @@ A single gateway to all your data.
 <td valign="top">
 
 -   Europe \(Frankfurt\)
--   India \(Mumbai\) GCP
+-   India \(Mumbai\)
 -   US Central \(IA\)
 
 
@@ -2414,6 +2653,7 @@ Automates the connectivity configuration of extension applications running on SA
 
 -   Australia \(Sydney\)
 -   Singapore
+-   Brazil \(São Paulo\)
 -   Switzerland \(Zurich\) EU Access
 -   Europe \(Netherlands\)
 -   Japan \(Tokyo\)
@@ -2472,8 +2712,9 @@ Automates the connectivity configuration of extension applications running on SA
 </td>
 <td valign="top">
 
+-   Australia \(Sydney\)
 -   Europe \(Frankfurt\)
--   India \(Mumbai\) GCP
+-   India \(Mumbai\)
 -   US Central \(IA\)
 
 
@@ -2889,7 +3130,7 @@ Operate polyglot cloud applications in Cloud Foundry.
 
 -   US Central \(IA\)
 -   Europe \(Frankfurt\)
--   Israel \(Tel Aviv\) GCP
+-   Israel \(Tel Aviv\)
 
 
 
@@ -3175,9 +3416,9 @@ Manage transports of development artifacts and application-specific content.
 
 -   Europe \(Frankfurt\)
 -   US Central \(IA\)
--   India \(Mumbai\) GCP
--   KSA \(Dammam\) GCP public sector
--   Israel \(Tel Aviv\) GCP
+-   India \(Mumbai\)
+-   KSA \(Dammam\) public sector
+-   Israel \(Tel Aviv\)
 
 
 
@@ -3355,6 +3596,7 @@ Develop, debug, test, and deploy SAP business applications.
 -   Japan \(Tokyo\)
 -   Singapore
 -   Switzerland \(Zurich\) EU Access
+-   Brazil \(São Paulo\)
 
 
 
@@ -3409,9 +3651,10 @@ Develop, debug, test, and deploy SAP business applications.
 <td valign="top">
 
 -   US Central \(IA\)
--   Israel \(Tel Aviv\) GCP
--   India \(Mumbai\) GCP
--   KSA \(Dammam\) GCP public sector
+-   Israel \(Tel Aviv\)
+-   India \(Mumbai\)
+-   KSA \(Dammam\) public sector
+-   Australia \(Sydney\)
 -   Europe \(Frankfurt\)
 
 
@@ -3808,7 +4051,7 @@ Implement an in-memory caching layer with Redis.
 
 -   US Central \(IA\)
 -   Europe \(Frankfurt\)
--   Israel \(Tel Aviv\) GCP
+-   Israel \(Tel Aviv\)
 
 
 
@@ -4261,302 +4504,6 @@ Simplify the complex connectivity, scalability, and management of IoT.
 <tr>
 <td valign="top">
 
-[Application Logging Service](https://help.sap.com/viewer/product/APPLICATION_LOGGING/Cloud/en-US) 
-
-</td>
-<td valign="top">
-
-Create, store, access, and analyze application logs.
-
-</td>
-<td valign="top">
-
--   BC-NEO-LOG
-
-
-
-</td>
-<td valign="top">
-
--   Neo
-
-
-
-</td>
-<td valign="top">
-
--   SAP
-
-
-
-</td>
-<td valign="top">
-
--   Europe \(Rot\)\*
--   Europe \(Frankfurt\)
--   Europe \(Amsterdam\)
--   US East \(Ashburn\)
--   US West \(Chandler\)
--   US East \(Sterling\)
--   Australia \(Sydney\)
--   Japan \(Tokyo\)
--   Canada \(Toronto\)
--   Brazil \(São Paulo\)
--   UAE \(Dubai\)
--   KSA \(Riyadh\)
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-[Application Logging Service](https://help.sap.com/viewer/product/APPLICATION_LOGGING/Cloud/en-US) 
-
-</td>
-<td valign="top">
-
-Create, store, access, and analyze application logs.
-
-</td>
-<td valign="top">
-
--   BC-CP-CF-APPLOG
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   AWS
-
-
-
-</td>
-<td valign="top">
-
--   Europe \(Frankfurt\)
--   Europe \(Frankfurt\) EU Access
--   US East \(VA\)
--   Brazil \(São Paulo\)
--   Japan \(Tokyo\)
--   Australia \(Sydney\)
--   Singapore
--   South Korea \(Seoul\)
--   Canada \(Montreal\)
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-[Application Logging Service](https://help.sap.com/viewer/product/APPLICATION_LOGGING/Cloud/en-US) 
-
-</td>
-<td valign="top">
-
-Create, store, access, and analyze application logs.
-
-</td>
-<td valign="top">
-
--   BC-CP-CF-APPLOG
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Azure
-
-
-
-</td>
-<td valign="top">
-
--   Europe \(Netherlands\)
--   US West \(WA\)
--   US East \(VA\)
--   Singapore
--   Japan \(Tokyo\)
--   Australia \(Sydney\)
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-[Application Logging Service](https://help.sap.com/viewer/product/APPLICATION_LOGGING/Cloud/en-US) 
-
-</td>
-<td valign="top">
-
-Create, store, access, and analyze application logs.
-
-</td>
-<td valign="top">
-
--   BC-CP-CF-APPLOG
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   GCP
-
-
-
-</td>
-<td valign="top">
-
--   US Central \(IA\)
--   Europe \(Frankfurt\)
--   Israel \(Tel Aviv\) GCP
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-[Application Logging Service](https://help.sap.com/viewer/product/APPLICATION_LOGGING/Cloud/en-US) 
-
-</td>
-<td valign="top">
-
-Create, store, access, and analyze application logs.
-
-</td>
-<td valign="top">
-
--   BC-CP-CF-APPLOG
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Alibaba
-
-
-
-</td>
-<td valign="top">
-
--   China \(Shanghai\)\*\*
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 [Invoicing option for Peppol](https://help.sap.com/viewer/product/DC_PEPPOL/Cloud/en-US) 
 
 </td>
@@ -4824,6 +4771,7 @@ Automates the connectivity configuration of extension applications running on SA
 
 -   Australia \(Sydney\)
 -   Singapore
+-   Brazil \(São Paulo\)
 -   Switzerland \(Zurich\) EU Access
 -   Europe \(Netherlands\)
 -   Japan \(Tokyo\)
@@ -4882,8 +4830,9 @@ Automates the connectivity configuration of extension applications running on SA
 </td>
 <td valign="top">
 
+-   Australia \(Sydney\)
 -   Europe \(Frankfurt\)
--   India \(Mumbai\) GCP
+-   India \(Mumbai\)
 -   US Central \(IA\)
 
 
@@ -4973,6 +4922,65 @@ Create and extend SAP full-stack applications for browsers and mobile devices.
 <tr>
 <td valign="top">
 
+[Mobile Service for App and Device Management](http://help.sap.com/hcp-mobileservice-security) 
+
+</td>
+<td valign="top">
+
+Manage your mobile devices.
+
+</td>
+<td valign="top">
+
+-   MOB-SEC
+
+
+
+</td>
+<td valign="top">
+
+-   Neo
+
+
+
+</td>
+<td valign="top">
+
+-   SAP
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Rot\)\*
+-   US East \(Ashburn\)
+-   US West \(Chandler\)
+-   Australia \(Sydney\)
+-   Japan \(Tokyo\)
+-   US East \(Sterling\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 [SAP Live Link 365 for Authentication](https://livelink.sapmobileservices.com/documentation/#/integrate/apiReferences) 
 
 </td>
@@ -5011,72 +5019,6 @@ Generate and validate configurable one-time PINs or verification codes.
 <td valign="top">
 
 -   
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-[SAP Build Classic](https://help.sap.com/viewer/product/SAP_BUILD_CLASSIC/Cloud/en-US) 
-
-</td>
-<td valign="top">
-
-Create interactive prototypes based on end-user feedback without code writing.
-
-</td>
-<td valign="top">
-
--   MOB-UIA-BLD-GEN
-
-
-
-</td>
-<td valign="top">
-
--   Neo
-
-
-
-</td>
-<td valign="top">
-
--   SAP
-
-
-
-</td>
-<td valign="top">
-
--   Europe \(Rot\)\*
--   Europe \(Frankfurt\)
--   Europe \(Amsterdam\)
--   US East \(Ashburn\)
--   US West \(Chandler\)
--   US East \(Sterling\)
--   US West \(Colorado Springs\)
--   UAE \(Dubai\)
--   Australia \(Sydney\)
--   Japan \(Tokyo\)
--   Canada \(Toronto\)
--   Brazil \(São Paulo\)
--   KSA \(Riyadh\)
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
 
 
 </td>
@@ -5245,9 +5187,9 @@ Digitize workflows, manage decisions and gain end-to-end process visibility
 <td valign="top">
 
 -   US Central \(IA\)
--   India \(Mumbai\) GCP
--   Israel \(Tel Aviv\) GCP
--   KSA \(Dammam\) GCP public sector
+-   India \(Mumbai\)
+-   Israel \(Tel Aviv\)
+-   KSA \(Dammam\) public sector
 
 
 
@@ -5826,7 +5768,7 @@ Store and manage the blobs/objects on SAP BTP.
 
 -   US Central \(IA\)
 -   Europe \(Frankfurt\)
--   Israel \(Tel Aviv\) GCP
+-   Israel \(Tel Aviv\)
 
 
 
@@ -6351,7 +6293,7 @@ Define and manage your jobs or Cloud Foundry tasks that run on one-time or recur
 
 -   US Central \(IA\)
 -   Europe \(Frankfurt\)
--   Israel \(Tel Aviv\) GCP
+-   Israel \(Tel Aviv\)
 
 
 
@@ -6578,7 +6520,7 @@ Store and retrieve credentials such as cryptographic keys and passwords.
 <td valign="top">
 
 -   Europe \(Frankfurt\)
--   Israel \(Tel Aviv\) GCP
+-   Israel \(Tel Aviv\)
 
 
 
@@ -6914,7 +6856,7 @@ Integrate applications, services, and systems across landscapes.
 </td>
 <td valign="top">
 
--   Israel \(Tel Aviv\) GCP
+-   Israel \(Tel Aviv\)
 
 
 
@@ -7142,7 +7084,7 @@ Create and consume relational databases with PostgreSQL based on hyperscalers.
 </td>
 <td valign="top">
 
--   Israel \(Tel Aviv\) GCP
+-   Israel \(Tel Aviv\)
 
 
 
@@ -7488,7 +7430,7 @@ Develop and run HTML5 applications in a cloud environment.
 <td valign="top">
 
 -   US Central \(IA\)
--   Israel \(Tel Aviv\) GCP
+-   Israel \(Tel Aviv\)
 
 
 
@@ -8055,6 +7997,7 @@ Create role based, multi-channel sites to access business apps and content.
 -   Japan \(Tokyo\)
 -   Australia \(Sydney\)
 -   Switzerland \(Zurich\) EU Access
+-   Brazil \(São Paulo\)
 
 
 
@@ -8110,9 +8053,10 @@ Create role based, multi-channel sites to access business apps and content.
 
 -   US Central \(IA\)
 -   Europe \(Frankfurt\)
--   India \(Mumbai\) GCP
--   Israel \(Tel Aviv\) GCP
--   KSA \(Dammam\) GCP public sector
+-   India \(Mumbai\)
+-   Israel \(Tel Aviv\)
+-   KSA \(Dammam\) public sector
+-   Australia \(Sydney\)
 
 
 
@@ -8344,9 +8288,9 @@ Cloud Offering with End-to-End visibility on Business Processes
 
 -   US Central \(IA\)
 -   Europe \(Frankfurt\)
--   India \(Mumbai\) GCP
--   Israel \(Tel Aviv\) GCP
--   KSA \(Dammam\) GCP public sector
+-   India \(Mumbai\)
+-   Israel \(Tel Aviv\)
+-   KSA \(Dammam\) public sector
 
 
 
@@ -8641,7 +8585,7 @@ Create and consume in-memory cache with Redis based on hyperscalers.
 </td>
 <td valign="top">
 
--   Israel \(Tel Aviv\) GCP
+-   Israel \(Tel Aviv\)
 
 
 
@@ -8874,6 +8818,7 @@ Add UI adaptation to your UI5 applications.
 -   Singapore
 -   Japan \(Tokyo\)
 -   Switzerland \(Zurich\) EU Access
+-   Brazil \(São Paulo\)
 
 
 
@@ -8929,9 +8874,10 @@ Add UI adaptation to your UI5 applications.
 
 -   US Central \(IA\)
 -   Europe \(Frankfurt\)
--   India \(Mumbai\) GCP
--   KSA \(Dammam\) GCP public sector
--   Israel \(Tel Aviv\) GCP
+-   India \(Mumbai\)
+-   KSA \(Dammam\) public sector
+-   Israel \(Tel Aviv\)
+-   Australia \(Sydney\)
 
 
 
@@ -9108,7 +9054,7 @@ Store and analyze application logs, metrics, and traces based on OpenSearch.
 
 -   US Central \(IA\)
 -   Europe \(Frankfurt\)
--   India \(Mumbai\) GCP
+-   India \(Mumbai\)
 
 
 
@@ -9389,7 +9335,7 @@ Connect applications, services and systems across different landscapes.
 <td valign="top">
 
 -   Europe \(Frankfurt\)
--   Israel \(Tel Aviv\) GCP
+-   Israel \(Tel Aviv\)
 
 
 
@@ -9816,7 +9762,7 @@ Establish connections between cloud applications and on-premise systems.
 
 -   US Central \(IA\)
 -   Europe \(Frankfurt\)
--   Israel \(Tel Aviv\) GCP
+-   Israel \(Tel Aviv\)
 
 
 
@@ -9992,6 +9938,303 @@ Embed data quality services to validate addresses and enrich with geocodes.
 
 -   Europe \(Rot\)\*
 -   Europe \(Frankfurt\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[Authorization and Trust Management Service](https://help.sap.com/viewer/product/CP_AUTHORIZ_TRUST_MNG/Cloud/en-US) 
+
+</td>
+<td valign="top">
+
+Manage application authorizations and trusted connections to identity providers.
+
+</td>
+<td valign="top">
+
+-   BC-NEO-SEC-IAM
+
+
+
+</td>
+<td valign="top">
+
+-   Neo
+
+
+
+</td>
+<td valign="top">
+
+-   SAP
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Rot\)\*
+-   Europe \(Frankfurt\)
+-   Europe \(Amsterdam\)
+-   US East \(Ashburn\)
+-   US West \(Chandler\)
+-   US East \(Sterling\)
+-   US West \(Colorado Springs\)
+-   Australia \(Sydney\)
+-   Japan \(Tokyo\)
+-   Canada \(Toronto\)
+-   Brazil \(São Paulo\)
+-   UAE \(Dubai\)
+-   KSA \(Riyadh\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[Authorization and Trust Management Service](https://help.sap.com/viewer/product/CP_AUTHORIZ_TRUST_MNG/Cloud/en-US) 
+
+</td>
+<td valign="top">
+
+Manage application authorizations and trusted connections to identity providers.
+
+</td>
+<td valign="top">
+
+-   BC-CP-CF-SEC-IAM
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   AWS
+
+
+
+</td>
+<td valign="top">
+
+-   US East \(VA\)
+-   Europe \(Frankfurt\)
+-   Europe \(Frankfurt\) EU Access
+-   Brazil \(São Paulo\)
+-   Japan \(Tokyo\)
+-   Australia \(Sydney\)
+-   Singapore
+-   South Korea \(Seoul\)
+-   Canada \(Montreal\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[Authorization and Trust Management Service](https://help.sap.com/viewer/product/CP_AUTHORIZ_TRUST_MNG/Cloud/en-US) 
+
+</td>
+<td valign="top">
+
+Manage application authorizations and trusted connections to identity providers.
+
+</td>
+<td valign="top">
+
+-   BC-CP-CF-SEC-IAM
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   Azure
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Netherlands\)
+-   US West \(WA\)
+-   US East \(VA\)
+-   Australia \(Sydney\)
+-   Singapore
+-   Japan \(Tokyo\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[Authorization and Trust Management Service](https://help.sap.com/viewer/product/CP_AUTHORIZ_TRUST_MNG/Cloud/en-US) 
+
+</td>
+<td valign="top">
+
+Manage application authorizations and trusted connections to identity providers.
+
+</td>
+<td valign="top">
+
+-   BC-CP-CF-SEC-IAM
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   GCP
+
+
+
+</td>
+<td valign="top">
+
+-   US Central \(IA\)
+-   Europe \(Frankfurt\)
+-   Israel \(Tel Aviv\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[Authorization and Trust Management Service](https://help.sap.com/viewer/product/CP_AUTHORIZ_TRUST_MNG/Cloud/en-US) 
+
+</td>
+<td valign="top">
+
+Manage application authorizations and trusted connections to identity providers.
+
+</td>
+<td valign="top">
+
+-   BC-CP-CF-SEC-IAM
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   Alibaba
+
+
+
+</td>
+<td valign="top">
+
+-   China \(Shanghai\)\*\*
 
 
 
@@ -10410,7 +10653,7 @@ Automatically increase or decrease the number of application instances.
 
 -   US Central \(IA\)
 -   Europe \(Frankfurt\)
--   Israel \(Tel Aviv\) GCP
+-   Israel \(Tel Aviv\)
 
 
 
@@ -10587,6 +10830,7 @@ Simplify access to applications by establishing a central entry point.
 -   Japan \(Tokyo\)
 -   Australia \(Sydney\)
 -   Switzerland \(Zurich\) EU Access
+-   Brazil \(São Paulo\)
 
 
 
@@ -10641,10 +10885,11 @@ Simplify access to applications by establishing a central entry point.
 <td valign="top">
 
 -   US Central \(IA\)
--   India \(Mumbai\) GCP
--   Israel \(Tel Aviv\) GCP
+-   India \(Mumbai\)
+-   Israel \(Tel Aviv\)
 -   Europe \(Frankfurt\)
--   KSA \(Dammam\) GCP public sector
+-   KSA \(Dammam\) public sector
+-   Australia \(Sydney\)
 
 
 
@@ -11174,8 +11419,8 @@ Create and receive real-time alerts about your services
 
 -   US Central \(IA\)
 -   Europe \(Frankfurt\)
--   India \(Mumbai\) GCP
--   Israel \(Tel Aviv\) GCP
+-   India \(Mumbai\)
+-   Israel \(Tel Aviv\)
 
 
 
@@ -11642,6 +11887,7 @@ Configure and run predefined pipelines for continuous integration and delivery.
 -   Japan \(Tokyo\)
 -   Australia \(Sydney\)
 -   Brazil \(São Paulo\)
+-   Singapore
 
 
 
@@ -11749,7 +11995,9 @@ Configure and run predefined pipelines for continuous integration and delivery.
 </td>
 <td valign="top">
 
--   Israel \(Tel Aviv\) GCP
+-   Europe \(Frankfurt\)
+-   India \(Mumbai\)
+-   Israel \(Tel Aviv\)
 -   US Central \(IA\)
 
 
@@ -12622,9 +12870,9 @@ Enrich cloud offerings with decision modeling, management, and execution service
 
 -   US Central \(IA\)
 -   Europe \(Frankfurt\)
--   India \(Mumbai\) GCP
--   Israel \(Tel Aviv\) GCP
--   KSA \(Dammam\) GCP public sector
+-   India \(Mumbai\)
+-   Israel \(Tel Aviv\)
+-   KSA \(Dammam\) public sector
 
 
 
@@ -12794,7 +13042,7 @@ Develop and run containerized applications and extensions on Kubernetes.
 </td>
 <td valign="top">
 
--   Israel \(Tel Aviv\) GCP
+-   Israel \(Tel Aviv\)
 
 
 
@@ -12902,7 +13150,7 @@ A core, security and compliance based SAP BTP service to provide means for audit
 </td>
 <td valign="top">
 
--   Israel \(Tel Aviv\) GCP
+-   Israel \(Tel Aviv\)
 
 
 
@@ -13305,7 +13553,7 @@ The central registry for service brokers and platforms in SAP BTP.
 
 -   US Central \(IA\)
 -   Europe \(Frankfurt\)
--   Israel \(Tel Aviv\) GCP
+-   Israel \(Tel Aviv\)
 
 
 
@@ -13632,303 +13880,6 @@ Automate business processes using workflow technology.
 <td valign="top">
 
 -   LOD-BPM-WFS
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Alibaba
-
-
-
-</td>
-<td valign="top">
-
--   China \(Shanghai\)\*\*
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-[Authorization and Trust Management Service](https://help.sap.com/viewer/product/CP_AUTHORIZ_TRUST_MNG/Cloud/en-US) 
-
-</td>
-<td valign="top">
-
-Manage application authorizations and trusted connections to identity providers.
-
-</td>
-<td valign="top">
-
--   BC-NEO-SEC-IAM
-
-
-
-</td>
-<td valign="top">
-
--   Neo
-
-
-
-</td>
-<td valign="top">
-
--   SAP
-
-
-
-</td>
-<td valign="top">
-
--   Europe \(Rot\)\*
--   Europe \(Frankfurt\)
--   Europe \(Amsterdam\)
--   US East \(Ashburn\)
--   US West \(Chandler\)
--   US East \(Sterling\)
--   US West \(Colorado Springs\)
--   Australia \(Sydney\)
--   Japan \(Tokyo\)
--   Canada \(Toronto\)
--   Brazil \(São Paulo\)
--   UAE \(Dubai\)
--   KSA \(Riyadh\)
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-[Authorization and Trust Management Service](https://help.sap.com/viewer/product/CP_AUTHORIZ_TRUST_MNG/Cloud/en-US) 
-
-</td>
-<td valign="top">
-
-Manage application authorizations and trusted connections to identity providers.
-
-</td>
-<td valign="top">
-
--   BC-CP-CF-SEC-IAM
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   AWS
-
-
-
-</td>
-<td valign="top">
-
--   US East \(VA\)
--   Europe \(Frankfurt\)
--   Europe \(Frankfurt\) EU Access
--   Brazil \(São Paulo\)
--   Japan \(Tokyo\)
--   Australia \(Sydney\)
--   Singapore
--   South Korea \(Seoul\)
--   Canada \(Montreal\)
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-[Authorization and Trust Management Service](https://help.sap.com/viewer/product/CP_AUTHORIZ_TRUST_MNG/Cloud/en-US) 
-
-</td>
-<td valign="top">
-
-Manage application authorizations and trusted connections to identity providers.
-
-</td>
-<td valign="top">
-
--   BC-CP-CF-SEC-IAM
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Azure
-
-
-
-</td>
-<td valign="top">
-
--   Europe \(Netherlands\)
--   US West \(WA\)
--   US East \(VA\)
--   Australia \(Sydney\)
--   Singapore
--   Japan \(Tokyo\)
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-[Authorization and Trust Management Service](https://help.sap.com/viewer/product/CP_AUTHORIZ_TRUST_MNG/Cloud/en-US) 
-
-</td>
-<td valign="top">
-
-Manage application authorizations and trusted connections to identity providers.
-
-</td>
-<td valign="top">
-
--   BC-CP-CF-SEC-IAM
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   GCP
-
-
-
-</td>
-<td valign="top">
-
--   US Central \(IA\)
--   Europe \(Frankfurt\)
--   Israel \(Tel Aviv\) GCP
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-[Authorization and Trust Management Service](https://help.sap.com/viewer/product/CP_AUTHORIZ_TRUST_MNG/Cloud/en-US) 
-
-</td>
-<td valign="top">
-
-Manage application authorizations and trusted connections to identity providers.
-
-</td>
-<td valign="top">
-
--   BC-CP-CF-SEC-IAM
 
 
 
@@ -14542,7 +14493,7 @@ Retrieve information about destinations in the Cloud Foundry environment.
 
 -   US Central \(IA\)
 -   Europe \(Frankfurt\)
--   Israel \(Tel Aviv\) GCP
+-   Israel \(Tel Aviv\)
 
 
 
@@ -15017,6 +14968,7 @@ Build and run mobile apps for B2E and B2B use cases.
 -   US East \(VA\)
 -   Singapore
 -   Switzerland \(Zurich\) EU Access
+-   Brazil \(São Paulo\)
 
 
 
@@ -15072,9 +15024,10 @@ Build and run mobile apps for B2E and B2B use cases.
 
 -   Europe \(Frankfurt\)
 -   US Central \(IA\)
--   India \(Mumbai\) GCP
--   Israel \(Tel Aviv\) GCP
--   KSA \(Dammam\) GCP public sector
+-   India \(Mumbai\)
+-   Israel \(Tel Aviv\)
+-   KSA \(Dammam\) public sector
+-   Australia \(Sydney\)
 
 
 

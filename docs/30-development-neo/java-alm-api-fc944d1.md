@@ -551,6 +551,50 @@ You can validate the content of an application by verifying the hash values in a
 3.  Use the hash values of the binaries to compare with those of previous binaries before you start another operation.
 
 
+<a name="loiof2cc4cdc7ce04291bcad59c0c7fad61f"/>
+
+<!-- loiof2cc4cdc7ce04291bcad59c0c7fad61f -->
+
+## Download Application Binaries
+
+Download the binaries of a Java application in a ZIP file.
+
+
+
+<a name="loiof2cc4cdc7ce04291bcad59c0c7fad61f__prereq_zfx_wk3_hdb"/>
+
+## Prerequisites
+
+-   You have an existing source application deployed on the platform.
+
+-   The *downloadJavaApplicationBinaries* scope is assigned to the used platform role for the subaccount. See [Platform Scopes](../50-administration-and-ops-neo/platform-scopes-f226074.md).
+
+-   You've installed a REST client.
+
+
+
+
+## Context
+
+You can download the latest deployed content of an application as a ZIP file. The ZIP file includes all the files that you've deployed for your Java application.
+
+
+
+## Procedure
+
+1.  Request the download of the binaries.
+
+    Send a *GET* binaries request:
+
+    ```
+    Client Request:
+    
+    GET: https://api.hana.ondemand.com/lifecycle/v1/accounts/mysubaccount/apps/myapp/binaries/files
+    ```
+
+2.  Save the `mysubaccount_myapp.zip` file locally.
+
+
 <a name="loio2d3be560df574092909ed8171ec197ec"/>
 
 <!-- loio2d3be560df574092909ed8171ec197ec -->

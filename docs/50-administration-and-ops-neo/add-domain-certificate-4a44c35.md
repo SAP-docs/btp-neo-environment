@@ -22,6 +22,9 @@ neo add-domain-certificate --account <subaccount_technical_name> --user <e-mail_
 
 The `add-domain-certificate` command allows you to add an already uploaded certificate of another type to the SSL host. For example, if you already have an RSA certificate bound to the SSL host, you now also have the option to add an ECC certificate to that SSL host, and vice versa.
 
+> ### Recommendation:  
+> SAP BTP, Neo environment offers you the possibility to use the most modern and secure cryptography algorithm for server-side certificates, elliptic curve \(ECC\). If you want to adapt to the latest cryptography recommendations, you should use ECC certificates.
+
 
 
 ## Parameters
@@ -128,7 +131,7 @@ SSL host as defined with the`--name` parameter when created, or 'default' if not
 ## Example
 
 ```
-neo add-domain-certificate --account mysubaccount --user mymail@example.com --host hana.ondemand.com --ssl-host mysslhostname --certificate myfirstcert
+neo add-domain-certificate --account mysubaccount --user mymail@example.com --host hana.ondemand.com --ssl-host mysslhostname --certificate mynewcert
 
 ```
 
