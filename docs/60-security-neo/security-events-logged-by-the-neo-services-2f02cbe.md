@@ -71,6 +71,18 @@ SAP Cloud Integration \(Neo\)
 <tr>
 <td valign="top">
 
+SAP Cloud Portal \(Neo\)
+
+</td>
+<td valign="top">
+
+[Working with Audit Logs](https://help.sap.com/docs/cloud-portal-service/sap-cloud-portal-service-for-neo-environment/working-with-audit-logs)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SAP HANA Service for SAP BTP in SAP Regions \(Neo\)
 
 </td>
