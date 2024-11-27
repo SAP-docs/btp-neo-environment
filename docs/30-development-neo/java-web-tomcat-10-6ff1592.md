@@ -1,11 +1,8 @@
 <!-- loio6ff15923ddd3401db65ee5fde26976eb -->
 
-# Java Web Tomcat 10 \(Beta\)
+# Java Web Tomcat 10
 
-Java Web Apache Tomcat 10 \(Beta\) \(Java Web Tomcat 10 \(Beta\)\) is the next edition of the Java Web application runtime container that has all characteristics and features of its predecessor Java Web Tomcat 9.
-
-> ### Note:  
-> This is a beta feature available on SAP BTP for subaccounts in trial and enterprise accounts. For more information, see [Important Disclaimers and Legal Information](https://help.sap.com/viewer/disclaimer).
+Java Web Apache Tomcat 10 \(Java Web Tomcat 10\) is the next edition of the Java Web application runtime container that has all characteristics and features of its predecessor Java Web Tomcat 9.
 
 > ### Remember:  
 > SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
@@ -18,9 +15,9 @@ Java Web Apache Tomcat 10 \(Beta\) \(Java Web Tomcat 10 \(Beta\)\) is the next e
 This container leverages Apache Tomcat 10.1 Web Container without modifications and also adds the already established set of SAP BTP services client APIs. It supports the Jakarta EE 10 APIs.
 
 > ### Note:  
-> The changes in the package names in the Jakarta EE 10 API from the Java EE API may require changes in the source code of your applications to be able to migrate to Java Web Tomcat 10 \(Beta\) runtime. See [Migrating to Java Web Tomcat 10 \(Beta\) \(from Another Runtime\)](java-web-tomcat-10-beta-6ff1592.md#loio6ff15923ddd3401db65ee5fde26976eb__section_mhk_xkj_srb).
+> The changes in the package names in the Jakarta EE 10 API from the Java EE API may require changes in the source code of your applications to be able to migrate to Java Web Tomcat 10 runtime. See [Migrating to Java Web Tomcat 10 \(from Another Runtime\)](java-web-tomcat-10-6ff1592.md#loio6ff15923ddd3401db65ee5fde26976eb__section_mhk_xkj_srb).
 
-Java Web Tomcat 10 \(Beta\) runtime is displayed as *neo-java-web runtime version 5.x* in the console client. See:
+Java Web Tomcat 10 runtime is displayed as *neo-java-web runtime version 5.x* in the console client. See:
 
 -   [Console Client for the Neo Environment](../50-administration-and-ops-neo/console-client-for-the-neo-environment-7613230.md)
 -   [Choose Application Runtime Version](../50-administration-and-ops-neo/choose-application-runtime-version-13afe5c.md)
@@ -46,7 +43,7 @@ This runtime supports Java 17.
 
 ## Supported Jakarta EE Specifications
 
-The Java Web Tomcat 10 \(Beta\) application runtime container \(*neo-java-web 5.x*\) provides implementation for the following set of Jakarta EE specifications:
+The Java Web Tomcat 10 application runtime container \(*neo-java-web 5.x*\) provides implementation for the following set of Jakarta EE specifications:
 
 -   [Jakarta Servlet 6.0](https://jakarta.ee/specifications/servlet/6.0/)
 -   [Jakarta JavaServer Pages \(JSP\) 3.1](https://jakarta.ee/specifications/pages/3.1/)
@@ -60,7 +57,7 @@ The Java Web Tomcat 10 \(Beta\) application runtime container \(*neo-java-web 5.
 
 ## Supported SAP BTP APIs
 
-The following subset of APIs of SAP BTP services are available within Java Web Tomcat 10 \(Beta\):
+The following subset of APIs of SAP BTP services are available within Java Web Tomcat 10:
 
 -   Document Service APIs
 -   Connectivity Service APIs \(destination configuration and authentication header provider\)
@@ -71,7 +68,7 @@ The following subset of APIs of SAP BTP services are available within Java Web T
 
 <a name="loio6ff15923ddd3401db65ee5fde26976eb__section_mhk_xkj_srb"/>
 
-## Migrating to Java Web Tomcat 10 \(Beta\) \(from Another Runtime\)
+## Migrating to Java Web Tomcat 10 \(from Another Runtime\)
 
 1.  If you application uses Java packages from the Jakarta EE specifications \(listed above\), in the source code change the imported package names from `javax.*` to `jakarta.*`. For example, change imports of `javax.servlet` to `jakarta.servlet`.
 2.  Redeploy \(see [Deploying and Updating Java Applications](deploying-and-updating-java-applications-e5dfbc6.md)\) and restart the application afterwards \(see [restart command](../50-administration-and-ops-neo/restart-7c0f7a1.md) or [Start and Stop Applications](../50-administration-and-ops-neo/start-and-stop-applications-7612f03.md)\).

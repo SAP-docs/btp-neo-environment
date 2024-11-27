@@ -5,11 +5,9 @@
 Java Web Apache Tomcat 8 \(Java Web Tomcat 8\) is the next edition of the Java Web application runtime container that has all characteristics and features of its predecessor Java Web Tomcat 7.
 
 > ### Note:  
-> The Java Web Tomcat 8 runtime is deprecated following the [official announcement](https://tomcat.apache.org/tomcat-85-eol.html) of Apache Tomcat 8.5 end of life. After the end of 2023, we stop providing updates and security patches to it.
+> Since 1 January 2024, we've stopped the support for this runtime and stopped providing updates and security patches to it. This is following the [official announcement](https://tomcat.apache.org/tomcat-85-eol.html) of Apache Tomcat 8.5 end of life. Don't use it for new applications \(we recommend using [Java Web Tomcat 9](java-web-tomcat-9-41b1ee9.md) or another supported one listed in [Application Runtime Container](application-runtime-container-7613bd2.md)\).
 > 
-> Required Action: If you have Java applications running on that runtime, migrate to Java Web Tomcat 9 by the end of 2023. To do so, redeploy \(see [Deploying and Updating Java Applications](deploying-and-updating-java-applications-e5dfbc6.md)\) and restart \(see [Start and Stop Applications](../50-administration-and-ops-neo/start-and-stop-applications-7612f03.md)\).
-> 
-> For new Java applications, we recommend using [Java Web Tomcat 9](java-web-tomcat-9-41b1ee9.md).
+> If you have Java applications running on that runtime, migrate to Java Web Tomcat 9 as soon as possible. See [Migrating from Java Web Tomcat 8 to Java Web Tomcat 9](migrating-from-java-web-tomcat-8-to-java-web-tomcat-9-1c3c8d4.md).
 
 > ### Remember:  
 > SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
@@ -98,7 +96,7 @@ Java API for WebSocket
 </td>
 <td valign="top">
 
-[JSR - 356](https://jcp.org/en/jsr/detail?id=356) 
+[https://jcp.org/en/jsr/detail?id=356](https://jcp.org/en/jsr/detail?id=356) 
 
 </td>
 </tr>

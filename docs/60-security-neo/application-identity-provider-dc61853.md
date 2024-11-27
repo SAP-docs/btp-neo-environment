@@ -423,6 +423,11 @@ After clicking *Save* you should get a message that you can proceed with the con
     <td valign="top">
     
     The cryptographic algorithm used to compute the digest of the digital signatures in the SAML protocol messages.
+
+    > ### Tip:  
+    > We recommend using secure *SHA-256* signature algorithm.
+
+
     
     </td>
     </tr>

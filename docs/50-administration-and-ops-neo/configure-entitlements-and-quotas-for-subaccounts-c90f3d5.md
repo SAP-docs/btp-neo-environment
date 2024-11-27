@@ -74,7 +74,7 @@ For more information, see [Managing Entitlements and Quotas Using the Cockpit](m
 
 1.  Navigate to your global account.
 
-2.  \[Feature Set B\] Choose *Entitlements* \> *Entity Assignments* from the left hand-side navigation.
+2.  Choose *Entitlements* \> *Entity Assignments* from the left hand-side navigation.
 
     > ### Remember:  
     > There are other ways you can access the subaccount to manage its assignments, such as navigating to the subaccount or its managed directory from the *Account Explorer*. See above for more information.

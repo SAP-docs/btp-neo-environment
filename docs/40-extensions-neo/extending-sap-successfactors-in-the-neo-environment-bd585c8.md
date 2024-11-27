@@ -14,9 +14,6 @@ You can extend the scope of SAP SuccessFactors HXM Suite using extension applica
 
 This section guides you through the configuration tasks that you need to perform to enable the Neo environment for developing extension applications for your SAP SuccessFactors system.
 
-> ### Note:  
-> The content in this section is only relevant for cloud management tools feature set A. For more information, see [Cloud Management Tools - Feature Set Overview](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/caf4e4e23aef4666ad8f125af393dfb2.html).
-
 
 
 <a name="loiobd585c88b6a640ccaac1eab10fcd5f1b__section_hy4_rvb_hjb"/>

@@ -6,7 +6,7 @@ Migrate an application running on the deprecated Java runtime Java Web Tomcat 8 
 
 
 
-The Java Web Tomcat 8 runtime is deprecated following the [official announcement](https://tomcat.apache.org/tomcat-85-eol.html) of Apache Tomcat 8.5 end of life. After the end of 2023, we stop providing updates and security patches to it.
+Since 1 January 2024, we've stopped the support for Java Web Tomcat 8 runtime and stopped providing updates and security patches to it. This is following the [official announcement](https://tomcat.apache.org/tomcat-85-eol.html) of Apache Tomcat 8.5 end of life.
 
 
 

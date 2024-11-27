@@ -65,7 +65,7 @@ If you need an application runtime container together with all containers define
 <tr>
 <td valign="top">
 
-[Java Web Tomcat 10 \(Beta\)](java-web-tomcat-10-beta-6ff1592.md)
+[Java Web Tomcat 10](java-web-tomcat-10-6ff1592.md)
 
 </td>
 <td valign="top">
@@ -128,7 +128,7 @@ Some of the standard Java EE 7 APIs \(Servlet, JSP, EL, Websocket\)
 </td>
 <td valign="top">
 
-If you need a simplified Java Web application runtime container based on Apache Tomcat 8.
+Deprecated
 
 </td>
 </tr>

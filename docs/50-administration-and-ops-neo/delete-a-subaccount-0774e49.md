@@ -70,7 +70,7 @@ Delete subaccounts using the SAP BTP cockpit to clean up your account hierarchy,
 **Related Information**  
 
 
-[Relationship Between Global Accounts and Subaccounts](../10-concepts-neo/account-model-722a475.md#copy2c2dd70587104f459b97019691480ff6 "A global account can group together different subaccounts that an administrator makes available to users. Administrators can assign the available quotas of a global account to its different subaccounts and move it between subaccounts that belong to the same global account.")
+ <?sap-ot O2O class="- topic/link " href="2c2dd70587104f459b97019691480ff6.xml" text="" desc="" xtrc="link:1" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio9fe952ba277c471bbad80cd40548bb84_en-US/src/content/localization/en-us/0774e491af8e4ba4941cbc8f51501c22.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
 
 [Remove the Custom Domain](remove-the-custom-domain-318a016.md "If you do not want to use the custom domain any longer, you can remove it using the console client commands. As a result, your application will be accessible only on its default hana.ondemand.com domain and you won't be charged for the custom domain anymore.")
 

@@ -82,7 +82,7 @@ The User Account and Authentication service stores user-related data records in 
 
 [Delete Users](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/51000c2254864a39b9f8629715f2c5f1.html "As an administrator, you can delete users from your subaccount. When you delete a user, you also delete the user's role collection assignments.") :arrow_upper_right:
 
-[Data Protection and Privacy](data-protection-and-privacy-7e513d3.md "Data protection is associated with numerous legal requirements and privacy concerns. In addition to compliance with general data protection and privacy acts, it is necessary to consider compliance with industry-specific legislation in different countries.")
+[Data Protection and Privacy](data-protection-and-privacy-7e513d3.md "Data protection is associated with numerous legal requirements and privacy concerns. In addition to compliance with general data protection and privacy acts, it's necessary to consider compliance with industry-specific legislation in different countries/regions.")
 
 [Switch Off Automatic Creation of Shadow Users](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/d8525671e8b14147b96ef497e1e1af80.html "To switch off the creation of shadow users in the trust configuration of custom identity providers, administrators must explicitly allow users to log on. Administrators then have full control over who is allowed to log on.") :arrow_upper_right:
 

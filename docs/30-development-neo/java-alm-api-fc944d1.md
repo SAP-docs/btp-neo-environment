@@ -89,7 +89,7 @@ You can use one of the following:
 For the purposes of this tutorial, we will deploy three `.war` files: \(app.war, example.war, demo.war\).
 
 > ### Note:  
-> The deployment with an unsupported runtime will fail with an error message, and the deployment with a deprecated runtime will result in a warning message.
+> The deployment with a deprecated or unsupported runtime will fail with an error message.
 
 
 

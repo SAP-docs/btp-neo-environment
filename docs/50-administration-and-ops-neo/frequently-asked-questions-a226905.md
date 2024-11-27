@@ -75,7 +75,7 @@ In all other cases, the default `hana.ondemand.com` becomes inaccessible and can
 
 ## Is there a troubleshooting guide for custom domains?
 
-Yes, there is. If you are facing a technical issue and you are not sure how to proceed, see [Guided Answers](https://ga.support.sap.com/dtp/viewer/index.html#/tree/2065/actions/26547:27935).
+Yes, there is. If you are facing a technical issue and you are not sure how to proceed, see [Troubleshooting Guide for Custom Domains in the Neo Environment](troubleshooting-guide-for-custom-domains-in-the-neo-environment-216e0ed.md).
 
 **Related Information**  
 
