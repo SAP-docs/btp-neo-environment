@@ -64,7 +64,7 @@ This error could occur if the MTA archive is not consistent. There are several d
 </td>
 <td valign="top">
 
-The archive is inconsistent, for example, when a module referenced in the `META-INF/mtad.yaml` is not present in the MTA archive or is not referenced correctly. Make sure that the archive is compliant with the MTA specification available at [The Multitarget Application Model v.2](http://go.sap.com/documents/2016/06/e2f618e4-757c-0010-82c7-eda71af511fa.html) and the [The Multitarget Application Model v.3](https://www.sap.com/documents/2021/09/66d96898-fa7d-0010-bca6-c68f7e60039b.html).
+The archive is inconsistent, for example, when a module referenced in the `META-INF/mtad.yaml` is not present in the MTA archive or is not referenced correctly. Make sure that the archive is compliant with the MTA specification available at [The Multitarget Application Model v.2](https://help.sap.com/doc/multitarget-application-modelv2/Cloud/en-US/The%20Multitarget%20Application%20Model.pdf) and [The Multitarget Application Model v.3](https://help.sap.com/doc/multitarget-application-modelv3/Cloud/en-US/The%20Multitarget%20Application%20M%D0%BEdel.pdf).
 
 </td>
 </tr>

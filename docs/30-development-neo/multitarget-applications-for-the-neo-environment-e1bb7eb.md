@@ -18,7 +18,7 @@ You can now benefit from an automated deployment of solutions in an MTA archive 
 
 Initially, developers describe the modules of the application, the interdependencies to other modules and services, and required and exposed interfaces. Afterward, the SAP BTP validates, orchestrates, and automates the deployment of the MTA.
 
-For more information about the Multitarget Application model, see the official [The Multitarget Application Model](https://www.sap.com/documents/2016/06/e2f618e4-757c-0010-82c7-eda71af511fa.html) specification.
+For more information about the Multitarget Application model, see the official specification documents [The Multitarget Application Model v.2](https://help.sap.com/doc/multitarget-application-modelv2/Cloud/en-US/The%20Multitarget%20Application%20Model.pdf) and [The Multitarget Application Model v.3](https://help.sap.com/doc/multitarget-application-modelv3/Cloud/en-US/The%20Multitarget%20Application%20M%D0%BEdel.pdf).
 
 
 <table>

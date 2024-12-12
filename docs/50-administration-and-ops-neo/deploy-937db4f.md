@@ -320,7 +320,7 @@ For more information, see [Application Runtime Container](../30-development-neo/
 If you specify `--runtime`, you also have to specify `--runtime-version`.
 
 > ### Note:  
-> The deployment with a deprecated or unsupported runtime will fail with an error message.
+> The deployment with an unsupported runtime will fail with an error message, and the deployment with a deprecated runtime will result in a warning message.
 
 
 

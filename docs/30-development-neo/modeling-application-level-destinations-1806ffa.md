@@ -24,7 +24,7 @@ Destinations to external resources lead to services or applications external to 
 
 Application-level destinations to external resources are modeled as items within the `destinations` parameter of the `com.sap.java` module type. This means that the lifecycle of such a destination is bound to the lifecycle of the corresponding application.
 
-For a list of the available destination parameters, see [MTA Module Types, Resource Types, and Parameters for Applications in the Neo Environment](mta-module-types-resource-types-and-parameters-for-applications-in-the-neo-environment-f1caa87.md), and the design documents [The Multitarget Application Model v.2](https://www.sap.com/documents/2016/06/e2f618e4-757c-0010-82c7-eda71af511fa.html) and [The Multitarget Application Model v.3](https://www.sap.com/documents/2021/09/66d96898-fa7d-0010-bca6-c68f7e60039b.html).
+For a list of the available destination parameters, see [MTA Module Types, Resource Types, and Parameters for Applications in the Neo Environment](mta-module-types-resource-types-and-parameters-for-applications-in-the-neo-environment-f1caa87.md), and the official specification documents [The Multitarget Application Model v.2](https://help.sap.com/doc/multitarget-application-modelv2/Cloud/en-US/The%20Multitarget%20Application%20Model.pdf) and [The Multitarget Application Model v.3](https://help.sap.com/doc/multitarget-application-modelv3/Cloud/en-US/The%20Multitarget%20Application%20M%D0%BEdel.pdf).
 
 > ### Remember:  
 > Note the following special cases when it comes to deploying a destination:
