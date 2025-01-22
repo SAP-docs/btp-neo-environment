@@ -8,7 +8,7 @@ You can enable transport of SAP BTP applications and application content that is
 
 ## Prerequisites
 
--   You have configured your SAP Business Technology Platform subaccounts for transport with CTS+ as described in [How To... Configure SAP BTP for CTS](http://help.sap.com/disclaimer?site=http://go.sap.com/documents/2016/07/bc3e9124-7d7c-0010-82c7-eda71af511fa.html).
+-   You have configured your SAP Business Technology Platform subaccounts for transport with CTS+ as described in [How To... Configure SAP BTP for CTS](https://help.sap.com/doc/how-to-configure-sap-business-technology-platform-neo-environment-for-cts/Cloud/en-US/How%20To...%20Configure%20SAP%20Business%20Technology%20Platform%2C%20Neo%20Environment%20for%20CTS.pdf).
 -   The content that you want to transport can be made available as a Multitarget Application \(MTA\) archive as described in [Multitarget Applications for the Neo Environment](multitarget-applications-for-the-neo-environment-e1bb7eb.md).
 
 
@@ -36,11 +36,11 @@ You use the Change and Transport System \(CTS\) of ABAP to transport and deploy 
     1.  Use the [Cloud MTA Build Tool](https://github.com/SAP/cloud-mta-build-tool)
     2.  Use the Solution Export Wizard as described in [Exporting Solutions](exporting-solutions-14a0ff1.md)
 
-2.  Attach the MTA archive to a CTS+ transport request as described in [How To... Configure SAP BTP for CTS](http://help.sap.com/disclaimer?site=http://go.sap.com/documents/2016/07/bc3e9124-7d7c-0010-82c7-eda71af511fa.html).
+2.  Attach the MTA archive to a CTS+ transport request as described in [How To... Configure SAP BTP for CTS](https://help.sap.com/doc/how-to-configure-sap-business-technology-platform-neo-environment-for-cts/Cloud/en-US/How%20To...%20Configure%20SAP%20Business%20Technology%20Platform%2C%20Neo%20Environment%20for%20CTS.pdf).
 
     If you use the Solution Export Wizard to package the MTA archive, you can configure it for direct export to CTS+ . This means that a CTS+ transport request is automatically created when the MTA is exported and the archive file is attached to the transport request. The transport request is released and put in the import queue of the follow-on subaccount. Additional configuration steps are necessary for this and are described in [Set Up a Direct Upload of MTA Archives to a CTS+ Transport Request](set-up-a-direct-upload-of-mta-archives-to-a-cts-transport-request-37ceecb.md).
 
-3.  Trigger the import of an SAP BTP application as described in [How To... Configure SAP BTP for CTS](http://help.sap.com/disclaimer?site=http://go.sap.com/documents/2016/07/bc3e9124-7d7c-0010-82c7-eda71af511fa.html).
+3.  Trigger the import of an SAP BTP application as described in [How To... Configure SAP BTP for CTS](https://help.sap.com/doc/how-to-configure-sap-business-technology-platform-neo-environment-for-cts/Cloud/en-US/How%20To...%20Configure%20SAP%20Business%20Technology%20Platform%2C%20Neo%20Environment%20for%20CTS.pdf).
 
 
 **Related Information**  

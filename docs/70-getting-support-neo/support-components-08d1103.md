@@ -2174,7 +2174,7 @@ Simplify the complex connectivity, scalability, and management of IoT.
 <tr>
 <td valign="top">
 
-[Document Information Extraction](https://help.sap.com/dox) 
+[Document Information Extraction](https://help.sap.com/docs/document-information-extraction/document-information-extraction/enabling-service-in-cloud-foundry-environment) 
 
 </td>
 <td valign="top">
@@ -6035,6 +6035,7 @@ Configure your SAP ERP or SAP S/4HANA products interactively in the cloud
 -   Europe \(Frankfurt\)
 -   US East \(VA\)
 -   Singapore
+-   Europe \(Frankfurt\) EU Access
 
 
 
@@ -7320,6 +7321,7 @@ Calculate prices for configurable- and non-configurable products
 -   Europe \(Frankfurt\)
 -   US East \(VA\)
 -   Singapore
+-   Europe \(Frankfurt\) EU Access
 
 
 
@@ -8422,72 +8424,6 @@ Simplify access to applications by establishing a central entry point.
 <td valign="top">
 
 -   China \(Shanghai\)\*\*
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-[SAP ASE Service](https://help.sap.com/viewer/product/ASE_SERVICE/Cloud/en-US) 
-
-</td>
-<td valign="top">
-
-Create and consume SAP ASE databases.
-
-</td>
-<td valign="top">
-
--   BC-NEO-PERS
-
-
-
-</td>
-<td valign="top">
-
--   Neo
-
-
-
-</td>
-<td valign="top">
-
--   SAP
-
-
-
-</td>
-<td valign="top">
-
--   Europe \(Rot\)\*
--   Europe \(Frankfurt\)
--   Europe \(Amsterdam\)
--   US East \(Ashburn\)
--   US West \(Chandler\)
--   US East \(Sterling\)
--   US West \(Colorado Springs\)
--   Australia \(Sydney\)
--   Japan \(Tokyo\)
--   Canada \(Toronto\)
--   Brazil \(São Paulo\)
--   UAE \(Dubai\)
--   KSA \(Riyadh\)
 
 
 
@@ -10169,6 +10105,7 @@ Administer the configuration and pricing services
 -   Europe \(Frankfurt\)
 -   US East \(VA\)
 -   Singapore
+-   Europe \(Frankfurt\) EU Access
 
 
 
@@ -10357,7 +10294,7 @@ Connect data from various sources to enable next-generation data management.
 <tr>
 <td valign="top">
 
-[Personalized Recommendation](https://help.sap.com/pr) 
+[Personalized Recommendation](https://help.sap.com/docs/personalized-recommendation/personalized-recommendation/initial-setup) 
 
 </td>
 <td valign="top">
@@ -11552,6 +11489,72 @@ Create, store, access, and analyze application logs.
 <td valign="top">
 
 -   China \(Shanghai\)\*\*
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[SAP ASE Service](https://help.sap.com/viewer/product/ASE_SERVICE/Cloud/en-US) 
+
+</td>
+<td valign="top">
+
+Create and consume SAP ASE databases.
+
+</td>
+<td valign="top">
+
+-   BC-NEO-PERS
+
+
+
+</td>
+<td valign="top">
+
+-   Neo
+
+
+
+</td>
+<td valign="top">
+
+-   SAP
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Rot\)\*
+-   Europe \(Frankfurt\)
+-   Europe \(Amsterdam\)
+-   US East \(Ashburn\)
+-   US West \(Chandler\)
+-   US East \(Sterling\)
+-   US West \(Colorado Springs\)
+-   Australia \(Sydney\)
+-   Japan \(Tokyo\)
+-   Canada \(Toronto\)
+-   Brazil \(São Paulo\)
+-   UAE \(Dubai\)
+-   KSA \(Riyadh\)
 
 
 
