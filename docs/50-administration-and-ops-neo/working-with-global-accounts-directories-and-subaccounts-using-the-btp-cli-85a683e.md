@@ -422,7 +422,7 @@ Get all available regions for global account
 > ### Note:  
 > To delete a Neo subaccount, you need to use instead the Neo console or the cockpit.
 
-For more information, see [Subaccounts](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/8ed4a705efa0431b910056c0acdbf377.html#loio8d6e3a0fa4ab43e4a421d3ed08128afa "Subaccounts let you structure a global account according to your organization’s and project’s requirements with regard to members, authorizations, and entitlements.") :arrow_upper_right:.
+For more information, see [Subaccounts](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/8ed4a705efa0431b910056c0acdbf377.html#loio8d6e3a0fa4ab43e4a421d3ed08128afa "In Subaccounts, you deploy applications, use services, and manage your subscriptions. You can use them to manage members, authorizations, and entitlements.") :arrow_upper_right:.
 
 **Related Information**  
 
