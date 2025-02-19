@@ -30,7 +30,7 @@ To monitor and track costs and usage in your global account, open the global acc
 > ### Note:  
 > The *Costs and Usage* page is available only if your global account uses the consumption-based commercial model.
 > 
-> If your global account uses the subscription-based commercial model exclusively, then you must access the *Usage* page instead.
+> If your global account uses the subscription-based consumption-based model exclusively, then you must access the *Usage* page instead.
 > 
 > The *Usage* page is similar to the *Costs and Usage* page, except you cannot see any data relating to costs or cloud credits since your eligible services are already prepaid and you aren't charged per usage. See [Using the Usage View](monitoring-usage-and-consumption-costs-in-your-global-account-f2c01a1.md#copyf2c01a1a4f084f99b89bdbecf402c1e1__section_vff_dr3_m1c).
 
@@ -442,7 +442,7 @@ See other useful tips, such as table sorting and searching, in the [Understandin
 
 If your global account has subaccounts that have been deleted but have charges in the last 12 months while they were still active, they’ll still be listed. Such subaccounts are marked with *\(deleted\)* after their name. If these subaccounts were originally located under a directory, you'll see them listed directly under the root global account.
 
-If your global account uses both a subscription-based and a commercial-based model, the *Usage* column shows the combined total usage of services, both subscription-based and consumption-based. Note that:
+If your global account uses both a subscription and a consumption-based commercial model, the *Usage* column shows the combined total usage of services, both subscription-based and consumption-based. Note that:
 
 -   The subscription-based consumption includes usage of services that falls within the prepaid quota that is specified in your subscription-based commercial model agreement. This part of the combined usage is shown in the *Prepaid Quota* column. There will be no additional billing for consumption of the services that falls within this prepaid quota.
 -   The consumption-based usage includes the usage of services that exceeds the prepaid subscription-based quota. This part of the combined usage is shown in the *Charged Usage* column. For this usage, you'll be charged based on the terms outlined in your consumption-based commercial model agreement.
