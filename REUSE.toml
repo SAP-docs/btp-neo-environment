@@ -1,0 +1,10 @@
+version = 1
+SPDX-PackageName = "btp-neo-environment"
+SPDX-PackageSupplier = "Lyubomir Marinov (lyubomir.marinov@sap.com)"
+SPDX-PackageDownloadLocation = "https://github.com/sap-docs/btp-neo-environment"
+
+[[annotations]]
+path = "**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2022-2023 SAP SE or an SAP affiliate company and https://github.com/sap-docs/btp-neo-environment contributors"
+SPDX-License-Identifier = "CC-BY-4.0"
