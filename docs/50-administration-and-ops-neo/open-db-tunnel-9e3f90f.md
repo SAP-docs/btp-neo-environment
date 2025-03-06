@@ -200,7 +200,7 @@ neo open-db-tunnel -a mysubaccount -h us2.hana.ondemand.com -u mymail@example.co
 
 [Open Database Tunnels](https://help.sap.com/viewer/3fa880aa54b74110ae99ad01503fcd60/Cloud/en-US/6930850a8f9a40489c01ed1aa381946d.html "Use the open-db-tunnel command to open a tunnel and to get the connection details required for the remote database instance. The database tunnel allows you to connect to a remote database instance through a secure connection.") :arrow_upper_right:
 
-[Connect to SAP HANA Databases via the Eclipse IDE](https://help.sap.com/viewer/d4790b2de2f4429db6f3dff54e4d7b3a/Cloud/en-US/4efc124a0ccc42b3b502ad3a3908d23d.html "Connect to an SAP HANA single-container (XS) or tenant database system (MDC) using SAP HANA tools via the Eclipse IDE.") :arrow_upper_right:
+[Connect to SAP HANA Databases via the Eclipse IDE](https://help.sap.com/viewer/d4790b2de2f4429db6f3dff54e4d7b3a/Cloud/en-US/4efc124a0ccc42b3b502ad3a3908d23d.html "Connect to an SAP HANA tenant database system (MDC) using SAP HANA tools via the Eclipse IDE.") :arrow_upper_right:
 
 [Connect to SAP HANA Schemas via the Eclipse IDE (Neon)](https://help.sap.com/viewer/d4790b2de2f4429db6f3dff54e4d7b3a/Cloud/en-US/c597f8231b4e463da0dcc3095ea139b7.html "Establish a direct connection to a shared SAP HANA schema via the Eclipse IDE (Neon) using SAP HANA tools.") :arrow_upper_right:
 

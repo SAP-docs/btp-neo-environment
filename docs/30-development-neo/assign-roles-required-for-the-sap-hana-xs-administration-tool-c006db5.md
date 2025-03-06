@@ -28,7 +28,7 @@ To be able to work with the SAP HANA XS Administration Tool `(https://<schema><s
 
 1.  Log on in with your user to one of the following tools:
 
-    -   Use the Eclipse IDE and connect to your SAP HANA studio. For more information, see [Connect to SAP HANA Databases via the Eclipse IDE](https://help.sap.com/viewer/d4790b2de2f4429db6f3dff54e4d7b3a/Cloud/en-US/4efc124a0ccc42b3b502ad3a3908d23d.html "Connect to an SAP HANA single-container (XS) or tenant database system (MDC) using SAP HANA tools via the Eclipse IDE.") :arrow_upper_right:.
+    -   Use the Eclipse IDE and connect to your SAP HANA studio. For more information, see [Connect to SAP HANA Databases via the Eclipse IDE](https://help.sap.com/viewer/d4790b2de2f4429db6f3dff54e4d7b3a/Cloud/en-US/4efc124a0ccc42b3b502ad3a3908d23d.html "Connect to an SAP HANA tenant database system (MDC) using SAP HANA tools via the Eclipse IDE.") :arrow_upper_right:.
     -   Use the SAP HANA Web-based Development Workbench. For more information, see [Supported SAP HANA Web-based Tools](supported-sap-hana-web-based-tools-ad3717d.md).
 
 2.  In the *Security* section, assign the required set of roles to yourself. For more information, see [Roles Required for Web-based Tools](assign-roles-required-for-the-sap-hana-xs-administration-tool-c006db5.md#loiod7c4ca5dac4f4dbbb47901eebe9ea0d1).

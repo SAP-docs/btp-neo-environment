@@ -111,5 +111,5 @@ This property specifies the destination used by the on-premise user provider for
 
 ## 2. Install and Configure SAP HANA Cloud Connector
 
-Create the required destination and configure SAP HANA clolud connector as described in [Configure an On-Premise User Store](https://help.sap.com/viewer/b865ed651e414196b39f8922db2122c7/Cloud/en-US/933034aeb00d489eaf21d50bbb12fed5.html "Configure SAP BTP Java applications to use your corporate LDAP server or on-premise SAP system as a user store.") :arrow_upper_right:.
+Create the required destination and configure SAP HANA clolud connector as described in [Configure an On-Premises User Store](https://help.sap.com/viewer/b865ed651e414196b39f8922db2122c7/Cloud/en-US/933034aeb00d489eaf21d50bbb12fed5.html "Configure SAP BTP Java applications to use your corporate LDAP server or on-premises SAP system as a user store.") :arrow_upper_right:.
 

@@ -161,7 +161,7 @@ Eclipse
 <td valign="top">
 
 -   [Install SAP HANA Tools for Eclipse](install-sap-hana-tools-for-eclipse-b0e351a.md)
--   [Connect to SAP HANA Databases via the Eclipse IDE](https://help.sap.com/viewer/d4790b2de2f4429db6f3dff54e4d7b3a/Cloud/en-US/4efc124a0ccc42b3b502ad3a3908d23d.html "Connect to an SAP HANA single-container (XS) or tenant database system (MDC) using SAP HANA tools via the Eclipse IDE.") :arrow_upper_right:
+-   [Connect to SAP HANA Databases via the Eclipse IDE](https://help.sap.com/viewer/d4790b2de2f4429db6f3dff54e4d7b3a/Cloud/en-US/4efc124a0ccc42b3b502ad3a3908d23d.html "Connect to an SAP HANA tenant database system (MDC) using SAP HANA tools via the Eclipse IDE.") :arrow_upper_right:
 
 
 

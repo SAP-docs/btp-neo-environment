@@ -413,7 +413,7 @@
             -   [Managing Security Settings](50-administration-and-ops-neo/managing-security-settings-168dd75.md)
             -   [Managing API Credentials for Calling REST APIs of SAP Authorization and Trust Management Service](50-administration-and-ops-neo/managing-api-credentials-for-calling-rest-apis-of-sap-authorization-and-trust-manag-ce43eb5.md)
             -   [Working with Resources of the SAP Service Manager Using the btp CLI](50-administration-and-ops-neo/working-with-resources-of-the-sap-service-manager-using-the-btp-cli-fe6a53b.md)
-        -   [Troubleshooting and Support](50-administration-and-ops-neo/troubleshooting-and-support-4023e15.md)
+        -   [Troubleshooting for the btp CLI](50-administration-and-ops-neo/troubleshooting-for-the-btp-cli-4023e15.md)
     -   [Account Administration in the Neo Console Client](50-administration-and-ops-neo/account-administration-in-the-neo-console-client-cd13d6a.md)
         -   [Create Subaccounts Using the Console Client in the Neo Environment](50-administration-and-ops-neo/create-subaccounts-using-the-console-client-in-the-neo-environment-82d0016.md)
         -   [Add Quotas to Subaccounts Using the Console Client](50-administration-and-ops-neo/add-quotas-to-subaccounts-using-the-console-client-f073eaf.md)

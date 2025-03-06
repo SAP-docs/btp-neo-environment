@@ -631,6 +631,7 @@ Build and run mobile apps for B2C use cases.
 -   Canada \(Montreal\)
 -   South Korea \(Seoul\)
 -   Europe \(Frankfurt\) EU Access
+-   US West \(Oregon\)
 
 
 
@@ -1569,6 +1570,7 @@ Create role based, multi-channel sites to access business apps and content.
 -   Canada \(Montreal\)
 -   Europe \(Frankfurt\) EU Access
 -   South Korea \(Seoul\)
+-   US West \(Oregon\)
 
 
 
@@ -3696,6 +3698,244 @@ Get robust asynchronous messaging between applications.
 -   US Central \(IA\)
 -   Europe \(Frankfurt\)
 -   Israel \(Tel Aviv\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[API Management](https://help.sap.com/viewer/product/SAP_CLOUD_PLATFORM_API_MANAGEMENT/Cloud/en-US) 
+
+</td>
+<td valign="top">
+
+Expose your data and processes as APIs and manage their lifecycles.
+
+</td>
+<td valign="top">
+
+-   OPU-API-OD
+
+
+
+</td>
+<td valign="top">
+
+-   Neo
+
+
+
+</td>
+<td valign="top">
+
+-   SAP
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Rot\)\*
+-   Europe \(Frankfurt\)
+-   Europe \(Amsterdam\)
+-   US East \(Ashburn\)
+-   US West \(Chandler\)
+-   US East \(Sterling\)
+-   Australia \(Sydney\)
+-   Japan \(Tokyo\)
+-   Brazil \(São Paulo\)
+-   Canada \(Toronto\)
+-   UAE \(Dubai\)
+-   KSA \(Riyadh\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[API Management](https://help.sap.com/viewer/product/SAP_CLOUD_PLATFORM_API_MANAGEMENT/Cloud/en-US) 
+
+</td>
+<td valign="top">
+
+Expose your data and processes as APIs and manage their lifecycles.
+
+</td>
+<td valign="top">
+
+-   OPU-API-OD
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   AWS
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Frankfurt\)
+-   US East \(VA\)
+-   Singapore
+-   Japan \(Tokyo\)
+-   Australia \(Sydney\)
+-   Brazil \(São Paulo\)
+-   Canada \(Montreal\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[API Management](https://help.sap.com/viewer/product/SAP_CLOUD_PLATFORM_API_MANAGEMENT/Cloud/en-US) 
+
+</td>
+<td valign="top">
+
+Expose your data and processes as APIs and manage their lifecycles.
+
+</td>
+<td valign="top">
+
+-   OPU-API-OD
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   Azure
+
+
+
+</td>
+<td valign="top">
+
+-   Japan \(Tokyo\)
+-   Europe \(Netherlands\)
+-   US West \(WA\)
+-   US East \(VA\)
+-   Singapore
+-   Japan \(Tokyo\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[API Management](https://help.sap.com/viewer/product/SAP_CLOUD_PLATFORM_API_MANAGEMENT/Cloud/en-US) 
+
+</td>
+<td valign="top">
+
+Expose your data and processes as APIs and manage their lifecycles.
+
+</td>
+<td valign="top">
+
+-   OPU-API-OD
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   Alibaba
+
+
+
+</td>
+<td valign="top">
+
+-   China \(Shanghai\)\*\*
 
 
 
@@ -6269,6 +6509,7 @@ Enrich cloud offerings with decision modeling, management, and execution service
 -   South Korea \(Seoul\)
 -   Europe \(Frankfurt\) EU Access
 -   Canada \(Montreal\)
+-   US West \(Oregon\)
 
 
 
@@ -6559,6 +6800,7 @@ Cloud Offering with End-to-End visibility on Business Processes
 -   South Korea \(Seoul\)
 -   Europe \(Frankfurt\) EU Access
 -   Canada \(Montreal\)
+-   US West \(Oregon\)
 
 
 
@@ -6795,6 +7037,7 @@ Add UI adaptation to your UI5 applications.
 -   Canada \(Montreal\)
 -   Europe \(Frankfurt\) EU Access
 -   Brazil \(São Paulo\)
+-   US West \(Oregon\)
 
 
 
@@ -7427,6 +7670,7 @@ Manage transports of development artifacts and application-specific content.
 -   Europe \(Frankfurt\)
 -   Europe \(Frankfurt\) EU Access
 -   US East \(VA\)
+-   US West \(Oregon\)
 -   Australia \(Sydney\)
 -   Singapore
 -   South Korea \(Seoul\)
@@ -8307,6 +8551,7 @@ Simplify access to applications by establishing a central entry point.
 -   Canada \(Montreal\)
 -   Europe \(Frankfurt\) EU Access
 -   South Korea \(Seoul\)
+-   US West \(Oregon\)
 
 
 
@@ -10512,6 +10757,7 @@ Build and run mobile apps for B2E and B2B use cases.
 -   Canada \(Montreal\)
 -   South Korea \(Seoul\)
 -   Europe \(Frankfurt\) EU Access
+-   US West \(Oregon\)
 
 
 
@@ -13312,6 +13558,7 @@ Develop, debug, test, and deploy SAP business applications.
 -   Singapore
 -   Europe \(Frankfurt\) EU Access
 -   South Korea \(Seoul\)
+-   US West \(Oregon\)
 
 
 
@@ -13907,6 +14154,7 @@ Digitize workflows, manage decisions and gain end-to-end process visibility.
 -   South Korea \(Seoul\)
 -   Europe \(Frankfurt\) EU Access
 -   Canada \(Montreal\)
+-   US West \(Oregon\)
 
 
 
