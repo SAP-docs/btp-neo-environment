@@ -1,8 +1,0 @@
-Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: btp-neo-environment
-Upstream-Contact: Lyubomir Marinov (lyubomir.marinov@sap.com)
-Source: https://github.com/sap-docs/btp-neo-environment
-
-Files: *
-Copyright:  2022-2023 SAP SE or an SAP affiliate company and https://github.com/sap-docs/btp-neo-environment contributors
-License: CC-BY-4.0
