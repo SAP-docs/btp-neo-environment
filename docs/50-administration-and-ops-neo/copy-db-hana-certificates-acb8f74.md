@@ -2,7 +2,7 @@
 
 # copy-db-hana-certificates
 
-This command copies certificates from the file-based certificate store 'sapsrv.pse' to the SAML and X509 certificate collections of the in-database certificate store of an SAP HANA tenant database.
+This command copies certificates from the file-based certificate store of the tenant database to the SAML and X509 certificate collections of the in-database certificate store of a HANA tenant database. After the certificates are copied, all extra certificates are removed from the file-based certificate store. The file-based store is then disabled, and the in-database certificate store is enabled. The command can only be executed once, if the in-database certificate store is already enabled, the command will not execute.
 
 
 
@@ -102,5 +102,5 @@ neo copy-db-hana-certificates -a mysubaccount -h hana.ondemand.com -u mymail@exa
 **Related Information**  
 
 
-[Copying Certificates to In-Database Certificate Store](https://help.sap.com/viewer/d4790b2de2f4429db6f3dff54e4d7b3a/Cloud/en-US/d004ca23d1464a86867e209e269d6a55.html "Copy your trust and own certificates from the file-based certificate store 'sapsrv.pse' to the SAML and X509 certificate collections of the in-database certificate store of an SAP HANA tenant database.") :arrow_upper_right:
+[Enabling the In-Database Certificate Store and Moving Certificates](https://help.sap.com/viewer/d4790b2de2f4429db6f3dff54e4d7b3a/Cloud/en-US/d004ca23d1464a86867e209e269d6a55.html "Learn how to enable the in-memory certificate store for an SAP HANA tenant database and how to move any custom certificates (e.g. the ones used for SAML and X509) away from the file-based store to the in-database store.") :arrow_upper_right:
 
