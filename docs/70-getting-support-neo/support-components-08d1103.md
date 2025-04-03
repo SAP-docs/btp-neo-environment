@@ -692,6 +692,7 @@ Build and run mobile apps for B2C use cases.
 -   Singapore
 -   Switzerland \(Zurich\) EU Access
 -   Brazil \(São Paulo\)
+-   Canada Central \(Toronto\)
 
 
 
@@ -750,7 +751,11 @@ Build and run mobile apps for B2C use cases.
 -   India \(Mumbai\)
 -   Israel \(Tel Aviv\)
 -   KSA \(Dammam\) public sector
+-   Japan \(Osaka\)
+-   Brazil \(São Paulo\)
 -   Australia \(Sydney\)
+-   KSA \(Dammam\)
+-   Japan \(Tokyo\)
 
 
 
@@ -1124,183 +1129,6 @@ Establish connections between cloud applications and on-premise systems.
 <tr>
 <td valign="top">
 
-[Redis](https://help.sap.com/viewer/product/Redis/Cloud/en-US) 
-
-</td>
-<td valign="top">
-
-Implement an in-memory caching layer with Redis.
-
-</td>
-<td valign="top">
-
--   BC-NEO-BS-REDIS
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   AWS
-
-
-
-</td>
-<td valign="top">
-
--   Europe \(Frankfurt\)
--   Europe \(Frankfurt\) EU Access
--   US East \(VA\)
--   Brazil \(São Paulo\)
--   Japan \(Tokyo\)
--   Australia \(Sydney\)
--   Singapore
--   South Korea \(Seoul\)
--   Canada \(Montreal\)
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-[Redis](https://help.sap.com/viewer/product/Redis/Cloud/en-US) 
-
-</td>
-<td valign="top">
-
-Implement an in-memory caching layer with Redis.
-
-</td>
-<td valign="top">
-
--   BC-NEO-BS-REDIS
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Azure
-
-
-
-</td>
-<td valign="top">
-
--   Europe \(Netherlands\)
--   US West \(WA\)
--   US East \(VA\)
--   Australia \(Sydney\)
--   Singapore
--   Japan \(Tokyo\)
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-[Redis](https://help.sap.com/viewer/product/Redis/Cloud/en-US) 
-
-</td>
-<td valign="top">
-
-Implement an in-memory caching layer with Redis.
-
-</td>
-<td valign="top">
-
--   BC-NEO-BS-REDIS
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   GCP
-
-
-
-</td>
-<td valign="top">
-
--   US Central \(IA\)
--   Europe \(Frankfurt\)
--   Israel \(Tel Aviv\)
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 [Tax Service](https://help.sap.com/viewer/product/SLH_tax_service/Cloud/en-US) 
 
 </td>
@@ -1632,6 +1460,7 @@ Create role based, multi-channel sites to access business apps and content.
 -   Australia \(Sydney\)
 -   Switzerland \(Zurich\) EU Access
 -   Brazil \(São Paulo\)
+-   Canada Central \(Toronto\)
 
 
 
@@ -1690,7 +1519,10 @@ Create role based, multi-channel sites to access business apps and content.
 -   India \(Mumbai\)
 -   Israel \(Tel Aviv\)
 -   KSA \(Dammam\) public sector
+-   Japan \(Osaka\)
 -   Australia \(Sydney\)
+-   KSA \(Dammam\)
+-   Japan \(Tokyo\)
 
 
 
@@ -1922,7 +1754,9 @@ Automates the connectivity configuration of extension applications running on SA
 <td valign="top">
 
 -   Australia \(Sydney\)
+-   Brazil \(São Paulo\)
 -   Europe \(Frankfurt\)
+-   Japan \(Osaka\)
 -   India \(Mumbai\)
 -   US Central \(IA\)
 
@@ -2389,10 +2223,13 @@ Configure and run predefined pipelines for continuous integration and delivery.
 
 -   Europe \(Frankfurt\)
 -   India \(Mumbai\)
+-   Japan \(Osaka\)
 -   Israel \(Tel Aviv\)
 -   US Central \(IA\)
 -   KSA \(Dammam\) public sector
 -   Australia \(Sydney\)
+-   Brazil \(São Paulo\)
+-   KSA \(Dammam\)
 
 
 
@@ -5749,9 +5586,10 @@ Build API and UI based document management capabilities for your business apps.
 -   Australia \(Sydney\)
 -   Singapore
 -   Brazil \(São Paulo\)
--   Canada \(Montreal\)
+-   US West \(Oregon\)
 -   Europe \(Frankfurt\) EU Access
 -   South Korea \(Seoul\)
+-   Canada \(Montreal\)
 
 
 
@@ -5810,7 +5648,9 @@ Build API and UI based document management capabilities for your business apps.
 -   US East \(VA\)
 -   Japan \(Tokyo\)
 -   Singapore
+-   Switzerland \(Zurich\) EU Access
 -   Australia \(Sydney\)
+-   Brazil \(São Paulo\)
 
 
 
@@ -5866,6 +5706,11 @@ Build API and UI based document management capabilities for your business apps.
 
 -   Europe \(Frankfurt\)
 -   US Central \(IA\)
+-   India \(Mumbai\)
+-   Israel \(Tel Aviv\)
+-   KSA \(Dammam\) public sector
+-   Japan \(Osaka\)
+-   Australia \(Sydney\)
 
 
 
@@ -6571,6 +6416,7 @@ Enrich cloud offerings with decision modeling, management, and execution service
 -   Australia \(Sydney\)
 -   Switzerland \(Zurich\) EU Access
 -   Brazil \(São Paulo\)
+-   Canada Central \(Toronto\)
 
 
 
@@ -6629,7 +6475,9 @@ Enrich cloud offerings with decision modeling, management, and execution service
 -   India \(Mumbai\)
 -   Israel \(Tel Aviv\)
 -   KSA \(Dammam\) public sector
+-   Japan \(Osaka\)
 -   Australia \(Sydney\)
+-   KSA \(Dammam\)
 
 
 
@@ -6862,6 +6710,7 @@ Cloud Offering with End-to-End visibility on Business Processes
 -   Australia \(Sydney\)
 -   Switzerland \(Zurich\) EU Access
 -   Brazil \(São Paulo\)
+-   Canada Central \(Toronto\)
 
 
 
@@ -6920,7 +6769,9 @@ Cloud Offering with End-to-End visibility on Business Processes
 -   India \(Mumbai\)
 -   Israel \(Tel Aviv\)
 -   KSA \(Dammam\) public sector
+-   Japan \(Osaka\)
 -   Australia \(Sydney\)
+-   KSA \(Dammam\)
 
 
 
@@ -7099,6 +6950,7 @@ Add UI adaptation to your UI5 applications.
 -   Japan \(Tokyo\)
 -   Switzerland \(Zurich\) EU Access
 -   Brazil \(São Paulo\)
+-   Canada Central \(Toronto\)
 
 
 
@@ -7155,9 +7007,12 @@ Add UI adaptation to your UI5 applications.
 -   US Central \(IA\)
 -   Europe \(Frankfurt\)
 -   India \(Mumbai\)
+-   Japan \(Osaka\)
 -   KSA \(Dammam\) public sector
 -   Israel \(Tel Aviv\)
 -   Australia \(Sydney\)
+-   KSA \(Dammam\)
+-   Japan \(Tokyo\)
 
 
 
@@ -7735,6 +7590,7 @@ Manage transports of development artifacts and application-specific content.
 -   US East \(VA\)
 -   Australia \(Sydney\)
 -   Singapore
+-   Canada Central \(Toronto\)
 -   Japan \(Tokyo\)
 -   Switzerland \(Zurich\) EU Access
 
@@ -7793,7 +7649,9 @@ Manage transports of development artifacts and application-specific content.
 -   Europe \(Frankfurt\)
 -   US Central \(IA\)
 -   India \(Mumbai\)
+-   Japan \(Tokyo\)
 -   KSA \(Dammam\) public sector
+-   KSA \(Dammam\)
 -   Israel \(Tel Aviv\)
 
 
@@ -8613,6 +8471,7 @@ Simplify access to applications by establishing a central entry point.
 -   Australia \(Sydney\)
 -   Switzerland \(Zurich\) EU Access
 -   Brazil \(São Paulo\)
+-   Canada Central \(Toronto\)
 
 
 
@@ -8671,7 +8530,10 @@ Simplify access to applications by establishing a central entry point.
 -   Israel \(Tel Aviv\)
 -   Europe \(Frankfurt\)
 -   KSA \(Dammam\) public sector
+-   Japan \(Osaka\)
 -   Australia \(Sydney\)
+-   KSA \(Dammam\)
+-   Japan \(Tokyo\)
 
 
 
@@ -9652,7 +9514,9 @@ Automates the connectivity configuration of extension applications running on SA
 <td valign="top">
 
 -   Australia \(Sydney\)
+-   Brazil \(São Paulo\)
 -   Europe \(Frankfurt\)
+-   Japan \(Osaka\)
 -   India \(Mumbai\)
 -   US Central \(IA\)
 
@@ -10818,6 +10682,7 @@ Build and run mobile apps for B2E and B2B use cases.
 -   Singapore
 -   Switzerland \(Zurich\) EU Access
 -   Brazil \(São Paulo\)
+-   Canada Central \(Toronto\)
 
 
 
@@ -10876,7 +10741,11 @@ Build and run mobile apps for B2E and B2B use cases.
 -   India \(Mumbai\)
 -   Israel \(Tel Aviv\)
 -   KSA \(Dammam\) public sector
+-   Japan \(Osaka\)
+-   Brazil \(São Paulo\)
 -   Australia \(Sydney\)
+-   KSA \(Dammam\)
+-   Japan \(Tokyo\)
 
 
 
@@ -13619,6 +13488,7 @@ Develop, debug, test, and deploy SAP business applications.
 -   Singapore
 -   Switzerland \(Zurich\) EU Access
 -   Brazil \(São Paulo\)
+-   Canada Central \(Toronto\)
 
 
 
@@ -13676,8 +13546,10 @@ Develop, debug, test, and deploy SAP business applications.
 -   Israel \(Tel Aviv\)
 -   India \(Mumbai\)
 -   KSA \(Dammam\) public sector
+-   Japan \(Osaka\)
 -   Australia \(Sydney\)
 -   Europe \(Frankfurt\)
+-   KSA \(Dammam\)
 
 
 
@@ -14216,6 +14088,7 @@ Digitize workflows, manage decisions and gain end-to-end process visibility.
 -   Australia \(Sydney\)
 -   Switzerland \(Zurich\) EU Access
 -   Brazil \(São Paulo\)
+-   Canada Central \(Toronto\)
 
 
 
@@ -14273,7 +14146,9 @@ Digitize workflows, manage decisions and gain end-to-end process visibility.
 -   India \(Mumbai\)
 -   Israel \(Tel Aviv\)
 -   KSA \(Dammam\) public sector
+-   Japan \(Osaka\)
 -   Australia \(Sydney\)
+-   KSA \(Dammam\)
 
 
 

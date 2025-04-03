@@ -59,11 +59,11 @@ In-Metro DR is a disaster recovery solution that utilizes synchronous data repli
 
 -   Scope:
 
-    -   For the scope of BTP services, see [SAP BTP Disaster Recovery Overview](https://www.sap.com/about/agreements/policies/cloud-service-specifications.html?search=disaster%20recovery&sort=latest_desc&pdf-asset=caacc9ac-d97e-0010-bca6-c68f7e60039b&page=2).
+    -   For the scope of SAP BTP services, see [SAP BTP Disaster Recovery Overview](https://www.sap.com/about/agreements/policies/cloud-service-specifications.html?search=disaster%20recovery&sort=latest_desc&pdf-asset=caacc9ac-d97e-0010-bca6-c68f7e60039b&page=2).
 
-    -   Includes BTP regions on AWS and Azure
+    -   Includes SAP BTP regions on AWS and Azure
 
 
 
-For more information, see [Announcing the New "In-Metro" Disaster Recovery Solution for SAP BTP](https://community.sap.com/t5/technology-blogs-by-sap/announcing-the-new-quot-in-metro-quot-disaster-recovery-solution-for-sap/ba-p/13904013)
+For more information, see [Announcing the New "In-Metro" Disaster Recovery Solution for SAP BTP](https://community.sap.com/t5/technology-blogs-by-sap/announcing-the-new-quot-in-metro-quot-disaster-recovery-solution-for-sap/ba-p/13904013).
 
