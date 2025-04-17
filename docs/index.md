@@ -77,6 +77,8 @@
                 -   [Download Application Binaries](30-development-neo/java-alm-api-fc944d1.md#loiof2cc4cdc7ce04291bcad59c0c7fad61f)
                 -   [Start an Application](30-development-neo/java-alm-api-fc944d1.md#loio2d3be560df574092909ed8171ec197ec)
                 -   [Stop an Application](30-development-neo/java-alm-api-fc944d1.md#loio38829d2c139c47b3a1c1d64e6ce6d4f8)
+                -   [Read an Application](30-development-neo/java-alm-api-fc944d1.md#loio54ee13ea0d6d45b3b54c42fac2a15faf)
+                -   [List Subaccount Applications](30-development-neo/java-alm-api-fc944d1.md#loiobab75c9ca40a4b40acc824099c7c6d8a)
             -   [Deploy Locally with the Console Client](30-development-neo/deploy-locally-with-the-console-client-937c833.md)
             -   [Deploy on the Cloud with the Console Client](30-development-neo/deploy-on-the-cloud-with-the-console-client-030863c.md)
                 -   [Use Delta Deployment](30-development-neo/use-delta-deployment-7a4aba2.md)

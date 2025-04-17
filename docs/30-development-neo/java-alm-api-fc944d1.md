@@ -62,7 +62,7 @@ You can use one of the following:
 
 ## Prerequisites
 
--   For basic authentication, assign the *manageJavaApplications* scope to the platform role used in the subaccount. See [Platform Scopes](../50-administration-and-ops-neo/platform-scopes-f226074.md).
+-   For the right authorization, the proper scope must be assigned to the platform role used in the subaccount. For more information about the scopes of Java Application Lifecycle Management, see [Platform Scopes](../50-administration-and-ops-neo/platform-scopes-f226074.md).
 
 -   For OAuth authentication and authorization, create an OAuth client and obtain an access token to call the API methods. See [Using Platform APIs](using-platform-apis-392af9d.md) as you add the *Lifecycle Management* scopes for the *Platform API OAuth* client.
 
@@ -78,6 +78,8 @@ You can use one of the following:
 <a name="loio83729f7df7074de3a795d61ae8844c0e__prereq_k2l_ky4_w1b"/>
 
 ## Prerequisites
+
+-   The *manageJavaApplications* and *readMonitoringData* scopes are assigned to the used platform role for the subaccount. See [Platform Scopes](../50-administration-and-ops-neo/platform-scopes-f226074.md).
 
 -   You have installed a REST client.
 
@@ -108,7 +110,7 @@ For the purposes of this tutorial, we will deploy three `.war` files: \(app.war,
         
         Request Headers:
         X-CSRF-Token: Fetch
-        Authorization: Basic UDE5NDE3OTM5NDg6RnJhZ28jNjQ3Ng==
+        Authorization: Basic PHVzZXJuYW1lPjo8cGFzc3dvcmQ+
         ```
 
         For OAuth Platform API authentication and authorization, the last line looks like `Authorization: Bearer a9cd683534471f499b630bb97b3d3fc`, where *a9cd683534471f499b630bb97b3d3fc* has been retrieved with `POST <host>/oauth2/apitoken/v1?grant_type=client_credentials`. For more information, see [Using Platform APIs](using-platform-apis-392af9d.md).
@@ -133,7 +135,7 @@ For the purposes of this tutorial, we will deploy three `.war` files: \(app.war,
     ```
     Client Request:
     
-    POST: https://api.hana.ondemand.com/lifecycle/v1/accounts/test/apps
+    POST: https://api.hana.ondemand.com/lifecycle/v1/accounts/mysubaccount/apps
     
     Request Body:
     {
@@ -153,10 +155,10 @@ For the purposes of this tutorial, we will deploy three `.war` files: \(app.war,
     Response Body:
     {
                    "metadata": {
-                                  "url": "/lifecycle/v1/accounts/test/apps/myapp"
+                                  "url": "/lifecycle/v1/accounts/mysubaccount/apps/myapp"
                    },
                    "entity": {
-                                  "accountName": "test",
+                                  "accountName": "mysubaccount",
                                   "applicationName": "myapp",
                                   "runtimeName": "neo-java-web",
                                   "runtimeVersion": "1",
@@ -176,7 +178,7 @@ For the purposes of this tutorial, we will deploy three `.war` files: \(app.war,
     ```
     Client Request:
     
-    POST: https://api.hana.ondemand.com/lifecycle/v1/accounts/test/apps/myapp/binaries
+    POST: https://api.hana.ondemand.com/lifecycle/v1/accounts/mysubaccount/apps/myapp/binaries
     
     Request Headers:
     X-CSRF-Token: 3B95B7A8B0E8E6B923C67E6C0BFD234D
@@ -202,7 +204,7 @@ For the purposes of this tutorial, we will deploy three `.war` files: \(app.war,
     Response Body:
     {
                    "metadata": {
-                                  "url": "/lifecycle/v1/accounts/test/apps/myapp/binaries"
+                                  "url": "/lifecycle/v1/accounts/mysubaccount/apps/myapp/binaries"
                    },
                    "entity": {
                                   "totalSize": 0,
@@ -251,7 +253,7 @@ For the purposes of this tutorial, we will deploy three `.war` files: \(app.war,
     ```
     Client Request:
     
-    PUT: https://api.hana.ondemand.com/lifecycle/v1/accounts/test/apps/myapp/binaries/YXBwLndhcg==
+    PUT: https://api.hana.ondemand.com/lifecycle/v1/accounts/mysubaccount/apps/myapp/binaries/YXBwLndhcg==
     
     Request Headers:
     X-CSRF-Token: 3B95B7A8B0E8E6B923C67E6C0BFD234D
@@ -264,7 +266,7 @@ For the purposes of this tutorial, we will deploy three `.war` files: \(app.war,
     ```
     Client Request:
     
-    PUT: https://api.hana.ondemand.com/lifecycle/v1/accounts/test/apps/myapp/binaries/ZXhhbXBsZS53YXI=
+    PUT: https://api.hana.ondemand.com/lifecycle/v1/accounts/mysubaccount/apps/myapp/binaries/ZXhhbXBsZS53YXI=
     
     Request Headers:
     X-CSRF-Token: 3B95B7A8B0E8E6B923C67E6C0BFD234D
@@ -277,7 +279,7 @@ For the purposes of this tutorial, we will deploy three `.war` files: \(app.war,
     ```
     Client Request:
     
-    PUT: https://api.hana.ondemand.com/lifecycle/v1/accounts/test/apps/myapp/binaries/ZGVtby53YXI=
+    PUT: https://api.hana.ondemand.com/lifecycle/v1/accounts/mysubaccount/apps/myapp/binaries/ZGVtby53YXI=
     
     Request Headers:
     X-CSRF-Token: 3B95B7A8B0E8E6B923C67E6C0BFD234D
@@ -296,7 +298,7 @@ For the purposes of this tutorial, we will deploy three `.war` files: \(app.war,
     ```
     Client Request:
     
-    GET: https://api.hana.ondemand.com/lifecycle/v1/accounts/test/apps/myapp/binaries
+    GET: https://api.hana.ondemand.com/lifecycle/v1/accounts/mysubaccount/apps/myapp/binaries
     ```
 
     Repeat the process and observe the general status until you receive the *FAILED* or the *DEPLOYED* values. The *DEPLOYED* status shows that the deployment operation has been successful and you can now start your application:
@@ -389,7 +391,7 @@ In this tutorial, you will deploy an application from an existing application by
         
         Request Headers:
         X-CSRF-Token: Fetch
-        Authorization: Basic UDE5NDE3OTM5NDg6RnJhZ28jNjQ3Ng==
+        Authorization: Basic PHVzZXJuYW1lPjo8cGFzc3dvcmQ+
         ```
 
         For OAuth Platform API authentication and authorization, the last line looks like `Authorization: Bearer a9cd683534471f499b630bb97b3d3fc`, where *a9cd683534471f499b630bb97b3d3fc* has been retrieved with `POST <host>/oauth2/apitoken/v1?grant_type=client_credentials`. For more information, see [Using Platform APIs](using-platform-apis-392af9d.md).
@@ -414,7 +416,7 @@ In this tutorial, you will deploy an application from an existing application by
     ```
     Client Request:
     
-    POST: https://api.hana.ondemand.com/lifecycle/v1/accounts/test/apps?operation=copy&sourceAccount=sourcesubaccount&sourceApplication=sourceapp
+    POST: https://api.hana.ondemand.com/lifecycle/v1/accounts/mysubaccount/apps?operation=copy&sourceAccount=sourcesubaccount&sourceApplication=sourceapp
     
     Request Body:
     {
@@ -434,10 +436,10 @@ In this tutorial, you will deploy an application from an existing application by
     Response Body:
     {
                    "metadata": {
-                                  "url": "/lifecycle/v1/accounts/test/apps/myapp"
+                                  "url": "/lifecycle/v1/accounts/mysubaccount/apps/myapp"
                    },
                    "entity": {
-                                  "accountName": "test",
+                                  "accountName": "mysubaccount",
                                   "applicationName": "myapp",
                                   "runtimeName": "neo-java-web",
                                   "runtimeVersion": "1",
@@ -459,7 +461,7 @@ In this tutorial, you will deploy an application from an existing application by
     ```
     Client Request:
     
-    GET: https://api.hana.ondemand.com/lifecycle/v1/accounts/test/apps/myapp/binaries
+    GET: https://api.hana.ondemand.com/lifecycle/v1/accounts/mysubaccount/apps/myapp/binaries
     ```
 
     Repeat the process and observe the general status until you receive the *FAILED* or the *DEPLOYED* values. The *DEPLOYED* status shows that the copy operation has been successful and you can now start your application:
@@ -519,7 +521,12 @@ Use the response to verify the binaries of an application.
 
 ## Prerequisites
 
-You have installed a REST client.
+-   You have at least one application deployed on the platform.
+
+-   The *readJavaApplications* and *readMonitoringData* scopes are assigned to the used platform role for the subaccount. See [Platform Scopes](../50-administration-and-ops-neo/platform-scopes-f226074.md).
+
+-   You've installed a REST client.
+
 
 
 
@@ -545,8 +552,12 @@ You can validate the content of an application by verifying the hash values in a
     ```
     Client Request:
     
-    GET: https://api.hana.ondemand.com/lifecycle/v1/accounts/test/apps/myapp/binaries
+    GET: https://api.hana.ondemand.com/lifecycle/v1/accounts/mysubaccount/apps/myapp/binaries
+    
+    Authorization: Basic PHVzZXJuYW1lPjo8cGFzc3dvcmQ+
     ```
+
+    For OAuth Platform API authentication and authorization, the last line looks like `Authorization: Bearer a9cd683534471f499b630bb97b3d3fc`, where *a9cd683534471f499b630bb97b3d3fc* has been retrieved with `POST <host>/oauth2/apitoken/v1?grant_type=client_credentials`. For more information, see [Using Platform APIs](using-platform-apis-392af9d.md).
 
 3.  Use the hash values of the binaries to compare with those of previous binaries before you start another operation.
 
@@ -590,7 +601,12 @@ You can download the latest deployed content of an application as a ZIP file. Th
     Client Request:
     
     GET: https://api.hana.ondemand.com/lifecycle/v1/accounts/mysubaccount/apps/myapp/binaries/files
+    
+    Request Headers:
+    Authorization: Basic PHVzZXJuYW1lPjo8cGFzc3dvcmQ+
     ```
+
+    For OAuth Platform API authentication and authorization, the last line looks like `Authorization: Bearer a9cd683534471f499b630bb97b3d3fc`, where *a9cd683534471f499b630bb97b3d3fc* has been retrieved with `POST <host>/oauth2/apitoken/v1?grant_type=client_credentials`. For more information, see [Using Platform APIs](using-platform-apis-392af9d.md).
 
 2.  Save the `mysubaccount_myapp.zip` file locally.
 
@@ -600,6 +616,19 @@ You can download the latest deployed content of an application as a ZIP file. Th
 <!-- loio2d3be560df574092909ed8171ec197ec -->
 
 ## Start an Application
+
+
+
+<a name="loio2d3be560df574092909ed8171ec197ec__prereq_zfx_wk3_hdb"/>
+
+## Prerequisites
+
+-   You have at least one application deployed on the platform.
+
+-   The *manageJavaApplications* and *readMonitoringData* scopes are assigned to the used platform role for the subaccount. See [Platform Scopes](../50-administration-and-ops-neo/platform-scopes-f226074.md).
+
+-   You've installed a REST client.
+
 
 
 
@@ -619,10 +648,11 @@ You can download the latest deployed content of an application as a ZIP file. Th
     ```
     Client Request:
     
-    PUT: https://api.hana.ondemand.com/lifecycle/v1/accounts/test/apps/myapp/state
+    PUT: https://api.hana.ondemand.com/lifecycle/v1/accounts/mysubaccount/apps/myapp/state
     
     Request Headers:
     X-CSRF-Token: 3B95B7A8B0E8E6B923C67E6C0BFD234D
+    Authorization: Basic PHVzZXJuYW1lPjo8cGFzc3dvcmQ+
     Content-Type: application/json
     
     Request Body:
@@ -630,6 +660,8 @@ You can download the latest deployed content of an application as a ZIP file. Th
         "applicationState": "STARTED"
     }
     ```
+
+    For OAuth Platform API authentication and authorization, the line looks like `Authorization: Bearer a9cd683534471f499b630bb97b3d3fc`, where *a9cd683534471f499b630bb97b3d3fc* has been retrieved with `POST <host>/oauth2/apitoken/v1?grant_type=client_credentials`. For more information, see [Using Platform APIs](using-platform-apis-392af9d.md).
 
     ```
     Server Response:
@@ -640,7 +672,7 @@ You can download the latest deployed content of an application as a ZIP file. Th
     {
                    "metadata": {
                                   "message": "Triggered start of application process.",
-                                  "url": "/lifecycle/v1/accounts/test/apps/myapp",
+                                  "url": "/lifecycle/v1/accounts/mysubaccount/apps/myapp",
                                   "createdAt": 1501825923105,
                                   "updatedAt": 1501827428000
                    },
@@ -667,7 +699,7 @@ You can download the latest deployed content of an application as a ZIP file. Th
     ```
     Client Request:
     
-    GET: https://api.hana.ondemand.com/lifecycle/v1/accounts/test/apps/myapp/state
+    GET: https://api.hana.ondemand.com/lifecycle/v1/accounts/mysubaccount/apps/myapp/state
     ```
 
     ```
@@ -678,7 +710,7 @@ You can download the latest deployed content of an application as a ZIP file. Th
                    "metadata": {
                                   "domain": "hana.ondemand.com",
                                   "aliases": "[\"/DemoApp\",\"example\",\"/\"]",
-                                  "accessPoints": ["https://myapptest.int.hana.ondemand.com", "https://myapptest.hana.ondemand.com"],
+                                  "accessPoints": ["https://myappmysubaccount.int.hana.ondemand.com", "https://myappmysubaccount.hana.ondemand.com"],
                                   "runtime": {
                                                  "id": "neo-java-web",
                                                  "state": "recommended",
@@ -687,14 +719,14 @@ You can download the latest deployed content of an application as a ZIP file. Th
                                                  "relDate": "1501718400000",
                                                  "version": "1.133.3"
                                   },
-                                  "url": "/lifecycle/v1/accounts/test/apps/myapp",
+                                  "url": "/lifecycle/v1/accounts/mysubaccount/apps/myapp",
                                   "createdAt": 1501825923105,
                                   "updatedAt": 1501827428000
                    },
                    "entity": {
                                   "applicationState": "STARTED",
                                   "loadBalancerState": "ENABLED",
-                                  "urls": ["https://myapptest.int.hana.ondemand.com", "https://myapptest.hana.ondemand.com"],
+                                  "urls": ["https://myappmysubaccount.int.hana.ondemand.com", "https://myappmysubaccount.hana.ondemand.com"],
                                   "processes": [{
                                                  "processId": "dc1460001710d282b42b7331f1831ec5ad9c1924",
                                                  "status": "STARTED",
@@ -724,6 +756,15 @@ You can download the latest deployed content of an application as a ZIP file. Th
 
 
 
+## Prerequisites
+
+-   The *manageJavaApplications* and *readMonitoringData* scopes are assigned to the used platform role for the subaccount. See [Platform Scopes](../50-administration-and-ops-neo/platform-scopes-f226074.md).
+
+-   You've installed a REST client.
+
+
+
+
 ## Procedure
 
 1.  Get a CSRF token. If you try to start your application long after its deployment, the token has most probably expired.
@@ -740,10 +781,11 @@ You can download the latest deployed content of an application as a ZIP file. Th
     ```
     Client Request:
     
-    PUT: https://api.hana.ondemand.com/lifecycle/v1/accounts/test/apps/myapp/state
+    PUT: https://api.hana.ondemand.com/lifecycle/v1/accounts/mysubaccount/apps/myapp/state
     
     Request Headers:
     X-CSRF-Token: 3B95B7A8B0E8E6B923C67E6C0BFD234D
+    Authorization: Basic PHVzZXJuYW1lPjo8cGFzc3dvcmQ+
     Content-Type: application/json
     
     Request Body:
@@ -751,6 +793,8 @@ You can download the latest deployed content of an application as a ZIP file. Th
         "applicationState": "STOPPED"
     }
     ```
+
+    For OAuth Platform API authentication and authorization, the line looks like `Authorization: Bearer a9cd683534471f499b630bb97b3d3fc`, where *a9cd683534471f499b630bb97b3d3fc* has been retrieved with `POST <host>/oauth2/apitoken/v1?grant_type=client_credentials`. For more information, see [Using Platform APIs](using-platform-apis-392af9d.md).
 
     ```
     Server Response:
@@ -761,7 +805,7 @@ You can download the latest deployed content of an application as a ZIP file. Th
     {
                    "metadata": {
                                   "message": "Triggered stop of application process.",
-                                  "url": "/lifecycle/v1/accounts/test/apps/myapp",
+                                  "url": "/lifecycle/v1/accounts/mysubaccount/apps/myapp",
                                   "createdAt": 1501825923105,
                                   "updatedAt": 1501827428000
                    },
@@ -786,7 +830,7 @@ You can download the latest deployed content of an application as a ZIP file. Th
     ```
     Client Request:
     
-    GET: https://api.hana.ondemand.com/lifecycle/v1/accounts/test/apps/myapp/state
+    GET: https://api.hana.ondemand.com/lifecycle/v1/accounts/mysubaccount/apps/myapp/state
     ```
 
     ```
@@ -804,7 +848,7 @@ You can download the latest deployed content of an application as a ZIP file. Th
                 "relDate": "1501718400000",
                 "version": "1.133.3"
             },
-            "url": "/lifecycle/v1/accounts/test/apps/myapp",
+            "url": "/lifecycle/v1/accounts/mysubaccount/apps/myapp",
             "createdAt": 1502274734263,
             "updatedAt": 1502274835000
         },
@@ -820,4 +864,186 @@ You can download the latest deployed content of an application as a ZIP file. Th
 
 
 [Java ALM API](https://api.sap.com/api/SAP_HCP_Lifecycle_Management)
+
+<a name="loio54ee13ea0d6d45b3b54c42fac2a15faf"/>
+
+<!-- loio54ee13ea0d6d45b3b54c42fac2a15faf -->
+
+## Read an Application
+
+Retrieve the details of a specific application.
+
+
+
+<a name="loio54ee13ea0d6d45b3b54c42fac2a15faf__prereq_zfx_wk3_hdb"/>
+
+## Prerequisites
+
+-   You have an existing source application deployed on the platform.
+
+-   The *readJavaApplications* and *readMonitoringData* scopes are assigned to the used platform role for the subaccount. See [Platform Scopes](../50-administration-and-ops-neo/platform-scopes-f226074.md).
+
+-   You've installed a REST client.
+
+
+
+
+## Procedure
+
+1.  Send a *GET* request to download the application details.
+
+    ```
+    Client Request:
+    
+    GET https://api.hana.ondemand.com/lifecycle/v1/accounts/mysubaccount/apps/myapp
+    
+    Request Headers:
+    Authorization: Basic PHVzZXJuYW1lPjo8cGFzc3dvcmQ+
+    ```
+
+    For OAuth Platform API authentication and authorization, the last line looks like `Authorization: Bearer a9cd683534471f499b630bb97b3d3fc`, where *a9cd683534471f499b630bb97b3d3fc* has been retrieved with `POST <host>/oauth2/apitoken/v1?grant_type=client_credentials`. For more information, see [Using Platform APIs](using-platform-apis-392af9d.md).
+
+    ```
+    Server Response:
+    
+    Response Status: 200
+    
+    Response Body:
+    {
+    
+                   "metadata": {
+                                   "url": "/lifecycle/v1/accounts/mysubaccount/apps/myapp",
+                                   "updatedAt": 1656598744000
+                   },
+                   "entity": {
+                                 "accountName": "mysubaccount",
+                                 "applicationName": "myapp",
+                                 "runtimeName": "neo-java-web",
+                                 "runtimeVersion": "4",
+                                 "minProcesses": 1,
+                                 "maxProcesses": 1,
+                                 "size": "4466",
+                                 "runtimeArguments": [{
+                                                          "key": "jvmVersion",
+                                                          "value": "8"
+                                 }],
+                                 "state": {
+                                              "applicationState": "STOPPED",
+                                              "processes": []
+                                 }
+                 }
+    }
+    ```
+
+2.  Save the application details locally for future reference or comparison.
+
+
+<a name="loiobab75c9ca40a4b40acc824099c7c6d8a"/>
+
+<!-- loiobab75c9ca40a4b40acc824099c7c6d8a -->
+
+## List Subaccount Applications
+
+List all available subaccount applications to retrieve the details about each application, the currently used bytes from the subaccount size quota, and the total subaccount quota.
+
+
+
+<a name="loiobab75c9ca40a4b40acc824099c7c6d8a__prereq_zfx_wk3_hdb"/>
+
+## Prerequisites
+
+-   You have at least one application deployed on the platform.
+
+-   The *readJavaApplications* and *readMonitoringData* scopes are assigned to the used platform role for the subaccount. See [Platform Scopes](../50-administration-and-ops-neo/platform-scopes-f226074.md).
+
+-   You've installed a REST client.
+
+
+
+
+## Procedure
+
+1.  Send a *GET* request to download the list of applications.
+
+    ```
+    Client Request:
+    
+    GET https://api.hana.ondemand.com/lifecycle/v1/accounts/mysubaccount/apps
+    
+    Request Headers:
+    Authorization: Basic PHVzZXJuYW1lPjo8cGFzc3dvcmQ+
+    ```
+
+    For OAuth Platform API authentication and authorization, the last line looks like `Authorization: Bearer a9cd683534471f499b630bb97b3d3fc`, where *a9cd683534471f499b630bb97b3d3fc* has been retrieved with `POST <host>/oauth2/apitoken/v1?grant_type=client_credentials`. For more information, see [Using Platform APIs](using-platform-apis-392af9d.md).
+
+    ```
+    Server Response:
+    
+    Response Status: 200
+    
+    Response Body:
+    {
+                     "totalResults": 2,
+                     "totalPages": 1,
+                     "apps": [{
+                                  "metadata": {
+                                                  "id": "myapp1",
+                                                  "url": "/lifecycle/v1/accounts/mysubaccount/apps/myapp1",
+                                                  "createdAt": 1726137337306,
+                                                  "updatedAt": 1726144114000
+                                  },
+                                  "entity": {
+                                                  "accountName": "mysubaccount",
+                                                  "applicationName": "myapp1",
+                                                  "runtimeName": "neo-java-web",
+                                                  "runtimeVersion": "4",
+                                                  "minProcesses": 1,
+                                                  "maxProcesses": 1,
+                                                  "size": "8380",
+                                                  "runtimeArguments": [{
+                                                                           "key": "jvmVersion",
+                                                                           "value": "8"
+                                                  }],
+                                                  "state": {
+                                                               "applicationState": "STOPPED",
+                                                               "processes": []
+                                                  }
+                               }
+    
+                          },
+                          {
+                               "metadata": {
+                                               "id": "myapp2",
+                                               "url": "/lifecycle/v1/accounts/mysubaccount/apps/myapp2",
+                                               "createdAt": 1726138525976,
+                                               "updatedAt": 1726144305000
+                               },
+                               "entity": {
+                                               "accountName": "mysubaccount",
+                                               "applicationName": "myapp2",
+                                               "runtimeName": "neo-java-web",
+                                               "runtimeVersion": "4",
+                                               "minProcesses": 1,
+                                               "maxProcesses": 1,
+                                               "size": "8404",
+                                               "runtimeArguments": [{
+                                                                        "key": "jvmVersion",
+                                                                        "value": "8"
+                                               }],
+                                               "state": {
+                                                            "applicationState": "STOPPED",
+                                                            "processes": []
+                                               }
+                             }
+                         }],
+                         "currentAccountSize": 16784,
+                         "accountSizeQuota": 107374182400
+    }
+    ```
+
+    > ### Note:  
+    > The value of the `currentAccountSize` parameter signifies the currently used bytes from the subaccount size quota, while the value of the `accountSizeQuota` parameter signifies the total subaccount quota in bytes.
+
+2.  Save the application list and subaccount information locally for future reference or comparison.
+
 

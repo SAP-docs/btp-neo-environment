@@ -56,6 +56,8 @@ Delete subaccounts using the SAP BTP cockpit to clean up your account hierarchy,
     > ### Caution:  
     > The cockpit uses a **force-delete** mechanism, which permanently deletes all the data in the subaccount without any recovery option. This could include productive data, such as applications, active services, subscriptions, and members. Therefore, you must use the delete function with extreme caution.
     > 
+    > The **force-delete** mechanism is available only if the force deletion of subaccounts is enabled in the global account settings and if the subaccount isn't marked as used for production.
+    > 
     > It is your responsibility to check if the subaccount is safe to delete.
 
     > ### Tip:  
@@ -64,7 +66,7 @@ Delete subaccounts using the SAP BTP cockpit to clean up your account hierarchy,
 4.  Once you've a checked that it is safe to permanently remove the subaccount and its data, if such data exists, then you can approve the deletion operation in the *Delete Subaccount with Content* dialog box.
 
     > ### Note:  
-    > The deletion may take a while to to complete depending on the amount of content in your subaccount. If your subaccount contains service instances, subscriptions, and runtime environments, these need to be deprovisioned as part of the purge operation, which is a timely process. After the subaccount is deleted, it could take a few more days for some related services to be deleted. Note that you won't be charged for any continued usage of these services in the subaccount during the deletion cleanup.
+    > The deletion may take a while to complete depending on the amount of content in your subaccount. If your subaccount contains service instances, subscriptions, and runtime environments, these need to be deprovisioned as part of the purge operation, which is a timely process. After the subaccount is deleted, it could take a few more days for some related services to be deleted. Note that you won't be charged for any continued usage of these services in the subaccount during the deletion cleanup.
 
 
 **Related Information**  
