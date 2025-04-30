@@ -14,8 +14,3 @@ To access a system that is running in an on-premise network, you can set up an S
 
 For more information about setting up the Cloud connector, see the *Cloud Connector Operator's Guide*.
 
-**Related Information**  
-
-
- <?sap-ot O2O class="- topic/link " href="2dded649c62c4fd8a65933f497042f14.xml" text="" desc="" xtrc="link:1" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio9fe952ba277c471bbad80cd40548bb84_en-US/src/content/localization/en-us/89ab9f9a29ff4f47a9cf8bda1d135ef5.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
-

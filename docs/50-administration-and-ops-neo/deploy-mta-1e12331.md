@@ -174,5 +174,3 @@ neo deploy-mta --host us1.hana.ondemand.com --account mysubaccount --source /usr
 
 [list-mta-operations](list-mta-operations-8029e1a.md "This command shows the MTA operation status with a given ID.")
 
- <?sap-ot O2O class="- topic/link " href="c4f0d850b6ba46089a76d53ab805c9e6.xml" text="" desc="" xtrc="link:2" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio9fe952ba277c471bbad80cd40548bb84_en-US/src/content/localization/en-us/1e12331df5e144c7b2cfa9f5db85d065.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
-

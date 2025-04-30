@@ -2,6 +2,8 @@
 
 # Deploy a Multitenant Application
 
+Deploy multitenant applications as Solutions in the Neo environment.
+
 > ### Remember:  
 > SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
 > 

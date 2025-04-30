@@ -40,8 +40,3 @@ Follow the steps below to install an SAP Java Virtual Machine.
 > ### Note:  
 > If you use Windows as your operating system, you need to install the Visual C++ 2013 Runtime prior to using SAP JVM. The installation package for the Visual C++ 2013 Runtime can be obtained from Microsoft. Download and install *vcredist\_x64.exe* from the following site: [https://www.microsoft.com/de-de/download/details.aspx?id=40784](https://www.microsoft.com/de-de/download/details.aspx?id=40784). Even if you already have a different version of Visual C++ Runtime, for example Visual C++ 2015, you still need to install Visual C++ 2013 Runtime prior to using SAP JVM. See SAP Note [2676219](https://me.sap.com/notes/2676219).
 
-**Related Information**  
-
-
- <?sap-ot O2O class="- topic/link " href="7614327c711e1014839a8273b0e91070.xml" text="" desc="" xtrc="link:1" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio9fe952ba277c471bbad80cd40548bb84_en-US/src/content/localization/en-us/76137f42711e1014839a8273b0e91070.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
-

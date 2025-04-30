@@ -135,8 +135,6 @@ How to use transport management tools for moving MTA archives among subaccounts
 **Related Information**  
 
 
-[Multitarget Applications for the Neo Environment](multitarget-applications-for-the-neo-environment-e1bb7eb.md "A Multitarget Application (MTA) is a package comprised of multiple application and resource modules, which have been created using different technologies and deployed to different runtimes, but having a common lifecycle. You bundle the modules together, describe them along with their interdependencies to other modules, services, and interfaces, and package them in an MTA.")
-
 [JAR File Specification](http://docs.oracle.com/javase/7/docs/technotes/guides/jar/jar.html)
 
 [Cloud MTA Build Tool](https://github.com/SAP/cloud-mta-build-tool)

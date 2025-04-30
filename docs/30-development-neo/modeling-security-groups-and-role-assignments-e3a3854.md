@@ -77,8 +77,6 @@ When you deploy the above example, a new authorization group named `Administrato
 
 [Role Assignment of Fiori Roles to Security Groups](role-assignment-of-fiori-roles-to-security-groups-6a012da.md "You can assign security roles on subscription level for use with SAP Fiori applications.")
 
- <?sap-ot O2O class="- topic/link " href="c4f0d850b6ba46089a76d53ab805c9e6.xml" text="" desc="" xtrc="link:3" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio9fe952ba277c471bbad80cd40548bb84_en-US/src/content/localization/en-us/e3a38548b9c247ed925a5f9b3ecd6f69.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
-
 [Operating Solutions](operating-solutions-2abf7d4.md "You can deploy, update, monitor, and delete a solution.")
 
 [The Multitarget Application Model v.2](https://help.sap.com/doc/multitarget-application-modelv2/Cloud/en-US/The%20Multitarget%20Application%20Model.pdf)

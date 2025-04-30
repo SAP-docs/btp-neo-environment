@@ -63,8 +63,3 @@ The profiling traces provided address the following use cases:
 
 For more information about Java SE Technologies in SAP Products, see [2700275](https://me.sap.com/notes/2700275).
 
-**Related Information**  
-
-
- <?sap-ot O2O class="- topic/link " href="7614327c711e1014839a8273b0e91070.xml" text="" desc="" xtrc="link:1" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio9fe952ba277c471bbad80cd40548bb84_en-US/src/content/localization/en-us/da030d10d97610149defa1084cb0b2f1.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
-
