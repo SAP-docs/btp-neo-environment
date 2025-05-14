@@ -23,7 +23,7 @@ Manage members in your directory using the SAP BTP cockpit.
     > ### Note:  
     > -   The user management feature can be enabled only in combination with the entitlement management feature on the same directory in given path.
     > 
-    > -   Only a single directory in any given directory path can have the user management and/or entitlement management features enabled. See [Configure Entitlements and Quotas for Directories](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/37f8871865114f44aebee3db6ac64b72.html "Distribute entitlements that are available in your global account to directories by adding service plans and their allowed quotas by using SAP BTP cockpit.") :arrow_upper_right:.
+    > -   Only a single directory in any given directory path can have the user management and/or entitlement management features enabled. See [Configure Entitlements and Quotas for Directories](configure-entitlements-and-quotas-for-directories-37f8871.md).
     > 
     >     For example, if you have 3 stacked directories in your account hierarchy and the middle directory has both the user and entitlement management features enabled, then neither of these features can be enabled for its parent or child directory since these two directories are in the same direct path as the middle directory.
 
@@ -59,7 +59,7 @@ For more information about these role collections, see [Role Collections and Rol
 
 3.  Assign a role collection to the user.
 
-    For more information, see [Assign Users to Role Collections](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/c5766765bda74ad59fe656977c8fa4d6.html "You can assign users to a role collection by adding them to the role collection.") :arrow_upper_right:.
+    For more information, see [Assign Users to Role Collections](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/c5766765bda74ad59fe656977c8fa4d6.html "You can assign users to role collections by adding them to the desired role collection in the SAP BTP cockpit. Use this function to manage user authorizations and access control within your global account or subaccount in the cloud platform.") :arrow_upper_right:.
 
 
 

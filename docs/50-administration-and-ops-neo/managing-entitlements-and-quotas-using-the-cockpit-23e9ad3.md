@@ -16,7 +16,7 @@ An entitlement equals your right to provision and consume a resource. A quota re
 
 Entitlements are managed at the global account level, where services plans and their allowed quota are distributed to subaccounts, and then consumed by the subaccounts. When quota is freed at the subaccount level, it becomes available again at the global account level.
 
-Optionally, you can assign service plans and quota from the global account to directories, and from there distribute these assignments to subaccounts under the directory. Before you can assign plans and quota to a directory, the directory must first be configured to manage entitlements. See [Configure Entitlements and Quotas for Directories](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/37f8871865114f44aebee3db6ac64b72.html "Distribute entitlements that are available in your global account to directories by adding service plans and their allowed quotas by using SAP BTP cockpit.") :arrow_upper_right:. When quota is freed at the subaccount level, it becomes available again at the directory level.
+Optionally, you can assign service plans and quota from the global account to directories, and from there distribute these assignments to subaccounts under the directory. Before you can assign plans and quota to a directory, the directory must first be configured to manage entitlements. See [Configure Entitlements and Quotas for Directories](configure-entitlements-and-quotas-for-directories-37f8871.md). When quota is freed at the subaccount level, it becomes available again at the directory level.
 
 > ### Note:  
 > Only global account administrators can configure entitlements and quotas for subaccounts and managed directories.
@@ -169,7 +169,7 @@ Allows global account admins and viewers to view the commercial source of their 
 
 For information about setting assignments and quota, see:
 
--   [Configure Entitlements and Quotas for Directories](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/37f8871865114f44aebee3db6ac64b72.html "Distribute entitlements that are available in your global account to directories by adding service plans and their allowed quotas by using SAP BTP cockpit.") :arrow_upper_right:
+-   [Configure Entitlements and Quotas for Directories](configure-entitlements-and-quotas-for-directories-37f8871.md)
 -   [Configure Entitlements and Quotas for Subaccounts](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/5ba357b4fa1e4de4b9fcc4ae771609da.html "Distribute the entitlements that are available in your global account by adding service plans and their allowed quotas to your subaccounts using SAP BTP cockpit.") :arrow_upper_right:
 
 The *Entitlements* \> *Service Assignments* is where you view assignments and quota from the perspective of services. This page contains these views \(tabs\):
