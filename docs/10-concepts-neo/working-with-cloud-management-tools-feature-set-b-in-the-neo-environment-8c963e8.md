@@ -12,8 +12,6 @@ Cloud management tools represent the group of technologies designed for managing
 
 We're currently renovating and adding core functionalities to SAP BTP. As part of this process, we're migrating accounts from the existing cloud management tools feature set A to the renovated feature set B. We’re doing this migration as a phased rollout, so cloud management tools feature sets A and B will coexist for some time.
 
-For general information about the enhancements that are offered with feature set B and how they compare to feature set A, see [Cloud Management Tools — Feature Set Overview](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/caf4e4e23aef4666ad8f125af393dfb2.html "Cloud management tools represent the group of technologies designed for managing SAP BTP.") :arrow_upper_right:.
-
 In the rest of this topic, we provide information about the scope of specific enhancements in feature set B when working in the Neo environment.
 
 
@@ -23,8 +21,6 @@ In the rest of this topic, we provide information about the scope of specific en
 ## Is cloud management tools feature set B available to all Neo subaccounts?
 
 Access to cloud management tools feature set B with Neo subaccounts is currently available to enterprise customers on a limited basis within the regions that support the Neo environment.
-
-For information about how to find out which feature set your account has, see [Cloud Management Tools — Feature Set Overview](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/caf4e4e23aef4666ad8f125af393dfb2.html "Cloud management tools represent the group of technologies designed for managing SAP BTP.") :arrow_upper_right:.
 
 You can also see if your account has access to the Neo environment by creating a subaccount and checking if the *Neo Environment* option is available in the *New Subaccount* dialog box.
 
@@ -291,8 +287,6 @@ Where necessary, you can also use the SAP BTP cockpit to fully manage your Neo e
 
 **Related Information**  
 
-
-[Cloud Management Tools — Feature Set Overview](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/caf4e4e23aef4666ad8f125af393dfb2.html "Cloud management tools represent the group of technologies designed for managing SAP BTP.") :arrow_upper_right:
 
 [Enterprise Accounts](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/171511cc425c4e079d0684936486eee6.html "Enterprise accounts are usually associated with SAP customer or partner contracts and contain their purchased entitlements to platform resources and services. However, it's also possible to create an enterprise account for personal exploration.") :arrow_upper_right:
 
