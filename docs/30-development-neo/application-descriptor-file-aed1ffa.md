@@ -79,7 +79,7 @@ All paths in the `neo-app.json` must be specified as plain paths, that is, paths
 
 [Information about: errorPage](error-page-7b0870e.md "You can configure an error page that is displayed in case of an internal server error.")
 
-[Information about: Session Reuse](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/b6cd0ceae2b040fc96df3773eb8b156b.html "") :arrow_upper_right:
+[Information about: Session Reuse](session-reuse-b6cd0ce.md "You can configure the &quot;session reuse&quot; boolean property to mitigate third-party cookie deprecation if your HTML5 application is affected by it.")
 
 [Information about: routes with target type destination](accessing-rest-services-d6c8347.md "To connect your application to a REST service, configure routing to an HTTP destination in the application descriptor file.")
 
