@@ -462,6 +462,55 @@ The metric is updated every hour.
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+HANA File-based Certificate Store Usage
+
+</td>
+<td valign="top">
+
+-   *OK* - The file-based certificate store is used only for the HANA own certificate for purpose SSL.
+-   *Warning* - At least one of the tenant databases has custom certificates in the file-based certificate store.
+
+> ### Note:  
+> For SAP HANA MDC systems, all certificates for purpose SAML and X509 should be stored in the in-database trust store. Follow the steps to migrate your certificates. See [Enabling the In-Database Certificate Store and Moving Certificates](https://help.sap.com/viewer/d4790b2de2f4429db6f3dff54e4d7b3a/Cloud/en-US/d004ca23d1464a86867e209e269d6a55.html "Learn how to enable the in-memory certificate store for an SAP HANA tenant database and how to move any custom certificates (e.g. the ones used for SAML and X509) away from the file-based store to the in-database store.") :arrow_upper_right:
+
+
+
+</td>
+<td valign="top">
+
+This metric is updated every hour.
+
+An alert is triggered when 3 consecutive checks find custom certificates in the file-based certificate store.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+HANA Own Certificate Expiration
+
+</td>
+<td valign="top">
+
+-   *OK* - The certificate is still valid, and the validity is specified in the message.
+-   *Warning* - The validity of the certificate expires within 3 months. Restart or update your HANA system to renew the certificate.
+-   *Critical* - The validity of the certificate expires within 1 month. Restart or update your HANA system to renew the certificate.
+-   *Unknown* - The HANA system still uses a self-signed certificate. See [SAP HANA Own Certificate Rotation](https://help.sap.com/viewer/d4790b2de2f4429db6f3dff54e4d7b3a/Cloud/en-US/e74eb791980d4b458adf88ae934c0cae.html "") :arrow_upper_right:.
+
+
+
+</td>
+<td valign="top">
+
+This metric is updated every hour.
+
+An alert is triggered when 3 consecutive checks with an interval of 1 minute aren’t in an OK state.
+
+</td>
+</tr>
 </table>
 
 **Default Metrics of an SAP ASE System**
