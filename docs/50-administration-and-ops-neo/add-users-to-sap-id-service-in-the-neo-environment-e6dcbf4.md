@@ -10,7 +10,7 @@ Before you can assign roles or role collections to a user in SAP ID service, you
 
 ## Prerequisites
 
-The user you want to add to SAP ID service must have an SAP user account \(for example, an S-user or P-user\). For more information, see [Create SAP User Accounts](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/51ec990e1d6e42468eafb733a503c92b.html) .
+The user you want to add to SAP ID service must have an SAP user account \(for example, an S-user or P-user\). For more information, see [Create SAP User Accounts](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/ebe42f6900384c75bb7def32c011fa40.html?locale=en-US&state=PRODUCTION&version=Cloud).
 
 
 
