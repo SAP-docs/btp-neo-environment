@@ -43,7 +43,7 @@ In the Neo environment, you can assign predefined roles to subaccount members, b
 > 
 > This feature may not be available if it has been disabled for your global account.
 > 
-> To disable this feature, send an opt-out request using the component BC-NEO-CIS-OPS. See [Getting Support](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/5dd739823b824b539eee47b7860a00be.html "To get assistance, use the available support channels provided by SAP for Me.") :arrow_upper_right: for information about opening a case and getting technical assistance.
+> To disable this feature, send an opt-out request using the component BC-NEO-CIS-OPS. See [Getting Support](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/5dd739823b824b539eee47b7860a00be.html "To get help, use the available support channels provided by SAP for Me.") :arrow_upper_right: for information about opening a case and getting technical assistance.
 
 1.  Choose the subaccount to which you'd like to add members.
 

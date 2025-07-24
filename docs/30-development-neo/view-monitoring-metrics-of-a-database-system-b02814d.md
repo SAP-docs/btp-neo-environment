@@ -474,7 +474,7 @@ HANA File-based Certificate Store Usage
 -   *Warning* - At least one of the tenant databases has custom certificates in the file-based certificate store.
 
 > ### Note:  
-> For SAP HANA MDC systems, all certificates for purpose SAML and X509 should be stored in the in-database trust store. Follow the steps to migrate your certificates. See [Enabling the In-Database Certificate Store and Moving Certificates](https://help.sap.com/viewer/d4790b2de2f4429db6f3dff54e4d7b3a/Cloud/en-US/d004ca23d1464a86867e209e269d6a55.html "Learn how to enable the in-memory certificate store for an SAP HANA tenant database and how to move any custom certificates (e.g. the ones used for SAML and X509) away from the file-based store to the in-database store.") :arrow_upper_right:
+> For SAP HANA MDC systems, all certificates for purpose SAML and X509 should be stored in the in-database trust store. Follow the steps to migrate your certificates. See [Enabling the In-Database Certificate Store and Moving Certificates](https://help.sap.com/docs/sap-hana-service-for-sap-btp-in-sap-and-microsoft-azure-regions/sap-hana-service-for-sap-btp-in-sap-regions/copying-certificates-to-in-database-certificate-store?locale=en-US)
 
 
 
@@ -498,7 +498,7 @@ HANA Own Certificate Expiration
 -   *OK* - The certificate is still valid, and the validity is specified in the message.
 -   *Warning* - The validity of the certificate expires within 3 months. Restart or update your HANA system to renew the certificate.
 -   *Critical* - The validity of the certificate expires within 1 month. Restart or update your HANA system to renew the certificate.
--   *Unknown* - The HANA system still uses a self-signed certificate. See [SAP HANA Own Certificate Rotation](https://help.sap.com/viewer/d4790b2de2f4429db6f3dff54e4d7b3a/Cloud/en-US/e74eb791980d4b458adf88ae934c0cae.html "") :arrow_upper_right:.
+-   *Unknown* - The HANA system still uses a self-signed certificate. See [SAP HANA Own Certificate Rotation](https://help.sap.com/docs/sap-hana-service-for-sap-btp-in-sap-and-microsoft-azure-regions/sap-hana-service-for-sap-btp-in-sap-regions/sap-hana-own-certificate-rotation?locale=en-US).
 
 
 

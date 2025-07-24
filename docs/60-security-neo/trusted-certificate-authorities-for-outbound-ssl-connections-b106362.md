@@ -1015,6 +1015,23 @@ B1:BC:96:8B:D4:F4:9D:62:2A:A8:9A:81:F2:15:01:52:A4:1D:82:9C
 <tr>
 <td valign="top">
 
+globalsigne46 jdk
+
+</td>
+<td valign="top">
+
+CN=GlobalSign Root E46, O=GlobalSign nv-sa, C=BE
+
+</td>
+<td valign="top">
+
+39:B4:6C:D5:FE:80:06:EB:E2:2F:4A:BB:08:33:A0:AF:DB:B9:DD:84
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 globalsigneccrootcar4 \[jdk\]
 
 </td>
@@ -1077,6 +1094,23 @@ CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R3
 <td valign="top">
 
 D6:9B:56:11:48:F0:1C:77:C5:45:78:C1:09:26:DF:5B:85:69:76:AD
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+globalsignr46 jdk
+
+</td>
+<td valign="top">
+
+CN=GlobalSign Root R46, O=GlobalSign nv-sa, C=BE
+
+</td>
+<td valign="top">
+
+53:A2:B0:4B:CA:6B:D6:45:E6:39:8A:8E:C4:0D:D2:BF:77:C3:A2:90
 
 </td>
 </tr>
@@ -1423,23 +1457,6 @@ CN=SAP Global Root CA, O=SAP AG, L=Walldorf, C=DE
 <tr>
 <td valign="top">
 
-secomscrootca1 \[jdk\]
-
-</td>
-<td valign="top">
-
-OU=Security Communication RootCA1, O=SECOM Trust.net, C=JP
-
-</td>
-<td valign="top">
-
-36:B1:2B:49:F9:81:9E:D7:4C:9E:BC:38:0F:C6:56:8F:5D:AC:B2:F7
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 secomscrootca2 \[jdk\]
 
 </td>
@@ -1519,6 +1536,40 @@ CN=SSL.com Root Certification Authority RSA, O=SSL Corporation, L=Houston, ST=Te
 <td valign="top">
 
 B7:AB:33:08:D1:EA:44:77:BA:14:80:12:5A:6F:BD:A9:36:49:0C:BB
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ssltlsrootecc2022 \[jdk\]
+
+</td>
+<td valign="top">
+
+CN=SSL.com TLS ECC Root CA 2022, O=SSL Corporation, C=US
+
+</td>
+<td valign="top">
+
+9F:5F:D9:1A:54:6D:F5:0C:71:F0:EE:7A:BD:17:49:98:84:73:E2:39
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ssltlsrootrsa2022 \[jdk\]
+
+</td>
+<td valign="top">
+
+CN=SSL.com TLS RSA Root CA 2022, O=SSL Corporation, C=US
+
+</td>
+<td valign="top">
+
+EC:2C:83:40:72:AF:26:95:10:FF:0E:F2:03:EE:31:70:F6:78:9D:CA
 
 </td>
 </tr>
