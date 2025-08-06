@@ -158,7 +158,7 @@ Labels are user-defined words or phrases that you can assign to various entities
 
 For example, in the *Account Explorer* page in the cockpit, you can quickly filter for directories and subaccounts by label.
 
-You can assign labels to these entities when you create or edit them using the SAP BTP cockpit, command line interface \(btp CLI\), or REST APIs:
+You can assign labels to these entities when you create or edit them using the relevant SAP BTP cockpit pages, command line interface \(btp CLI\), or supported REST APIs:
 
 -   Directories
 
@@ -263,13 +263,19 @@ Note that currently for service instances, labels must have at least value.
 You can assign labels when you create an entity, and then later add, change, or remove labels by editing the entity.
 
 > ### Tip:  
-> -   In the *Account Explorer* and *Instances and Subscriptions* pages in the SAP BTP cockpit, assigned labels are shown in the *Labels* column. To display the column if it is not shown, click :gear:.
+> -   To add, remove, and edit the labels of directories and subaccounts in the SAP BTP cockpit, use the *Account Explorer* and *Costs and Usage* pages.
 > 
-> -   In the *Account Explorer* page, you can view the labels that are assigned to a directory or subaccount by choosing the *More Info* option of each directory and subaccount.
+>     To manage the labels of multitenant application subscriptions, service instances, and environment instances SAP BTP cockpit, use the *Instances and Subscriptions* page.
+> 
+> -   In the *Account Explorer*, *Costs and Usage*, and *Instances and Subscriptions* pages in the SAP BTP cockpit, assigned labels are shown in the *Labels* column.
+> 
+>     To display the column if it is not shown, click :gear:.
+> 
+> -   In the *Account Explorer*, *Costs and Usage*, and *Instances and Subscriptions* pages, you can filter the displayed entities by their assigned labels in the *Search* field.
+> 
+> -   In the *Account Explorer* page, you can also view the labels that are assigned to a directory or subaccount by choosing the *More Info* option of each directory and subaccount.
 > 
 >     Assigned labels are also listed under the *Labels* tab when you display the *Overview* page of every directory and subaccount.
-> 
-> -   In the *Account Explorer* and *Instances and Subscriptions* pages, you can filter the displayed entities by their assigned labels in the *Search* field.
 > 
 > -   In the *Instances and Subscriptions* page, you can also view the labels that are assigned to a subscription or instance by expanding its details panel.
 
@@ -281,7 +287,7 @@ When working with labels, consider the following aspects:
 
 -   Existing label names and values are offered as suggestions when you or anyone else assigns a label to other entities of the same type in your global account.
 
-    When you view a subaccount in the cockpit, the subaccount also shows the labels that are assigned to its parent directory and to other directories that are above it in the same path in your account structure. And in the *Account Explorer*, when you filter by labels that are assigned to a directory, the subaccounts in that directory path are also listed. We refer to these as inherited labels.
+    When you view a subaccount in the cockpit, the subaccount also shows the labels that are assigned to its parent directory and to other directories that are above it in the same path in your account structure. Also in cockpit pages, such as *Account Explorer* and *Costs and Usage*, when you filter by labels that are assigned to a directory, the subaccounts in that directory path are also listed. These are called inherited labels.
 
 -   Label names and values are case-sensitive, which means you can create variants of the same label name with a different casing; for example, `My Label` and `My label` can coexist as separate labels. We recommend that you avoid using different casing or styling to create variants of the same names or values.
 
@@ -295,6 +301,7 @@ When working with labels, consider the following aspects:
 -   [Create a Subaccount](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/05280a123d3044ae97457a25b3013918.html "Create subaccounts in your global account using the SAP BTP cockpit.") :arrow_upper_right:
 -   [Change Subaccount Details](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/567d4a84bfdc428f8f3640e07261f73a.html "Edit subaccounts using the SAP BTP cockpit.") :arrow_upper_right:
 -   [Create a Directory](../50-administration-and-ops-neo/create-a-directory-b8ef1c4.md)
+-   [Monitoring Usage and Consumption Costs in Your Global Account](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/de6f0db8919f4e6f97e54bc4ddaf2ab8.html "SAP BTP cockpit supports advanced usage and cost monitoring of services in your global account. You can compare the usage and costs of multiple services and subaccounts, see monthly trends, and drill into subaccounts and service plans for detailed information.") :arrow_upper_right:
 -   [Commands in the btp CLI](../50-administration-and-ops-neo/commands-in-the-btp-cli-a03a555.md)
 -   [Account Administration Using APIs of the SAP Cloud Management Service](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/17b6a171552544a6804f12ea83112a3f.html "Provides information about using the APIs of the SAP Cloud Management service for SAP BTP (technical name: cis) to manage some of the administrative operations in your accounts.") :arrow_upper_right:
 -   [Managing Service Resources Using the APIs of the SAP Service Manager](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/ee4f871225da4361a41a67ecff2ef123.html "Use the APIs of the SAP Service Manager to work with environments, service brokers, service instances, service bindings, service plans, and service offerings.") :arrow_upper_right:

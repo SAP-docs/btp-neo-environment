@@ -39,7 +39,7 @@ You can find information about the supported *Cloud Product* \> *Cloud Service* 
 
 Note: The foundational components of the platform are included in *SAP Extension Suite – Development Efficiency* \> *Foundational Services for SAP BTP*.
 
-To get notifications for updates and downtimes, subscribe at the [Cloud System Notification Subscriptions](https://support.sap.com/en/my-support/systems-installations/cac.html) application. Create a subscription by specifying Cloud Product, Cloud Service, and Notification Type. For more information, see [Cloud System Notification Subscriptions User Guide](https://support.sap.com/content/dam/support/en_us/library/ssp/my-support/systems-installations/cac/csns_user_guide.pdf).
+To get notifications for updates and downtimes, create a subscription by specifying Cloud Product, Cloud Service, and Notification Type. For more information, see [Cloud System Notification Subscriptions User Guide](https://support.sap.com/content/dam/support/en_us/library/ssp/my-support/systems-installations/cac/csns_user_guide.pdf).
 
 > ### Example:  
 > To receive notifications about changes in the IP ranges of a region, subscribe to *SAP Extension Suite – Development Efficiency* \> *Foundational Services for SAP BTP*.
