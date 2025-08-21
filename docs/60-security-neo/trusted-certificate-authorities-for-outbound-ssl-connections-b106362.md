@@ -216,23 +216,6 @@ C=DE, O=Atos, CN=Atos TrustedRoot 2011
 <tr>
 <td valign="top">
 
-baltimorecybertrustca
-
-</td>
-<td valign="top">
-
-CN=Baltimore CyberTrust Root, OU=CyberTrust, O=Baltimore, C=IE
-
-</td>
-<td valign="top">
-
-D4:DE:20:D0:5E:66:FC:53:FE:1A:50:88:2C:78:DB:28:52:CA:E4:74
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 buypassclass2ca \[jdk\]
 
 </td>
@@ -278,40 +261,6 @@ CN=Chambers of Commerce Root - 2008, O=AC Camerfirma S.A., SERIALNUMBER=A8274328
 <td valign="top">
 
 78:6A:74:AC:76:AB:14:7F:9C:6A:30:50:BA:9E:A8:7E:FE:9A:CE:3C
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-camerfirmachamberscommerceca \[jdk\]
-
-</td>
-<td valign="top">
-
-CN=Chambers of Commerce Root, OU=http://www.chambersign.org, O=AC Camerfirma SA CIF A82743287, C=EU
-
-</td>
-<td valign="top">
-
-6E:3A:55:A4:19:0C:19:5C:93:84:3C:C0:DB:72:2E:31:30:61:F0:B1
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-camerfirmachambersignca \[jdk\]
-
-</td>
-<td valign="top">
-
-CN=Global Chambersign Root - 2008, O=AC Camerfirma S.A., SERIALNUMBER=A82743287, L=Madrid \(see current address at www.camerfirma.com/address\), C=EU
-
-</td>
-<td valign="top">
-
-4A:BD:EE:EC:95:0D:35:9C:89:AE:C7:52:A1:2C:5B:29:F6:D6:AA:0C
 
 </td>
 </tr>
@@ -1468,6 +1417,74 @@ OU=Security Communication RootCA2, O="SECOM Trust Systems CO.,LTD.", C=JP
 <td valign="top">
 
 5F:3B:8C:F2:F8:10:B3:7D:78:B4:CE:EC:19:19:C3:73:34:B9:C7:74
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+sectigocodesignroote46 \[jdk\]
+
+</td>
+<td valign="top">
+
+CN=Sectigo Public Code Signing Root E46, O=Sectigo Limited, C=GB
+
+</td>
+<td valign="top">
+
+BB:EF:5C:4C:11:48:97:70:F5:86:FB:30:7D:14:32:91:30:7F:11:9A
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+sectigocodesignrootr46 \[jdk\]
+
+</td>
+<td valign="top">
+
+CN=Sectigo Public Code Signing Root R46, O=Sectigo Limited, C=GB
+
+</td>
+<td valign="top">
+
+CC:BB:F9:E1:48:5A:F6:3C:E4:7A:BF:8E:9E:64:8C:25:04:FC:31:9D
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+sectigotlsroote46 \[jdk\]
+
+</td>
+<td valign="top">
+
+CN=Sectigo Public Server Authentication Root E46, O=Sectigo Limited, C=GB
+
+</td>
+<td valign="top">
+
+EC:8A:39:6C:40:F0:2E:BC:42:75:D4:9F:AB:1C:1A:5B:67:BE:D2:9A
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+sectigotlsrootr46 \[jdk\]
+
+</td>
+<td valign="top">
+
+CN=Sectigo Public Server Authentication Root R46, O=Sectigo Limited, C=GB
+
+</td>
+<td valign="top">
+
+AD:98:F9:F3:E4:7D:75:3B:65:D4:82:B3:A4:52:17:BB:6E:F5:E4:38
 
 </td>
 </tr>
