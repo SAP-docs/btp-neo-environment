@@ -10,7 +10,7 @@
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
 
-To transport an application or application content to other subaccounts, you use the Enhanced Change and Transport System \(CTS+\) or the cloud-based Transport Management Service.
+To transport an application or application content to other subaccounts, you use the Enhanced Change and Transport System \(CTS+\) or the cloud-based SAP Cloud Transport Management service.
 
 -   Transport Management using the Enhanced Change and Transport System \(CTS+\)
 
@@ -68,9 +68,9 @@ To transport an application or application content to other subaccounts, you use
     </tr>
     </table>
     
--   Transport Management Service
+-   SAP Cloud Transport Management Service
 
-    Use this option if you do not have any ABAP footprint, and if you have a cloud-based landscape.
+    Use this option if you have a cloud-based landscape.
 
 
     <table>
@@ -89,31 +89,31 @@ To transport an application or application content to other subaccounts, you use
     <tr>
     <td valign="top">
     
-    How to use the Transport Management Service in general
+    How to use the SAP Cloud Transport Management service in general
     
     </td>
     <td valign="top">
     
-    [Introduction to the Transport Management Service](https://help.sap.com/viewer/7f7160ec0d8546c6b3eab72fb5ad6fd8/Cloud/en-US)
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-    What you need to do to enable the direct upload of MTA Archives to a transport request that will be used by the Transport Management Service
-    
-    </td>
-    <td valign="top">
-    
-    [Set Up Direct Uploads of MTA Archives Using the Transport Management Service](set-up-direct-uploads-of-mta-archives-using-the-transport-management-service-af84d67.md)
+    [What Is SAP Cloud Transport Management](https://help.sap.com/docs/TRANSPORT_MANAGEMENT_SERVICE/7f7160ec0d8546c6b3eab72fb5ad6fd8/5fef9d6b1cb047b2b18d9eb57aa15352.html?locale=en-US) 
     
     </td>
     </tr>
     <tr>
     <td valign="top">
     
-    How to configure destinations to the target end points of deployment provided by the Solutions Lifecycle Management Service that are required as part of the setup of your transport landscapes in CTS+ and Transport Management Service.
+    What you need to do to enable the direct upload of MTA Archives to a transport request that will be used by the SAP Cloud Transport Management service
+    
+    </td>
+    <td valign="top">
+    
+    [Set Up Direct Uploads of MTA Archives Using SAP Cloud Transport Management](set-up-direct-uploads-of-mta-archives-using-sap-cloud-transport-management-af84d67.md)
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    How to configure destinations to the target end points of deployment provided by the Solutions Lifecycle Management Service that are required as part of the setup of your transport landscapes in CTS+ and SAP Cloud Transport Management service.
     
     </td>
     <td valign="top">

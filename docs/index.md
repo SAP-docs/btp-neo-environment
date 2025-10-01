@@ -193,7 +193,7 @@
         -   [Integration with Transport Management Tools](30-development-neo/integration-with-transport-management-tools-905baea.md)
             -   [Transporting Multitarget Applications with CTS+](30-development-neo/transporting-multitarget-applications-with-cts-f598f69.md)
             -   [Set Up a Direct Upload of MTA Archives to a CTS+ Transport Request](30-development-neo/set-up-a-direct-upload-of-mta-archives-to-a-cts-transport-request-37ceecb.md)
-            -   [Set Up Direct Uploads of MTA Archives Using the Transport Management Service](30-development-neo/set-up-direct-uploads-of-mta-archives-using-the-transport-management-service-af84d67.md)
+            -   [Set Up Direct Uploads of MTA Archives Using SAP Cloud Transport Management](30-development-neo/set-up-direct-uploads-of-mta-archives-using-sap-cloud-transport-management-af84d67.md)
             -   [Configuring the Access to the SAP Solution Lifecycle Management service](30-development-neo/configuring-the-access-to-the-sap-solution-lifecycle-management-service-b15a6c5.md)
         -   [Modeling Solutions](30-development-neo/modeling-solutions-62f1d91.md)
             -   [Modeling Java Applications](30-development-neo/modeling-java-applications-83d08d6.md)

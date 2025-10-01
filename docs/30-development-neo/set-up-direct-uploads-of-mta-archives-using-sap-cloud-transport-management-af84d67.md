@@ -1,8 +1,8 @@
 <!-- loioaf84d67f4be24542ac5e46f613a99435 -->
 
-# Set Up Direct Uploads of MTA Archives Using the Transport Management Service
+# Set Up Direct Uploads of MTA Archives Using SAP Cloud Transport Management
 
-Create the required configurations for using the Transport Management Service to transport MTA archives between subaccounts.
+Create the required configurations for using SAP Cloud Transport Management to transport MTA archives between subaccounts.
 
 
 
@@ -10,7 +10,7 @@ Create the required configurations for using the Transport Management Service to
 
 ## Prerequisites
 
--   You are subscribed and have access to the Transport Management Service, and have set up the environment to transport MTA archives directly in an application. For more information, see [Set Up the Environment to Transport Content Archives Directly in an Application](https://help.sap.com/viewer/7f7160ec0d8546c6b3eab72fb5ad6fd8/Cloud/en-US/8d9490792ed14f1bbf8a6ac08a6bca64.html).
+-   You are subscribed and have access to the SAP Cloud Transport Management service, and have set up the environment to transport MTA archives directly in an application. For more information, see [Set Up the Environment to Transport Content Archives Directly in an Application](https://help.sap.com/viewer/7f7160ec0d8546c6b3eab72fb5ad6fd8/Cloud/en-US/8d9490792ed14f1bbf8a6ac08a6bca64.html).
 -   You have a service key, which contains parameters you need to refer in the required destinations.
 
 
@@ -27,7 +27,7 @@ Create the required configurations for using the Transport Management Service to
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
 
-To perform transports of MTA archives using the Transport Management Service, you have to create and set up destinations defining the source transport node for transporting MTA archives. Proceed as follows:
+To perform transports of MTA archives using the SAP Cloud Transport Management service, you have to create and set up destinations defining the source transport node for transporting MTA archives. Proceed as follows:
 
 
 
@@ -39,7 +39,7 @@ To perform transports of MTA archives using the Transport Management Service, yo
 
 2.  Navigate to the *Services* \> *Solution Lifecycle Management* \> *Configure Destinations*.
 
-3.  Choose *New Destination* to create the destination directed at the Transport Management Service URL and defining the source transport node. Enter the following parameters:
+3.  Choose *New Destination* to create the destination directed at the SAP Cloud Transport Management service URL and defining the source transport node. Enter the following parameters:
 
     -   Name: `TransportManagementService`
 
@@ -74,7 +74,7 @@ To perform transports of MTA archives using the Transport Management Service, yo
 
 ## Results
 
-You can use the Transport Management Service to transport MTA archives.
+You can use SAP Cloud Transport Management to transport MTA archives.
 
 **Related Information**  
 
