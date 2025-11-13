@@ -70,7 +70,10 @@ The following subset of APIs of SAP BTP services are available within Java Web T
 
 ## Migrating to Java Web Tomcat 10 \(from Another Runtime\)
 
-1.  If you application uses Java packages from the Jakarta EE specifications \(listed above\), in the source code change the imported package names from `javax.*` to `jakarta.*`. For example, change imports of `javax.servlet` to `jakarta.servlet`.
+1.  In some cases, you may need to change the application source code as follows:
+    -   If your application uses Java packages from the Jakarta EE specifications \(listed above\), in the source code change the imported package names from `javax.*` to `jakarta.*`. For example, change imports of `javax.servlet` to `jakarta.servlet`.
+    -   If your application usеs the [JavaMail API](https://help.sap.com/docs/connectivity/sap-btp-connectivity-neo/javamail-api) in SAP BTP Connectivity service, you need to switch to an alternative. You can switch to any Java mail client that you like. For example, it can be the `jakarta.mail` API. To create the `Session` object, you either look up your Mail destination and use its properties \(see [ConnectivityConfiguration API](https://help.sap.com/docs/connectivity/sap-btp-connectivity-neo/connectivityconfiguration-api#procedure)\), or provide the needed data to the constructor.
+
 2.  Redeploy \(see [Deploying and Updating Java Applications](deploying-and-updating-java-applications-e5dfbc6.md)\) and restart the application afterwards \(see [restart command](../50-administration-and-ops-neo/restart-7c0f7a1.md) or [Start and Stop Applications](../50-administration-and-ops-neo/start-and-stop-applications-7612f03.md)\).
 
 If you have questions or encounter problems, create a ticket in component *BC-NEO-RT-JAV*. See [Getting Support, Neo Environment](../70-getting-support-neo/getting-support-neo-environment-fc2bf6a.md).
