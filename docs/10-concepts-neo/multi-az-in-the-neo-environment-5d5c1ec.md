@@ -69,5 +69,10 @@ Both availability zones contain your applications, services, and databases. AZ 1
 
 ## Scope
 
-Multi-AZ is currently available in only one region: Europe \(Frankfurt\) with region host `eu2.hana.ondemand.com`.
+Multi-AZ is currently available in the following regions:
+
+-   Europe \(Frankfurt\) with region host `eu2.hana.ondemand.com`
+
+-   US East \(Sterling\) with region host `us3.hana.ondemand.com`
+
 
