@@ -344,7 +344,7 @@ This is a mapping between the runtime and the respective version:
 
 -   Java Web Tomcat 9 corresponds to runtime **neo-java-web** and runtime version **4**. See [Java Web Tomcat 9](../30-development-neo/java-web-tomcat-9-41b1ee9.md).
 
--   Java Web Tomcat 8 corresponds to runtime **neo-java-web** and runtime version **3**. See  <?sap-ot O2O class="- topic/xref " href="fd6b72f17a11478e87fefe3f6ad2e30d.xml" text="" desc="" xtrc="xref:12" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio9fe952ba277c471bbad80cd40548bb84_en-US/src/content/localization/en-us/937db4fa204c456f9b7820f83bc87118.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> .
+-   Java Web Tomcat 10 corresponds to runtime **neo-java-web** and runtime version **5**. See [Java Web Tomcat 10](../30-development-neo/java-web-tomcat-10-6ff1592.md).
 
 
 > ### Note:  
@@ -454,7 +454,7 @@ Specifies the character encoding used to decode the URI bytes on application req
 
 `Default`: *ISO-8859-1*
 
-For more information, see the encoding sets supported by [Java SE 6](http://docs.oracle.com/javase/6/docs/technotes/guides/intl/encoding.doc.html) and [Java SE 7](http://docs.oracle.com/javase/7/docs/technotes/guides/intl/encoding.doc.html).
+For more information, see the encoding sets supported by [Java SE 8](https://docs.oracle.com/javase/8/docs/technotes/guides/intl/encoding.doc.html), [Java SE 11](https://docs.oracle.com/en/java/javase/11/intl/supported-encodings.html), and [Java SE 17](https://docs.oracle.com/en/java/javase/17/intl/supported-encodings.html).
 
 </td>
 </tr>
