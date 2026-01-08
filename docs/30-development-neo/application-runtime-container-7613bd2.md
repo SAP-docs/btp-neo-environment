@@ -110,28 +110,6 @@ If you need a simplified Java Web application runtime container based on Apache 
 
 </td>
 </tr>
-<tr>
-<td valign="top">
-
-[Java Web Tomcat 8 \(Deprecated\)](java-web-tomcat-8-deprecated-fd6b72f.md)
-
-</td>
-<td valign="top">
-
-Some of the standard Java EE 7 APIs \(Servlet, JSP, EL, Websocket\)
-
-</td>
-<td valign="top">
-
-8
-
-</td>
-<td valign="top">
-
-Deprecated
-
-</td>
-</tr>
 </table>
 
 For the complete list of supported APIs, see [Supported Java APIs](supported-java-apis-e836a95.md)

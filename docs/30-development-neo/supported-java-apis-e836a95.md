@@ -716,7 +716,7 @@ For more information, see [API Documentation](api-documentation-4570e92.md).
 **Related Information**  
 
 
-[Java Web Tomcat 8 \(Deprecated\)](java-web-tomcat-8-deprecated-fd6b72f.md "Java Web Apache Tomcat 8 (Java Web Tomcat 8) is the next edition of the Java Web application runtime container that has all characteristics and features of its predecessor Java Web Tomcat 7.")
+ <?sap-ot O2O class="- topic/link " href="fd6b72f17a11478e87fefe3f6ad2e30d.xml" text="" desc="" xtrc="link:1" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio9fe952ba277c471bbad80cd40548bb84_en-US/src/content/localization/en-us/e836a95cbb571014b3c4c422837fcde4.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
 
 [Java EE 7 Web Profile TomEE 7](java-ee-7-web-profile-tomee-7-f177a15.md "The Java EE 7 Web Profile TomEE 7 provides implementation of the Java EE 7 Web Profile specification.")
 

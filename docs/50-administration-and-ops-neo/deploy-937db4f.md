@@ -344,7 +344,7 @@ This is a mapping between the runtime and the respective version:
 
 -   Java Web Tomcat 9 corresponds to runtime **neo-java-web** and runtime version **4**. See [Java Web Tomcat 9](../30-development-neo/java-web-tomcat-9-41b1ee9.md).
 
--   Java Web Tomcat 8 corresponds to runtime **neo-java-web** and runtime version **3**. See [Java Web Tomcat 8 \(Deprecated\)](../30-development-neo/java-web-tomcat-8-deprecated-fd6b72f.md).
+-   Java Web Tomcat 8 corresponds to runtime **neo-java-web** and runtime version **3**. See  <?sap-ot O2O class="- topic/xref " href="fd6b72f17a11478e87fefe3f6ad2e30d.xml" text="" desc="" xtrc="xref:12" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio9fe952ba277c471bbad80cd40548bb84_en-US/src/content/localization/en-us/937db4fa204c456f9b7820f83bc87118.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> .
 
 
 > ### Note:  

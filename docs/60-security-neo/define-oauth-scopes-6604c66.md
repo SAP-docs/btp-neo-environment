@@ -12,20 +12,22 @@ Define scopes for your OAuth-protected application to fine-grain the access righ
 
 ## Procedure
 
-1.  In your Web browser, log on to the cockpit, and select an account.
+1.  In your Web browser, log on to the cockpit, and select your global account.
 
-2.  In the *Applications* \> *Java Applications* section, select the OAuth-protected application.
+2.  Select your subaccount in the Neo environment.
 
-3.  For the application, go to the *Security* \> *OAuth Scopes* section.
+3.  In the *Applications* \> *Java Applications* section, select the OAuth-protected application.
 
-4.  Choose *New Scope*.
+4.  For the application, go to the *Security* \> *OAuth Scopes* section.
+
+5.  Choose *New Scope*.
 
     ![OAuth Scopes](images/OAuth_Scopes_53815b4.png)
 
-5.  Enter the scope ID and description.
+6.  Enter the scope ID and description.
 
-6.  Optionally, if you want to provide localization for different languages, choose *Translations* and enter the required data.
+7.  Optionally, if you want to provide localization for different languages, choose *Translations* and enter the required data.
 
-7.  Save the new scope.
+8.  Save the new scope.
 
 
