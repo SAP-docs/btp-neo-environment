@@ -8,11 +8,11 @@ Use the SAP BTP cockpit to log on to your global account and start working in SA
 
 
 
-<a name="copy6da51c2c1ae54da6a4a342ff4f09bfc1__prereq_mkv_1m3_mdb"/>
-
 ## Prerequisites
 
-You have received a welcome e-mail from SAP for your global account. If you don't have a global account administrator or one isn't available, there is a workaround using SAP for Me.
+You have a user that is a global account administrator.
+
+If you don't have a global account administrator or one isn't available, there is a workaround using SAP for Me.
 
 For more information, see [2669325 - How to add a user as a Global Account administrator for SAP Business Technology Platform](https://me.sap.com/notes/0002669325).
 
@@ -22,12 +22,9 @@ For more information, see [2669325 - How to add a user as a Global Account admin
 
 ## Procedure
 
-1.  Use the link in your Welcome e-mail.
+1.  Access the SAP BTP cockpit.
 
-    Choose `https://cockpit.btp.cloud.sap` to access the cockpit. Depending on your own geo location this URL will redirect you to the closest regional cockpit URL.
-
-    > ### Note:  
-    > If single sign-on has not been configured for you, you will have to enter your credentials. You’ll find your logon ID in your Welcome e-mail.
+    For more information, see [Access the Cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/4e750660b72e4fd6b2485ffb0b3cbdca.html "Learn how to access the SAP BTP cockpit.") :arrow_upper_right:.
 
 2.  Choose a global account.
 
