@@ -1,14 +1,15 @@
-<!-- loioce43eb5dd4884997b54cddabc45c9313 -->
+<!-- loiob1fc24553a79405d93b2d0841c4ae9dc -->
 
-# Managing API Credentials for Calling REST APIs of SAP Authorization and Trust Management Service
+# Working with Multi-Region Disaster Recovery Using the btp CLI
 
-Use the SAP BTP command line interface \(btp CLI\) to manage API credentials, which enable you to access the REST APIs of the SAP Authorization and Trust Management service.
+Use the SAP BTP command line interface \(btp CLI\) to manage Multi-Region Disaster Recovery setups, such as creating, viewing, or deleting subaccount pairs.
 
-If you want to access the REST APIs of SAP Authorization and Trust Management service in multi-environment subaccounts, global accounts, or directories, you must provide the required API credentials. One main use case is for customers who want to provision users including their authorizations, for example into a global account or a directory. They need credentials \(with a client ID\) for provisioning of users, especially when using SAP Cloud Identity Services - Identity Provisioning.
+> ### Tip:  
+> You must be assigned to Central Disaster Recovery Administrator role by being added to Subaccount Administrator role collection in both subaccounts. Each subaccount can only be paired to one subaccount. You can create instance pairs and subscription pairs in paired subaccounts.
 
-The API credentials are only passed on when they are created. They can't be retrieved later. If lost, new credentials must be generated.
+For more information about the Multi-Region Disaster Recovery, see[SAP BTP Multi-Region Guide](https://help.sap.com/docs/btp/sap-btp-multi-region-guide).
 
-See [Application Security Descriptor Configuration Syntax](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/517895a9612241259d6941dbf9ad81cb.html "The syntax required to set the properties and values defined in the xs-security.json application security descriptor file.") :arrow_upper_right: for the credential types and [SAP Business Accelerator Hub](https://api.sap.com/package/authtrustmgmnt/rest) for the APIs of the SAP Authorization and Trust Management service.
+****
 
 
 <table>
@@ -20,7 +21,7 @@ Task
 </th>
 <th valign="top">
 
-Run the command ...
+Run the command...
 
 </th>
 <th valign="top">
@@ -32,68 +33,51 @@ Command help
 <tr>
 <td valign="top">
 
-Create API credentials
+Pair a subaccount with another subaccount in the paired region
 
 </td>
 <td valign="top">
 
-`btp create security/api-credential`
+`btp create disaster-recovery/subaccount-pair`
 
 </td>
 <td valign="top">
 
-[btp create security/api-credentials](https://help.sap.com/docs/btp/btp-cli-command-reference/btp-create-security-api-credential)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Show all API credentials
-
-</td>
-<td valign="top">
-
-`btp list security/api-credential`
-
-</td>
-<td valign="top">
-
-[btp list security/api-credential](https://help.sap.com/docs/btp/btp-cli-command-reference/btp-list-security-api-credential)
+[btp create disaster-recovery/subaccount-pair](https://help.sap.com/docs/btp/btp-cli-command-reference/btp-create-disaster-recovery-subaccount-pair?version=Cloud)
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-Show details about specific API credentials
+Get a subaccount pair
 
 </td>
 <td valign="top">
 
-`btp get security/api-credential`
+`btp get disaster-recovery/subaccount-pair`
 
 </td>
 <td valign="top">
 
-[btp get security/api-credential](https://help.sap.com/docs/btp/btp-cli-command-reference/btp-get-security-api-credential)
+[btp get disaster-recovery/subaccount-pair](https://help.sap.com/docs/btp/btp-cli-command-reference/btp-get-disaster-recovery-subaccount-pair?version=Cloud)
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-Delete API credentials
+Unpair a subaccount with its paired subaccount
 
 </td>
 <td valign="top">
 
-`btp delete security/api-credential`
+`btp delete disaster-recovery/subaccount-pair`
 
 </td>
 <td valign="top">
 
-[btp delete security/api.credential](https://help.sap.com/docs/btp/btp-cli-command-reference/btp-delete-security-api-credential)
+[btp delete disaster-recovery/subaccount-pair](https://help.sap.com/docs/btp/btp-cli-command-reference/btp-delete-disaster-recovery-subaccount-pair?version=Cloud)
 
 </td>
 </tr>
@@ -120,7 +104,7 @@ Delete API credentials
 
 [Managing Security Settings](managing-security-settings-168dd75.md "Use the SAP BTP command line interface (btp CLI) to display and update the security settings for the subaccount.")
 
-[Working with Resources of the SAP Service Manager Using the btp CLI](working-with-resources-of-the-sap-service-manager-using-the-btp-cli-fe6a53b.md "Use the SAP BTP command line interface to perform various operations related to your platforms, attached service brokers, service instances, and service bindings.")
+[Managing API Credentials for Calling REST APIs of SAP Authorization and Trust Management Service](managing-api-credentials-for-calling-rest-apis-of-sap-authorization-and-trust-manag-ce43eb5.md "Use the SAP BTP command line interface (btp CLI) to manage API credentials, which enable you to access the REST APIs of the SAP Authorization and Trust Management service.")
 
-[Working with Multi-Region Disaster Recovery Using the btp CLI](working-with-multi-region-disaster-recovery-using-the-btp-cli-b1fc245.md "Use the SAP BTP command line interface (btp CLI) to manage Multi-Region Disaster Recovery setups, such as creating, viewing, or deleting subaccount pairs.")
+[Working with Resources of the SAP Service Manager Using the btp CLI](working-with-resources-of-the-sap-service-manager-using-the-btp-cli-fe6a53b.md "Use the SAP BTP command line interface to perform various operations related to your platforms, attached service brokers, service instances, and service bindings.")
 

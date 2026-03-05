@@ -417,9 +417,9 @@ Responses bigger than this value get compressed
 </td>
 <td valign="top">
 
-Defines the number of milliseconds to wait for the request URI line to be presented after accepting a connection.
+Defines the milliseconds to wait for the request URI line to be presented after accepting a connection.
 
-`Default`: *20000*
+`Default`: *20000 ms*
 
 > ### Tip:  
 > You can use this option to mitigate the threat of slow HTTP attacks by applying the appropriate timeout value for your network setup. See [Protection from Web Attacks](../60-security-neo/protection-from-web-attacks-52750a8.md).
