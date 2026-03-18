@@ -20,6 +20,8 @@ A platform role is a set of permissions, or scopes, managed by the platform. Sco
 
 
 
+<a name="loioa1ab5c4cc117455392cd0a512c7f890d__PredefRoles"/>
+
 ## Predefined Platform Roles
 
 Predefined platform roles cannot be changed. However, global account administrators can copy from predefined roles, and then modify the copies.
