@@ -8093,7 +8093,7 @@ Deploy, subscribe and transport Solutions using Multi-Target Applications \(MTA\
 </td>
 <td valign="top">
 
--   BC-NEO-LCM-SRV
+-   BC-CP-LCM-SRV
 
 
 
