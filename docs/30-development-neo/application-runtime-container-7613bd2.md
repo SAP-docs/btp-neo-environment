@@ -77,6 +77,8 @@ Some of the standard Jakarta EE 10 APIs \(Servlet, JSP, EL, Websocket\)
 
 17
 
+25
+
 </td>
 <td valign="top">
 
@@ -99,9 +101,9 @@ Some of the standard Java EE 7 APIs \(Servlet, JSP, EL, Websocket\)
 
 8 \(default\)
 
-17 \(in runtime version 4.16 or higher\)
+17
 
-11 \(in runtime version 4.15 or lower\)
+25
 
 </td>
 <td valign="top">

@@ -20,34 +20,27 @@ To get assistance, use the available support channels provided by SAP for Me.
 
 Before you report a case, ensure the following:
 
+-   **Check Platform Status**
+
+    Visit [SAP Trust Center](https://www.sap.com/about/trust-center/cloud-service-status.html). You can check:
+
+    -   availability by service on the *Cloud Status* tab page;
+
+    -   availability by region on the *Data Center* tab page.
 
 
-### Check Platform Status
+-   **Check Tools Versions**
 
-Visit [SAP Trust Center](https://www.sap.com/about/trust-center/cloud-service-status.html). You can check:
+    Make sure that you've the latest versions of the tools you're using \(recommended\), or at least the versions you're using are still supported. For more information, see [SAP Development Tools](https://tools.hana.ondemand.com/).
 
--   availability by service on the *Cloud Status* tab page;
+-   Try Out Built-In Support Within SAP BTP Cockpit
 
--   availability by region on the *Data Center* tab page.
+    When using SAP BTP cockpit as an S-user, try Built-In Support to get customer help within the cockpit. See [Built-In Support](https://help.sap.com/docs/built-in-support).
 
+-   **Learn the Best Practices and Offerings**
 
+    Familiarize with the guidelines how to engage with support. See [Support from SAP Best Practices and Offerings](https://d.dam.sap.com/a/ewzMPHk/Support%20Best%20Practices%20Offerings.pdf?rc=10).
 
-
-### Check Tools Versions
-
-Make sure that you've the latest versions of the tools you're using \(recommended\), or at least the versions you're using are still supported. For more information, see [SAP Development Tools](https://tools.hana.ondemand.com/).
-
-
-
-### Try Out Built-In Support Within SAP BTP Cockpit
-
-When using SAP BTP cockpit as an S-user, try Built-In Support to get customer help within the cockpit. See [Built-In Support](https://help.sap.com/docs/built-in-support).
-
-
-
-### Learn the Best Practices and Offerings
-
-Familiarize with the guidelines how to engage with support. See [Support from SAP Best Practices & Offerings](https://d.dam.sap.com/a/ewzMPHk/Support%20Best%20Practices%20Offerings.pdf?rc=10).
 
 <a name="concept_tbg_yzt_mqb"/>
 

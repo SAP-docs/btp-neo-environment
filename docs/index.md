@@ -1,4 +1,4 @@
-#  SAP BTP, Neo Environment
+# SAP BTP, Neo Environment
 
 -   [What Is SAP BTP, Neo Environment](10-concepts-neo/what-is-sap-btp-neo-environment-34ac790.md)
     -   [Account Model](10-concepts-neo/account-model-722a475.md#copy722a4755da7f4b7e9929be8f15af0f1b)

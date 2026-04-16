@@ -66,8 +66,6 @@ Java 17
 </td>
 <td valign="top">
 
-Available in versions **4.16 or higher** of Java Web Tomcat 9 runtime.
-
 To use this Java version, deploy your application in one of the following ways:
 
 -   In the Neo console client, use the `deploy` command with parameter `--java-version 17`. See [deploy](../50-administration-and-ops-neo/deploy-937db4f.md).
@@ -80,12 +78,17 @@ To use this Java version, deploy your application in one of the following ways:
 <tr>
 <td valign="top">
 
-Java 11
+Java 25
 
 </td>
 <td valign="top">
 
-Available in versions **4.15 or lower** of Java Web Tomcat 9 runtime. Replaced by Java 17 in the higher versions.
+To use this Java version, deploy your application in one of the following ways:
+
+-   In the Neo console client, use the `deploy` command with parameter `--java-version 25`. See [deploy](../50-administration-and-ops-neo/deploy-937db4f.md).
+-   In the SAP BTP cockpit, use *JRE 25* for the *JVM Version* option of the deploy application dialog \(*<subaccount level in the cockpit\>* \> *Applications* \> *Java Applications* \> *Deploy Application*\). See [Deploy on the Cloud with the Cockpit](deploy-on-the-cloud-with-the-cockpit-abded96.md).
+
+
 
 </td>
 </tr>

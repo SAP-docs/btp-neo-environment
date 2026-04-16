@@ -35,7 +35,7 @@ Java Web Tomcat 10 runtime is displayed as *neo-java-web runtime version 5.x* in
 
 ## Supported Java Versions
 
-This runtime supports Java 17.
+This runtime supports Java 17 and Java 25.
 
 
 
