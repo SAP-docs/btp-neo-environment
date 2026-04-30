@@ -4,7 +4,7 @@
 
 When you purchase an enterprise account, you are entitled to use a specific set of resources, such as the amount of memory that can be allocated to your applications.
 
-> ### Remember:  
+> ### Caution:  
 > SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
 > 
 > For more information, see SAP Note [3351844](https://me.sap.com/notes/3351844).

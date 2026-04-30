@@ -4,7 +4,7 @@
 
 A Multitarget Application \(MTA\) is a package comprised of multiple application and resource modules, which have been created using different technologies and deployed to different runtimes, but having a common lifecycle. You bundle the modules together, describe them along with their interdependencies to other modules, services, and interfaces, and package them in an MTA.
 
-> ### Remember:  
+> ### Caution:  
 > SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
 > 
 > For more information, see SAP Note [3351844](https://me.sap.com/notes/3351844).

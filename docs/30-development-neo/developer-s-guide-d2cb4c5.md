@@ -4,7 +4,7 @@
 
 The developer’s guide introduces the development environment for HTML5 applications, a procedure on how to create applications, and supplies details on the descriptor file that specifies how dedicated application URLs are handled by the platform.
 
-> ### Remember:  
+> ### Caution:  
 > SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
 > 
 > For more information, see SAP Note [3351844](https://me.sap.com/notes/3351844).

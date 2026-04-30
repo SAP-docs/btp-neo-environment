@@ -4,7 +4,7 @@
 
 The SAP BTP SDK for Neo environment contains everything you need to work with SAP BTP, including a local server runtime and a set of command line tools.
 
-> ### Remember:  
+> ### Caution:  
 > SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
 > 
 > For more information, see SAP Note [3351844](https://me.sap.com/notes/3351844).

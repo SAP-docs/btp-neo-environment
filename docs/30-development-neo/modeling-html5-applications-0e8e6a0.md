@@ -4,7 +4,7 @@
 
 You can deploy HTML5 applications to the SAP BTP by modeling it as a part of a Multitarget Application.
 
-> ### Remember:  
+> ### Caution:  
 > SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
 > 
 > For more information, see SAP Note [3351844](https://me.sap.com/notes/3351844).

@@ -4,7 +4,7 @@
 
 Learn about frequent administrative tasks you can perform using the SAP BTP cockpit, including managing subaccounts, entitlements and members.
 
-> ### Remember:  
+> ### Caution:  
 > SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
 > 
 > For more information, see SAP Note [3351844](https://me.sap.com/notes/3351844).

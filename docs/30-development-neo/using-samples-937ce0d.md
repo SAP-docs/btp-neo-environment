@@ -4,7 +4,7 @@
 
 The sample applications allow you to explore the core functionality of SAP BTP and show how this functionality can be used to develop more complex Web applications. The samples are included in the SAP BTP SDK for Neo environment or presented as blogs in the SAP Community.
 
-> ### Remember:  
+> ### Caution:  
 > SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
 > 
 > For more information, see SAP Note [3351844](https://me.sap.com/notes/3351844).

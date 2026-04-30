@@ -4,7 +4,7 @@
 
 When you add user authentication to your application, you can test it first on the local server before uploading it to SAP BTP.
 
-> ### Remember:  
+> ### Caution:  
 > SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
 > 
 > For more information, see SAP Note [3351844](https://me.sap.com/notes/3351844).

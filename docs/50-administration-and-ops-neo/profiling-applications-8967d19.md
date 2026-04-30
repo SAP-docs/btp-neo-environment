@@ -4,7 +4,7 @@
 
 The SAP JVM Profiler helps you analyze resource-related problems in your Java application regardless of whether the JVM is running locally or on the cloud.
 
-> ### Remember:  
+> ### Caution:  
 > SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
 > 
 > For more information, see SAP Note [3351844](https://me.sap.com/notes/3351844).

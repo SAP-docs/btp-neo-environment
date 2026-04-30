@@ -4,7 +4,7 @@
 
 SAP BTP enables you to develop, deploy and use Java applications in a cloud environment. Applications run on a runtime container where they can use the platform services APIs and Java EE APIs according to standard patterns.
 
-> ### Remember:  
+> ### Caution:  
 > SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
 > 
 > For more information, see SAP Note [3351844](https://me.sap.com/notes/3351844).

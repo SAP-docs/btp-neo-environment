@@ -4,7 +4,7 @@
 
 To access a system that is running in an on-premise network, you can set up an SSL tunnel from your on-premise network to the SAP BTP using the SAP BTP Cloud Connector.
 
-> ### Remember:  
+> ### Caution:  
 > SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
 > 
 > For more information, see SAP Note [3351844](https://me.sap.com/notes/3351844).

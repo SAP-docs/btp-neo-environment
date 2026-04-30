@@ -4,7 +4,7 @@
 
 EclipseLink provides weaving as a means of enhancing JPA entities and classes for performance optimization. At present, SAP BTP supports static weaving only. Static weaving occurs at compile time and is available in both the Java Web and Java EE 6 Web Profile environments.
 
-> ### Remember:  
+> ### Caution:  
 > SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
 > 
 > For more information, see SAP Note [3351844](https://me.sap.com/notes/3351844).

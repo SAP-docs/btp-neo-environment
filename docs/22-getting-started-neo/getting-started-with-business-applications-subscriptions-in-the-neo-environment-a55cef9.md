@@ -4,7 +4,7 @@
 
 By using SAP BTP, a provider can build and run an application for consumption by multiple consumers. A provider is an SAP partner, who wants to sell business applications to their customers, or an SAP customer, who wants to make their business applications available to different organizational units, for example.
 
-> ### Remember:  
+> ### Caution:  
 > SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
 > 
 > For more information, see SAP Note [3351844](https://me.sap.com/notes/3351844).

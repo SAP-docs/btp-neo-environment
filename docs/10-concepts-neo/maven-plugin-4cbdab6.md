@@ -4,7 +4,7 @@
 
 SAP offers a Maven plugin that supports you in using Maven to develop Java applications for SAP BTP. It allows you to conveniently call the SAP BTP console client and its commands from the Maven environment.
 
-> ### Remember:  
+> ### Caution:  
 > SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
 > 
 > For more information, see SAP Note [3351844](https://me.sap.com/notes/3351844).

@@ -6,7 +6,7 @@ Reboots a virtual machine by name or by ID. By default, the reboot is soft. You 
 
 
 
-> ### Remember:  
+> ### Caution:  
 > SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
 > 
 > For more information, see SAP Note [3351844](https://me.sap.com/notes/3351844).

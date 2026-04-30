@@ -4,7 +4,7 @@
 
 The SAP BTP allows you to deploy Java applications that run either on the proprietary SAP Java Web or the Java Web Tomcat runtime containers. These Java applications are `com.sap.java` and the `java.tomcat`.
 
-> ### Remember:  
+> ### Caution:  
 > SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
 > 
 > For more information, see SAP Note [3351844](https://me.sap.com/notes/3351844).

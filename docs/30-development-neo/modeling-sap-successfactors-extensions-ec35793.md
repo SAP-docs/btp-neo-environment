@@ -7,7 +7,7 @@ You can connect your SAP SuccessFactors system to your SAP Business Technology P
 > ### Caution:  
 > The legacy home page is in deprecation. It's no longer available for most customers.
 
-> ### Remember:  
+> ### Caution:  
 > SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
 > 
 > For more information, see SAP Note [3351844](https://me.sap.com/notes/3351844).

@@ -4,7 +4,7 @@
 
 The Platform Authorization Management API allows you to manage the users authorized to access your subaccount in the Neo environment.
 
-> ### Remember:  
+> ### Caution:  
 > SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
 > 
 > For more information, see SAP Note [3351844](https://me.sap.com/notes/3351844).

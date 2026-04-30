@@ -4,7 +4,7 @@
 
 In the Neo environment of SAP BTP, you can develop and run multitenant \(tenant-aware\) applications. These applications run on a shared compute unit that can be used by multiple consumers \(tenants\). Each consumer accesses the application through a dedicated URL.
 
-> ### Remember:  
+> ### Caution:  
 > SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
 > 
 > For more information, see SAP Note [3351844](https://me.sap.com/notes/3351844).

@@ -4,7 +4,7 @@
 
 You can configure the "session reuse" boolean property to mitigate third-party cookie deprecation if your HTML5 application is affected by it.
 
-> ### Remember:  
+> ### Caution:  
 > SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
 > 
 > For more information, see SAP Note [3351844](https://me.sap.com/notes/3351844).

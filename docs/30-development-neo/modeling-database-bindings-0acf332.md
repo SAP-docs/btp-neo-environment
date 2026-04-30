@@ -4,7 +4,7 @@
 
 By using а database binding, the Java applications connects to a database set up in your current subaccount or provided by another subaccount part of the same global account. This connection is modeled within your solution by setting it up during the deployment operation.
 
-> ### Remember:  
+> ### Caution:  
 > SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
 > 
 > For more information, see SAP Note [3351844](https://me.sap.com/notes/3351844).

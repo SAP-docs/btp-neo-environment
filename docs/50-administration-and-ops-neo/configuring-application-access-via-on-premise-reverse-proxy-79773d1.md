@@ -4,7 +4,7 @@
 
 Using an on-premise reverse proxy allows you to combine on-premise and cloud-based web applications in the same browser window.
 
-> ### Remember:  
+> ### Caution:  
 > SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
 > 
 > For more information, see SAP Note [3351844](https://me.sap.com/notes/3351844).

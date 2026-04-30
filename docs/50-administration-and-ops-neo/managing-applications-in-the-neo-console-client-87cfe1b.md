@@ -4,7 +4,7 @@
 
 If you are an application operator and need to deploy a new version of a productive application or perform maintenance, you can choose among several approaches.
 
-> ### Remember:  
+> ### Caution:  
 > SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
 > 
 > For more information, see SAP Note [3351844](https://me.sap.com/notes/3351844).

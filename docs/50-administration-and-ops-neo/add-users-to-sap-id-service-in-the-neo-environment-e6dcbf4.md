@@ -18,7 +18,7 @@ The user you want to add to SAP ID service must have an SAP user account \(for e
 
 ## Context
 
-> ### Remember:  
+> ### Caution:  
 > SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
 > 
 > For more information, see SAP Note [3351844](https://me.sap.com/notes/3351844).

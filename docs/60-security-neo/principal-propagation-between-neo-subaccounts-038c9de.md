@@ -4,7 +4,7 @@
 
 Enable an application in your subaccount \(Neo environment\) to access an application in another account \(Neo environment\) without user login / user interaction in the second application. The second application propagates its logged-in user to the first application using an AppToAppSSO destination.
 
-> ### Remember:  
+> ### Caution:  
 > SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
 > 
 > For more information, see SAP Note [3351844](https://me.sap.com/notes/3351844).

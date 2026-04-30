@@ -39,7 +39,7 @@ Use the CTS+ Export Web Service to perform a transport of a multitarget applicat
 
 ## Context
 
-> ### Remember:  
+> ### Caution:  
 > SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
 > 
 > For more information, see SAP Note [3351844](https://me.sap.com/notes/3351844).

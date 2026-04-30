@@ -6,7 +6,7 @@
 
 Use JPA to apply application-managed persistence in a simple Java EE web application that manages a list of persons.
 
-> ### Remember:  
+> ### Caution:  
 > SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
 > 
 > For more information, see SAP Note [3351844](https://me.sap.com/notes/3351844).
@@ -191,7 +191,7 @@ The cockpit allows you to deploy Java applications as WAR files and supports a n
 
 ## Context
 
-> ### Remember:  
+> ### Caution:  
 > SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
 > 
 > For more information, see SAP Note [3351844](https://me.sap.com/notes/3351844).
@@ -291,7 +291,7 @@ Deploying an application publishes it to SAP BTP. During deploy, you can define 
 
 ## Context
 
-> ### Remember:  
+> ### Caution:  
 > SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
 > 
 > For more information, see SAP Note [3351844](https://me.sap.com/notes/3351844).

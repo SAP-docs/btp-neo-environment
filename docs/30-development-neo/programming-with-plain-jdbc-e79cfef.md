@@ -4,7 +4,7 @@
 
 Program with JDBC in the Neo environment in cases in which its low-level control is more appropriate than JPA.
 
-> ### Remember:  
+> ### Caution:  
 > SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
 > 
 > For more information, see SAP Note [3351844](https://me.sap.com/notes/3351844).

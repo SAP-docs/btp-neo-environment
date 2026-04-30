@@ -4,7 +4,7 @@
 
 With SAP BTP, you can use the SAP HANA development tools to create comprehensive analytical models and build applications with SAP HANA's programmatic interfaces and integrated development environment.
 
-> ### Remember:  
+> ### Caution:  
 > SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
 > 
 > For more information, see SAP Note [3351844](https://me.sap.com/notes/3351844).

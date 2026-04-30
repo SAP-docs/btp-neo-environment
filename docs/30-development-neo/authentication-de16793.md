@@ -4,7 +4,7 @@
 
 Authentication is the process of establishing and verifying the identity of a user as a prerequisite for accessing an application.
 
-> ### Remember:  
+> ### Caution:  
 > SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
 > 
 > For more information, see SAP Note [3351844](https://me.sap.com/notes/3351844).

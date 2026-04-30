@@ -4,7 +4,7 @@
 
 To set up the extension application, you have to configure the connectivity from the subaccount in SAP BTP to the SAP S/4HANA Cloud tenant.
 
-> ### Remember:  
+> ### Caution:  
 > SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
 > 
 > For more information, see SAP Note [3351844](https://me.sap.com/notes/3351844).

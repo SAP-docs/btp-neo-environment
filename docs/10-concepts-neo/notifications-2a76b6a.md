@@ -4,7 +4,7 @@
 
 Use *Notifications* to stay informed about different operations and events in the cockpit, for example, to monitor the progress of copying a subaccount.
 
-> ### Remember:  
+> ### Caution:  
 > SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
 > 
 > For more information, see SAP Note [3351844](https://me.sap.com/notes/3351844).

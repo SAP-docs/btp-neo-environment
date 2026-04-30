@@ -6,7 +6,7 @@
 
 Learn more about the different types of accounts on SAP BTP and how they relate to each other.
 
-> ### Remember:  
+> ### Caution:  
 > SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
 > 
 > For more information, see SAP Note [3351844](https://me.sap.com/notes/3351844).
@@ -310,7 +310,7 @@ When working with labels, consider the following aspects:
 
 A user account corresponds to a particular user in an identity provider, such as the SAP ID service \(for example, an S-user, P-user\) and consists, for example, of an SAP user ID and password.
 
-> ### Remember:  
+> ### Caution:  
 > SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
 > 
 > For more information, see SAP Note [3351844](https://me.sap.com/notes/3351844).

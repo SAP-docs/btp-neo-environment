@@ -6,7 +6,7 @@
 
 Your SAP BTP global account is the entry point for managing the resources, landscape, and entitlements for your departments and projects in a self-service manner.
 
-> ### Remember:  
+> ### Caution:  
 > SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
 > 
 > For more information, see SAP Note [3351844](https://me.sap.com/notes/3351844).
@@ -35,7 +35,7 @@ In the *Subaccounts* tab in the global account settings, you can
 
 -   Set the option to enable the force deletion of subaccounts.
 
-    If this option is selected, all global account admins can force delete subaccounts that are not marked as "used for production". The force deletion of a subaccount permanently deletes all its data, including applications, service instances, spaces, active subscriptions, and members. The force deletion is permanent and irreversible. This option also enables the force deletion of subaccounts using the btp CLI or the SAP Cloud Management APIs. Subaccounts that are marked as "used for production" cannot be force deleted.
+    If this option is selected, all global account admins can force delete subaccounts that are not marked as "used for production". The force deletion of a subaccount permanently deletes all its data, including applications, service instances, spaces, active subscriptions, and members. The force deletion is permanent and irreversible. This option also enables the force deletion of subaccounts using the btp CLI or the SAP Cloud Management APIs. Subaccounts that are marked as "used for production" cannot be force deleted. When the force deletion of a subaccount has been requested, a seven-day waiting period begins during which access to the subaccount and its services is partially blocked and the subaccount is marked as *Pending Deletion*. During this waiting period, you can still cancel the scheduled deletion. After the waiting period, the subaccount and all its data will be permanently deleted.
 
 
 **Related Information**  

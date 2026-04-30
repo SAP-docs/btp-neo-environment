@@ -4,7 +4,7 @@
 
 For security reasons not all HTTP headers are forwarded from the application to a backend or from the backend to the application.
 
-> ### Remember:  
+> ### Caution:  
 > SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
 > 
 > For more information, see SAP Note [3351844](https://me.sap.com/notes/3351844).

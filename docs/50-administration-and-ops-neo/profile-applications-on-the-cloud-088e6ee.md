@@ -24,7 +24,7 @@ After you have created a Web application and verified that it is functionally co
 
 You can use IDE of your choice for developing the application. You must use Eclipse IDE for profiling the application on the cloud.
 
-> ### Remember:  
+> ### Caution:  
 > SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
 > 
 > For more information, see SAP Note [3351844](https://me.sap.com/notes/3351844).

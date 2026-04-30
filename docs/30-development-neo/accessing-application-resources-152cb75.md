@@ -4,7 +4,7 @@
 
 To access resources from another HTML5 application or a subscription to an HTML5 application, you can map an application path to the corresponding application or subscription.
 
-> ### Remember:  
+> ### Caution:  
 > SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
 > 
 > For more information, see SAP Note [3351844](https://me.sap.com/notes/3351844).

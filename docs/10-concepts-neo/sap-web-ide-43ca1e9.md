@@ -4,7 +4,7 @@
 
 SAP Web IDE is a fully extensible and customizable experience that accelerates the development life cycle with interactive code editors, integrated developer assistance, and end-to-end application development life cycle support. SAP Web IDE was developed by developers for developers.
 
-> ### Remember:  
+> ### Caution:  
 > SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
 > 
 > For more information, see SAP Note [3351844](https://me.sap.com/notes/3351844).

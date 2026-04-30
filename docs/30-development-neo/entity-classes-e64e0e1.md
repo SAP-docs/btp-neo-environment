@@ -4,7 +4,7 @@
 
 To declare a class as an entity and define how that entity maps to the relevant database table, you can either decorate the Java object with metadata using Java annotations or denote it as an entity in the XML descriptor.
 
-> ### Remember:  
+> ### Caution:  
 > SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
 > 
 > For more information, see SAP Note [3351844](https://me.sap.com/notes/3351844).

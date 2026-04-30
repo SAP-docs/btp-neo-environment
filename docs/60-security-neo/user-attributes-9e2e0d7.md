@@ -4,7 +4,7 @@
 
 You can access user attributes using the User Management Java API \(`com.sap.security.um.user`\). It can be used to get and create users or to read and update their information.
 
-> ### Remember:  
+> ### Caution:  
 > SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
 > 
 > For more information, see SAP Note [3351844](https://me.sap.com/notes/3351844).

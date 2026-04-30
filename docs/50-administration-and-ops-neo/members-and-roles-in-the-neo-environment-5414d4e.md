@@ -4,7 +4,7 @@
 
 A member is a user who is assigned to an SAP BTP global account or subaccount. A member automatically has the permissions required to use the SAP BTP functionality within the scope of the respective accounts and as permitted by their account member roles.
 
-> ### Remember:  
+> ### Caution:  
 > SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
 > 
 > For more information, see SAP Note [3351844](https://me.sap.com/notes/3351844).

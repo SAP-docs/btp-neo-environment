@@ -4,7 +4,7 @@
 
 EclipseLink versions prior to 2.5 do not include the SAP HANA database platform. To deploy applications on the SAP HANA database, you need to specify it as the target database and, for application-managed persistence, import the corresponding JAR file into your project.
 
-> ### Remember:  
+> ### Caution:  
 > SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
 > 
 > For more information, see SAP Note [3351844](https://me.sap.com/notes/3351844).

@@ -4,7 +4,7 @@
 
 Trace user actions with excessive execution time within a complex system landscape using the End-to-End \(E2E\) trace analysis.
 
-> ### Remember:  
+> ### Caution:  
 > SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
 > 
 > For more information, see SAP Note [3351844](https://me.sap.com/notes/3351844).

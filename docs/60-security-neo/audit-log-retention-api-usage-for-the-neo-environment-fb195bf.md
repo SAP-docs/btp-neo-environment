@@ -6,7 +6,7 @@ The audit log retention API allows you to view your currently active retention p
 
 The audit log data stored for your account will be retained for 201 days, after which it will be deleted.
 
-> ### Remember:  
+> ### Caution:  
 > SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
 > 
 > For more information, see SAP Note [3351844](https://me.sap.com/notes/3351844).

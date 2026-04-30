@@ -4,7 +4,7 @@
 
 Subaccount-level destinations are not linked to a particular application, but instead can be used by all applications. For example, the subaccount-level destination can be used by an HTML5 application to connect to a source Java application.
 
-> ### Remember:  
+> ### Caution:  
 > SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
 > 
 > For more information, see SAP Note [3351844](https://me.sap.com/notes/3351844).
