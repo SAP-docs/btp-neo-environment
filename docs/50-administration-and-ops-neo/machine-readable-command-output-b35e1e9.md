@@ -211,7 +211,7 @@ Here is a full example of a command \( `neo start` \) that supports structured o
    account               : myaccount
    host                  : https://hana.ondemand.com
    synchronous           : true
-   SDK version           : 1.48.99
+   SDK version           : 5.46.5
    user                  : myuser
  
  

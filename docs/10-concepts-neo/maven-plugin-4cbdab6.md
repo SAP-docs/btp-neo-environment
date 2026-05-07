@@ -14,14 +14,3 @@ SAP offers a Maven plugin that supports you in using Maven to develop Java appli
 
 Most commands that are supported by the console client are available as goals in the plugin. To use the plugin, you require a SAP BTP SDK for Neo environment, which can be automatically downloaded with the plugin. Each version of the SDK always has a matching Maven plugin version.
 
-For a list of goals and parameters, usage guide, FAQ, and examples, see:
-
-[Maven Plugin Documentation](https://help.sap.com/doc/c1800a249a6d46e7b73243688ca1fa99/Cloud/en-US/index.html)
-
-**Related Information**  
-
-
-[Building Java Web Applications with Maven](https://blogs.sap.com/2014/05/27/building-java-applications-with-maven/)
-
-[Working with the "Neo" Maven Plugin](https://blogs.sap.com/2014/05/27/working-with-the-neo-maven-plugin-2/)
-

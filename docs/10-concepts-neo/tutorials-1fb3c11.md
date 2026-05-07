@@ -46,13 +46,13 @@ Connectivity service scenarios
 </td>
 <td valign="top">
 
-[Consume Internet Services (Java Web or Java EE 6 Web Profile)](https://help.sap.com/viewer/b865ed651e414196b39f8922db2122c7/Cloud/en-US/e592cf6cbb57101495d3c28507d20f1b.html "") :arrow_upper_right:
+[Consume Internet Services (Java EE 7 Web Profile TomEE 7)](https://help.sap.com/viewer/b865ed651e414196b39f8922db2122c7/Cloud/en-US/e592cf6cbb57101495d3c28507d20f1b.html "") :arrow_upper_right:
 
-[Consume Internet Services (Java Web Tomcat 7)](https://help.sap.com/viewer/b865ed651e414196b39f8922db2122c7/Cloud/en-US/22123f544cb64372959b4a1bd8e234c4.html "") :arrow_upper_right:
+[Consume Internet Services (Java Web Tomcat)](https://help.sap.com/viewer/b865ed651e414196b39f8922db2122c7/Cloud/en-US/22123f544cb64372959b4a1bd8e234c4.html "") :arrow_upper_right:
 
-[Consume Backend Systems (Java Web or Java EE 6 Web Profile)](https://help.sap.com/viewer/b865ed651e414196b39f8922db2122c7/Cloud/en-US/e76f9e75bb571014a7218bcd30a8771b.html "") :arrow_upper_right:
+[Consume Backend Systems (Java EE 7 Web Profile TomEE 7)](https://help.sap.com/viewer/b865ed651e414196b39f8922db2122c7/Cloud/en-US/e76f9e75bb571014a7218bcd30a8771b.html "") :arrow_upper_right:
 
-[Consume Backend Systems (Java Web Tomcat 7)](https://help.sap.com/viewer/b865ed651e414196b39f8922db2122c7/Cloud/en-US/474eae1b69c9434b9dce0314b8d2b6b1.html "") :arrow_upper_right:
+[Consume Backend Systems (Java Web Tomcat)](https://help.sap.com/viewer/b865ed651e414196b39f8922db2122c7/Cloud/en-US/474eae1b69c9434b9dce0314b8d2b6b1.html "") :arrow_upper_right:
 
 [Invoke ABAP Function Modules in On-Premise ABAP Systems](https://help.sap.com/viewer/b865ed651e414196b39f8922db2122c7/Cloud/en-US/0a238b915b3a48adb950e5807654226c.html "") :arrow_upper_right:
 

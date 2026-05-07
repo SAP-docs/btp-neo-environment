@@ -124,7 +124,7 @@ You can use your e-mail, SAP ID or user name.
 
 *Password*
 
-Do not specify your password in the properties file or as a command line argument. Enter a password only when prompted by the console client.
+Do not specify your password in the properties file or as a command line argument. Enter a password only when prompted by the console client. Also, if you are using two-factor authentication, append the passcode right after the password for the value.
 
 For example, use:
 

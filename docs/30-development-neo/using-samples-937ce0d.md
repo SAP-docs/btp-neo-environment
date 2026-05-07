@@ -71,7 +71,7 @@ Consumption of Internet services
 </td>
 <td valign="top">
 
-[Consume Internet Services (Java Web or Java EE 6 Web Profile)](https://help.sap.com/viewer/b865ed651e414196b39f8922db2122c7/Cloud/en-US/e592cf6cbb57101495d3c28507d20f1b.html "") :arrow_upper_right: 
+[Consume Internet Services (Java EE 7 Web Profile TomEE 7)](https://help.sap.com/viewer/b865ed651e414196b39f8922db2122c7/Cloud/en-US/e592cf6cbb57101495d3c28507d20f1b.html "") :arrow_upper_right: 
 
 </td>
 </tr>

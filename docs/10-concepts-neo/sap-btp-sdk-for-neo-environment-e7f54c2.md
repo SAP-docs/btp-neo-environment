@@ -172,6 +172,21 @@ When you develop applications to run on the SAP BTP, you should be aware of whic
 -   SAP APIs: The platform APIs provided by the SAP BTP services.
 
 
+
+
+## Supported Versions
+
+The following major versions are supported:
+
+-   Java Web Tomcat 9
+
+-   Java Web Tomcat 10
+
+-   Java EE 7 Web Profile TomEE 7
+
+
+See *SAP BTP SDK for the Neo environment* at [SAP Development Tools](https://help.sap.com/docs/link-disclaimer?site=https%3A%2F%2Ftools.hana.ondemand.com%2F%23cloud-cpcli).
+
 **Related Information**  
 
 
@@ -184,4 +199,6 @@ When you develop applications to run on the SAP BTP, you should be aware of whic
 [Supported Java APIs](../30-development-neo/supported-java-apis-e836a95.md)
 
 [Deploy Locally with the Console Client](../30-development-neo/deploy-locally-with-the-console-client-937c833.md "The console client allows you to install a server runtime in a local folder and use it to deploy your application.")
+
+[Application Runtime Container](../30-development-neo/application-runtime-container-7613bd2.md)
 

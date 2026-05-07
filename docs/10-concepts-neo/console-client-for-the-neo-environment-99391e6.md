@@ -4,7 +4,7 @@
 
 
 
-The console client for the Neo environment enables development, deployment and configuration of an application outside the Eclipse IDE as well as continuous integration and automation tasks. The tool is part of the SDK for SAP BTP, Neo environment. You can find it in the *tools* folder of your SDK location.
+The console client for the Neo environment enables development, deployment and configuration of an application as well as continuous integration and automation tasks. The tool is part of the SDK for SAP BTP, Neo environment. You can find it in the *tools* folder of your SDK location.
 
 > ### Note:  
 > The console client is related only to the Neo environment. For the Cloud Foundry environment use the Cloud Foundry command line interface. See [Download and Install the Cloud Foundry Command Line Interface](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/4ef907afb1254e8286882a2bdef0edf4.html "Download and set up the Cloud Foundry Command Line Interface (cf CLI) to start working with the Cloud Foundry environment.") :arrow_upper_right:.
@@ -33,7 +33,12 @@ Downloading the SDK for SAP BTP, Neo environment and setting up the console clie
 </td>
 <td valign="top">
 
-[Install the SAP BTP SDK for Neo Environment](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/7613843c711e1014839a8273b0e91070.html)[Set Up the Console Client](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/7613dee4711e1014839a8273b0e91070.html)
+-   [Install the SAP BTP SDK for Neo Environment](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/7613843c711e1014839a8273b0e91070.html)
+
+-   [Set Up the Console Client](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/7613dee4711e1014839a8273b0e91070.html)
+
+
+
 
 </td>
 </tr>
@@ -46,8 +51,6 @@ Opening the tool and working with the commands and parameters
 <td valign="top">
 
 [Using the Console Client](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/8900b22376f84c609ee9baf5bf67130a.html)
-
-[Console Client Video Tutorial](http://youtu.be/UHuSnBMimPA)
 
 </td>
 </tr>
