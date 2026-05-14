@@ -64,8 +64,6 @@ To report a case in SAP for Me, proceed as follows:
 
     -   Product Documentation
 
-    -   Guided Answers
-
 
 4.  Use the *Get Support* application within SAP for Me to get assistance via the available support channels.
 

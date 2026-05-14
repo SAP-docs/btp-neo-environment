@@ -27,7 +27,7 @@ For more information, see section [Application Runtime Container](application-ru
 ## Procedure
 
 1.  Open [https://tools.hana.ondemand.com/\#cloud](https://tools.hana.ondemand.com/#cloud)
-2.  From the *SAP BTP SDK for Neo environment* section, download the relevant ZIP file and save it to your local file system.
+2.  From the *SAP BTP SDK for the Neo environment* section, download the relevant ZIP file and save it to your local file system.
 3.  Extract the ZIP file to a folder on your computer or network.
 
 Your SDK is ready for use. To use the SAP BTP SDK for Neo environment with the console client, see [Using the Console Client](../50-administration-and-ops-neo/using-the-console-client-8900b22.md).

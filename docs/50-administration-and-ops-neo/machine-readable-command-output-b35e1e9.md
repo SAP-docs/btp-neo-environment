@@ -215,15 +215,15 @@ Here is a full example of a command \( `neo start` \) that supports structured o
    user                  : myuser
  
  
-[Tue Feb 25 18:07:19 CET 2014] Start request performed successfully.
+[Tue Feb 25 18:07:19 CET 2026] Start request performed successfully.
  
 Triggered start of application process.
 Status: STARTING
  
-[Tue Feb 25 18:07:19 CET 2014] Waiting for STARTED status..............
-[Tue Feb 25 18:07:25 CET 2014] Status STARTING reached for 6161 ms
-[Tue Feb 25 18:07:19 CET 2014] Waiting for STARTED status..................................
-[Tue Feb 25 18:08:47 CET 2014] Status STARTED reached for 87838 ms
+[Tue Feb 25 18:07:19 CET 2026] Waiting for STARTED status..............
+[Tue Feb 25 18:07:25 CET 2026] Status STARTING reached for 6161 ms
+[Tue Feb 25 18:07:19 CET 2026] Waiting for STARTED status..................................
+[Tue Feb 25 18:08:47 CET 2026] Status STARTED reached for 87838 ms
  
 web: STARTED
  
@@ -232,11 +232,11 @@ URL: https://myapplicationmyaccount.hana.ondemand.com
 Access points:
   https://myapplicationmyaccount.hana.ondemand.com
  
-Runtime: 1.47 (valid until 20-May-2015)
+Runtime: 5.47.8
  
 Application processes
 ID          State       Last Change              Runtime
-  fc735dc     STARTED     25-Feb-2014 18:07:48     1.47.10.2
+  fc735dc     STARTED     25-Feb-2026 18:07:48     5.47.8
 ",
     "commandErrorOutput": "",
     "result": {
@@ -250,8 +250,8 @@ ID          State       Last Change              Runtime
             {
                 "id": "fc735dc",
                 "state": "STARTED",
-                "lastChange": "2014-02-25T18:07:48Z",
-                "runtime": "1.47.10.2"
+                "lastChange": "2026-02-25T18:07:48Z",
+                "runtime": "5.47.8"
             }
         ]
     }

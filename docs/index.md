@@ -359,7 +359,7 @@
             -   [Monitoring Usage and Consumption Costs in Your Global Account](50-administration-and-ops-neo/monitoring-usage-and-consumption-costs-in-your-global-account-f2c01a1.md)
             -   [Managing Budgets in Your Global Account](50-administration-and-ops-neo/managing-budgets-in-your-global-account-db66be3.md#copydb66be3430664b57bc50bda73b423a65)
                 -   [Accessing Your Global Account's Budgets](50-administration-and-ops-neo/managing-budgets-in-your-global-account-db66be3.md#copy7a771b37e3684850aa11f0650a4ff653)
-                -   [Understanding Budget Settings](50-administration-and-ops-neo/managing-budgets-in-your-global-account-db66be3.md#copy7e1a74b115cf4b24b396eaec6ec375ed)
+                -   [Understanding the Budget Settings](50-administration-and-ops-neo/managing-budgets-in-your-global-account-db66be3.md#copy7e1a74b115cf4b24b396eaec6ec375ed)
                 -   [Creating a Budget](50-administration-and-ops-neo/managing-budgets-in-your-global-account-db66be3.md#copycf3dfa6d15ca48908ac8ca758f3908e1)
                 -   [Viewing a Budget's Details](50-administration-and-ops-neo/managing-budgets-in-your-global-account-db66be3.md#copyf8773fe63ce54820bbf7ac04dca28199)
                 -   [Editing a Budget](50-administration-and-ops-neo/managing-budgets-in-your-global-account-db66be3.md#copy80ba5a4bac9245c694874f1bee791107)
