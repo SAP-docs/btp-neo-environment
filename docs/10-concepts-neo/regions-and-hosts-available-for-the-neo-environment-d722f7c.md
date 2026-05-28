@@ -16,7 +16,7 @@ Each region represents a geographical location \(for example, Europe, US East\) 
 
 
 
-To find out about the regions available for multi-environment subaccounts, see [Regions](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/350356d1dc314d3199dca15bd2ab9b0e.html "You can deploy applications in different regions. Each region represents a geographical location (for example, Europe, US East) where applications, data, or services are hosted.") :arrow_upper_right:.
+To find out about the regions available for multi-environment subaccounts, see [Regions](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/350356d1dc314d3199dca15bd2ab9b0e.html "You can deploy applications in different regions. Each region represents a geographical location (for example, Europe, US East) where applications, data, or services are hosted.") :arrow_upper_right: .
 
 
 
@@ -71,7 +71,7 @@ ap1.hana.ondemand.com
 </td>
 <td valign="top">
 
-[Link](https://account.ap1.hana.ondemand.com/cockpit)
+[Link](https://account.ap1.hana.ondemand.com/cockpit) 
 
 </td>
 <td valign="top">
@@ -82,7 +82,7 @@ Inbound:
 
 Outbound:
 
-130.214.148.64/29 and 130.214.148.72/29
+130.214.148.64/29, 130.214.148.72/29 and 130.214.140.32/27
 
 </td>
 </tr>
@@ -115,7 +115,7 @@ Inbound:
 
 Outbound:
 
-130.214.96.64/29 and 130.214.96.72/29
+130.214.96.64/29, 130.214.96.72/29 and 130.214.96.96/27
 
 </td>
 </tr>
@@ -137,7 +137,7 @@ ca1.hana.ondemand.com
 </td>
 <td valign="top">
 
-[Link](https://account.ca1.hana.ondemand.com/cockpit)
+[Link](https://account.ca1.hana.ondemand.com/cockpit) 
 
 </td>
 <td valign="top">
@@ -148,7 +148,7 @@ Inbound:
 
 Outbound:
 
-130.214.174.64/29 and 130.214.174.72/29
+130.214.174.64/29, 130.214.174.72/29 and 130.214.239.32/28
 
 </td>
 </tr>
@@ -170,7 +170,7 @@ cn1.platform.sapcloud.cn
 </td>
 <td valign="top">
 
-[Link](https://account.cn1.platform.sapcloud.cn/cockpit)
+[Link](https://account.cn1.platform.sapcloud.cn/cockpit) 
 
 </td>
 <td valign="top">
@@ -181,7 +181,7 @@ Inbound:
 
 Outbound:
 
-121.91.106.72/29 and 121.91.106.64/29
+121.91.106.72/29, 121.91.106.64/29 and 130.214.219.0/28
 
 </td>
 </tr>
@@ -203,7 +203,7 @@ eu3.hana.ondemand.com
 </td>
 <td valign="top">
 
-[Link](https://account.eu3.hana.ondemand.com/cockpit)
+[Link](https://account.eu3.hana.ondemand.com/cockpit) 
 
 </td>
 <td valign="top">
@@ -214,7 +214,7 @@ Inbound:
 
 Outbound:
 
-130.214.166.72/29 and 130.214.166.64/29
+130.214.166.72/29, 130.214.166.64/29 and 130.214.166.80/28
 
 </td>
 </tr>
@@ -236,7 +236,7 @@ eu2.hana.ondemand.com
 </td>
 <td valign="top">
 
-[Link](https://account.eu2.hana.ondemand.com/cockpit)
+[Link](https://account.eu2.hana.ondemand.com/cockpit) 
 
 </td>
 <td valign="top">
@@ -247,7 +247,7 @@ Inbound:
 
 Outbound:
 
-130.214.164.64/29, 130.214.190.64/29, 130.214.164.80/29, and 130.214.190.80/29
+130.214.164.64/29, 130.214.190.64/29, 130.214.164.80/29, 130.214.190.80/29, 130.214.253.128/27 and 130.214.48.128/27
 
 </td>
 </tr>
@@ -271,7 +271,7 @@ eu1.hana.ondemand.com
 </td>
 <td valign="top">
 
-[Link](https://account.hana.ondemand.com/cockpit)
+[Link](https://account.hana.ondemand.com/cockpit) 
 
 </td>
 <td valign="top">
@@ -282,7 +282,7 @@ Inbound:
 
 Outbound:
 
-130.214.160.64/28 and 130.214.160.80/29
+130.214.160.64/28, 130.214.160.80/29 and 130.214.18.64/26
 
 </td>
 </tr>
@@ -304,7 +304,7 @@ jp1.hana.ondemand.com
 </td>
 <td valign="top">
 
-[Link](https://account.jp1.hana.ondemand.com/cockpit)
+[Link](https://account.jp1.hana.ondemand.com/cockpit) 
 
 </td>
 <td valign="top">
@@ -315,7 +315,7 @@ Inbound:
 
 Outbound:
 
-130.214.245.40/29 and 130.214.245.32/29
+130.214.245.40/29, 130.214.245.32/29 and 130.214.245.48/28
 
 </td>
 </tr>
@@ -348,7 +348,7 @@ Inbound:
 
 Outbound:
 
-130.214.223.32/29 and 130.214.223.40/29
+130.214.223.32/29, 130.214.223.40/29 and 130.214.92.96/27
 
 </td>
 </tr>
@@ -370,7 +370,7 @@ ae1.hana.ondemand.com
 </td>
 <td valign="top">
 
-[Link](https://account.ae1.hana.ondemand.com/cockpit)
+[Link](https://account.ae1.hana.ondemand.com/cockpit) 
 
 </td>
 <td valign="top">
@@ -381,7 +381,7 @@ Inbound:
 
 Outbound:
 
-130.214.251.32/29 and 130.214.251.40/29
+130.214.251.32/29, 130.214.251.40/29 and 130.214.251.48/28
 
 </td>
 </tr>
@@ -403,7 +403,7 @@ us1.hana.ondemand.com
 </td>
 <td valign="top">
 
-[Link](https://account.us1.hana.ondemand.com/cockpit)
+[Link](https://account.us1.hana.ondemand.com/cockpit) 
 
 </td>
 <td valign="top">
@@ -412,7 +412,7 @@ Inbound: 130.214.181.0/24
 
 Outbound:
 
-130.214.180.64/29 and 130.214.180.72/29
+130.214.180.64/29, 130.214.180.72/29 and 130.214.180.96/28
 
 </td>
 </tr>
@@ -434,7 +434,7 @@ us2.hana.ondemand.com
 </td>
 <td valign="top">
 
-[Link](https://account.us2.hana.ondemand.com/cockpit)
+[Link](https://account.us2.hana.ondemand.com/cockpit) 
 
 </td>
 <td valign="top">
@@ -445,7 +445,7 @@ Inbound:
 
 Outbound:
 
-130.214.255.40/29 and 130.214.255.32/29
+130.214.255.40/29, 130.214.255.32/29 and 130.214.119.0/27
 
 </td>
 </tr>
@@ -467,7 +467,7 @@ us3.hana.ondemand.com
 </td>
 <td valign="top">
 
-[Link](https://account.us3.hana.ondemand.com/cockpit)
+[Link](https://account.us3.hana.ondemand.com/cockpit) 
 
 </td>
 <td valign="top">
@@ -478,7 +478,7 @@ Inbound:
 
 Outbound:
 
-130.214.178.64/29, 130.214.178.72/29, 130.214.180.88/29 and 130.214.180.80/29
+130.214.178.64/29, 130.214.178.72/29, 130.214.180.88/29, 130.214.180.80/29, 130.214.178.96/27 and 130.214.180.192/27
 
 </td>
 </tr>
@@ -500,7 +500,7 @@ us4.hana.ondemand.com
 </td>
 <td valign="top">
 
-[Link](https://account.us4.hana.ondemand.com/cockpit)
+[Link](https://account.us4.hana.ondemand.com/cockpit) 
 
 </td>
 <td valign="top">
@@ -511,7 +511,7 @@ Inbound:
 
 Outbound:
 
-130.214.184.64/29 and 130.214.184.72/29
+130.214.184.64/29, 130.214.184.72/29 and 130.214.184.80/28
 
 </td>
 </tr>
