@@ -14,6 +14,9 @@ Each region represents a geographical location \(for example, Europe, US East\) 
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
 
+> ### Tip:  
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+
 
 
 To find out about the regions available for multi-environment subaccounts, see [Regions](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/350356d1dc314d3199dca15bd2ab9b0e.html "You can deploy applications in different regions. Each region represents a geographical location (for example, Europe, US East) where applications, data, or services are hosted.") :arrow_upper_right: .
@@ -278,11 +281,11 @@ eu1.hana.ondemand.com
 
 Inbound:
 
-155.56.128.0/17
+155.56.210.0/24, 155.56.248.0/24, 155.56.228.0/23 and 155.56.227.0/24
 
 Outbound:
 
-130.214.160.64/28, 130.214.160.80/29 and 130.214.18.64/26
+130.214.18.64/26, 130.214.160.64/28 and 130.214.160.80/29
 
 </td>
 </tr>
