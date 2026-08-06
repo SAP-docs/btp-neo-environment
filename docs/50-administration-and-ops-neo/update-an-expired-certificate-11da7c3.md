@@ -16,6 +16,9 @@ When the certificate for the custom domain expires or it's about to expire, you 
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
 
+> ### Tip:  
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+
 It's possible to update an expired certificate by uploading a signed certificate that isn't based on a CSR generated via the `generate-csr` command. However, this procedure requires you to upload a private key from a remote location, which poses a security risk. Also, there's no way to download the uploaded private key. For more information, see [upload-domain-certificate](upload-domain-certificate-bb54abf.md).
 
 Therefore, SAP recommends that you use only certificates that are based on CSRs previously generated via the `generate-csr` command.
@@ -29,6 +32,17 @@ Therefore, SAP recommends that you use only certificates that are based on CSRs 
 
 
 ## Context
+
+> ### Caution:  
+> SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
+> 
+> For more information, see SAP Note [3351844](https://me.sap.com/notes/3351844).
+
+> ### Tip:  
+> **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
+
+> ### Tip:  
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
 
 Upload and bind a new certificate to the SSL host to replace the expired certificate by generating a new CSR. If you had configured the certificate using the console client commands, follow the steps:
 
@@ -85,6 +99,17 @@ Upload and bind a new certificate to the SSL host to replace the expired certifi
 
 
 ## Context
+
+> ### Caution:  
+> SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
+> 
+> For more information, see SAP Note [3351844](https://me.sap.com/notes/3351844).
+
+> ### Tip:  
+> **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
+
+> ### Tip:  
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
 
 Some certificate authorities \(CA\) offer to sign an SSL certificate based on the CSR of the already bound certificate. If you choose this option, you don't need to generate a new CSR.
 

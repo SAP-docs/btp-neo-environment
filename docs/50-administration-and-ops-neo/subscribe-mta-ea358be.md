@@ -14,6 +14,9 @@ This command subscribes the subaccount of the consumer to a Multitarget Applicat
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
 
+> ### Tip:  
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+
 
 
 ```
@@ -143,7 +146,7 @@ Triggers the deployment and waits until the deployment operation finishes. The c
 </td>
 <td valign="top">
 
-Defines one or more extensions to the deployment descriptor. A comma-separated list of file locations, pointing to the extension descriptor files, or the folders containing them. For more information, see [Defining MTA Extension Descriptors](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/50df803465324d36851c79fd07e8972c.html "") :arrow_upper_right:.
+Defines one or more extensions to the deployment descriptor. A comma-separated list of file locations, pointing to the extension descriptor files, or the folders containing them. For more information, see [Defining MTA Extension Descriptors](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/50df803465324d36851c79fd07e8972c.html "MTA extension descriptors are YAML files that complement deployment descriptors by providing environment-specific or deployment-specific data such as scaling configurations and credentials. They enable deploying the same MTA archive with different configurations by adding or overwriting parameters and properties without modifying the original archive.") :arrow_upper_right:.
 
 </td>
 </tr>

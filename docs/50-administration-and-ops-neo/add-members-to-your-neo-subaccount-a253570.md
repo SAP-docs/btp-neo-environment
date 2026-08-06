@@ -32,6 +32,9 @@ Add users as members to a subaccount in the Neo environment and assign roles to 
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
 
+> ### Tip:  
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+
 In the Neo environment, you can assign predefined roles to subaccount members, but you can also create custom platform roles. For more information, see [Manage Custom Platform Roles](manage-custom-platform-roles-ede5f72.md). Administrators can request S-user IDs on the SAP ONE Support Launchpad [Managing Member Authorizations in the Neo Environment](managing-member-authorizations-in-the-neo-environment-a1ab5c4.md).
 
 

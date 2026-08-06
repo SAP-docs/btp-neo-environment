@@ -12,6 +12,9 @@ The User API service provides an API to query the details of the user that is cu
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
 
+> ### Tip:  
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+
 
 
 If you use a corporate identity provider \(IdP\), some features of the API do not work as described here. The corporate IdP requires you to configure a mapping from your IdP’s assertion attributes to the principal attributes usable in SAP BTP. See [Configure User Attribute Mappings](../60-security-neo/application-identity-provider-dc61853.md#loiob6cfc4bb4bff4ace90afc71b0962fcb5__configure_attributes).

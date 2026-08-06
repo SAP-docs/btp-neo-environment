@@ -4,6 +4,17 @@
 
 This document will provide you with information on which OAuth 2.0 authorization grant to use depending on your specific use case, the differences between them and guidance on when to use each one.
 
+> ### Caution:  
+> SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
+> 
+> For more information, see SAP Note [3351844](https://me.sap.com/notes/3351844).
+
+> ### Tip:  
+> **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
+
+> ### Tip:  
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+
 
 
 <a name="loiof5a92468ed204f0cb7a68e8ac2c0b67f__section_ecb_cbb_rwb"/>

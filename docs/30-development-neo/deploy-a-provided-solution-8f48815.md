@@ -9,7 +9,7 @@ You can deploy a solution locally to your subaccount and provide it for a subscr
 ## Prerequisites
 
 -   Ensure that the MTA archive containing your solution is created as described in [Multitarget Applications in the Cloud Foundry Environment](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/d04fc0e2ad894545aebfd7126384307c.html "A multitarget application (MTA) is essentially a single application that consists of multiple parts. These parts are created using various technologies and share the same lifecycle.") :arrow_upper_right:.
--   Optionally, you have created an extension description as described in [Defining MTA Extension Descriptors](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/50df803465324d36851c79fd07e8972c.html "") :arrow_upper_right:.
+-   Optionally, you have created an extension description as described in [Defining MTA Extension Descriptors](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/50df803465324d36851c79fd07e8972c.html "MTA extension descriptors are YAML files that complement deployment descriptors by providing environment-specific or deployment-specific data such as scaling configurations and credentials. They enable deploying the same MTA archive with different configurations by adding or overwriting parameters and properties without modifying the original archive.") :arrow_upper_right:.
 
     > ### Note:  
     > Several extension descriptors can be additionally used after initial deployment, that is, you can extend one extension descriptor with another unlimited times. You can use this approach if you want your subscribers to define their own data.
@@ -33,6 +33,9 @@ You can deploy a solution locally to your subaccount and provide it for a subscr
 
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
+
+> ### Tip:  
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
 
 
 

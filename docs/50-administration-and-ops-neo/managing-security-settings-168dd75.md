@@ -4,6 +4,17 @@
 
 Use the SAP BTP command line interface \(btp CLI\) to display and update the security settings for the subaccount.
 
+> ### Caution:  
+> SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
+> 
+> For more information, see SAP Note [3351844](https://me.sap.com/notes/3351844).
+
+> ### Tip:  
+> **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
+
+> ### Tip:  
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+
 The security settings comprise configuration settings, such as information about signing keys, URLs for cross origin resource sharing or iframing, and about bindings.
 
 For more information, see [Configure Trusted Domains for Multi-Environment Subaccounts](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/c5e997235f724ec686dc5dc101a1ccfb.html "By default, applications of the subaccount, including login pages of the SAP Authorization and Trust Management service (XSUAA), can’t be framed by other applications in different domains for security reasons.") :arrow_upper_right: and [Configure Token Policy for SAP Authorization and Trust Management Service](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/40290a93fb5c4603a65c48df71a38bf2.html "Set the token policy in the SAP BTP cockpit for SAP Authorization and Trust Management service by configuring the validity of the OpenID Connect (OIDC) tokens the service issues.") :arrow_upper_right:.

@@ -12,6 +12,9 @@ Enable an application in your multi-environment subaccount \(for the multi-cloud
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
 
+> ### Tip:  
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+
 
 
 The graphic below illustrates the overall setup of the scenario.
@@ -58,6 +61,21 @@ The graphic below illustrates the overall setup of the scenario.
 ## Create Trust Between the Subaccounts
 
 Exchange keys and certificates between the subaccounts, and configure trust between them. This will enable the subaccounts to communicate using HTTP destinations.
+
+
+
+## Context
+
+> ### Caution:  
+> SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
+> 
+> For more information, see SAP Note [3351844](https://me.sap.com/notes/3351844).
+
+> ### Tip:  
+> **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
+
+> ### Tip:  
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
 
 
 
@@ -121,6 +139,17 @@ You need an OAuth client to get an access token for the OAuth-protected resource
 
 ## Context
 
+> ### Caution:  
+> SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
+> 
+> For more information, see SAP Note [3351844](https://me.sap.com/notes/3351844).
+
+> ### Tip:  
+> **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
+
+> ### Tip:  
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+
 For more information about working with OAuth clients, see [Create an OAuth Client](principal-propagation-from-the-multi-cloud-foundation-to-the-neo-environment-391e9ed.md#loiofb9a98644f674d7481e179f97ae26c72).
 
 
@@ -157,6 +186,17 @@ For more information about working with OAuth clients, see [Create an OAuth Clie
 <a name="loio3b8d026b714240ff89ae73cf250af799__context_d1h_yyv_m1b"/>
 
 ## Context
+
+> ### Caution:  
+> SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
+> 
+> For more information, see SAP Note [3351844](https://me.sap.com/notes/3351844).
+
+> ### Tip:  
+> **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
+
+> ### Tip:  
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
 
 Connect the two subaccounts by describing the connection properties in a destination. For more information, see [Modeling Destinations](../30-development-neo/modeling-destinations-37bddb4.md).
 

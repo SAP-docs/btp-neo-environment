@@ -12,6 +12,9 @@ Learn more about using services in the Neo environment:
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
 
+> ### Tip:  
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+
 -   [About Services in the Neo Environment](using-services-in-the-neo-environment-a32d3d5.md#loiob8bbace90f5840e8a164c41e62ff2677)
 -   [Enable Services in the Neo Environment](using-services-in-the-neo-environment-a32d3d5.md#loio4e12009d06e44eb1943b94483a505d90)
 -   [Disable Services in the Neo Environment](using-services-in-the-neo-environment-a32d3d5.md#loiobb93d85070b14ac280f57fbee6044a73)
@@ -23,6 +26,17 @@ Learn more about using services in the Neo environment:
 ## About Services in the Neo Environment
 
 In the Neo environment, you enable services in the SAP BTP cockpit.
+
+> ### Caution:  
+> SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
+> 
+> For more information, see SAP Note [3351844](https://me.sap.com/notes/3351844).
+
+> ### Tip:  
+> **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
+
+> ### Tip:  
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
 
 The cockpit lists all services grouped by service category. Some of the services are basic services, which are provided with SAP BTP and are ready-to-use. In addition, extended services are available. A label on the tile for a service indicates if this service is enabled.
 
@@ -81,6 +95,17 @@ The Administrator role for the subaccount.
 
 ## Context
 
+> ### Caution:  
+> SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
+> 
+> For more information, see SAP Note [3351844](https://me.sap.com/notes/3351844).
+
+> ### Tip:  
+> **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
+
+> ### Tip:  
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+
 
 
 <a name="loio4e12009d06e44eb1943b94483a505d90__steps_bcp_jcg_2cb"/>
@@ -113,6 +138,17 @@ The Administrator role for the subaccount.
 
 
 ## Context
+
+> ### Caution:  
+> SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
+> 
+> For more information, see SAP Note [3351844](https://me.sap.com/notes/3351844).
+
+> ### Tip:  
+> **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
+
+> ### Tip:  
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
 
 
 

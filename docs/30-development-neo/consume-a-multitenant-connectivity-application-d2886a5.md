@@ -24,6 +24,9 @@
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
 
+> ### Tip:  
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+
 This tutorial explains how you can consume a sample connectivity application based on the multitenancy concept. That is, you are a member of a subaccount which is subscribed for applications provided by other subaccounts. The output of the application you are about to consume, displays a welcome page showing the URI of the tenant-specific destination configuration. This means that the administrator of your consumer subaccount may have been previously set a tenant-specific configuration for this application. However, in case such configuration has not been set, the application would use a default one, set by the administrator of the provider subaccount.
 
 Users of a consumer subaccount, which is subscribed to an application, can access the application using a tenant-specific URL. This would lead the application to use a tenant-specific destination configuration. For more information, see [Multitenancy in the Connectivity Service](https://help.sap.com/viewer/b865ed651e414196b39f8922db2122c7/Cloud/en-US/b92140a0c6b942e1a0f72e9fd1133fd9.html "Using multitenancy for applications that require a connection to a remote service or on-premise application.") :arrow_upper_right:.

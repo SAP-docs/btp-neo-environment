@@ -28,6 +28,9 @@ You can subscribe to a solution that has been provided for subscription by anoth
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
 
+> ### Tip:  
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+
 
 
 <a name="loiobd7602e168604227a0d890c108395da3__steps_x1w_zlz_sy"/>
@@ -71,7 +74,7 @@ The solution to which you are now subscribed appears in the *Subscribed Solution
 **Related Information**  
 
 
-[Defining MTA Extension Descriptors](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/50df803465324d36851c79fd07e8972c.html "") :arrow_upper_right:
+[Defining MTA Extension Descriptors](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/50df803465324d36851c79fd07e8972c.html "MTA extension descriptors are YAML files that complement deployment descriptors by providing environment-specific or deployment-specific data such as scaling configurations and credentials. They enable deploying the same MTA archive with different configurations by adding or overwriting parameters and properties without modifying the original archive.") :arrow_upper_right:
 
 [Troubleshooting](troubleshooting-b3f6b49.md "")
 

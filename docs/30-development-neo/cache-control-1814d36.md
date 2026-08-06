@@ -12,6 +12,9 @@ To improve the performance of your application you can control the `Cache-Contro
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
 
+> ### Tip:  
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+
 You can configure caching for the complete application, for dedicated paths, or resources of the application. If the path you specify ends with a slash character \(/\) all resources in the given directory and its sub-directories are matched. You can also specify the path using wildcards, for example, the path `**.html` matches all resources ending with `.html`. Only the first caching directive that matches an incoming request is applied. The path `**.css` hides, for example, other paths such as `/resources/custom.css`.
 
 With the `directive` property, you specify whether public proxies can cache the resources. The possible values for the `directive` property are:

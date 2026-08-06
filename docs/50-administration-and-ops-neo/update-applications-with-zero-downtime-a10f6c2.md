@@ -27,6 +27,9 @@ The platform allows you to update an application in a manner in which the applic
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
 
+> ### Tip:  
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+
 Each application runs on one or more dedicated application processes. You can start one or many application processes at any given time, according to the compute unit quota that you have. Each process has a unique process ID that you can use to stop it. To update an application non-disruptively for users, you handle individual processes rather than the application as a whole.
 
 For an automated execution of the same procedure, use the `rolling-update` command. For more information, see [rolling-update](rolling-update-3f5d412.md).

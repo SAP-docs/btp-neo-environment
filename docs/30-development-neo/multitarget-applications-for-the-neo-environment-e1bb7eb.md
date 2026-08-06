@@ -12,6 +12,9 @@ A Multitarget Application \(MTA\) is a package comprised of multiple application
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
 
+> ### Tip:  
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+
 Complex business applications are composed of multiple parts developed with focus on micro-service design principles, API-management, usage of the OData protocol, increased usage of application modules developed with different languages, IDEs, and build methodologies. Thus, development, deployment, and configuration of separate elements introduce a variety of lifecycle and orchestration challenges. To address these challenges, SAP introduces the Multitarget Application \(MTA\) concept. It addresses the complexity of continuous deployment by employing a formal target-independent application model.
 
 You can now benefit from an automated deployment of solutions in an MTA archive format, consisting of several modules as described above. The MTA archive, which includes both single modules, is comprised of its content, the technical prerequisites and interdependencies of the contained modules, as well as their technical description. The deployment infrastructure of SAP BTP is enabled to perform an automated deployment of such solutions, making sure that individual technical prerequisites are fulfilled before deploying the comprised modules to the right target runtimes and in the right order.
@@ -66,7 +69,7 @@ Multitarget Application archive
 </td>
 <td valign="top">
 
-[Defining Multitarget Application Archives](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/33a0e0eb1e4a47b3af52596b87fd2cef.html "You package the MTA deployment descriptor and module binaries in an MTA archive. You can manually do so as described below, or alternatively use the Cloud MTA Build tool.") :arrow_upper_right:
+[Defining Multitarget Application Archives](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/33a0e0eb1e4a47b3af52596b87fd2cef.html "You package the MTA deployment descriptor and module binaries in an MTA archive. You can manually do so as described below, or alternatively use the Cloud MTA Build Tool.") :arrow_upper_right:
 
 </td>
 </tr>
@@ -78,7 +81,7 @@ Multitarget Application extension descriptor
 </td>
 <td valign="top">
 
-[Defining MTA Extension Descriptors](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/50df803465324d36851c79fd07e8972c.html "") :arrow_upper_right:
+[Defining MTA Extension Descriptors](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/50df803465324d36851c79fd07e8972c.html "MTA extension descriptors are YAML files that complement deployment descriptors by providing environment-specific or deployment-specific data such as scaling configurations and credentials. They enable deploying the same MTA archive with different configurations by adding or overwriting parameters and properties without modifying the original archive.") :arrow_upper_right:
 
 </td>
 </tr>

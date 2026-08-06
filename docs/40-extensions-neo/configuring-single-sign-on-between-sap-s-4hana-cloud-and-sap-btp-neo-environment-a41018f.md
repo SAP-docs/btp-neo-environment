@@ -16,6 +16,9 @@ You configure the integration between SAP BTP, Neo environment and SAP S/4HANA C
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
 
+> ### Tip:  
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+
 Identity Authentication provides authentication, single sign-on \(SSO\), and on-premise integration. Identity Authentication service is closely integrated with SAP BTP, and it is offered as part of the platform.
 
 To ensure the required security for accessing the applications, you need to configure SSO between the subaccount in SAP BTP and the SAP S/4HANA Cloud tenant using a SAML identity provider, for example Identity Authentication. The SSO requires both solutions to be configured as trusted SAML service providers for the Identity Authentication service, and at the same time, the Identity Authentication service to be configured as trusted identity provider for the two solutions.

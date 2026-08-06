@@ -12,6 +12,9 @@ Trace user actions with excessive execution time within a complex system landsca
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
 
+> ### Tip:  
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+
 The End-to-End trace analysis consists of features for performing analyses throughout your entire technical landscape, so that you can isolate problematic components and identify root causes. You analyze a trace to check the distribution of the response time over the client, network, and server. As a result, the response time of each component involved in executing the request and the request path through the components are provided to you for detailed analysis.
 
 For additional information, see [Root Cause Analysis and Exception Management](https://help.sap.com/viewer/82f6dd44db4e4518aad4dfce00116fcf/7.2.06/en-US/82005e9c-8dd0-4cd4-8144-5c18af6c26e2.html).

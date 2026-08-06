@@ -14,6 +14,9 @@ You can deploy applications in different regions. Each region represents a geogr
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
 
+> ### Tip:  
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+
 
 
 All regions that are available for the Neo environment are exclusively provided by SAP. For an overview of all available regions for the Neo environment, see [SAP Cloud Platform Regions and Service Portfolio](https://help.sap.com/doc/aa1ccd10da6c4337aa737df2ead1855b/Cloud/en-US/3b642f68227b4b1398d2ce1a5351389a.html?scp-env=Neo).
@@ -24,7 +27,7 @@ All regions that are available for the Neo environment are exclusively provided 
 
 ## Selecting a Region
 
-A region is chosen at the subaccount level. For each subaccount, you select exactly one region and one environment. The selection of a region is dependent on many factors: For example, application performance \(response time, latency\) can be optimized by selecting a region close to the user. For more information, see *Selecting a Region* in [Regions](https://help.sap.com/viewer/df50977d8bfa4c9a8a063ddb37113c43/Cloud/en-US/38ecf59cdda64150a102cfaa62d5faab.html#loioabaaf083a6574edc8ad30d9cd9a062f3 "You can deploy applications in different regions. Each region represents a geographical location (for example, Europe, US East) where applications, data, or services are hosted.") :arrow_upper_right:.
+A region is chosen at the subaccount level. For each subaccount, you select exactly one region and one environment. The selection of a region is dependent on many factors: For example, application performance \(response time, latency\) can be optimized by selecting a region close to the user. For more information, see *Selecting a Region* in [Regions](https://help.sap.com/viewer/df50977d8bfa4c9a8a063ddb37113c43/Cloud/en-US/abaaf083a6574edc8ad30d9cd9a062f3.html "You can deploy applications in different regions. Each region represents a geographical location (for example, Europe, US East) where applications, data, or services are hosted.") :arrow_upper_right:.
 
 
 

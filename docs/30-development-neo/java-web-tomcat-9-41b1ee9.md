@@ -12,6 +12,9 @@ Java Web Apache Tomcat 9 \(Java Web Tomcat 9\) is the next edition of the Java W
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
 
+> ### Tip:  
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+
 This container leverages Apache Tomcat 9 Web container without modifications and also adds the already established set of SAP BTP services client APIs. Applications running in the Apache Tomcat 9 Web container are portable to Java Web Tomcat 9. Existing applications running in Java Web Tomcat 7 and Java Web Tomcat 8 application runtime containers can run unmodified in Java Web Tomcat 9 in case they share the same set of enabled APIs.
 
 Java Web Tomcat 9 runtime is displayed as *neo-java-web runtime version 4.x* in the console client. See:

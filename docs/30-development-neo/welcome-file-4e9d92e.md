@@ -12,6 +12,9 @@ You can either display the default Welcome file or specify a different file as W
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
 
+> ### Tip:  
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+
 If the application is accessed only with the domain name in the URL, that is without any additional path information, then the `index.html` file that is located in the root folder of your repository is delivered by default. If you want to deliver a different file, configure this file in the `neo-app.json` file using the `WelcomeFile` parameter. With this additional parameter you specify whether a redirect is sent to the Welcome file or whether the Welcome file is delivered without redirect. If this option is set, then instead of serving the Welcome file directly under `/`, the HTML5 application will send a redirect to the `WelcomeFile` location. With that, relative links in a Welcome file that is not located in the root directory will work.
 
 To configure the Welcome file, add a JSON string with the following format to the `neo-app.json` file:

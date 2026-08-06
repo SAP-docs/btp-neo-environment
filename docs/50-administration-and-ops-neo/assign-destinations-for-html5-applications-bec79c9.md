@@ -22,6 +22,9 @@ A destination to the back-end system exists.
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
 
+> ### Tip:  
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+
 For the active application version the referenced destinations are displayed in the *HTML5 Application* section of the cockpit. For a non-active application version the referenced destinations are displayed in the details table in the *Versioning* section. HTML5 applications use HTTP destinations, which can be defined on the level of your subaccount.
 
 By default, the destination with the same name as the name you defined for the route in the application descriptor is assigned. If this destination does not exist, you can create the destination with the same name as described in [Configure Destinations from the Cockpit](https://help.sap.com/viewer/b865ed651e414196b39f8922db2122c7/Cloud/en-US/60735ad11d8a488c83537cdcfb257135.html "") :arrow_upper_right:. Then you can assign this newly created destination. Alternatively, you can assign another destination that already exists in your subaccount. To assign a destination, follow the steps below.

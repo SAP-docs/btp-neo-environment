@@ -1,8 +1,8 @@
-<!-- loiocd584e4c02054c6cb6360a439d6c8364 -->
+<!-- loio4b108e8150a54f15ab052c8a7fd67e6c -->
 
-# Protecting Applications from Cross-Site Scripting \(XSS\)
+# Hello World Multitarget Application
 
-Cross-site scripting \(XSS\) is one of the most common types of malicious attacks on web applications.
+A Hello World Multitarget Application demonstrates the basic structure and components of a multitarget application.
 
 > ### Caution:  
 > SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
@@ -15,5 +15,7 @@ Cross-site scripting \(XSS\) is one of the most common types of malicious attack
 > ### Tip:  
 > Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
 
-If an HTML5 application is connected to a REST service, the corresponding REST service must take measures to protect the application against this type of vulnerabilities. For REST services implemented on the SAP BTP a common output encoding library may be used to protect applications. For more information about XSS protection on the SAP BTP, see [Protection from Cross-Site Scripting \(XSS\)](protection-from-cross-site-scripting-xss-e643316.md).
+A Hello World Multitarget Application serves as an introductory example for understanding the fundamental concepts and structure of multitarget applications. This type of application typically includes the minimal configuration and code necessary to deploy and run a simple application across multiple target environments.
+
+To learn how to create a Hello World Multitarget Application, refer to the [Create a Hello World Multitarget Application](https://developers.sap.com/tutorials/create-hello-world-mta.html) tutorial, which provides step-by-step instructions for building your first multitarget application.
 

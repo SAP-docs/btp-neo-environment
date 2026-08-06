@@ -12,6 +12,9 @@ You configure the connectivity to enable the use of SAP Cloud for Customer OData
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
 
+> ### Tip:  
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+
 -   Create and configure the OAuth client for OData access to enable the connectivity to SAP Cloud for Customer OData APIs. For more information, see [Configure the OAuth Client for OData Access](configure-the-oauth-client-for-odata-access-0ac0dc9.md).
 
 -   Configure the HTTP destination required to create an HTTP client for the OData API. For more information, see [Create and Configure the HTTP Destination](create-and-configure-the-http-destination-9292948.md).

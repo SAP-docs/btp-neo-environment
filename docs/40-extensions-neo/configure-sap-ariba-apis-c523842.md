@@ -14,6 +14,9 @@
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
 
+> ### Tip:  
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+
 To be able to consume the SAP Ariba APIs, you need to register a dedicated application in SAP Ariba Developer Portal \([USA region](https://developer.ariba.com/api/) or [Europe region](https://eu.developer.ariba.com/api/)\). For each registered application, an application key is generated. You can use it to try out an API and start developing your extension application running on SAP BTP. When developing this application, you need to work against sandbox environment with mocked API data. Once your extension application is ready, follow the instructions on [https://developer.ariba.com/api/guides](https://developer.ariba.com/api/guides) to enable the application registered in SAP Ariba Developer Portal for production access.
 
 You can find detailed information about each API in the *Discovery* section at [https://developer.ariba.com/api/apis](https://developer.ariba.com/api/apis) \(for the USA region\) or at [https://eu.developer.ariba.com/api/apis](https://eu.developer.ariba.com/api/apis) \(for the Europe region\).

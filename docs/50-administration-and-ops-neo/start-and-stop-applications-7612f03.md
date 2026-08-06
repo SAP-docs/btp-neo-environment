@@ -18,6 +18,9 @@ You can directly start, stop, and undeploy applications, as well as start, stop,
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
 
+> ### Tip:  
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+
 An application can run on one or more application processes. The use of multiple processes allows you to distribute application load and provide failover capability. The number of processes that you can start depends on the compute unit quota available to your global account and how an individual application has been configured. If you reach the maximum, increase the maximum number of processes first before you can start another process.
 
 > ### Note:  

@@ -12,6 +12,9 @@ An operating model clearly defines the separation of tasks between SAP and the c
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
 
+> ### Tip:  
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+
 
 
 Neo environment and its services have been developed on the assumption that specific processes and tasks are the responsibility of the customer. The following table contains all processes and tasks involved in operating the platform and the services and specifies how the responsibilities are divided between SAP and the customer for each individual task. It does not include the operation of systems and devices residing at operational facilities owned by the customer or any other third party, as these are the customer's responsibility.

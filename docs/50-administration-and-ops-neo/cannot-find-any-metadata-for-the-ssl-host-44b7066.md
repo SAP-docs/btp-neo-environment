@@ -8,6 +8,17 @@ Learn why you are getting the error message ***Could not find metadata for ssl h
 
 ## Context
 
+> ### Caution:  
+> SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
+> 
+> For more information, see SAP Note [3351844](https://me.sap.com/notes/3351844).
+
+> ### Tip:  
+> **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
+
+> ### Tip:  
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+
 The metadata for your SSL host can't be found, because `EU1234568901234.ssl.ondemand.com` isn't the name of the host.
 
 You may see the ***\(!\) ERROR: Could not find metadata for ssl host \[EU1234568901234.ssl.ondemand.com\]!*** error message when you try to bind your certificate to the SSL host by running the `bind-domain-certificate` command. To ensure that the binding is successful, enter the name of the SSL host in the `--ssl-host` parameter field.

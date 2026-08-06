@@ -28,6 +28,9 @@ You can see the logs in a log viewer, or you can download them in a log file.
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
 
+> ### Tip:  
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+
 Depending on the total logs size, a few files per day can be logged for each type of log \(default traces and HTTP access log\) . The logs are kept for 7 days before they are deleted. If the application is deleted, the logs are deleted as well. Currently, the following data is logged:
 
 **Default Traces**

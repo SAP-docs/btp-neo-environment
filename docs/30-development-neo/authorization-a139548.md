@@ -12,6 +12,9 @@ To enforce authorization for an HTML5 application, permissions can be added to a
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
 
+> ### Tip:  
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+
 In the cockpit, you can create custom roles and assign them to the defined permissions. If a user accesses an application path that starts with a path defined for a permission, the system checks if the current user is a member of the assigned role. If no role is assigned to a defined permission only subaccount members with developer permission or administrator permission have access to the protected resource.
 
 Permissions are only effective for the active application version. To protect non-active application versions, the default permission `NonActiveApplicationPermission` is defined by the system for every HTML5 application. This default permission must not be defined in the `neo-app.json` file but is available automatically for each HTML5 application.

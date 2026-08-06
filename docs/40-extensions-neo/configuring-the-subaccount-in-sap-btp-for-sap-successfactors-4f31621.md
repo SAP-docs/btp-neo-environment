@@ -12,6 +12,9 @@ The following section contains detailed description of the steps you need to ext
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
 
+> ### Tip:  
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+
 -   Extend SAP SuccessFactors on SAP BTP, see [Configure the Extension Integration Between SAP BTP and SAP SuccessFactors](configure-the-extension-integration-between-sap-btp-and-sap-successfactors-09bb734.md).
 
 -   Enable the enhanced functionality of the Extension Management user interface \(UI\) available with the new SAP Cloud Portal service version, see [Migrate to the New Version of SAP Cloud Portal Service](migrate-to-the-new-version-of-sap-cloud-portal-service-d201623.md).

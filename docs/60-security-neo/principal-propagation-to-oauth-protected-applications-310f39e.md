@@ -32,6 +32,9 @@ Propagate users from external applications with SAML identity federation to OAut
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
 
+> ### Tip:  
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+
 This scenario follows the [SAML 2.0 Profile for OAuth 2.0 Client Authentication and Authorization Grants](https://tools.ietf.org/html/rfc7522) specification. The scenario is based on exchanging the **SAML \(bearer\) assertion** from the third-party identity provider for an **OAuth access token** from the SAP BTP authorization server. Using the access token, the external application can access the OAuth-protected application.
 
 The graphic below illustrates the scenario implemented in terms of SAP BTP.

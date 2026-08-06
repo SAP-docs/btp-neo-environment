@@ -16,6 +16,9 @@ After you have created a Web application and tested it locally, you may want to 
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
 
+> ### Tip:  
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+
 The debugger enables you to detect and diagnose errors in your application. It allows you to control the execution of your program by setting breakpoints, suspending threads, stepping through the code, and examining the contents of the variables. You can debug a servlet or a JSP file on a SAP BTP server without losing the state of your application.
 
 > ### Note:  

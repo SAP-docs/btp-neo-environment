@@ -24,6 +24,9 @@ For more information, see [Set Up the Console Client](../30-development-neo/set-
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
 
+> ### Tip:  
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+
 The different variants of the SAP BTP SDK for Neo environment provide support for a different set of JRE/Java versions. You can see the list of supported versions per each variant in [Application Runtime Container](../30-development-neo/application-runtime-container-7613bd2.md).
 
 If you want to change this default version, you need to specify the *\--java-version* parameter when deploying the application using the SAP BTP console client.

@@ -12,6 +12,9 @@ You can configure an error page that is displayed in case of an internal server 
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
 
+> ### Tip:  
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+
 You can configure an error page that is displayed instead of a standard error message for internal server errors \(response error code 500\).
 
 You specify the error page in the application descriptor file \(`neo-app.json`\) using the `errorPage` attribute. When an internal sever error \(error code 500\) occurs, the response is redirected to this page. The path to the error page has to be relative. That means the path doesn’t have a leading slash. You can place the file of the error page in the root directory of the HTML5 application next to the neo-app.json file or in a subfolder within the directory. If you don’t configure an error page, the standard error message will be displayed.

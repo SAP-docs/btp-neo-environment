@@ -22,6 +22,9 @@ You can configure the behavior of standard authentication methods, or define cus
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
 
+> ### Tip:  
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+
 The following table describes the available login options. In the default authentication configuration, they are pre-assigned to standard authentication methods. If you want to change this, you need to create a custom configuration.
 
 For each authentication method, you can select a custom combination of options. You may need to select more than one option if you want to enable more than one way for users to authenticate for this application.

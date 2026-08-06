@@ -10,6 +10,9 @@
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
 
+> ### Tip:  
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+
 In the context of SAP BTP, a solution is comprised of various application types and configurations, designed to serve a certain scenario or task flow. Typically the comprised parts of the solution are interconnected and have a common lifecycle. They are explicitly deployed, updated, deleted, configured, and monitored together.
 
 A solution allows you to easily manage complex deployable artifacts. You can compose a solution by yourself, or you can acquire one from a third-party vendor. Furthermore, you can use the solutions to deploy artifacts that are comprised by entities external to SAP BTP, such as SAP SuccessFactors entities. This allows you to have a common management and lifecycle of artifacts spread across various SAP platforms and systems.
@@ -34,5 +37,5 @@ You model the supported entities according to the MTA specification so that they
 
 [Modeling SAP SuccessFactors Extensions](modeling-sap-successfactors-extensions-ec35793.md "You can connect your SAP SuccessFactors system to your SAP Business Technology Platform (SAP BTP) subaccount. After you do so, you can define a solution that extends it. In more complex scenarios, you can even provide a solution that can be consumed by another SAP BTP subaccount and extend the subscriber's SAP SuccessFactors system.")
 
-[Create a Hello World Multitarget Application](create-a-hello-world-multitarget-application-4b108e8.md "To learn how to create a Hello World Multitarget Application see our Create a Hello World Multitarget Application tutorial.")
+[Hello World Multitarget Application](hello-world-multitarget-application-4b108e8.md "A Hello World Multitarget Application demonstrates the basic structure and components of a multitarget application.")
 

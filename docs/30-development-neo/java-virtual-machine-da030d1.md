@@ -10,6 +10,9 @@
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
 
+> ### Tip:  
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+
 SAP BTP infrastructure runs on Java Virtual Machines that are built and supported by SAP. Java 17 code runs on SapMachine, a build of OpenJDK released by SAP, enriched with supportability features and patched if needed for SAP products. Old Java 8 code runs on SAP's own implementation of a Java Virtual Machine - SAP Java Virtual Machine \(SAP JVM\).
 
 SapMachine and SAP JVM are certified Open Java Development Kits \(OpenJDK\), Java Virtual Machine and Java Development Kit \(JDK\), compliant to Java Standard Edition \(SE\) 8, 11 and 17. Technology-wise they are based on the OpenJDK. Especially SAP JVM 8 has been enhanced with a strong focus on supportability with regard to OpenJDK 8. Many of these enhancements were added by SAP to OpenJDK 17.

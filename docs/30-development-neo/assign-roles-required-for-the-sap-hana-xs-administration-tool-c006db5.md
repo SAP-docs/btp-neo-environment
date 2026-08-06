@@ -16,6 +16,9 @@ To work with the SAP HANA XS Administration Tool, add the required rules to your
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
 
+> ### Tip:  
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+
 The initial set of roles of your database user also contains the *sap.hana.xs.ide.roles::Developer* role, allowing you to work with the SAP HANA Web-based Development Workbench, but not the SAP HANA XS Administration tool.
 
 To be able to work with the SAP HANA XS Administration Tool `(https://<schema><subaccount>.<host>sap/hana/xs/admin/)`, you require the relevant *sap.hana.xs.admin.roles*. However, these are not included in the initial set of roles. To assign these roles to your database user, perform the following steps:
@@ -41,6 +44,19 @@ To be able to work with the SAP HANA XS Administration Tool `(https://<schema><s
 ## Roles Required for Web-based Tools
 
 To use the SAP HANA Web-based tools, you require specific roles.
+
+
+
+> ### Caution:  
+> SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
+> 
+> For more information, see SAP Note [3351844](https://me.sap.com/notes/3351844).
+
+> ### Tip:  
+> **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
+
+> ### Tip:  
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
 
 
 

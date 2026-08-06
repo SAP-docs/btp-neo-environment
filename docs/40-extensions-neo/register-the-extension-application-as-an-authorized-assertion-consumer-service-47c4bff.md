@@ -33,6 +33,9 @@ Register the extension application as an authorized assertion consumer service t
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
 
+> ### Tip:  
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+
 Extension applications deployed in an SAP BTP extension subaccount are authenticated against the SAP SuccessFactors \(IdP\). To ensure that only approved applications are using the SAP SuccessFactors IdP for authentication, you need to register the extension application as an authorized assertion consumer service, configure the application URL, the service provider audience URL and the service provider logout URL of the extension application in SAP SuccessFactors Provisioning. To do so you use the `hcmcloud-enable-application-access` console client command.
 
 > ### Note:  

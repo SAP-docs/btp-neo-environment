@@ -6,6 +6,19 @@ A list of support components for SAP BTP services and tools. Filter for the serv
 
 
 
+> ### Caution:  
+> SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
+> 
+> For more information, see SAP Note [3351844](https://me.sap.com/notes/3351844).
+
+> ### Tip:  
+> **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
+
+> ### Tip:  
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+
+
+
 > ### Note:  
 > The table below lists the support components for services. If you are looking for components of tools or issues related to software logistics, see [Additional Components](support-components-08d1103.md#loio08d1103928fb42f3a73b3f425e00e13c__section_add_components).
 
@@ -2101,6 +2114,114 @@ Simplify integration via APIs.
 <td valign="top">
 
 -   US Central \(IA\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[SAP Direct Tax Management](https://help.sap.com/docs/SAP_DIRECT_TAX_MANAGEMENT) 
+
+</td>
+<td valign="top">
+
+Manage your SAP Direct Tax Management inventory with ease.
+
+</td>
+<td valign="top">
+
+-   LOD-PER-DTM
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   AWS
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Frankfurt\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[SAP Direct Tax Management](https://help.sap.com/docs/SAP_DIRECT_TAX_MANAGEMENT) 
+
+</td>
+<td valign="top">
+
+Manage your SAP Direct Tax Management inventory with ease.
+
+</td>
+<td valign="top">
+
+-   LOD-PER-DTM
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   Azure
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Netherlands\)
 
 
 

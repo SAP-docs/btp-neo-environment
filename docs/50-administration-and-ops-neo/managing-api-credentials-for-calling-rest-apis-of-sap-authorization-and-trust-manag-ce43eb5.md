@@ -4,6 +4,17 @@
 
 Use the SAP BTP command line interface \(btp CLI\) to manage API credentials, which enable you to access the REST APIs of the SAP Authorization and Trust Management service.
 
+> ### Caution:  
+> SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
+> 
+> For more information, see SAP Note [3351844](https://me.sap.com/notes/3351844).
+
+> ### Tip:  
+> **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
+
+> ### Tip:  
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+
 If you want to access the REST APIs of SAP Authorization and Trust Management service in multi-environment subaccounts, global accounts, or directories, you must provide the required API credentials. One main use case is for customers who want to provision users including their authorizations, for example into a global account or a directory. They need credentials \(with a client ID\) for provisioning of users, especially when using SAP Cloud Identity Services - Identity Provisioning.
 
 The API credentials are only passed on when they are created. They can't be retrieved later. If lost, new credentials must be generated.

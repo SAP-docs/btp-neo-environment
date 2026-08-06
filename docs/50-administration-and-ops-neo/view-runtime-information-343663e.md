@@ -16,6 +16,9 @@ View information about the application runtime. SAP BTP provides a set of runtim
 > ### Tip:  
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
 
+> ### Tip:  
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+
 The runtime is assigned either by default or explicitly set when an application is deployed. If a version is not specified during deployment, the major runtime version is determined automatically based on the SDK that is used to deploy the application. By default, applications are deployed with the latest minor version of the respective major version.
 
 You are strongly advised to use the default version, since this contains all released fixes and critical patches, including security patches. Override this behavior only in exceptional cases by explicitly setting the version, but note that this is not recommended practice.
