@@ -4772,7 +4772,7 @@ Automates the connectivity configuration of extension applications running on SA
 <tr>
 <td valign="top">
 
-[Alert Notification](https://help.sap.com/viewer/p/ALERT_NOTIFICATION) 
+[Alert Notification Service](https://help.sap.com/viewer/p/ALERT_NOTIFICATION) 
 
 </td>
 <td valign="top">
@@ -4838,7 +4838,7 @@ Create and receive real-time alerts about your services
 <tr>
 <td valign="top">
 
-[Alert Notification](https://help.sap.com/viewer/p/ALERT_NOTIFICATION) 
+[Alert Notification Service](https://help.sap.com/viewer/p/ALERT_NOTIFICATION) 
 
 </td>
 <td valign="top">
@@ -4900,7 +4900,7 @@ Create and receive real-time alerts about your services
 <tr>
 <td valign="top">
 
-[Alert Notification](https://help.sap.com/viewer/p/ALERT_NOTIFICATION) 
+[Alert Notification Service](https://help.sap.com/viewer/p/ALERT_NOTIFICATION) 
 
 </td>
 <td valign="top">
@@ -4960,7 +4960,7 @@ Create and receive real-time alerts about your services
 <tr>
 <td valign="top">
 
-[Alert Notification](https://help.sap.com/viewer/p/ALERT_NOTIFICATION) 
+[Alert Notification Service](https://help.sap.com/viewer/p/ALERT_NOTIFICATION) 
 
 </td>
 <td valign="top">
