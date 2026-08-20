@@ -535,3 +535,10 @@ For example: The CIDR notation 157.133.246.0/24 consists of the IP ranges betwee
 
 For more information about how CIDR ranges represent multiple IP addresses, you can read online about CIDR notation.
 
+**Related Information**  
+
+
+[Regions in the Neo Environment](regions-in-the-neo-environment-21c30a4.md "You can deploy applications in different regions. Each region represents a geographical location (for example, Europe, US East) where applications, data, or services are hosted.")
+
+[IP Allowlisting for Inbound Requests in SAP Cloud Integration](https://help.sap.com/docs/cloud-integration/sap-cloud-integration/ip-allowlisting-for-inbound-requests?ai=true&version=Cloud)
+

@@ -319,7 +319,7 @@ Connect the first subaccount to the second subaccount by describing the source c
     > 
     > `https://demo.authentication.eu10.hana.ondemand.com/saml/metadata`
     > 
-    > For the `<region host>`, see [Regions and API Endpoints Available for the Cloud Foundry Environment](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/f344a57233d34199b2123b9620d0bb41.html "") :arrow_upper_right:.
+    > For the `<region host>`, see [Regions and API Endpoints Available for the Cloud Foundry Environment](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/f344a57233d34199b2123b9620d0bb41.html "Find the IPs you need to configure for inbound and outbound communication according to your region.") :arrow_upper_right:.
 
     Example of audience/entityID:
 
@@ -360,7 +360,7 @@ Connect the first subaccount to the second subaccount by describing the source c
     > 
     > `https://demo.authentication.eu10.hana.ondemand.com/saml/metadata`
     > 
-    > For the `<region host>`, see [Regions and API Endpoints Available for the Cloud Foundry Environment](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/f344a57233d34199b2123b9620d0bb41.html "") :arrow_upper_right:.
+    > For the `<region host>`, see [Regions and API Endpoints Available for the Cloud Foundry Environment](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/f344a57233d34199b2123b9620d0bb41.html "Find the IPs you need to configure for inbound and outbound communication according to your region.") :arrow_upper_right:.
 
     Example of token service URL:
 
