@@ -792,7 +792,7 @@ In addition to actual usage that you've already been charged for, the **Costs an
 To export your usage and cost data to a Microsoft Excel spreadsheet document, use the *Export* button menu in the header of the *Costs and Usage* page.
 
 > ### Note:  
-> Cost information is exported only if your global account uses the consumption-based commercial information.
+> Cost information is exported only if your global account uses the consumption-based commercial model.
 
 The *Export* button menu has various options depending on the period and type of data that you want to export:
 
