@@ -4,10 +4,7 @@
 
 # Managing Budgets in Your Global Account
 
-> ### Note:  
-> The use of budgets in your global account is subject to its availability in your country or region. Additionally, even where budgets are available, the option to send automatic email alerts to global account administrators when spending exceeds defined thresholds, may not be supported in your country or region.
-
-Budgets allow you to better control your global account spending and plan for future consumption by setting up budget limits for your global account in SAP BTP.
+Budgets allow cost controllers and global account admins in SAP BTPto better control their global account spending and plan for future consumption by setting up budget limits for global accounts.
 
 > ### Caution:  
 > SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
@@ -20,7 +17,10 @@ Budgets allow you to better control your global account spending and plan for fu
 > ### Tip:  
 > Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
 
-Automatic email alerts notify global account administrators when spending exceeds defined thresholds, allowing for timely intervention. You can also leverage the SAP Alert Notification service for SAP BTP to create custom alerts according to your specific monitoring needs.
+Automatic email alerts notify global account administrators when spending exceeds defined thresholds, allowing for timely intervention. You can also use the SAP Alert Notification service for SAP BTP to create custom alerts according to your specific monitoring needs.
+
+> ### Note:  
+> The use of budgets in your global account is subject to its availability in your country or region. Additionally, even where budgets are available, the option to send automatic email alerts to global account administrators when spending exceeds defined thresholds, may not be supported in your country or region.
 
 > ### Tip:  
 > Remember to periodically review your budget settings and thresholds to ensure proactive financial management.
@@ -29,13 +29,13 @@ Automatic email alerts notify global account administrators when spending exceed
 
 <a name="copydb66be3430664b57bc50bda73b423a65__section_wbk_2b4_hfc"/>
 
-## Important Information
+## Budget Limitations and Responsibilities
 
-When you use budgets in your global account, please note the following important details:
+When you use budgets in your global account, note the following important details:
 
 -   Costs and usage values between the last balance statement and the current date are estimates and may change at the end of the month when the actual overall global account usage is aggregated for billing purposes. SAP does not guarantee the accuracy or reliability of real-time alerts based on these estimates. It is your responsibility to review and validate alerts before you make any decisions based on them.
 
--   The system doesn’t suspend costs and service usage when a budget amount or threshold is exceeded. It’s your responsibility to take the appropriate action within the global account to prevent overages.
+-   The system doesn't suspend costs and service usage when a budget amount or threshold is exceeded. It's your responsibility to take the appropriate action — for example, by reducing active service usage, disabling non-essential services, adjusting the budget amount, or contacting the global account team — to prevent overages.
 
 -   There may be a delay between the time a budget threshold was exceeded and the time that you receive a notification. This may be due to delays in the update cycles of costs and service usage, as well as the periodic evaluations of budgets against your global account costs and usage.
 
@@ -125,7 +125,7 @@ Access and manage your global account's budgets in SAP BTP cockpit. Monitor spen
 
 
 
-A budget configuration includes several settings:
+A budget configuration includes these settings:
 
 
 <table>
@@ -215,7 +215,7 @@ Scope
 
 Determines which subaccounts and service plans in the global account are monitored by the set budget:
 
--   *Subacounts*: By default, the budget's scope covers all subaccounts, but you can choose specific subaccounts to monitor.
+-   *Subaccounts*: By default, the budget's scope covers all subaccounts, but you can choose specific subaccounts to monitor.
 
 -   *Service Plans*: The service plans that are monitored by the budget depend on the budget's type:
 
@@ -268,8 +268,6 @@ For more information, see [Setting Up Budget Threshold Alerts](managing-budgets-
 
 Creating a budget allows you to monitor and manage spending in your global account. You can create a budget from scratch or from an existing budget that is active or has expired.
 
-Each global account is allowed up to 30 active budgets. Active budgets have an end date in the future or no end date. Budgets expire automatically when the current date surpasses the end date of the budget.
-
 
 
 ## Context
@@ -285,18 +283,25 @@ Each global account is allowed up to 30 active budgets. Active budgets have an e
 > ### Tip:  
 > Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
 
+Each global account is allowed up to 30 active budgets. Active budgets have an end date in the future or no end date. Budgets expire automatically when the current date surpasses the end date of the budget.
+
 
 
 ## Procedure
 
-1.  In the *Budgets* tab, click *Create*.
+1.  In SAP BTP cockpit, open your global account and then navigate to the *Costs and Usage* page.
+
+2.  In the *Budgets* tab, click *Create*.
 
     > ### Tip:  
     > To duplicate a previous budget configuration, choose *Create as New Budget* in the budget's <span class="SAP-icons-V5"></span> \(Actions\) context menu. Note that when you use this option to create a new budget, you cannot change the budget type.
 
-2.  Configure the budget's settings.
+    > ### Note:  
+    > The *Create* and *Create as New Budget* buttons are disabled when your global account has reached the 30-budget limit.
 
-    For detailed information about each of the budget settings, see [Understanding the Budget Settings](managing-budgets-in-your-global-account-db66be3.md#copy7e1a74b115cf4b24b396eaec6ec375ed).
+3.  Configure the budget's settings.
+
+    For more information about the budget settings, see [Understanding the Budget Settings](managing-budgets-in-your-global-account-db66be3.md#copy7e1a74b115cf4b24b396eaec6ec375ed).
 
     1.  Enter the budget name and an optional description.
 
@@ -306,14 +311,16 @@ Each global account is allowed up to 30 active budgets. Active budgets have an e
 
     4.  Specify the budget amount.
 
-    5.  Set the time period by entering the start date and optionally the end date. You cannot enter a start date that is in the past.
+    5.  Set the time period by entering the start date and optionally the end date. Enter a start date from today onward.
 
     6.  \(Optional\) Set up to three budget thresholds.
 
+        See also [Setting Up Budget Threshold Alerts](managing-budgets-in-your-global-account-db66be3.md#copy72b64bf5f5d34a1283e2de34a61b69cd).
 
-3.  View the budget amount and threshold in the *History Preview* chart below the *Scopes* section.
 
-4.  Review your configuration and then click *Create*.
+4.  View the budget amount and threshold in the *History Preview* chart below the *Scopes* section.
+
+5.  Review your configuration and then click *Create*.
 
 
 <a name="copyf8773fe63ce54820bbf7ac04dca28199"/>
@@ -343,11 +350,14 @@ Viewing a budget provides detailed information about the budget's configuration 
 
 ## Procedure
 
-In the *Budgets* tab, click on a budget to display more details.
+1.  In SAP BTP cockpit, open your global account and then navigate to the *Costs and Usage* page.
 
-For detailed information about each of the budget settings, see [Understanding the Budget Settings](managing-budgets-in-your-global-account-db66be3.md#copy7e1a74b115cf4b24b396eaec6ec375ed).
+2.  In the *Budgets* tab, click on a budget to display more details.
 
-Use the *History* chart below the *Scopes* section to view the costs or charged usage in your global account over the past 12 months. The budget amount and threshold values are overlaid on the chart data, including budget exceedance information, if relevant.
+    For more information about the budget settings, see [Understanding the Budget Settings](managing-budgets-in-your-global-account-db66be3.md#copy7e1a74b115cf4b24b396eaec6ec375ed).
+
+    Use the *History* chart below the *Scopes* section to view the costs or charged usage in your global account over the past 12 months. The budget amount and threshold values are overlaid on the chart data, including budget exceedance information, if relevant.
+
 
 <a name="copy80ba5a4bac9245c694874f1bee791107"/>
 
@@ -356,11 +366,6 @@ Use the *History* chart below the *Scopes* section to view the costs or charged 
 ## Editing a Budget
 
 Editing a budget allows you to make changes to the budget's settings.
-
-> ### Note:  
-> When you make changes to an existing budget, previously sent alerts may not accurately reflect the new budget settings.
-> 
-> Any changes you make to budget amount will trigger alerts from the current month onward, not retroactively.
 
 
 
@@ -377,21 +382,28 @@ Editing a budget allows you to make changes to the budget's settings.
 > ### Tip:  
 > Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
 
+> ### Note:  
+> When you make changes to an existing budget, previously sent alerts may not accurately reflect the new budget settings.
+> 
+> Any changes you make to budget amount will trigger alerts from the current month onward, not retroactively.
+
 
 
 ## Procedure
 
-1.  In the *Budgets* tab, go to the Active Budgets table.
+1.  In SAP BTP cockpit, open your global account and then navigate to the *Costs and Usage* page.
 
-2.  Choose *Edit* in the budget's <span class="SAP-icons-V5"></span> \(Actions\) context menu.
+2.  In the *Budgets* tab, go to the Active Budgets table.
 
-3.  Make changes to the budget's editable settings.
+3.  Choose *Edit* in the budget's <span class="SAP-icons-V5"></span> \(Actions\) context menu.
+
+4.  Make changes to the budget's editable settings.
 
     Note that you cannot change the start date and budget type of an existing budget.
 
-    For detailed information about each of the budget settings, see [Understanding the Budget Settings](managing-budgets-in-your-global-account-db66be3.md#copy7e1a74b115cf4b24b396eaec6ec375ed).
+    For more information about the budget settings, see [Understanding the Budget Settings](managing-budgets-in-your-global-account-db66be3.md#copy7e1a74b115cf4b24b396eaec6ec375ed).
 
-4.  Review your configuration and then click *Update*.
+5.  Review your configuration and then click *Update*.
 
     > ### Tip:  
     > Whenever you change a budget's settings, we recommend you review and update your threshold values carefully to ensure they align with the new budget settings.
@@ -403,9 +415,7 @@ Editing a budget allows you to make changes to the budget's settings.
 
 ## Deleting a Budget
 
-Deleting a budget removes it permanently from your global account. Deleted budgets cannot be retrieved.
-
-Before deleting a budget, we recommend that you first check with the user that created the budget. Open the budget's details to view this information.
+Delete a budget when it is no longer needed — for example, to free capacity when you reach the 30-active-budget limit, or to remove a budget created in error.
 
 
 
@@ -422,15 +432,22 @@ Before deleting a budget, we recommend that you first check with the user that c
 > ### Tip:  
 > Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
 
+Before deleting a budget, check with the users who created and last modified it to confirm the budget is no longer needed. Open the budget's details and look for the *Created By* and *Modified By* fields.
+
+> ### Caution:  
+> Deleting a budget removes it permanently from your global account. Deleted budgets cannot be retrieved.
+
 
 
 ## Procedure
 
-1.  Go to the *Budgets* tab.
+1.  In SAP BTP cockpit, open your global account and then navigate to the *Costs and Usage* page.
 
-2.  Choose *Delete* in the budget's <span class="SAP-icons-V5"></span> \(Actions\) context menu.
+2.  Go to the *Budgets* tab.
 
-3.  Confirm the delete action.
+3.  Choose *Delete* in the budget's <span class="SAP-icons-V5"></span> \(Actions\) context menu.
+
+4.  Confirm the delete action.
 
 
 <a name="copy72b64bf5f5d34a1283e2de34a61b69cd"/>
@@ -546,9 +563,9 @@ For more information, see:
 </tr>
 </table>
 
-**When working with budget threshold alerts, please consider the following:**
+**When working with budget threshold alerts, consider the following:**
 
--   These alert types are independent of one another, you can use either one or both.
+-   The two alert types are independent of one another, you can use either one or both.
 
 -   When you enable a threshold or change the budget amount in an existing budget, alerts will be triggered from the current month onward, not retroactively for previous months.
 
@@ -557,6 +574,9 @@ For more information, see:
 -   If a set budget amount is exceeded and you haven't set a 100% threshold value nor opted to use any of the available alert types, you won't be automatically notified about the budget exceedance.
 
 -   There may be a delay between the time a budget threshold was exceeded and the time that you receive an alert. This is due to delays between cost and service usage update cycles, along with the interval-based evaluations between budgets and your global account's overall costs and usage.
+
+> ### Remember:  
+> The system doesn't suspend costs and service usage when a budget amount or threshold is exceeded. It's your responsibility to take the appropriate action to prevent overages.
 
 **Related Information**  
 

@@ -971,7 +971,7 @@ Yes
 **Related Information**  
 
 
-[Managing Budgets in Your Global Account](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/e115d5fbe1454f58aabeb3b4b1e7a847.html#loioe115d5fbe1454f58aabeb3b4b1e7a847 "Budgets allow you to better control your global account spending and plan for future consumption by setting up budget limits for your global account in SAP BTP.") :arrow_upper_right:
+[Managing Budgets in Your Global Account](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/e115d5fbe1454f58aabeb3b4b1e7a847.html#loioe115d5fbe1454f58aabeb3b4b1e7a847 "Budgets allow cost controllers and global account admins in SAP BTPto better control their global account spending and plan for future consumption by setting up budget limits for global accounts.") :arrow_upper_right:
 
 [Commercial Models](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/263d40009a5a4237a62e8f5c05ee641e.html "SAP BTP offers two different commercial models for enterprise accounts.") :arrow_upper_right:
 
