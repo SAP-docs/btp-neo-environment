@@ -2,7 +2,7 @@
 
 # Experiencing Issues When Uploading Certificates
 
-Use these troubleshooting steps for resolving common issues and errors related to the process of uploading certificates to the SAP BTP, Neo environment.
+Use these troubleshooting steps for resolving common issues and errors related to the process of uploading certificates to the  environment.
 
 
 

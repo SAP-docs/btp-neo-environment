@@ -2,7 +2,7 @@
 
 # The Custom Domain Is Not Working As Expected
 
-Find the reason why your custom domain in the SAP BTP, Neo environment is not working as expected.
+Find the reason why your custom domain in the  environment is not working as expected.
 
 
 

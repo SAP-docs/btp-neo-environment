@@ -17,7 +17,7 @@ Information about troubleshooting issues you might experience while extending SA
 
 These are some issues you might experience while extending SAP SuccessFactors on the Neo environment:
 
--   [Cannot Create Integration Between SAP SuccessFactors and SAP BTP \(Neo Environment\)](cannot-create-integration-between-sap-successfactors-and-sap-btp-neo-environment-13bacc3.md)
+-   [Cannot Create Integration Between SAP SuccessFactors and SAP BTP, Neo Environment\)](cannot-create-integration-between-sap-successfactors-and-sap-btp-neo-environment-13bacc3.md)
 
 -   [Cannot Delete Integration Between SAP SuccessFactors and SAP BTP \(Neo Environment\)](cannot-delete-integration-between-sap-successfactors-and-sap-btp-neo-environment-1e8ffb9.md)
 

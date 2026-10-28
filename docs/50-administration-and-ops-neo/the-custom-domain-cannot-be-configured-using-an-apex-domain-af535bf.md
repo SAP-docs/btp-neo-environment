@@ -24,7 +24,7 @@ To configure a custom domain, you need to use at least one subdomain. Examples: 
 **Related Information**  
 
 
-[The Custom Domain Is Not Working As Expected](the-custom-domain-is-not-working-as-expected-bd64a01.md "Find the reason why your custom domain in the SAP BTP, Neo environment is not working as expected.")
+[The Custom Domain Is Not Working As Expected](the-custom-domain-is-not-working-as-expected-bd64a01.md "Find the reason why your custom domain in the environment is not working as expected.")
 
 [Troubleshooting Guide for Custom Domains in the Neo Environment](troubleshooting-guide-for-custom-domains-in-the-neo-environment-216e0ed.md "Use this troubleshooting guide to quickly identify and resolve issues with custom domains in the SAP BTP, Neo environment.")
 

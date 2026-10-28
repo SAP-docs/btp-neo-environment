@@ -1,6 +1,6 @@
 <!-- loio13bacc3bbcaa480da2f85c66e097d5c2 -->
 
-# Cannot Create Integration Between SAP SuccessFactors and SAP BTP \(Neo Environment\)
+# Cannot Create Integration Between SAP SuccessFactors and SAP BTP, Neo Environment\)
 
 Cannot create integration between SAP SuccessFactors and SAP BTP, Neo environment.
 

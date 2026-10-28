@@ -55,7 +55,7 @@ General information about OpenID Connect supported by Identity Authentication se
 
     The required application configuration for OpenID Connect is automatically created on the tenant side. It has the following name:
 
-    `SAP BTP Neo OIDC Application - <subaccount>`
+    <code>SAP BTP Neo OIDC Application - &lt;subaccount&gt;</code>
 
     If you want to choose another Open ID Connect provider or switch back to SAP ID service, choose *Delete OpenID Connect Provider*.
 

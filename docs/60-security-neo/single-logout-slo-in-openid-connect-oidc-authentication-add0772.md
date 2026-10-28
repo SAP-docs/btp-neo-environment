@@ -44,7 +44,7 @@ On the Identity Authentication tenant side, you need to configure a set of URIs 
     > ### Tip:  
     > The application created for your subaccount's OIDC configuration has the following name:
     > 
-    > `SAP BTP Neo OIDC Application - <subaccount>`
+    > <code>SAP BTP Neo OIDC Application - &lt;subaccount&gt;</code>
 
 4.  On the right click on the *OpenID Connect Configuration*.
 

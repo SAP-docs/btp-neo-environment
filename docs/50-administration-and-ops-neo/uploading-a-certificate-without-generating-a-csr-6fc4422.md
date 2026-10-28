@@ -22,7 +22,7 @@ However, note that uploading a private key from a remote location poses a securi
 **Related Information**  
 
 
-[Experiencing Issues When Uploading Certificates](experiencing-issues-when-uploading-certificates-2518a20.md "Use these troubleshooting steps for resolving common issues and errors related to the process of uploading certificates to the SAP BTP, Neo environment.")
+[Experiencing Issues When Uploading Certificates](experiencing-issues-when-uploading-certificates-2518a20.md "Use these troubleshooting steps for resolving common issues and errors related to the process of uploading certificates to the environment.")
 
 [Troubleshooting Guide for Custom Domains in the Neo Environment](troubleshooting-guide-for-custom-domains-in-the-neo-environment-216e0ed.md "Use this troubleshooting guide to quickly identify and resolve issues with custom domains in the SAP BTP, Neo environment.")
 

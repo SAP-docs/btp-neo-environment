@@ -234,7 +234,7 @@ To be able to do automated subaccount member migration, make sure you have a pla
 
 ## Procedure
 
-1.  In the SAP BTP cockpit, log in with a user that corresponds to the conditions described in the prerequisites. See [Log On with a Custom Identity Provider to the SAP BTP Cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/0bef9822f5cc40e2b48303e51bec6b94.html "All users can log on to the SAP BTP cockpit with a custom identity provider.") :arrow_upper_right:.
+1.  In the SAP BTP cockpit, log in with a user that corresponds to the conditions described in the prerequisites. See [Log On with a Custom Identity Provider to the SAP BTP cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/0bef9822f5cc40e2b48303e51bec6b94.html "All users can log on to the SAP BTP cockpit with a custom identity provider.") :arrow_upper_right:.
 
 2.  Navigate to your Neo subaccount, and choose *Migration to Cloud Foundry*.
 

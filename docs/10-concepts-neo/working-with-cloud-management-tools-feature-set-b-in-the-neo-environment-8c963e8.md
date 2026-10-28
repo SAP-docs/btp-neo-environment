@@ -51,7 +51,7 @@ Whenever you directly access a Neo subaccount that supports cloud management too
 
 -   The *Entitlements* page is for view-only purposes only. To manage entitlements, you must navigate back to the global account.
 
--   When you click on the global account in the navigation breadcrumb or on *SAP BTP, Neo Environment Cockpit* in the cockpit banner, you are redirected to the cockpit version with your global account.
+-   When you click on the global account in the navigation breadcrumb or in the SAP BTP cockpit in the cockpit banner, you are redirected to the cockpit version with your global account.
 
 
 

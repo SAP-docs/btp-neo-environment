@@ -19,7 +19,7 @@ You can change the location of the configuration file by using the `--config` op
 > ### Tip:  
 > Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
 
-Upon successful login, the btp CLI creates a configuration file \(`config.json`\) in the default location of your user config directory:
+Upon successful login, the BTP CLI creates a configuration file \(`config.json`\) in the default location of your user config directory:
 
 -   Microsoft Windows: <code>C:\Users\<i class="varname">&lt;username&gt;</i>\AppData\Roaming\SAP\btp\config.json</code>
 
@@ -28,7 +28,7 @@ Upon successful login, the btp CLI creates a configuration file \(`config.json`\
 -   Linux: `~/.config/.btp/config.json`
 
 
-This folder serves as the working directory of the btp CLI, that is, it’s necessary for its proper functioning, and is used with each command execution.
+This folder serves as the working directory of the BTP CLI, that is, it’s necessary for its proper functioning, and is used with each command execution.
 
 If you want the configuration file to be created in a different folder, you can use the `--config` option in your login command and then specify this location in each command call with this `--config` option.
 
@@ -82,7 +82,7 @@ Terminal B
 btp login
 ```
 
-Run all commands as usual. The btp CLI uses the default configuration file.
+Run all commands as usual. The BTP CLI uses the default configuration file.
 
 </td>
 <td valign="top">

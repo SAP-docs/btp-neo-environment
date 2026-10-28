@@ -78,7 +78,7 @@ Use the CTS+ Export Web Service to perform a transport of a multitarget applicat
 
     You also have the following additional properties:
 
-    -   \(Mandatory\) sourceSystemId: `<Name of the source node in the transport landscape, which has been defined in CTS+. That is typically the first node in the transport route and corresponds to the development subaccount in SAP BTP Neo environment.>`
+    -   \(Mandatory\) sourceSystemId: **<Name of the source node in the transport landscape, which has been defined in CTS+. That is typically the first node in the transport route and corresponds to the development subaccount in SAP BTP Neo environment.\>**
     -   \(Optional\) chunkSizeMB: `<desired chunk size for the transported MTA>`
 
     > ### Note:  

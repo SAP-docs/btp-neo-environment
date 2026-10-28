@@ -55,5 +55,5 @@ To learn how to configure trust to a custom identity provider, see [Establish Tr
 
 [Trust and Federation with Identity Providers](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/cb1bc8f1bd5c482e891063960d7acd78.html "When setting up accounts you need to assign users. While we provide you with your first users from the default identity provider to get you started, your organization has identity providers that you want to integrate.") :arrow_upper_right:
 
-[Log in](log-in-e241b30.md "Log in with the btp CLI is on global account level.")
+[Log in](log-in-e241b30.md "Log in with the BTP CLI is on global account level.")
 
