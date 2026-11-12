@@ -15,7 +15,7 @@ Changes a certificate of an SSL host. The certificate must already be uploaded.
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
 
 > ### Tip:  
-> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to Neo Environment Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
 
 
 
@@ -139,10 +139,10 @@ neo change-domain-certificate --account mysubaccount --user mymail@example.com -
 
 The `change-domain-certificate` command lets you change the domain certificate of a custom domain in one step instead of executing both the `unbind-domain-certificate` and `bind-domain-certificate` commands.
 
-If your current version of the SDK for SAP BTP, Neo environment does not support this command, update your SDK or use the `unbind-domain-certificate` and `bind-domain-certificate` commands instead.
+If your current version of the SDK for Neo environment does not support this command, update your SDK or use the `unbind-domain-certificate` and `bind-domain-certificate` commands instead.
 
 > ### Note:  
-> The first version of the SDK for SAP BTP, Neo environment to support the `change-domain-certificate` command are:
+> The first version of the SDK for Neo environment to support the `change-domain-certificate` command are:
 > 
 > -   Java Web SDK \(version 1.126.11\)
 > 

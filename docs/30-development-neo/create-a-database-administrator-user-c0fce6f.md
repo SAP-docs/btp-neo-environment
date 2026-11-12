@@ -85,5 +85,5 @@ SAP BTP creates four users that it requires to manage the database: SYSTEM, BKPM
 
 [Setting Up Roles and Authorizations](http://help.sap.com/saphelp_hanaplatform/helpdata/en/8f/f545995b594245b2508a380457fbc8/content.htm?frameset=/en/9a/b0b327addd411ab6eadeba205a889e/frameset.htm)
 
-[Creating an SAP HANA Tenant Database and an SAP HANA XS Classic Application](https://help.sap.com/viewer/d4790b2de2f4429db6f3dff54e4d7b3a/Cloud/en-US/a4b1a6abc13f45d58c9a156b81487d8a.html "Create and bind an SAP HANA tenant database to an SAP HANA XS classic application using the SAP BTP cockpit, the SAP HANA cockpit and the SAP HANA Web-Based Development Workbench.") :arrow_upper_right:
+[Creating an SAP HANA Tenant Database and an SAP HANA XS Classic Application](https://help.sap.com/viewer/d4790b2de2f4429db6f3dff54e4d7b3a/Cloud/en-US/a4b1a6abc13f45d58c9a156b81487d8a.html "Create and bind an SAP HANA tenant database to an SAP HANA XS classic application using the cockpit, the SAP HANA cockpit and the SAP HANA Web-Based Development Workbench.") :arrow_upper_right:
 

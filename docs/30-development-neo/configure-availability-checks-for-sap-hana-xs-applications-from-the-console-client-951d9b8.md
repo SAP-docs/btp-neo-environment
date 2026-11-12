@@ -34,7 +34,7 @@ In the console client, you can configure an availability check for your SAP HANA
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
 
 > ### Tip:  
-> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to Neo Environment Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
 
 
 
@@ -78,7 +78,7 @@ In the console client, you can configure an availability check for your SAP HANA
 
 [Alerting](https://help.sap.com/viewer/64f7d2b06c6b40a9b3097860c5930641/Cloud/en-US/2f782d7f73304426b287f4b25e47f0b1.html "Configure a channel to receive alert notifications from SAP Monitoring service when your applications and database systems are in a problematic state or have recovered from such a state.") :arrow_upper_right:
 
-[Configure Availability Checks for SAP HANA XS Applications from the Cockpit](configure-availability-checks-for-sap-hana-xs-applications-from-the-cockpit-a6663f0.md "In the SAP BTP cockpit, you can configure availability checks for the SAP HANA XS applications running on your productive SAP HANA database system.")
+[Configure Availability Checks for SAP HANA XS Applications from the Cockpit](configure-availability-checks-for-sap-hana-xs-applications-from-the-cockpit-a6663f0.md "In the cockpit, you can configure availability checks for the SAP HANA XS applications running on your productive SAP HANA database system.")
 
 [Regions and Hosts Available for the Neo Environment](../10-concepts-neo/regions-and-hosts-available-for-the-neo-environment-d722f7c.md "Each region represents a geographical location (for example, Europe, US East) where applications, data, or services are hosted.")
 

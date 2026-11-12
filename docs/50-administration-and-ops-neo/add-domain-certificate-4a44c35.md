@@ -15,7 +15,7 @@ Adds a certificate to the SSL host. The certificate must already be uploaded.
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
 
 > ### Tip:  
-> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to Neo Environment Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
 
 
 
@@ -26,7 +26,7 @@ neo add-domain-certificate --account <subaccount_technical_name> --user <e-mail_
 The `add-domain-certificate` command allows you to add an already uploaded certificate of another type to the SSL host. For example, if you already have an RSA certificate bound to the SSL host, you now also have the option to add an ECC certificate to that SSL host, and vice versa.
 
 > ### Recommendation:  
-> SAP BTP, Neo environment offers you the possibility to use the most modern and secure cryptography algorithm for server-side certificates, elliptic curve \(ECC\). If you want to adapt to the latest cryptography recommendations, you should use ECC certificates.
+> Neo environment offers you the possibility to use the most modern and secure cryptography algorithm for server-side certificates, elliptic curve \(ECC\). If you want to adapt to the latest cryptography recommendations, you should use ECC certificates.
 
 
 

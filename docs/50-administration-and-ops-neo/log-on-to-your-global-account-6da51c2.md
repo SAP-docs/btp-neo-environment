@@ -4,7 +4,7 @@
 
 # Log On to Your Global Account
 
-Use the SAP BTP cockpit to log on to your global account and start working in SAP BTP.
+Use the cockpit to log on to your global account and start working in SAP BTP.
 
 
 
@@ -29,7 +29,7 @@ For more information, see [2669325 - How to add a user as a Global Account admin
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
 
 > ### Tip:  
-> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to Neo Environment Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
 
 
 
@@ -37,9 +37,9 @@ For more information, see [2669325 - How to add a user as a Global Account admin
 
 ## Procedure
 
-1.  Access the SAP BTP cockpit.
+1.  Access the cockpit.
 
-    For more information, see [Access the Cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/4e750660b72e4fd6b2485ffb0b3cbdca.html "Learn how to access the SAP BTP cockpit.") :arrow_upper_right:.
+    For more information, see [Access the Cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/4e750660b72e4fd6b2485ffb0b3cbdca.html "Learn how to access the cockpit.") :arrow_upper_right:.
 
 2.  Choose a global account.
 
@@ -67,7 +67,7 @@ The *Account Explorer* page for that global account opens.
 
 -   Access your subaccounts and create new subaccounts.
 
-    See [Create a Subaccount](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/05280a123d3044ae97457a25b3013918.html "Create subaccounts in your global account using the SAP BTP cockpit.") :arrow_upper_right:.
+    See [Create a Subaccount](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/05280a123d3044ae97457a25b3013918.html "Create subaccounts in your global account using the cockpit.") :arrow_upper_right:.
 
 
 **Related Information**  
@@ -77,5 +77,5 @@ The *Account Explorer* page for that global account opens.
 
 [Global Accounts](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/8ed4a705efa0431b910056c0acdbf377.html#loioc165d95ee700407eb181770901caec94 "A global account is the realization of a contract you or your company has made with SAP.") :arrow_upper_right:
 
-[Create a Subaccount](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/05280a123d3044ae97457a25b3013918.html "Create subaccounts in your global account using the SAP BTP cockpit.") :arrow_upper_right:
+[Create a Subaccount](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/05280a123d3044ae97457a25b3013918.html "Create subaccounts in your global account using the cockpit.") :arrow_upper_right:
 

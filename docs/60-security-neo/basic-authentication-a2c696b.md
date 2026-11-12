@@ -17,7 +17,7 @@ In basic HTTP authentication method \("basic authentication" for short\), users 
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
 
 > ### Tip:  
-> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to Neo Environment Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
 
 For more inormation about basic authentication, see [RFC 7617 \(Section 2\)](https://datatracker.ietf.org/doc/html/rfc7617#section-2).
 
@@ -84,7 +84,7 @@ Alternatively, you can use your Identity Authentication tenant that provides you
 ## Prerequisites
 
 -   \(If you want to use Identity Authentication instead of SAP ID Service\) You have at least one fully configured Identity Authentication tenant \(and containing the required users\). See [Initial Setup \(for Identity Authentication\)](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/31af7da133874e199a7df1d42905241b.html).
--   You are logged in the SAP BTP cockpit with a user that has the platform role *Administrator* or a custom platform role with the following scopes: *manageBasicConfigurationSettings* and *readBasicConfigurationSettings*. See [Managing Member Authorizations in the Neo Environment](../50-administration-and-ops-neo/managing-member-authorizations-in-the-neo-environment-a1ab5c4.md)
+-   You are logged in the cockpit with a user that has the platform role *Administrator* or a custom platform role with the following scopes: *manageBasicConfigurationSettings* and *readBasicConfigurationSettings*. See [Managing Member Authorizations in the Neo Environment](../50-administration-and-ops-neo/managing-member-authorizations-in-the-neo-environment-a1ab5c4.md)
 
 
 
@@ -92,7 +92,7 @@ Alternatively, you can use your Identity Authentication tenant that provides you
 
 ## Procedure
 
-1.  In the SAP BTP Cockpit, navigate to your subaccount.
+1.  In the Cockpit, navigate to your subaccount.
 
 2.  Navigate to *Security* \> *Trust* \> *Basic Authentication*
 

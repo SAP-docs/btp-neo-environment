@@ -17,7 +17,7 @@ Learn how to structure a global account according to your organization’s and p
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
 
 > ### Tip:  
-> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to Neo Environment Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
 
 To learn more about the concept of subaccounts, see [Subaccounts](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/8ed4a705efa0431b910056c0acdbf377.html#loio8d6e3a0fa4ab43e4a421d3ed08128afa "In subaccounts, you deploy applications, use services, and manage your subscriptions. You can use them to manage members, authorizations, and entitlements.") :arrow_upper_right:.
 
@@ -27,7 +27,7 @@ To learn more about the concept of subaccounts, see [Subaccounts](https://help.s
 
 1.  Learn how to create subaccounts.
 
-    [Create a Subaccount](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/05280a123d3044ae97457a25b3013918.html "Create subaccounts in your global account using the SAP BTP cockpit.") :arrow_upper_right:
+    [Create a Subaccount](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/05280a123d3044ae97457a25b3013918.html "Create subaccounts in your global account using the cockpit.") :arrow_upper_right:
 
 2.  Learn how to manage users.
 
@@ -35,8 +35,8 @@ To learn more about the concept of subaccounts, see [Subaccounts](https://help.s
 
 3.  Learn how to administer your subaccount.
 
-    -   [Change Subaccount Details](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/567d4a84bfdc428f8f3640e07261f73a.html "Edit subaccounts using the SAP BTP cockpit.") :arrow_upper_right:
+    -   [Change Subaccount Details](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/567d4a84bfdc428f8f3640e07261f73a.html "Edit subaccounts using the cockpit.") :arrow_upper_right:
     -   [View Subaccount Usage Analytics](view-subaccount-usage-analytics-8f4d9db.md)
-    -   [Delete a Subaccount](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/419dc3d380e74f1abb06ba44d61e71ae.html "Delete subaccounts using the SAP BTP cockpit to clean up your account hierarchy, free up quota used by services in your subaccounts, and to reduce overall costs.") :arrow_upper_right:
+    -   [Delete a Subaccount](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/419dc3d380e74f1abb06ba44d61e71ae.html "Delete subaccounts using the cockpit to clean up your account hierarchy, free up quota used by services in your subaccounts, and to reduce overall costs.") :arrow_upper_right:
 
 

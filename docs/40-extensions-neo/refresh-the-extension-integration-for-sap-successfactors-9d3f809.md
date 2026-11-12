@@ -36,7 +36,7 @@ For more information, see [Platform Scopes](https://help.sap.com/viewer/65de2977
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
 
 > ### Tip:  
-> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to Neo Environment Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
 
 You can refresh the extension integration for the SAP SuccessFactors company and the respective subaccounts.
 
@@ -68,7 +68,7 @@ During the refresh:
 -   The OAuth SAML Bearer destinations created for the extension integration are updated.
 
     > ### Note:  
-    > If you have manually deleted an OAuth SAML Bearer destination with system user, after the refresh, this destination will be recreated with all the properties it used to have except the *System User*. For the *System User* property, it will be set the value `##REPLACE_USER##`. You need to manually edit this destination in the SAP BTP cockpit and replace the *System User* value with a real technical user.
+    > If you have manually deleted an OAuth SAML Bearer destination with system user, after the refresh, this destination will be recreated with all the properties it used to have except the *System User*. For the *System User* property, it will be set the value `##REPLACE_USER##`. You need to manually edit this destination in the cockpit and replace the *System User* value with a real technical user.
     > 
     > Note that the *System User* property is deprecated and will be removed soon. We recommend that you work on behalf of specific \(named\) users instead of working with a technical user.
     > 

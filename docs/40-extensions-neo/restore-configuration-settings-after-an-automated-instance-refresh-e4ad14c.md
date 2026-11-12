@@ -26,7 +26,7 @@ If you have performed an automated instance refresh with the *Instance Refresh* 
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
 
 > ### Tip:  
-> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to Neo Environment Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
 
 In SAP SuccessFactors, instance refresh is a procedure in which the data and the settings of a source company instance are copied into another company instance. During the instance refresh the data of the target company instance is deleted and replaced by the data of the source company instance. Therefore, after an instance refresh, if the target company has been integrated with a subaccount in SAP BTP, the extension integration configuration settings and artifacts in the target company are overwritten by the configuration settings and data coming from the source company.
 
@@ -46,7 +46,7 @@ However, you must reconfigure the following artifacts and settings in the SAP Su
 -   Outbound connections \(can be recreated with a solution deployment only\)
 
 
-The automated refresh results in the following behavior in the *Solutions* view in SAP BTP cockpit
+The automated refresh results in the following behavior in the *Solutions* view in cockpit
 
 -   The custom home page tiles are missing.
 
@@ -83,7 +83,7 @@ The automated refresh results in the following behavior in the *Solutions* view 
 
 -   You have restored the extension integration artifacts and configuration setting of the target company instance and deleted any extension integration configuration settings coming from the source company instance.
 
--   The *Solutions* view in SAP BTP cockpit displays the home page tiles.
+-   The *Solutions* view in cockpit displays the home page tiles.
 
 -   If you have redeployed a solution, the OAuth client IDs have been reverted to the initial ones and they can be found in the *Solution* view.
 

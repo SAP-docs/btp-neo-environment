@@ -24,7 +24,7 @@ You can register a tenant for Identity Authentication service as an identity pro
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
 
 > ### Tip:  
-> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to Neo Environment Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
 
 Identity Authentication service provides identity management for SAP BTP applications. You can register a tenant for Identity Authentication service as an identity provider for the applications in your SAP BTP subaccount.
 
@@ -38,7 +38,7 @@ Identity Authentication service provides identity management for SAP BTP applica
 
 ## Procedure
 
-1.  In the SAP BTP cockpit, navigate to the required SAP BTP subaccount. See [Navigate in the Cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/0874895f1f78459f9517da55a11ffebd.html "Learn how to navigate to your global accounts, directories, and subaccounts in the SAP BTP cockpit.") :arrow_upper_right:.
+1.  In the SAP BTP cockpit, navigate to the required SAP BTP subaccount. See [Navigate in the Cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/0874895f1f78459f9517da55a11ffebd.html "Learn how to navigate to your global accounts, directories, and subaccounts in the cockpit.") :arrow_upper_right:.
 
 2.  Choose the *Security* \> *Trust* section.
 
@@ -70,7 +70,7 @@ The tenant for Identity Authentication appears in the list of SAML identity prov
 > Each SAP BTP subaccount is a separate service provider in the tenant for Identity Authentication.
 
 > ### Tip:  
-> If you need each of your SAP BTP applications to be represented by its own service provider, create and use a separate subaccount for each application. See [Create a Subaccount](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/05280a123d3044ae97457a25b3013918.html "Create subaccounts in your global account using the SAP BTP cockpit.") :arrow_upper_right:.
+> If you need each of your SAP BTP applications to be represented by its own service provider, create and use a separate subaccount for each application. See [Create a Subaccount](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/05280a123d3044ae97457a25b3013918.html "Create subaccounts in your global account using the cockpit.") :arrow_upper_right:.
 
 **Related Information**  
 

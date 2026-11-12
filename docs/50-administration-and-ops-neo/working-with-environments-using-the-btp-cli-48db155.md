@@ -1,8 +1,8 @@
 <!-- loio48db1553eb18451e8f71fc56d99ede71 -->
 
-# Working with Environments Using the BTP CLI
+# Working with Environments Using the btp CLI
 
-Use the SAP BTP command line interface \(BTP CLI\) to manage runtime environment instances in a subaccount. For example, enable the Cloud Foundry environment by creating a Cloud Foundry org \(environment instance\).
+Use the SAP BTP command line interface \(btp CLI\) to manage runtime environment instances in a subaccount. For example, enable the Cloud Foundry environment by creating a Cloud Foundry org \(environment instance\).
 
 > ### Caution:  
 > SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
@@ -13,7 +13,7 @@ Use the SAP BTP command line interface \(BTP CLI\) to manage runtime environment
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
 
 > ### Tip:  
-> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to Neo Environment Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
 
 > ### Tip:  
 > By default, all commands are executed in the global account you're logged in to. To change this target to a subaccount, use <code>btp target -sa <i class="varname">&lt;my-subaccount-id&gt;</i></code>. See [Set a Target for Subsequent Commands with btp target](set-a-target-for-subsequent-commands-with-btp-target-720645a.md).
@@ -159,9 +159,9 @@ Delete environment instances of a subaccount
 </table>
 
 > ### Tip:  
-> For information about using these BTP CLI commands with the Cloud Foundry environment, see [Org Management Using the SAP BTP Command Line Interface (BTP CLI)](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/aee40e1afa56445a9bd57c2621d6eaaa.html "The Cloud Foundry environment allows you to create polyglot cloud applications in Cloud Foundry. To manage the lifecycle of an org in the Cloud Foundry environment, use the accounts/environment-instance command in the BTP CLI.") :arrow_upper_right:.
+> For information about using these btp CLI commands with the Cloud Foundry environment, see [Org Management Using the SAP BTP Command Line Interface (btp CLI)](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/aee40e1afa56445a9bd57c2621d6eaaa.html "The Cloud Foundry environment allows you to create polyglot cloud applications in Cloud Foundry. To manage the lifecycle of an org in the Cloud Foundry environment, use the accounts/environment-instance command in the btp CLI.") :arrow_upper_right:.
 > 
-> For information about using BTP CLI with the project "Kyma" environment, see the [Enable SAP BTP, Kyma Runtime Using the Command Line](https://developers.sap.com/tutorials/btp-cli-setup-kyma-cluster.html) tutorial and the [Creating SAP BTP, Kyma runtime via the BTP CLI](https://community.sap.com/t5/technology-blogs-by-sap/creating-sap-btp-kyma-runtime-via-the-sap-btp-cli/ba-p/13526069) blog.
+> For information about using btp CLI with the project "Kyma" environment, see the [Enable Kyma Runtime on SAP Platform Using the Command Line](https://developers.sap.com/tutorials/btp-cli-setup-kyma-cluster.html) tutorial and the [Creating Kyma runtime on SAP platform via the btp CLI](https://community.sap.com/t5/technology-blogs-by-sap/creating-sap-btp-kyma-runtime-via-the-sap-btp-cli/ba-p/13526069) blog.
 
 **Related Information**  
 
@@ -170,7 +170,7 @@ Delete environment instances of a subaccount
 
 [Setting Entitlements Using the btp CLI](setting-entitlements-using-the-btp-cli-5af849c.md "Use the SAP BTP command line interface (btp CLI) to set entitlements to define the functionality or permissions available for users of global accounts, directories, and subaccounts.")
 
-[Working with Multitenant Applications Using the BTP CLI](working-with-multitenant-applications-using-the-btp-cli-c1b0fcc.md "Use the SAP BTP command line interface (BTP CLI) to manage the multitenant applications to which a subaccount is entitled to subscribe.")
+[Working with Multitenant Applications Using the btp CLI](working-with-multitenant-applications-using-the-btp-cli-c1b0fcc.md "Use the SAP BTP command line interface (btp CLI) to manage the multitenant applications to which a subaccount is entitled to subscribe.")
 
 [Working with External Resource Providers Using the btp CLI](working-with-external-resource-providers-using-the-btp-cli-48d7688.md "Use the SAP BTP command line interface (btp CLI) to get details, or to create or delete resource provider instances in a global account.")
 
@@ -184,9 +184,9 @@ Delete environment instances of a subaccount
 
 [Managing API Credentials for Calling REST APIs of SAP Authorization and Trust Management Service](managing-api-credentials-for-calling-rest-apis-of-sap-authorization-and-trust-manag-ce43eb5.md "Use the SAP BTP command line interface (btp CLI) to manage API credentials, which enable you to access the REST APIs of the SAP Authorization and Trust Management service.")
 
-[Working with Resources of the SAP Service Manager Using the btp CLI](working-with-resources-of-the-sap-service-manager-using-the-btp-cli-fe6a53b.md "Use the SAP BTP command line interface to perform various operations related to your platforms, attached service brokers, service instances, and service bindings.")
+[Working with Resources of the SAP Service Manager Using the btp CLI](working-with-resources-of-the-sap-service-manager-using-the-btp-cli-fe6a53b.md "Use the SAP BTP command line interface (btp CLI) to perform various operations related to your platforms, attached service brokers, service instances, and service bindings.")
 
-[Working with Multi-Region Disaster Recovery Using the BTP CLI](working-with-multi-region-disaster-recovery-using-the-btp-cli-b1fc245.md "Use the SAP BTP command line interface (BTP CLI) to manage Multi-Region Disaster Recovery setups, such as creating, viewing, or deleting subaccount pairs.")
+[Working with Multi-Region Disaster Recovery Using the btp CLI](working-with-multi-region-disaster-recovery-using-the-btp-cli-b1fc245.md "Use the SAP BTP command line interface (btp CLI) to manage Multi-Region Disaster Recovery setups, such as creating, viewing, or deleting subaccount pairs.")
 
-[BTP CLI Command Reference](https://help.sap.com/docs/BTP/btp-cli/intro.html)
+[btp CLI Command Reference](https://help.sap.com/docs/BTP/btp-cli/intro.html)
 

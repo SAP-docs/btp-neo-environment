@@ -29,7 +29,7 @@ You can see the logs in a log viewer, or you can download them in a log file.
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
 
 > ### Tip:  
-> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to Neo Environment Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
 
 Depending on the total logs size, a few files per day can be logged for each type of log \(default traces and HTTP access log\) . The logs are kept for 7 days before they are deleted. If the application is deleted, the logs are deleted as well. Currently, the following data is logged:
 
@@ -41,7 +41,7 @@ Depending on the total logs size, a few files per day can be logged for each typ
 -   The actual error message text
 
 > ### Note:  
-> Each row in the log can be up to 3 KB. If the row’s size is bigger than 3 KB, it’s truncated.
+> Each row in the log can be up to 3 KB. If the row's size is bigger than 3 KB, it's truncated.
 
 **HTML Access Logs**
 
@@ -74,9 +74,9 @@ Depending on the total logs size, a few files per day can be logged for each typ
 
 ## Procedure
 
-1.  Open the subaccount in the SAP BTP cockpit.
+1.  Open the subaccount in the cockpit.
 
-    For more information, see [Navigate in the Cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/0874895f1f78459f9517da55a11ffebd.html "Learn how to navigate to your global accounts, directories, and subaccounts in the SAP BTP cockpit.") :arrow_upper_right:.
+    For more information, see [Navigate in the Cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/0874895f1f78459f9517da55a11ffebd.html "Learn how to navigate to your global accounts, directories, and subaccounts in the cockpit.") :arrow_upper_right:.
 
 2.  Go to the *Applications* \> *HTML5 Applications* page of the subaccount.
 
@@ -95,7 +95,7 @@ Depending on the total logs size, a few files per day can be logged for each typ
 
     .
 
-5.  To display the contents of a particular log file, choose ![](images/Display_HTML5_Log_Icon_8241912.png) \(*Display*\). To download the file, choose ![](images/Download_HTML5_Log_Icon_1835bb5.png) \(*Download*\).
+5.  To display the contents of a particular log file, choose ![Display icon](images/Display_HTML5_Log_Icon_8241912.png) \(*Display*\). To download the file, choose ![Download icon](images/Download_HTML5_Log_Icon_1835bb5.png) \(*Download*\).
 
 
 <a name="task_aj2_pdc_cqb"/>
@@ -110,9 +110,9 @@ Depending on the total logs size, a few files per day can be logged for each typ
 
 ## Procedure
 
-1.  Open the subaccount in the SAP BTP cockpit.
+1.  Open the subaccount in the cockpit.
 
-    For more information, see [Navigate in the Cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/0874895f1f78459f9517da55a11ffebd.html "Learn how to navigate to your global accounts, directories, and subaccounts in the SAP BTP cockpit.") :arrow_upper_right:.
+    For more information, see [Navigate in the Cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/0874895f1f78459f9517da55a11ffebd.html "Learn how to navigate to your global accounts, directories, and subaccounts in the cockpit.") :arrow_upper_right:.
 
 2.  Go to the *Applications* \> *Subscriptions* page of the subaccount.
 
@@ -129,11 +129,11 @@ Depending on the total logs size, a few files per day can be logged for each typ
 
     .
 
-5.  To display the contents of a particular log file, choose ![](images/Display_HTML5_Log_Icon_8241912.png) \(*Display*\). To download the file, choose ![](images/Download_HTML5_Log_Icon_1835bb5.png) \(*Download*\).
+5.  To display the contents of a particular log file, choose ![Display icon](images/Display_HTML5_Log_Icon_8241912.png) \(*Display*\). To download the file, choose ![Download icon](images/Download_HTML5_Log_Icon_1835bb5.png) \(*Download*\).
 
 
 **Related Information**  
 
 
-[Log Viewers for HTML5 Applications](https://help.sap.com/viewer/f88a032109f0429caea276fc6e3a95f9/Cloud/en-US/8a2bef5ed305481c9640b4cda3613293.html "The SAP BTP cockpit provides dedicated log viewers for showing default traces and HTTP access logs.") :arrow_upper_right:
+[Log Viewers for HTML5 Applications](https://help.sap.com/viewer/f88a032109f0429caea276fc6e3a95f9/Cloud/en-US/8a2bef5ed305481c9640b4cda3613293.html "The cockpit provides dedicated log viewers for showing default traces and HTTP access logs.") :arrow_upper_right:
 

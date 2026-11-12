@@ -13,7 +13,7 @@ To use an enterprise account, you can either purchase a customer account, join t
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
 
 > ### Tip:  
-> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to Neo Environment Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
 
 **Related Information**  
 
@@ -37,7 +37,7 @@ A customer account is an enterprise account that allows you to host productive, 
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
 
 > ### Tip:  
-> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to Neo Environment Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
 
 
 
@@ -49,7 +49,7 @@ When you want to purchase a customer account, you can select from a set of prede
 
 ## Free Tier
 
-If you want to try out services for free, with the option of easily upgrading them later, you can get an enterprise account and use free tier service plans only. See [Get an Account on SAP BTP to Try Out Free Tier Service Plans](https://developers.sap.com/tutorials/btp-free-tier-account.html). When you sign up for a global account to try out free tier service plans, you need to select either an existing global account of your company, or create a new global account. If you choose an existing global account, make sure to contact the global account admin of this global account, as they'll receive the communication emails. In this case, we recommend to have them add you as Global Account Administrator. See [Assign Users to Role Collections](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/c5766765bda74ad59fe656977c8fa4d6.html "You can assign users to role collections by adding them to the desired role collection in the SAP BTP cockpit. Use this function to manage user authorizations and access control within your global account or subaccount in the cloud platform.") :arrow_upper_right: and [SAP BTP Onboarding Resource Center](https://support.sap.com/en/product/onboarding-resource-center/business-technology-platform.html).
+If you want to try out services for free, with the option of easily upgrading them later, you can get an enterprise account and use free tier service plans only. See [Get an Account on SAP BTP to Try Out Free Tier Service Plans](https://developers.sap.com/tutorials/btp-free-tier-account.html). When you sign up for a global account to try out free tier service plans, you need to select either an existing global account of your company, or create a new global account. If you choose an existing global account, make sure to contact the global account admin of this global account, as they'll receive the communication emails. In this case, we recommend to have them add you as Global Account Administrator. See [Assign Users to Role Collections](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/c5766765bda74ad59fe656977c8fa4d6.html "You can assign users to role collections by adding them to the desired role collection in the SAP BTP cockpit. Use this function to manage user authorizations and access control within your global account or subaccount in SAP BTP.") :arrow_upper_right: and [SAP BTP Onboarding Resource Center](https://support.sap.com/en/product/onboarding-resource-center/business-technology-platform.html).
 
 You can upgrade and refine your resources later on. You can also contact your SAP sales representative and opt for a configuration, tailored to your needs.
 
@@ -73,7 +73,7 @@ If you chose an add-on to an existing global account, the initial access email w
 
 [Using Free Service Plans](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/524e1081d8dc4b0f9d055a6bec383ec3.html "The free tier model for SAP BTP lets you try out services in global accounts without any additional cost using the consumption-based commercial model and an enterprise account.") :arrow_upper_right:
 
-[Access the Cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/4e750660b72e4fd6b2485ffb0b3cbdca.html "Learn how to access the SAP BTP cockpit.") :arrow_upper_right:
+[Access the Cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/4e750660b72e4fd6b2485ffb0b3cbdca.html "Learn how to access the cockpit.") :arrow_upper_right:
 
 <a name="copyad04d906a6564812882346dea9e6e5b5"/>
 
@@ -94,7 +94,7 @@ A partner account is an enterprise account that enables you to build application
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
 
 > ### Tip:  
-> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to Neo Environment Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
 
 
 
@@ -117,7 +117,7 @@ SAP BTP offers two different commercial models for enterprise accounts.
 
 
 
--   **Consumption-based commercial model:** Your organization receives access to all current and future services that are eligible for this model. You have complete flexibility to turn services on and off and to switch between services as your business requires throughout the duration of your contract. This commercial model is available in the following flavors: Cloud Platform Enterprise Agreement \(CPEA\), and Pay-As-You-Go for SAP BTP.
+-   **Consumption-based commercial model:** Your organization receives access to all current and future services that are eligible for this model. You have complete flexibility to turn services on and off and to switch between services as your business requires throughout the duration of your contract. This commercial model is available in the following flavors: Cloud Platform Enterprise Agreement \(CPEA\), and Pay-As-You-Go.
 
     For more information, see [What Is the Consumption-Based Commercial Model?](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/7047eb4a15a84ac7be3c8612179e6d1f.html "With the consumption-based model, your organization purchases an entitlement to all current and future SAP BTP services that are eligible for this model. Throughout the duration of your contract, you have complete flexibility to turn services on and off and to switch between services as your business requires.") :arrow_upper_right:
 
@@ -155,11 +155,11 @@ With the consumption-based model, your organization purchases an entitlement to 
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
 
 > ### Tip:  
-> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to Neo Environment Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
 
 
 
-The consumption-based commercial model is available in the following flavors: the **CPEA** \(**Cloud Platform Enterprise Agreement**\), and **Pay-As-You-Go for SAP BTP**. Each option is suited to different business situations and levels of financial commitment, as described in the table below. For additional information and clarifications, please contact your account executive.
+The consumption-based commercial model is available in the following flavors: the **CPEA** \(**Cloud Platform Enterprise Agreement**\), and **Pay-As-You-Go**. Each option is suited to different business situations and levels of financial commitment, as described in the table below. For additional information and clarifications, please contact your account executive.
 
 
 <table>
@@ -185,7 +185,7 @@ The consumption-based commercial model is available in the following flavors: th
 <tr>
 <td valign="top">
 
-**Pay-As-You-Go for SAP BTP**
+**Pay-As-You-Go**
 
 </td>
 <td valign="top">
@@ -204,11 +204,11 @@ If you want information about the **Pay-As-You-Go for SAP BTP for cloud test, de
 </table>
 
 > ### Tip:  
-> You can monitor costs and service usage throughout the contract period. See [Monitoring Usage and Consumption Costs in Your Global Account](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/de6f0db8919f4e6f97e54bc4ddaf2ab8.html "SAP BTP cockpit supports advanced usage and cost monitoring of services in your global account. You can compare the usage and costs of multiple services and subaccounts, see monthly trends, and drill down into subaccounts and service plans for detailed information.") :arrow_upper_right:.
+> You can monitor costs and service usage throughout the contract period. See [Monitoring Usage and Consumption Costs in Your Global Account](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/de6f0db8919f4e6f97e54bc4ddaf2ab8.html "cockpit supports advanced usage and cost monitoring of services in your global account. You can compare the usage and costs of multiple services and subaccounts, see monthly trends, and drill down into subaccounts and service plans for detailed information.") :arrow_upper_right:.
 
 For information about eligible services and pricing, see [https://www.sap.com/products/technology-platform/pricing.html](https://www.sap.com/products/technology-platform/pricing.html), or access the SAP BTP service catalog via the [SAP Discovery Center](https://discovery-center.cloud.sap). The SAP BTP service catalog allows you to identify service availability per data center and to determine licensing model compatibility per available service plan.
 
-As part of the free tier model for SAP BTP, some services offer free service plans that allow you to try out these services without any additional charge within your ,CPEA or Pay-As-You-Go for SAP BTP global account. For more information, see [Using Free Service Plans](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/524e1081d8dc4b0f9d055a6bec383ec3.html "The free tier model for SAP BTP lets you try out services in global accounts without any additional cost using the consumption-based commercial model and an enterprise account.") :arrow_upper_right:.
+As part of the free tier model for SAP BTP, some services offer free service plans that allow you to try out these services without any additional charge within your ,CPEA or Pay-As-You-Go global account. For more information, see [Using Free Service Plans](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/524e1081d8dc4b0f9d055a6bec383ec3.html "The free tier model for SAP BTP lets you try out services in global accounts without any additional cost using the consumption-based commercial model and an enterprise account.") :arrow_upper_right:.
 
 To find frequently asked questions about the consumption-based commercial model, see the *Frequently Asked Questions* section in [https://www.sap.com/products/technology-platform/pricing.html](https://www.sap.com/products/technology-platform/pricing.html) .
 
@@ -220,13 +220,13 @@ To find frequently asked questions about the consumption-based commercial model,
 
 [What Is the Subscription-Based Commercial Model?](get-an-enterprise-account-96e78ab.md#loio239b6e045e7e48f58b61655b02748d45 "Your organization receives a fixed price and period (typically a 1 to 3-year period) for access to your subscribed SAP BTP services.")
 
-[Monitoring Usage and Consumption Costs in Your Global Account](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/de6f0db8919f4e6f97e54bc4ddaf2ab8.html "SAP BTP cockpit supports advanced usage and cost monitoring of services in your global account. You can compare the usage and costs of multiple services and subaccounts, see monthly trends, and drill down into subaccounts and service plans for detailed information.") :arrow_upper_right:
+[Monitoring Usage and Consumption Costs in Your Global Account](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/de6f0db8919f4e6f97e54bc4ddaf2ab8.html "cockpit supports advanced usage and cost monitoring of services in your global account. You can compare the usage and costs of multiple services and subaccounts, see monthly trends, and drill down into subaccounts and service plans for detailed information.") :arrow_upper_right:
 
 [View Subaccount Usage Analytics](../50-administration-and-ops-neo/view-subaccount-usage-analytics-8f4d9db.md "You can explore, compare, and analyze all your actual usage data for the services and applications that are available in your subaccount.")
 
 [Managing Global Accounts Using the Cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/667f34ba9222450491c2b848cd17e189.html "Your SAP BTP global account is the entry point for managing the resources, landscape, and entitlements for your departments and projects in a self-service manner.") :arrow_upper_right:
 
-[Managing Directories Using the Cockpit](../50-administration-and-ops-neo/managing-directories-using-the-cockpit-f495ac1.md "Learn how to organize and manage your subaccounts according to your technical and business needs by using directories in the SAP BTP cockpit.")
+[Managing Directories Using the Cockpit](../50-administration-and-ops-neo/managing-directories-using-the-cockpit-f495ac1.md "Learn how to organize and manage your subaccounts according to your technical and business needs by using directories in the cockpit.")
 
 [Managing Subaccounts Using the Cockpit](../50-administration-and-ops-neo/managing-subaccounts-using-the-cockpit-55d0b6d.md "Learn how to structure a global account according to your organization’s and project’s requirements with regard to members, authorizations, and entitlements by managing subaccounts.")
 
@@ -249,7 +249,7 @@ Your organization receives a fixed price and period \(typically a 1 to 3-year pe
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
 
 > ### Tip:  
-> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to Neo Environment Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
 
 Under this commercial agreement:
 
@@ -268,7 +268,7 @@ For information about available services and pricing, see [SAP Store](https://ww
 
 You can also access the SAP BTP service catalog via the [SAP Discovery Center](https://discovery-center.cloud.sap) to identify the availability of services by data center, and also to determine licensing model compatibility per service plan.
 
-Note that some services can be subscribed based on a user metric or a resource metric. For example, a Portal service can be based on the number of site visits or user metrics. A resource-based metric is more common when dealing with a large number of users; for example, suppliers accessing a portal to interact with your organization. Since it isn't always possible to predict how many resources would be required upfront for a three-year period, you can increase your original order if resource usage exceeds your subscribed quota. Using SAP BTP cockpit, you can view resource consumption within your global account on a monthly basis.
+Note that some services can be subscribed based on a user metric or a resource metric. For example, a Portal service can be based on the number of site visits or user metrics. A resource-based metric is more common when dealing with a large number of users; for example, suppliers accessing a portal to interact with your organization. Since it isn't always possible to predict how many resources would be required upfront for a three-year period, you can increase your original order if resource usage exceeds your subscribed quota. Using cockpit, you can view resource consumption within your global account on a monthly basis.
 
 In the subscription-based model, you also get access to bundles or packages that comprise several related services and apps. Most of the time, this works out to be more cost effective when compared to subscribing to individual SAP BTP services.
 
@@ -287,13 +287,13 @@ Note that you can use both consumption and subscription-based commercial models 
 
 [What Is the Consumption-Based Commercial Model?](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/7047eb4a15a84ac7be3c8612179e6d1f.html "With the consumption-based model, your organization purchases an entitlement to all current and future SAP BTP services that are eligible for this model. Throughout the duration of your contract, you have complete flexibility to turn services on and off and to switch between services as your business requires.") :arrow_upper_right:
 
-[Monitoring Usage and Consumption Costs in Your Global Account](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/de6f0db8919f4e6f97e54bc4ddaf2ab8.html "SAP BTP cockpit supports advanced usage and cost monitoring of services in your global account. You can compare the usage and costs of multiple services and subaccounts, see monthly trends, and drill down into subaccounts and service plans for detailed information.") :arrow_upper_right:
+[Monitoring Usage and Consumption Costs in Your Global Account](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/de6f0db8919f4e6f97e54bc4ddaf2ab8.html "cockpit supports advanced usage and cost monitoring of services in your global account. You can compare the usage and costs of multiple services and subaccounts, see monthly trends, and drill down into subaccounts and service plans for detailed information.") :arrow_upper_right:
 
 [View Subaccount Usage Analytics](../50-administration-and-ops-neo/view-subaccount-usage-analytics-8f4d9db.md "You can explore, compare, and analyze all your actual usage data for the services and applications that are available in your subaccount.")
 
 [Managing Global Accounts Using the Cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/667f34ba9222450491c2b848cd17e189.html "Your SAP BTP global account is the entry point for managing the resources, landscape, and entitlements for your departments and projects in a self-service manner.") :arrow_upper_right:
 
-[Managing Directories Using the Cockpit](../50-administration-and-ops-neo/managing-directories-using-the-cockpit-f495ac1.md "Learn how to organize and manage your subaccounts according to your technical and business needs by using directories in the SAP BTP cockpit.")
+[Managing Directories Using the Cockpit](../50-administration-and-ops-neo/managing-directories-using-the-cockpit-f495ac1.md "Learn how to organize and manage your subaccounts according to your technical and business needs by using directories in the cockpit.")
 
 [Managing Subaccounts Using the Cockpit](../50-administration-and-ops-neo/managing-subaccounts-using-the-cockpit-55d0b6d.md "Learn how to structure a global account according to your organization’s and project’s requirements with regard to members, authorizations, and entitlements by managing subaccounts.")
 

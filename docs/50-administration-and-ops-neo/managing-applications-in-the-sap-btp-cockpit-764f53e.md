@@ -13,7 +13,7 @@ For an overview of the current status of the individual applications in your sub
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
 
 > ### Tip:  
-> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to Neo Environment Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
 
 **Related Information**  
 
@@ -24,7 +24,7 @@ For an overview of the current status of the individual applications in your sub
 
 [Check the Process Status](check-the-process-status-499992d.md "The status of an individual process is based on values that reflect the process run state and its monitoring metrics.")
 
-[View Monitoring Metrics of a Java Application](https://help.sap.com/viewer/64f7d2b06c6b40a9b3097860c5930641/Cloud/en-US/82cbd81b4d2447c5b1e90333c977a7c0.html "In the SAP BTP cockpit, to check the runtime behavior of your Java application, you can view the custom checks created for a subaccount or the current metrics of a selected process . You can also view the metrics history of an application or a process to examine the performance trends of your application over different intervals of time or investigate the reasons that have led to problems with it. Furthermore, you can configure alerting to receive alerts for any changes to the states of these metrics.") :arrow_upper_right:
+[View Monitoring Metrics of a Java Application](https://help.sap.com/viewer/64f7d2b06c6b40a9b3097860c5930641/Cloud/en-US/82cbd81b4d2447c5b1e90333c977a7c0.html "In the cockpit, to check the runtime behavior of your Java application, you can view the custom checks created for a subaccount or the current metrics of a selected process . You can also view the metrics history of an application or a process to examine the performance trends of your application over different intervals of time or investigate the reasons that have led to problems with it. Furthermore, you can configure alerting to receive alerts for any changes to the states of these metrics.") :arrow_upper_right:
 
 [Default Trace File](default-trace-file-1b651b3.md "")
 

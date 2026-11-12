@@ -11,7 +11,7 @@ Configure the platform identity provider to be used for authentication in servic
 ## Overview
 
 > ### Note:  
-> The platform identity provider for tools is *not* used for accessing the SAP BTP cockpit. For accessing the SAP BTP cockpit, you use the *custom identity provider for platform users* configured at *global account level*. For more information, see [Establish Trust and Federation of Custom Identity Providers for Platform Users](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/c36898473d704e07a33268c9f9d29515.html "You want to use a custom identity provider for the platform users of SAP BTP in different environments and at the different account levels: global account, directory, and subaccount. By default, platform users in multi-environment subaccounts are users in the default identity provider.") :arrow_upper_right:.
+> The platform identity provider for tools is *not* used for accessing the cockpit. For accessing the cockpit, you use the *custom identity provider for platform users* configured at *global account level*. For more information, see [Establish Trust and Federation of Custom Identity Providers for Platform Users](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/c36898473d704e07a33268c9f9d29515.html "You want to use a custom identity provider for the platform users of SAP BTP in different environments and at the different account levels: global account, directory, and subaccount. By default, platform users in multi-environment subaccounts are users in the default identity provider.") :arrow_upper_right:.
 
 > ### Caution:  
 > SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
@@ -22,7 +22,7 @@ Configure the platform identity provider to be used for authentication in servic
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
 
 > ### Tip:  
-> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to Neo Environment Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
 
 By default, the console client, and service and platform tools are configured to use SAP ID Service as the **platform identity provider for tools** \(providing the user base for subaccount members\). SAP ID Service, however, uses the SAP user base \(providing, for example, your *s-* or *p-user*\). If you want to have subaccount members from your custom user base, and use custom security configuration \(such as two-factor user authentication, or corporate user store, for example\), you can switch to a custom Identity Authentication tenant as a platform identity provider.
 
@@ -34,7 +34,7 @@ By default, the console client, and service and platform tools are configured to
 ![](images/Platform_and_App_IDP_634fed7.png)
 
 > ### Note:  
-> Changing the **platform** identity provider for tools settings \(*Security* \> *Trust* \> *Platform Identity Provider for Tools* in the SAP BTP cockpit\) does **not** affect the **application** identity provider settings \(*Security* \> *Trust* \> *Application Identity Provider* in the SAP BTP cockpit\) for this subaccount. See [Application Identity Provider](application-identity-provider-dc61853.md#loiodc618538d97610148155d97dcd123c24).
+> Changing the **platform** identity provider for tools settings \(*Security* \> *Trust* \> *Platform Identity Provider for Tools* in the cockpit\) does **not** affect the **application** identity provider settings \(*Security* \> *Trust* \> *Application Identity Provider* in the cockpit\) for this subaccount. See [Application Identity Provider](application-identity-provider-dc61853.md#loiodc618538d97610148155d97dcd123c24).
 
 The platform identity provider you configure will be used for accessing service and platform tools, such as:
 
@@ -73,9 +73,9 @@ To configure an Identity Authentication tenant as a platform identity provider f
 
 ## Procedure
 
-1.  In your web browser, open the SAP BTP cockpit, and navigate to your Neo subaccount.
+1.  In your web browser, open the cockpit, and navigate to your Neo subaccount.
 
-    See [Navigate in the Cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/0874895f1f78459f9517da55a11ffebd.html "Learn how to navigate to your global accounts, directories, and subaccounts in the SAP BTP cockpit.") :arrow_upper_right:.
+    See [Navigate in the Cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/0874895f1f78459f9517da55a11ffebd.html "Learn how to navigate to your global accounts, directories, and subaccounts in the cockpit.") :arrow_upper_right:.
 
 2.  Go to *Security* \> *Trust* \> *Platform Identity Provider for Tools*.
 

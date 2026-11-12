@@ -11,7 +11,7 @@
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
 
 > ### Tip:  
-> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to Neo Environment Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
 
 > ### Tip:  
 > This section contains collapsible subsections. By clicking on the arrow-shaped icon next to a subsection, you can expand it to see additional information.
@@ -3345,7 +3345,7 @@ yes
 > ### Note:  
 > To use the `com.sap.integration` module type, first you have to:
 > 
-> -   Enable the SAP Solution Lifecycle Management service for SAP BTP service in a subaccount that supports SAP Cloud Integration. For more information, see [Content Transport](https://help.sap.com/viewer/368c481cd6954bdfa5d0435479fd4eaf/Cloud/en-US/e3c79d65aa604b80992e20609881ad7a.html) in the SAP Cloud Integration documentation.
+> -   Enable the SAP Solution Lifecycle Management service on SAP platform service in a subaccount that supports SAP Cloud Integration. For more information, see [Content Transport](https://help.sap.com/viewer/368c481cd6954bdfa5d0435479fd4eaf/Cloud/en-US/e3c79d65aa604b80992e20609881ad7a.html) in the SAP Cloud Integration documentation.
 > -   Create a destination with named `CloudIntegration` with the following properties:
 >     -   Type - `HTTP`
 >     -   URL - URL pointing to the `/itspaces` of the TMN node for the SAP Cloud Integration tenant in the current subaccount

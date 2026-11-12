@@ -13,7 +13,7 @@ When you purchase an enterprise account, you are entitled to use a specific set 
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
 
 > ### Tip:  
-> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to Neo Environment Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
 
 An entitlement equals your right to provision and consume a resource. A quota represents the numeric quantity that defines the maximum allowed consumption of that resource.
 
@@ -26,7 +26,7 @@ Optionally, you can assign service plans and quota from the global account to di
 > 
 > Note that if you're assigning plans to a subaccount that is under a managed directory that also has the user management feature enabled, then you must be either the directory administrator or a global account administrator.
 
-There are two places in the SAP BTP cockpit where you can view entitlements and assign service plans and quotas for subaccounts - at the global account level and at the subaccount level. Depending on your permissions, you may only have access to one of these pages. You can find more details below:
+There are two places in the cockpit where you can view entitlements and assign service plans and quotas for subaccounts - at the global account level and at the subaccount level. Depending on your permissions, you may only have access to one of these pages. You can find more details below:
 
 **Entitlements Pages**
 
@@ -173,7 +173,7 @@ Allows global account admins and viewers to view the commercial source of their 
 For information about setting assignments and quota, see:
 
 -   [Configure Entitlements and Quotas for Directories](configure-entitlements-and-quotas-for-directories-37f8871.md)
--   [Configure Entitlements and Quotas for Subaccounts](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/5ba357b4fa1e4de4b9fcc4ae771609da.html "Distribute the entitlements that are available in your global account by adding service plans and their allowed quotas to your subaccounts using SAP BTP cockpit.") :arrow_upper_right:
+-   [Configure Entitlements and Quotas for Subaccounts](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/5ba357b4fa1e4de4b9fcc4ae771609da.html "Distribute the entitlements that are available in your global account by adding service plans and their allowed quotas to your subaccounts using cockpit.") :arrow_upper_right:
 
 The *Entitlements* \> *Service Assignments* is where you view assignments and quota from the perspective of services. This page contains these views \(tabs\):
 
@@ -232,7 +232,7 @@ Allows you to choose specific services and see how their service plans are assig
 **Related Information**  
 
 
-[Configure Entitlements and Quotas for Subaccounts](configure-entitlements-and-quotas-for-subaccounts-c90f3d5.md "Distribute the entitlements that are available in your global account by adding service plans and their allowed quotas to your subaccounts using SAP BTP cockpit.")
+[Configure Entitlements and Quotas for Subaccounts](configure-entitlements-and-quotas-for-subaccounts-c90f3d5.md "Distribute the entitlements that are available in your global account by adding service plans and their allowed quotas to your subaccounts using cockpit.")
 
 [Add Quotas to Subaccounts Using the Console Client](add-quotas-to-subaccounts-using-the-console-client-f073eaf.md "You can use the Neo console client to add quotas to subaccounts")
 

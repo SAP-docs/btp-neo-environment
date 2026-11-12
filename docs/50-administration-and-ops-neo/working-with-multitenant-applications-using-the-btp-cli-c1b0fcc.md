@@ -1,8 +1,8 @@
 <!-- loioc1b0fcc400384fedba325795dc10871d -->
 
-# Working with Multitenant Applications Using the BTP CLI
+# Working with Multitenant Applications Using the btp CLI
 
-Use the SAP BTP command line interface \(BTP CLI\) to manage the multitenant applications to which a subaccount is entitled to subscribe.
+Use the SAP BTP command line interface \(btp CLI\) to manage the multitenant applications to which a subaccount is entitled to subscribe.
 
 > ### Caution:  
 > SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
@@ -13,7 +13,7 @@ Use the SAP BTP command line interface \(BTP CLI\) to manage the multitenant app
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
 
 > ### Tip:  
-> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to Neo Environment Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
 
 > ### Tip:  
 > By default, all commands are executed in the global account you're logged in to. To change this target to a subaccount, use <code>btp target -sa <i class="varname">&lt;my-subaccount-id&gt;</i></code>. See [Set a Target for Subsequent Commands with btp target](set-a-target-for-subsequent-commands-with-btp-target-720645a.md).
@@ -129,7 +129,7 @@ Unsubscribe an application from a subaccount
 </tr>
 </table>
 
-For more information, see [Subscribe to Multitenant Applications Using the Cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/7a3e39622be14413b2a4df7c02ca1170.html "Subscribe to multitenant applications from the Subscriptions page in the SAP BTP cockpit.") :arrow_upper_right:.
+For more information, see [Subscribe to Multitenant Applications Using the Cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/7a3e39622be14413b2a4df7c02ca1170.html "Subscribe to multitenant applications from the Subscriptions page in the cockpit.") :arrow_upper_right:.
 
 **Related Information**  
 
@@ -138,7 +138,7 @@ For more information, see [Subscribe to Multitenant Applications Using the Cockp
 
 [Setting Entitlements Using the btp CLI](setting-entitlements-using-the-btp-cli-5af849c.md "Use the SAP BTP command line interface (btp CLI) to set entitlements to define the functionality or permissions available for users of global accounts, directories, and subaccounts.")
 
-[Working with Environments Using the BTP CLI](working-with-environments-using-the-btp-cli-48db155.md "Use the SAP BTP command line interface (BTP CLI) to manage runtime environment instances in a subaccount. For example, enable the Cloud Foundry environment by creating a Cloud Foundry org (environment instance).")
+[Working with Environments Using the btp CLI](working-with-environments-using-the-btp-cli-48db155.md "Use the SAP BTP command line interface (btp CLI) to manage runtime environment instances in a subaccount. For example, enable the Cloud Foundry environment by creating a Cloud Foundry org (environment instance).")
 
 [Working with External Resource Providers Using the btp CLI](working-with-external-resource-providers-using-the-btp-cli-48d7688.md "Use the SAP BTP command line interface (btp CLI) to get details, or to create or delete resource provider instances in a global account.")
 
@@ -152,9 +152,9 @@ For more information, see [Subscribe to Multitenant Applications Using the Cockp
 
 [Managing API Credentials for Calling REST APIs of SAP Authorization and Trust Management Service](managing-api-credentials-for-calling-rest-apis-of-sap-authorization-and-trust-manag-ce43eb5.md "Use the SAP BTP command line interface (btp CLI) to manage API credentials, which enable you to access the REST APIs of the SAP Authorization and Trust Management service.")
 
-[Working with Resources of the SAP Service Manager Using the btp CLI](working-with-resources-of-the-sap-service-manager-using-the-btp-cli-fe6a53b.md "Use the SAP BTP command line interface to perform various operations related to your platforms, attached service brokers, service instances, and service bindings.")
+[Working with Resources of the SAP Service Manager Using the btp CLI](working-with-resources-of-the-sap-service-manager-using-the-btp-cli-fe6a53b.md "Use the SAP BTP command line interface (btp CLI) to perform various operations related to your platforms, attached service brokers, service instances, and service bindings.")
 
-[Working with Multi-Region Disaster Recovery Using the BTP CLI](working-with-multi-region-disaster-recovery-using-the-btp-cli-b1fc245.md "Use the SAP BTP command line interface (BTP CLI) to manage Multi-Region Disaster Recovery setups, such as creating, viewing, or deleting subaccount pairs.")
+[Working with Multi-Region Disaster Recovery Using the btp CLI](working-with-multi-region-disaster-recovery-using-the-btp-cli-b1fc245.md "Use the SAP BTP command line interface (btp CLI) to manage Multi-Region Disaster Recovery setups, such as creating, viewing, or deleting subaccount pairs.")
 
-[BTP CLI Command Reference](https://help.sap.com/docs/BTP/btp-cli/intro.html)
+[btp CLI Command Reference](https://help.sap.com/docs/BTP/btp-cli/intro.html)
 

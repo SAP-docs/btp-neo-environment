@@ -2,7 +2,7 @@
 
 # Configure Availability Checks for SAP HANA XS Applications from the Cockpit
 
-In the SAP BTP cockpit, you can configure availability checks for the SAP HANA XS applications running on your productive SAP HANA database system.
+In the cockpit, you can configure availability checks for the SAP HANA XS applications running on your productive SAP HANA database system.
 
 
 
@@ -28,7 +28,7 @@ In the SAP BTP cockpit, you can configure availability checks for the SAP HANA X
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
 
 > ### Tip:  
-> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to Neo Environment Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
 
 
 
@@ -36,7 +36,7 @@ In the SAP BTP cockpit, you can configure availability checks for the SAP HANA X
 
 ## Procedure
 
-1.  Open the subaccount in the SAP BTP cockpit.
+1.  Open the subaccount in the cockpit.
 
 2.  Choose *Applications* \> *HANA XS Applications* in the navigation area of the subaccount.
 
@@ -59,7 +59,7 @@ In the SAP BTP cockpit, you can configure availability checks for the SAP HANA X
 
 [Alerting](https://help.sap.com/viewer/64f7d2b06c6b40a9b3097860c5930641/Cloud/en-US/2f782d7f73304426b287f4b25e47f0b1.html "Configure a channel to receive alert notifications from SAP Monitoring service when your applications and database systems are in a problematic state or have recovered from such a state.") :arrow_upper_right:
 
-[SAP BTP Cockpit](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/19d7119265474dd18ec16fad2a0b28c1.html)
+[Cockpit](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/19d7119265474dd18ec16fad2a0b28c1.html)
 
 [Availability Checks](https://help.sap.com/viewer/64f7d2b06c6b40a9b3097860c5930641/Cloud/en-US/68f46b7fea21462b9c1c345b75524bec.html "Create an availability check for a Java or an SAP HANA XS application to track if the application is available and to receive alerts for it.") :arrow_upper_right:
 

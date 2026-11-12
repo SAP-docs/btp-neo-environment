@@ -27,7 +27,7 @@ Login through a browser is only available if you use the default server URL that
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
 
 > ### Tip:  
-> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to Neo Environment Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
 
 If you have a custom identity provider configured in your global account, use `btp login --sso --idp <TENANT>`. See [Log in with a Custom Identity Provider](log-in-with-a-custom-identity-provider-e48e486.md).
 
@@ -72,7 +72,7 @@ You’ve successfully logged in. You can return to the command line to work in y
 **Related Information**  
 
 
-[Log in](log-in-e241b30.md "Log in with the BTP CLI is on global account level.")
+[Log in](log-in-e241b30.md "Log in with the btp CLI is on global account level.")
 
 [Log in with a Custom Identity Provider](log-in-with-a-custom-identity-provider-e48e486.md "")
 

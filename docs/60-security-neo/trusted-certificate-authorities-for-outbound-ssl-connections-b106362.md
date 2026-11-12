@@ -15,7 +15,7 @@ List of certificate authorities trusted by the virtual machines running the appl
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
 
 > ### Tip:  
-> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to Neo Environment Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
 
 
 
@@ -321,23 +321,6 @@ OU=ePKI Root Certification Authority, O="Chunghwa Telecom Co., Ltd.", C=TW
 <tr>
 <td valign="top">
 
-comodoaaaca \[jdk\]
-
-</td>
-<td valign="top">
-
-CN=AAA Certificate Services, O=Comodo CA Limited, L=Salford, ST=Greater Manchester, C=GB
-
-</td>
-<td valign="top">
-
-D1:EB:23:A4:6D:17:D6:8F:D9:25:64:C2:F1:F1:60:17:64:D8:E3:49
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 comodoeccca \[jdk\]
 
 </td>
@@ -604,57 +587,6 @@ CN=D-TRUST Root Class 3 CA 2 EV 2009, O=D-Trust GmbH, C=DE
 <td valign="top">
 
 96:C9:1B:0B:95:B4:10:98:42:FA:D0:D8:22:79:FE:60:FA:B9:16:83
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-emsigneccrootcag3 \[jdk\]
-
-</td>
-<td valign="top">
-
-CN=emSign ECC Root CA - G3, O=eMudhra Technologies Limited, OU=emSign PKI, C=IN
-
-</td>
-<td valign="top">
-
-30:43:FA:4F:F2:57:DC:A0:C3:80:EE:2E:58:EA:78:B2:3F:E6:BB:C1
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-emsignrootcag1 \[jdk\]
-
-</td>
-<td valign="top">
-
-CN=emSign Root CA - G1, O=eMudhra Technologies Limited, OU=emSign PKI, C=IN
-
-</td>
-<td valign="top">
-
-8A:C7:AD:8F:73:AC:4E:C1:B5:75:4D:A5:40:F4:FC:CF:7C:B5:8E:8C
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-emsignrootcag2 \[jdk\]
-
-</td>
-<td valign="top">
-
-CN=emSign Root CA - G2, O=eMudhra Technologies Limited, OU=emSign PKI, C=IN
-
-</td>
-<td valign="top">
-
-1E:65:77:B9:CF:70:D0:17:CA:E1:BD:A1:35:1D:47:25:A9:73:C0:6D
 
 </td>
 </tr>
@@ -1964,6 +1896,40 @@ CN=VeriSign Universal Root Certification Authority, OU="\(c\) 2008 VeriSign, Inc
 <td valign="top">
 
 36:79:CA:35:66:87:72:30:4D:30:A5:FB:87:3B:0F:A7:7B:B7:0D:54
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+wisekeyglobalrootgbca \[jdk\]
+
+</td>
+<td valign="top">
+
+CN=OISTE WISeKey Global Root GB CA, OU=OISTE Foundation Endorsed, O=WISeKey, C=CH
+
+</td>
+<td valign="top">
+
+0F:F9:40:76:18:D3:D7:6A:4B:98:F0:A8:35:9E:0C:FD:27:AC:CC:ED
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+wisekeyglobalrootgcca \[jdk\]
+
+</td>
+<td valign="top">
+
+CN=OISTE WISeKey Global Root GC CA, OU=OISTE Foundation Endorsed, O=WISeKey, C=CH
+
+</td>
+<td valign="top">
+
+E0:11:84:5E:34:DE:BE:88:81:B9:9C:F6:16:26:D1:96:1F:C3:B9:31
 
 </td>
 </tr>

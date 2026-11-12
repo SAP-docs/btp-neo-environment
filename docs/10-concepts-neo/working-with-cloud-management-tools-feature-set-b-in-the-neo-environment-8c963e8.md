@@ -15,7 +15,7 @@ Enterprise accounts in SAP BTP that have access to cloud management tools featur
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
 
 > ### Tip:  
-> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to Neo Environment Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
 
 
 
@@ -51,7 +51,7 @@ Whenever you directly access a Neo subaccount that supports cloud management too
 
 -   The *Entitlements* page is for view-only purposes only. To manage entitlements, you must navigate back to the global account.
 
--   When you click on the global account in the navigation breadcrumb or in the SAP BTP cockpit in the cockpit banner, you are redirected to the cockpit version with your global account.
+-   When you click on the global account in the navigation breadcrumb or in the cockpit in the cockpit banner, you are redirected to the cockpit version with your global account.
 
 
 
@@ -62,7 +62,7 @@ Whenever you directly access a Neo subaccount that supports cloud management too
 
 The SAP BTP command line interface \(btp CLI\) allows you to perform a wide range of account management tasks using the command line. For more information, see [Account Administration Using the SAP BTP Command Line Interface \(btp CLI\)](../50-administration-and-ops-neo/account-administration-using-the-sap-btp-command-line-interface-btp-cli-7c6df2d.md).
 
-Whenever you directly access a Neo subaccount, you need to work with the Neo command console or the SAP BTP cockpit. These are the known conditions and scope when working with Neo subaccounts in the btp CLI:
+Whenever you directly access a Neo subaccount, you need to work with the Neo command console or the cockpit. These are the known conditions and scope when working with Neo subaccounts in the btp CLI:
 
 
 <table>
@@ -225,7 +225,7 @@ Conditions and Scope for the Neo Environment
 <tr>
 <td valign="top">
 
-Accounts service \(provided with the SAP Cloud Management service for SAP BTP\)
+Accounts service \(provided with the SAP Cloud Management service on SAP platform\)
 
 </td>
 <td valign="top">
@@ -237,7 +237,7 @@ When deleting Neo subaccounts, use the SAP BTP SDK for the Neo environment.
 <tr>
 <td valign="top">
 
-Provisioning service \(provided with the SAP Cloud Management service for SAP BTP\)
+Provisioning service \(provided with the SAP Cloud Management service on SAP platform\)
 
 </td>
 <td valign="top">
@@ -290,7 +290,7 @@ Events
 </td>
 <td valign="top">
 
-You can use the central-based events provided by this service with your Neo subaccounts. See [Using the Events Service APIs](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/94e1895c16274df2a59196b81e28d1c4.html "The Events service provides REST APIs that collect information about events relating to account administrative operations in the microservices of the SAP Cloud Management service for SAP BTP, such as Accounts, Entitlements, Provisioning, and the SAP SaaS Provisioning service, within central and local regions.") :arrow_upper_right:.
+You can use the central-based events provided by this service with your Neo subaccounts. See [Using the Events Service APIs](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/94e1895c16274df2a59196b81e28d1c4.html "The Events service provides REST APIs that collect information about events relating to account administrative operations in the microservices of the SAP Cloud Management service on SAP platform, such as Accounts, Entitlements, Provisioning, and the SAP SaaS Provisioning service, within central and local regions.") :arrow_upper_right:.
 
 </td>
 </tr>

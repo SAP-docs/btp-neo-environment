@@ -2,7 +2,7 @@
 
 # Log in
 
-Log in with the BTP CLI is on global account level.
+Log in with the btp CLI is on global account level.
 
 
 
@@ -36,9 +36,9 @@ Log in with the BTP CLI is on global account level.
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
 
 > ### Tip:  
-> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to Neo Environment Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
 
-When you log in with the BTP CLI, a session token is saved in your local configuration. This allows you to keep your authentication over multiple command calls or after restarting your computer. The maximum session length is 12 hours. After that, you’ll have to log in again. If you want to end your login earlier, use `btp logout`.
+When you log in with the btp CLI, a session token is saved in your local configuration. This allows you to keep your authentication over multiple command calls or after restarting your computer. The maximum session length is 12 hours. After that, you’ll have to log in again. If you want to end your login earlier, use `btp logout`.
 
 
 
@@ -70,7 +70,7 @@ See [Log in with a Custom Identity Provider](log-in-with-a-custom-identity-provi
 
 ## Procedure
 
-To log in manually, use `btp login`. The BTP CLI prompts for all login information, but optionally, you can provide the required information as parameters.
+To log in manually, use `btp login`. The btp CLI prompts for all login information, but optionally, you can provide the required information as parameters.
 
 Usage: `btp [OPTIONS] login [PARAMS]`
 
@@ -86,7 +86,7 @@ Usage: `btp [OPTIONS] login [PARAMS]`
 </td>
 <td valign="top">
 
-Opens a browser for single sign-on at the identity provider. The BTP CLI doesn't prompt for this parameter.
+Opens a browser for single sign-on at the identity provider. The btp CLI doesn't prompt for this parameter.
 
 To suppress automatic browser opening, use `--sso manual`.
 
@@ -160,7 +160,7 @@ Your password. If you have enabled Two-Factor-Authentication, append your token 
 </td>
 <td valign="top">
 
-In the interactive login, after successful authentication, the BTP CLI will offer all of your global accounts so you can select the one to log in to.
+In the interactive login, after successful authentication, the btp CLI will offer all of your global accounts so you can select the one to log in to.
 
 You can also provide the global account as a parameter by specifying its subdomain. You should have obtained the subdomain from your operator; but you can also find it in the cockpit in the global account view.
 
@@ -188,7 +188,7 @@ User [name@example.com]>
 
 ## Results
 
-Upon successful login, the BTP CLI creates a folder \(`btp`\) and a configuration file \(`config.json`\) in the default location of your user data directory:
+Upon successful login, the btp CLI creates a folder \(`btp`\) and a configuration file \(`config.json`\) in the default location of your user data directory:
 
 -   Microsoft Windows: <code>C:\Users\<i class="varname">&lt;username&gt;</i>\AppData\Roaming\SAP\btp\config.json</code>
 
@@ -205,5 +205,5 @@ To change this location, use the `--config` option or the environment variable. 
 **Related Information**  
 
 
-[BTP CLI Command Reference](https://help.sap.com/docs/BTP/btp-cli/intro.html)
+[btp CLI Command Reference](https://help.sap.com/docs/BTP/btp-cli/intro.html)
 

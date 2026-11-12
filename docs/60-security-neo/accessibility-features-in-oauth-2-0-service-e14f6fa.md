@@ -15,7 +15,7 @@ To optimize your experience of the OAuth 2.0 Service in the Neo Environment, SAP
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
 
 > ### Tip:  
-> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to Neo Environment Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
 
 
 
@@ -24,7 +24,7 @@ To optimize your experience of the OAuth 2.0 Service in the Neo Environment, SAP
 ## User Interface in the SAP BTP Cockpit
 
 > ### Note:  
-> For the OAuth 2.0 Service user interface that is part of the SAP BTP cockpit, the accessibility features for SAP BTP cockpit apply. For more information, see the accessibility documentation for SAP BTP cockpit on SAP Help Portal in [Accessibility Features in SAP BTP cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/8153bc43bc7d44009549b375ed5c9632.html "To optimize your experience of the SAP Business Technology Platform (SAP BTP), SAP BTP cockpit provides features and settings that help you use the software efficiently. Learn more about these features and settings and find out how to use them.") :arrow_upper_right:.
+> For the OAuth 2.0 Service user interface that is part of the cockpit, the accessibility features for cockpit apply. For more information, see the accessibility documentation for cockpit on SAP Help Portal in [Accessibility Features in cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/8153bc43bc7d44009549b375ed5c9632.html "To optimize your experience of the SAP Business Technology Platform (SAP BTP), cockpit provides features and settings that help you use the software efficiently. Learn more about these features and settings and find out how to use them.") :arrow_upper_right:.
 
 For more information on screen reader support and keyboard shortcuts, see the [Accessibility for End Users](https://help.sap.com/docs/SAPUI5/bc5a64aac808463baa95b4230f221716/f562835d0b4e44129aa24a17551a0baa.html?version=1.98).
 
@@ -34,7 +34,7 @@ For more information on screen reader support and keyboard shortcuts, see the [A
 
 ## End User Interface
 
-The end user interface for managing OAuth 2.0 tokens is based on SAPUI5 technology. Hence, although not part of the SAP BTP cockpit, the same accessibility features apply. For more information, see [Accessibility Features in SAP BTP cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/8153bc43bc7d44009549b375ed5c9632.html "To optimize your experience of the SAP Business Technology Platform (SAP BTP), SAP BTP cockpit provides features and settings that help you use the software efficiently. Learn more about these features and settings and find out how to use them.") :arrow_upper_right:.
+The end user interface for managing OAuth 2.0 tokens is based on SAPUI5 technology. Hence, although not part of the cockpit, the same accessibility features apply. For more information, see [Accessibility Features in cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/8153bc43bc7d44009549b375ed5c9632.html "To optimize your experience of the SAP Business Technology Platform (SAP BTP), cockpit provides features and settings that help you use the software efficiently. Learn more about these features and settings and find out how to use them.") :arrow_upper_right:.
 
 
 

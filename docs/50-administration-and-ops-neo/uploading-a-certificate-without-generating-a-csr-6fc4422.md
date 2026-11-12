@@ -2,7 +2,7 @@
 
 # Uploading a Certificate Without Generating a CSR
 
-Learn what to do if you ever need to upload a certificate from a remote location without having to run the `generate-csr` command. Keep in mind that this is not the recommended way of uploading a certificate to the SAP BTP, Neo environment.
+Learn what to do if you ever need to upload a certificate from a remote location without having to run the `generate-csr` command. Keep in mind that this is not the recommended way of uploading a certificate to the Neo environment.
 
 > ### Caution:  
 > SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
@@ -13,7 +13,7 @@ Learn what to do if you ever need to upload a certificate from a remote location
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
 
 > ### Tip:  
-> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to Neo Environment Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
 
 To upload a valid certificate without generating a CSR, you must use the `--key-location` parameter in the [upload-domain-certificate](https://help.sap.com/docs/btp/sap-btp-neo-environment/upload-domain-certificate) command to upload the certificate's private key.
 

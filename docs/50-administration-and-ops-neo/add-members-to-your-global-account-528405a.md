@@ -2,7 +2,7 @@
 
 # Add Members to Your Global Account
 
-Add users as global account members using the SAP BTP cockpit.
+Add users as global account members using the cockpit.
 
 
 
@@ -38,9 +38,9 @@ Add users as global account members using the SAP BTP cockpit.
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
 
 > ### Tip:  
-> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to Neo Environment Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
 
-Assign predefined or custom role collections to users who need to manage or view the global account in SAP BTP cockpit. Examples of predefined role collections include the following:
+Assign predefined or custom role collections to users who need to manage or view the global account in cockpit. Examples of predefined role collections include the following:
 
 -   *Global Account Administrator*
 
@@ -62,11 +62,11 @@ For more information about these role collections, see [Role Collections and Rol
     For more information, see [Create Users](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/a3bc7e863ac54c23ab856863b681c9f8.html "As an administrator, you can create shadow users in your subaccount. When you create a shadow user, you must know and specify which identity provider stores the user.") :arrow_upper_right:.
 
     > ### Note:  
-    > If the user is already a user in a subaccount and has logged on to SAP BTP cockpit, SAP BTP adds the user at the global account level automatically, but without any role collections.
+    > If the user is already a user in a subaccount and has logged on to cockpit, SAP BTP adds the user at the global account level automatically, but without any role collections.
 
 3.  Assign a role collection to the user.
 
-    For more information, see [Assign Users to Role Collections](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/c5766765bda74ad59fe656977c8fa4d6.html "You can assign users to role collections by adding them to the desired role collection in the SAP BTP cockpit. Use this function to manage user authorizations and access control within your global account or subaccount in the cloud platform.") :arrow_upper_right:.
+    For more information, see [Assign Users to Role Collections](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/c5766765bda74ad59fe656977c8fa4d6.html "You can assign users to role collections by adding them to the desired role collection in the SAP BTP cockpit. Use this function to manage user authorizations and access control within your global account or subaccount in SAP BTP.") :arrow_upper_right:.
 
 
 
@@ -75,7 +75,7 @@ For more information about these role collections, see [Role Collections and Rol
 
 ## Results
 
-The next time this user logs on to the SAP BTP cockpit, the user can access this global account.
+The next time this user logs on to the cockpit, the user can access this global account.
 
 **Related Information**  
 

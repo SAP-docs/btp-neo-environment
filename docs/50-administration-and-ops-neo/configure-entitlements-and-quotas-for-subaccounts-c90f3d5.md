@@ -4,7 +4,7 @@
 
 # Configure Entitlements and Quotas for Subaccounts
 
-Distribute the entitlements that are available in your global account by adding service plans and their allowed quotas to your subaccounts using SAP BTP cockpit.
+Distribute the entitlements that are available in your global account by adding service plans and their allowed quotas to your subaccounts using cockpit.
 
 
 
@@ -23,7 +23,7 @@ Distribute the entitlements that are available in your global account by adding 
     -   If you have a trial account, you'll receive a restricted set of free platform resources and services for a limited time period. To access additional services, you'll have to switch to an enterprise account.
 
 
--   To assign beta service plans, your subaccount must have the *Enable beta features* option selected. See [Change Subaccount Details](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/567d4a84bfdc428f8f3640e07261f73a.html "Edit subaccounts using the SAP BTP cockpit.") :arrow_upper_right:. Only applies to non-production subaccounts.
+-   To assign beta service plans, your subaccount must have the *Enable beta features* option selected. See [Change Subaccount Details](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/567d4a84bfdc428f8f3640e07261f73a.html "Edit subaccounts using the cockpit.") :arrow_upper_right:. Only applies to non-production subaccounts.
 
 
 
@@ -41,7 +41,7 @@ Distribute the entitlements that are available in your global account by adding 
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
 
 > ### Tip:  
-> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to Neo Environment Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
 
 You can distribute assignments and quotas across subaccounts within a global account from these places in the cockpit:
 

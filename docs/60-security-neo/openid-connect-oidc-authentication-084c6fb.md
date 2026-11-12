@@ -28,7 +28,7 @@ Protect your applications on SAP BTP, Neo environment with OpenID Connect \(OIDC
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
 
 > ### Tip:  
-> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to Neo Environment Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
 
 With the OpenID Connect authentication method, the Identity Authentication tenant or SAP ID service is used as an OpenID Connect provider. Your application's users will authenticate using the credentials defined and verified by the Identity Authentication tenant \(by default, this is a user name/e-mail address and password pair but you can configure your tenant to use others\).
 
@@ -45,7 +45,7 @@ General information about OpenID Connect supported by Identity Authentication se
 
 ## Procedure
 
-1.  In the SAP BTP cockpit, navigate to your subaccount. See [Navigate in the Cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/0874895f1f78459f9517da55a11ffebd.html "Learn how to navigate to your global accounts, directories, and subaccounts in the SAP BTP cockpit.") :arrow_upper_right:.
+1.  In the cockpit, navigate to your subaccount. See [Navigate in the Cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/0874895f1f78459f9517da55a11ffebd.html "Learn how to navigate to your global accounts, directories, and subaccounts in the cockpit.") :arrow_upper_right:.
 
 2.  Navigate to *Security* \> *Trust* \> *OpenID Connect Authentication*.
 
@@ -192,7 +192,7 @@ General information about OpenID Connect supported by Identity Authentication se
     </table>
     
     > ### Note:  
-    > Make sure you create the same groups in the SAP BTP cockpit, and assign them to the required roles. See [Managing Roles](managing-roles-db8175b.md).
+    > Make sure you create the same groups in the cockpit, and assign them to the required roles. See [Managing Roles](managing-roles-db8175b.md).
 
 6.  In your application code, declare usng `OIDC` authentication method in the `web.xml`. See [Declarative Authentication](authentication-e637f62.md#loioe36c712efa844e8199a9c4bd681cb4e0).
 

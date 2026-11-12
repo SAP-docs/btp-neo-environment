@@ -30,7 +30,7 @@ The security administrator must have the following scopes:
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
 
 > ### Tip:  
-> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to Neo Environment Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
 
 > ### Note:  
 > When handling personal data, consider the legislation in the various countries and regions where your organization operates. After the data has passed the end of purpose, regulations might require you to delete the data. For more information on data protection and privacy, see the related link.
@@ -96,5 +96,5 @@ The User Account and Authentication service stores user-related data records in 
 
 [Switch Off Automatic Creation of Shadow Users](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/d8525671e8b14147b96ef497e1e1af80.html "To switch off the creation of shadow users in the trust configuration of custom identity providers, administrators must explicitly allow users to log on. Administrators then have full control over who is allowed to log on.") :arrow_upper_right:
 
-[Delete Shadow Users for Data Protection and Privacy Using the Cockpit](delete-shadow-users-for-data-protection-and-privacy-using-the-cockpit-893c5ac.md "Data privacy regulations or policies may require you to delete this data, for example, when the user has left your organization. SAP BTP cockpit offers an application to select and delete shadow users.")
+[Delete Shadow Users for Data Protection and Privacy Using the Cockpit](delete-shadow-users-for-data-protection-and-privacy-using-the-cockpit-893c5ac.md "Data privacy regulations or policies may require you to delete this data, for example, when the user has left your organization. cockpit offers an application to select and delete shadow users.")
 

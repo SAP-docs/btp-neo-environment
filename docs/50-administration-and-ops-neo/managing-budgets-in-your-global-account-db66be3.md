@@ -15,9 +15,9 @@ Budgets allow cost controllers and global account admins in SAP BTPto better con
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
 
 > ### Tip:  
-> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to Neo Environment Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
 
-Automatic email alerts notify global account administrators when spending exceeds defined thresholds, allowing for timely intervention. You can also use the SAP Alert Notification service for SAP BTP to create custom alerts according to your specific monitoring needs.
+Automatic email alerts notify global account administrators when spending exceeds defined thresholds, allowing for timely intervention. You can also use the SAP Alert Notification service on SAP Platform to create custom alerts according to your specific monitoring needs.
 
 > ### Note:  
 > The use of budgets in your global account is subject to its availability in your country or region. Additionally, even where budgets are available, the option to send automatic email alerts to global account administrators when spending exceeds defined thresholds, may not be supported in your country or region.
@@ -48,7 +48,7 @@ When you use budgets in your global account, note the following important detail
 
 ## Accessing Your Global Account's Budgets
 
-Access and manage your global account's budgets in SAP BTP cockpit. Monitor spending, view active and expired budgets, and configure table columns.
+Access and manage your global account's budgets in cockpit. Monitor spending, view active and expired budgets, and configure table columns.
 
 
 
@@ -56,7 +56,7 @@ Access and manage your global account's budgets in SAP BTP cockpit. Monitor spen
 
 ## Prerequisites
 
--   Your global account uses the SAP BTP Enterprise Agreement \(SAP BTPEA\), Cloud Platform Enterprise Agreement \(CPEA\), or Pay-As-You-Go for SAP BTP flavor of the consumption-based commercial model, or it combines one of these consumption-based flavors with the subscription-based commercial model.
+-   Your global account uses the SAP BTP Enterprise Agreement \(SAP BTPEA\), Cloud Platform Enterprise Agreement \(CPEA\), or Pay-As-You-Go flavor of the consumption-based commercial model, or it combines one of these consumption-based flavors with the subscription-based commercial model.
 
     Note that the use of the consumption-based commercial model is subject to its availability in your country or region.
 
@@ -76,13 +76,13 @@ Access and manage your global account's budgets in SAP BTP cockpit. Monitor spen
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
 
 > ### Tip:  
-> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to Neo Environment Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
 
 
 
 ## Procedure
 
-1.  Open SAP BTP cockpit.
+1.  Open cockpit.
 
 2.  From the global account level, go to the *Costs and Usage* page.
 
@@ -121,7 +121,7 @@ Access and manage your global account's budgets in SAP BTP cockpit. Monitor spen
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
 
 > ### Tip:  
-> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to Neo Environment Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
 
 
 
@@ -251,7 +251,7 @@ Additionally, you can:
     > ### Note:  
     > This option is subject to availability in your country or region.
 
--   Use the SAP Alert Notification service for SAP BTP to set up customized alerts for your preferred recipients, communication channels, and monitoring solutions.
+-   Use the SAP Alert Notification service on SAP Platform to set up customized alerts for your preferred recipients, communication channels, and monitoring solutions.
 
 
 For more information, see [Setting Up Budget Threshold Alerts](managing-budgets-in-your-global-account-db66be3.md#copy72b64bf5f5d34a1283e2de34a61b69cd).
@@ -281,7 +281,7 @@ Creating a budget allows you to monitor and manage spending in your global accou
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
 
 > ### Tip:  
-> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to Neo Environment Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
 
 Each global account is allowed up to 30 active budgets. Active budgets have an end date in the future or no end date. Budgets expire automatically when the current date surpasses the end date of the budget.
 
@@ -289,7 +289,7 @@ Each global account is allowed up to 30 active budgets. Active budgets have an e
 
 ## Procedure
 
-1.  In SAP BTP cockpit, open your global account and then navigate to the *Costs and Usage* page.
+1.  In cockpit, open your global account and then navigate to the *Costs and Usage* page.
 
 2.  In the *Budgets* tab, click *Create*.
 
@@ -344,13 +344,13 @@ Viewing a budget provides detailed information about the budget's configuration 
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
 
 > ### Tip:  
-> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to Neo Environment Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
 
 
 
 ## Procedure
 
-1.  In SAP BTP cockpit, open your global account and then navigate to the *Costs and Usage* page.
+1.  In cockpit, open your global account and then navigate to the *Costs and Usage* page.
 
 2.  In the *Budgets* tab, click on a budget to display more details.
 
@@ -380,7 +380,7 @@ Editing a budget allows you to make changes to the budget's settings.
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
 
 > ### Tip:  
-> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to Neo Environment Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
 
 > ### Note:  
 > When you make changes to an existing budget, previously sent alerts may not accurately reflect the new budget settings.
@@ -391,7 +391,7 @@ Editing a budget allows you to make changes to the budget's settings.
 
 ## Procedure
 
-1.  In SAP BTP cockpit, open your global account and then navigate to the *Costs and Usage* page.
+1.  In cockpit, open your global account and then navigate to the *Costs and Usage* page.
 
 2.  In the *Budgets* tab, go to the Active Budgets table.
 
@@ -430,7 +430,7 @@ Delete a budget when it is no longer needed — for example, to free capacity wh
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
 
 > ### Tip:  
-> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to Neo Environment Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
 
 Before deleting a budget, check with the users who created and last modified it to confirm the budget is no longer needed. Open the budget's details and look for the *Created By* and *Modified By* fields.
 
@@ -441,7 +441,7 @@ Before deleting a budget, check with the users who created and last modified it 
 
 ## Procedure
 
-1.  In SAP BTP cockpit, open your global account and then navigate to the *Costs and Usage* page.
+1.  In cockpit, open your global account and then navigate to the *Costs and Usage* page.
 
 2.  Go to the *Budgets* tab.
 
@@ -469,7 +469,7 @@ Besides regularly checking the status and history graphs of active budgets for u
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
 
 > ### Tip:  
-> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to Neo Environment Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
 
 
 
@@ -538,7 +538,7 @@ Custom Alerts
 </td>
 <td valign="top">
 
-Whenever a budget's threshold value is exceeded, we also automatically send an event to the SAP Alert Notification service for SAP BTP.
+Whenever a budget's threshold value is exceeded, we also automatically send an event to the SAP Alert Notification service on SAP Platform.
 
 You can integrate with SAP Alert Notification service to send custom alerts to your preferred recipients, communication channels, and monitoring solutions. This is a paid service. For pricing information, go to the [SAP Discovery Center](https://discovery-center.cloud.sap/serviceCatalog/sap-alert-notification-service).
 
@@ -554,7 +554,7 @@ Subscribe to the budget events \(`BudgetAlertThresholdExceeded`\) using your own
 
 For more information, see:
 
--   [SAP Alert Notification for SAP BTP](https://help.sap.com/docs/alert-notification/sap-alert-notification-for-sap-btp/what-is-sap-alert-notification-service-for-sap-btp?version=Cloud)
+-   [SAP Alert Notification service on SAP Platform](https://help.sap.com/docs/alert-notification/sap-alert-notification-for-sap-btp/what-is-sap-alert-notification-service-for-sap-btp?version=Cloud)
 -   [Budget Threshold Exceedance Event](https://help.sap.com/docs/alert-notification/sap-alert-notification-for-sap-btp/budget-threshold-exceedance?version=Cloud)
 
 
@@ -581,9 +581,9 @@ For more information, see:
 **Related Information**  
 
 
-[Monitoring Usage and Consumption Costs in Your Global Account](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/de6f0db8919f4e6f97e54bc4ddaf2ab8.html "SAP BTP cockpit supports advanced usage and cost monitoring of services in your global account. You can compare the usage and costs of multiple services and subaccounts, see monthly trends, and drill down into subaccounts and service plans for detailed information.") :arrow_upper_right:
+[Monitoring Usage and Consumption Costs in Your Global Account](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/de6f0db8919f4e6f97e54bc4ddaf2ab8.html "cockpit supports advanced usage and cost monitoring of services in your global account. You can compare the usage and costs of multiple services and subaccounts, see monthly trends, and drill down into subaccounts and service plans for detailed information.") :arrow_upper_right:
 
-[SAP Alert Notification Service for SAP BTP](https://help.sap.com/docs/alert-notification/sap-alert-notification-for-sap-btp/what-is-sap-alert-notification-service-for-sap-btp?version=Cloud)
+[SAP Alert Notification service on SAP Platform](https://help.sap.com/docs/alert-notification/sap-alert-notification-for-sap-btp/what-is-sap-alert-notification-service-for-sap-btp?version=Cloud)
 
 [Budget Threshold Exceedance Event](https://help.sap.com/docs/alert-notification/sap-alert-notification-for-sap-btp/budget-threshold-exceedance?version=Cloud)
 

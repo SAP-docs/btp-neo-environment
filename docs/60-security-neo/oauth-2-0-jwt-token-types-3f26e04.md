@@ -13,7 +13,7 @@ OAuth 2.0 tokens in JWT format provide a secure way to access data and services 
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
 
 > ### Tip:  
-> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to Neo Environment Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
 
 
 
@@ -24,7 +24,7 @@ OAuth 2.0 tokens in JWT format provide a secure way to access data and services 
 An OAuth 2.0 Client can request one of the following two types of access tokens: opaque \(default type, which requires communication between the application server and the OAuth Service for verification\) or JWT \(self-contained\). When using JWT tokens, the need for the application to call the OAuth Service for token verification is eliminated as the tokens are self-contained and can be validated by the runtime. This approach decouples the application from the OAuth Service, improving its robustness and resilience. It is worth noting that the runtime handles the verification process automatically, and customers do not need to worry about the technical details regarding token verification.
 
 > ### Note:  
-> It is not recommended to protect applications with SAP BTP Neo OAuth Service outside of SAP BTP, Neo environment, due to specifics that must be taken into consideration during token verification.
+> It is not recommended to protect applications with SAP BTP Neo OAuth Service outside of Neo environment, due to specifics that must be taken into consideration during token verification.
 
 Currently, JWT Token format is supported for:
 

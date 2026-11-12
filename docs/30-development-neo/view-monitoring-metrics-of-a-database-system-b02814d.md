@@ -25,7 +25,7 @@ The *readMonitoringData* scope is assigned to the used platform role for the sub
 > **This documentation refers to SAP Business Technology Platform, Neo environment. If you are looking for documentation about other environments, see [SAP Business Technology Platform](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-business-technology-platform?version=Cloud) .**
 
 > ### Tip:  
-> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to SAP BTP, Neo Runtime Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
+> Additional IP outbound addresses will soon be used in all regions in the Neo environment. For more information, see [Additional IP Addresses Added to Neo Environment Regions](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud&Component=Region&Valid_as_Of=2026-11-02:2026-11-02). To subscribe to such notifications, see SAP Note [3513325](https://me.sap.com/notes/3513325).
 
 > ### Note:  
 > You can also retrieve the current metrics of a database system with the Metrics API.
@@ -715,7 +715,7 @@ This metric is updated every 2 minutes. An alert is is triggered when a consecut
 
 ## Procedure
 
-1.  Open the subaccount in the SAP BTP cockpit.
+1.  Open the subaccount in the cockpit.
 
 2.  Navigate to the *Database Systems* page either by choosing *SAP HANA / SAP ASE* \> *Database Systems**Overview* page.
 
@@ -739,7 +739,7 @@ This metric is updated every 2 minutes. An alert is is triggered when a consecut
 **Related Information**  
 
 
-[SAP BTP Cockpit](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/19d7119265474dd18ec16fad2a0b28c1.html)
+[Cockpit](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/19d7119265474dd18ec16fad2a0b28c1.html)
 
 [Metrics REST API for Database Systems](https://help.sap.com/viewer/64f7d2b06c6b40a9b3097860c5930641/Cloud/en-US/9f883c61f23b432f89bb108644e819ad.html "Use the REST API to get metrics for your database systems that are running in the Neo environment.") :arrow_upper_right:
 
